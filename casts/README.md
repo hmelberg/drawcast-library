@@ -17,6 +17,7 @@
 - [How a magnifying glass really works](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-magnifying-glass-works.cast) — 2026-10-03
 - [How a nerve signal travels](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-nerve-signal-travels.cast) — 2026-10-03
 - [How big is Jupiter?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-big-is-jupiter.cast) — 2026-10-03
+- [How fast can they run?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-fast-can-they-run.cast) — 2026-10-03
 
 ---
 
