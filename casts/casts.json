@@ -419,6 +419,13 @@
       "file": "why-the-moon-never-lands.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "euler-s-identity-as-half-a-turn",
+      "title": "Euler's identity, as half a turn",
+      "file": "euler-s-identity-as-half-a-turn.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

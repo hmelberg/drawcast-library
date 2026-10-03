@@ -60,6 +60,7 @@
 - [Why bubble sort is so slow](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-bubble-sort-is-slow.cast) — 2026-10-03
 - [Why queues explode near 100% busy](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-queues-explode-near-100-busy.cast) — 2026-10-03
 - [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-03
+- [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 
 ---
 
