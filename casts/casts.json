@@ -699,6 +699,13 @@
       "file": "baby-animal-names.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "sunlight-travel-time",
+      "title": "How long does sunlight take to reach Earth?",
+      "file": "sunlight-travel-time.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
