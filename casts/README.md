@@ -65,6 +65,7 @@
 - [Cleopatra: closer to the pyramids or the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-03
 - [Which words came from the Vikings?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-03
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-03
+- [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-03
 
 ---
 
