@@ -90,6 +90,13 @@
       "file": "extreme-poverty.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "how-a-fridge-keeps-cold",
+      "title": "How a fridge keeps cold",
+      "file": "how-a-fridge-keeps-cold.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
