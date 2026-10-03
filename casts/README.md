@@ -110,6 +110,7 @@
 - [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-03
 - [Why is water cheap and diamonds dear?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-03
 - [How much did the first hard drive weigh?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-03
+- [How many people have walked on the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-03
 
 ---
 
