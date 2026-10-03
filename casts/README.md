@@ -32,6 +32,7 @@
 - [Surgery or medication?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-03
 - [The map that blamed a water pump](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
+- [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-03
 
 ---
 
