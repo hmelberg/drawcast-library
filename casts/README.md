@@ -71,6 +71,7 @@
 - [When was the Eiffel Tower finished?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-03
 - [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-03
+- [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-03
 
 ---
 
