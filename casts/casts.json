@@ -566,6 +566,13 @@
       "file": "body-myths.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "coin-streaks",
+      "title": "After five heads in a row, is tails more likely?",
+      "file": "coin-streaks.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

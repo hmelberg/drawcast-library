@@ -81,6 +81,7 @@
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-03
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-03
 - [Body myths: true or myth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-03
+- [After five heads in a row, is tails more likely?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-03
 
 ---
 
