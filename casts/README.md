@@ -87,6 +87,7 @@
 - [Cleopatra: closer to the pyramids or the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-03
 - [Are there more bacteria in your body than human cells?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-03
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
+- [How many Earths would fit inside the Sun?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-03
 
 ---
 

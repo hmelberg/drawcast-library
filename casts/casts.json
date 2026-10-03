@@ -608,6 +608,13 @@
       "file": "true-or-myth.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "earths-in-the-sun",
+      "title": "How many Earths would fit inside the Sun?",
+      "file": "earths-in-the-sun.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
