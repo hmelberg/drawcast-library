@@ -587,6 +587,13 @@
       "file": "linda-problem.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "hammer-and-feather",
+      "title": "On the Moon, which lands first: a hammer or a feather?",
+      "file": "hammer-and-feather.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
