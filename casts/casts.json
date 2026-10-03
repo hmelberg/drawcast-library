@@ -447,6 +447,13 @@
       "file": "viking-words.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "animal-sleep",
+      "title": "How long do animals sleep?",
+      "file": "animal-sleep.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
