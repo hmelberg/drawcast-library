@@ -398,6 +398,13 @@
       "file": "why-averages-make-a-bell.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "why-bubble-sort-is-slow",
+      "title": "Why bubble sort is so slow",
+      "file": "why-bubble-sort-is-slow.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why bubble sort is so slow</title>
+<meta name="description" content="Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Why bubble sort is so slow">
+<meta property="og:description" content="Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Why bubble sort is so slow","description":"Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.html","image":"https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="why-bubble-sort-is-slow.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/why-bubble-sort-is-slow.png" alt="Why bubble sort is so slow"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Why bubble sort is so slow</h1>
+<p class="drawcast-intro">Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Why bubble sort is so slow</p>
+<p>Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it.</p>
+<p>Why is bubble sort so slow? Six bars show it. Its one rule: only neighbours may swap.</p>
+<p>Five stands before two, so they swap.</p>
+<p>Then it walks along the row. Five and eight are in order, but eight and one are not, so they swap too.</p>
+<p>Eight and nine are fine; nine and three swap. One pass has carried the tallest bar to the end.</p>
+<p>But each pass settles just one bar for sure, so it takes pass after pass.</p>
+<p>So how many swaps in all? Go back to the starting row, and count the pairs that stand in the wrong order.</p>
+<p>Five stands ahead of three smaller bars, two ahead of one, eight ahead of two, nine ahead of one: seven in all.</p>
+<p>A neighbour swap fixes exactly one wrong pair and disturbs no other. So bubble sort makes exactly seven swaps; our first pass made three of them.</p>
+<p>Worst case, a row in reverse: every pair is wrong. With n bars, that is n times n minus one, over two.</p>
+<p>A thousand bars: half a million swaps. A million bars: five hundred billion.</p>
+<p>Faster sorts, like merge sort, compare items far apart. A million items take them about twenty million steps instead.</p>
+<p>No wonder Donald Knuth judged that bubble sort has nothing to recommend it, except a catchy name.</p>
+<p>Now sort these six yourself, one neighbour swap at a time.</p>
+<p>Sort the bars. Can you do it in seven swaps?</p>
+<p>Seven swaps, one for each pair that stood in the wrong order.</p>
+<p>Ten bars in reverse order. How many swaps?</p>
+<p>45: all ten times nine over two pairs are in the wrong order, and each swap fixes just one.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="why-bubble-sort-is-slow.cast" data-gh="hmelberg/drawcast-library/casts/why-bubble-sort-is-slow.cast"></script>
+</body>
+</html>
