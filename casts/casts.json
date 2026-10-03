@@ -671,6 +671,13 @@
       "file": "fastest-ramp.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "paper-folding",
+      "title": "How many times can you fold paper in half?",
+      "file": "paper-folding.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
