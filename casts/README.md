@@ -66,6 +66,7 @@
 - [Which words came from the Vikings?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-03
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-03
 - [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-03
+- [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-03
 
 ---
 
