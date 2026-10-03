@@ -517,6 +517,13 @@
       "file": "planets-in-a-row.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "glass-conservation",
+      "title": "Which glass has more water?",
+      "file": "glass-conservation.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

@@ -74,6 +74,7 @@
 - [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-03
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
 - [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-03
+- [Which glass has more water?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-03
 
 ---
 
