@@ -63,6 +63,7 @@
 - [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
 - [Cleopatra: closer to the pyramids or the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-03
+- [Which words came from the Vikings?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-03
 
 ---
 
