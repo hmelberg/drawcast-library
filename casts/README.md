@@ -20,6 +20,7 @@
 - [How fast can they run?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-fast-can-they-run.cast) — 2026-10-03
 - [Hvorfor Stortinget buler ut](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hvorfor-stortinget-buler-ut.cast) — 2026-10-03
 - [Is a tomato a fruit?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-fruit.cast) — 2026-10-03
+- [Why screening can look better than it is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03
 
 ---
 

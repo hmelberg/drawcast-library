@@ -139,6 +139,13 @@
       "file": "is-it-a-fruit.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "lead-time-bias",
+      "title": "Why screening can look better than it is",
+      "file": "lead-time-bias.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
