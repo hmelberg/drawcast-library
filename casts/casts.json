@@ -300,6 +300,13 @@
       "file": "what-a-confounder-does.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "what-a-qaly-gained-measures",
+      "title": "What does a 'QALY gained' actually count?",
+      "file": "what-a-qaly-gained-measures.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
