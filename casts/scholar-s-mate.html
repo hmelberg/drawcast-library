@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scholar's Mate: the four-move trap</title>
+<meta name="description" content="How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Scholar's Mate: the four-move trap">
+<meta property="og:description" content="How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Scholar's Mate: the four-move trap","description":"How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.html","image":"https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="scholar-s-mate.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/scholar-s-mate.png" alt="Scholar's Mate: the four-move trap"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Scholar's Mate: the four-move trap</h1>
+<p class="drawcast-intro">How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Scholar's Mate: the four-move trap</p>
+<p>How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it.</p>
+<p>Scholar's Mate wins a game of chess in four moves. Why do so many players fall for it? It starts from the opening position.</p>
+<p>e4: White's king pawn steps forward, and opens a door for the queen and the king's bishop at once.</p>
+<p>e5: Black mirrors it.</p>
+<p>Bishop to c4 looks like ordinary development, a piece stepping toward the centre.</p>
+<p>But it aims at f7, the one square in Black's camp that only the king defends.</p>
+<p>Knight to c6: Black develops and guards the pawn on e5, watching the centre rather than the corner.</p>
+<p>Then the queen swings out to h5, aimed at that same square.</p>
+<p>Count them: two attackers on f7, one defender. On a square, the side with more pieces bearing on it wins it.</p>
+<p>One pawn move would do it: g6 cuts the queen's line to f7 and chases her away.</p>
+<p>But the pawn stays where it is.</p>
+<p>Knight to f6 instead, attacking the queen. It feels active, and it answers the wrong threat.</p>
+<p>Queen takes f7: checkmate.</p>
+<p>The king cannot take her back, because the bishop has guarded that square since move two.</p>
+<p>So the trap is arithmetic on one square. Black watched the queen, when what mattered was how many pieces bore on f7.</p>
+<p>After Qh5, Black plays Qe7 instead of Nf6. Is f7 still lost?</p>
+<p>No: the queen on e7 also guards f7. After Qxf7+ Qxf7 Bxf7+ Kxf7, White has traded queen and bishop for queen and pawn: a bishop down.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="scholar-s-mate.cast" data-gh="hmelberg/drawcast-library/casts/scholar-s-mate.cast"></script>
+</body>
+</html>
