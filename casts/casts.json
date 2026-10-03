@@ -153,6 +153,13 @@
       "file": "lorenz-curve-and-gini.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "most-findings-are-false",
+      "title": "Why most published findings are false",
+      "file": "most-findings-are-false.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

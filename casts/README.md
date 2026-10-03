@@ -22,6 +22,7 @@
 - [Is a tomato a fruit?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-fruit.cast) — 2026-10-03
 - [Why screening can look better than it is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03
 - [Two countries, one Gini](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/lorenz-curve-and-gini.cast) — 2026-10-03
+- [Why most published findings are false](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
 
 ---
 
