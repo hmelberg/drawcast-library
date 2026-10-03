@@ -720,6 +720,13 @@
       "file": "greenland-vs-africa.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "misnamed-things",
+      "title": "Do these names tell the truth?",
+      "file": "misnamed-things.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
