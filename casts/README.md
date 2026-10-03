@@ -97,6 +97,7 @@
 - [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-03
 - [Which ramp is fastest?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-03
 - [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-03
+- [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-03
 
 ---
 

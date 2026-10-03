@@ -678,6 +678,13 @@
       "file": "paper-folding.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "ants-on-earth",
+      "title": "How many ants are there on Earth?",
+      "file": "ants-on-earth.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
