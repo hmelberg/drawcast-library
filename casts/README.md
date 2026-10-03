@@ -41,6 +41,7 @@
 - [Two pumps in one heart](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-03
 - [What 95% confidence means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-03
 - [A 99 % accurate test says yes. Are you ill?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-03
+- [What a 1% fee really costs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-03
 
 ---
 
