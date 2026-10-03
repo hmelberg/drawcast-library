@@ -489,6 +489,13 @@
       "file": "rubiks-cube.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "pythagoras-blank",
+      "title": "What finishes Pythagoras' theorem?",
+      "file": "pythagoras-blank.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
