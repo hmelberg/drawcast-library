@@ -62,6 +62,7 @@
 - [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-03
 - [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
+- [Cleopatra: closer to the pyramids or the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-03
 
 ---
 
