@@ -68,6 +68,7 @@
 - [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-03
 - [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-03
 - [On Venus, which is longer: a day or a year?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-03
+- [When was the Eiffel Tower finished?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-03
 
 ---
 
