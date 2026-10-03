@@ -98,6 +98,7 @@
 - [Which ramp is fastest?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-03
 - [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-03
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-03
+- [Which letter is in no US state's name?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-03
 
 ---
 
