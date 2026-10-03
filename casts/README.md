@@ -47,6 +47,7 @@
 - [What kills the most people?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03
 - [What do mitochondria actually do?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-03
 - [What p \< 0.05 really means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-p-0-05-means.cast) — 2026-10-03
+- [Where a heat pump's extra heat comes from](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-a-heat-pump-s-extra-heat-comes.cast) — 2026-10-03
 
 ---
 
