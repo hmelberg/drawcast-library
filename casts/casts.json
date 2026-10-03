@@ -596,16 +596,16 @@
       "page": true
     },
     {
-      "slug": "true-or-myth",
-      "title": "True or myth? Five things everyone has heard",
-      "file": "true-or-myth.cast",
+      "slug": "cells-vs-bacteria",
+      "title": "Are there more bacteria in your body than human cells?",
+      "file": "cells-vs-bacteria.cast",
       "updated": "2026-10-03",
       "page": true
     },
     {
-      "slug": "cells-vs-bacteria",
-      "title": "Are there more bacteria in your body than human cells?",
-      "file": "cells-vs-bacteria.cast",
+      "slug": "true-or-myth",
+      "title": "True or myth? Five things everyone has heard",
+      "file": "true-or-myth.cast",
       "updated": "2026-10-03",
       "page": true
     }
