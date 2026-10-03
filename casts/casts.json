@@ -370,6 +370,13 @@
       "file": "who-pays-a-ticket-tax.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "why-45-goes-farthest",
+      "title": "Why 45° goes farthest",
+      "file": "why-45-goes-farthest.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
