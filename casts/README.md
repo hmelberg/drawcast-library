@@ -77,6 +77,7 @@
 - [Which glass has more water?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-03
 - [Who painted it? Match four famous paintings](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-03
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-03
+- [When was the first text message sent?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-03
 
 ---
 

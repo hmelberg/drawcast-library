@@ -538,6 +538,13 @@
       "file": "which-is-heavier.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "first-text-message",
+      "title": "When was the first text message sent?",
+      "file": "first-text-message.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
