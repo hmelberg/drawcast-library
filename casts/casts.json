@@ -531,6 +531,13 @@
       "file": "famous-paintings.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "which-is-heavier",
+      "title": "Which is heavier? Three surprising pairs",
+      "file": "which-is-heavier.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
