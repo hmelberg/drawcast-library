@@ -405,6 +405,13 @@
       "file": "why-bubble-sort-is-slow.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "why-queues-explode-near-100-busy",
+      "title": "Why queues explode near 100% busy",
+      "file": "why-queues-explode-near-100-busy.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

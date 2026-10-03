@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why queues explode near 100% busy</title>
+<meta name="description" content="Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Why queues explode near 100% busy">
+<meta property="og:description" content="Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Why queues explode near 100% busy","description":"Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.html","image":"https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="why-queues-explode-near-100-busy.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/why-queues-explode-near-100-busy.png" alt="Why queues explode near 100% busy"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Why queues explode near 100% busy</h1>
+<p class="drawcast-intro">Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Why queues explode near 100% busy</p>
+<p>Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts.</p>
+<p>Why does a queue explode when a server gets close to 100% busy?</p>
+<p>Take one cashier: customers arrive at random, one every two minutes on average, and each takes about a minute.</p>
+<p>So she is busy half the time. Let's run an eight-hour day.</p>
+<p>Customers come in clumps, a short line forms now and then, and it soon clears.</p>
+<p>Over the day, the average wait is under a minute.</p>
+<p>Now let more customers come, so that she is busy 80% of the time.</p>
+<p>The same day, re-run: sixty percent more customers, and five times the wait.</p>
+<p>Queueing theory predicts this curve: the wait grows like busy time divided by idle time.</p>
+<p>At 95% busy, idle time is a twentieth, and the predicted wait is nineteen minutes.</p>
+<p>This day came out at ten: near full, one day's average swings wildly around the prediction.</p>
+<p>Why? Customers arrive in random bursts, and a line only shrinks while she serves faster than they come.</p>
+<p>At half busy she has spare time to catch up; at 95% she has almost none, so every burst lingers.</p>
+<p>If customers came exactly on schedule and each took exactly a minute, nobody would wait at all: randomness makes the queue.</p>
+<p>That is why hospital planners aim for beds about 85% full, not 100%.</p>
+<p>Near full, waits don't grow in step with busyness; they blow up, because no slack is left to absorb the randomness.</p>
+<p>A server goes from 90% to 95% busy. Roughly what happens to the average wait?</p>
+<p>It roughly doubles: busy over idle goes from 9 to 19, because idle time halves.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="why-queues-explode-near-100-busy.cast" data-gh="hmelberg/drawcast-library/casts/why-queues-explode-near-100-busy.cast"></script>
+</body>
+</html>

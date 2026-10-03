@@ -58,6 +58,7 @@
 - [Why an epidemic turns by itself](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-an-epidemic-turns.cast) — 2026-10-03
 - [Why averages make a bell](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-averages-make-a-bell.cast) — 2026-10-03
 - [Why bubble sort is so slow](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-bubble-sort-is-slow.cast) — 2026-10-03
+- [Why queues explode near 100% busy](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-queues-explode-near-100-busy.cast) — 2026-10-03
 
 ---
 
