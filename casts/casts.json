@@ -636,6 +636,13 @@
       "file": "is-it-a-dinosaur.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "birthday-paradox",
+      "title": "Do two of 23 people share a birthday?",
+      "file": "birthday-paradox.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
