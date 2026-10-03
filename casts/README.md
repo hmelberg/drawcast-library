@@ -50,6 +50,7 @@
 - [Where a heat pump's extra heat comes from](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-a-heat-pump-s-extra-heat-comes.cast) — 2026-10-03
 - [Where does an average day go?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-do-your-24-hours-go.cast) — 2026-10-03
 - [Where the 206 bones are](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-206-bones-are.cast) — 2026-10-03
+- [Where the quadratic formula comes from](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-03
 
 ---
 
