@@ -14,6 +14,7 @@
 - [Does a minimum wage cost jobs?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/does-a-minimum-wage-cost-jobs.cast) — 2026-10-03
 - [How many people live in extreme poverty?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/extreme-poverty.cast) — 2026-10-03
 - [How a fridge keeps cold](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-fridge-keeps-cold.cast) — 2026-10-03
+- [How a magnifying glass really works](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-magnifying-glass-works.cast) — 2026-10-03
 
 ---
 

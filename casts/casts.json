@@ -97,6 +97,13 @@
       "file": "how-a-fridge-keeps-cold.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "how-a-magnifying-glass-works",
+      "title": "How a magnifying glass really works",
+      "file": "how-a-magnifying-glass-works.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
