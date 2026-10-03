@@ -56,6 +56,7 @@
 - [Why 45° goes farthest](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-45-goes-farthest.cast) — 2026-10-03
 - [Why a major chord sounds sweet](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-major-chord-sounds-sweet.cast) — 2026-10-03
 - [Why an epidemic turns by itself](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-an-epidemic-turns.cast) — 2026-10-03
+- [Why averages make a bell](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-averages-make-a-bell.cast) — 2026-10-03
 
 ---
 
