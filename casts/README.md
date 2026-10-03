@@ -27,6 +27,7 @@
 - [Price elasticity: how much less do people buy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/price-elasticity-a-book.cast) — 2026-10-03
 - [Scholar's Mate: the four-move trap](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/scholar-s-mate.cast) — 2026-10-03
 - [What do sensitivity and specificity measure?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
+- [Simpson's paradox: win both, lose overall](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-03
 
 ---
 

@@ -188,6 +188,13 @@
       "file": "sensitivity-and-specificity.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "simpson-s-paradox-drawn",
+      "title": "Simpson's paradox: win both, lose overall",
+      "file": "simpson-s-paradox-drawn.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

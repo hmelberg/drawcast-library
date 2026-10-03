@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simpson's paradox: win both, lose overall</title>
+<meta name="description" content="How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Simpson's paradox: win both, lose overall">
+<meta property="og:description" content="How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Simpson's paradox: win both, lose overall","description":"How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.html","image":"https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="simpson-s-paradox-drawn.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/simpson-s-paradox-drawn.png" alt="Simpson's paradox: win both, lose overall"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Simpson's paradox: win both, lose overall</h1>
+<p class="drawcast-intro">How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Simpson's paradox: win both, lose overall</p>
+<p>How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish.</p>
+<p>Can a drug win for mild cases and for severe cases, yet lose overall? It can, and one picture shows where the reversal comes from.</p>
+<p>Drug A cures ninety percent of mild cases, sixty percent of severe ones. Overall, it depends on the mix: all mild at the left, all severe at the right.</p>
+<p>Drug B cures eighty-five and fifty-five. Its line runs five points below A's, whatever the mix.</p>
+<p>So among mild cases, A wins by five.</p>
+<p>Among severe cases, A wins by five again.</p>
+<p>A drug's overall rate is a dot on its own line, at the share of severe patients it was given.</p>
+<p>With the same mix, A's dot sits right above B's.</p>
+<p>But suppose doctors saved drug A for the hardest cases: eighty percent of its patients were severe, and only twenty percent of B's.</p>
+<p>Pooled, A cures sixty-six percent and B seventy-nine. B wins by thirteen, though it lost both comparisons.</p>
+<p>Neither line moved. The dots slid along them: A's pooled rate is mostly a severe-case rate, B's mostly a mild-case rate.</p>
+<p>The honest comparison puts both dots on one vertical line: the same mix of patients.</p>
+<p>Give both drugs half mild and half severe, and A leads by five, as it did in each group.</p>
+<p>A randomised trial does this for you: chance, not a doctor, picks who gets which drug, so both get the same mix on average.</p>
+<p>The 1948 British trial of streptomycin for tuberculosis is often called the first to assign patients by random numbers.</p>
+<p>In a randomised trial, where would the two dots sit?</p>
+<p>On one vertical line: chance gives both drugs the same mix of patients on average, so only the gap between the lines shows.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="simpson-s-paradox-drawn.cast" data-gh="hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast"></script>
+</body>
+</html>
