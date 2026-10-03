@@ -482,6 +482,13 @@
       "file": "eiffel-tower-year.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "rubiks-cube",
+      "title": "How many ways can a Rubik's cube be mixed up?",
+      "file": "rubiks-cube.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
