@@ -95,6 +95,7 @@
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
 - [How fast did solar panels get cheaper?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-03
 - [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-03
+- [Which ramp is fastest?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-03
 
 ---
 

@@ -664,6 +664,13 @@
       "file": "how-loud-is-loud.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "fastest-ramp",
+      "title": "Which ramp is fastest?",
+      "file": "fastest-ramp.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
