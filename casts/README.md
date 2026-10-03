@@ -93,6 +93,7 @@
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-03
 - [Do two of 23 people share a birthday?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-03
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
+- [How fast did solar panels get cheaper?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-03
 
 ---
 
