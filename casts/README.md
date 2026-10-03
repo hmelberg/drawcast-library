@@ -80,6 +80,7 @@
 - [When was the first text message sent?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-03
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-03
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-03
+- [Body myths: true or myth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-03
 
 ---
 
