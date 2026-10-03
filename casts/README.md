@@ -85,6 +85,7 @@
 - [You have $100 to split with a stranger. How much would you offer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-03
 - [Linda: bank teller, or feminist bank teller?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-03
 - [On the Moon, which lands first: a hammer or a feather?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-03
+- [What is the air you breathe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-03
 
 ---
 
