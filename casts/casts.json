@@ -69,6 +69,13 @@
       "file": "demand-shifts-the-equilibrium-follows.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "difference-in-differences",
+      "title": "Measuring a policy against what never happened",
+      "file": "difference-in-differences.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

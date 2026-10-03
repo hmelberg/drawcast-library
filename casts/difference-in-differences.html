@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Measuring a policy against what never happened</title>
+<meta name="description" content="How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Measuring a policy against what never happened">
+<meta property="og:description" content="How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Measuring a policy against what never happened","description":"How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.html","image":"https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="difference-in-differences.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/difference-in-differences.png" alt="Measuring a policy against what never happened"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Measuring a policy against what never happened</h1>
+<p class="drawcast-intro">How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Measuring a policy against what never happened</p>
+<p>How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on.</p>
+<p>How do you measure what a policy did, when you never see the world without it? Difference-in-differences borrows that world from a group the policy missed.</p>
+<p>Say one region starts an apprenticeship scheme in 2020. Young workers' pay there goes from $18 an hour to $22 by 2025.</p>
+<p>Before and after, the scheme seems worth $4 an hour.</p>
+<p>But pay rose everywhere. In a similar region without the scheme it went from $16 to $17.50, with no scheme at all.</p>
+<p>Before 2020 the two lines run parallel. The scheme region was $2 ahead, but the two moved in step.</p>
+<p>The key assumption is that they would have kept moving in step: without the scheme, pay there would also have risen $1.50, to $19.50.</p>
+<p>That dashed path is never observed. It is borrowed from the other region.</p>
+<p>The effect is the gap between what happened and that path: $22 minus $19.50.</p>
+<p>Two differences: the change with the scheme, minus the change without it. $2.50 an hour.</p>
+<p>Not $4: before-and-after handed the scheme a rise that everyone got.</p>
+<p>Subtracting changes, not levels, removes the $2 head start, which never moved, and the $1.50 rise both regions got anyway.</p>
+<p>But suppose the scheme region had been pulling ahead anyway, and would have reached $20.50. Then the effect is only $1.50.</p>
+<p>Nothing after 2020 can tell those two paths apart. Only the years before can make parallel trends believable.</p>
+<p>John Snow used the idea in 1850s London: cholera deaths among customers of a water company that moved its intake upstream, against a company that did not.</p>
+<p>So the groups need not be alike. They need to be groups that would have changed alike.</p>
+<p>Before the policy, pay in the treated region was $5 higher than in the control. Does that break difference-in-differences?</p>
+<p>No. A steady gap is subtracted away with the first differences; what breaks the method is a gap that would have changed without the policy.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="difference-in-differences.cast" data-gh="hmelberg/drawcast-library/casts/difference-in-differences.cast"></script>
+</body>
+</html>
