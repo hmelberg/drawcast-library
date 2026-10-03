@@ -89,6 +89,7 @@
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
 - [How many Earths would fit inside the Sun?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-03
 - [How fast did the world's population grow to 8 billion?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-03
+- [Which came first?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-03
 
 ---
 
