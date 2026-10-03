@@ -524,6 +524,13 @@
       "file": "glass-conservation.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "famous-paintings",
+      "title": "Who painted it? Match four famous paintings",
+      "file": "famous-paintings.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
