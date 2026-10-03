@@ -72,6 +72,7 @@
 - [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-03
 - [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-03
+- [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
 
 ---
 

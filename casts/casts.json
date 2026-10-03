@@ -503,6 +503,13 @@
       "file": "euler-polyhedra.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "sort-the-scientists",
+      "title": "Who discovered what? Match four scientists",
+      "file": "sort-the-scientists.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
