@@ -428,13 +428,6 @@
       "page": true
     },
     {
-      "slug": "true-or-myth",
-      "title": "True or myth? Five things everyone has heard",
-      "file": "true-or-myth.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "viking-words",
       "title": "Which words came from the Vikings?",
       "file": "viking-words.cast",
@@ -599,6 +592,13 @@
       "slug": "cleopatra-closer",
       "title": "Cleopatra: closer to the pyramids or the Moon?",
       "file": "cleopatra-closer.cast",
+      "updated": "2026-10-03",
+      "page": true
+    },
+    {
+      "slug": "true-or-myth",
+      "title": "True or myth? Five things everyone has heard",
+      "file": "true-or-myth.cast",
       "updated": "2026-10-03",
       "page": true
     }
