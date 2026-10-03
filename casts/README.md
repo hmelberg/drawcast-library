@@ -54,6 +54,7 @@
 - [Which of these are mammals?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-of-these-are-mammals.cast) — 2026-10-03
 - [Who pays a ticket tax?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-03
 - [Why 45° goes farthest](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-45-goes-farthest.cast) — 2026-10-03
+- [Why a major chord sounds sweet](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-major-chord-sounds-sweet.cast) — 2026-10-03
 
 ---
 
