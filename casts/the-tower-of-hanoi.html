@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Tower of Hanoi: why 2ⁿ − 1 moves</title>
+<meta name="description" content="Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="The Tower of Hanoi: why 2ⁿ − 1 moves">
+<meta property="og:description" content="Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"The Tower of Hanoi: why 2ⁿ − 1 moves","description":"Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.html","image":"https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="the-tower-of-hanoi.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/the-tower-of-hanoi.png" alt="The Tower of Hanoi: why 2ⁿ − 1 moves"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>The Tower of Hanoi: why 2ⁿ − 1 moves</h1>
+<p class="drawcast-intro">Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>The Tower of Hanoi: why 2ⁿ − 1 moves</p>
+<p>Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself.</p>
+<p>The Tower of Hanoi asks how few moves shift a whole tower to the right peg. The rules: one disk at a time, never a larger on a smaller.</p>
+<p>Take three disks. Before the biggest can move anywhere, what has to be true?</p>
+<p>Both disks above it must be out of the way, stacked on the middle peg. That is a two-disk tower, moved: three moves.</p>
+<p>Then the big disk crosses, in one move.</p>
+<p>And the two-disk tower moves again, onto it: three more. Three, one, three: seven.</p>
+<p>The same holds for any size: to move n disks, move the tower above the biggest twice, plus one move for the biggest.</p>
+<p>That twice is the whole story. Each extra disk doubles the work, and adds one.</p>
+<p>One, three, seven, fifteen, thirty-one: always one less than a power of two. A guess of two more per disk would say nine for four disks; it takes fifteen.</p>
+<p>Édouard Lucas sold the puzzle in 1883 with a legend of monks moving sixty-four disks. At a move a second, that takes about 585 billion years.</p>
+<p>Back to the start. Now it's your tower.</p>
+<p>Move the tower to the right peg. Can you do it in seven?</p>
+<p>Solved. Seven is the fewest: the small pair aside in three, the big disk over, the pair back on top in three.</p>
+<p>Five disks take 31 moves. How many does six take?</p>
+<p>63: the five-disk tower moves twice, 31 moves each, plus one move for the biggest disk.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="the-tower-of-hanoi.cast" data-gh="hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast"></script>
+</body>
+</html>

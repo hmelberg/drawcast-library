@@ -36,6 +36,7 @@
 - [What a derivative is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
 - [How many must be immune to stop a disease?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03
 - [Why two rational suspects both confess](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-03
+- [The Tower of Hanoi: why 2ⁿ − 1 moves](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-03
 
 ---
 
