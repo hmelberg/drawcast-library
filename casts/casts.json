@@ -468,6 +468,13 @@
       "file": "longest-pregnancy.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "venus-day-year",
+      "title": "On Venus, which is longer: a day or a year?",
+      "file": "venus-day-year.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
