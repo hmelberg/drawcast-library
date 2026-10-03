@@ -146,6 +146,13 @@
       "file": "lead-time-bias.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "lorenz-curve-and-gini",
+      "title": "Two countries, one Gini",
+      "file": "lorenz-curve-and-gini.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
