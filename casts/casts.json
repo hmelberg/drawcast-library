@@ -195,6 +195,13 @@
       "file": "simpson-s-paradox-drawn.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "sirkelens-areal-med-kakestykker",
+      "title": "Hvorfor sirkelens areal er πr²",
+      "file": "sirkelens-areal-med-kakestykker.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
