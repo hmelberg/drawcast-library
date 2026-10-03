@@ -657,6 +657,13 @@
       "file": "solar-panel-prices.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "how-loud-is-loud",
+      "title": "How loud is loud?",
+      "file": "how-loud-is-loud.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
