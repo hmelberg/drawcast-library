@@ -293,6 +293,13 @@
       "file": "what-a-1-fee-costs.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "what-a-confounder-does",
+      "title": "What a confounder does",
+      "file": "what-a-confounder-does.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
