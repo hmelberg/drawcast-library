@@ -44,6 +44,7 @@
 - [What a 1% fee really costs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-03
 - [What a confounder does](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
+- [What kills the most people?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03
 
 ---
 

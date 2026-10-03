@@ -307,6 +307,13 @@
       "file": "what-a-qaly-gained-measures.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "what-kills-us",
+      "title": "What kills the most people?",
+      "file": "what-kills-us.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
