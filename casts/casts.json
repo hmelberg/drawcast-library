@@ -83,6 +83,13 @@
       "file": "does-a-minimum-wage-cost-jobs.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "extreme-poverty",
+      "title": "How many people live in extreme poverty?",
+      "file": "extreme-poverty.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
