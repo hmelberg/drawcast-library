@@ -61,6 +61,7 @@
 - [Why queues explode near 100% busy](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-queues-explode-near-100-busy.cast) — 2026-10-03
 - [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-03
 - [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
+- [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
 
 ---
 
