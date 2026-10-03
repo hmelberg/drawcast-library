@@ -34,6 +34,7 @@
 - [The map that blamed a water pump](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
 - [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-03
 - [What a derivative is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
+- [How many must be immune to stop a disease?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03
 
 ---
 

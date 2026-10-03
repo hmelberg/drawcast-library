@@ -237,6 +237,13 @@
       "file": "the-derivative-is-a-limit-of-slopes.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "the-herd-immunity-threshold",
+      "title": "How many must be immune to stop a disease?",
+      "file": "the-herd-immunity-threshold.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
