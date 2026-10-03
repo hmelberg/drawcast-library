@@ -601,6 +601,13 @@
       "file": "true-or-myth.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "cells-vs-bacteria",
+      "title": "Are there more bacteria in your body than human cells?",
+      "file": "cells-vs-bacteria.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
