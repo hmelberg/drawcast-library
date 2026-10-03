@@ -748,6 +748,13 @@
       "file": "ball-in-play.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "hottest-peppers",
+      "title": "How hot are the world's hottest peppers?",
+      "file": "hottest-peppers.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

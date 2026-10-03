@@ -107,6 +107,7 @@
 - [Which languages have the most native speakers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-03
 - [Which films won eleven Oscars?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-03
 - [How many minutes is the ball actually in play?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-03
+- [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-03
 
 ---
 
