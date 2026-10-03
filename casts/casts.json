@@ -209,6 +209,13 @@
       "file": "surgery-or-medication.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "thales-theorem",
+      "title": "Thales' theorem",
+      "file": "thales-theorem.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

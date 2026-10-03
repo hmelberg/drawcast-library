@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thales' theorem</title>
+<meta name="description" content="Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/thales-theorem.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Thales' theorem">
+<meta property="og:description" content="Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/thales-theorem.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/thales-theorem.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Thales' theorem","description":"Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/thales-theorem.html","image":"https://hmelberg.github.io/drawcast-library/casts/thales-theorem.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="thales-theorem.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/thales-theorem.png" alt="Thales' theorem"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Thales' theorem</h1>
+<p class="drawcast-intro">Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Thales' theorem</p>
+<p>Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii.</p>
+<p>Why is an angle drawn in a semicircle always exactly ninety degrees? Start with a circle and a diameter from A to B.</p>
+<p>Pick a point C on the circle and join it to both ends. Wherever C sits, this angle measures ninety degrees. But why?</p>
+<p>The key is the centre, O. Draw one more line, from O to C: it is a radius.</p>
+<p>O A and O B are radii too. Three equal lengths, and they split the big triangle into two smaller ones.</p>
+<p>Take the left one, A O C. Two of its sides are radii, so it is isosceles.</p>
+<p>An isosceles triangle has equal base angles: here sixty-five degrees at A, and the same sixty-five at C. Call it a.</p>
+<p>The right one, B O C, is isosceles too: twenty-five degrees at B and twenty-five at C. Call it b.</p>
+<p>Now the whole triangle A B C. Its angles are a at A, b at B, and a plus b at C, and they add to 180.</p>
+<p>Halve both sides: a plus b is ninety. And a plus b is exactly the angle at C.</p>
+<p>So the angle at C is a right angle, forced by nothing more than three equal radii.</p>
+<p>Move C anywhere else on the circle and the base angles change, but they always pair up the same way: ninety again.</p>
+<p>Off the circle, it fails. From a point inside, the diameter looks wider: 129 degrees here. From outside, narrower: 77.</p>
+<p>The story goes that Thales, around 600 BC, sacrificed an ox when he found this: it is among the first theorems anyone is said to have proved.</p>
+<p>C moves so that its angle at A becomes 40°. What is the angle at B?</p>
+<p>Fifty degrees: the base angles still pair up at C, so the angles at A and B add to ninety wherever C sits.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="thales-theorem.cast" data-gh="hmelberg/drawcast-library/casts/thales-theorem.cast"></script>
+</body>
+</html>
