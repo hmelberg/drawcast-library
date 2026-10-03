@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What do sensitivity and specificity measure?</title>
+<meta name="description" content="Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="What do sensitivity and specificity measure?">
+<meta property="og:description" content="Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"What do sensitivity and specificity measure?","description":"Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.html","image":"https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="sensitivity-and-specificity.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/sensitivity-and-specificity.png" alt="What do sensitivity and specificity measure?"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>What do sensitivity and specificity measure?</h1>
+<p class="drawcast-intro">Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>What do sensitivity and specificity measure?</p>
+<p>Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare.</p>
+<p>What do sensitivity and specificity actually tell you about a test? Test a thousand people, and sort them two ways.</p>
+<p>Two hundred of them really have the disease. The test catches 180: true positives.</p>
+<p>But it misses twenty: false negatives, sick people sent home reassured.</p>
+<p>Of the 800 healthy people, 760 correctly test negative.</p>
+<p>And forty test positive anyway: false positives, healthy people told they may be ill.</p>
+<p>Sensitivity reads down the sick column: of those who have the disease, how many does the test catch?</p>
+<p>180 of 200: 90 percent.</p>
+<p>Specificity reads down the healthy column: of those without it, how many does it clear?</p>
+<p>760 of 800: 95 percent.</p>
+<p>Both are counted among people whose true state we already know. So they describe the test itself.</p>
+<p>But a patient holding a positive result asks another question, reading across the row.</p>
+<p>Of 220 positives, 180 are ill: 82 percent.</p>
+<p>Now use the same test where only 20 in a thousand are ill.</p>
+<p>It still catches 18 of them, and misses 2.</p>
+<p>But 49 of the 980 healthy people test positive too.</p>
+<p>So the row turns: of 67 positives, only 18 are ill. 27 percent.</p>
+<p>Yet sensitivity has not moved: 18 of 20, still 90 percent.</p>
+<p>Nor has specificity. The columns belong to the test; the row depends on how common the disease is.</p>
+<p>Jacob Yerushalmy gave the two terms their meaning in 1947, comparing how well doctors read chest X-rays for tuberculosis.</p>
+<p>The same test is used in a clinic where half the patients have the disease. What is its sensitivity?</p>
+<p>Still 90 percent: sensitivity is counted only among the sick, so it does not depend on how many are sick. What changes is how often a positive is right.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="sensitivity-and-specificity.cast" data-gh="hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast"></script>
+</body>
+</html>

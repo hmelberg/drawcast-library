@@ -181,6 +181,13 @@
       "file": "scholar-s-mate.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "sensitivity-and-specificity",
+      "title": "What do sensitivity and specificity measure?",
+      "file": "sensitivity-and-specificity.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
