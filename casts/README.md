@@ -7,6 +7,7 @@
 - [Bayes and the screening test](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/bayes-and-the-screening-test-a-book.cast) — 2026-10-03
 - [Why the sky is blue and sunsets red](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
+- [Why trade if you're better at everything?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03
 
 ---
 
