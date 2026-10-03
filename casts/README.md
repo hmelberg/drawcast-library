@@ -33,6 +33,7 @@
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-03
 - [The map that blamed a water pump](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
 - [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-03
+- [What a derivative is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
 
 ---
 
