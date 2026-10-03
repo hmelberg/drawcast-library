@@ -20,6 +20,13 @@
       "file": "a-positive-test.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "base-pairing-the-copying-rule",
+      "title": "Why DNA pairs A with T and C with G",
+      "file": "base-pairing-the-copying-rule.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
