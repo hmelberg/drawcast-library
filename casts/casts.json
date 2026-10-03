@@ -363,6 +363,13 @@
       "file": "which-of-these-are-mammals.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "who-pays-a-ticket-tax",
+      "title": "Who pays a ticket tax?",
+      "file": "who-pays-a-ticket-tax.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

@@ -52,6 +52,7 @@
 - [Where the 206 bones are](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-206-bones-are.cast) — 2026-10-03
 - [Where the quadratic formula comes from](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-03
 - [Which of these are mammals?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-of-these-are-mammals.cast) — 2026-10-03
+- [Who pays a ticket tax?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-03
 
 ---
 
