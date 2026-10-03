@@ -202,6 +202,13 @@
       "file": "sirkelens-areal-med-kakestykker.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "surgery-or-medication",
+      "title": "Surgery or medication?",
+      "file": "surgery-or-medication.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }

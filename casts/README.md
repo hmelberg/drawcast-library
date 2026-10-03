@@ -29,6 +29,7 @@
 - [What do sensitivity and specificity measure?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
 - [Simpson's paradox: win both, lose overall](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
+- [Surgery or medication?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
 
 ---
 

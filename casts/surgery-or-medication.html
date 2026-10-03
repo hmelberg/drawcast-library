@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surgery or medication?</title>
+<meta name="description" content="How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Surgery or medication?">
+<meta property="og:description" content="How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Surgery or medication?","description":"How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.html","image":"https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="surgery-or-medication.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/surgery-or-medication.png" alt="Surgery or medication?"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Surgery or medication?</h1>
+<p class="drawcast-intro">How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Surgery or medication?</p>
+<p>How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is.</p>
+<p>Surgery or tablets? When both treatments are gambles, how does a decision tree choose? Here the same disease can be operated on or treated with medication.</p>
+<p>The square is the choice we make. Choose surgery, and we reach a circle: from here on, chance decides.</p>
+<p>Eighty-five times in a hundred the operation works, and the patient can expect nine quality-adjusted life years.</p>
+<p>Fifteen times in a hundred there is a serious complication, and only three QALYs.</p>
+<p>Medication is a gamble too, only a milder one.</p>
+<p>Seven in ten are well controlled, at eight QALYs; the other three in ten get six.</p>
+<p>Compare the best cases and surgery wins, nine to eight.</p>
+<p>Compare the worst cases and medication wins, six to three. Neither comparison is the answer.</p>
+<p>Instead, fold the tree back: weight each ending by its chance. Nine times 0.85 plus three times 0.15 gives surgery 8.1 expected QALYs.</p>
+<p>Eight times 0.7 plus six times 0.3 gives medication 7.4.</p>
+<p>Surgery, by 0.7 QALYs a patient, even though about one patient in seven ends up worse off than on tablets.</p>
+<p>How safe is that verdict? Let the complication risk be p. Surgery keeps winning until p passes about 0.27.</p>
+<p>So the question for the evidence is not the average risk, but whether it could plausibly be above one in four.</p>
+<p>The complication risk turns out to be 0.2, not 0.15. Which option does the tree now pick?</p>
+<p>Still surgery: nine times 0.8 plus three times 0.2 is 7.8, above medication's 7.4. The switch comes only past about 0.27.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="surgery-or-medication.cast" data-gh="hmelberg/drawcast-library/casts/surgery-or-medication.cast"></script>
+</body>
+</html>
