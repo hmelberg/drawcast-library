@@ -102,6 +102,7 @@
 - [What are their babies called?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-03
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-03
 - [How much rice on the last square of a chessboard?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-03
+- [How big is Greenland next to Africa?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-03
 
 ---
 
