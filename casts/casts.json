@@ -552,6 +552,13 @@
       "file": "most-time-zones.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "tallest-mountain",
+      "title": "Which is the tallest mountain on Earth?",
+      "file": "tallest-mountain.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
