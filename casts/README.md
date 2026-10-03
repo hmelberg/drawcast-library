@@ -101,6 +101,7 @@
 - [Which letter is in no US state's name?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-03
 - [What are their babies called?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-03
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-03
+- [How much rice on the last square of a chessboard?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-03
 
 ---
 

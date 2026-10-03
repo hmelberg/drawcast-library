@@ -706,6 +706,13 @@
       "file": "sunlight-travel-time.cast",
       "updated": "2026-10-03",
       "page": true
+    },
+    {
+      "slug": "rice-on-a-chessboard",
+      "title": "How much rice on the last square of a chessboard?",
+      "file": "rice-on-a-chessboard.cast",
+      "updated": "2026-10-03",
+      "page": true
     }
   ]
 }
