@@ -8,6 +8,7 @@
 - [Why the sky is blue and sunsets red](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
 - [Why trade if you're better at everything?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03
+- [Why did Darwin wait twenty years?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-03
 
 ---
 
