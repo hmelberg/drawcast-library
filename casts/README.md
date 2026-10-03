@@ -11,6 +11,7 @@
 - [Why did Darwin wait twenty years?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-03
 - [How the price finds its way](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/demand-shifts-the-equilibrium-follows.cast) — 2026-10-03
 - [Measuring a policy against what never happened](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/difference-in-differences.cast) — 2026-10-03
+- [Does a minimum wage cost jobs?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/does-a-minimum-wage-cost-jobs.cast) — 2026-10-03
 
 ---
 
