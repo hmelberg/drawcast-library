@@ -45,6 +45,7 @@
 - [What a confounder does](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
 - [What kills the most people?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03
+- [What do mitochondria actually do?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-03
 
 ---
 
