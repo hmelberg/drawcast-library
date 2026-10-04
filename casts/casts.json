@@ -554,13 +554,6 @@
       "page": true
     },
     {
-      "slug": "missing-letter-states",
-      "title": "Which letter is in no US state's name?",
-      "file": "missing-letter-states.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sunlight-travel-time",
       "title": "How long does sunlight take to reach Earth?",
       "file": "sunlight-travel-time.cast",
@@ -774,6 +767,13 @@
       "slug": "misnamed-things",
       "title": "Do these names tell the truth?",
       "file": "misnamed-things.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "missing-letter-states",
+      "title": "Which letter is in no US state's name?",
+      "file": "missing-letter-states.cast",
       "updated": "2026-10-04",
       "page": true
     }
