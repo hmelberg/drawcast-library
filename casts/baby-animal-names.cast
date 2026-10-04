@@ -11,7 +11,7 @@ sources:
       year: 2023
       finding: a baby echidna is called a puggle (the word may have begun as a soft-toy name); a newborn kangaroo joey is about the size of a jelly bean
 
-    cards babies size 1.05 hidden true
+    cards babies hidden true
         * "Kangaroo" icon.of kangaroo icon.set twemoji match Joey
         * "Swan" icon.of swan icon.set twemoji match Cygnet
         * "Hare" icon.of rabbit icon.set twemoji match Leveret

@@ -442,13 +442,6 @@
       "page": true
     },
     {
-      "slug": "baby-animal-names",
-      "title": "What are their babies called?",
-      "file": "baby-animal-names.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "ball-in-play",
       "title": "How many minutes is the ball actually in play?",
       "file": "ball-in-play.cast",
@@ -774,6 +767,13 @@
       "slug": "world-population-curve",
       "title": "How fast did the world's population grow to 8 billion?",
       "file": "world-population-curve.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "baby-animal-names",
+      "title": "What are their babies called?",
+      "file": "baby-animal-names.cast",
       "updated": "2026-10-04",
       "page": true
     }
