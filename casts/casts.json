@@ -540,13 +540,6 @@
       "page": true
     },
     {
-      "slug": "coin-streaks",
-      "title": "After five heads in a row, is tails more likely?",
-      "file": "coin-streaks.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "ultimatum-game",
       "title": "You have $100 to split with a stranger. How much would you offer?",
       "file": "ultimatum-game.cast",
@@ -774,6 +767,13 @@
       "slug": "cleopatra-closer",
       "title": "Cleopatra: closer to the pyramids or the Moon?",
       "file": "cleopatra-closer.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "coin-streaks",
+      "title": "After five heads in a row, is tails more likely?",
+      "file": "coin-streaks.cast",
       "updated": "2026-10-04",
       "page": true
     }
