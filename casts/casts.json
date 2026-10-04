@@ -274,13 +274,6 @@
       "page": true
     },
     {
-      "slug": "what-99-accurate-is-worth",
-      "title": "A 99 % accurate test says yes. Are you ill?",
-      "file": "what-99-accurate-is-worth.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "what-a-1-fee-costs",
       "title": "What a 1% fee really costs",
       "file": "what-a-1-fee-costs.cast",
@@ -774,6 +767,13 @@
       "slug": "the-deadliest-animal",
       "title": "The deadliest animal",
       "file": "the-deadliest-animal.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "what-99-accurate-is-worth",
+      "title": "A 99 % accurate test says yes. Are you ill?",
+      "file": "what-99-accurate-is-worth.cast",
       "updated": "2026-10-04",
       "page": true
     }
