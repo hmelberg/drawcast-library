@@ -428,13 +428,6 @@
       "page": true
     },
     {
-      "slug": "viking-words",
-      "title": "Which words came from the Vikings?",
-      "file": "viking-words.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
@@ -774,6 +767,13 @@
       "slug": "venus-day-year",
       "title": "On Venus, which is longer: a day or a year?",
       "file": "venus-day-year.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "viking-words",
+      "title": "Which words came from the Vikings?",
+      "file": "viking-words.cast",
       "updated": "2026-10-04",
       "page": true
     }
