@@ -33,6 +33,7 @@
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-04
 - [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-04
 - [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-04
+- [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -99,7 +100,6 @@
 - [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-03
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
-- [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-03
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-03
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-03
 - [You have $100 to split with a stranger. How much would you offer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-03
