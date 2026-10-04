@@ -456,13 +456,6 @@
       "page": true
     },
     {
-      "slug": "what-the-universe-is-made-of",
-      "title": "What is the universe made of?",
-      "file": "what-the-universe-is-made-of.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "animal-sleep",
       "title": "How long do animals sleep?",
       "file": "animal-sleep.cast",
@@ -774,6 +767,13 @@
       "slug": "viking-words",
       "title": "Which words came from the Vikings?",
       "file": "viking-words.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "what-the-universe-is-made-of",
+      "title": "What is the universe made of?",
+      "file": "what-the-universe-is-made-of.cast",
       "updated": "2026-10-04",
       "page": true
     }
