@@ -652,13 +652,6 @@
       "page": true
     },
     {
-      "slug": "first-hard-drive",
-      "title": "How much did the first hard drive weigh?",
-      "file": "first-hard-drive.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "moonwalkers",
       "title": "How many people have walked on the Moon?",
       "file": "moonwalkers.cast",
@@ -774,6 +767,13 @@
       "slug": "fastest-ramp",
       "title": "Which ramp is fastest?",
       "file": "fastest-ramp.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "first-hard-drive",
+      "title": "How much did the first hard drive weigh?",
+      "file": "first-hard-drive.cast",
       "updated": "2026-10-04",
       "page": true
     }
