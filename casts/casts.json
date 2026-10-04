@@ -617,13 +617,6 @@
       "page": true
     },
     {
-      "slug": "hottest-peppers",
-      "title": "How hot are the world's hottest peppers?",
-      "file": "hottest-peppers.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "moonwalkers",
       "title": "How many people have walked on the Moon?",
       "file": "moonwalkers.cast",
@@ -774,6 +767,13 @@
       "slug": "hammer-and-feather",
       "title": "On the Moon, which lands first: a hammer or a feather?",
       "file": "hammer-and-feather.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "hottest-peppers",
+      "title": "How hot are the world's hottest peppers?",
+      "file": "hottest-peppers.cast",
       "updated": "2026-10-04",
       "page": true
     }
