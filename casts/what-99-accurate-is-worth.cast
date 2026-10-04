@@ -1,5 +1,6 @@
 # A 99 % accurate test says yes. Are you ill?
 subtitle: "Why a positive on a 99 % accurate test can be a coin flip when the disease is rare, and why a second test settles it"
+thumb: band "99 % accurate. Probably fine." note
 
 ## A 99 % accurate test says yes. Are you ill?
     pieces grid #8f887c x 300 y 385 width 480 height 480 n 10 rows 10 of grid hidden true
