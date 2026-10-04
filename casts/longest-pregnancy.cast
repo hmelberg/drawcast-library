@@ -11,7 +11,7 @@ sources:
       url: https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations
       finding: African elephant about 22 months, giraffe about 15 months, human about 9 months, dog about 63 days, golden hamster about 16 days
 
-    cards preg cites ["gest"] size 1.5 ends ["longest","shortest"] hidden true
+    cards preg cites ["gest"] ends ["longest","shortest"] hidden true
         * "Elephant" icon.of elephant icon.set twemoji
         * "Giraffe" icon.of giraffe icon.set twemoji
         * "Human" icon.of baby icon.set twemoji
