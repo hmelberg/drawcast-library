@@ -4,6 +4,7 @@
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
 - [What are their babies called?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-04
 - [How many minutes is the ball actually in play?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-04
+- [Do two of 23 people share a birthday?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -94,7 +95,6 @@
 - [How fast did the world's population grow to 8 billion?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-03
 - [Which came first?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-03
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-03
-- [Do two of 23 people share a birthday?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-03
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
 - [How fast did solar panels get cheaper?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-03
 - [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-03

@@ -631,13 +631,6 @@
       "page": true
     },
     {
-      "slug": "birthday-paradox",
-      "title": "Do two of 23 people share a birthday?",
-      "file": "birthday-paradox.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "what-the-universe-is-made-of",
       "title": "What is the universe made of?",
       "file": "what-the-universe-is-made-of.cast",
@@ -774,6 +767,13 @@
       "slug": "ball-in-play",
       "title": "How many minutes is the ball actually in play?",
       "file": "ball-in-play.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "birthday-paradox",
+      "title": "Do two of 23 people share a birthday?",
+      "file": "birthday-paradox.cast",
       "updated": "2026-10-04",
       "page": true
     }
