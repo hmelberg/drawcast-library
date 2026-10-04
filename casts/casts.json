@@ -673,13 +673,6 @@
       "page": true
     },
     {
-      "slug": "ants-on-earth",
-      "title": "How many ants are there on Earth?",
-      "file": "ants-on-earth.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -774,6 +767,13 @@
       "slug": "animal-sleep",
       "title": "How long do animals sleep?",
       "file": "animal-sleep.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "ants-on-earth",
+      "title": "How many ants are there on Earth?",
+      "file": "ants-on-earth.cast",
       "updated": "2026-10-04",
       "page": true
     }

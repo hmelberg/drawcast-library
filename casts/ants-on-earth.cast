@@ -2,6 +2,7 @@
 subtitle: "Guess how many ants are alive on Earth, then see the 2022 count: twenty quadrillion, outweighing every wild bird and mammal combined."
 
 ## How many ants are there on Earth?
+affirm: playful
 text: {"font_size":34}
 sources:
     - id: schultheiss
@@ -11,25 +12,20 @@ sources:
       doi: 10.1073/pnas.2201550119
       finding: 'about 20 quadrillion (2 × 10^16) ants, about 12 megatons of dry carbon: more than wild birds and wild mammals combined, about 20% of human biomass; a conservative estimate from 489 studies'
 
-    icon ant size 170 set twemoji x 500 y 570 icon_look picture of ant hidden true
-    scale count cites ["schultheiss"] x 100 y 440 width 800 unit trillion min 0.01 max 100000 value 20000 log true hidden true
-    text zeros "20,000,000,000,000,000" #2f6b8f x 500 y 320 font_size 48 hidden true
-    text per "2.5 million per person" #2f6b8f x 500 y 250 font_size 44 hidden true
+    icon ant size 130 set twemoji x 500 y 590 icon_look picture of ant hidden true
+    scale count cites ["schultheiss"] y 440 unit ants min 10000000000 max 100000000000000000 value 20000000000000000 log true hidden true
+    text zeros "20,000,000,000,000,000" #2f6b8f x 500 y 340 font_size 48 hidden true
+    text per "2.5 million per person" #2f6b8f x 500 y 240 font_size 44 hidden true
     text mt "12 million tonnes of carbon" #b5482e x 500 y 320 font_size 44 hidden true
-    icon bird size 90 set twemoji x 250 y 240 icon_look picture of bird hidden true
-    text vs "> all wild birds + mammals" #b5482e x 560 y 240 font_size 38 hidden true
-    text unit "ants, in trillions" #8f887c x 500 y 360 font_size 30 hidden true
 
     card title "How many ants are on Earth?"
 
 How many ants are alive on Earth right now?
-    draw ant count unit
+    draw ant count
 
     ask "How many ants live on Earth? Click on the line: each step is ten times the last." on count store a default "1"
         right: Close: you said {a}, and it is about {a.true}.
         wrong: You said {a}. It is about {a.true}.
-
-    erase unit
 
 That is twenty thousand trillion, or twenty quadrillion: a two followed by sixteen zeros.
     draw zeros
@@ -44,7 +40,8 @@ Shared out, that is abo (@draw per@)ut two and a half million ants for every per
 Each ant weighs almost nothing (@draw mt@), but together their bodies hold about twelve million tonnes of carbon.
 
 That is more than all the wild birds and wild mammals on Earth put together.
-    draw bird vs
+    icon bird size 90 set twemoji x 250 y 240 icon_look picture of bird
+    text vs "> all wild birds + mammals" #b5482e x 560 y 240 font_size 38
 
 And it is a low count: ants that live underground, and whole regions without surveys, were left out.
     highlight count
