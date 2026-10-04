@@ -484,13 +484,6 @@
       "page": true
     },
     {
-      "slug": "most-time-zones",
-      "title": "Which country has the most time zones?",
-      "file": "most-time-zones.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "tallest-mountain",
       "title": "Which is the tallest mountain on Earth?",
       "file": "tallest-mountain.cast",
@@ -774,6 +767,13 @@
       "slug": "most-spoken-languages",
       "title": "Which languages have the most native speakers?",
       "file": "most-spoken-languages.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "most-time-zones",
+      "title": "Which country has the most time zones?",
+      "file": "most-time-zones.cast",
       "updated": "2026-10-04",
       "page": true
     }
