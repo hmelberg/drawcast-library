@@ -498,13 +498,6 @@
       "page": true
     },
     {
-      "slug": "sunlight-travel-time",
-      "title": "How long does sunlight take to reach Earth?",
-      "file": "sunlight-travel-time.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "animal-sleep",
       "title": "How long do animals sleep?",
       "file": "animal-sleep.cast",
@@ -774,6 +767,13 @@
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "sunlight-travel-time",
+      "title": "How long does sunlight take to reach Earth?",
+      "file": "sunlight-travel-time.cast",
       "updated": "2026-10-04",
       "page": true
     }

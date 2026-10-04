@@ -2,6 +2,7 @@
 subtitle: "Guess how many minutes sunlight takes to reach Earth, then see why you always see the Sun as it was, and how old its light really is."
 
 ## How long does sunlight take to reach Earth?
+affirm: playful
 text: {"font_size":34}
 sources:
     - id: nasa
