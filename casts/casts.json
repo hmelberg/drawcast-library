@@ -484,13 +484,6 @@
       "page": true
     },
     {
-      "slug": "glass-conservation",
-      "title": "Which glass has more water?",
-      "file": "glass-conservation.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
@@ -774,6 +767,13 @@
       "slug": "first-text-message",
       "title": "When was the first text message sent?",
       "file": "first-text-message.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "glass-conservation",
+      "title": "Which glass has more water?",
+      "file": "glass-conservation.cast",
       "updated": "2026-10-04",
       "page": true
     }
