@@ -540,13 +540,6 @@
       "page": true
     },
     {
-      "slug": "body-myths",
-      "title": "Body myths: true or myth?",
-      "file": "body-myths.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "coin-streaks",
       "title": "After five heads in a row, is tails more likely?",
       "file": "coin-streaks.cast",
@@ -774,6 +767,13 @@
       "slug": "birthday-paradox",
       "title": "Do two of 23 people share a birthday?",
       "file": "birthday-paradox.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "body-myths",
+      "title": "Body myths: true or myth?",
+      "file": "body-myths.cast",
       "updated": "2026-10-04",
       "page": true
     }
