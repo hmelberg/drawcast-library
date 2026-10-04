@@ -3,6 +3,7 @@
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
 - [What are their babies called?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-04
+- [How many minutes is the ball actually in play?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -106,7 +107,6 @@
 - [Do these names tell the truth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-03
 - [Which languages have the most native speakers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-03
 - [Which films won eleven Oscars?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-03
-- [How many minutes is the ball actually in play?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-03
 - [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-03
 - [Why is water cheap and diamonds dear?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-03
 - [How much did the first hard drive weigh?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-03

@@ -722,13 +722,6 @@
       "page": true
     },
     {
-      "slug": "ball-in-play",
-      "title": "How many minutes is the ball actually in play?",
-      "file": "ball-in-play.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hottest-peppers",
       "title": "How hot are the world's hottest peppers?",
       "file": "hottest-peppers.cast",
@@ -774,6 +767,13 @@
       "slug": "baby-animal-names",
       "title": "What are their babies called?",
       "file": "baby-animal-names.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "ball-in-play",
+      "title": "How many minutes is the ball actually in play?",
+      "file": "ball-in-play.cast",
       "updated": "2026-10-04",
       "page": true
     }
