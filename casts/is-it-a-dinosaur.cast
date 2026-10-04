@@ -2,6 +2,7 @@
 subtitle: "T. rex, a pterodactyl, a chicken, a mammoth: tap every true dinosaur, and find out why one of them lays your breakfast eggs."
 
 ## Is it a dinosaur?
+affirm: playful
 text: {"font_size":34}
 sources:
     - id: nhm
@@ -18,15 +19,15 @@ sources:
     card title "Is it a dinosaur?"
 
 Seven famous animals, and one from the farmyard. Only some of them are dinosaurs.
-    cards zoo cites ["nhm"] y 640 select Dinosaurs
+    cards zoo cites ["nhm"] select Dinosaurs
         * "T. rex" icon.of t-rex icon.set twemoji in true
-        * "Pterodactyl" in false
+        * "Pterodactyl" icon.of pterodactylus icon.set game-icons in false
         * "Chicken" icon.of chicken icon.set twemoji in true
         * "Mammoth" icon.of mammoth icon.set twemoji in false
-        * "Triceratops" in true
-        * "Plesiosaur" in false
-        * "Dimetrodon" in false
-        * "Stegosaurus" in true
+        * "Triceratops" icon triceratops in true
+        * "Plesiosaur" icon.of plesiosaurus icon.set game-icons in false
+        * "Dimetrodon" icon dimetrodon in false
+        * "Stegosaurus" icon stegosaurus in true
 
     ask "Which of these animals are dinosaurs? Tap every dinosaur, then Done." on zoo store d feedback.style warm feedback.perfect "A palaeontologist in disguise." feedback.good "The museum would hire you." feedback.poor "Even museums mixed these up for years." feedback.none "The chicken fooled you, didn't it?"
         right: All {d.total} right.
@@ -35,28 +36,28 @@ Seven famous animals, and one from the farmyard. Only some of them are dinosaurs
 Tyrannosaurus, Triceratops and Stegosaurus are the easy ones.
     highlight zoo_1 zoo_5 zoo_8
 
-    text g_ptero "Pterodactyl: flying reptile" #b5482e x 500 y 240 font_size 40
+    text g_ptero "Pterodactyl: flying reptile" #b5482e x 400 y 600 font_size 36
 
 But the pterodactyl is not a dinosaur. Pterosaurs were flying reptiles, cousins on a branch of their own.
     highlight zoo_2
 
     erase g_ptero
 
-    text g_ples "Plesiosaur: sea reptile" #b5482e x 500 y 240 font_size 40
+    text g_ples "Plesiosaur: sea reptile" #b5482e x 400 y 600 font_size 36
 
 Plesiosaurs swam the seas, another branch of reptiles, and no dinosaurs either.
     highlight zoo_6
 
     erase g_ples
 
-    text g_dime "Dimetrodon: kin of mammals" #b5482e x 500 y 240 font_size 40
+    text g_dime "Dimetrodon: kin of mammals" #b5482e x 400 y 600 font_size 36
 
 And Dimetrodon, with the sail on its back, lived before the first dinosaurs, and is closer kin to us mammals.
     highlight zoo_7
 
     erase g_dime
 
-    text g_mam "Mammoth: a mammal" #b5482e x 500 y 240 font_size 40
+    text g_mam "Mammoth: a mammal" #b5482e x 400 y 600 font_size 36
 
 The mammoth is plainly a mammal: an elephant in a woolly coat.
     highlight zoo_4
@@ -72,7 +73,7 @@ Birds descend from the same group of meat-eating dinosaurs as Tyrannosaurus, so 
     highlight zoo_3
 
 So the dinosaurs never all died out: about eleven thousand species of them are still flying around us.
-    highlight zoo_3 effect circle
+    highlight zoo_3
 ---
 audio:
   lang: en
