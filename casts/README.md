@@ -14,6 +14,7 @@
 - [When was the Eiffel Tower finished?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-04
 - [Which films won eleven Oscars?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-04
 - [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-04
+- [Who painted it? Match four famous paintings](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -84,7 +85,6 @@
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
 - [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-03
 - [Which glass has more water?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-03
-- [Who painted it? Match four famous paintings](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-03
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-03
 - [When was the first text message sent?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-03
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-03

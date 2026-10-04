@@ -491,13 +491,6 @@
       "page": true
     },
     {
-      "slug": "famous-paintings",
-      "title": "Who painted it? Match four famous paintings",
-      "file": "famous-paintings.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
@@ -774,6 +767,13 @@
       "slug": "euler-polyhedra",
       "title": "Corners minus edges plus faces: what does a cube give?",
       "file": "euler-polyhedra.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "famous-paintings",
+      "title": "Who painted it? Match four famous paintings",
+      "file": "famous-paintings.cast",
       "updated": "2026-10-04",
       "page": true
     }
