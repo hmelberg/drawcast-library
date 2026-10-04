@@ -575,13 +575,6 @@
       "page": true
     },
     {
-      "slug": "misnamed-things",
-      "title": "Do these names tell the truth?",
-      "file": "misnamed-things.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "most-spoken-languages",
       "title": "Which languages have the most native speakers?",
       "file": "most-spoken-languages.cast",
@@ -774,6 +767,13 @@
       "slug": "longest-pregnancy",
       "title": "Which animal has the longest pregnancy?",
       "file": "longest-pregnancy.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "misnamed-things",
+      "title": "Do these names tell the truth?",
+      "file": "misnamed-things.cast",
       "updated": "2026-10-04",
       "page": true
     }
