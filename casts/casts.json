@@ -596,13 +596,6 @@
       "page": true
     },
     {
-      "slug": "fastest-ramp",
-      "title": "Which ramp is fastest?",
-      "file": "fastest-ramp.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "paper-folding",
       "title": "How many times can you fold paper in half?",
       "file": "paper-folding.cast",
@@ -774,6 +767,13 @@
       "slug": "famous-paintings",
       "title": "Who painted it? Match four famous paintings",
       "file": "famous-paintings.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "fastest-ramp",
+      "title": "Which ramp is fastest?",
+      "file": "fastest-ramp.cast",
       "updated": "2026-10-04",
       "page": true
     }
