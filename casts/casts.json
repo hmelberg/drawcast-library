@@ -456,13 +456,6 @@
       "page": true
     },
     {
-      "slug": "eiffel-tower-year",
-      "title": "When was the Eiffel Tower finished?",
-      "file": "eiffel-tower-year.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "rubiks-cube",
       "title": "How many ways can a Rubik's cube be mixed up?",
       "file": "rubiks-cube.cast",
@@ -774,6 +767,13 @@
       "slug": "earths-in-the-sun",
       "title": "How many Earths would fit inside the Sun?",
       "file": "earths-in-the-sun.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "eiffel-tower-year",
+      "title": "When was the Eiffel Tower finished?",
+      "file": "eiffel-tower-year.cast",
       "updated": "2026-10-04",
       "page": true
     }
