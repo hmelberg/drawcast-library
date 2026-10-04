@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "whats-in-the-air",
-      "title": "What is the air you breathe made of?",
-      "file": "whats-in-the-air.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "world-population-curve",
       "title": "How fast did the world's population grow to 8 billion?",
       "file": "world-population-curve.cast",
@@ -774,6 +767,13 @@
       "slug": "what-the-universe-is-made-of",
       "title": "What is the universe made of?",
       "file": "what-the-universe-is-made-of.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "whats-in-the-air",
+      "title": "What is the air you breathe made of?",
+      "file": "whats-in-the-air.cast",
       "updated": "2026-10-04",
       "page": true
     }

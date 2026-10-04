@@ -2,22 +2,18 @@
 subtitle: "Share out the pie: how much of the air you breathe is nitrogen, oxygen and argon? Then see where carbon dioxide's tiny sliver fits."
 
 ## What is the air you breathe made of?
+affirm: playful
 text: {"font_size":34}
 use: pie_chart
 with:
     labels:
-      - Nitrogen
       - Oxygen
       - Argon & rest
+      - Nitrogen
     values:
-      - 78.08
       - 20.95
       - 0.97
-    box:
-      x: 120
-      'y': 165
-      w: 760
-      h: 490
+      - 78.08
 sources:
     - id: noaa
       title: Trends in atmospheric carbon dioxide
@@ -32,37 +28,43 @@ sources:
       url: https://en.wikipedia.org/wiki/Atmosphere_of_Earth
       finding: dry air is 78.08 % nitrogen, 20.95 % oxygen, 0.93 % argon, about 0.04 % carbon dioxide
 
+    circle breath "air" #2f6b8f x 500 y 420 width 380 font_size 72 hidden true
+    text rise "+50 % since 1750" #b5482e cites ["noaa"] x 832 y 262 font_size 28 hidden true
+    text lazy "argos = lazy" #8f6aa8 x 862 y 402 font_size 30 hidden true
+    text co2 "CO₂: 0.04 %" #b5482e cites ["noaa"] x 832 y 322 font_size 36 hidden true
+    path co2_hair dashed #b5482e points [[758,330],[752,446]] style.stroke_width 1.5 hidden true
+
     card title "What is air made of?"
 
 Take a breath. What is that air actually made of?
-    circle breath "air" #2f6b8f x 500 y 420 width 380 font_size 72
+    draw breath
 
     hide breath
 
-    ask "How is the air split? Drag the dividers to share out the pie." on all store g default 40,55,5
+    ask "How is the air split? Drag the dividers to share out the pie." on all store g default 55,5,40
         right: Close: off by {g.off} points on average.
         wrong: Off by {g.off} points on average.
 
 Nitrogen is the giant: seventy-eight percent of every breath.
-    highlight slice_1
+    highlight slice_3
 
 And it goes straight back out again: our bodies can't use it at all.
-    highlight slice_1
+    text inout "in → out" #8f6aa8 x 190 y 330 font_size 34
 
 Oxygen, the gas we actually need, is only about a fifth.
-    highlight slice_2
+    highlight slice_1
 
 Nearly all the rest is argon, a gas so unreactive that its name comes from the Greek for lazy.
-    text lazy "argos = lazy" #8f6aa8 x 800 y 610 font_size 40
+    draw lazy
 
 And carbon dioxide, the gas behind global warming?
-    text co2 "CO₂: 0.04 %" #b5482e cites ["noaa"] x 145 y 330 font_size 42
+    draw co2 co2_hair
 
 About 0.04 percent: four molecules in every ten thousand.
     highlight co2
 
 Tiny, yet that share has grown by half since before the industrial age.
-    text rise "+50 % since 1750" #b5482e cites ["noaa"] x 145 y 270 font_size 34
+    draw rise
 ---
 audio:
   lang: en
