@@ -442,13 +442,6 @@
       "page": true
     },
     {
-      "slug": "which-came-first",
-      "title": "Which came first?",
-      "file": "which-came-first.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "animal-sleep",
       "title": "How long do animals sleep?",
       "file": "animal-sleep.cast",
@@ -774,6 +767,13 @@
       "slug": "whats-in-the-air",
       "title": "What is the air you breathe made of?",
       "file": "whats-in-the-air.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "which-came-first",
+      "title": "Which came first?",
+      "file": "which-came-first.cast",
       "updated": "2026-10-04",
       "page": true
     }
