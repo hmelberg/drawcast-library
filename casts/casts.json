@@ -666,13 +666,6 @@
       "page": true
     },
     {
-      "slug": "eleven-oscars",
-      "title": "Which films won eleven Oscars?",
-      "file": "eleven-oscars.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hottest-peppers",
       "title": "How hot are the world's hottest peppers?",
       "file": "hottest-peppers.cast",
@@ -774,6 +767,13 @@
       "slug": "eiffel-tower-year",
       "title": "When was the Eiffel Tower finished?",
       "file": "eiffel-tower-year.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "eleven-oscars",
+      "title": "Which films won eleven Oscars?",
+      "file": "eleven-oscars.cast",
       "updated": "2026-10-04",
       "page": true
     }
