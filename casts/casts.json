@@ -498,13 +498,6 @@
       "page": true
     },
     {
-      "slug": "first-text-message",
-      "title": "When was the first text message sent?",
-      "file": "first-text-message.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "most-time-zones",
       "title": "Which country has the most time zones?",
       "file": "most-time-zones.cast",
@@ -774,6 +767,13 @@
       "slug": "first-hard-drive",
       "title": "How much did the first hard drive weigh?",
       "file": "first-hard-drive.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "first-text-message",
+      "title": "When was the first text message sent?",
+      "file": "first-text-message.cast",
       "updated": "2026-10-04",
       "page": true
     }
