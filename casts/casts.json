@@ -526,13 +526,6 @@
       "page": true
     },
     {
-      "slug": "rice-on-a-chessboard",
-      "title": "How much rice on the last square of a chessboard?",
-      "file": "rice-on-a-chessboard.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "animal-sleep",
       "title": "How long do animals sleep?",
       "file": "animal-sleep.cast",
@@ -774,6 +767,13 @@
       "slug": "pythagoras-blank",
       "title": "What finishes Pythagoras' theorem?",
       "file": "pythagoras-blank.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "rice-on-a-chessboard",
+      "title": "How much rice on the last square of a chessboard?",
+      "file": "rice-on-a-chessboard.cast",
       "updated": "2026-10-04",
       "page": true
     }
