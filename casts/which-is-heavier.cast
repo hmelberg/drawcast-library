@@ -27,7 +27,7 @@ sources:
       year: 2000
       finding: the median 10-year-old weighs about 32 kg
 
-    cards heavy cites ["rom","air","cloud"] size 1 unit kg compare "Which is heavier?" hidden true
+    cards heavy cites ["rom","air","cloud"] unit kg compare "Which is heavier?" hidden true
         * "Blue whale heart" icon.of "anatomical heart" icon.set twemoji value 180
         * "Small car" icon.of automobile icon.set twemoji value 1000
         * "Air in a bedroom" icon.of bed icon.set twemoji value 48
