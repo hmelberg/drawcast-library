@@ -449,13 +449,6 @@
       "page": true
     },
     {
-      "slug": "pythagoras-blank",
-      "title": "What finishes Pythagoras' theorem?",
-      "file": "pythagoras-blank.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
@@ -774,6 +767,13 @@
       "slug": "planets-in-a-row",
       "title": "How many Earths fit between Earth and the Moon?",
       "file": "planets-in-a-row.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "pythagoras-blank",
+      "title": "What finishes Pythagoras' theorem?",
+      "file": "pythagoras-blank.cast",
       "updated": "2026-10-04",
       "page": true
     }
