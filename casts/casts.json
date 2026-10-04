@@ -694,13 +694,6 @@
       "page": true
     },
     {
-      "slug": "diamonds-and-water",
-      "title": "Why is water cheap and diamonds dear?",
-      "file": "diamonds-and-water.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "first-hard-drive",
       "title": "How much did the first hard drive weigh?",
       "file": "first-hard-drive.cast",
@@ -774,6 +767,13 @@
       "slug": "coin-streaks",
       "title": "After five heads in a row, is tails more likely?",
       "file": "coin-streaks.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "diamonds-and-water",
+      "title": "Why is water cheap and diamonds dear?",
+      "file": "diamonds-and-water.cast",
       "updated": "2026-10-04",
       "page": true
     }
