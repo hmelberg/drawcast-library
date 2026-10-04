@@ -50,6 +50,7 @@
 - [What are their babies called?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-04
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-04
 - [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-04
+- [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -82,7 +83,6 @@
 - [Surgery or medication?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-03
 - [The map that blamed a water pump](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
-- [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-03
 - [What a derivative is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
 - [How many must be immune to stop a disease?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03
 - [Why two rational suspects both confess](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-03
