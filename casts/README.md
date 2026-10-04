@@ -13,6 +13,7 @@
 - [How many Earths would fit inside the Sun?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-04
 - [When was the Eiffel Tower finished?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-04
 - [Which films won eleven Oscars?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-04
+- [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -80,7 +81,6 @@
 - [On Venus, which is longer: a day or a year?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-03
 - [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-03
-- [Corners minus edges plus faces: what does a cube give?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-03
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
 - [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-03
 - [Which glass has more water?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-03

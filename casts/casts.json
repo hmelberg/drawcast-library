@@ -470,13 +470,6 @@
       "page": true
     },
     {
-      "slug": "euler-polyhedra",
-      "title": "Corners minus edges plus faces: what does a cube give?",
-      "file": "euler-polyhedra.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
@@ -774,6 +767,13 @@
       "slug": "eleven-oscars",
       "title": "Which films won eleven Oscars?",
       "file": "eleven-oscars.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "euler-polyhedra",
+      "title": "Corners minus edges plus faces: what does a cube give?",
+      "file": "euler-polyhedra.cast",
       "updated": "2026-10-04",
       "page": true
     }
