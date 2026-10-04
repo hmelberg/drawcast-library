@@ -442,13 +442,6 @@
       "page": true
     },
     {
-      "slug": "longest-pregnancy",
-      "title": "Which animal has the longest pregnancy?",
-      "file": "longest-pregnancy.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "venus-day-year",
       "title": "On Venus, which is longer: a day or a year?",
       "file": "venus-day-year.cast",
@@ -774,6 +767,13 @@
       "slug": "linda-problem",
       "title": "Linda: bank teller, or feminist bank teller?",
       "file": "linda-problem.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "longest-pregnancy",
+      "title": "Which animal has the longest pregnancy?",
+      "file": "longest-pregnancy.cast",
       "updated": "2026-10-04",
       "page": true
     }

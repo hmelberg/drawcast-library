@@ -25,6 +25,7 @@
 - [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-04
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-04
 - [Linda: bank teller, or feminist bank teller?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-04
+- [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -88,7 +89,6 @@
 - [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 - [Which words came from the Vikings?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-03
 - [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-03
-- [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-03
 - [On Venus, which is longer: a day or a year?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-03
 - [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-03
