@@ -463,13 +463,6 @@
       "page": true
     },
     {
-      "slug": "true-or-myth",
-      "title": "True or myth? Five things everyone has heard",
-      "file": "true-or-myth.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "world-population-curve",
       "title": "How fast did the world's population grow to 8 billion?",
       "file": "world-population-curve.cast",
@@ -774,6 +767,13 @@
       "slug": "tallest-mountain",
       "title": "Which is the tallest mountain on Earth?",
       "file": "tallest-mountain.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "true-or-myth",
+      "title": "True or myth? Five things everyone has heard",
+      "file": "true-or-myth.cast",
       "updated": "2026-10-04",
       "page": true
     }

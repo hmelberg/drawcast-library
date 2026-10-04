@@ -41,6 +41,7 @@
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-04
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-04
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-04
+- [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -107,7 +108,6 @@
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-03
 - [You have $100 to split with a stranger. How much would you offer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-03
 - [What is the air you breathe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-03
-- [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
 - [How fast did the world's population grow to 8 billion?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-03
 - [Which came first?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-03
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
