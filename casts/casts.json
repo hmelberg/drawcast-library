@@ -680,13 +680,6 @@
       "page": true
     },
     {
-      "slug": "baby-animal-names",
-      "title": "What are their babies called?",
-      "file": "baby-animal-names.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sunlight-travel-time",
       "title": "How long does sunlight take to reach Earth?",
       "file": "sunlight-travel-time.cast",
@@ -774,6 +767,13 @@
       "slug": "ants-on-earth",
       "title": "How many ants are there on Earth?",
       "file": "ants-on-earth.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "baby-animal-names",
+      "title": "What are their babies called?",
+      "file": "baby-animal-names.cast",
       "updated": "2026-10-04",
       "page": true
     }
