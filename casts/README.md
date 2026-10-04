@@ -32,6 +32,7 @@
 - [Which languages have the most native speakers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-04
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-04
 - [Which line is longer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-04
+- [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -108,7 +109,6 @@
 - [Which came first?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-03
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
 - [How fast did solar panels get cheaper?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-03
-- [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-03
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-03
 - [How much rice on the last square of a chessboard?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-03
 

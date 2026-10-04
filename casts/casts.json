@@ -533,13 +533,6 @@
       "page": true
     },
     {
-      "slug": "paper-folding",
-      "title": "How many times can you fold paper in half?",
-      "file": "paper-folding.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sunlight-travel-time",
       "title": "How long does sunlight take to reach Earth?",
       "file": "sunlight-travel-time.cast",
@@ -774,6 +767,13 @@
       "slug": "muller-lyer",
       "title": "Which line is longer?",
       "file": "muller-lyer.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "paper-folding",
+      "title": "How many times can you fold paper in half?",
+      "file": "paper-folding.cast",
       "updated": "2026-10-04",
       "page": true
     }
