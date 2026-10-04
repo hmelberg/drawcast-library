@@ -442,13 +442,6 @@
       "page": true
     },
     {
-      "slug": "rubiks-cube",
-      "title": "How many ways can a Rubik's cube be mixed up?",
-      "file": "rubiks-cube.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
@@ -774,6 +767,13 @@
       "slug": "rice-on-a-chessboard",
       "title": "How much rice on the last square of a chessboard?",
       "file": "rice-on-a-chessboard.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "rubiks-cube",
+      "title": "How many ways can a Rubik's cube be mixed up?",
+      "file": "rubiks-cube.cast",
       "updated": "2026-10-04",
       "page": true
     }

@@ -36,6 +36,7 @@
 - [How many Earths fit between Earth and the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-04
 - [What finishes Pythagoras' theorem?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-04
 - [How much rice on the last square of a chessboard?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-04
+- [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -99,7 +100,6 @@
 - [Euler's identity, as half a turn](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 - [Which words came from the Vikings?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-03
 - [On Venus, which is longer: a day or a year?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-03
-- [How many ways can a Rubik's cube be mixed up?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-03
 - [Who discovered what? Match four scientists](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-03
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-03
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-03
