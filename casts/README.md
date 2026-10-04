@@ -22,6 +22,7 @@
 - [How big is Greenland next to Africa?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-04
 - [On the Moon, which lands first: a hammer or a feather?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-04
 - [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-04
+- [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -103,7 +104,6 @@
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-03
 - [What is the universe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-03
 - [How fast did solar panels get cheaper?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-03
-- [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-03
 - [How many times can you fold paper in half?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-03
 - [Which letter is in no US state's name?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-03
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-03
