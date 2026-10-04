@@ -52,6 +52,7 @@
 - [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-04
 - [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-04
 - [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-04
+- [A 99 % accurate test says yes. Are you ill?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -91,7 +92,6 @@
 - [Why rain is fresh](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-03
 - [Two pumps in one heart](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-03
 - [What 95% confidence means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-03
-- [A 99 % accurate test says yes. Are you ill?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-03
 - [What a 1% fee really costs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-03
 - [What a confounder does](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
