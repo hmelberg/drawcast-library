@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "animal-sleep",
-      "title": "How long do animals sleep?",
-      "file": "animal-sleep.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "muller-lyer",
       "title": "Which line is longer?",
       "file": "muller-lyer.cast",
@@ -775,6 +768,13 @@
       "title": "How many people have walked on the Moon?",
       "file": "moonwalkers.cast",
       "updated": "2026-10-03",
+      "page": true
+    },
+    {
+      "slug": "animal-sleep",
+      "title": "How long do animals sleep?",
+      "file": "animal-sleep.cast",
+      "updated": "2026-10-04",
       "page": true
     }
   ]
