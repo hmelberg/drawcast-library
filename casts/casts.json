@@ -519,13 +519,6 @@
       "page": true
     },
     {
-      "slug": "hammer-and-feather",
-      "title": "On the Moon, which lands first: a hammer or a feather?",
-      "file": "hammer-and-feather.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "whats-in-the-air",
       "title": "What is the air you breathe made of?",
       "file": "whats-in-the-air.cast",
@@ -774,6 +767,13 @@
       "slug": "greenland-vs-africa",
       "title": "How big is Greenland next to Africa?",
       "file": "greenland-vs-africa.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "hammer-and-feather",
+      "title": "On the Moon, which lands first: a hammer or a feather?",
+      "file": "hammer-and-feather.cast",
       "updated": "2026-10-04",
       "page": true
     }
