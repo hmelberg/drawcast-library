@@ -24,6 +24,7 @@
 - [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-04
 - [How loud is loud?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-04
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-04
+- [Linda: bank teller, or feminist bank teller?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -97,7 +98,6 @@
 - [Which country has the most time zones?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-03
 - [Which is the tallest mountain on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-03
 - [You have $100 to split with a stranger. How much would you offer?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-03
-- [Linda: bank teller, or feminist bank teller?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-03
 - [What is the air you breathe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-03
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
 - [How fast did the world's population grow to 8 billion?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-03
