@@ -10,6 +10,7 @@
 - [Cleopatra: closer to the pyramids or the Moon?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-04
 - [After five heads in a row, is tails more likely?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-04
 - [Why is water cheap and diamonds dear?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-04
+- [How many Earths would fit inside the Sun?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -92,7 +93,6 @@
 - [On the Moon, which lands first: a hammer or a feather?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-03
 - [What is the air you breathe made of?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-03
 - [True or myth? Five things everyone has heard](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-03
-- [How many Earths would fit inside the Sun?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-03
 - [How fast did the world's population grow to 8 billion?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-03
 - [Which came first?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-03
 - [Is it a dinosaur?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-03
