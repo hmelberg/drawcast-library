@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "muller-lyer",
-      "title": "Which line is longer?",
-      "file": "muller-lyer.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "venus-day-year",
       "title": "On Venus, which is longer: a day or a year?",
       "file": "venus-day-year.cast",
@@ -774,6 +767,13 @@
       "slug": "most-time-zones",
       "title": "Which country has the most time zones?",
       "file": "most-time-zones.cast",
+      "updated": "2026-10-04",
+      "page": true
+    },
+    {
+      "slug": "muller-lyer",
+      "title": "Which line is longer?",
+      "file": "muller-lyer.cast",
       "updated": "2026-10-04",
       "page": true
     }
