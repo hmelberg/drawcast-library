@@ -19,6 +19,7 @@
 - [How much did the first hard drive weigh?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-04
 - [When was the first text message sent?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-04
 - [Which glass has more water?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-04
+- [How big is Greenland next to Africa?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03
 - [What does a positive test mean?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
@@ -106,7 +107,6 @@
 - [Which letter is in no US state's name?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-03
 - [How long does sunlight take to reach Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-03
 - [How much rice on the last square of a chessboard?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-03
-- [How big is Greenland next to Africa?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-03
 - [Do these names tell the truth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-03
 - [Which languages have the most native speakers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-03
 - [How hot are the world's hottest peppers?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-03

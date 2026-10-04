@@ -2,6 +2,7 @@
 subtitle: "Guess Greenland's size next to Africa with a bar, then see why the Mercator map makes the two look the same size."
 
 ## How big is Greenland next to Africa?
+affirm: playful
 text: {"font_size":34}
 use: bar_chart
 with:
@@ -11,10 +12,10 @@ with:
       - DR Congo
       - USA+China+India
     values:
-      - 30.37
-      - 2.17
-      - 2.34
-      - 22.72
+      - 30.4
+      - 2.2
+      - 2.3
+      - 22.7
     icons:
       - {of: globe showing europe-africa, set: twemoji}
       - {of: flag greenland, set: twemoji}
@@ -38,39 +39,39 @@ sources:
       year: 2025
       finding: Africa covers about 30.4 million km²
 
-    text times "14 ×" #b5482e cites ["afr","cia"] x 450 y 560 font_size 80 hidden true
     icon map size 230 set twemoji x 780 y 520 icon_look picture of "world map" hidden true
     text merc "Mercator, 1569" #2f6b8f x 780 y 385 font_size 40 hidden true
-    text fits "room to spare" #2f6b8f x 620 y 620 font_size 40 hidden true
+    text fits "room to spare" #2f6b8f at.data [3,27.6] font_size 34 hidden true
+    path africa_lvl dashed #b5482e points [[0.4,30.4],[3.4,30.4]] data true style.stroke_width 2 hidden true
 
     card title "How big is Greenland next to Africa?"
 
 On most wall maps, Greenland looks about as big as Africa.
     draw axes bar_1
 
-    ask "Africa is drawn. How big is Greenland? Drag its bar to your guess." on bar_2 store g default "20"
+    ask "Africa is drawn. How big is Greenland? Drag its bar to your guess." on bar_2 store g default "20" reveal.text "14 × smaller" reveal.at.x 480 reveal.at.y 430
         right: Close: you said {g} million square kilometres, and it is {g.true}.
         wrong: You said {g} million square kilometres; it is only {g.true}.
 
 Africa is about fourteen times bigger: thirty million square kilometres against two.
-    draw times
+    highlight bar_1 bar_2
 
 The culprit is the map itself, drawn by Gerardus Mercator in 1569 for sailors.
     draw map merc
 
 It keeps compass directions true, so a straight line on it is a steady course across the sea.
-    point at.ref bar_2 gesture underline
+    point at.ref map
 
 But to do that it stretches the land more and more toward the poles, and Greenland sits far in the north.
-    highlight bar_2 effect circle
+    highlight bar_2
 
 In fact Greenland is smaller than a single African country, the Democratic Republic of the Congo.
     draw bar_3
 
-    erase times map merc
+    erase map merc
 
 And Africa could swallow the United States, China and India together, with room to spare.
-    draw bar_4 fits
+    draw bar_4 africa_lvl fits
 
 So next time you see a world map, look twice at the top and bottom.
     highlight bar_1
