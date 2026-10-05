@@ -78,6 +78,17 @@ Isaac Newton got the problem one afternoon in January 1697, after a day at the R
     highlight l_curve cyc
 
 He sent his answer without a name. But Bernoulli knew  (@draw claw@)at once who it was: you can tell the lion by its claw.
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    path straight thick #2f6b8f points [[120,690],[880,280]]
+    path curve smooth thick #c7702e points [[120,690],[200,430],[360,300],[600,270],[880,280]]
+    path steep thick #6b8e23 points [[120,690],[150,300],[880,280]]
+    icon ball size 110 set twemoji x 120 y 690 icon_look picture of "soccer ball"
+    text q "Which wins?" x 650 y 560 font_size 80
+    thumb w1 "Shortest isn't fastest" kind band
+
 ---
 audio:
   lang: en

@@ -91,6 +91,15 @@ Try it: pick an R0, then find the lowest coverage that clears the dot, first wit
         * Doubles
         + Rises from 75 % to about 88 %
         * Stays the same
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon shot size 300 set twemoji x 250 y 470 icon_look picture of syringe
+    text a "2× as contagious" x 680 y 590 font_size 66
+    text b "2× the vaccines?" x 680 y 420 font_size 70 #b5482e
+    thumb w1 "Not twice as many" kind band
+
 ---
 audio:
   lang: en

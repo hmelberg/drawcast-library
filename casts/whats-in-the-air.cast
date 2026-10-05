@@ -65,6 +65,15 @@ About 0.04 percent: four molecules in every ten thousand.
 
 Tiny, yet that share has grown by half since before the industrial age.
     draw rise
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon wind size 300 set twemoji x 260 y 470 icon_look picture of "wind face"
+    text big "78 %" x 680 y 540 font_size 190 #2f6b8f
+    text t2 "useless to you" x 680 y 360 font_size 60
+    thumb w1 "Breathe in. Mostly nitrogen." kind band
+
 ---
 audio:
   lang: en

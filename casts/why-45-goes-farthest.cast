@@ -68,6 +68,16 @@ Real air drags hardest on long, high flights, so outside the textbook the best a
         + 60°
         * 45°
         * 15°
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    path arc smooth thick #c7702e points [[100,270],[280,560],[500,660],[720,560],[900,270]]
+    icon ball size 120 set twemoji x 500 y 660 icon_look picture of baseball
+    text a "45°" x 260 y 380 font_size 110 #2f6b8f
+    text b "30° = 60°?" x 730 y 380 font_size 70 #b5482e
+    thumb w1 "Two angles, one landing spot" kind band
+
 ---
 audio:
   lang: en

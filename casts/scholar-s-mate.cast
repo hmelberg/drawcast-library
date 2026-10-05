@@ -77,6 +77,15 @@ So the trap is arithmetic on one square. Black watched the queen, when what matt
         * Yes, Qxf7 is still mate
         + No: two attackers now meet two defenders
         * Only if White brings a knight first
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon pawn size 320 set twemoji x 300 y 470 icon_look picture of "chess pawn"
+    text big "4 moves" x 680 y 490 font_size 140 #b5482e
+    thumb w1 "Checkmate before you blink" kind band
+    thumb w2 "TRAP" kind stamp x 840 y 650 angle -10
+
 ---
 audio:
   lang: en

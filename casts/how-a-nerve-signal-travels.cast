@@ -97,6 +97,15 @@ Alan Hodgkin and Andrew Huxley worked this out in 1952, in a squid's giant axon,
         * The spikes get bigger
         + There are more spikes per second
         * The spikes travel faster
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon brain size 300 set twemoji x 260 y 470 icon_look picture of brain
+    icon zap size 240 set twemoji x 560 y 470 icon_look picture of "high voltage"
+    text big "all or nothing" x 800 y 620 font_size 66 #b5482e
+    thumb w1 "A spark that never fades" kind band
+
 ---
 audio:
   lang: en

@@ -97,6 +97,15 @@ B: So the sun never sets on France?
     highlight bar_3
 
 A: Just about. From Polynesia to the  (@draw daytime@)Indian Ocean, it is nearly always daytime somewhere in France.
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon globe size 320 set twemoji x 300 y 470 icon_look picture of "globe showing europe-africa"
+    text big "12" x 720 y 500 font_size 260 #2f6b8f
+    thumb w1 "Not Russia" kind band
+    thumb w2 kind thinking
+
 ---
 audio:
   lang: en

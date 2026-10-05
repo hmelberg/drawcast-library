@@ -114,6 +114,15 @@ Jacob Yerushalmy gave the two terms their meaning in 1947, comparing how well do
         + Still 90%
         * Higher than 90%
         * Lower than 90%
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon test size 300 set twemoji x 230 y 470 icon_look picture of "test tube"
+    text a "90 % right" x 680 y 590 font_size 80 #2f6b8f
+    text c "most positives wrong?" x 640 y 420 font_size 60 #b5482e
+    thumb w1 "Good test, bad news?" kind band
+
 ---
 audio:
   lang: en

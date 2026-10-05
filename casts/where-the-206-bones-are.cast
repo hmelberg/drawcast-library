@@ -92,6 +92,15 @@ A newborn starts with around 300; many fuse as it grows. This sacrum began as fi
         * About a tenth
         * About a quarter
         + More than half
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon hand size 300 set twemoji x 260 y 470 icon_look picture of "raised hand"
+    text big "106 of 206" x 690 y 540 font_size 110 #2f6b8f
+    text t2 "in hands and feet" x 690 y 390 font_size 60
+    thumb w1 "Half your bones are here" kind band
+
 ---
 audio:
   lang: en

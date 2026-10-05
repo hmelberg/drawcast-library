@@ -270,6 +270,15 @@ So revenue falls, even though each ride now costs more.
         + It rises
         * It falls
         * It stays the same
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon bus size 320 set twemoji x 280 y 470 icon_look picture of bus
+    text up "fare +10 %" x 720 y 580 font_size 80 #b5482e
+    text down "riders −?" x 720 y 420 font_size 80 #2f6b8f
+    thumb w1 "When a fare rise loses money" kind band
+
 ---
 audio:
   lang: en

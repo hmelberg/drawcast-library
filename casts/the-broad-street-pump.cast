@@ -98,6 +98,16 @@ The story usually leaves out one thing: the outbreak was already fading when the
         * Deaths crowded round the pump
         + The brewery men nearby were spared
         * Deaths fell after the handle came off
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon drop size 300 set twemoji x 260 y 470 icon_look picture of droplet
+    icon skull size 200 set twemoji x 540 y 520 icon_look picture of skull
+    text n "500 dead" x 780 y 560 font_size 80 #b5482e
+    text yr "Soho, 1854" x 780 y 410 font_size 60
+    thumb w1 "It wasn't the bad air" kind band
+
 ---
 audio:
   lang: en

@@ -59,6 +59,15 @@ Kantene er fortsatt litt bølgete. Men jo tynnere stykkene er, desto rettere bli
         * Hele omkretsen, 2πr
         + Halve omkretsen, πr
         * Radien, r
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon pizza size 330 set twemoji x 300 y 470 icon_look picture of pizza
+    math big tex "\\pi r^2" x 690 y 480 size 170
+    thumb w1 "Skjær den opp" kind band
+    thumb w2 kind aha
+
 ---
 audio:
   lang: nb

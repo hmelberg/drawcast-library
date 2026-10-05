@@ -77,6 +77,15 @@ Thomas Bayes worked out this kind of updating; his essay was published in 1763, 
         * About 98% ill
         + About even odds
         * About 2% ill
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon test size 280 set twemoji x 250 y 470 icon_look picture of microscope
+    text big "99 %" x 670 y 500 font_size 200 #2f6b8f
+    thumb w1 "99 % accurate. Probably fine." kind band
+    thumb w2 kind note
+
 ---
 audio:
   lang: en

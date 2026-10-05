@@ -84,6 +84,15 @@ Click the link for Grant Sanderson's video, The paradox of the derivative, which
         * 30 m/s
         + less than 30 m/s
         * zero — an instant has no speed
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon rock size 220 set twemoji x 220 y 600 icon_look picture of rock
+    path fall dashed thick #8f887c points [[220,480],[220,290]]
+    math d tex "\\frac{dy}{dx}" x 640 y 500 size 170
+    thumb w1 "Speed with no time passing?" kind band
+
 ---
 audio:
   lang: en

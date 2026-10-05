@@ -85,6 +85,16 @@ At fourteen, Richard Feynman wrote in his notebook that this was the most remark
         * −1
         + 1
         * 0
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    math eq tex "e^{i\\pi} = -1" x 500 y 560 size 130
+    path turn smooth thick #c0392b points [[760,300],[690,400],[500,440],[310,400],[240,300]]
+    text t1 "half a turn" x 500 y 330 font_size 64 #c0392b
+    thumb w1 "Nonsense? It's half a turn" kind band
+    thumb w2 kind star
+
 ---
 audio:
   lang: en

@@ -97,6 +97,15 @@ A: It is the last doublings that do the damage: each square holds more than all 
 
 B: Remind me never to let you set my salary.
     highlight tonnes
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    icon rice size 300 set twemoji x 260 y 470 icon_look picture of "cooked rice"
+    math big tex "2^{63}" x 680 y 500 size 190
+    thumb w1 "A few sacks, tops?" kind band
+    thumb w2 "WRONG" kind stamp x 830 y 640 angle 12
+
 ---
 audio:
   lang: en

@@ -87,6 +87,19 @@ And the number under the root plays the twenty-five: if it is negative, no squar
         * Two
         * One
         + None
+
+## Thumbnail
+role: thumbnail
+page: {"valign": "none"}
+    shape sq shape rect x 270 y 470 width 280 height 280 style.fill #cfe3ee
+    shape add shape rect x 450 y 470 width 80 height 280 style.fill #f6d7b0
+    shape add2 shape rect x 270 y 650 width 280 height 80 style.fill #f6d7b0
+    shape corner shape rect x 450 y 650 width 80 height 80 style.fill #f4c542
+    text x2 "x²" x 270 y 470 font_size 90
+    text q "?" x 450 y 650 font_size 70 #c0392b
+    math f tex "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}" x 760 y 470 size 54
+    thumb w1 "It's literally a square" kind band
+
 ---
 audio:
   lang: en
