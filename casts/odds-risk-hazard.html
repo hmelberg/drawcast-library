@@ -65,6 +65,7 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>Reported as a relative risk reduction, that becomes the headline. The drug halves the risk of stroke.</p>
 <p>Now keep the drug's effect the same, but give it to patients whose baseline risk is ten times lower.</p>
 <p>Two in a hundred of them have a stroke on placebo. If the risk ratio holds, the drug halves that to one in a hundred.</p>
+<p>Same risk ratio, baseline risk 2 %. How many must be treated for a year to prevent one stroke?</p>
 <p>The relative effect is still one half. But the absolute benefit has shrunk from ten percentage points to one.</p>
 <p>To prevent one stroke in these patients, you must now treat a hundred people instead of ten, with the costs and side effects borne by all of them.</p>
 <p>That is the usual division of labour. Risk ratios tend to be fairly stable across populations, so they travel well, while the risk difference depends on the baseline risk.</p>
@@ -78,11 +79,14 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>A risk of one half gives even odds, exactly one.</p>
 <p>And a risk of eighty percent is eighty against twenty, odds of four.</p>
 <p>To go back, divide the odds by one plus the odds. Four over five is eighty percent again.</p>
+<p>What are the odds when the risk is 90 %?</p>
 <p>So the odds run from zero to infinity, and they climb ever more steeply as the risk approaches one.</p>
 <p>Now set the risk itself beside them, as a straight line.</p>
-<p>Down where the risk is small, the two almost coincide. A risk of ten percent has odds of zero point one one.</p>
+<p>Down where the risk is small, the two almost coincide.</p>
+<p>A risk of ten percent has odds of zero point one one.</p>
 <p>That is the rare-outcome rule. When the event is rare, odds and risk are nearly the same number.</p>
-<p>Higher up they part fast. At a risk of eighty percent, the odds are five times larger.</p>
+<p>Higher up they part fast.</p>
+<p>At a risk of eighty percent, the odds are five times larger.</p>
 <p>In our trial, the odds of stroke were ten to ninety on the drug, and twenty to eighty on placebo.</p>
 <p>Placebo sits right here, at a risk of twenty percent and odds of a quarter. The next step is to divide one odds by the other.</p>
 <p>Divide one group's odds by the other's, and you have the odds ratio, the measure behind case-control studies and logistic regression.</p>
@@ -96,7 +100,9 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>Each was matched with a control patient without cancer. Among those six hundred and forty-nine men, twenty-seven had never smoked.</p>
 <p>Now try to compute a risk. Six hundred and forty-seven cancers among twelve hundred and sixty-nine smokers looks like a risk of fifty-one percent.</p>
 <p>But that number is an artefact. Take two controls per case and it drops to about a third, because the investigators chose how many controls there were.</p>
-<p>The odds ratio does not care. Six hundred and forty-seven times twenty-seven, over six hundred and twenty-two times two, is about fourteen.</p>
+<p>From this table, roughly what is the odds ratio for lung cancer in smokers?</p>
+<p>The odds ratio does not care.</p>
+<p>Six hundred and forty-seven times twenty-seven, over six hundred and twenty-two times two, is about fourteen.</p>
 <p>Doubling the controls doubles b and d alike, and the factor cancels in a times d over b times c.</p>
 <p>The odds ratio is symmetric. The odds of smoking in cases against controls equal the odds of cancer in smokers against non-smokers.</p>
 <p>Jerome Cornfield showed this in nineteen fifty-one, with lung cancer among his examples, and added that when the disease is rare, the odds ratio also approximates the risk ratio.</p>
@@ -104,6 +110,7 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>So when does the odds ratio stop approximating the risk ratio? The answer depends on how common the outcome is.</p>
 <p>Fix the odds ratio at two, the same in every population, and let the baseline risk run from zero to one.</p>
 <p>For a baseline risk p-zero, the matching risk ratio follows from this formula, which Zhang and Yu popularised in nineteen ninety-eight.</p>
+<p>The odds ratio is 2. If half the unexposed have the outcome, where is the risk ratio? Click the line.</p>
 <p>Drawn out, the risk ratio starts at two when the outcome is rare, and sinks toward one as it becomes common.</p>
 <p>At a baseline risk of five percent, the risk ratio is still one point nine, and the odds ratio is a fair stand-in.</p>
 <p>At fifty percent it is only one point three three. Twice the odds is a third more risk.</p>
@@ -127,7 +134,8 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>Ten events in five hundred person-years against ten in two hundred and fifty is a rate ratio of one half, even though the counts are equal.</p>
 <p>With a constant rate, a rate turns back into a risk. After five years at zero point one five, the risk is one minus e to the minus zero point seven five, about fifty-three percent.</p>
 <p>Person-time has one assumption built in. The censored patients must be like those who stayed, because if the sickest drop out, the rate looks better than it is.</p>
-<p>Now imagine counting events per person-time in an ever thinner slice of time. In the limit, the rate at a single instant is called the hazard.</p>
+<p>Now imagine counting events per person-time in an ever thinner slice of time.</p>
+<p>In the limit, the rate at a single instant is called the hazard.</p>
 <p>Shrink that slice of time to an instant, and the rate becomes the hazard, the event rate among those still event-free, right now.</p>
 <p>Take patients with an advanced cancer, and say that on standard treatment they die at a constant hazard of zero point two a year, an illustration.</p>
 <p>Drawn as the share who have died, their curve rises as one minus e to the minus zero point two t.</p>
@@ -136,6 +144,7 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>Then lower the hazard ratio to one half. At every moment, patients on the new drug die at half the standard rate.</p>
 <p>This is the Cox proportional hazards model, from nineteen seventy-two. The baseline hazard is left unspecified, and because it cancels in the ratio, the hazard ratio needs no model of time at all.</p>
 <p>Now the trap. After two years, thirty-three percent of the standard group have died, against eighteen percent on the new drug.</p>
+<p>The hazard ratio stays 0.5. Read the curves: what is the risk ratio of death at ten years?</p>
 <p>After ten years it is eighty-six against sixty-three percent, a risk ratio of zero point seven three.</p>
 <p>The hazard ratio stayed at one half the whole time, yet the risk ratio drifted toward one.</p>
 <p>Everyone dies in the end. A drug that halves the hazard delays deaths, so the share who have died converges.</p>
@@ -164,6 +173,7 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p>So adding a prognostic covariate to a logistic or a Cox model moves the estimate away from one, even in a perfectly randomized trial.</p>
 <p>That change is not confounding. The conditional and the marginal odds ratios simply answer different questions.</p>
 <p>Put together, each measure answers its own question, and only some designs can deliver it.</p>
+<p>Which measures can a case-control study give you on its own? Sort each card.</p>
 <p>A case-control study gives you the odds ratio alone, unless the baseline risk is known from elsewhere, while a trial or a cohort can give you every one of them.</p>
 <p>One habit protects readers from most of these traps. Give the absolute risks, at a stated time, next to every ratio.</p>
 <p>One last check, on a new cancer trial, drawn the way we drew the hazards.</p>
