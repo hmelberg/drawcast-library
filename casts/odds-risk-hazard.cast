@@ -1,0 +1,763 @@
+# Odds, risks and hazards
+subtitle: "How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves."
+thumb: band "Twice the odds is not twice the risk"
+
+chapter: Risks
+
+## Risk and the 2×2 table
+level: advanced
+book: {"layout":"columns","look":"mixed"}
+use: two_by_two_table
+with:
+    row_label: Group
+    col_label: Outcome at 1 year
+    row_values:
+      - 'Drug: 100'
+      - 'Placebo: 100'
+    col_values:
+      - Stroke
+      - No stroke
+    cells:
+      - ['10', '90']
+      - ['20', '80']
+    cell_notes:
+      - [a, b]
+      - [c, d]
+sources:
+    - id: laupacis
+      title: An assessment of clinically useful measures of the consequences of treatment
+      authors: Laupacis A, Sackett DL, Roberts RS
+      year: 1988
+      finding: Proposed the number needed to treat, 1/(absolute risk reduction), as a clinically useful measure.
+      doi: 10.1056/NEJM198806303182605
+
+A paper can report a treatment's effect as a risk ratio, an odds ratio or a hazard ratio. They sound alike, but they answer different questions, and the gap between them can be large.
+    draw grid row_title col_title row_header_0 row_header_1 col_header_0 col_header_1
+
+All of them start from the same place, a two-by-two table of exposure against outcome.
+    write "Every measure starts from a **2×2 table**: exposure by outcome."
+
+Take a made-up trial. A hundred patients get the drug, and ten of them have a stroke within a year.
+    draw cell_0_0 cell_0_1
+
+Another hundred get placebo, and twenty of them have a stroke.
+    draw cell_1_0 cell_1_1
+
+    write id risk text "**Risk** $= \\dfrac{\\text{events}}{\\text{people at risk at the start}}$"
+
+The plainest measure is the risk, the share of the people at the start who have the event.
+    highlight cell_0_0 cell_1_0
+
+    write "Drug: $\\dfrac{a}{a+b} = 0.10$ · Placebo: $\\dfrac{c}{c+d} = 0.20$"
+
+So the risk is ten percent on the drug, and twenty percent on placebo.
+    text rHead "Risk" #8f887c x 930 y 598
+    text r1 "10 %" #2f6b8f x 930 y 461
+    text r2 "20 %" #b5482e x 930 y 280
+
+    write "*A risk needs a time window: here, one year.*"
+
+A risk without a time window means nothing, so we say one-year risk.
+    point at.ref col_title gesture underline
+
+    write id rd text "**Risk difference** $RD = 0.10 - 0.20 = -0.10$"
+
+Subtract one risk from the other, and you get the risk difference, ten fewer strokes per hundred patients treated.
+    text rdT "RD = −10 per 100" #8a5fa8 x 450 y 162
+
+    write id nnt text "**Number needed to treat** $NNT = 1/|RD| = 10$"
+
+Turn it upside down, and it becomes the number needed to treat. Treat ten people for a year, and you prevent one stroke.
+    text nntT "NNT = 10" #8a5fa8 x 760 y 162
+
+Laupacis, Sackett and Roberts proposed that number in nineteen eighty-eight, because it speaks in patients rather than proportions.
+    highlight nnt part "NNT = 1/|RD| = 10" effect underline
+
+The ninety who were spared on the drug, and the eighty on placebo, will matter soon, because the next measure uses them.
+    highlight cell_0_1 cell_1_1
+
+For now, keep one idea. The risk difference and the number needed to treat are absolute measures. They tell you how many people a treatment changes.
+    write "> Absolute measures say **how many** people are affected."
+
+    pause 1
+
+## The risk ratio
+level: advanced
+book: {"layout":"columns","look":"mixed"}
+use: bar_chart
+with:
+    labels:
+      - 60 % baseline
+      - Our trial
+      - Low-risk patients
+    series:
+      - {name: Placebo, values: [60, 20, 2]}
+      - {name: Drug, values: [100, 10, 1]}
+    value_labels: true
+    label_size: 24
+    ylim:
+      - 0
+      - 115
+    y_label: Events per 100
+
+    path ceil dashed #8f887c points [[-0.5,100],[2.5,100]] data true hidden true
+    label lCeil "risk = 1: RR ≤ 1/0.6 = 1.67" above #8a5fa8 attach_to ceil hidden true
+
+Back in our trial, the one-year risk was twenty percent on placebo and ten on the drug.
+    draw axes legend bar_2
+
+Divide the risks instead of subtracting them, and you get the risk ratio, also called the relative risk. Here it is one half.
+    write id rr text "**Risk ratio** $RR = \\dfrac{\\text{risk}_1}{\\text{risk}_0} = \\dfrac{0.10}{0.20} = 0.5$"
+
+A risk ratio of one means no difference. Below one, the exposure prevents events, and above one, it causes them.
+    write "$RR = 1$: no effect · $RR < 1$: fewer events"
+
+Reported as a relative risk reduction, that becomes the headline. The drug halves the risk of stroke.
+    write "**Relative risk reduction** $1 - RR = 50\\%$"
+
+Now keep the drug's effect the same, but give it to patients whose baseline risk is ten times lower.
+    highlight bar_2
+
+Two in a hundred of them have a stroke on placebo. If the risk ratio holds, the drug halves that to one in a hundred.
+    draw bar_3
+
+The relative effect is still one half. But the absolute benefit has shrunk from ten percentage points to one.
+    write "| | RR | RD | NNT |\n|---|---|---|---|\n| High risk | 0.5 | 10 % | 10 |\n| Low risk | 0.5 | 1 % | 100 |"
+
+To prevent one stroke in these patients, you must now treat a hundred people instead of ten, with the costs and side effects borne by all of them.
+    highlight bar_3
+
+That is the usual division of labour. Risk ratios tend to be fairly stable across populations, so they travel well, while the risk difference depends on the baseline risk.
+    write id relabs text "> Relative effects often **travel**; absolute effects **decide**."
+
+But it is the absolute effect that a patient's decision rests on.
+    highlight relabs part decide
+
+    write "Bound: $RR \\le 1/p_0$ (with $p_0 = 0.6$, at most $1.67$)"
+
+One more property is easy to forget. A risk cannot exceed one, so when the baseline risk is sixty percent, no risk ratio can be above one point six seven.
+    draw bar_1 ceil lCeil
+
+That ceiling is a first hint that ratios behave differently when outcomes are common, and the odds ratio is where it matters most.
+    point at.ref ceil gesture underline
+
+    pause 1
+
+chapter: Odds
+
+## Odds
+level: advanced
+domain: {"x":[0,1],"y":[0,5]}
+book: {"layout":"columns","look":"mixed"}
+
+    axes ax x_label "Risk p" y_label Odds hidden true
+    curve odds #b5482e expr x/(1-x) x_from 0 x_to 0.833 hidden true
+    label lOdds "odds" left #b5482e attach_to odds hidden true
+    dot pA at.on odds at.x 0.2 guides.values true hidden true
+    dot pB at.on odds at.x 0.5 guides.values true hidden true
+    dot pC at.on odds at.x 0.8 guides.x "0.8" guides.y "4" hidden true
+    dot p10 at.on odds at.x 0.1 guides.x "0.1" hidden true
+    label lP10 "odds 0.11" above-left attach_to p10 hidden true
+    dot r80 #2f6b8f at.on diag at.x 0.8 hidden true
+    label lR80 "risk 0.8" below-right #2f6b8f attach_to r80 hidden true
+
+Risk is not the only way to put a number on a chance. Gamblers use odds, and so does logistic regression.
+    draw ax
+
+    write id oddsdef text "**Odds** $= \\dfrac{p}{1-p}$"
+
+The odds compare the chance that an event happens with the chance that it does not.
+    draw odds lOdds
+
+A risk of twenty percent is twenty against eighty, odds of one to four, or zero point two five.
+    draw pA
+
+A risk of one half gives even odds, exactly one.
+    draw pB
+
+And a risk of eighty percent is eighty against twenty, odds of four.
+    draw pC
+
+To go back, divide the odds by one plus the odds. Four over five is eighty percent again.
+    write "Back: $p = \\dfrac{\\text{odds}}{1+\\text{odds}} = \\dfrac{4}{5} = 0.8$"
+
+So the odds run from zero to infinity, and they climb ever more steeply as the risk approaches one.
+    highlight odds
+
+Now set the risk itself beside them, as a straight line.
+    curve diag dashed #2f6b8f expr x x_from 0 x_to 1
+    label lDiag "risk" below-right #2f6b8f attach_to diag
+
+    camera center.x 0.25 center.y 0.8 zoom 1.6
+
+Down where the risk is small, the two almost coincide. A risk of ten percent has odds of zero point one one.
+    draw p10 lP10
+
+That is the rare-outcome rule. When the event is rare, odds and risk are nearly the same number.
+    write id rare text "**Rare outcome**: odds $\\approx$ risk"
+
+    camera reset true
+
+Higher up they part fast. At a risk of eighty percent, the odds are five times larger.
+    draw r80 lR80
+
+    point at.ref pC gesture circle
+
+    write "Our trial: drug $\\dfrac{10}{90} = 0.11$, placebo $\\dfrac{20}{80} = 0.25$"
+
+In our trial, the odds of stroke were ten to ninety on the drug, and twenty to eighty on placebo.
+    highlight p10
+
+Placebo sits right here, at a risk of twenty percent and odds of a quarter. The next step is to divide one odds by the other.
+    highlight pA
+
+    pause 1
+
+## The odds ratio
+level: advanced
+book: {"layout":"columns","look":"mixed"}
+use: two_by_two_table
+with:
+    row_label: Group
+    col_label: Outcome at 1 year
+    row_values:
+      - 'Drug: 100'
+      - 'Placebo: 100'
+    col_values:
+      - Stroke
+      - No stroke
+    cells:
+      - ['10', '90']
+      - ['20', '80']
+    cell_notes:
+      - [a, b]
+      - [c, d]
+
+    text oddsD "odds 0.11" #2f6b8f x 930 y 461 hidden true
+    text oddsP "odds 0.25" #b5482e x 930 y 280 hidden true
+
+Divide one group's odds by the other's, and you have the odds ratio, the measure behind case-control studies and logistic regression.
+    draw grid row_title col_title row_header_0 row_header_1 col_header_0 col_header_1 cell_0_0 cell_0_1 cell_1_0 cell_1_1 oddsD oddsP
+
+    write id or text "$OR = \\dfrac{a/b}{c/d} = \\dfrac{ad}{bc}$"
+
+In the cells of a two-by-two table it is a times d over b times c, the cross-product ratio.
+    highlight cell_0_0 cell_1_1
+
+    highlight cell_0_1 cell_1_0
+
+    pause 1
+
+    write "Our trial: $OR = \\dfrac{10 \\times 80}{90 \\times 20} = 0.44$, while $RR = 0.50$"
+
+For our stroke trial it comes to zero point four four, a little further from one than the risk ratio of one half.
+    text orT "OR = 0.11 / 0.25 = 0.44" #8a5fa8 x 580 y 140
+
+    write id logit text "$$\\log\\frac{p}{1-p} = \\beta_0 + \\beta_1 x$$"
+
+The same quantity sits at the heart of logistic regression, which models the log of the odds as a straight line in the covariates.
+    point at.ref oddsP gesture underline
+
+    write "So $e^{\\beta_1} = OR$; for the drug, $\\beta_1 = \\ln 0.44 \\approx -0.81$"
+
+Each coefficient is a log odds ratio. For the drug in our trial it is about minus zero point eight one. Exponentiate it, and you are back at zero point four four.
+    point at.ref orT gesture underline
+
+So whenever a paper reports a logistic model, its effects are odds ratios, whatever the abstract calls them.
+    highlight logit part "\\beta_1 x" effect underline
+
+    pause 1
+
+## Case-control studies
+level: advanced
+book: {"layout":"columns","look":"mixed"}
+use: two_by_two_table
+with:
+    row_label: Smoked?
+    col_label: Men sampled as
+    row_values:
+      - Smoker
+      - Non-smoker
+    col_values:
+      - 'Lung cancer: 649'
+      - 'Controls: 649'
+    cells:
+      - ['647', '622']
+      - ['2', '27']
+    cell_notes:
+      - [a, b]
+      - [c, d]
+sources:
+    - id: dollhill
+      title: Smoking and carcinoma of the lung; preliminary report
+      authors: Doll R, Hill AB
+      year: 1950
+      finding: Of 649 men with lung carcinoma, 2 were non-smokers; of 649 matched control patients, 27 were (BMJ 1950;2:739–48). Odds ratio ≈ 14.
+    - id: cornfield
+      title: A method of estimating comparative rates from clinical data; applications to cancer of the lung, breast, and cervix
+      authors: Cornfield J
+      year: 1951
+      finding: In a case-control study the exposure odds ratio estimates the relative risk when the disease is rare.
+
+Its real strength shows when a disease is rare and would take decades to follow. A case-control study starts from the disease, not from the exposure.
+    draw grid row_title row_header_0 row_header_1 col_title col_header_0 col_header_1
+
+The classic case is Doll and Hill's study of lung cancer, published in nineteen fifty. Of six hundred and forty-nine men with lung cancer in London hospitals, all but two had smoked.
+    draw cell_0_0 cell_1_0
+
+Each was matched with a control patient without cancer. Among those six hundred and forty-nine men, twenty-seven had never smoked.
+    draw cell_0_1 cell_1_1
+
+    write id fakerisk text "Risk among smokers? $\\dfrac{647}{647 + 622} = 51\\%$" temp true
+
+Now try to compute a risk. Six hundred and forty-seven cancers among twelve hundred and sixty-nine smokers looks like a risk of fifty-one percent.
+    highlight cell_0_0 cell_0_1
+
+But that number is an artefact. Take two controls per case and it drops to about a third, because the investigators chose how many controls there were.
+    highlight fakerisk effect strike
+
+    write id orcc text "Doll & Hill: $OR = \\dfrac{647 \\times 27}{622 \\times 2} \\approx 14$"
+
+The odds ratio does not care. Six hundred and forty-seven times twenty-seven, over six hundred and twenty-two times two, is about fourteen.
+    highlight cell_0_0 cell_1_1
+
+    text orDH "OR ≈ 14" #8a5fa8 cites ["dollhill"] x 580 y 140
+
+Doubling the controls doubles b and d alike, and the factor cancels in a times d over b times c.
+    highlight cell_0_1 cell_1_1
+
+    write "> The exposure OR equals the disease OR."
+
+The odds ratio is symmetric. The odds of smoking in cases against controls equal the odds of cancer in smokers against non-smokers.
+    point at.ref row_title gesture underline
+
+    write "*Cornfield, 1951: for a rare disease, OR ≈ RR.*"
+
+Jerome Cornfield showed this in nineteen fifty-one, with lung cancer among his examples, and added that when the disease is rare, the odds ratio also approximates the risk ratio.
+    point at.ref col_header_0 gesture underline
+
+    write "*Only two non-smoking cases: a rough estimate, but nowhere near 1.*"
+
+With only two non-smoking cases, fourteen is a rough estimate. But no plausible error brings it anywhere near one.
+    point at.ref cell_1_0 gesture circle
+
+    pause 1
+
+## When the odds ratio misleads
+level: advanced
+domain: {"x":[0,1.25],"y":[0,2.5]}
+vars: {"k":2}
+book: {"layout":"columns","look":"mixed"}
+sources:
+    - id: zhangyu
+      title: What's the relative risk? A method of correcting the odds ratio in cohort studies of common outcomes
+      authors: Zhang J, Yu KF
+      year: 1998
+      finding: RR = OR / (1 − P0 + P0 × OR); the more common the outcome, the more the OR overstates the RR.
+      doi: 10.1001/jama.280.19.1690
+    - id: schwartz
+      title: Misunderstandings about the effects of race and sex on physicians' referrals for cardiac catheterization
+      authors: Schwartz LM, Woloshin S, Welch HG
+      year: 1999
+      finding: An odds ratio of 0.6 was reported as '40 % less often'; referral rates were 85 % vs 91 %, a risk ratio of about 0.93.
+      doi: 10.1056/NEJM199907223410411
+    - id: mcnutt
+      title: Estimating the relative risk in cohort studies and clinical trials of common outcomes
+      authors: McNutt LA, Wu C, Xue X, Hafner JP
+      year: 2003
+      finding: Applying the Zhang–Yu formula to adjusted odds ratios is biased; log-binomial or Poisson regression estimate the RR directly.
+      doi: 10.1093/aje/kwg074
+
+    axes ax x_label "Baseline risk p0" y_label Ratio hidden true
+    curve one dashed #8f887c expr "1" x_from 0 x_to 1.2 hidden true
+    curve orline #b5482e expr k x_from 0 x_to 1 hidden true
+    label lOr "OR = {k:1}" above-right #b5482e attach_to orline hidden true
+    label lOne "no effect" below-right #8f887c attach_to one hidden true
+
+So when does the odds ratio stop approximating the risk ratio? The answer depends on how common the outcome is.
+    draw ax
+
+Fix the odds ratio at two, the same in every population, and let the baseline risk run from zero to one.
+    draw orline lOr one lOne
+
+For a baseline risk p-zero, the matching risk ratio follows from this formula, which Zhang and Yu popularised in nineteen ninety-eight.
+    write id zy text "$$RR = \\frac{OR}{1 - p_0 + p_0 \\cdot OR}$$"
+
+Drawn out, the risk ratio starts at two when the outcome is rare, and sinks toward one as it becomes common.
+    curve rr #2f6b8f expr "k/(1 - x + x*k)" x_from 0 x_to 1 cites ["zhangyu"]
+    label lRr "RR" above-right #2f6b8f attach_to rr
+
+At a baseline risk of five percent, the risk ratio is still one point nine, and the odds ratio is a fair stand-in.
+    dot p05 at.on rr at.x 0.05 guides.values true
+
+At fifty percent it is only one point three three. Twice the odds is a third more risk.
+    dot p50 at.on rr at.x 0.5 guides.values true
+
+The odds ratio always lies further from one than the risk ratio, above one and below it, and the gap grows with the baseline risk.
+    write id further text "> The OR is always **further from 1** than the RR."
+
+Now turn the same picture over, to an odds ratio below one.
+    erase p05 p50
+
+Set the odds ratio to zero point six. Where the outcome is common, the risk ratio climbs almost to one.
+    animate k 0.6 duration 3 ghost ["rr"]
+
+    erase rr_ghost
+
+That is the scale of a real mix-up. In nineteen ninety-nine, a study reported that doctors referred Black patients for cardiac catheterization with an odds ratio of zero point six, compared with white patients.
+    dot pS #8a5fa8 at.x 0.91 at.y 0.934 guides.y "0.93" cites ["schwartz"]
+    label lPS "85 % vs 91 %" below-left #8a5fa8 attach_to pS
+
+News reports said Black patients were forty percent less likely to be referred. But the referral rates were eighty-five and ninety-one percent.
+    write "Referred: 85 % vs 91 % → $RR = 0.93$, but $OR \\approx 0.6$"
+
+That is a risk ratio of about zero point nine three, a seven percent difference, as Schwartz, Woloshin and Welch pointed out in the same journal.
+    highlight pS
+
+One warning about the conversion. Fed an adjusted odds ratio, it gives biased estimates and wrong confidence intervals, so with a common outcome, estimate the risk ratio directly, with a log-binomial or a modified Poisson model.
+    write "*Caveat*: with an **adjusted** OR the conversion is biased. Use log-binomial or Poisson models."
+
+So with a common outcome, read an odds ratio as an exaggerated risk ratio, in whichever direction it points.
+    highlight further part "further from 1"
+
+    pause 1
+
+chapter: Time
+
+## Rates and person-time
+level: advanced
+domain: {"x":[0,6.6],"y":[0,7]}
+book: {"layout":"columns","look":"mixed"}
+
+    axes ax x_label "Years of follow-up" y_label Patient cross corner hidden true
+    path f1 #3d3833 points [[0,6],[5,6]] data true hidden true
+    path f2 #3d3833 points [[0,5],[2,5]] data true hidden true
+    path f3 #3d3833 points [[0,4],[5,4]] data true hidden true
+    path f4 #3d3833 points [[0,3],[3,3]] data true hidden true
+    path f5 #3d3833 points [[0,2],[1,2]] data true hidden true
+    path f6 #3d3833 points [[0,1],[4,1]] data true hidden true
+    dot e2 #b5482e at.x 2 at.y 5 hidden true
+    dot e4 #b5482e at.x 3 at.y 3 hidden true
+    dot e5 #b5482e at.x 1 at.y 2 hidden true
+    label lEv "event" above #b5482e attach_to e4 hidden true
+    dot c1 #8f887c at.x 5 at.y 6 hidden true
+    dot c3 #8f887c at.x 5 at.y 4 hidden true
+    dot c6 #8f887c at.x 4 at.y 1 hidden true
+    label lCe "censored" above #8f887c attach_to c1 hidden true
+    path t1 #3d3833 points [[1,0],[1,0.18]] data true hidden true
+    label lt1 "1" below attach_to t1 hidden true
+    path t2 #3d3833 points [[2,0],[2,0.18]] data true hidden true
+    label lt2 "2" below attach_to t2 hidden true
+    path t3 #3d3833 points [[3,0],[3,0.18]] data true hidden true
+    label lt3 "3" below attach_to t3 hidden true
+    path t4 #3d3833 points [[4,0],[4,0.18]] data true hidden true
+    label lt4 "4" below attach_to t4 hidden true
+    path t5 #3d3833 points [[5,0],[5,0.18]] data true hidden true
+    label lt5 "5" below attach_to t5 hidden true
+    label y1 "5" right attach_to f1 hidden true
+    label y2 "2" right attach_to f2 hidden true
+    label y3 "5" right attach_to f3 hidden true
+    label y4 "3" right attach_to f4 hidden true
+    label y5 "1" right attach_to f5 hidden true
+    label y6 "4" right attach_to f6 hidden true
+    text sum "= 20" #8a5fa8 x 905 y 380 hidden true
+    polygon slice #8a5fa8 points [[2,0.3],[3,0.3],[3,6.6],[2,6.6]] data true style.fill #8a5fa8 style.fill_style wash style.opacity 0.6 hidden true
+    polygon slice2 #8a5fa8 points [[2.45,0.3],[2.55,0.3],[2.55,6.6],[2.45,6.6]] data true style.fill #8a5fa8 style.fill_style wash style.opacity 0.6 hidden true
+
+Risks and odds both count people. But in a real cohort, people are followed for different lengths of time.
+    draw ax t1 t2 t3 t4 t5 lt1 lt2 lt3 lt4 lt5 f1 f2 f3 f4 f5 f6
+
+Here are six patients followed after a first heart attack, an illustration. Three have a second one, after one, two and three years.
+    draw e5 e2 e4 lEv parallel true
+
+The others leave without it. The study ends, or they move away, and their follow-up is censored.
+    draw c1 c3 c6 lCe parallel true
+
+Three events among six people looks like a risk of fifty percent. But over what time? One patient was watched for a year, others for five.
+    write id naive text "Risk? $3/6 = 50\\%$, over *what* time?" temp true
+
+The fix is to count time instead of people. Add up every year each patient was watched.
+    flow f1 f2 f3 f4 f5 f6 spacing 114 speed 114
+
+    draw y1 y2 y3 y4 y5 y6 parallel true
+
+    write "**Person-time** $5+2+5+3+1+4 = 20$ person-years"
+
+These six contribute twenty person-years between them.
+    draw sum
+
+Three events in twenty person-years is a rate of zero point one five per person-year, or fifteen per hundred.
+    write id rate text "**Incidence rate** $\\lambda = \\dfrac{3}{20} = 0.15$ per person-year"
+
+Two groups are compared by their rate ratio, which, like the risk ratio, is one when the exposure does nothing.
+    write "**Rate ratio** $= \\lambda_1 / \\lambda_0$"
+
+Ten events in five hundred person-years against ten in two hundred and fifty is a rate ratio of one half, even though the counts are equal.
+    write "Equal counts, unequal time: $\\dfrac{10}{500}$ vs $\\dfrac{10}{250}$ person-years → $0.5$"
+
+With a constant rate, a rate turns back into a risk. After five years at zero point one five, the risk is one minus e to the minus zero point seven five, about fifty-three percent.
+    write id conv text "Constant rate: $\\text{risk}(t) = 1 - e^{-\\lambda t}$"
+
+Person-time has one assumption built in. The censored patients must be like those who stayed, because if the sickest drop out, the rate looks better than it is.
+    highlight c6
+
+    draw slice
+
+Now imagine counting events per person-time in an ever thinner slice of time. In the limit, the rate at a single instant is called the hazard.
+    morph slice to.ref slice2 duration 4
+
+    pause 1
+
+## The hazard ratio
+level: advanced
+domain: {"x":[0,32],"y":[0,1.05]}
+vars:
+    h:
+      value: 1
+      min: 0.2
+      max: 1.5
+      step: 0.05
+      decimals: 2
+book: {"layout":"columns","look":"mixed"}
+sources:
+    - id: cox
+      title: Regression models and life-tables
+      authors: Cox DR
+      year: 1972
+      finding: The proportional hazards model h(t|x) = h0(t)·exp(βx), estimated by partial likelihood without specifying h0(t).
+    - id: hernan
+      title: The hazards of hazard ratios
+      authors: Hernán MA
+      year: 2010
+      finding: A period-specific hazard ratio compares survivors, who need not be comparable even in a randomized trial; report survival curves.
+
+    axes ax x_label Years y_label "Share dead" hidden true
+    curve s0 #b5482e expr "1 - exp(-0.2*x)" x_from 0 x_to 30 hidden true
+    label lS0 "Standard" above-left #b5482e attach_to s0 hidden true
+    curve s1 #2f6b8f expr "1 - exp(-0.2*h*x)" x_from 0 x_to 30 cites ["cox"] hidden true
+    label lS1 "New drug" below-right #2f6b8f attach_to s1 hidden true
+    math hrK at.data [24,0.55] tex "HR = {h}" size 34 hidden true
+    path yt5 #3d3833 points [[0,0.5],[0.6,0.5]] data true hidden true
+    label lyt5 "0.5" left attach_to yt5 hidden true
+    path yt1 #3d3833 points [[0,1],[0.6,1]] data true hidden true
+    label lyt1 "1" left attach_to yt1 hidden true
+    path xt30 #3d3833 points [[30,0],[30,0.03]] data true hidden true
+    label lxt30 "30" below attach_to xt30 hidden true
+
+Shrink that slice of time to an instant, and the rate becomes the hazard, the event rate among those still event-free, right now.
+    draw ax yt5 lyt5 yt1 lyt1 xt30 lxt30
+
+    write id hz text "**Hazard** $h(t) = \\lim\\limits_{\\Delta t \\to 0} \\dfrac{P(t \\le T < t + \\Delta t \\mid T \\ge t)}{\\Delta t}$"
+
+Take patients with an advanced cancer, and say that on standard treatment they die at a constant hazard of zero point two a year, an illustration.
+    draw s0
+
+Drawn as the share who have died, their curve rises as one minus e to the minus zero point two t.
+    draw lS0
+
+The hazard ratio compares two groups' hazards at the same moment.
+    write id hr text "**Hazard ratio** $HR = h_1(t) / h_0(t)$"
+
+Now add a new drug, and start it at a hazard ratio of one, where its curve lies on top of the standard one.
+    draw s1 lS1 hrK
+
+Then lower the hazard ratio to one half. At every moment, patients on the new drug die at half the standard rate.
+    animate h 0.5 duration 3
+
+This is the Cox proportional hazards model, from nineteen seventy-two. The baseline hazard is left unspecified, and because it cancels in the ratio, the hazard ratio needs no model of time at all.
+    write id coxm text "**Cox model** $h(t \\mid x) = h_0(t)\\, e^{\\beta x}$, so $HR = e^{\\beta}$"
+
+Now the trap. After two years, thirty-three percent of the standard group have died, against eighteen percent on the new drug.
+    dot a2 at.on s0 at.x 2 guides.values true
+    dot b2 at.on s1 at.x 2 guides.values true
+    parallel true
+
+    write "Year 2: deaths 33 % vs 18 % → $RR = 0.55$"
+
+After ten years it is eighty-six against sixty-three percent, a risk ratio of zero point seven three.
+    dot a10 at.on s0 at.x 10 guides.values true
+    dot b10 at.on s1 at.x 10 guides.values true
+    parallel true
+
+The hazard ratio stayed at one half the whole time, yet the risk ratio drifted toward one.
+    write "Year 10: deaths 86 % vs 63 % → $RR = 0.73$"
+
+    write id hrnot text "> HR = 0.5: half the rate **at each moment**, not half as many deaths."
+
+Everyone dies in the end. A drug that halves the hazard delays deaths, so the share who have died converges.
+    point at.data [28,0.97] gesture circle
+
+Under proportional hazards, survival on the new drug is simply the standard group's survival raised to the power of the hazard ratio.
+    write "Under proportional hazards: $S_1(t) = S_0(t)^{HR}$"
+
+Try it yourself. Drag the hazard ratio, and watch the gap between the curves open and close.
+    explore
+
+Hernán added a subtler warning in twenty ten. Later hazards compare the survivors, and after the first deaths, the survivors in two arms are no longer alike, even in a randomized trial.
+    highlight hrnot part "at each moment"
+
+    pause 1
+
+## When hazards are not proportional
+level: advanced
+domain: {"x":[0,10],"y":[0,1]}
+book: {"layout":"columns","look":"mixed"}
+
+    axes ax x_label Years y_label Survival hidden true
+    curve med #b5482e expr exp(-0.08*x) x_from 0 x_to 10 hidden true
+    label lMed "Medical" below-left #b5482e attach_to med hidden true
+    curve surg #2f6b8f expr "exp(-(0.2*(1-exp(-5*x)) + 0.03*x))" x_from 0 x_to 10 hidden true
+    label lSurg "Surgery" above-right #2f6b8f attach_to surg hidden true
+    dot cross at.on med at.x 4 guides.values true hidden true
+    region loss x_from 0 x_to 4 between ["med","surg"] style.fill #8f887c hidden true
+    region gain x_from 4 x_to 10 between ["med","surg"] style.fill #2f6b8f hidden true
+    text lossT "−0.3 yr" #3d3833 x 215 y 588 hidden true
+    text gainT "+0.5 yr" #2f6b8f x 768 y 431 hidden true
+    text hrLate "HR ≈ 0.4" #8a5fa8 x 800 y 540 hidden true
+
+The Cox model assumes the hazard ratio is the same at every moment. Often it is not.
+    draw ax
+
+Take a made-up comparison. A medical treatment leaves patients with a steady death rate of eight percent a year.
+    draw med lMed
+
+Surgery kills some patients early, around the operation, but leaves the survivors with a hazard of only three percent a year.
+    draw surg lSurg
+
+In the first months the surgical hazard is far higher, so the hazard ratio is well above one.
+    text hrEarly "HR > 1" #8a5fa8 x 250 y 470
+
+Later it settles near zero point four, and the survival curves cross, here at four years.
+    draw cross hrLate
+
+That breaks the proportional hazards assumption.
+    write id ph text "**Proportional hazards**: $h_1(t)/h_0(t)$ constant in $t$. Here it is not."
+
+A single Cox hazard ratio would average an early harm and a late benefit, weighted by when the deaths happen, and describe neither.
+    write "One Cox $HR$ = a weighted average of early harm and late benefit."
+
+To check the assumption, plot log minus log survival against log time and look for parallel lines, or test the Schoenfeld residuals for a trend.
+    write "Check: $\\log(-\\log S)$ against $\\log t$ parallel? Schoenfeld residuals flat?"
+
+When it fails, report the curves themselves, hazard ratios for separate periods, or the restricted mean survival time, the area under each curve up to a fixed horizon.
+    write id rmst text "**RMST**: area under $S(t)$ up to a horizon $\\tau$"
+
+    erase hrEarly hrLate
+
+Up to four years, surgery loses area, about three tenths of a year of life on average.
+    draw loss lossT
+
+After four years it gains it back, just over half a year.
+    draw gain gainT
+
+Over ten years, the net difference is about a fifth of a year, roughly ten weeks, in favour of surgery.
+    write "At $\\tau = 10$: $7.11 - 6.88 = 0.22$ years in favour of surgery"
+
+That number is in time, not in ratios, and it stays meaningful whether hazards are proportional or not.
+    point at.ref gain gesture circle
+
+    pause 1
+
+chapter: "Choosing a measure"
+
+## Collapsibility, and which measure to use
+level: advanced
+book: {"layout":"columns","look":"mixed"}
+use: bar_chart
+with:
+    labels:
+      - Older
+      - Younger
+      - Everyone
+    series:
+      - {name: Placebo, values: [50, 20, 35]}
+      - {name: Treated, values: [80, 50, 65]}
+    value_labels: true
+    label_size: 24
+    ylim:
+      - 0
+      - 110
+    y_label: Recovered, %
+sources:
+    - id: greenland
+      title: Confounding and collapsibility in causal inference
+      authors: Greenland S, Robins JM, Pearl J
+      year: 1999
+      finding: The odds ratio is not collapsible; a marginal OR can differ from the common stratum-specific OR without any confounding.
+
+    text or1 "OR 4" #8a5fa8 x 255 y 700 hidden true
+    text or2 "OR 4" #8a5fa8 x 525 y 700 hidden true
+    text or3 "OR 3.45" #8a5fa8 x 795 y 700 hidden true
+
+One more property separates these measures, and it surprises experienced analysts. Take a trial with two equal strata, randomized within each, so there is no confounding.
+    draw axes legend
+
+Say the outcome is recovery from pneumonia within a week, with made-up numbers. Among older patients, recovery is fifty percent on placebo and eighty on treatment, an odds ratio of four.
+    draw bar_1 or1
+
+Among younger patients it is twenty against fifty percent, again an odds ratio of exactly four.
+    draw bar_2 or2
+
+Pool everyone, and recovery is thirty-five against sixty-five percent. The odds ratio is now three point four five.
+    draw bar_3 or3
+
+So the pooled odds ratio is smaller than the odds ratio in every stratum, with no confounding at all.
+    write "| | RR | OR |\n|---|---|---|\n| Older | 1.6 | 4 |\n| Younger | 2.5 | 4 |\n| Everyone | 1.86 | 3.45 |"
+
+That is non-collapsibility. The risk ratio and the risk difference pool to values between the strata, but the odds ratio and the hazard ratio do not.
+    write id noncoll text "**Non-collapsible**: the marginal OR is not an average of the stratum ORs."
+
+So adding a prognostic covariate to a logistic or a Cox model moves the estimate away from one, even in a perfectly randomized trial.
+    highlight bar_3
+
+That change is not confounding. The conditional and the marginal odds ratios simply answer different questions.
+    highlight noncoll part Non-collapsible
+
+    fade bar_1 bar_2 bar_3 or1 or2 or3 legend axes to 0.2
+
+Put together, each measure answers its own question, and only some designs can deliver it.
+    write "| Measure | Answers | Design |\n|---|---|---|\n| RD, NNT | how many | cohort, trial |\n| RR | how many times | cohort, trial |\n| OR | odds; symmetric | also case-control |\n| Rate ratio | events per time | cohort |\n| HR | rate at each moment | survival, Cox |"
+
+A case-control study gives you the odds ratio alone, unless the baseline risk is known from elsewhere, while a trial or a cohort can give you every one of them.
+    write "*Case-control: the OR only, unless the baseline risk is known.*"
+
+One habit protects readers from most of these traps. Give the absolute risks, at a stated time, next to every ratio.
+    write id habit text "> Report the **absolute risks**, at a stated time, beside every ratio."
+
+## A last check
+level: advanced
+domain: {"x":[0,12],"y":[0,1.05]}
+book: {"layout":"columns","look":"mixed"}
+
+    axes ax x_label Years y_label "Share dead" hidden true
+    curve c0 #b5482e expr "1 - exp(-0.1609*x)" x_from 0 x_to 11 hidden true
+    label lC0 "Control" above-left #b5482e attach_to c0 hidden true
+    curve c1 #2f6b8f expr "1 - exp(-0.0805*x)" x_from 0 x_to 11 hidden true
+    label lC1 "New drug, HR 0.5" below-right #2f6b8f attach_to c1 hidden true
+    dot q0 at.on c0 at.x 10 guides.values true hidden true
+    dot q1 at.on c1 at.x 10 guides.values true hidden true
+
+One last check, on a new cancer trial, drawn the way we drew the hazards.
+    draw ax c0 lC0
+
+In the control arm, eighty percent have died by ten years.
+    draw q0
+
+    quiz "With a hazard ratio of 0.5 and proportional hazards, how many on the new drug have died by 10 years?"
+        right: About fifty-five percent. Control survival is zero point two, and zero point two to the power of one half is zero point four five, so fifty-five percent have died: far from half of eighty.
+        wrong: A hazard ratio acts on the rate at each moment, not on the share who have died. Use survival, raised to the power of the hazard ratio.
+        * About 40 %
+        + About 55 %
+        * About 80 %
+
+On the curves, eighty percent dead in the control arm becomes about fifty-five on the new drug.
+    draw c1 lC1 q1
+
+Not forty. Halving the hazard slows the deaths; it does not halve them.
+    path naiveL dashed #8f887c points [[9.3,0.4],[10.7,0.4]] data true
+    label lNaive "not 0.4" right #8f887c attach_to naiveL
+
+So read every ratio as an answer to its own question, and ask for the absolute risks that say how many people it changes.
+    write "> Ratios say how much faster or likelier; absolute risks say **how many**."
+
+    pause 1

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Odds, risks and hazards</title>
+<meta name="description" content="How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Odds, risks and hazards">
+<meta property="og:description" content="How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Odds, risks and hazards","description":"How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves.","inLanguage":"en","educationalLevel":"Advanced","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.html","image":"https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="odds-risk-hazard.cast" as="fetch" crossorigin>
+<script type="module" src="https://drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/odds-risk-hazard.png" alt="Odds, risks and hazards"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Odds, risks and hazards</h1>
+<p class="drawcast-intro">How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Odds, risks and hazards</p>
+<p>How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves.</p>
+<p>A paper can report a treatment's effect as a risk ratio, an odds ratio or a hazard ratio. They sound alike, but they answer different questions, and the gap between them can be large.</p>
+<p>All of them start from the same place, a two-by-two table of exposure against outcome.</p>
+<p>Take a made-up trial. A hundred patients get the drug, and ten of them have a stroke within a year.</p>
+<p>Another hundred get placebo, and twenty of them have a stroke.</p>
+<p>The plainest measure is the risk, the share of the people at the start who have the event.</p>
+<p>So the risk is ten percent on the drug, and twenty percent on placebo.</p>
+<p>A risk without a time window means nothing, so we say one-year risk.</p>
+<p>Subtract one risk from the other, and you get the risk difference, ten fewer strokes per hundred patients treated.</p>
+<p>Turn it upside down, and it becomes the number needed to treat. Treat ten people for a year, and you prevent one stroke.</p>
+<p>Laupacis, Sackett and Roberts proposed that number in nineteen eighty-eight, because it speaks in patients rather than proportions.</p>
+<p>The ninety who were spared on the drug, and the eighty on placebo, will matter soon, because the next measure uses them.</p>
+<p>For now, keep one idea. The risk difference and the number needed to treat are absolute measures. They tell you how many people a treatment changes.</p>
+<p>Back in our trial, the one-year risk was twenty percent on placebo and ten on the drug.</p>
+<p>Divide the risks instead of subtracting them, and you get the risk ratio, also called the relative risk. Here it is one half.</p>
+<p>A risk ratio of one means no difference. Below one, the exposure prevents events, and above one, it causes them.</p>
+<p>Reported as a relative risk reduction, that becomes the headline. The drug halves the risk of stroke.</p>
+<p>Now keep the drug's effect the same, but give it to patients whose baseline risk is ten times lower.</p>
+<p>Two in a hundred of them have a stroke on placebo. If the risk ratio holds, the drug halves that to one in a hundred.</p>
+<p>The relative effect is still one half. But the absolute benefit has shrunk from ten percentage points to one.</p>
+<p>To prevent one stroke in these patients, you must now treat a hundred people instead of ten, with the costs and side effects borne by all of them.</p>
+<p>That is the usual division of labour. Risk ratios tend to be fairly stable across populations, so they travel well, while the risk difference depends on the baseline risk.</p>
+<p>But it is the absolute effect that a patient's decision rests on.</p>
+<p>One more property is easy to forget. A risk cannot exceed one, so when the baseline risk is sixty percent, no risk ratio can be above one point six seven.</p>
+<p>That ceiling is a first hint that ratios behave differently when outcomes are common, and the odds ratio is where it matters most.</p>
+<p>Next chapter: Odds</p>
+<p>Risk is not the only way to put a number on a chance. Gamblers use odds, and so does logistic regression.</p>
+<p>The odds compare the chance that an event happens with the chance that it does not.</p>
+<p>A risk of twenty percent is twenty against eighty, odds of one to four, or zero point two five.</p>
+<p>A risk of one half gives even odds, exactly one.</p>
+<p>And a risk of eighty percent is eighty against twenty, odds of four.</p>
+<p>To go back, divide the odds by one plus the odds. Four over five is eighty percent again.</p>
+<p>So the odds run from zero to infinity, and they climb ever more steeply as the risk approaches one.</p>
+<p>Now set the risk itself beside them, as a straight line.</p>
+<p>Down where the risk is small, the two almost coincide. A risk of ten percent has odds of zero point one one.</p>
+<p>That is the rare-outcome rule. When the event is rare, odds and risk are nearly the same number.</p>
+<p>Higher up they part fast. At a risk of eighty percent, the odds are five times larger.</p>
+<p>In our trial, the odds of stroke were ten to ninety on the drug, and twenty to eighty on placebo.</p>
+<p>Placebo sits right here, at a risk of twenty percent and odds of a quarter. The next step is to divide one odds by the other.</p>
+<p>Divide one group's odds by the other's, and you have the odds ratio, the measure behind case-control studies and logistic regression.</p>
+<p>In the cells of a two-by-two table it is a times d over b times c, the cross-product ratio.</p>
+<p>For our stroke trial it comes to zero point four four, a little further from one than the risk ratio of one half.</p>
+<p>The same quantity sits at the heart of logistic regression, which models the log of the odds as a straight line in the covariates.</p>
+<p>Each coefficient is a log odds ratio. For the drug in our trial it is about minus zero point eight one. Exponentiate it, and you are back at zero point four four.</p>
+<p>So whenever a paper reports a logistic model, its effects are odds ratios, whatever the abstract calls them.</p>
+<p>Its real strength shows when a disease is rare and would take decades to follow. A case-control study starts from the disease, not from the exposure.</p>
+<p>The classic case is Doll and Hill's study of lung cancer, published in nineteen fifty. Of six hundred and forty-nine men with lung cancer in London hospitals, all but two had smoked.</p>
+<p>Each was matched with a control patient without cancer. Among those six hundred and forty-nine men, twenty-seven had never smoked.</p>
+<p>Now try to compute a risk. Six hundred and forty-seven cancers among twelve hundred and sixty-nine smokers looks like a risk of fifty-one percent.</p>
+<p>But that number is an artefact. Take two controls per case and it drops to about a third, because the investigators chose how many controls there were.</p>
+<p>The odds ratio does not care. Six hundred and forty-seven times twenty-seven, over six hundred and twenty-two times two, is about fourteen.</p>
+<p>Doubling the controls doubles b and d alike, and the factor cancels in a times d over b times c.</p>
+<p>The odds ratio is symmetric. The odds of smoking in cases against controls equal the odds of cancer in smokers against non-smokers.</p>
+<p>Jerome Cornfield showed this in nineteen fifty-one, with lung cancer among his examples, and added that when the disease is rare, the odds ratio also approximates the risk ratio.</p>
+<p>With only two non-smoking cases, fourteen is a rough estimate. But no plausible error brings it anywhere near one.</p>
+<p>So when does the odds ratio stop approximating the risk ratio? The answer depends on how common the outcome is.</p>
+<p>Fix the odds ratio at two, the same in every population, and let the baseline risk run from zero to one.</p>
+<p>For a baseline risk p-zero, the matching risk ratio follows from this formula, which Zhang and Yu popularised in nineteen ninety-eight.</p>
+<p>Drawn out, the risk ratio starts at two when the outcome is rare, and sinks toward one as it becomes common.</p>
+<p>At a baseline risk of five percent, the risk ratio is still one point nine, and the odds ratio is a fair stand-in.</p>
+<p>At fifty percent it is only one point three three. Twice the odds is a third more risk.</p>
+<p>The odds ratio always lies further from one than the risk ratio, above one and below it, and the gap grows with the baseline risk.</p>
+<p>Now turn the same picture over, to an odds ratio below one.</p>
+<p>Set the odds ratio to zero point six. Where the outcome is common, the risk ratio climbs almost to one.</p>
+<p>That is the scale of a real mix-up. In nineteen ninety-nine, a study reported that doctors referred Black patients for cardiac catheterization with an odds ratio of zero point six, compared with white patients.</p>
+<p>News reports said Black patients were forty percent less likely to be referred. But the referral rates were eighty-five and ninety-one percent.</p>
+<p>That is a risk ratio of about zero point nine three, a seven percent difference, as Schwartz, Woloshin and Welch pointed out in the same journal.</p>
+<p>One warning about the conversion. Fed an adjusted odds ratio, it gives biased estimates and wrong confidence intervals, so with a common outcome, estimate the risk ratio directly, with a log-binomial or a modified Poisson model.</p>
+<p>So with a common outcome, read an odds ratio as an exaggerated risk ratio, in whichever direction it points.</p>
+<p>Next chapter: Time</p>
+<p>Risks and odds both count people. But in a real cohort, people are followed for different lengths of time.</p>
+<p>Here are six patients followed after a first heart attack, an illustration. Three have a second one, after one, two and three years.</p>
+<p>The others leave without it. The study ends, or they move away, and their follow-up is censored.</p>
+<p>Three events among six people looks like a risk of fifty percent. But over what time? One patient was watched for a year, others for five.</p>
+<p>The fix is to count time instead of people. Add up every year each patient was watched.</p>
+<p>These six contribute twenty person-years between them.</p>
+<p>Three events in twenty person-years is a rate of zero point one five per person-year, or fifteen per hundred.</p>
+<p>Two groups are compared by their rate ratio, which, like the risk ratio, is one when the exposure does nothing.</p>
+<p>Ten events in five hundred person-years against ten in two hundred and fifty is a rate ratio of one half, even though the counts are equal.</p>
+<p>With a constant rate, a rate turns back into a risk. After five years at zero point one five, the risk is one minus e to the minus zero point seven five, about fifty-three percent.</p>
+<p>Person-time has one assumption built in. The censored patients must be like those who stayed, because if the sickest drop out, the rate looks better than it is.</p>
+<p>Now imagine counting events per person-time in an ever thinner slice of time. In the limit, the rate at a single instant is called the hazard.</p>
+<p>Shrink that slice of time to an instant, and the rate becomes the hazard, the event rate among those still event-free, right now.</p>
+<p>Take patients with an advanced cancer, and say that on standard treatment they die at a constant hazard of zero point two a year, an illustration.</p>
+<p>Drawn as the share who have died, their curve rises as one minus e to the minus zero point two t.</p>
+<p>The hazard ratio compares two groups' hazards at the same moment.</p>
+<p>Now add a new drug, and start it at a hazard ratio of one, where its curve lies on top of the standard one.</p>
+<p>Then lower the hazard ratio to one half. At every moment, patients on the new drug die at half the standard rate.</p>
+<p>This is the Cox proportional hazards model, from nineteen seventy-two. The baseline hazard is left unspecified, and because it cancels in the ratio, the hazard ratio needs no model of time at all.</p>
+<p>Now the trap. After two years, thirty-three percent of the standard group have died, against eighteen percent on the new drug.</p>
+<p>After ten years it is eighty-six against sixty-three percent, a risk ratio of zero point seven three.</p>
+<p>The hazard ratio stayed at one half the whole time, yet the risk ratio drifted toward one.</p>
+<p>Everyone dies in the end. A drug that halves the hazard delays deaths, so the share who have died converges.</p>
+<p>Under proportional hazards, survival on the new drug is simply the standard group's survival raised to the power of the hazard ratio.</p>
+<p>Hernán added a subtler warning in twenty ten. Later hazards compare the survivors, and after the first deaths, the survivors in two arms are no longer alike, even in a randomized trial.</p>
+<p>The Cox model assumes the hazard ratio is the same at every moment. Often it is not.</p>
+<p>Take a made-up comparison. A medical treatment leaves patients with a steady death rate of eight percent a year.</p>
+<p>Surgery kills some patients early, around the operation, but leaves the survivors with a hazard of only three percent a year.</p>
+<p>In the first months the surgical hazard is far higher, so the hazard ratio is well above one.</p>
+<p>Later it settles near zero point four, and the survival curves cross, here at four years.</p>
+<p>That breaks the proportional hazards assumption.</p>
+<p>A single Cox hazard ratio would average an early harm and a late benefit, weighted by when the deaths happen, and describe neither.</p>
+<p>To check the assumption, plot log minus log survival against log time and look for parallel lines, or test the Schoenfeld residuals for a trend.</p>
+<p>When it fails, report the curves themselves, hazard ratios for separate periods, or the restricted mean survival time, the area under each curve up to a fixed horizon.</p>
+<p>Up to four years, surgery loses area, about three tenths of a year of life on average.</p>
+<p>After four years it gains it back, just over half a year.</p>
+<p>Over ten years, the net difference is about a fifth of a year, roughly ten weeks, in favour of surgery.</p>
+<p>That number is in time, not in ratios, and it stays meaningful whether hazards are proportional or not.</p>
+<p>Next chapter: Choosing a measure</p>
+<p>One more property separates these measures, and it surprises experienced analysts. Take a trial with two equal strata, randomized within each, so there is no confounding.</p>
+<p>Say the outcome is recovery from pneumonia within a week, with made-up numbers. Among older patients, recovery is fifty percent on placebo and eighty on treatment, an odds ratio of four.</p>
+<p>Among younger patients it is twenty against fifty percent, again an odds ratio of exactly four.</p>
+<p>Pool everyone, and recovery is thirty-five against sixty-five percent. The odds ratio is now three point four five.</p>
+<p>So the pooled odds ratio is smaller than the odds ratio in every stratum, with no confounding at all.</p>
+<p>That is non-collapsibility. The risk ratio and the risk difference pool to values between the strata, but the odds ratio and the hazard ratio do not.</p>
+<p>So adding a prognostic covariate to a logistic or a Cox model moves the estimate away from one, even in a perfectly randomized trial.</p>
+<p>That change is not confounding. The conditional and the marginal odds ratios simply answer different questions.</p>
+<p>Put together, each measure answers its own question, and only some designs can deliver it.</p>
+<p>A case-control study gives you the odds ratio alone, unless the baseline risk is known from elsewhere, while a trial or a cohort can give you every one of them.</p>
+<p>One habit protects readers from most of these traps. Give the absolute risks, at a stated time, next to every ratio.</p>
+<p>One last check, on a new cancer trial, drawn the way we drew the hazards.</p>
+<p>In the control arm, eighty percent have died by ten years.</p>
+<p>With a hazard ratio of 0.5 and proportional hazards, how many on the new drug have died by 10 years?</p>
+<p>About fifty-five percent. Control survival is zero point two, and zero point two to the power of one half is zero point four five, so fifty-five percent have died: far from half of eighty.</p>
+<p>On the curves, eighty percent dead in the control arm becomes about fifty-five on the new drug.</p>
+<p>Not forty. Halving the hazard slows the deaths; it does not halve them.</p>
+<p>So read every ratio as an answer to its own question, and ask for the absolute risks that say how many people it changes.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="odds-risk-hazard.cast" data-gh="hmelberg/drawcast-library/casts/odds-risk-hazard.cast"></script>
+</body>
+</html>

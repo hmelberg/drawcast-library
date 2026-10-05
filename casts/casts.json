@@ -776,6 +776,13 @@
       "file": "what-99-accurate-is-worth.cast",
       "updated": "2026-10-04",
       "page": true
+    },
+    {
+      "slug": "odds-risk-hazard",
+      "title": "Odds, risks and hazards",
+      "file": "odds-risk-hazard.cast",
+      "updated": "2026-10-05",
+      "page": true
     }
   ]
 }

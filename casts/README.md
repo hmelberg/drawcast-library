@@ -1,5 +1,6 @@
 # Drawcasts
 
+- [Odds, risks and hazards](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
 - [How many minutes is the ball actually in play?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-04
