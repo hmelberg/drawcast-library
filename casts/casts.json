@@ -1140,6 +1140,13 @@
       "file": "fermats-last-theorem.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "p-vs-np",
+      "title": "P vs NP: checking versus finding",
+      "file": "p-vs-np.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }

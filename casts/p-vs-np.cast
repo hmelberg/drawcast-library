@@ -1,0 +1,353 @@
+# P vs NP: checking versus finding
+subtitle: "Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all."
+thumb: "band \"Easy to check. Hard to find?\" note \"$1,000,000\" graph"
+
+## P vs NP: checking versus finding
+page: {"valign":"none"}
+domain: {"x":[0,30],"y":[0,1000]}
+vars:
+    'n':
+      value: 5
+      min: 1
+      max: 30
+      step: 1
+      decimals: 0
+    sq:
+      expr: n^2
+    ex:
+      expr: 2^n
+    g: 0
+sources:
+    - id: cook
+      title: The complexity of theorem-proving procedures
+      authors: Stephen A. Cook
+      year: 1971
+      finding: 'Satisfiability is NP-complete: every problem checkable in polynomial time reduces to it (Proc. 3rd ACM STOC, 151–158)'
+      doi: 10.1145/800157.805047
+    - id: karp
+      title: Reducibility among combinatorial problems
+      authors: Richard M. Karp
+      year: 1972
+      finding: 21 combinatorial problems (knapsack, graph colouring, Hamiltonian circuit, clique…) are NP-complete (in Complexity of Computer Computations, 85–103)
+    - id: clay
+      title: P vs NP — Millennium Prize Problems
+      authors: Clay Mathematics Institute; official problem description by Stephen Cook
+      year: 2000
+      finding: One of seven problems with a US $1,000,000 prize, announced in 2000
+      url: https://www.claymath.org/millennium/p-vs-np/
+    - id: poll
+      title: 'Guest Column: The Third P =? NP Poll'
+      authors: William I. Gasarch (SIGACT News)
+      year: 2019
+      finding: 88% of 124 respondents believed P ≠ NP (61% in 2002, 83% in 2012)
+
+    cards nums size 1.4 y 600 select "Sum = 100" check end hidden true
+        * "14" in true
+        * "21" in false
+        * "29" in true
+        * "38" in false
+        * "45" in false
+        * "52" in false
+        * "57" in true
+        * "63" in false
+    math pow tex "2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 2^8 = 256" size 34 x 500 y 500 hidden true
+    math pow2 tex "\\times 2 \\;\\to\\; 2^9 = 512" size 34 colors {"512":"#b5482e"} x 500 y 390 hidden true
+    math pow3 tex "2^{10} = 1024 \\qquad 2^{20} \\approx 1\\,000\\,000" size 34 x 500 y 280 hidden true
+    axes ax x_label "n, numbers in the list" y_label Steps hidden true
+    curve sq_curve #2f6b8f expr x^2 hidden true
+    label sq_label right #2f6b8f attach_to sq_curve tex n^2 font_size 34 hidden true
+    curve ex_curve #b5482e expr 2^x hidden true
+    label ex_label right #b5482e attach_to ex_curve tex 2^n font_size 34 hidden true
+    dot dot_sq #2f6b8f at.x 5 at.y 25 bind {"at.x":"n","at.y":"n^2"} hidden true
+    dot dot_ex #b5482e at.x 5 at.y 32 bind {"at.x":"min(n, 9.96)","at.y":"min(2^n, 1000)"} hidden true
+    math readout tex "\\begin{array}{l} n = {n} \\\\ n^2 = {sq:0,} \\\\ 2^n = {ex:0,} \\end{array}" size 32 colors {"n^2":"#2f6b8f","2^n":"#b5482e"} x 820 y 250 hidden true
+    scratch calc work ["A billion steps a second:","50 numbers → 13 days","100 numbers → 40 trillion years","Check 100 → 0.00001 s"] x 640 y 540 font_size 34 hidden true
+    ellipse np x 430 y 360 rx 370 ry 245 hidden true
+    ellipse ring #8f887c x 430 y 360 rx 370 ry 245 style.fill #f2c14e style.fill_style wash style.opacity 0.3 hidden true
+    text qmark "?" #b5482e x 450 y 360 font_size 110 hidden true
+    text np_big "NP" x 430 y 565 font_size 56 hidden true
+    text np_sub "quick to check" x 430 y 498 font_size 26 hidden true
+    ellipse p thick #2f6b8f x 250 y 360 rx 135 ry 100 bind.rx "135 + 235*g" bind.ry "100 + 145*g" bind.x "250 + 180*g" style.fill #2f6b8f style.fill_style wash style.opacity 0.3 hidden true
+    text p_big "P" #1f4f6b x 250 y 395 font_size 56 hidden true
+    text p_sub "quick to solve" #1f4f6b x 250 y 325 font_size 26 hidden true
+    ellipse npc thick #b5482e x 635 y 360 rx 130 ry 180 hidden true
+    text npc_name "NP-complete" #b5482e x 645 y 470 font_size 28 hidden true
+    text w1 "Subset sum" x 655 y 410 font_size 27 hidden true
+    text w2 "Sudoku" x 655 y 360 font_size 27 hidden true
+    text w3 "Map colouring" x 655 y 310 font_size 27 hidden true
+    shape d1 shape circle x 300 y 520 radius 7 style.fill #3d3833 hidden true
+    shape d2 shape circle x 330 y 195 radius 7 style.fill #3d3833 hidden true
+    shape d3 shape circle x 250 y 282 radius 7 style.fill #3d3833 hidden true
+    arrow r1 #8f887c from.ref d1 to.anchor left to.ref npc hidden true
+    arrow r2 #8f887c from.ref d2 to.anchor left to.ref npc hidden true
+    arrow r3 #8f887c from.ref d3 to.anchor left to.ref npc hidden true
+    group reduce members ["d1","d2","d3","r1","r2","r3"] hidden true
+    text factoring "Factoring" #8a5fa8 x 420 y 195 font_size 30 hidden true
+    portrait cook x 890 y 400 width 180 of "Stephen Cook" cameo true hidden true
+    portrait karp x 890 y 400 width 180 of "Richard M. Karp" cameo true hidden true
+    box c1 "Routes" icon ["delivery truck","truck"] in cons hidden true
+    box c2 "Encryption" icon ["locked","padlock","lock"] in cons hidden true
+    box c3 "Proofs" icon ["scroll","page"] in cons hidden true
+    column cons walk true fit.h 480 fit.w 170 fit.x 815 fit.y 140 hidden true
+    text neq "88% bet" cites ["poll"] x 890 y 590 font_size 34 hidden true
+    text neq2 "P ≠ NP" cites ["poll"] x 890 y 545 font_size 34 hidden true
+    icon trophy size 120 set twemoji x 890 y 400 icon_look picture of trophy hidden true
+    text prize "$1,000,000" #b5482e cites ["clay"] x 890 y 280 font_size 40 hidden true
+
+    card title "P vs NP"
+
+A: Here's a question worth a million dollars: why does checking an answer seem so much easier than finding one?
+    draw nums
+
+A: Take eight numbers, and pick some that add up to exactly one hundred.
+    highlight nums_1 nums_2 nums_3 nums_4 nums_5 nums_6 nums_7 nums_8
+
+B: Easy: thirty-eight and sixty-three!
+    highlight nums_4 nums_8 effect circle
+
+    quiz "Do 38 and 63 make exactly 100?" on_canvas true buttons_at.x 500 buttons_at.y 135
+        right: No: thirty-eight plus sixty-three is a hundred and one. One addition, and you knew.
+        * Yes
+        + No
+
+    ask "Tap the numbers that add up to exactly 100, then press Done." on nums store f after keep
+        intro: Checking is quick. Now try the other job: finding a pick that works.
+        right: Yes: fourteen, twenty-nine and fifty-seven make a hundred, and nothing else does.
+        wrong: The only pick that works is fourteen, twenty-nine and fifty-seven.
+
+B: That took me much longer. I kept adding, and throwing sums away.
+    highlight nums_1 nums_3 nums_7
+
+    erase nums
+
+    ask "How many different picks can you make from eight numbers?" estimate.min 0 estimate.max 1000 estimate.value 256 estimate.unit picks store e relative true
+        intro: That's the gap. Each check is one sum, but how many picks are there to check?
+        right: Close: you said {e}; it is 256.
+        wrong: You said {e}; it is 256.
+
+A: Each number is either in or out: two choices, eight times over. Two to the eight is two hundred and fifty-six.
+    draw pow
+
+B: So a ninth number doubles the work?
+    draw pow2
+
+    draw pow3
+
+A: Every new number doubles it. There are cleverer methods than trying every pick, but for long lists of big numbers, none is known that escapes this kind of growth.
+    blocking false
+
+    highlight pow3
+
+    pause 4
+
+    highlight pow pow2 pow3
+
+    clear
+
+A: Let's draw both kinds of work against the size of the problem, n. Checking a pick takes about n additions; call it n squared.
+    draw ax sq_curve sq_label
+
+B: Why squared, if it's only n additions?
+    highlight sq_label
+
+A: To show that even a slower check stays tame.
+    highlight sq_curve
+
+A: Searching every pick takes two to the n.
+    draw ex_curve ex_label
+
+    draw dot_sq dot_ex readout
+
+B: Down here they look close. Is it really that different? Drag n in the formula and see.
+    explore
+
+A: At thirty, n squared is nine hundred; two to the n is over a billion.
+    animate n 30 duration 4
+
+    erase readout
+
+B: But computers are fast. A billion steps a second?
+    draw calc_box calc_line_1
+
+    draw calc_line_2 calc_line_3
+
+A: Then fifty numbers take about thirteen days; a hundred take about forty trillion years, some three thousand times the age of the universe.
+    blocking false
+
+    highlight calc_line_2
+
+    pause 2.6
+
+    highlight calc_line_3 ex_curve
+
+    draw calc_line_4
+
+A: Checking an answer for a hundred numbers, meanwhile: at most ten thousand steps, a hundred-thousandth of a second.
+    blocking false
+
+    highlight calc_line_4
+
+    pause 3
+
+    highlight sq_curve
+
+    clear
+
+A: Computer scientists sort problems by exactly (@draw p p_big p_sub@) this. P: the problems we can solve fast, with steps growing like a power of n, never like two to the n.
+
+A: NP is the problems where a proposed answer can be checked fast, like our sum.
+    draw np np_big np_sub
+
+B: So is every problem in P also in NP?
+    highlight np
+
+    quiz "Is every problem in P also in NP?" on_canvas true buttons_at.x 900 buttons_at.y 360 buttons_layout column
+        right: Yes: if you can solve it fast, you can check an answer fast. Just solve it and compare.
+        + Yes
+        * No
+
+A: The open question is whether anything in NP lies outside P.
+    draw ring qmark
+
+A: In 1971 Stephen Cook, and independently Leonid Levin, found something remarkable.
+    draw cook
+
+    erase cook ring qmark
+
+A: Some problems in NP are the hardest of all: every NP problem can be translated into them, quickly.
+    draw npc npc_name reduce
+
+B: Translated? How do you turn a sudoku into a sum?
+    flow r1 r2 r3
+
+A: Mechanically. Any NP puzzle's rules can be rewritten, fast, as an instance of the hard problem: solve that, and you've solved the original.
+    highlight npc
+
+    draw karp
+
+A: In 1972 Richard Karp showed twenty-one famous problems are lik (@draw w3 w2 w1@)e that. Today thousands are known, from map colouring to sudoku to our sum.
+
+    erase karp
+
+B: So if I found a fast method for just one of them…
+    highlight w1 w2 w3
+
+A: …you'd have one for all of NP, and P would swallow NP.
+    animate g 1 duration 3 ghost ["p"]
+
+A: That would be wonderful, in part: delivery rout (@draw c1@)es, timetables and chip layouts could be optimised fast, if the method were practical.
+
+A: But public-key encryption could f (@draw c2@)all, in principle: it relies on locks that are easy to check and hard to pick.
+
+B: Is encryption one of those NP-complete problems?
+    highlight c2
+
+    draw factoring
+
+A: No: it rests on problems like factoring, which isn't known to be NP-complete. But factoring is in NP, so if P equals NP, it could fall with the rest.
+    blocking false
+
+    highlight factoring
+
+    pause 2.5
+
+    point at.ref npc gesture circle
+
+    pause 2.2
+
+    highlight np factoring
+
+B: And mathematics? A computer could find proofs about as easily as it checks them?
+    draw c3
+
+A: For proofs of reasonable length, yes. But nobody knows whether P equals NP.
+    animate g 0 duration 2.5
+
+    erase cons p_ghost
+
+    draw neq neq2
+
+A: In a 2019 poll, eighty-eight percent of researchers bet it doesn't: decades of searching have found no fast method for any of those thousands.
+    blocking false
+
+    highlight neq neq2
+
+    pause 3.6
+
+    focus npc npc_name w1 w2 w3 duration 3.5
+
+A: Prove it either way, and the Clay Mathematics In (@draw trophy prize@)stitute pays a million dollars, a prize offered since 2000.
+
+    mark ring_npc around npc kind circle
+
+B: So checking stays easy as problems grow, and finding may not. And one fast method for any NP-complete problem would settle it for everything.
+    blocking false
+
+    highlight np
+
+    pause 3.8
+
+    flow r1 r2 r3
+
+    quiz "A friend hands you a filled-in sudoku. What is quick?"
+        right: Checking: one look at every row, column and box. Solving can mean a long search.
+        wrong: Think of the hundred: one sum to check, a search to find.
+        + Checking that it is right
+        * Solving a fresh one from scratch
+        * Both take about as long
+
+    quiz "Someone finds a fast method for three-colouring maps, an NP-complete problem. What follows?"
+        right: Every NP problem translates quickly into map colouring, so a fast colourer solves them all: P would equal NP.
+        wrong: Remember the arrows: every NP problem translates into an NP-complete one.
+        * Only map colouring gets easier
+        + Every NP problem can be solved fast
+        * Nothing: checking was already fast
+
+## Thumbnail
+role: thumbnail
+
+    box n1 "14" font_size 54 in grid hidden true
+    box n2 "21" font_size 54 in grid hidden true
+    box n3 "29" font_size 54 in grid hidden true
+    box n4 "38" font_size 54 in grid hidden true
+    box n5 "45" font_size 54 in grid hidden true
+    box n6 "52" font_size 54 in grid hidden true
+    box n7 "57" font_size 54 in grid hidden true
+    box n8 "63" font_size 54 in grid hidden true
+    grid grid gap 30 columns 4 fit.h 320 fit.w 720 fit.x 50 fit.y 300 hidden true
+    text goal "Which make 100?" #b5482e x 410 y 690 font_size 60 hidden true
+    thumb t1 "Easy to check. Hard to find?" kind band hidden true
+    thumb t2 "$1,000,000" kind stamp x 880 y 470 angle 12 hidden true
+
+## Thumbnail
+domain:
+    x:
+      - 0
+      - 30
+    'y':
+      - 0
+      - 1000
+    box:
+      x: 110
+      'y': 280
+      w: 820
+      h: 420
+role: thumbnail
+
+    axes ax x_label n y_label Steps hidden true
+    curve sq #2f6b8f expr x^2 style.stroke_width 5 hidden true
+    curve ex #b5482e expr 2^x style.stroke_width 5 hidden true
+    text yrs "40 trillion years" #b5482e x 650 y 665 font_size 50 hidden true
+    thumb t1 "Finding vs checking" kind band hidden true
+    thumb t2 kind bang x 250 y 560 hidden true
+
+## Thumbnail
+role: thumbnail
+
+    ellipse np x 500 y 460 rx 400 ry 215 style.stroke_width 4 hidden true
+    ellipse p #2f6b8f x 290 y 460 rx 150 ry 115 style.fill #2f6b8f style.fill_style wash style.opacity 0.3 style.stroke_width 4 hidden true
+    text pl "P" #2f6b8f x 290 y 460 font_size 90 hidden true
+    text npl "NP" x 730 y 460 font_size 90 hidden true
+    text q "= ?" #b5482e x 520 y 460 font_size 90 hidden true
+    thumb t1 "Crack one, crack them all" kind band hidden true
+    thumb t2 "$1,000,000" kind stamp x 530 y 620 angle 6 hidden true

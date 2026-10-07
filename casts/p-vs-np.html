@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P vs NP: checking versus finding</title>
+<meta name="description" content="Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/p-vs-np.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="P vs NP: checking versus finding">
+<meta property="og:description" content="Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/p-vs-np.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/p-vs-np.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"P vs NP: checking versus finding","description":"Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/p-vs-np.html","image":"https://hmelberg.github.io/drawcast-library/casts/p-vs-np.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="p-vs-np.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width. */
+body.viewer-body { flex-wrap: wrap; align-content: flex-start; }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/p-vs-np.png" alt="P vs NP: checking versus finding"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>P vs NP: checking versus finding</h1>
+<p class="drawcast-intro">Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>P vs NP: checking versus finding</p>
+<p>Two friends try a number puzzle, watch 2ⁿ outrun n², and see why one fast trick for one hard problem would crack them all.</p>
+<p>Here's a question worth a million dollars: why does checking an answer seem so much easier than finding one?</p>
+<p>Take eight numbers, and pick some that add up to exactly one hundred.</p>
+<p>Easy: thirty-eight and sixty-three!</p>
+<p>Do 38 and 63 make exactly 100?</p>
+<p>No: thirty-eight plus sixty-three is a hundred and one. One addition, and you knew.</p>
+<p>Checking is quick. Now try the other job: finding a pick that works. Tap the numbers that add up to exactly 100, then press Done.</p>
+<p>That took me much longer. I kept adding, and throwing sums away.</p>
+<p>That's the gap. Each check is one sum, but how many picks are there to check? How many different picks can you make from eight numbers?</p>
+<p>Each number is either in or out: two choices, eight times over. Two to the eight is two hundred and fifty-six.</p>
+<p>So a ninth number doubles the work?</p>
+<p>Every new number doubles it. There are cleverer methods than trying every pick, but for long lists of big numbers, none is known that escapes this kind of growth.</p>
+<p>Let's draw both kinds of work against the size of the problem, n. Checking a pick takes about n additions; call it n squared.</p>
+<p>Why squared, if it's only n additions?</p>
+<p>To show that even a slower check stays tame.</p>
+<p>Searching every pick takes two to the n.</p>
+<p>At thirty, n squared is nine hundred; two to the n is over a billion.</p>
+<p>But computers are fast. A billion steps a second?</p>
+<p>Then fifty numbers take about thirteen days; a hundred take about forty trillion years, some three thousand times the age of the universe.</p>
+<p>Checking an answer for a hundred numbers, meanwhile: at most ten thousand steps, a hundred-thousandth of a second.</p>
+<p>Computer scientists sort problems by exactly this. P: the problems we can solve fast, with steps growing like a power of n, never like two to the n.</p>
+<p>NP is the problems where a proposed answer can be checked fast, like our sum.</p>
+<p>So is every problem in P also in NP?</p>
+<p>Is every problem in P also in NP?</p>
+<p>Yes: if you can solve it fast, you can check an answer fast. Just solve it and compare.</p>
+<p>The open question is whether anything in NP lies outside P.</p>
+<p>In 1971 Stephen Cook, and independently Leonid Levin, found something remarkable.</p>
+<p>Some problems in NP are the hardest of all: every NP problem can be translated into them, quickly.</p>
+<p>Translated? How do you turn a sudoku into a sum?</p>
+<p>Mechanically. Any NP puzzle's rules can be rewritten, fast, as an instance of the hard problem: solve that, and you've solved the original.</p>
+<p>In 1972 Richard Karp showed twenty-one famous problems are like that. Today thousands are known, from map colouring to sudoku to our sum.</p>
+<p>So if I found a fast method for just one of them…</p>
+<p>…you'd have one for all of NP, and P would swallow NP.</p>
+<p>That would be wonderful, in part: delivery routes, timetables and chip layouts could be optimised fast, if the method were practical.</p>
+<p>But public-key encryption could fall, in principle: it relies on locks that are easy to check and hard to pick.</p>
+<p>Is encryption one of those NP-complete problems?</p>
+<p>No: it rests on problems like factoring, which isn't known to be NP-complete. But factoring is in NP, so if P equals NP, it could fall with the rest.</p>
+<p>And mathematics? A computer could find proofs about as easily as it checks them?</p>
+<p>For proofs of reasonable length, yes. But nobody knows whether P equals NP.</p>
+<p>In a 2019 poll, eighty-eight percent of researchers bet it doesn't: decades of searching have found no fast method for any of those thousands.</p>
+<p>Prove it either way, and the Clay Mathematics Institute pays a million dollars, a prize offered since 2000.</p>
+<p>So checking stays easy as problems grow, and finding may not. And one fast method for any NP-complete problem would settle it for everything.</p>
+<p>A friend hands you a filled-in sudoku. What is quick?</p>
+<p>Checking: one look at every row, column and box. Solving can mean a long search.</p>
+<p>Someone finds a fast method for three-colouring maps, an NP-complete problem. What follows?</p>
+<p>Every NP problem translates quickly into map colouring, so a fast colourer solves them all: P would equal NP.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="p-vs-np.cast" data-gh="hmelberg/drawcast-library/casts/p-vs-np.cast"></script>
+</body>
+</html>
