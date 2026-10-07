@@ -1014,6 +1014,13 @@
       "file": "phones-vs-people.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "plastic-recycled",
+      "title": "How much of the world's plastic waste gets recycled?",
+      "file": "plastic-recycled.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }

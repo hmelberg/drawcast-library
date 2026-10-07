@@ -38,6 +38,7 @@
 - [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
 - [What happened to ozone-destroying gases after the world agreed to ban them?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ozone-cfc.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
+- [How much of the world's plastic waste gets recycled?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/plastic-recycled.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
