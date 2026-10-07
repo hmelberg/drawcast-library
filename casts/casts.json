@@ -1077,6 +1077,13 @@
       "file": "suicide-vs-homicide.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "time-alone",
+      "title": "As Americans grow older, how much of the day do they spend alone?",
+      "file": "time-alone.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
