@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "richest-vs-poorest",
-      "title": "How many times richer is the richest country than the poorest?",
-      "file": "richest-vs-poorest.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "rwanda-parliament",
       "title": "Which country has the most women in parliament?",
       "file": "rwanda-parliament.cast",
@@ -1131,6 +1124,13 @@
       "slug": "price-of-light",
       "title": "How much work buys an hour of light, then and now?",
       "file": "price-of-light.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "richest-vs-poorest",
+      "title": "How many times richer is the richest country than the poorest?",
+      "file": "richest-vs-poorest.cast",
       "updated": "2026-10-07",
       "page": true
     }
