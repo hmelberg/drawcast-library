@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "chickens-per-year",
-      "title": "How many chickens are slaughtered for meat each year?",
-      "file": "chickens-per-year.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "children-in-1800",
       "title": "In 1800, how many children died before their fifth birthday?",
       "file": "children-in-1800.cast",
@@ -1131,6 +1124,13 @@
       "slug": "bee-colonies",
       "title": "Do we need bees to eat? Four claims: true or myth?",
       "file": "bee-colonies.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "chickens-per-year",
+      "title": "How many chickens are slaughtered for meat each year?",
+      "file": "chickens-per-year.cast",
       "updated": "2026-10-07",
       "page": true
     }
