@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "fastest-ramp",
-      "title": "Which ramp is fastest?",
-      "file": "fastest-ramp.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "first-hard-drive",
       "title": "How much did the first hard drive weigh?",
       "file": "first-hard-drive.cast",
@@ -1131,6 +1124,13 @@
       "slug": "famous-paintings",
       "title": "Who painted it? Match four famous paintings",
       "file": "famous-paintings.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "fastest-ramp",
+      "title": "Which ramp is fastest?",
+      "file": "fastest-ramp.cast",
       "updated": "2026-10-07",
       "page": true
     }
