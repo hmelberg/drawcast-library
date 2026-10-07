@@ -1028,6 +1028,13 @@
       "file": "population-peak.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "poverty-headline",
+      "title": "How many people left extreme poverty every day since 1990?",
+      "file": "poverty-headline.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
