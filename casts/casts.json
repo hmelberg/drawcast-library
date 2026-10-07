@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "price-of-light",
-      "title": "How much work buys an hour of light, then and now?",
-      "file": "price-of-light.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "richest-vs-poorest",
       "title": "How many times richer is the richest country than the poorest?",
       "file": "richest-vs-poorest.cast",
@@ -1131,6 +1124,13 @@
       "slug": "poverty-headline",
       "title": "How many people left extreme poverty every day since 1990?",
       "file": "poverty-headline.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "price-of-light",
+      "title": "How much work buys an hour of light, then and now?",
+      "file": "price-of-light.cast",
       "updated": "2026-10-07",
       "page": true
     }
