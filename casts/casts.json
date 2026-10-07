@@ -811,6 +811,13 @@
       "file": "chickens-per-year.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "children-in-1800",
+      "title": "In 1800, how many children died before their fifth birthday?",
+      "file": "children-in-1800.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }

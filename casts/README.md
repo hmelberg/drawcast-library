@@ -9,6 +9,7 @@
 - [Battery prices since 1991: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/battery-prices.cast) — 2026-10-07
 - [Do we need bees to eat? Four claims: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bee-colonies.cast) — 2026-10-07
 - [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-07
+- [In 1800, how many children died before their fifth birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/children-in-1800.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
