@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "sunlight-travel-time",
-      "title": "How long does sunlight take to reach Earth?",
-      "file": "sunlight-travel-time.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "tallest-mountain",
       "title": "Which is the tallest mountain on Earth?",
       "file": "tallest-mountain.cast",
@@ -1131,6 +1124,13 @@
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "sunlight-travel-time",
+      "title": "How long does sunlight take to reach Earth?",
+      "file": "sunlight-travel-time.cast",
       "updated": "2026-10-07",
       "page": true
     }
