@@ -35,6 +35,7 @@
 - [How many people still live without electricity?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/no-electricity.cast) — 2026-10-07
 - [What share of new cars sold in Norway are fully electric?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/norway-electric-cars.cast) — 2026-10-07
 - [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-07
+- [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
