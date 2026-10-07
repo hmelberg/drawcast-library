@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "leaded-petrol",
-      "title": "When did the last country stop selling leaded petrol?",
-      "file": "leaded-petrol.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "literacy-1820",
       "title": "In 1820, what share of the world could read?",
       "file": "literacy-1820.cast",
@@ -1131,6 +1124,13 @@
       "slug": "internet-half",
       "title": "In what year did half of the world's people first use the internet?",
       "file": "internet-half.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "leaded-petrol",
+      "title": "When did the last country stop selling leaded petrol?",
+      "file": "leaded-petrol.cast",
       "updated": "2026-10-07",
       "page": true
     }
