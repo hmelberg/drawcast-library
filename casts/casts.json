@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "happiest-country",
-      "title": "Which country tops the World Happiness Report?",
-      "file": "happiest-country.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "internet-half",
       "title": "In what year did half of the world's people first use the internet?",
       "file": "internet-half.cast",
@@ -1131,6 +1124,13 @@
       "slug": "guinea-worm",
       "title": "Guinea worm infected millions a year. How many human cases were there in 2025?",
       "file": "guinea-worm.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "happiest-country",
+      "title": "Which country tops the World Happiness Report?",
+      "file": "happiest-country.cast",
       "updated": "2026-10-07",
       "page": true
     }
