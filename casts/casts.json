@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "muller-lyer",
-      "title": "Which line is longer?",
-      "file": "muller-lyer.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "paper-folding",
       "title": "How many times can you fold paper in half?",
       "file": "paper-folding.cast",
@@ -1131,6 +1124,13 @@
       "slug": "most-time-zones",
       "title": "Which country has the most time zones?",
       "file": "most-time-zones.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "muller-lyer",
+      "title": "Which line is longer?",
+      "file": "muller-lyer.cast",
       "updated": "2026-10-07",
       "page": true
     }
