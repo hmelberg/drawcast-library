@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "livestock-land",
-      "title": "Livestock uses most farmland. How much of our food does it give?",
-      "file": "livestock-land.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "local-food-myth",
       "title": "How much of beef's carbon footprint is transport?",
       "file": "local-food-myth.cast",
@@ -1131,6 +1124,13 @@
       "slug": "literacy-1820",
       "title": "In 1820, what share of the world could read?",
       "file": "literacy-1820.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "livestock-land",
+      "title": "Livestock uses most farmland. How much of our food does it give?",
+      "file": "livestock-land.cast",
       "updated": "2026-10-07",
       "page": true
     }
