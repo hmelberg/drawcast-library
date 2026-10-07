@@ -56,8 +56,8 @@
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-07
+- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-04
 - [Do two of 23 people share a birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-04
 - [Body myths: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-04
