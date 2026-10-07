@@ -1098,6 +1098,13 @@
       "file": "whales-hunted.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "wild-mammals-share",
+      "title": "Of all the mammals on Earth, by weight, what share is wild?",
+      "file": "wild-mammals-share.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
