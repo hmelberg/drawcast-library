@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "cumulative-co2",
-      "title": "Which country has emitted the most CO₂ since 1750?",
-      "file": "cumulative-co2.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "deaths-per-energy",
       "title": "Which source of electricity is the deadliest?",
       "file": "deaths-per-energy.cast",
@@ -1131,6 +1124,13 @@
       "slug": "co2-per-person",
       "title": "Which country emits the most CO₂ per person?",
       "file": "co2-per-person.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "cumulative-co2",
+      "title": "Which country has emitted the most CO₂ since 1750?",
+      "file": "cumulative-co2.cast",
       "updated": "2026-10-07",
       "page": true
     }

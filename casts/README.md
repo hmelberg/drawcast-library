@@ -5,7 +5,6 @@
 - [Why rain is fresh](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-07
-- [Which country has emitted the most CO₂ since 1750?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cumulative-co2.cast) — 2026-10-07
 - [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-10-07
 - [Do natural disasters kill more people than a century ago?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/disaster-deaths.cast) — 2026-10-07
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-07
 - [In 1800, how many children died before their fifth birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/children-in-1800.cast) — 2026-10-07
 - [Which country emits the most CO₂ per person?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/co2-per-person.cast) — 2026-10-07
+- [Which country has emitted the most CO₂ since 1750?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cumulative-co2.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
