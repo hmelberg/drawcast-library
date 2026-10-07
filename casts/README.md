@@ -23,7 +23,6 @@
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
-- [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-07
 - [Which infectious disease kills the most people today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tb-still-top.cast) — 2026-10-07
 - [Which country drinks the most alcohol per adult?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/alcohol-top.cast) — 2026-10-07
 - [Battery prices since 1991: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/battery-prices.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [What share of new cars sold in Norway are fully electric?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/norway-electric-cars.cast) — 2026-10-07
 - [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-07
 - [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
+- [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
