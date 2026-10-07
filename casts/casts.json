@@ -930,6 +930,13 @@
       "file": "literacy-1820.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "livestock-land",
+      "title": "Livestock uses most farmland. How much of our food does it give?",
+      "file": "livestock-land.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
