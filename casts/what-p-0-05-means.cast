@@ -1,5 +1,6 @@
 # What p < 0.05 really means
 subtitle: "A blood-pressure trial on one curve: what a p-value measures, the misreading that flips it, and why 0.05 is only a convention."
+thumb: graph
 
 ## What p < 0.05 really means
 use: distribution_curve

@@ -309,13 +309,6 @@
       "page": true
     },
     {
-      "slug": "what-p-0-05-means",
-      "title": "What p < 0.05 really means",
-      "file": "what-p-0-05-means.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "where-a-heat-pump-s-extra-heat-comes",
       "title": "Where a heat pump's extra heat comes from",
       "file": "where-a-heat-pump-s-extra-heat-comes.cast",
@@ -782,6 +775,13 @@
       "title": "Odds, risks and hazards",
       "file": "odds-risk-hazard.cast",
       "updated": "2026-10-05",
+      "page": true
+    },
+    {
+      "slug": "what-p-0-05-means",
+      "title": "What p < 0.05 really means",
+      "file": "what-p-0-05-means.cast",
+      "updated": "2026-10-07",
       "page": true
     }
   ]
