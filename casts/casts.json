@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "viking-words",
-      "title": "Which words came from the Vikings?",
-      "file": "viking-words.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "what-the-universe-is-made-of",
       "title": "What is the universe made of?",
       "file": "what-the-universe-is-made-of.cast",
@@ -1131,6 +1124,13 @@
       "slug": "venus-day-year",
       "title": "On Venus, which is longer: a day or a year?",
       "file": "venus-day-year.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "viking-words",
+      "title": "Which words came from the Vikings?",
+      "file": "viking-words.cast",
       "updated": "2026-10-07",
       "page": true
     }

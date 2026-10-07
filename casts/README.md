@@ -99,8 +99,8 @@
 - [True or myth? Five things everyone has heard](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-07
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-07
 - [On Venus, which is longer: a day or a year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-07
+- [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-04
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-04
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-04
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-04
