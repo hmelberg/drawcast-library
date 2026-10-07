@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "rwanda-parliament",
-      "title": "Which country has the most women in parliament?",
-      "file": "rwanda-parliament.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "smallpox-toll",
       "title": "Which killed more in the 20th century: smallpox or the World Wars?",
       "file": "smallpox-toll.cast",
@@ -1131,6 +1124,13 @@
       "slug": "richest-vs-poorest",
       "title": "How many times richer is the richest country than the poorest?",
       "file": "richest-vs-poorest.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "rwanda-parliament",
+      "title": "Which country has the most women in parliament?",
+      "file": "rwanda-parliament.cast",
       "updated": "2026-10-07",
       "page": true
     }
