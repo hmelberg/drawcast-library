@@ -5,7 +5,6 @@
 - [Why rain is fresh](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-07
-- [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-07
 - [How much of the world's forest have we lost since the last ice age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/forest-lost.cast) — 2026-10-07
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-07
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-07
 - [How much of the world's seafood is farmed?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/farmed-fish.cast) — 2026-10-07
 - [How many children does the average woman in the world have today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertility-halved.cast) — 2026-10-07
+- [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

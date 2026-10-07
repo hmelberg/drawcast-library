@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "fertilizer-feeds-half",
-      "title": "How many people are alive thanks to synthetic fertilizer?",
-      "file": "fertilizer-feeds-half.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "forest-lost",
       "title": "How much of the world's forest have we lost since the last ice age?",
       "file": "forest-lost.cast",
@@ -1131,6 +1124,13 @@
       "slug": "fertility-halved",
       "title": "How many children does the average woman in the world have today?",
       "file": "fertility-halved.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "fertilizer-feeds-half",
+      "title": "How many people are alive thanks to synthetic fertilizer?",
+      "file": "fertilizer-feeds-half.cast",
       "updated": "2026-10-07",
       "page": true
     }
