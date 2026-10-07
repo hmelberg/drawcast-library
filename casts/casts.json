@@ -902,6 +902,13 @@
       "file": "guinea-worm.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "happiest-country",
+      "title": "Which country tops the World Happiness Report?",
+      "file": "happiest-country.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
