@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "planets-in-a-row",
-      "title": "How many Earths fit between Earth and the Moon?",
-      "file": "planets-in-a-row.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "pythagoras-blank",
       "title": "What finishes Pythagoras' theorem?",
       "file": "pythagoras-blank.cast",
@@ -1131,6 +1124,13 @@
       "slug": "paper-folding",
       "title": "How many times can you fold paper in half?",
       "file": "paper-folding.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "planets-in-a-row",
+      "title": "How many Earths fit between Earth and the Moon?",
+      "file": "planets-in-a-row.cast",
       "updated": "2026-10-07",
       "page": true
     }
