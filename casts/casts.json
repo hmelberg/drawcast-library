@@ -246,13 +246,6 @@
       "page": true
     },
     {
-      "slug": "the-water-cycle",
-      "title": "Why rain is fresh",
-      "file": "the-water-cycle.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "two-pumps-in-one-heart",
       "title": "Two pumps in one heart",
       "file": "two-pumps-in-one-heart.cast",
@@ -781,6 +774,13 @@
       "slug": "thales-theorem",
       "title": "Thales' theorem",
       "file": "thales-theorem.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "the-water-cycle",
+      "title": "Why rain is fresh",
+      "file": "the-water-cycle.cast",
       "updated": "2026-10-07",
       "page": true
     }

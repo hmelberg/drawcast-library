@@ -2,6 +2,7 @@
 
 - [What p \< 0.05 really means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-p-0-05-means.cast) — 2026-10-07
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-07
+- [Why rain is fresh](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Odds, risks and hazards](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
@@ -91,7 +92,6 @@
 - [How many must be immune to stop a disease?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03
 - [Why two rational suspects both confess](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-03
 - [The Tower of Hanoi: why 2ⁿ − 1 moves](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-03
-- [Why rain is fresh](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-03
 - [Two pumps in one heart](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-03
 - [What 95% confidence means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-03
 - [What a 1% fee really costs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-03
