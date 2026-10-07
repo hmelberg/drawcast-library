@@ -24,6 +24,7 @@
 - [Guinea worm infected millions a year. How many human cases were there in 2025?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/guinea-worm.cast) — 2026-10-07
 - [Which country tops the World Happiness Report?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/happiest-country.cast) — 2026-10-07
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-07
+- [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

@@ -916,6 +916,13 @@
       "file": "internet-half.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "leaded-petrol",
+      "title": "When did the last country stop selling leaded petrol?",
+      "file": "leaded-petrol.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
