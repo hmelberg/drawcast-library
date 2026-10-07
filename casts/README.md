@@ -5,7 +5,6 @@
 - [Why rain is fresh](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-07
-- [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-07
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-07
 - [How much of beef's carbon footprint is transport?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/local-food-myth.cast) — 2026-10-07
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [Which country tops the World Happiness Report?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/happiest-country.cast) — 2026-10-07
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-07
 - [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
+- [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
