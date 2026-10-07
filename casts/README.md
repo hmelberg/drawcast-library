@@ -45,6 +45,7 @@
 - [How many times richer is the richest country than the poorest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/richest-vs-poorest.cast) — 2026-10-07
 - [Which country has the most women in parliament?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rwanda-parliament.cast) — 2026-10-07
 - [Which killed more in the 20th century: smallpox or the World Wars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/smallpox-toll.cast) — 2026-10-07
+- [Which sent more into space: one year, or the whole space age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/space-launches.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

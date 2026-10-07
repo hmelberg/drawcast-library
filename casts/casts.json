@@ -1063,6 +1063,13 @@
       "file": "smallpox-toll.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "space-launches",
+      "title": "Which sent more into space: one year, or the whole space age?",
+      "file": "space-launches.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
