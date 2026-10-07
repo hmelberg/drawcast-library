@@ -694,13 +694,6 @@
       "page": true
     },
     {
-      "slug": "baby-animal-names",
-      "title": "What are their babies called?",
-      "file": "baby-animal-names.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
@@ -1131,6 +1124,13 @@
       "slug": "ants-on-earth",
       "title": "How many ants are there on Earth?",
       "file": "ants-on-earth.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "baby-animal-names",
+      "title": "What are their babies called?",
+      "file": "baby-animal-names.cast",
       "updated": "2026-10-07",
       "page": true
     }
