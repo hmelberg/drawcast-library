@@ -979,6 +979,13 @@
       "file": "no-electricity.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "norway-electric-cars",
+      "title": "What share of new cars sold in Norway are fully electric?",
+      "file": "norway-electric-cars.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
