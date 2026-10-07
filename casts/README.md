@@ -73,8 +73,8 @@
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-07
 - [When was the first text message sent?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-07
+- [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-04
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-04
 - [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-04
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-04

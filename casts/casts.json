@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "glass-conservation",
-      "title": "Which glass has more water?",
-      "file": "glass-conservation.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "greenland-vs-africa",
       "title": "How big is Greenland next to Africa?",
       "file": "greenland-vs-africa.cast",
@@ -1131,6 +1124,13 @@
       "slug": "first-text-message",
       "title": "When was the first text message sent?",
       "file": "first-text-message.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "glass-conservation",
+      "title": "Which glass has more water?",
+      "file": "glass-conservation.cast",
       "updated": "2026-10-07",
       "page": true
     }
