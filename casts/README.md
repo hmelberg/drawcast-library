@@ -42,6 +42,7 @@
 - [When will the world's population peak, and at what size?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/population-peak.cast) — 2026-10-07
 - [How many people left extreme poverty every day since 1990?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/poverty-headline.cast) — 2026-10-07
 - [How much work buys an hour of light, then and now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-of-light.cast) — 2026-10-07
+- [How many times richer is the richest country than the poorest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/richest-vs-poorest.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
