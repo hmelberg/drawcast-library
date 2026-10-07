@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "bee-colonies",
-      "title": "Do we need bees to eat? Four claims: true or myth?",
-      "file": "bee-colonies.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "chickens-per-year",
       "title": "How many chickens are slaughtered for meat each year?",
       "file": "chickens-per-year.cast",
@@ -1131,6 +1124,13 @@
       "slug": "battery-prices",
       "title": "Battery prices since 1991: true or myth?",
       "file": "battery-prices.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "bee-colonies",
+      "title": "Do we need bees to eat? Four claims: true or myth?",
+      "file": "bee-colonies.cast",
       "updated": "2026-10-07",
       "page": true
     }
