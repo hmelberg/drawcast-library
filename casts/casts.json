@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "first-hard-drive",
-      "title": "How much did the first hard drive weigh?",
-      "file": "first-hard-drive.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "first-text-message",
       "title": "When was the first text message sent?",
       "file": "first-text-message.cast",
@@ -1131,6 +1124,13 @@
       "slug": "fastest-ramp",
       "title": "Which ramp is fastest?",
       "file": "fastest-ramp.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "first-hard-drive",
+      "title": "How much did the first hard drive weigh?",
+      "file": "first-hard-drive.cast",
       "updated": "2026-10-07",
       "page": true
     }
