@@ -1135,13 +1135,6 @@
       "page": true
     },
     {
-      "slug": "causes-of-ww2",
-      "title": "From peace to war, 1919–1939",
-      "file": "causes-of-ww2.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "fall-of-rome",
       "title": "Why did Rome fall?",
       "file": "fall-of-rome.cast",
@@ -1166,6 +1159,13 @@
       "slug": "russian-revolution",
       "title": "Why the Tsar fell, and why Lenin won",
       "file": "russian-revolution.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "causes-of-ww2",
+      "title": "From peace to war, 1919–1939",
+      "file": "causes-of-ww2.cast",
       "updated": "2026-10-07",
       "page": true
     }
