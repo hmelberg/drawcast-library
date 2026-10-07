@@ -874,6 +874,13 @@
       "file": "fertilizer-feeds-half.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "forest-lost",
+      "title": "How much of the world's forest have we lost since the last ice age?",
+      "file": "forest-lost.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
