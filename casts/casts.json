@@ -1084,6 +1084,13 @@
       "file": "time-alone.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "transistors",
+      "title": "One chip against the planet: which is bigger?",
+      "file": "transistors.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
