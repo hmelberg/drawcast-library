@@ -330,13 +330,6 @@
       "page": true
     },
     {
-      "slug": "who-pays-a-ticket-tax",
-      "title": "Who pays a ticket tax?",
-      "file": "who-pays-a-ticket-tax.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "why-45-goes-farthest",
       "title": "Why 45° goes farthest",
       "file": "why-45-goes-farthest.cast",
@@ -781,6 +774,13 @@
       "slug": "the-water-cycle",
       "title": "Why rain is fresh",
       "file": "the-water-cycle.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "who-pays-a-ticket-tax",
+      "title": "Who pays a ticket tax?",
+      "file": "who-pays-a-ticket-tax.cast",
       "updated": "2026-10-07",
       "page": true
     }

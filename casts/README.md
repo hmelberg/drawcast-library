@@ -3,6 +3,7 @@
 - [What p \< 0.05 really means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-p-0-05-means.cast) — 2026-10-07
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-07
 - [Why rain is fresh](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
+- [Who pays a ticket tax?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Odds, risks and hazards](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
@@ -104,7 +105,6 @@
 - [Where the 206 bones are](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-206-bones-are.cast) — 2026-10-03
 - [Where the quadratic formula comes from](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-03
 - [Which of these are mammals?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-of-these-are-mammals.cast) — 2026-10-03
-- [Who pays a ticket tax?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-03
 - [Why 45° goes farthest](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-45-goes-farthest.cast) — 2026-10-03
 - [Why a major chord sounds sweet](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-major-chord-sounds-sweet.cast) — 2026-10-03
 - [Why an epidemic turns by itself](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-an-epidemic-turns.cast) — 2026-10-03
