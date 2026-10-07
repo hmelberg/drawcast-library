@@ -923,6 +923,13 @@
       "file": "leaded-petrol.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "literacy-1820",
+      "title": "In 1820, what share of the world could read?",
+      "file": "literacy-1820.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
