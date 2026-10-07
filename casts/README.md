@@ -1,6 +1,7 @@
 # Drawcasts
 
 - [What p \< 0.05 really means](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-p-0-05-means.cast) — 2026-10-07
+- [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-07
 - [Odds, risks and hazards](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
@@ -85,7 +86,6 @@
 - [Simpson's paradox: win both, lose overall](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [Surgery or medication?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
-- [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-03
 - [The map that blamed a water pump](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
 - [What a derivative is](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
 - [How many must be immune to stop a disease?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03

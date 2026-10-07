@@ -211,13 +211,6 @@
       "page": true
     },
     {
-      "slug": "thales-theorem",
-      "title": "Thales' theorem",
-      "file": "thales-theorem.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "the-broad-street-pump",
       "title": "The map that blamed a water pump",
       "file": "the-broad-street-pump.cast",
@@ -781,6 +774,13 @@
       "slug": "what-p-0-05-means",
       "title": "What p < 0.05 really means",
       "file": "what-p-0-05-means.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "thales-theorem",
+      "title": "Thales' theorem",
+      "file": "thales-theorem.cast",
       "updated": "2026-10-07",
       "page": true
     }
