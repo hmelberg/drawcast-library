@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "population-peak",
-      "title": "When will the world's population peak, and at what size?",
-      "file": "population-peak.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "poverty-headline",
       "title": "How many people left extreme poverty every day since 1990?",
       "file": "poverty-headline.cast",
@@ -1131,6 +1124,13 @@
       "slug": "plastic-recycled",
       "title": "How much of the world's plastic waste gets recycled?",
       "file": "plastic-recycled.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "population-peak",
+      "title": "When will the world's population peak, and at what size?",
+      "file": "population-peak.cast",
       "updated": "2026-10-07",
       "page": true
     }
