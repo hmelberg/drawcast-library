@@ -109,6 +109,7 @@
 - [P vs NP: checking versus finding](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/p-vs-np.cast) — 2026-10-07
 - [Why the Tsar fell, and why Lenin won](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution.cast) — 2026-10-07
 - [From peace to war, 1919–1939](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2.cast) — 2026-10-07
+- [Why did Rome fall?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fall-of-rome.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-04
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-04

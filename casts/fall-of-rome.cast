@@ -1,0 +1,399 @@
+# Why did Rome fall?
+subtitle: "Why the Western Roman Empire collapsed while the East lasted another thousand years: no single cause, just money, then soldiers, then control."
+thumb: "band \"Not the lead pipes\" stamp \"210 SUSPECTS\" card cork"
+
+## Why did Rome fall?
+sources:
+    - id: demandt
+      title: 'Der Fall Roms: Die Auflösung des römischen Reiches im Urteil der Nachwelt'
+      authors: Alexander Demandt
+      year: 1984
+      finding: Catalogues 210 explanations that have been offered for Rome's fall.
+    - id: heather
+      title: 'The Fall of the Roman Empire: A New History of Rome and the Barbarians'
+      authors: Peter Heather
+      year: 2005
+      finding: The loss of Africa (439) and other rich provinces cut the West's tax revenue and with it its armies.
+    - id: wardperkins
+      title: The Fall of Rome and the End of Civilization
+      authors: Bryan Ward-Perkins
+      year: 2005
+      finding: 'Archaeology shows a steep fall in western living standards: cruder pottery, fewer coins, smaller cattle.'
+    - id: crisis
+      title: Crisis of the Third Century
+      authors: Wikipedia
+      year: 2026
+      finding: '235–284: over 50 claimants to the throne, about half recognised; almost all legitimate emperors died violently.'
+      url: https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century
+    - id: britannica
+      title: Fall of Rome
+      authors: Encyclopaedia Britannica
+      year: 2024
+      finding: '476: Odoacer deposes Romulus Augustulus; the Eastern empire lasts until 1453.'
+
+    path coast_0 closed #3d3833 points [[563,651],[572,648],[556,641],[558,643],[554,649],[563,651]] style.stroke_width 2.4 hidden true
+    path coast_1 closed #3d3833 points [[591,256],[595,257],[597,253],[617,252],[618,248],[625,252],[624,247],[604,245],[599,249],[587,251],[587,256],[591,256]] style.stroke_width 2.4 hidden true
+    path coast_2 closed #3d3833 points [[583,316],[593,311],[596,303],[600,301],[599,299],[595,301],[592,306],[576,314],[583,316]] style.stroke_width 2.4 hidden true
+    path coast_3 closed #3d3833 points [[742,257],[735,251],[737,246],[722,239],[718,240],[712,248],[720,249],[720,253],[730,252],[742,257]] style.stroke_width 2.4 hidden true
+    path coast_4 closed #3d3833 points [[519,638],[516,636],[517,631],[508,625],[507,634],[512,638],[519,638]] style.stroke_width 2.4 hidden true
+    path coast_5 closed #3d3833 points [[436,605],[426,588],[417,602],[424,607],[426,603],[432,610],[436,609],[436,605]] style.stroke_width 2.4 hidden true
+    path coast_6 closed #3d3833 points [[411,602],[413,594],[402,595],[401,600],[411,602]] style.stroke_width 2.4 hidden true
+    path coast_7 closed #3d3833 points [[298,331],[303,329],[298,323],[291,327],[287,328],[293,332],[299,334],[298,331]] style.stroke_width 2.4 hidden true
+    path coast_8 closed #3d3833 points [[390,350],[392,343],[388,320],[381,321],[380,316],[375,315],[372,320],[374,331],[370,350],[375,349],[384,356],[390,350]] style.stroke_width 2.4 hidden true
+    path coast_9 closed #3d3833 points [[389,383],[389,372],[384,359],[379,362],[377,370],[378,379],[386,382],[387,387],[389,383]] style.stroke_width 2.4 hidden true
+    path coast_10 closed #3d3833 points [[473,303],[466,290],[468,282],[466,276],[433,292],[428,296],[432,302],[447,299],[473,303]] style.stroke_width 2.4 hidden true
+    path coast_11 closed #3d3833 points [[240,649],[227,640],[225,634],[251,636],[255,632],[243,617],[233,614],[241,612],[226,610],[247,607],[253,601],[257,587],[271,577],[273,568],[263,570],[274,564],[271,557],[287,557],[293,549],[286,539],[274,532],[287,531],[286,528],[271,521],[249,523],[240,518],[227,520],[222,518],[218,512],[211,514],[192,509],[213,528],[226,528],[237,537],[225,531],[217,535],[209,537],[204,535],[200,539],[215,547],[217,557],[209,555],[215,561],[230,563],[231,565],[235,564],[231,567],[235,578],[231,577],[226,584],[234,591],[211,589],[209,587],[207,591],[214,600],[212,606],[216,607],[214,611],[208,606],[210,611],[200,597],[210,621],[203,617],[198,620],[203,622],[206,628],[205,636],[207,639],[213,639],[210,642],[215,645],[216,650],[240,649]] style.stroke_width 2.4 hidden true
+    path coast_12 closed #3d3833 points [[181,593],[195,595],[199,589],[197,586],[202,583],[189,575],[192,557],[186,546],[178,546],[163,539],[158,540],[159,537],[152,534],[140,533],[143,536],[135,535],[142,539],[133,538],[139,544],[133,544],[141,546],[140,548],[144,551],[155,553],[140,551],[154,562],[139,565],[147,572],[143,573],[142,579],[161,579],[168,586],[160,586],[167,594],[175,596],[174,591],[180,598],[184,596],[181,593]] style.stroke_width 2.4 hidden true
+    path coast_13 #3d3833 points [[90,140],[105,160],[104,183],[114,203],[125,215],[150,228],[166,260],[175,262],[175,257],[184,250],[201,250],[207,253],[209,248],[222,248],[269,273],[305,280],[319,280],[326,275],[343,283],[364,279],[389,288],[391,284],[396,285],[399,277],[407,283],[409,279],[400,268],[409,250],[393,232],[396,224],[402,223],[402,220],[406,222],[409,215],[425,208],[439,209],[466,200],[474,183],[505,174],[521,163],[530,165],[536,172],[538,177],[535,190],[538,197],[559,210],[581,204],[584,197],[607,193],[612,185],[634,184],[668,172],[697,186],[708,185],[712,181],[708,184],[707,181],[712,177],[713,181],[719,177],[742,181],[748,191],[760,233],[765,238],[760,269],[765,278],[763,280],[754,274],[744,278],[730,267],[718,265],[695,278],[687,279],[684,269],[673,267],[667,270],[663,276],[643,276],[652,282],[638,281],[642,284],[635,293],[637,299],[624,304],[626,310],[629,305],[636,307],[630,312],[634,315],[629,322],[632,326],[621,325],[621,332],[629,341],[661,341],[658,344],[660,345],[672,347],[662,351],[662,356],[692,354],[706,365],[720,370],[743,371],[747,365],[758,364],[763,357],[768,358],[791,351],[806,354],[817,351],[833,359],[837,367],[831,382],[791,409],[761,424],[765,427],[764,429],[769,426],[775,428],[778,439],[785,441],[775,450],[785,450],[783,453],[794,457],[793,461],[748,450],[738,441],[740,447],[736,442],[739,434],[745,427],[760,428],[758,423],[745,423],[725,411],[718,414],[719,423],[705,429],[720,438],[719,441],[703,440],[694,444],[697,446],[690,449],[701,447],[704,450],[697,450],[692,460],[695,450],[690,452],[680,449],[673,437],[665,434],[665,419],[658,417],[656,421],[652,396],[646,394],[643,382],[638,378],[649,362],[661,356],[660,352],[639,351],[622,336],[622,340],[630,345],[620,345],[606,352],[587,347],[589,342],[596,337],[587,340],[590,334],[583,339],[586,334],[582,334],[576,345],[571,343],[571,335],[582,320],[576,322],[578,317],[571,314],[592,302],[592,293],[585,300],[578,297],[585,289],[580,287],[574,291],[580,272],[574,278],[570,272],[565,282],[562,277],[558,283],[559,288],[551,297],[561,305],[576,298],[580,302],[569,307],[551,306],[546,315],[551,317],[546,317],[539,322],[533,335],[526,339],[529,366],[516,377],[493,387],[503,384],[491,394],[479,396],[468,407],[472,409],[459,427],[456,428],[450,419],[445,430],[449,433],[447,435],[428,429],[431,421],[428,417],[429,408],[445,397],[451,381],[459,374],[467,368],[481,368],[477,361],[506,346],[513,338],[512,331],[505,339],[492,342],[486,330],[494,323],[495,317],[487,313],[486,306],[479,298],[474,300],[482,316],[474,334],[464,339],[461,346],[456,345],[457,347],[451,349],[447,356],[438,357],[418,374],[411,376],[403,386],[399,403],[380,412],[369,402],[342,388],[314,397],[303,390],[300,384],[302,368],[265,349],[268,347],[249,326],[251,318],[256,313],[245,305],[242,293],[228,288],[221,278],[189,277],[170,264],[165,267],[160,275],[163,280],[160,279],[154,286],[140,282],[124,282],[127,307],[130,307],[123,307],[123,311],[130,318],[124,312],[120,313],[135,352],[133,365],[136,374],[135,381],[132,380],[131,390],[152,400],[161,397],[178,398],[196,394],[208,396],[231,393],[238,397],[245,416],[242,416],[246,431],[252,422],[244,434],[247,435],[246,444],[238,448],[234,454],[234,461],[239,460],[229,462],[230,464],[226,467],[205,470],[201,474],[206,476],[202,478],[207,479],[201,480],[201,483],[221,488],[228,483],[246,485],[241,502],[249,502],[250,497],[263,496],[271,498],[267,499],[268,503],[285,509],[291,524],[313,531],[324,531],[314,534],[325,533],[321,535],[324,535],[322,540],[333,557],[343,563],[360,566],[365,563],[365,569],[371,570],[376,570],[378,566],[380,568],[382,565],[384,573],[391,573],[399,568],[384,580],[389,584],[385,588],[385,597],[379,602],[380,618],[386,616],[389,620],[393,620],[392,625],[388,620],[381,621],[386,626],[397,627],[412,637],[407,618],[415,615],[408,612],[397,600],[395,592],[402,586],[400,583],[415,581],[413,575],[420,574],[435,583],[441,582],[461,569],[461,572],[453,573],[452,577],[459,574],[496,587],[510,589],[515,586],[511,587],[514,582],[524,581],[531,590],[540,593],[546,602],[539,591],[547,591],[544,619],[553,634],[563,636],[577,624],[586,629],[588,647],[578,647],[574,655]] style.stroke_width 2.4 hidden true
+    path coast_14 #3d3833 points [[498,655],[483,651],[492,649],[488,648],[487,626],[480,612],[464,611],[457,605],[456,598],[445,597],[440,598],[441,604],[435,613],[439,613],[437,615],[440,618],[426,636],[420,647],[420,655]] style.stroke_width 2.4 hidden true
+    path coast_15 #3d3833 points [[396,655],[386,646],[372,641],[361,643],[362,645],[351,649],[349,655]] style.stroke_width 2.4 hidden true
+    path coast_16 closed #3d3833 points [[200,647],[190,637],[189,641],[190,645],[200,649],[200,647]] style.stroke_width 2.4 hidden true
+    group map members ["coast_0","coast_1","coast_2","coast_3","coast_4","coast_5","coast_6","coast_7","coast_8","coast_9","coast_10","coast_11","coast_12","coast_13","coast_14","coast_15","coast_16"] hidden true
+    path fr_west smooth #2f6b8f points [[326,540],[349,538],[360,523],[368,513],[377,508],[377,491],[369,479],[366,467],[390,467],[399,480],[427,491],[444,484],[485,477],[516,470],[520,465],[519,439],[523,427]] style.stroke_width 6 draw.duration 2.6 hidden true
+    path fr_hadrian #2f6b8f points [[233,591],[253,591]] style.stroke_width 6 draw.duration 0.6 hidden true
+    path fr_east smooth #b5482e points [[523,427],[540,418],[567,415],[574,404],[596,399],[616,402],[634,406],[643,429],[666,425]] style.stroke_width 6 draw.duration 1.8 hidden true
+    path fr_persia smooth #b5482e points [[810,352],[810,334],[797,317],[793,305],[803,285],[820,271],[828,249]] style.stroke_width 6 draw.duration 1.6 hidden true
+    text sea_lbl "Mare Nostrum" #3d3833 x 462 y 215 font_size 28 hidden true
+    path split smooth dashed thick #3d3833 points [[525,448],[526,362],[524,326],[520,246],[525,168]] draw.duration 2.6 hidden true
+    text west_lbl "WEST" #2f6b8f x 205 y 362 font_size 40 draw.duration 1.2 hidden true
+    text east_lbl "EAST" #b5482e x 615 y 229 font_size 40 draw.duration 1.2 hidden true
+    text persia_lbl "Persia" #b5482e x 861 y 290 font_size 24 hidden true
+    text lab_egypt "Egypt" #b5482e x 716 y 170 font_size 26 hidden true
+    text lab_syria "Syria" #b5482e x 805 y 236 font_size 26 hidden true
+    text lab_asia "Asia Minor" #b5482e x 735 y 296 font_size 26 hidden true
+    dot c_cple #3d3833 at.x 660 at.y 352 hidden true
+    text c_cple_l "Constantinople" #3d3833 x 718 y 330 font_size 22 draw.duration 1.2 hidden true
+    path c_walls #b5482e points [[648,338],[644,352],[648,366]] style.stroke_width 6 hidden true
+    dot c_adri #3d3833 at.x 626 at.y 364 hidden true
+    text c_adri_l "Adrianople 378" #3d3833 x 640 y 390 font_size 22 hidden true
+    dot c_rome #3d3833 at.x 430 at.y 368 hidden true
+    text c_rome_l "Rome 410" #3d3833 x 456 y 318 font_size 20 hidden true
+    dot c_ravenna #3d3833 at.x 427 at.y 411 hidden true
+    text c_ravenna_l "Ravenna" #3d3833 x 375 y 419 font_size 22 hidden true
+    arrow huns #8a5fa8 from.x 828 from.y 491 to.x 676 to.y 442 style.stroke_width 4 hidden true
+    text huns_l "Huns" #8a5fa8 x 808 y 515 font_size 26 hidden true
+    arrow goths #3d3833 from.x 628 from.y 461 to.x 635 to.y 415 style.stroke_width 4 hidden true
+    text goths_l "Goths" #3d3833 x 583 y 465 font_size 26 hidden true
+    dot ch_britain_pt #8a5fa8 at.x 246 at.y 547 hidden true
+    text ch_britain_l "Britain" #8a5fa8 x 312 y 585 font_size 26 hidden true
+    group ch_britain members ["ch_britain_pt","ch_britain_l"] hidden true
+    dot ch_gaul_pt #8a5fa8 at.x 296 at.y 453 hidden true
+    text ch_gaul_l "Gaul" #8a5fa8 x 296 y 429 font_size 26 hidden true
+    group ch_gaul members ["ch_gaul_pt","ch_gaul_l"] hidden true
+    dot ch_africa_pt #8a5fa8 at.x 384 at.y 236 hidden true
+    text ch_africa_l "Africa" #8a5fa8 x 332 y 236 font_size 26 hidden true
+    group ch_africa members ["ch_africa_pt","ch_africa_l"] hidden true
+    path africa_shade closed #f2c14e cites ["heather"] points [[414,214],[413,200],[395,188],[393,184],[394,172],[389,165],[384,162],[378,194],[368,203],[365,212],[359,216],[356,226],[357,230],[367,242],[370,250],[369,267],[368,273],[373,280],[381,285],[389,288],[391,287],[391,284],[395,286],[399,277],[408,283],[409,279],[400,267],[401,262],[407,257],[409,250],[393,231],[396,224],[402,223],[402,220],[406,222],[409,215],[414,214]] style.fill #f2c14e style.fill_style hatch style.stroke_width 2.5 hidden true
+    dot c_carthage #3d3833 at.x 398 at.y 279 hidden true
+    text c_carthage_l "Carthage 439" #3d3833 x 326 y 261 font_size 22 hidden true
+    arrow sack455 c_carthage -> c_rome dashed thick #3d3833 hidden true
+    scratch sus cites ["demandt"] work ["210 suspects","Lead pipes","Orgies","Christianity"] x 175 y 245 font_size 32 hidden true
+    mark x_lead around sus_line_2 kind strike hidden true
+    mark x_orgies around sus_line_3 kind strike hidden true
+    mark x_christ around sus_line_4 kind strike hidden true
+    icon coin size 110 set twemoji x 170 y 470 icon_look picture of coin hidden true
+    scale claim at.x 500 at.y 300 cites ["crisis"] label "Claimants, 235–284" min 0 max 80 value 50 hidden true
+    icon crown_0 size 60 set twemoji x 330 y 470 icon_look picture of crown hidden true
+    icon crown_1 size 60 set twemoji x 398 y 470 icon_look picture of crown hidden true
+    icon crown_2 size 60 set twemoji x 466 y 470 icon_look picture of crown hidden true
+    icon crown_3 size 60 set twemoji x 534 y 470 icon_look picture of crown hidden true
+    icon crown_4 size 60 set twemoji x 602 y 470 icon_look picture of crown hidden true
+    icon crown_5 size 60 set twemoji x 670 y 470 icon_look picture of crown hidden true
+    group crowns members ["crown_0","crown_1","crown_2","crown_3","crown_4","crown_5"] hidden true
+    text crown_t "238: six emperors" #3d3833 x 500 y 540 font_size 30 hidden true
+    box n_money "Money" #2f6b8f icon ["money bag","coin"] font_size 30 in spiral hidden true
+    box n_army "Army" #2f6b8f icon ["shield","crossed swords"] font_size 30 in spiral hidden true
+    box n_land "Land lost" #2f6b8f icon ["map","world map"] font_size 30 in spiral hidden true
+    box n_allies "Hired allies" #2f6b8f icon ["handshake"] font_size 30 in spiral hidden true
+    grid spiral gap 120 columns 2 fit.h 470 fit.w 600 fit.x 40 fit.y 160 hidden true
+    arrow a1 n_money -> n_army #3d3833 hidden true
+    arrow a2 n_army -> n_allies #3d3833 hidden true
+    arrow a3 n_allies -> n_land #3d3833 hidden true
+    arrow a4 n_land -> n_money #3d3833 hidden true
+    text west_head "West" #2f6b8f x 340 y 640 font_size 34 hidden true
+    box e_money "Money ✓" #b5482e font_size 28 in eastcol hidden true
+    box e_army "Army ✓" #b5482e font_size 28 in eastcol hidden true
+    box e_control "Grip ✓" #b5482e font_size 28 in eastcol hidden true
+    column eastcol gap 40 fit.h 400 fit.w 250 fit.x 700 fit.y 200 hidden true
+    text east_head "East" #b5482e x 825 y 640 font_size 34 hidden true
+    arrow tl_axis thick #3d3833 from.x 60 from.y 250 to.x 945 to.y 250 hidden true
+    path tk_200 #3d3833 points [[80,240],[80,260]] style.stroke_width 2 hidden true
+    text tkl_200 "200" #8f887c x 80 y 216 font_size 24 hidden true
+    path tk_400 #3d3833 points [[209,240],[209,260]] style.stroke_width 2 hidden true
+    text tkl_400 "400" #8f887c x 209 y 216 font_size 24 hidden true
+    path tk_600 #3d3833 points [[338,240],[338,260]] style.stroke_width 2 hidden true
+    text tkl_600 "600" #8f887c x 338 y 216 font_size 24 hidden true
+    path tk_800 #3d3833 points [[468,240],[468,260]] style.stroke_width 2 hidden true
+    text tkl_800 "800" #8f887c x 468 y 216 font_size 24 hidden true
+    path tk_1000 #3d3833 points [[597,240],[597,260]] style.stroke_width 2 hidden true
+    text tkl_1000 "1000" #8f887c x 597 y 216 font_size 24 hidden true
+    path tk_1200 #3d3833 points [[726,240],[726,260]] style.stroke_width 2 hidden true
+    text tkl_1200 "1200" #8f887c x 726 y 216 font_size 24 hidden true
+    path tk_1400 #3d3833 points [[855,240],[855,260]] style.stroke_width 2 hidden true
+    text tkl_1400 "1400" #8f887c x 855 y 216 font_size 24 hidden true
+    group tl_ticks members ["tk_200","tkl_200","tk_400","tkl_400","tk_600","tkl_600","tk_800","tkl_800","tk_1000","tkl_1000","tk_1200","tkl_1200","tk_1400","tkl_1400"] hidden true
+    shape bar_w #2f6b8f shape rect x 232 y 410 width 52 height 64 style.fill #2f6b8f style.opacity 0.85 hidden true
+    text bar_w_l "West" #2f6b8f x 140 y 410 font_size 32 hidden true
+    shape bar_e #b5482e cites ["britannica"] shape rect x 548 y 320 width 684 height 64 style.fill #b5482e style.opacity 0.85 hidden true
+    text bar_e_l "East" #b5482e x 140 y 320 font_size 32 hidden true
+    path m476 dashed #3d3833 points [[258,250],[258,520]] style.stroke_width 2 hidden true
+    text m476_l "476: Romulus Augustulus" #3d3833 x 298 y 560 font_size 30 hidden true
+    path m1453 dashed #3d3833 points [[890,250],[890,520]] style.stroke_width 2 hidden true
+    text m1453_l "1453: Ottomans" #3d3833 x 840 y 560 font_size 30 hidden true
+    icon wp_pot size 90 set twemoji x 400 y 425 or ["jar"] icon_look picture of amphora draw.duration 1.5 hidden true
+    icon wp_coin size 90 set twemoji x 530 y 425 icon_look picture of coin draw.duration 1.5 hidden true
+    icon wp_cow size 90 set twemoji x 660 y 425 or ["ox"] icon_look picture of cow draw.duration 1.5 hidden true
+    group wp members ["wp_pot","wp_coin","wp_cow"] hidden true
+
+    card title "Why did Rome fall?"
+
+A: Why did the Western Roman Empire collapse — and why only the western half?
+    draw map
+
+B: Easy. Lead pipes. They poisoned themselves.
+    draw sus_box sus_line_2
+
+A: Lovely theory. But the East had the same pipes, and (@draw x_lead@) it lasted another thousand years.
+
+A: In 1984 the German historian Alexa (@draw sus_line_1@)nder Demandt listed every cause people had blamed: two hundred and ten of them.
+
+B: Then I'll take two more off the menu: orgies, and Christianity. Gibbon blamed that one.
+    draw sus_line_3 sus_line_4
+
+    draw x_orgies x_christ
+
+A: Gibbon did, in part. But two hundred and ten causes means nobody has found the one cause. So let's follow the money.
+    blocking false
+
+    highlight sus_line_3 sus_line_4
+
+    pause 2
+
+    highlight sus_line_1 effect circle
+
+    pause 2
+
+    point at.ref sus_box gesture underline
+
+    erase sus x_lead x_orgies x_christ
+
+A: Around the year 200 the empire ringed t (@draw fr_west fr_hadrian fr_east fr_persia persia_lbl sea_lbl@)he Mediterranean, from northern Britain to the Euphrates: a sea the Romans just called [it-IT:Mare Nostrum], our sea.
+
+    erase sea_lbl
+
+    hide map fr_west fr_hadrian fr_east fr_persia persia_lbl
+
+A: Then, from 235 to 284, it nearly fell apart: civil wars, plague, and silver coins w (@draw coin ends@)ith hardly any silver left.
+
+B: So how many would-be emperors does fifty years of chaos get you?
+    draw claim
+
+    ask "Click the line at your guess." on claim store g default "20" after keep
+        right: Close: you said {g}. More than fifty men claimed the throne, and about half were recognised by the Senate.
+        wrong: You said {g}. In fact more than fifty men claimed the throne, and about half were recognised by the Senate.
+
+A: And most recognised emperors died violently, usually  (@draw crowns crown_t@)at the hands of their own soldiers. In 238 alone there were six.
+
+B: Six in one year. That's not a throne, that's a revolving door.
+    highlight crowns effect pulse
+
+    erase claim coin crowns crown_t
+
+    show map fr_west fr_hadrian fr_east fr_persia persia_lbl
+
+A: Diocletian, emperor from 284, shared out the rule; i (@draw split c_cple c_cple_l west_lbl east_lbl@)n 330 Constantine built a new capital in the East, Constantinople, today's Istanbul; and after 395 the split was for good.
+
+B: Same empire, two halves. Which half would you rather inherit?
+    blocking false
+
+    point at.ref west_lbl gesture circle
+
+    pause 1
+
+    point at.ref east_lbl gesture circle
+
+A: The East, every time. Egypt (@draw lab_egypt lab_syria lab_asia@), Syria and Asia Minor had the richest cities and farms, and paid the most tax.
+
+    draw c_walls
+
+A: The West had the exposed frontier, the Rhine and the upper Danube; the East had the lower Danube and Persia to watch, and its rich heartland sat behind the sea and Constantinople's walls.
+    blocking false
+
+    highlight fr_west fr_hadrian
+
+    pause 3
+
+    highlight fr_east
+
+    pause 1.4
+
+    highlight fr_persia persia_lbl
+
+    pause 1.6
+
+    highlight c_walls effect circle
+
+B: Fine. But in the end the barbarians just walked in, right?
+    point at.ref fr_east gesture underline
+
+    draw huns_l huns goths goths_l
+
+A: Not quite walked. In 376 the Huns, horsemen from the steppe, drove Goths to the Danube, and the Goths asked to be let in.
+    blocking false
+
+    flow huns
+
+    pause 1.5
+
+    flow goths
+
+    pause 1
+
+    point at.ref fr_east gesture underline
+
+    draw c_adri c_adri_l parallel true
+
+A: Two years later, at Adrianople, those Goths destroyed an eastern Roman army and killed its emperor, Valens. Later, under Alaric, they moved west.
+    blocking false
+
+    highlight c_adri_l effect pulse
+
+    pause 2
+
+    point at.ref split gesture underline
+
+    draw c_rome c_rome_l parallel true
+
+A: In 410 the Visigoths sacked Rome itself, the first time in almost eight hundred years.
+    blocking false
+
+    point at.ref c_rome gesture circle
+
+    pause 1.2
+
+    highlight c_rome_l
+
+B: So that's the fall, then. Roll credits.
+    erase huns huns_l goths goths_l c_adri c_adri_l
+
+    draw c_ravenna c_ravenna_l parallel true
+
+A: Not yet. Rome wasn't even the capital any more: the western court sat in Ravenna, safe behind its marshes.
+    blocking false
+
+    pause 1.4
+
+    point at.ref c_rome gesture tap
+
+    pause 1
+
+    point at.ref c_ravenna gesture circle
+
+A: The blow that really hurt was a loss of land. (@draw ch_britain ch_gaul ch_africa@) Which loss do you think hurt the West most?
+
+    ask "Tap the one you think hurt most." choose ["ch_britain","ch_gaul","ch_africa"] answer ch_africa stage own reveal "Africa, 439"
+        right: Africa. In 439 the Vandals took Carthage, and with it the West's richest tax-paying provinces and much of Rome's grain.
+        wrong: Think about which provinces paid the most tax, and fed Rome.
+
+    erase ch_britain ch_gaul ch_africa
+
+B: Vandals. The name says it all.
+    draw africa_shade c_carthage c_carthage_l
+
+A: A bit unfair: the word vandalism was only coined in 1794. But yes,  (@draw sack455@)in 455 they sailed over and looted Rome for two weeks.
+
+    erase sus_box sus_line_2 sus_line_1 sus_line_3 sus_line_4 map fr_west fr_hadrian fr_east fr_persia persia_lbl split c_cple c_cple_l west_lbl east_lbl lab_egypt lab_syria lab_asia c_walls c_rome c_rome_l c_ravenna c_ravenna_l africa_shade c_carthage c_carthage_l sack455
+
+A: So follow the money. An empire is a machine for turning taxes into soldiers, and without Africa the West couldn't pay enough of them.
+    draw west_head n_money a1 n_army
+
+A: So it hired whole barbarian peoples as allies — federates — who fought under their own kings.
+    draw a2 n_allies
+
+B: Hiring the people you're fighting. What could go wrong?
+    highlight n_allies
+
+A: Plenty. Allies were paid in land, and land handed over paid no more taxes.
+    draw a3 n_land a4
+
+B: So: less money, a weaker army, more deals, less land. A spiral.
+    flow a1 a2 a3 a4 delivery grave
+
+A: The East had better money. It could pay its own armies, and even pay attackers like Attila to look elsewhere.
+    draw east_head e_money e_army e_control
+
+    erase west_head n_money a1 n_army a2 n_allies a3 n_land a4 east_head e_money e_army e_control
+
+A: By 476 the West was a shell. A general called Odoacer deposed the last western emperor, a boy.
+    draw tl_axis tl_ticks bar_w bar_w_l m476 m476_l
+
+B: Romulus Augustulus, right? Rome's founder and its first emperor in one name, and they called him little Augustus.
+    highlight m476_l
+
+A: Odoacer didn't even bother making himself emperor. He sent the imperial regalia east and ruled Italy as king, nominally under Constantinople.
+    blocking false
+
+    point at.ref bar_w at.anchor right gesture circle
+
+    pause 2
+
+    highlight m476
+
+    pause 2
+
+    point at.ref tkl_400 gesture tap
+
+A: The East went on for almost another thousand years, until the Ottomans took Constantinople in 1453.
+    draw bar_e bar_e_l m1453 m1453_l
+
+B: So the Roman Empire didn't fall. Half of it just moved to Istanbul.
+    highlight bar_e
+
+A: Historians still argue about t (@draw wp_pot wp_coin wp_cow@)he word fall. Some see a slow transformation; Bryan Ward-Perkins points to cruder pots, fewer coins, even smaller cattle.
+
+    move wp scale 0.55 duration 1.5
+
+    erase tl_axis tl_ticks bar_w bar_w_l m476 m476_l bar_e bar_e_l m1453 m1453_l wp_pot wp_coin wp_cow
+
+A: But our answer is no single cause. (@draw west_head n_money a1 n_army a2 n_allies a3 n_land a4 east_head e_money e_army e_control delivery grave@) The West lost its money, then its army, then its grip; the East kept all three.
+
+    quiz "Around 450, which would have done most to save the West?" reveal "468: Cape Bon"
+        right: Winning back Africa: its taxes paid for armies. East and West tried in 468 with over a thousand ships, and lost the fleet off Cape Bon.
+        wrong: Think about what paid the soldiers.
+        * Rip out the lead pipes
+        + Win back Africa
+        * Stronger walls round Rome
+
+## Not the lead pipes
+role: thumbnail
+
+    text t1_q "Why did Rome fall?" x 500 y 640 font_size 54 hidden true
+    icon t1_pipe size 170 set twemoji x 220 y 420 or ["droplet"] icon_look picture of "potable water" hidden true
+    icon t1_wine size 170 set twemoji x 500 y 420 or ["grapes"] icon_look picture of "wine glass" hidden true
+    icon t1_church size 170 set twemoji x 780 y 420 icon_look picture of church hidden true
+    mark t1_x1 around t1_pipe kind cross hidden true
+    mark t1_x2 around t1_wine kind cross hidden true
+    mark t1_x3 around t1_church kind cross hidden true
+    thumb t1_band "Not the lead pipes" kind band hidden true
+    thumb t1_stamp "210 SUSPECTS" kind stamp x 820 y 600 angle 12 hidden true
+
+## Half of it moved
+role: thumbnail
+
+    shape t2_w #2f6b8f shape rect x 210 y 590 width 110 height 100 style.fill #2f6b8f style.opacity 0.9 hidden true
+    text t2_wl "West: 476" #2f6b8f x 400 y 590 font_size 48 hidden true
+    shape t2_e #b5482e shape rect x 560 y 380 width 810 height 100 style.fill #b5482e style.opacity 0.9 hidden true
+    text t2_el "East: 1453" #b5482e x 290 y 475 font_size 48 hidden true
+    icon t2_bldg size 150 set twemoji x 790 y 585 icon_look picture of "classical building" hidden true
+    thumb t2_band "Half of it moved to Istanbul" kind band hidden true
+
+## Follow the money
+role: thumbnail
+
+    icon t3_bag size 190 set twemoji x 200 y 450 icon_look picture of "money bag" hidden true
+    arrow t3_a1 #3d3833 from.x 320 from.y 450 to.x 420 to.y 450 style.stroke_width 6 hidden true
+    icon t3_shield size 190 set twemoji x 520 y 450 icon_look picture of shield hidden true
+    arrow t3_a2 #3d3833 from.x 640 from.y 450 to.x 740 to.y 450 style.stroke_width 6 hidden true
+    text t3_q "?" #b5482e x 840 y 450 font_size 150 hidden true
+    text t3_t "No money, no army" x 500 y 640 font_size 52 hidden true
+    thumb t3_band "Follow the money" kind band hidden true
