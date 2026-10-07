@@ -17,6 +17,7 @@
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-07
 - [How much of the world's seafood is farmed?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/farmed-fish.cast) — 2026-10-07
 - [How many children does the average woman in the world have today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertility-halved.cast) — 2026-10-07
+- [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

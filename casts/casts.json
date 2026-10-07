@@ -867,6 +867,13 @@
       "file": "fertility-halved.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "fertilizer-feeds-half",
+      "title": "How many people are alive thanks to synthetic fertilizer?",
+      "file": "fertilizer-feeds-half.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
