@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "transistors",
-      "title": "One chip against the planet: which is bigger?",
-      "file": "transistors.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "whales-hunted",
       "title": "How many whales were killed in the 20th century?",
       "file": "whales-hunted.cast",
@@ -1131,6 +1124,13 @@
       "slug": "time-alone",
       "title": "As Americans grow older, how much of the day do they spend alone?",
       "file": "time-alone.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "transistors",
+      "title": "One chip against the planet: which is bigger?",
+      "file": "transistors.cast",
       "updated": "2026-10-07",
       "page": true
     }
