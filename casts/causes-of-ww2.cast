@@ -1,0 +1,380 @@
+# From peace to war, 1919–1939
+subtitle: "How a resented peace, a weak League and a slump made war possible in Europe, and why Hitler's unanswered gambles made it come in 1939."
+thumb: "card charcoal band \"Every gamble paid off. Until one didn't.\" note \"1919 → 1939\""
+
+## From peace to war, 1919–1939
+sources:
+    - id: reparations
+      title: World War I reparations
+      authors: Wikipedia
+      year: 2025
+      url: https://en.wikipedia.org/wiki/World_War_I_reparations
+      finding: 132 bn gold marks set in the 1921 London Schedule; about 20 bn actually paid, 1920–1931
+    - id: taylor
+      title: The Origins of the Second World War
+      authors: A. J. P. Taylor
+      year: 1961
+      finding: Hitler as an opportunist exploiting chances the Western powers gave him, rather than following a blueprint
+    - id: overy
+      title: The Origins of the Second World War
+      authors: Richard Overy
+      year: 1987
+      finding: 'The war grew from an unstable international system: declining British and French empires against ambitious new powers'
+    - id: kershaw
+      title: 'Hitler, 1936–1945: Nemesis'
+      authors: Ian Kershaw
+      year: 2000
+      finding: Hitler's aims were consistent; each unopposed success emboldened the next gamble
+    - id: britannica_versailles
+      title: 'Germany: The Treaty of Versailles'
+      authors: Encyclopaedia Britannica
+      year: 2024
+      url: https://www.britannica.com/place/Germany/The-Treaty-of-Versailles
+      finding: Germany lost about 13% of its territory and 10% of its population
+    - id: nazi_votes
+      title: Nazi Party election results
+      authors: Wikipedia
+      year: 2025
+      url: https://en.wikipedia.org/wiki/Nazi_Party_election_results
+      finding: 2.6% in May 1928; 37.3% in July 1932
+
+    arrow tl_axis thick #3d3833 from.x 30 from.y 572 to.x 975 to.y 572 hidden true
+    path tl_tk1919 #3d3833 points [[81.8,563],[81.8,581]] hidden true
+    text tl_ty1919 "1919" #8f887c x 81.8 y 540 font_size 26 hidden true
+    path tl_tk1929 #3d3833 points [[500,563],[500,581]] hidden true
+    text tl_ty1929 "1929" #8f887c x 500 y 540 font_size 26 hidden true
+    path tl_tk1933 #3d3833 points [[667.3,563],[667.3,581]] hidden true
+    text tl_ty1933 "1933" #8f887c x 667.3 y 540 font_size 26 hidden true
+    path tl_tk1939 #3d3833 points [[918.2,563],[918.2,581]] hidden true
+    text tl_ty1939 "1939" #8f887c x 918.2 y 540 font_size 26 hidden true
+    group tl_base members ["tl_axis","tl_tk1919","tl_ty1919","tl_tk1929","tl_ty1929","tl_tk1933","tl_ty1933","tl_tk1939","tl_ty1939"] hidden true
+    shape ev_vers_pt #2f6b8f shape circle x 102.7 y 572 radius 7 style.fill #2f6b8f hidden true
+    path ev_vers_stem #8f887c points [[102.7,572],[102.7,586]] hidden true
+    text ev_vers_t "Versailles" #2f6b8f cites ["britannica_versailles"] x 102.7 y 602 font_size 28 hidden true
+    group ev_vers members ["ev_vers_pt","ev_vers_stem","ev_vers_t"] hidden true
+    shape ev_crash_pt #2f6b8f shape circle x 533.5 y 572 radius 7 style.fill #2f6b8f hidden true
+    path ev_crash_stem #8f887c points [[533.5,572],[533.5,586]] hidden true
+    text ev_crash_t "Crash" #2f6b8f x 533.5 y 602 font_size 28 hidden true
+    group ev_crash members ["ev_crash_pt","ev_crash_stem","ev_crash_t"] hidden true
+    shape ev_manch_pt #2f6b8f shape circle x 612.9 y 572 radius 7 style.fill #2f6b8f hidden true
+    path ev_manch_stem #8f887c points [[612.9,572],[612.9,627]] hidden true
+    text ev_manch_t "Manchuria" #2f6b8f x 612.9 y 643 font_size 28 hidden true
+    group ev_manch members ["ev_manch_pt","ev_manch_stem","ev_manch_t"] hidden true
+    shape ev_hitler_pt #b5482e shape circle x 671.5 y 572 radius 7 style.fill #b5482e hidden true
+    path ev_hitler_stem #8f887c points [[671.5,572],[671.5,586]] hidden true
+    text ev_hitler_t "Hitler" #b5482e x 671.5 y 602 font_size 28 hidden true
+    group ev_hitler members ["ev_hitler_pt","ev_hitler_stem","ev_hitler_t"] hidden true
+    shape ev_abyss_pt #2f6b8f shape circle x 784.4 y 572 radius 7 style.fill #2f6b8f hidden true
+    path ev_abyss_stem #8f887c points [[784.4,572],[784.4,586]] hidden true
+    text ev_abyss_t "Abyssinia" #2f6b8f x 784.4 y 602 font_size 28 hidden true
+    group ev_abyss members ["ev_abyss_pt","ev_abyss_stem","ev_abyss_t"] hidden true
+    arrow tz_axis thick #3d3833 from.x 30 from.y 572 to.x 975 to.y 572 hidden true
+    path tz_tk1935 #3d3833 points [[105.7,563],[105.7,581]] hidden true
+    text tz_ty1935 "1935" #8f887c x 105.7 y 540 font_size 26 hidden true
+    path tz_tk1937 #3d3833 points [[434.3,563],[434.3,581]] hidden true
+    text tz_ty1937 "1937" #8f887c x 434.3 y 540 font_size 26 hidden true
+    path tz_tk1939 #3d3833 points [[762.9,563],[762.9,581]] hidden true
+    text tz_ty1939 "1939" #8f887c x 762.9 y 540 font_size 26 hidden true
+    group tz_base members ["tz_axis","tz_tk1935","tz_ty1935","tz_tk1937","tz_ty1937","tz_tk1939","tz_ty1939"] hidden true
+    shape ez_conscr_pt #b5482e shape circle x 138.6 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_conscr_stem #8f887c points [[138.6,572],[138.6,586]] hidden true
+    text ez_conscr_t "Conscription" #b5482e x 138.6 y 602 font_size 28 hidden true
+    group ez_conscr members ["ez_conscr_pt","ez_conscr_stem","ez_conscr_t"] hidden true
+    shape ez_rhine_pt #b5482e shape circle x 302.9 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_rhine_stem #8f887c points [[302.9,572],[302.9,586]] hidden true
+    text ez_rhine_t "Rhineland" #b5482e x 302.9 y 602 font_size 28 hidden true
+    group ez_rhine members ["ez_rhine_pt","ez_rhine_stem","ez_rhine_t"] hidden true
+    shape ez_ansch_pt #b5482e shape circle x 631.4 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_ansch_stem #8f887c points [[631.4,572],[631.4,586]] hidden true
+    text ez_ansch_t "Anschluss" #b5482e x 631.4 y 602 font_size 28 hidden true
+    group ez_ansch members ["ez_ansch_pt","ez_ansch_stem","ez_ansch_t"] hidden true
+    shape ez_munich_pt #b5482e shape circle x 721.8 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_munich_stem #8f887c points [[721.8,572],[721.8,627]] hidden true
+    text ez_munich_t "Munich" #b5482e x 721.8 y 643 font_size 28 hidden true
+    group ez_munich members ["ez_munich_pt","ez_munich_stem","ez_munich_t"] hidden true
+    shape ez_prague_pt #b5482e shape circle x 795.7 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_prague_stem #8f887c points [[795.7,572],[795.7,586]] hidden true
+    text ez_prague_t "Prague" #b5482e x 795.7 y 602 font_size 28 hidden true
+    group ez_prague members ["ez_prague_pt","ez_prague_stem","ez_prague_t"] hidden true
+    shape ez_pact_pt #8a5fa8 shape circle x 861.4 y 572 radius 7 style.fill #8a5fa8 hidden true
+    path ez_pact_stem #8f887c points [[861.4,572],[861.4,627]] hidden true
+    text ez_pact_t "Pact" #8a5fa8 x 861.4 y 643 font_size 28 hidden true
+    group ez_pact members ["ez_pact_pt","ez_pact_stem","ez_pact_t"] hidden true
+    shape ez_poland_pt #b5482e shape circle x 872.9 y 572 radius 7 style.fill #b5482e hidden true
+    path ez_poland_stem #8f887c points [[872.9,572],[872.9,548]] hidden true
+    text ez_poland_t "Poland" #b5482e x 872.9 y 532 font_size 30 hidden true
+    group ez_poland members ["ez_poland_pt","ez_poland_stem","ez_poland_t"] hidden true
+    box n_vers "Versailles" #2f6b8f font_size 32 in long hidden true
+    box n_league "Weak League" #2f6b8f font_size 32 in long hidden true
+    box n_dep "Depression" #2f6b8f font_size 32 in long hidden true
+    box n_aims "Hitler's aims" #b5482e font_size 32 in long hidden true
+    row long gap 40 fit.h 95 fit.w 940 fit.x 30 fit.y 330 hidden true
+    box n_possible "War possible" #3d3833 font_size 34 in mid hidden true
+    box n_war "War, 1939" #b5482e font_size 34 in mid hidden true
+    box n_steps "Unanswered steps" #b5482e cites ["taylor","kershaw"] font_size 34 in mid hidden true
+    row mid gap 110 fit.h 115 fit.w 940 fit.x 30 fit.y 185 hidden true
+    box n_poss1 "War possible" below long gap 100 #3d3833 cites ["overy"] font_size 34 hidden true
+    arrow ar1 n_vers -> n_poss1 #8f887c hidden true
+    arrow br1 n_vers -> n_possible #8f887c hidden true
+    arrow ar2 n_league -> n_poss1 #8f887c hidden true
+    arrow br2 n_league -> n_possible #8f887c hidden true
+    arrow ar3 n_dep -> n_poss1 #8f887c hidden true
+    arrow br3 n_dep -> n_possible #8f887c hidden true
+    arrow ar4 n_aims -> n_poss1 #8f887c hidden true
+    arrow br4 n_aims -> n_possible #8f887c hidden true
+    arrow ar_pw n_possible -> n_war thick #8f887c hidden true
+    arrow ar_sw n_steps -> n_war #b5482e style.stroke_width 4 hidden true
+    mark box_war around n_war kind circle hidden true
+    scratch ver cites ["britannica_versailles"] work ["Land −13 %, people −10 %"] x 185 y 300 font_size 26 hidden true
+    polygon bar_b #b5482e cites ["reparations"] points [[400,290],[928,290],[928,345],[400,345]] style.fill #b5482e style.fill_style wash style.opacity 0.5 hidden true
+    text bar_b_t "Billed: 132 bn gold marks" above bar_b gap 6 #b5482e font_size 30 hidden true
+    polygon bar_p #2f6b8f cites ["reparations"] points [[400,185],[480,185],[480,240],[400,240]] style.fill #2f6b8f style.fill_style wash style.opacity 0.6 hidden true
+    text bar_p_t "Paid: about 20 bn" right bar_p gap 14 #2f6b8f font_size 30 hidden true
+    mark strike_b around bar_b_t kind strike hidden true
+    polygon s_de #b5482e points [[460.8,840],[550.4,890],[550.4,990],[633.6,980],[652.8,940],[697.6,895],[774.4,920],[838.4,940],[915.2,890],[1024,930],[1126.4,975],[1107.2,890],[1062.4,830],[1017.6,750],[1062.4,690],[1139.2,630],[1164.8,560],[1152,500],[1056,540],[960,590],[915.2,600],[800,540],[774.4,530],[806.4,450],[883.2,380],[860.8,357],[832,260],[780.8,260],[672,250],[614.4,255],[486.4,260],[499.2,360],[524.8,400],[409.6,420],[390.4,450],[409.6,530],[384,580],[384,680],[448,730]] style.fill #e9b8a8 hidden true
+    polygon s_ep #b5482e points [[1241.6,935],[1273.6,960],[1312,995],[1356.8,1020],[1459.2,940],[1459.2,890],[1395.2,840],[1312,820],[1254.4,860]] style.fill #e9b8a8 hidden true
+    polygon s_pl #3d3833 points [[1126.4,975],[1184,980],[1190.4,940],[1241.6,935],[1254.4,860],[1312,820],[1395.2,840],[1459.2,890],[1459.2,940],[1504,900],[1574.4,920],[1600,1000],[1702.4,1060],[1779.2,900],[1766.4,800],[1728,700],[1696,620],[1683.2,530],[1689.6,400],[1676.8,340],[1600,300],[1536,340],[1446.4,410],[1280,420],[1203.2,450],[1152,500],[1164.8,560],[1139.2,630],[1062.4,690],[1017.6,750],[1062.4,830],[1107.2,890]] style.fill #efe6d6 hidden true
+    polygon s_cz #3d3833 points [[774.4,530],[800,540],[915.2,600],[960,590],[1056,540],[1152,500],[1203.2,450],[1280,420],[1446.4,410],[1536,340],[1465.6,300],[1414.4,340],[1312,330],[1203.2,280],[1094.4,300],[1081.6,360],[960,400],[883.2,380],[806.4,450]] style.fill #efe6d6 hidden true
+    polygon s_at #3d3833 points [[614.4,255],[672,250],[780.8,260],[832,260],[860.8,357],[883.2,380],[960,400],[1081.6,360],[1094.4,300],[1062.4,240],[1049.6,180],[960,160],[876.8,150],[793.6,170],[672,190],[614.4,210]] style.fill #efe6d6 hidden true
+    polygon s_fr #3d3833 points [[102.4,590],[166.4,610],[268.8,495],[307.2,515],[371.2,455],[390.4,450],[409.6,420],[524.8,400],[499.2,360],[486.4,260],[441.6,240],[384,140],[396.8,100],[64,100],[64,530]] style.fill #efe6d6 hidden true
+    group smap members ["s_fr","s_de","s_ep","s_pl","s_cz","s_at"] fit.h 210 fit.w 520 fit.x 330 fit.y 160 hidden true
+    text s_t_de "Germany" #b5482e at.anchor centroid at.ref s_de font_size 26 hidden true
+    scale vote cites ["nazi_votes"] x 120 y 190 width 760 unit % min 0 max 50 value 37.3 markers [{"value":2.6,"label":"1928"}] hidden true
+    polygon m_uk #3d3833 points [[19.2,580],[89.6,610],[115.2,640],[108.8,760],[57.6,800],[19.2,790]] style.fill #efe6d6 hidden true
+    polygon m_fr #2f6b8f points [[102.4,590],[166.4,610],[268.8,495],[307.2,515],[371.2,455],[390.4,450],[409.6,420],[524.8,400],[499.2,360],[486.4,260],[441.6,240],[384,140],[396.8,100],[64,100],[64,530]] style.fill #dde7ee hidden true
+    polygon m_de #b5482e points [[460.8,840],[550.4,890],[550.4,990],[633.6,980],[652.8,940],[697.6,895],[774.4,920],[838.4,940],[915.2,890],[1024,930],[1126.4,975],[1107.2,890],[1062.4,830],[1017.6,750],[1062.4,690],[1139.2,630],[1164.8,560],[1152,500],[1056,540],[960,590],[915.2,600],[800,540],[774.4,530],[806.4,450],[883.2,380],[860.8,357],[832,260],[780.8,260],[672,250],[614.4,255],[486.4,260],[499.2,360],[524.8,400],[409.6,420],[390.4,450],[409.6,530],[384,580],[384,680],[448,730]] style.fill #e9b8a8 hidden true
+    polygon m_ep #b5482e points [[1241.6,935],[1273.6,960],[1312,995],[1356.8,1020],[1459.2,940],[1459.2,890],[1395.2,840],[1312,820],[1254.4,860]] style.fill #e9b8a8 hidden true
+    polygon m_at #3d3833 points [[614.4,255],[672,250],[780.8,260],[832,260],[860.8,357],[883.2,380],[960,400],[1081.6,360],[1094.4,300],[1062.4,240],[1049.6,180],[960,160],[876.8,150],[793.6,170],[672,190],[614.4,210]] style.fill #efe6d6 hidden true
+    polygon m_cz #3d3833 points [[774.4,530],[800,540],[915.2,600],[960,590],[1056,540],[1152,500],[1203.2,450],[1280,420],[1446.4,410],[1536,340],[1465.6,300],[1414.4,340],[1312,330],[1203.2,280],[1094.4,300],[1081.6,360],[960,400],[883.2,380],[806.4,450]] style.fill #efe6d6 hidden true
+    polygon m_pl #3d3833 points [[1126.4,975],[1184,980],[1190.4,940],[1241.6,935],[1254.4,860],[1312,820],[1395.2,840],[1459.2,890],[1459.2,940],[1504,900],[1574.4,920],[1600,1000],[1702.4,1060],[1779.2,900],[1766.4,800],[1728,700],[1696,620],[1683.2,530],[1689.6,400],[1676.8,340],[1600,300],[1536,340],[1446.4,410],[1280,420],[1203.2,450],[1152,500],[1164.8,560],[1139.2,630],[1062.4,690],[1017.6,750],[1062.4,830],[1107.2,890]] style.fill #efe6d6 hidden true
+    polygon m_su #8a5fa8 points [[1702.4,1060],[1920,1080],[1920,300],[1676.8,340],[1689.6,400],[1683.2,530],[1696,620],[1728,700],[1766.4,800],[1779.2,900]] style.fill #8a5fa8 style.fill_style wash style.opacity 0.18 hidden true
+    polygon m_rh #b5482e points [[384,680],[384,580],[409.6,530],[390.4,450],[409.6,420],[524.8,400],[550.4,440],[556.8,510],[505.6,600],[454.4,690]] style.fill #b5482e style.fill_style wash style.opacity 0.55 hidden true
+    polygon m_at_taken #b5482e points [[614.4,255],[672,250],[780.8,260],[832,260],[860.8,357],[883.2,380],[960,400],[1081.6,360],[1094.4,300],[1062.4,240],[1049.6,180],[960,160],[876.8,150],[793.6,170],[672,190],[614.4,210]] style.fill #b5482e style.fill_style wash style.opacity 0.45 hidden true
+    polygon m_sud #b5482e points [[1152,500],[1056,540],[960,590],[915.2,600],[800,540],[774.4,530],[806.4,450],[883.2,380],[960,400],[1081.6,360],[1062.4,395],[960,435],[896,415],[838.4,460],[819.2,520],[915.2,560],[960,550],[1049.6,505],[1126.4,475]] style.fill #b5482e style.fill_style wash style.opacity 0.7 hidden true
+    polygon m_czl #b5482e points [[1062.4,395],[960,435],[896,415],[838.4,460],[819.2,520],[915.2,560],[960,550],[1049.6,505],[1126.4,475],[1152,500],[1190.4,450],[1107.2,380]] style.fill #d0865f style.fill_style wash style.opacity 0.6 hidden true
+    path m_pact smooth dashed #8a5fa8 points [[1491.2,930],[1446.4,860],[1504,760],[1529.6,660],[1536,580],[1497.6,490],[1452.8,410]] style.stroke_width 4 hidden true
+    polygon m_warsaw #3d3833 x 1344 y 720 radius 14 sides 8 style.fill #3d3833 hidden true
+    group map members ["m_uk","m_fr","m_de","m_ep","m_at","m_cz","m_pl","m_su","m_rh","m_at_taken","m_sud","m_czl","m_pact","m_warsaw"] fit.h 505 fit.w 970 fit.x 15 fit.y 150 hidden true
+    text t_de "Germany" #b5482e at.anchor centroid at.ref m_de anchor right font_size 32 hidden true
+    text d_de "1935: conscription" below t_de gap 4 #b5482e font_size 24 hidden true
+    text t_fr "France" #2f6b8f at.anchor centroid at.ref m_fr font_size 30 hidden true
+    text t_uk "Britain" #3d3833 at.anchor centroid at.ref m_uk font_size 22 hidden true
+    text t_ep "E. Prussia" #b5482e at.anchor centroid at.ref m_ep font_size 20 hidden true
+    text t_at "Austria" #3d3833 at.anchor right at.ref m_at anchor right font_size 26 hidden true
+    text d_at "1938" below m_at gap 4 #b5482e font_size 24 hidden true
+    text t_cz "Czechoslovakia" #3d3833 at.anchor centroid at.ref m_cz font_size 22 hidden true
+    text t_pl "Poland" #3d3833 at.anchor vertex_15 at.ref m_pl anchor right font_size 30 hidden true
+    text t_su "USSR" #8a5fa8 at.anchor right at.ref m_su anchor right font_size 26 hidden true
+    text t_rh "Rhineland 1936" above m_rh gap 4 #b5482e font_size 24 hidden true
+    text t_sud "Sudetenland 1938" above m_sud gap 2 #b5482e font_size 24 hidden true
+    text d_cz "1939" #b5482e at.anchor left at.ref m_czl anchor left font_size 26 hidden true
+    text t_war "Warsaw" right m_warsaw gap 6 #3d3833 font_size 22 hidden true
+    text d_pl "1 Sept 1939" above t_pl gap 4 #b5482e font_size 26 hidden true
+    arrow m_inv_w #b5482e from.anchor vertex_14 from.ref m_de to.ref m_warsaw style.stroke_width 6 hidden true
+    arrow m_inv_n #b5482e from.anchor vertex_8 from.ref m_ep to.ref m_warsaw style.stroke_width 6 hidden true
+    arrow m_inv_s #b5482e from.anchor vertex_8 from.ref m_cz to.ref m_warsaw style.stroke_width 6 hidden true
+    scratch why work ["2 million+ dead, 1914–18","Not ready to fight","Hoped: limited aims"] x 822 y 210 font_size 22 hidden true
+
+    card title "From peace to war, 1919–1939"
+
+A: In twenty years Europe went from a peace treaty to a second world war. How?
+    draw tl_base
+
+B: The usual answer is Versailles: a peace so harsh that it made the next war.
+    draw ev_vers
+
+A: It was harsh: Germany lost thirteen per cent of its land and a tenth of its people.
+    draw n_vers ver_box ver_line_1
+
+A: One clause blamed it for the war, and it was billed 132 billion gold marks.
+    draw bar_b bar_b_t
+
+B: So Germany was crushed.
+    point at.ref bar_b gesture underline
+
+A: That's the myth. It paid about twenty billion before payments stopped in 1931.
+    draw bar_p bar_p_t strike_b
+
+    erase ver bar_b bar_b_t bar_p bar_p_t strike_b
+
+A: And it was still the biggest power in the middle of Europe, among small new states. Angry, but not weak.
+    draw smap s_t_de
+
+    erase smap s_t_de
+
+B: Then who was meant to keep the peace?
+    draw n_league
+
+A: The League of Nations. But the United States never joined, and the League had no army of its own.
+    highlight n_league
+
+A: In 1931 Japan seized Manchuria, and when the League objected, Japan simply left. In 1935 Mussolini's Italy invaded Abyssinia, and the sanctions spared oil.
+    draw ev_manch ev_abyss
+
+B: Then came the crash of 1929. By 1932 six million Germans were out of work.
+    draw ev_crash n_dep
+
+    draw vote
+
+    ask "What share did they win in July 1932? Click on the line." on vote store g default "20"
+        intro: In 1928 the Nazis had won just 2.6 per cent of the vote.
+        right: Close: you said {g}; it was 37.3 per cent, the largest party in Germany.
+        wrong: You said {g}; it was 37.3 per cent. In four years they became the largest party in Germany.
+
+A: Desperate voters turned to the extremes, and in January 1933 Hitler became chancellor.
+    draw ev_hitler
+
+    draw n_aims
+
+A: His aims were no secret: tear up Versailles, bring all Germans into one Reich, and win living space, [de:Lebensraum], in the east.
+    blocking false
+
+    highlight n_aims
+
+    pause 3.5
+
+    point at.ref n_vers gesture underline
+
+B: So a resented treaty, a toothless League, a slump, and a man who wanted war. That made war certain.
+    draw n_poss1 ar1 ar2 ar3 ar4
+
+A: Possible, not certain. Every step from here was a gamble that someone could have stopped.
+    highlight n_poss1
+
+    clear
+
+    card title "The gambles, 1935–1939"
+
+A: Here is the middle of Europe in 1935: Germany, with Austria and Czechoslovakia to the south, and Poland to the east.
+    draw m_uk t_uk m_fr t_fr m_de t_de m_ep t_ep m_at t_at m_cz t_cz m_pl t_pl m_su t_su parallel true
+
+    draw d_de
+
+A: March 1935: Hitler brought back conscription, openly breaking the treaty. There were protests, and nothing more.
+    blocking false
+
+    highlight d_de
+
+    pause 3
+
+    point at.ref m_de gesture circle
+
+A: March 1936: German troops marched into the Rhineland, the strip the treaty kept empty of soldiers.
+    draw m_rh t_rh
+
+B: Couldn't France just march in?
+    point at.ref m_fr gesture circle
+
+A: France could have. Hitler later said those forty-eight hours were the most nerve-racking of his life. France did nothing.
+    highlight m_rh
+
+B: So why did Britain and France keep giving way?
+    draw why_box
+
+A: Memory, first: more than two million of their men had died in 1914 to 1918.
+    draw why_line_1
+
+A: Their generals said they were not ready, and many hoped his aims were limited: Germans rejoining Germany. That policy was appeasement.
+    draw why_line_2 why_line_3
+
+B: And did giving way work?
+    erase why
+
+A: Not for long. March 1938: German troops crossed into Austria, and it was annexed, the [de:Anschluss].
+    draw m_at_taken d_at
+
+A: September 1938, at Munich: Britain and France handed him the Sudetenland, the German-speaking rim of Czechoslovakia.
+    draw m_sud t_sud
+
+B: And Chamberlain flew home promising peace for our time.
+    highlight m_sud
+
+    draw m_czl d_cz
+
+A: Six months later, in March 1939, Hitler took the rest of the Czech lands. These were Czechs, not Germans, and the hope of limited aims died.
+    blocking false
+
+    highlight m_czl
+
+    pause 4
+
+    point at.ref m_sud gesture circle
+
+A: Britain now promised to defend Poland. Hitler's (@draw m_pact@) answer, in August: a pact with Stalin to carve Poland up between them.
+
+A: On the first of September Germany invaded Poland. On the third, Britain and France declared war.
+    draw m_warsaw t_war m_inv_w m_inv_n m_inv_s d_pl parallel true
+
+B: Surely he'd expected that?
+    point at.ref m_uk gesture circle
+
+A: He had bet they wouldn't. A week before, he told his generals he had seen his enemies at Munich, and called them worms.
+    highlight m_sud
+
+    clear
+
+    card title "Why war came in 1939"
+
+    cards sort
+        Made war possible: Versailles, Weak League, Depression
+        Made it come in 1939: Rhineland ignored, Munich deal, Stalin pact
+
+    ask "Sort each cause into its box." on sort store f after keep stage own
+        intro: Some causes made war possible; others made it come in 1939.
+        right: {f} right: the long causes set the stage, the unanswered steps set the date.
+        wrong: {f} of {f.total} on the first try.
+
+    erase sort
+
+B: So did Hitler plan all this?
+    draw tz_base ez_conscr ez_rhine ez_ansch ez_munich ez_prague ez_pact ez_poland parallel true
+
+A: Historians still argue. A. J. P. Taylor called him an opportunist; most now say he had aims, and took each chance he was given.
+    blocking false
+
+    highlight ez_rhine
+
+    pause 2.5
+
+    highlight ez_munich
+
+    pause 2.5
+
+    highlight ez_prague
+
+A: The long causes built the danger; what turned it into war was a lesson, taught step by step.
+    draw long n_possible br1 br2 br3 br4 n_steps n_war ar_pw ar_sw
+
+B: So every step that went unanswered told him the next one was safe.
+    flow ar_sw
+
+A: Until Poland, when it wasn't. And by then, stopping him meant a world war.
+    draw box_war
+
+    quiz "Suppose France had marched into the Rhineland in March 1936. On this argument, what was most likely?"
+        right: He pulls back: his own generals expected to retreat, and a bluff that fails makes the next one look dangerous.
+        wrong: Think about what each unanswered step taught him about the next one.
+        * War comes anyway, on the same timetable
+        + Hitler pulls back, and the next gamble looks far riskier
+        * Nothing changes: the long causes decide
+
+## thumb years
+role: thumbnail
+
+    icon b_dove size 150 set twemoji x 610 y 560 or ["bird"] icon_look picture of dove hidden true
+    icon b_boom size 170 set twemoji x 610 y 200 or ["bomb","fire"] icon_look picture of collision hidden true
+    text b_1919 "1919" #2f6b8f x 400 y 560 font_size 64 hidden true
+    text b_1939 "1939" #b5482e x 400 y 200 font_size 64 hidden true
+    arrow b_arrow #3d3833 from.x 500 from.y 480 to.x 500 to.y 290 style.stroke_width 6 hidden true
+    text b_q "20 years" #3d3833 x 610 y 385 font_size 36 hidden true
+    thumb b_band "How did peace turn into war?" kind question hidden true
+
+## thumb myth
+role: thumbnail
+
+    box c_v "Just Versailles?" #2f6b8f x 330 y 540 font_size 54 hidden true
+    box c_h "Just Hitler?" #b5482e x 330 y 360 font_size 54 hidden true
+    mark c_s1 around c_v kind strike hidden true
+    mark c_s2 around c_h kind strike hidden true
+    thumb c_stamp "NOT THAT SIMPLE" kind stamp x 790 y 470 angle 12 hidden true
+    thumb c_band "Every gamble paid off. Until one didn't." kind band hidden true
