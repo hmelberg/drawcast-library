@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "genome-cost",
-      "title": "What does it cost to read a human genome now?",
-      "file": "genome-cost.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "guinea-worm",
       "title": "Guinea worm infected millions a year. How many human cases were there in 2025?",
       "file": "guinea-worm.cast",
@@ -1131,6 +1124,13 @@
       "slug": "fossil-share",
       "title": "How much of the world's energy still comes from fossil fuels?",
       "file": "fossil-share.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "genome-cost",
+      "title": "What does it cost to read a human genome now?",
+      "file": "genome-cost.cast",
       "updated": "2026-10-07",
       "page": true
     }
