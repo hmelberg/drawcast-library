@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "body-myths",
-      "title": "Body myths: true or myth?",
-      "file": "body-myths.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "cells-vs-bacteria",
       "title": "Are there more bacteria in your body than human cells?",
       "file": "cells-vs-bacteria.cast",
@@ -1131,6 +1124,13 @@
       "slug": "birthday-paradox",
       "title": "Do two of 23 people share a birthday?",
       "file": "birthday-paradox.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "body-myths",
+      "title": "Body myths: true or myth?",
+      "file": "body-myths.cast",
       "updated": "2026-10-07",
       "page": true
     }
