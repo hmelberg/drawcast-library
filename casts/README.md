@@ -87,8 +87,8 @@
 - [Which languages have the most native speakers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-07
 - [Which country has the most time zones?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-07
 - [Which line is longer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-07
+- [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-04
 - [How many Earths fit between Earth and the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-04
 - [What finishes Pythagoras' theorem?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-04
 - [How much rice on the last square of a chessboard?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-04
