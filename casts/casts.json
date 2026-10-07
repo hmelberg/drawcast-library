@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "hottest-peppers",
-      "title": "How hot are the world's hottest peppers?",
-      "file": "hottest-peppers.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "how-loud-is-loud",
       "title": "How loud is loud?",
       "file": "how-loud-is-loud.cast",
@@ -1131,6 +1124,13 @@
       "slug": "hammer-and-feather",
       "title": "On the Moon, which lands first: a hammer or a feather?",
       "file": "hammer-and-feather.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "hottest-peppers",
+      "title": "How hot are the world's hottest peppers?",
+      "file": "hottest-peppers.cast",
       "updated": "2026-10-07",
       "page": true
     }
