@@ -547,13 +547,6 @@
       "page": true
     },
     {
-      "slug": "longest-pregnancy",
-      "title": "Which animal has the longest pregnancy?",
-      "file": "longest-pregnancy.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "the-deadliest-animal",
       "title": "The deadliest animal",
       "file": "the-deadliest-animal.cast",
@@ -1131,6 +1124,13 @@
       "slug": "linda-problem",
       "title": "Linda: bank teller, or feminist bank teller?",
       "file": "linda-problem.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "longest-pregnancy",
+      "title": "Which animal has the longest pregnancy?",
+      "file": "longest-pregnancy.cast",
       "updated": "2026-10-07",
       "page": true
     }
