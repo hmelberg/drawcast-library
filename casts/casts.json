@@ -1105,6 +1105,13 @@
       "file": "wild-mammals-share.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "women-outlive-men",
+      "title": "In how many countries do women live longer than men?",
+      "file": "women-outlive-men.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }

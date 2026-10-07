@@ -51,6 +51,7 @@
 - [One chip against the planet: which is bigger?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/transistors.cast) — 2026-10-07
 - [How many whales were killed in the 20th century?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whales-hunted.cast) — 2026-10-07
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
+- [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
