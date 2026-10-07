@@ -62,8 +62,8 @@
 - [Do two of 23 people share a birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-07
 - [Body myths: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-07
 - [Are there more bacteria in your body than human cells?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-07
+- [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-04
 - [After five heads in a row, is tails more likely?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-04
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-04
 - [How many Earths would fit inside the Sun?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-04
