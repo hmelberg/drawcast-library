@@ -1000,6 +1000,13 @@
       "file": "obese-vs-underweight.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "ozone-cfc",
+      "title": "What happened to ozone-destroying gases after the world agreed to ban them?",
+      "file": "ozone-cfc.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
