@@ -32,6 +32,7 @@
 - [How fast have measles deaths fallen since 1980?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/measles-deaths.cast) — 2026-10-07
 - [How old is the typical person? Niger, Brazil, the US, Italy and Japan](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/median-age.cast) — 2026-10-07
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
+- [How many people still live without electricity?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/no-electricity.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

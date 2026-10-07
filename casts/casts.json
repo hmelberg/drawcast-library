@@ -972,6 +972,13 @@
       "file": "news-vs-deaths.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "no-electricity",
+      "title": "How many people still live without electricity?",
+      "file": "no-electricity.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
