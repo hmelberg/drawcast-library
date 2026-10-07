@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "solar-panel-prices",
-      "title": "How fast did solar panels get cheaper?",
-      "file": "solar-panel-prices.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
@@ -1131,6 +1124,13 @@
       "slug": "rubiks-cube",
       "title": "How many ways can a Rubik's cube be mixed up?",
       "file": "rubiks-cube.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "solar-panel-prices",
+      "title": "How fast did solar panels get cheaper?",
+      "file": "solar-panel-prices.cast",
       "updated": "2026-10-07",
       "page": true
     }
