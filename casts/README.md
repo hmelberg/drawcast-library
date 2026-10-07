@@ -29,6 +29,7 @@
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-07
 - [How much of beef's carbon footprint is transport?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/local-food-myth.cast) — 2026-10-07
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-07
+- [How fast have measles deaths fallen since 1980?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/measles-deaths.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04

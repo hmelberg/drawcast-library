@@ -951,6 +951,13 @@
       "file": "malaria-in-europe.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "measles-deaths",
+      "title": "How fast have measles deaths fallen since 1980?",
+      "file": "measles-deaths.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
