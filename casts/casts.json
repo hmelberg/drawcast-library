@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "venus-day-year",
-      "title": "On Venus, which is longer: a day or a year?",
-      "file": "venus-day-year.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "viking-words",
       "title": "Which words came from the Vikings?",
       "file": "viking-words.cast",
@@ -1131,6 +1124,13 @@
       "slug": "ultimatum-game",
       "title": "You have $100 to split with a stranger. How much would you offer?",
       "file": "ultimatum-game.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "venus-day-year",
+      "title": "On Venus, which is longer: a day or a year?",
+      "file": "venus-day-year.cast",
       "updated": "2026-10-07",
       "page": true
     }
