@@ -59,8 +59,8 @@
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-07
 - [What are their babies called?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-07
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-07
+- [Do two of 23 people share a birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Do two of 23 people share a birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/birthday-paradox.cast) — 2026-10-04
 - [Body myths: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-04
 - [Are there more bacteria in your body than human cells?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-04
 - [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-04
