@@ -790,6 +790,13 @@
       "file": "alcohol-top.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "battery-prices",
+      "title": "Battery prices since 1991: true or myth?",
+      "file": "battery-prices.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
