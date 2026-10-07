@@ -958,6 +958,13 @@
       "file": "measles-deaths.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "median-age",
+      "title": "How old is the typical person? Niger, Brazil, the US, Italy and Japan",
+      "file": "median-age.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
