@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "rubiks-cube",
-      "title": "How many ways can a Rubik's cube be mixed up?",
-      "file": "rubiks-cube.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "solar-panel-prices",
       "title": "How fast did solar panels get cheaper?",
       "file": "solar-panel-prices.cast",
@@ -1131,6 +1124,13 @@
       "slug": "rice-on-a-chessboard",
       "title": "How much rice on the last square of a chessboard?",
       "file": "rice-on-a-chessboard.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "rubiks-cube",
+      "title": "How many ways can a Rubik's cube be mixed up?",
+      "file": "rubiks-cube.cast",
       "updated": "2026-10-07",
       "page": true
     }

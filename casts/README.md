@@ -91,8 +91,8 @@
 - [How many Earths fit between Earth and the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-07
 - [What finishes Pythagoras' theorem?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-07
 - [How much rice on the last square of a chessboard?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-07
+- [How many ways can a Rubik's cube be mixed up?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [How many ways can a Rubik's cube be mixed up?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-04
 - [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-04
 - [Who discovered what? Match four scientists](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-04
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-04
