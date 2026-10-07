@@ -797,6 +797,13 @@
       "file": "battery-prices.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "bee-colonies",
+      "title": "Do we need bees to eat? Four claims: true or myth?",
+      "file": "bee-colonies.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
