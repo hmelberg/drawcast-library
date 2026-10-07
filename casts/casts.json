@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "world-population-curve",
-      "title": "How fast did the world's population grow to 8 billion?",
-      "file": "world-population-curve.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "the-deadliest-animal",
       "title": "The deadliest animal",
       "file": "the-deadliest-animal.cast",
@@ -1131,6 +1124,13 @@
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "world-population-curve",
+      "title": "How fast did the world's population grow to 8 billion?",
+      "file": "world-population-curve.cast",
       "updated": "2026-10-07",
       "page": true
     }
