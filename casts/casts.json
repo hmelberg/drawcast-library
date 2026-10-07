@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "is-it-a-dinosaur",
-      "title": "Is it a dinosaur?",
-      "file": "is-it-a-dinosaur.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "linda-problem",
       "title": "Linda: bank teller, or feminist bank teller?",
       "file": "linda-problem.cast",
@@ -1131,6 +1124,13 @@
       "slug": "how-loud-is-loud",
       "title": "How loud is loud?",
       "file": "how-loud-is-loud.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "is-it-a-dinosaur",
+      "title": "Is it a dinosaur?",
+      "file": "is-it-a-dinosaur.cast",
       "updated": "2026-10-07",
       "page": true
     }

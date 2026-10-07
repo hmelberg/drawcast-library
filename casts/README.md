@@ -78,8 +78,8 @@
 - [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-07
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-07
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-07
+- [Is it a dinosaur?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Is it a dinosaur?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-04
 - [Linda: bank teller, or feminist bank teller?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-04
 - [Do these names tell the truth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-04
 - [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-04
