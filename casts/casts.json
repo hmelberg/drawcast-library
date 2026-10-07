@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "disaster-deaths",
-      "title": "Do natural disasters kill more people than a century ago?",
-      "file": "disaster-deaths.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "dutch-height",
       "title": "The Dutch are the world's tallest men. How tall were they a century earlier?",
       "file": "dutch-height.cast",
@@ -1131,6 +1124,13 @@
       "slug": "deaths-per-energy",
       "title": "Which source of electricity is the deadliest?",
       "file": "deaths-per-energy.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "disaster-deaths",
+      "title": "Do natural disasters kill more people than a century ago?",
+      "file": "disaster-deaths.cast",
       "updated": "2026-10-07",
       "page": true
     }
