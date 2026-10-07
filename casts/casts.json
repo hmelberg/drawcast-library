@@ -1135,13 +1135,6 @@
       "page": true
     },
     {
-      "slug": "p-vs-np",
-      "title": "P vs NP: checking versus finding",
-      "file": "p-vs-np.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "russian-revolution",
       "title": "Why the Tsar fell, and why Lenin won",
       "file": "russian-revolution.cast",
@@ -1166,6 +1159,13 @@
       "slug": "fermats-last-theorem",
       "title": "Fermat's Last Theorem",
       "file": "fermats-last-theorem.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "p-vs-np",
+      "title": "P vs NP: checking versus finding",
+      "file": "p-vs-np.cast",
       "updated": "2026-10-07",
       "page": true
     }
