@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "missing-letter-states",
-      "title": "Which letter is in no US state's name?",
-      "file": "missing-letter-states.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "moonwalkers",
       "title": "How many people have walked on the Moon?",
       "file": "moonwalkers.cast",
@@ -1131,6 +1124,13 @@
       "slug": "misnamed-things",
       "title": "Do these names tell the truth?",
       "file": "misnamed-things.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "missing-letter-states",
+      "title": "Which letter is in no US state's name?",
+      "file": "missing-letter-states.cast",
       "updated": "2026-10-07",
       "page": true
     }
