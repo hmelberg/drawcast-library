@@ -64,8 +64,8 @@
 - [Are there more bacteria in your body than human cells?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-07
 - [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-07
 - [After five heads in a row, is tails more likely?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-07
+- [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-04
 - [How many Earths would fit inside the Sun?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-04
 - [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-04
 - [Which films won eleven Oscars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-04
