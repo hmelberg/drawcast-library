@@ -103,9 +103,9 @@
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-07
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-07
+- [Which is heavier? Three surprising pairs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How fast did the world's population grow to 8 billion?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-04
-- [Which is heavier? Three surprising pairs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-04
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-04
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03

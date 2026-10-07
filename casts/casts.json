@@ -386,13 +386,6 @@
       "page": true
     },
     {
-      "slug": "which-is-heavier",
-      "title": "Which is heavier? Three surprising pairs",
-      "file": "which-is-heavier.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "the-deadliest-animal",
       "title": "The deadliest animal",
       "file": "the-deadliest-animal.cast",
@@ -1131,6 +1124,13 @@
       "slug": "which-came-first",
       "title": "Which came first?",
       "file": "which-came-first.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "which-is-heavier",
+      "title": "Which is heavier? Three surprising pairs",
+      "file": "which-is-heavier.cast",
       "updated": "2026-10-07",
       "page": true
     }
