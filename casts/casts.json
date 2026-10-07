@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "suicide-vs-homicide",
-      "title": "Which takes more lives worldwide: suicide or homicide?",
-      "file": "suicide-vs-homicide.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "time-alone",
       "title": "As Americans grow older, how much of the day do they spend alone?",
       "file": "time-alone.cast",
@@ -1131,6 +1124,13 @@
       "slug": "space-launches",
       "title": "Which sent more into space: one year, or the whole space age?",
       "file": "space-launches.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "suicide-vs-homicide",
+      "title": "Which takes more lives worldwide: suicide or homicide?",
+      "file": "suicide-vs-homicide.cast",
       "updated": "2026-10-07",
       "page": true
     }
