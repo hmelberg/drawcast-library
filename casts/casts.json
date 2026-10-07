@@ -839,6 +839,13 @@
       "file": "deaths-per-energy.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "disaster-deaths",
+      "title": "Do natural disasters kill more people than a century ago?",
+      "file": "disaster-deaths.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
