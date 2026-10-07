@@ -792,13 +792,6 @@
       "page": true
     },
     {
-      "slug": "no-electricity",
-      "title": "How many people still live without electricity?",
-      "file": "no-electricity.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "norway-electric-cars",
       "title": "What share of new cars sold in Norway are fully electric?",
       "file": "norway-electric-cars.cast",
@@ -1131,6 +1124,13 @@
       "slug": "median-age",
       "title": "How old is the typical person? Niger, Brazil, the US, Italy and Japan",
       "file": "median-age.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "no-electricity",
+      "title": "How many people still live without electricity?",
+      "file": "no-electricity.cast",
       "updated": "2026-10-07",
       "page": true
     }
