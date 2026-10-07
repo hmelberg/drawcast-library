@@ -986,6 +986,13 @@
       "file": "norway-electric-cars.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "nuclear-warheads",
+      "title": "How many nuclear warheads are left in the world?",
+      "file": "nuclear-warheads.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
