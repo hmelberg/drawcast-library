@@ -4,6 +4,7 @@
 - [Thales' theorem](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-07
 - [Why rain is fresh](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Who pays a ticket tax?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
+- [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-07
 - [Odds, risks and hazards](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
@@ -56,7 +57,6 @@
 - [Which is heavier? Three surprising pairs](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-04
 - [Which animal has the longest pregnancy?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-04
 - [The deadliest animal](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-04
-- [Why the Moon never lands](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-04
 - [A 99 % accurate test says yes. Are you ill?](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-04
 - [Why a straw looks bent in water](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [180 litres in, 1.5 out](https://drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-03

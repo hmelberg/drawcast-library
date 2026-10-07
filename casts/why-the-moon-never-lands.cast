@@ -1,6 +1,6 @@
 # Why the Moon never lands
 subtitle: "Newton's cannon and a falling apple show that the Moon falls toward Earth all the time and only its sideways speed makes it keep missing."
-thumb: band "It's falling right now" eyes
+thumb: band "It's falling right now" eyes card navy
 
 ## Why the Moon never lands
     shape earth shape circle x 300 y 380 radius 144.5 style.fill #cfe3ee hidden true
