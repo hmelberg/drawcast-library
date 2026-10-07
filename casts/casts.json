@@ -965,6 +965,13 @@
       "file": "median-age.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "news-vs-deaths",
+      "title": "Does the news cover what actually kills us?",
+      "file": "news-vs-deaths.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
