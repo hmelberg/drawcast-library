@@ -785,13 +785,6 @@
       "page": true
     },
     {
-      "slug": "co2-per-person",
-      "title": "Which country emits the most CO₂ per person?",
-      "file": "co2-per-person.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "cumulative-co2",
       "title": "Which country has emitted the most CO₂ since 1750?",
       "file": "cumulative-co2.cast",
@@ -1131,6 +1124,13 @@
       "slug": "children-in-1800",
       "title": "In 1800, how many children died before their fifth birthday?",
       "file": "children-in-1800.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "co2-per-person",
+      "title": "Which country emits the most CO₂ per person?",
+      "file": "co2-per-person.cast",
       "updated": "2026-10-07",
       "page": true
     }
