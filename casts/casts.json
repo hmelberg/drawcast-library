@@ -1035,6 +1035,13 @@
       "file": "poverty-headline.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "price-of-light",
+      "title": "How much work buys an hour of light, then and now?",
+      "file": "price-of-light.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
