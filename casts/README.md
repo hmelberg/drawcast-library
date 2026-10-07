@@ -83,8 +83,8 @@
 - [Which animal has the longest pregnancy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-07
 - [Do these names tell the truth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-07
 - [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-07
+- [How many people have walked on the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
-- [How many people have walked on the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-04
 - [Which languages have the most native speakers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-04
 - [Which country has the most time zones?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-04
 - [Which line is longer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-04
