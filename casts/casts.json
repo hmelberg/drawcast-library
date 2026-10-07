@@ -944,6 +944,13 @@
       "file": "local-food-myth.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "malaria-in-europe",
+      "title": "Which of these countries still had malaria around 1900?",
+      "file": "malaria-in-europe.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
