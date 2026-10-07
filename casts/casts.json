@@ -909,6 +909,13 @@
       "file": "happiest-country.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "internet-half",
+      "title": "In what year did half of the world's people first use the internet?",
+      "file": "internet-half.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
