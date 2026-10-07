@@ -1,0 +1,364 @@
+# Fermat's Last Theorem
+subtitle: "Why two squares can make a square but two cubes never make a cube — and how a strange curve finally proved it, 358 years after Fermat's margin note."
+thumb: "notebook band \"Too big for the margin\" note \"358 years\""
+
+## Fermat's Last Theorem
+domain:
+    x:
+      - -1.8
+      - 2.6
+    'y':
+      - -4
+      - 4
+    box:
+      x: 30
+      'y': 150
+      w: 480
+      h: 480
+sources:
+    - id: wiles
+      title: Modular elliptic curves and Fermat's Last Theorem
+      authors: Wiles
+      year: 1995
+      finding: Semistable elliptic curves are modular; FLT follows
+    - id: tw
+      title: Ring-theoretic properties of certain Hecke algebras
+      authors: Taylor and Wiles
+      year: 1995
+      finding: Closed the gap in Wiles's 1993 proof
+    - id: ribet
+      title: On modular representations of Gal(Q̄/Q) arising from modular forms
+      authors: Ribet
+      year: 1990
+      finding: Frey's curve cannot be modular
+
+    polygon tri #3d3833 points [[80,190],[480,190],[80,490]] hidden true
+    text m4 "4" x 280 y 155 font_size 44 hidden true
+    text m3 "3" x 45 y 340 font_size 44 hidden true
+    text m5 "5" x 305 y 375 font_size 44 hidden true
+    math eq tex "3^2 + 4^2 = 5^2" size 34 x 760 y 550 hidden true
+    math eq9 tex "9 + 16 = 25" size 34 x 760 y 460 hidden true
+    scratch triples work [{"tex":"5^2 + 12^2 = 13^2"},{"tex":"8^2 + 15^2 = 17^2"},{"tex":"20^2 + 21^2 = 29^2"},"… infinitely many"] x 760 y 280 font_size 27 hidden true
+    math nm1 tex "6^3 + 8^3 = 728" size 34 x 290 y 470 hidden true
+    math nm2 tex "9^3 = 729" size 34 colors {"9^3 = 729":"#b5482e"} x 290 y 380 hidden true
+    portrait fermat x 760 y 420 of "Pierre de Fermat" cameo true hidden true
+    path pl0 #8f887c points [[85,585],[365,585]] hidden true
+    path pl1 #8f887c points [[85,555],[375,555]] hidden true
+    path pl2 #8f887c points [[85,525],[335,525]] hidden true
+    path pl3 #8f887c points [[85,440],[370,440]] hidden true
+    path pl4 #8f887c points [[85,410],[355,410]] hidden true
+    path pl5 #8f887c points [[85,380],[375,380]] hidden true
+    path pl6 #8f887c points [[85,350],[315,350]] hidden true
+    path pl7 #8f887c points [[85,320],[365,320]] hidden true
+    path pl8 #8f887c points [[85,290],[345,290]] hidden true
+    path pl9 #8f887c points [[85,260],[375,260]] hidden true
+    path pl10 #8f887c points [[85,230],[285,230]] hidden true
+    shape page #3d3833 shape rect x 330 y 405 width 560 height 450 hidden true
+    path mline dashed #8f887c points [[400,200],[400,610]] hidden true
+    math pform tex "x^2 + y^2 = z^2" size 34 x 225 y 482 hidden true
+    group printed members ["pl0","pl1","pl2","pl3","pl4","pl5","pl6","pl7","pl8","pl9","pl10"] hidden true
+    text nt1 "impossible" #8a5fa8 x 505 y 585 font_size 32 hidden true
+    text nt2 "for n > 2" #8a5fa8 x 505 y 540 font_size 32 hidden true
+    text nt3 "a marvellous" #8a5fa8 x 505 y 465 font_size 32 hidden true
+    text nt4 "proof …" #8a5fa8 x 505 y 420 font_size 32 hidden true
+    text nt5 "margin" #8a5fa8 x 505 y 345 font_size 32 hidden true
+    text nt6 "too narrow!" #8a5fa8 x 505 y 300 font_size 32 hidden true
+    group note members ["nt1","nt2","nt3","nt4","nt5","nt6"] hidden true
+    group note_end members ["nt5","nt6"] hidden true
+    box n3 "3" width 90 height 90 font_size 40 in powers hidden true
+    box n4 "4" width 90 height 90 font_size 40 in powers hidden true
+    box n5 "5" width 90 height 90 font_size 40 in powers hidden true
+    box n6 "6" width 90 height 90 font_size 40 in powers hidden true
+    box n7 "7" width 90 height 90 font_size 40 in powers hidden true
+    box n8 "8" width 90 height 90 font_size 40 in powers hidden true
+    box n9 "9" width 90 height 90 font_size 40 in powers hidden true
+    box n10 "10" width 90 height 90 font_size 40 in powers hidden true
+    box n11 "11" width 90 height 90 font_size 40 in powers hidden true
+    box n12 "12" width 90 height 90 font_size 40 in powers hidden true
+    box n13 "13" width 90 height 90 font_size 40 in powers hidden true
+    box n14 "14" width 90 height 90 font_size 40 in powers hidden true
+    box n15 "15" width 90 height 90 font_size 40 in powers hidden true
+    box n16 "16" width 90 height 90 font_size 40 in powers hidden true
+    box n17 "17" width 90 height 90 font_size 40 in powers hidden true
+    box n18 "18" width 90 height 90 font_size 40 in powers hidden true
+    box n19 "19" width 90 height 90 font_size 40 in powers hidden true
+    box n20 "20" width 90 height 90 font_size 40 in powers hidden true
+    box n21 "21" width 90 height 90 font_size 40 in powers hidden true
+    box n22 "22" width 90 height 90 font_size 40 in powers hidden true
+    grid powers gap 22 columns 5 fit.h 480 fit.w 600 fit.x 40 fit.y 160 hidden true
+    scratch descent work ["a solution","→ a smaller one","→ smaller still","→ … forever?"] x 820 y 400 font_size 30 hidden true
+    arrow a10 n10 -> n5 #8f887c hidden true
+    arrow a14 n14 -> n7 #8f887c hidden true
+    arrow a22 n22 -> n11 #8f887c hidden true
+    cards still size 1.6 select "Still need a proof" hidden true
+        * "5" in true
+        * "7" in true
+        * "13" in true
+        * "14" in false
+        * "15" in false
+        * "22" in false
+    portrait germain x 820 y 400 of "Sophie Germain" cameo true hidden true
+    math k1 tex "6 = 2 \\times 3" size 34 x 340 y 480 hidden true
+    math k2 tex "6 = (1+\\sqrt{-5})\\,(1-\\sqrt{-5})" size 34 colors {"\\sqrt{-5}":"#b5482e"} x 340 y 360 hidden true
+    box o37 "37" #b5482e x 820 y 500 width 90 height 90 font_size 40 hidden true
+    box o59 "59" #b5482e x 820 y 390 width 90 height 90 font_size 40 hidden true
+    box o67 "67" #b5482e x 820 y 280 width 90 height 90 font_size 40 hidden true
+    group open members ["o37","o59","o67"] hidden true
+    text open_label "still open" #b5482e x 820 y 580 font_size 28 hidden true
+    text th0 "p" #8f887c x 600 y 470 font_size 36 hidden true
+    text th1 "5" #8f887c x 750 y 470 font_size 36 hidden true
+    text th2 "7" #8f887c x 825 y 470 font_size 36 hidden true
+    text th3 "13" #8f887c x 895 y 470 font_size 36 hidden true
+    text th4 "17" #8f887c x 960 y 470 font_size 36 hidden true
+    text tc0 "count" x 600 y 400 font_size 36 hidden true
+    text tc1 "7" x 750 y 400 font_size 36 hidden true
+    text tc2 "7" x 825 y 400 font_size 36 hidden true
+    text tc3 "7" x 895 y 400 font_size 36 hidden true
+    text tc4 "15" x 960 y 400 font_size 36 hidden true
+    text tf0 "p − count" #2f6b8f x 590 y 330 font_size 36 hidden true
+    text tf1 "−2" #2f6b8f x 750 y 330 font_size 36 hidden true
+    text tf2 "0" #2f6b8f x 825 y 330 font_size 36 hidden true
+    text tf3 "6" #2f6b8f x 895 y 330 font_size 36 hidden true
+    text tf4 "2" #2f6b8f x 960 y 330 font_size 36 hidden true
+    group tab_top members ["th0","th1","th2","th3","th4","tc0","tc1","tc2","tc3","tc4"] hidden true
+    group tab_fp members ["tf0","tf1","tf2","tf3","tf4"] hidden true
+    axes ax x_label x y_label y hidden true
+    curve e_ou #2f6b8f x_expr t y_expr "sqrt(max(0, t^3 - t))" t_from -1 t_to 0 hidden true
+    curve e_ol #2f6b8f x_expr t y_expr "-sqrt(max(0, t^3 - t))" t_from -1 t_to 0 hidden true
+    curve e_bu #2f6b8f x_expr t y_expr "sqrt(max(0, t^3 - t))" t_from 1 t_to 2.6 hidden true
+    curve e_bl #2f6b8f x_expr t y_expr "-sqrt(max(0, t^3 - t))" t_from 1 t_to 2.6 hidden true
+    group curve members ["e_ou","e_ol","e_bu","e_bl"] hidden true
+    math ell tex "y^2 = x^3 - x" size 34 x 770 y 590 hidden true
+    dot r0 #b5482e at.x 0 at.y 0 hidden true
+    dot r1 #b5482e at.x 1 at.y 0 hidden true
+    dot r2 #b5482e at.x -1 at.y 0 hidden true
+    group roots members ["r0","r1","r2"] hidden true
+    label lr1 below-right #b5482e attach_to r1 tex a^p font_size 36 hidden true
+    label lr2 below-left #b5482e attach_to r2 tex -b^p font_size 36 hidden true
+    box c_sol "A solution" font_size 44 in chain hidden true
+    box c_frey "Frey's curve" font_size 44 in chain hidden true
+    box c_not "Not modular" #b5482e cites ["ribet"] font_size 44 in c_pair hidden true
+    box c_mod "Modular" #2f6b8f cites ["wiles","tw"] font_size 44 in c_pair hidden true
+    column c_pair gap 150 in chain hidden true
+    row chain gap 70 fit.h 400 fit.w 920 fit.x 40 fit.y 260 hidden true
+    arrow a_sf c_sol -> c_frey hidden true
+    arrow a_fn c_frey -> c_not #b5482e hidden true
+    arrow a_fm c_frey -> c_mod #2f6b8f hidden true
+    text l_ribet "Ribet 1986" #b5482e x 834 y 640 font_size 28 hidden true
+    text l_wiles "Wiles 1995" #2f6b8f x 834 y 275 font_size 32 hidden true
+    portrait wiles x 210 y 250 width 220 of "Andrew Wiles" cameo true hidden true
+    mark clash around c_not c_mod #b5482e kind box hidden true
+    text xmark "✗" #b5482e x 834 y 460 font_size 80 hidden true
+    mark nosol around c_sol kind cross hidden true
+
+    move eq eq9 scale 1.5 duration 0.01
+
+    move nm1 nm2 scale 1.7 duration 0.01
+
+    move k1 k2 scale 1.6 duration 0.01
+
+    move pform scale 1.3 duration 0.01
+
+    move ell scale 1.4 duration 0.01
+
+    card title "Fermat's Last Theorem"
+
+A: Two squares can add up to a square. So why can two cubes never add up to a cube?
+    draw tri
+
+B: Like the three, four, five triangle?
+    draw m3 m4 m5 parallel true
+
+A: Exactly. Three squared plus four squared is five squared: nine plus sixteen.
+    draw eq eq9
+
+B: Are there many triples like that?
+    draw triples_box triples_line_1 triples_line_2 triples_line_3
+
+A: Infinitely many. Pick any two whole numbers, and an old recipe hands you a new triple.
+    draw triples_line_4
+
+    erase triples m3 m4 m5 tri eq9
+
+    move eq by [-260,-120] scale 1.6 duration 1
+
+A: Now raise the power to three, and the triangle is no help any more.
+    morph eq tex "a^3 + b^3 = c^3" duration 2
+
+B: Surely, if I search long enough, I'll find two cubes that work.
+    highlight eq
+
+    fade eq to 0 duration 0.5
+
+    move eq by [322,70] duration 0.3
+
+    ask "Six cubed plus eight cubed: how much is that?" estimate.min 500 estimate.max 900 estimate.value 728 store g
+        right: Seven hundred and twenty-eight. Nine cubed is seven hundred and twenty-nine: missed by one.
+        wrong: You said {g}. It is seven hundred and twenty-eight, and nine cubed is seven twenty-nine: missed by one.
+
+    draw nm1 nm2
+
+A: So close, and still no cube. In 1637 Pierre de Fermat claimed no power above two ever works.
+    draw fermat
+
+    erase fermat nm1 nm2
+
+    fade eq to 1 duration 0.5
+
+    morph eq tex "a^n + b^n = c^n" duration 1.5
+
+A: He wrote it in the margin of an old Greek maths book, the Arithmetica of Diophantus.
+    draw page printed pform mline
+
+B: And beside it: he had a truly marvellous proof, but the margin was too narrow?
+    draw note
+
+A: Yes. Nobody ever found that proof, and the note cost mathematicians three hundred and fifty-eight years.
+    highlight note_end
+
+    erase page printed pform mline note eq
+
+A: Here are the powers left to beat. Fermat himself knocked out four, with a trick called infinite descent.
+    draw powers
+
+A: Suppose a solution exists. From it he built a smaller one, and from that a smaller one again, forever.
+    draw descent_box descent_line_1 descent_line_2 descent_line_3 descent_line_4
+
+B: But whole numbers can't shrink forever. You hit one, and stop.
+    highlight descent_line_4
+
+    erase descent
+
+A: Right, so there was never a first solution. And  (@fade n4 n8 n12 n16 n20 to 0.2@)four takes eight, twelve, sixteen and twenty down with it.
+
+A: Euler did three, in  (@fade n3 n6 n9 n15 n18 n21 to 0.2@)1770, and that clears every multiple of three.
+
+    draw a10
+
+    fade n10 to 0.2 duration 0.6
+
+    fade powers a10 to 0 duration 0.8
+
+    draw still
+
+    ask "A tenth power is a fifth power of a square, so ten falls with five. Which others still need a proof? Tap them." on still stage own store k
+        right: Five, seven and thirteen. Fourteen falls with seven, twenty-two with eleven, fifteen with three.
+        wrong: {k} of {k.total} on the first try. Fourteen falls with seven, twenty-two with eleven.
+
+    erase still
+
+    fade n3 n4 n6 n8 n9 n10 n12 n14 n15 n16 n18 n20 n21 n22 a10 to 0.2 duration 0.6
+
+    fade n5 n7 n11 n13 n17 n19 to 1 duration 0.6
+
+B: So only the odd primes are left.
+    draw a14 a22 parallel true
+
+    erase a10 a14 a22
+
+A: Sophie Germain, around 1820, showed that for many primes, a solution would need that prime to divide a, b or c.
+    draw germain
+
+    erase germain
+
+A: Then Kummer hit a wall. The proofs worked in bigger number systems, where numbers can split into primes in more than one way.
+    highlight n5 n7 n11 n13 n17 n19
+
+    fade powers to 0.1 duration 0.6
+
+A: Six is two times three. But in one such system, it is also this.
+    draw k1 k2
+
+B: Two different ways to split the same number? That breaks everything.
+    highlight k2
+
+    erase k1 k2
+
+    fade n3 n4 n6 n8 n9 n10 n12 n14 n15 n16 n18 n20 n21 n22 to 0.2 duration 0.5
+
+    fade n5 n7 n11 n13 n17 n19 to 1 duration 0.5
+
+    draw open open_label
+
+A: Kummer's repair covered every prime below a hundred except thirty-seven, fifty-nine and sixty-seven. Infinitely many still stood.
+    blocking false
+
+    fade n5 n7 n11 n13 n17 n19 to 0.2 duration 1.2
+
+    pause 2.2
+
+    highlight open effect pulse duration 2.5
+
+    clear
+
+A: The way through came from somewhere else entirely: from curves like this one.
+    draw ax curve
+
+B: y squared equals x cubed minus x. That's an elliptic curve?
+    draw ell
+
+A: It is. Now forget the drawing. Count its whole-number solutions modulo a prime, in clock arithmetic.
+    draw tab_top
+
+A: Those counts make a fingerprint. Modular means some hugely symmetric function carries the very same fingerprint.
+    draw tab_fp
+
+    erase tab_top tab_fp
+
+B: And in the 1950s Taniyama and Shimura guessed that every curve like this is modular?
+    highlight curve
+
+A: Right. Then in 1984 Gerhard Frey had a wild idea: t (@morph ell tex "y^2 = x(x-a^p)(x+b^p)" duration 2.5@)ake a supposed solution, and build a curve from it.
+
+B: Its curve crosses the axis at a to the p, and minus b to the p?
+    draw roots lr1 lr2
+
+A: Yes, and with those huge numbers built in, it's so strange that Ken Ribet proved, in 1986, it cannot be modular.
+    highlight curve effect pulse
+
+    clear
+
+B: So: a solution gives Frey's curve, and Ribet says Frey's curve is not modular.
+    draw c_sol a_sf c_frey a_fn c_not l_ribet
+
+A: But if every curve like that is modular…
+    draw a_fm c_mod
+
+B: …then Frey's curve is both at once, which is impossible.
+    draw clash xmark
+
+A: And Andrew Wiles proved enough of that old guess to cover Frey's curve.
+    draw wiles
+
+    erase wiles
+
+A: He announced it in Cambridge in 1993. A gap turned up; with Richard Taylor he closed it, and it was published in 1995.
+    draw l_wiles
+
+B: So nobody ever checked all the numbers?
+    point at.ref c_sol gesture circle
+
+A: Nobody had to. Any solution would build a c (@draw nosol@)urve that must be modular and cannot be. So there is no solution.
+
+    quiz "Suppose Ribet's step had failed, and Frey's curve could be modular. Would Wiles's theorem alone prove Fermat?"
+        right: No. Wiles shows the curve is modular; only Ribet's 'it cannot be' turns that into a contradiction.
+        wrong: A proof by contradiction needs two claims that cannot both be true.
+        * Yes: the curve is modular
+        + No: there is no clash left
+        * Yes: descent covers the rest
+
+## Thumbnail
+role: thumbnail
+
+    text big "aⁿ + bⁿ = cⁿ" x 520 y 450 font_size 110 hidden true
+    text q "n > 2 ?" #b5482e x 520 y 300 font_size 80 hidden true
+    thumb t1 "Too big for the margin" kind band hidden true
+    thumb t2 "358 years" kind note hidden true
+
+## Thumbnail
+role: thumbnail
+
+    math big tex "6^3 + 8^3 = 728" size 80 x 520 y 500 hidden true
+    math big2 tex "9^3 = 729" size 80 colors {"9^3 = 729":"#b5482e"} x 520 y 330 hidden true
+    thumb t1 "Missed by one" kind band hidden true
+    thumb t2 "SO CLOSE" kind stamp hidden true

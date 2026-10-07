@@ -1133,6 +1133,13 @@
       "file": "world-population-curve.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "fermats-last-theorem",
+      "title": "Fermat's Last Theorem",
+      "file": "fermats-last-theorem.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
