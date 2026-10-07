@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "misnamed-things",
-      "title": "Do these names tell the truth?",
-      "file": "misnamed-things.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -1131,6 +1124,13 @@
       "slug": "longest-pregnancy",
       "title": "Which animal has the longest pregnancy?",
       "file": "longest-pregnancy.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "misnamed-things",
+      "title": "Do these names tell the truth?",
+      "file": "misnamed-things.cast",
       "updated": "2026-10-07",
       "page": true
     }
