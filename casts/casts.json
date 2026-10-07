@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "working-hours",
-      "title": "How many hours did a German work in 1870, compared with today?",
-      "file": "working-hours.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "alcohol-top",
       "title": "Which country drinks the most alcohol per adult?",
       "file": "alcohol-top.cast",
@@ -1131,6 +1124,13 @@
       "slug": "women-outlive-men",
       "title": "In how many countries do women live longer than men?",
       "file": "women-outlive-men.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "working-hours",
+      "title": "How many hours did a German work in 1870, compared with today?",
+      "file": "working-hours.cast",
       "updated": "2026-10-07",
       "page": true
     }
