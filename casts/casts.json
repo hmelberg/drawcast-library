@@ -937,6 +937,13 @@
       "file": "livestock-land.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "local-food-myth",
+      "title": "How much of beef's carbon footprint is transport?",
+      "file": "local-food-myth.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
