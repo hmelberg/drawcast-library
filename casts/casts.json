@@ -792,13 +792,6 @@
       "page": true
     },
     {
-      "slug": "obese-vs-underweight",
-      "title": "Are there more obese or more underweight adults in the world?",
-      "file": "obese-vs-underweight.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "ozone-cfc",
       "title": "What happened to ozone-destroying gases after the world agreed to ban them?",
       "file": "ozone-cfc.cast",
@@ -1131,6 +1124,13 @@
       "slug": "nuclear-warheads",
       "title": "How many nuclear warheads are left in the world?",
       "file": "nuclear-warheads.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "obese-vs-underweight",
+      "title": "Are there more obese or more underweight adults in the world?",
+      "file": "obese-vs-underweight.cast",
       "updated": "2026-10-07",
       "page": true
     }
