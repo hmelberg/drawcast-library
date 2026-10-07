@@ -881,6 +881,13 @@
       "file": "forest-lost.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "fossil-share",
+      "title": "How much of the world's energy still comes from fossil fuels?",
+      "file": "fossil-share.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
