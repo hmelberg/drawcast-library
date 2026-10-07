@@ -804,6 +804,13 @@
       "file": "bee-colonies.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "chickens-per-year",
+      "title": "How many chickens are slaughtered for meat each year?",
+      "file": "chickens-per-year.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
