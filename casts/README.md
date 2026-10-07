@@ -20,6 +20,7 @@
 - [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-07
 - [How much of the world's forest have we lost since the last ice age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/forest-lost.cast) — 2026-10-07
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-07
+- [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
