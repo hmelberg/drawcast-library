@@ -6,7 +6,6 @@
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-07
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
-- [What happened to ozone-destroying gases after the world agreed to ban them?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ozone-cfc.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
 - [How much of the world's plastic waste gets recycled?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/plastic-recycled.cast) — 2026-10-07
 - [When will the world's population peak, and at what size?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/population-peak.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-07
 - [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
 - [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-07
+- [What happened to ozone-destroying gases after the world agreed to ban them?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ozone-cfc.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
