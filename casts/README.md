@@ -13,7 +13,6 @@
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
-- [Which infectious disease kills the most people today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tb-still-top.cast) — 2026-10-07
 - [Which country drinks the most alcohol per adult?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/alcohol-top.cast) — 2026-10-07
 - [Battery prices since 1991: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/battery-prices.cast) — 2026-10-07
 - [Do we need bees to eat? Four claims: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bee-colonies.cast) — 2026-10-07
@@ -55,6 +54,7 @@
 - [Which killed more in the 20th century: smallpox or the World Wars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/smallpox-toll.cast) — 2026-10-07
 - [Which sent more into space: one year, or the whole space age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/space-launches.cast) — 2026-10-07
 - [Which takes more lives worldwide: suicide or homicide?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/suicide-vs-homicide.cast) — 2026-10-07
+- [Which infectious disease kills the most people today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tb-still-top.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [How long do animals sleep?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/animal-sleep.cast) — 2026-10-04
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-04
