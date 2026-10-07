@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "space-launches",
-      "title": "Which sent more into space: one year, or the whole space age?",
-      "file": "space-launches.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "suicide-vs-homicide",
       "title": "Which takes more lives worldwide: suicide or homicide?",
       "file": "suicide-vs-homicide.cast",
@@ -1131,6 +1124,13 @@
       "slug": "smallpox-toll",
       "title": "Which killed more in the 20th century: smallpox or the World Wars?",
       "file": "smallpox-toll.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "space-launches",
+      "title": "Which sent more into space: one year, or the whole space age?",
+      "file": "space-launches.cast",
       "updated": "2026-10-07",
       "page": true
     }
