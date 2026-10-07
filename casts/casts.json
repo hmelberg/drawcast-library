@@ -1070,6 +1070,13 @@
       "file": "space-launches.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "suicide-vs-homicide",
+      "title": "Which takes more lives worldwide: suicide or homicide?",
+      "file": "suicide-vs-homicide.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
