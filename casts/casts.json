@@ -799,13 +799,6 @@
       "page": true
     },
     {
-      "slug": "plastic-recycled",
-      "title": "How much of the world's plastic waste gets recycled?",
-      "file": "plastic-recycled.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "population-peak",
       "title": "When will the world's population peak, and at what size?",
       "file": "population-peak.cast",
@@ -1131,6 +1124,13 @@
       "slug": "ozone-cfc",
       "title": "What happened to ozone-destroying gases after the world agreed to ban them?",
       "file": "ozone-cfc.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "plastic-recycled",
+      "title": "How much of the world's plastic waste gets recycled?",
+      "file": "plastic-recycled.cast",
       "updated": "2026-10-07",
       "page": true
     }
