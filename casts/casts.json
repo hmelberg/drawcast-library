@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "animal-sleep",
-      "title": "How long do animals sleep?",
-      "file": "animal-sleep.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "ants-on-earth",
       "title": "How many ants are there on Earth?",
       "file": "ants-on-earth.cast",
@@ -1131,6 +1124,13 @@
       "slug": "working-hours",
       "title": "How many hours did a German work in 1870, compared with today?",
       "file": "working-hours.cast",
+      "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "animal-sleep",
+      "title": "How long do animals sleep?",
+      "file": "animal-sleep.cast",
       "updated": "2026-10-07",
       "page": true
     }
