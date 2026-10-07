@@ -1,0 +1,317 @@
+# Why the Tsar fell, and why Lenin won
+subtitle: "Why Russia's Tsar collapsed in a week in 1917, and how a small, organised party took power eight months later by promising peace, land and bread."
+thumb: "band \"Lenin missed it\" stamp \"PLOT TWIST\" card wood"
+
+## Why the Tsar fell, and why Lenin won
+sources:
+    - id: figes
+      title: 'A People''s Tragedy: The Russian Revolution 1891–1924'
+      authors: Orlando Figes
+      year: 1996
+      finding: the long and short causes of 1917; the February collapse and the Bolshevik rise
+    - id: fitz
+      title: The Russian Revolution (4th ed.)
+      authors: Sheila Fitzpatrick
+      year: 2017
+      finding: dual power, the war and the land question; Bolshevik growth in 1917
+    - id: brit
+      title: Russian Revolution of 1917
+      authors: Encyclopaedia Britannica
+      finding: dates of February and October (Julian and Gregorian), the abdication, the Kornilov affair
+    - id: losses
+      title: War Losses (Russian Empire)
+      authors: 1914-1918-online, International Encyclopedia of the First World War
+      finding: by the end of 1916 Russia had lost about five million men killed, wounded or captured
+    - id: ca
+      title: 'Russia Goes to the Polls: The Election to the All-Russian Constituent Assembly, 1917'
+      authors: Oliver H. Radkey
+      year: 1989
+      finding: Bolsheviks about 24 % of the vote; Socialist Revolutionaries about 40 %
+
+    text l_spark "Spark" #b5482e x 0 y 0 font_size 32 in spark hidden true
+    text l_fuel "Fuel" #2f6b8f x 0 y 0 font_size 32 in fuel hidden true
+    arrow axis #3d3833 from.x 45 from.y 482 to.x 960 to.y 482 hidden true
+    path brk1 #3d3833 points [[180,468],[192,496]] hidden true
+    path brk2 #3d3833 points [[194,468],[206,496]] hidden true
+    text tk1860 "1860" #8f887c x 87.5 y 450 font_size 26 hidden true
+    text tk1890 "1890" #8f887c x 230 y 450 font_size 26 hidden true
+    text tk1900 "1900" #8f887c x 471.4 y 450 font_size 26 hidden true
+    text tk1910 "1910" #8f887c x 712.8 y 450 font_size 26 hidden true
+    group ticks_long members ["brk1","brk2","tk1860","tk1890","tk1900","tk1910"] hidden true
+    shape era #94bfd6 shape rect x 616.25 y 482 width 540.7 height 16 style.fill #94bfd6 style.opacity 0.6 hidden true
+    text l_era "Nicholas II" #2f6b8f x 470 y 508 font_size 26 hidden true
+    shape dot_e1861 #3d3833 shape circle x 94.1 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_e1861 #8f887c points [[94.1,490],[94.1,522]] hidden true
+    text txt_e1861 "Serfs freed" #3d3833 x 94.1 y 538 font_size 28 hidden true
+    group e1861 members ["dot_e1861","stem_e1861","txt_e1861"] hidden true
+    shape dot_e1905 #3d3833 shape circle x 593.3 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_e1905 #8f887c points [[593.3,490],[593.3,630]] hidden true
+    text txt_e1905 "Bloody Sunday" #3d3833 x 593.3 y 646 font_size 28 hidden true
+    group e1905 members ["dot_e1905","stem_e1905","txt_e1905"] hidden true
+    shape dot_e1906 #3d3833 shape circle x 629.4 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_e1906 #8f887c points [[629.4,490],[629.4,522]] hidden true
+    text txt_e1906 "Duma" #3d3833 x 629.4 y 538 font_size 28 hidden true
+    group e1906 members ["dot_e1906","stem_e1906","txt_e1906"] hidden true
+    shape dot_e1914 #3d3833 shape circle x 823.8 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_e1914 #8f887c points [[823.8,490],[823.8,522]] hidden true
+    text txt_e1914 "War" #3d3833 x 823.8 y 538 font_size 28 hidden true
+    group e1914 members ["dot_e1914","stem_e1914","txt_e1914"] hidden true
+    shape dot_efeb #8a5fa8 shape circle x 886.6 y 482 radius 7 style.fill #8a5fa8 hidden true
+    path stem_efeb #8f887c points [[886.6,490],[886.6,630]] hidden true
+    text txt_efeb "Tsar falls" #8a5fa8 cites ["brit"] x 886.6 y 646 font_size 30 hidden true
+    group efeb members ["dot_efeb","stem_efeb","txt_efeb"] hidden true
+    shape dot_elenin #3d3833 shape circle x 315.2 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_elenin #8f887c points [[315.2,490],[315.2,522]] hidden true
+    text txt_elenin "Lenin returns" #3d3833 x 315.2 y 538 font_size 28 hidden true
+    group elenin members ["dot_elenin","stem_elenin","txt_elenin"] hidden true
+    shape dot_ejuly #3d3833 shape circle x 535.2 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_ejuly #8f887c points [[535.2,490],[535.2,576]] hidden true
+    text txt_ejuly "July Days" #3d3833 x 535.2 y 592 font_size 28 hidden true
+    group ejuly members ["dot_ejuly","stem_ejuly","txt_ejuly"] hidden true
+    shape dot_ekorn #3d3833 shape circle x 667.2 y 482 radius 7 style.fill #3d3833 hidden true
+    path stem_ekorn #8f887c points [[667.2,490],[667.2,522]] hidden true
+    text txt_ekorn "Kornilov" #3d3833 x 667.2 y 538 font_size 28 hidden true
+    group ekorn members ["dot_ekorn","stem_ekorn","txt_ekorn"] hidden true
+    shape dot_eoct #b5482e shape circle x 808 y 482 radius 7 style.fill #b5482e hidden true
+    path stem_eoct #8f887c points [[808,490],[808,630]] hidden true
+    text txt_eoct "Bolsheviks take power" #b5482e cites ["brit"] x 808 y 646 font_size 30 hidden true
+    group eoct members ["dot_eoct","stem_eoct","txt_eoct"] hidden true
+    text n_train "German train" #8f887c x 355.2 y 590 font_size 24 hidden true
+    text n_fin "Lenin → Finland" #8f887c x 535.2 y 640 font_size 22 hidden true
+    text n_turn "Workers armed" #b5482e x 704.8 y 590 font_size 22 hidden true
+    mark x_korn around txt_ekorn kind strike hidden true
+    text n_palace "Winter Palace" #b5482e x 878 y 590 font_size 22 hidden true
+    text m_March "March" #8f887c x 206.7 y 450 font_size 26 hidden true
+    text m_July "July" #8f887c x 500 y 450 font_size 26 hidden true
+    text m_November "November" #8f887c x 793.3 y 450 font_size 26 hidden true
+    text yr1917 "1917" #3d3833 x 90 y 450 font_size 26 hidden true
+    group ticks_1917 members ["yr1917","m_March","m_July","m_November"] hidden true
+    icon swiss size 110 set twemoji x 860 y 300 or ["swiss flag"] icon_look picture of flag-switzerland hidden true
+    text l_swiss "Lenin: Switzerland" x 820 y 385 font_size 30 hidden true
+    box c_land "Land debts" #2f6b8f width 170 icon.of "sheaf of rice" icon.or ["wheat"] icon.set twemoji font_size 30 in fuel hidden true
+    box c_work "Factories" #2f6b8f width 170 icon.of factory icon.set twemoji font_size 30 in fuel hidden true
+    box c_auto "Autocracy" #2f6b8f width 170 icon.of crown icon.set twemoji font_size 30 in fuel hidden true
+    box c_1905 "1905" #2f6b8f width 170 icon.of "drop of blood" icon.set twemoji font_size 30 in fuel hidden true
+    box c_war "War losses" #b5482e cites ["losses"] width 170 icon.of "military helmet" icon.or ["helmet"] icon.set twemoji font_size 30 in spark hidden true
+    box c_bread "No bread" #b5482e width 170 icon.of bread icon.set twemoji font_size 30 in spark hidden true
+    box c_strike "Strikes" #b5482e width 170 icon.of "raised fist" icon.or ["megaphone"] icon.set twemoji font_size 30 in spark hidden true
+    box c_mutiny "Mutiny" #8a5fa8 width 170 icon.of handshake icon.set twemoji font_size 30 in spark hidden true
+    row fuel gap 16 in rows hidden true
+    row spark gap 16 in rows hidden true
+    column rows gap 26 in causes hidden true
+    box c_fall "Abdicates" #8a5fa8 width 180 height 80 font_size 32 in causes hidden true
+    row causes gap 50 fit.h 270 fit.w 980 fit.x 10 fit.y 150 hidden true
+    arrow a_fuel #2f6b8f from.anchor right from.ref c_1905 to.anchor left to.ref c_fall hidden true
+    arrow a_spark #8a5fa8 from.anchor right from.ref c_mutiny to.anchor left to.ref c_fall hidden true
+    arrow a_auto_war dashed #8f887c from.anchor bottom from.ref c_auto to.anchor top to.ref c_war hidden true
+    scratch cal work ["Russia's old calendar","23 Feb = 8 March","13 days behind"] x 820 y 300 font_size 26 hidden true
+    box d_gov "Provisional Government" #2f6b8f width 360 height 90 font_size 34 in dual hidden true
+    box d_sov "Petrograd Soviet" #b5482e width 300 height 90 font_size 34 in dual hidden true
+    row dual gap 200 fit.h 170 fit.w 940 fit.x 30 fit.y 200 hidden true
+    arrow d_arrow dashed #b5482e from.anchor left from.ref d_sov to.anchor right to.ref d_gov hidden true
+    text l_veto "veto" #b5482e x 500 y 322 font_size 30 hidden true
+    text l_dual "Dual power" #8a5fa8 x 500 y 405 font_size 32 hidden true
+    box g_corner "People want" #8f887c width 200 height 50 font_size 30 style.stroke_width 0.01 in col_rows hidden true
+    box g_peace "Peace" #3d3833 width 200 height 50 font_size 30 in col_rows hidden true
+    box g_land "Land" #3d3833 width 200 height 50 font_size 30 in col_rows hidden true
+    box g_bread "Bread" #3d3833 width 200 height 50 font_size 30 in col_rows hidden true
+    box h_mod "Moderates" #2f6b8f width 200 height 50 font_size 30 style.stroke_width 0.01 in col_mod hidden true
+    box g_m1 "Fight on" #2f6b8f width 200 height 50 font_size 30 in col_mod hidden true
+    box g_m2 "Wait" #2f6b8f width 200 height 50 font_size 30 in col_mod hidden true
+    box g_m3 "Queues" #2f6b8f width 200 height 50 font_size 30 in col_mod hidden true
+    box h_bol "Bolsheviks" #b5482e width 200 height 50 font_size 30 style.stroke_width 0.01 in col_bol hidden true
+    box g_b1 "Now" #b5482e cites ["fitz"] width 200 height 50 font_size 30 in col_bol hidden true
+    box g_b2 "Take it" #b5482e width 200 height 50 font_size 30 in col_bol hidden true
+    box g_b3 "Promised" #b5482e width 200 height 50 font_size 30 in col_bol hidden true
+    column col_rows gap 10 in promise hidden true
+    column col_mod gap 10 in promise hidden true
+    column col_bol cites ["fitz"] gap 10 in promise hidden true
+    row promise gap 40 fit.h 262 fit.w 880 fit.x 60 fit.y 150 hidden true
+    mark box_bol around g_b1 g_b2 g_b3 kind box hidden true
+
+    card title "Why Russia had two revolutions"
+
+B: Russia, 1917. In one year it loses its Tsar, and ends up ruled by Lenin. How?
+    draw axis ticks_long
+
+A: That's two puzzles, really: why the Tsar fell, and why the Bolsheviks, of all people, won.
+    draw efeb
+
+B: Isn't it one story? Lenin's revolutionaries overthrew the Tsar.
+    point at.ref txt_efeb gesture circle
+
+A: That's the usual picture, and it's wrong. When t (@draw swiss l_swiss@)he Tsar fell, Lenin was in Switzerland, reading about it in the papers.
+
+    erase swiss l_swiss
+
+A: Start with the long fuse. In 1861 the serfs were freed, but they had to pay for their land over forty-nine years.
+    draw e1861 c_land
+
+A: From the 1890s Russia industrialised fast. Peasants crowded into St Petersburg's factories, poorly paid and close to the throne.
+    draw c_work
+
+A: Over it all sat one man with absolute power: Nicholas the Second, Tsar from 1894, sure that God had chosen him.
+    draw era l_era c_auto
+
+A: In January 1905 troops fired on a peaceful march to his palace. Bloody Sunday.
+    draw e1905 c_1905
+
+A: A year of strikes and mutinies followed, and Nicholas gave way just enough: an elected parliament, the Duma.
+    draw e1906 l_fuel
+
+B: So Russia became a constitutional monarchy?
+    point at.ref dot_e1906 gesture tap
+
+A: On paper. He dissolved the first two Dumas within months, and kept the final word.
+    highlight c_auto
+
+B: Fine, that's the fuel. What lit it?
+    draw l_spark
+
+A: The war. By the end of 1916, around five million Russian soldiers had been killed, wounded or captured, and Nicholas had taken command himself.
+    draw e1914 c_war a_auto_war
+
+A: Prices had roughly quadrupled, the railways carried soldiers before grain, and the capital ran short of bread and fuel.
+    draw c_bread
+
+A: On the twenty-third of February 1917, Women's Day, women textile workers walked out. Within days the city was on strike.
+    draw c_strike
+
+B: Wait. February? I always heard March.
+    point at.ref txt_efeb gesture underline
+
+A: Both are right. Russia still kept the old calendar, thirteen days behind the West's.
+    draw cal
+
+    erase cal a_auto_war
+
+    fade e1861 e1905 e1906 e1914 ticks_long l_era era to 0.3
+
+A: Then the turning point: on the twenty-seventh, the soldiers sent to put the crowds down joined them instead.
+    draw c_mutiny
+
+    highlight c_mutiny effect pulse
+
+A: His generals told Nicholas the army would not back him, and on the second of March he abdicated.
+    draw a_fuel a_spark c_fall
+
+B: So nobody planned it. Everything gave way at once.
+    flow a_fuel a_spark
+
+    erase causes a_fuel a_spark era l_era ticks_long e1861 e1905 e1906 e1914
+
+    move efeb by [-650.6,0] duration 2.5
+
+    draw ticks_1917 parallel true
+
+A: Right, and the real puzzle is the next eight months. Power was now split.  (@draw d_gov d_sov@)A Provisional Government of liberals, and the Petrograd Soviet, a council of workers' and soldiers' delegates.
+
+B: And whom did the soldiers obey?
+    point at.ref d_sov gesture circle
+
+A: The Soviet. Its Order Number One said: obey the government only when the Soviet agrees. Lenin called it dual power.
+    draw d_arrow l_veto l_dual
+
+    erase dual d_arrow l_veto l_dual
+
+A: Then the government made its fateful choice: stay in the war, and leave the land to a future assembly.
+    draw col_rows col_mod
+
+B: Why on earth stay in?
+    highlight g_m1
+
+A: Loyalty to the allies, fear of Germany, and loans from Britain and France. The trenches didn't care.
+    point at.ref g_m1 gesture circle
+
+A: In April, Lenin arrived at the Finland Station. Germany had let him cross by train, hoping he'd take Russia out of the war.
+    draw elenin n_train
+
+    hide promise
+
+    scale members cites ["fitz"] x 120 y 270 width 760 label "Bolshevik members, Feb 1917" unit members min 1000 max 1000000 value 24000 log true tick_format words markers [{"value":240000,"label":"by autumn","color":"#b5482e"}]
+
+    ask "How many members did Lenin's party have in February 1917? Click on the line." on members store m default "100000" relative true
+        right: Close: about twenty-four thousand, in an empire of some 170 million.
+        wrong: You said {m}; it was about twenty-four thousand, in an empire of some 170 million.
+
+A: By autumn they had roughly ten times as many.
+    draw members_marker_1
+
+    erase members
+
+    show promise
+
+A: They grew because Lenin said what everyone wanted to hear: all power to the Soviets, and peace, land, bread.
+    draw col_bol
+
+A: In July, after a failed offensive, armed soldiers and sailors filled the streets. The revolt was crushed, and Lenin fled to Finland.
+    draw ejuly n_fin
+
+B: So that's the end of Lenin, then?
+    point at.ref n_fin gesture underline
+
+A: Not quite. In late August the army's chief, General Kornilov, sent troops toward the capital.
+    draw ekorn
+
+A: Kerensky, now heading the government, armed the workers and let jailed Bolsheviks out to stop him. Kornilov's march fell apart.
+    draw n_turn x_korn
+
+A: By September they led the Petrograd Soviet. On the twenty-fifth of October, our seventh of November, their Red Guards took the capital and, overnight, the Winter Palace.
+    draw eoct n_palace
+
+    hide promise
+
+B: Surely by then most Russians were behind them.
+    scale vote cites ["ca"] x 120 y 270 width 760 label "Bolshevik vote, Nov 1917" unit % min 0 max 100 value 24
+
+    ask "In November's free election, what share of the vote went to the Bolsheviks? Click on the line." on vote store v default "50"
+        right: About a quarter. A peasant party, the Socialist Revolutionaries, won far more, and in January the Bolsheviks shut the assembly down.
+        wrong: You said {v}; it was about a quarter. A peasant party, the Socialist Revolutionaries, won far more, and in January the Bolsheviks shut the assembly down.
+
+    erase vote elenin ejuly ekorn x_korn n_train n_fin n_turn ticks_1917
+
+    show promise
+
+B: So the Tsar fell because everything gave way at once. But Lenin won because…
+    highlight txt_efeb txt_eoct
+
+A: …his party was organised, and it promised peace and land now, while the moderates kept saying later.
+    draw box_bol
+
+    quiz "Suppose in May 1917 the government had made peace and let the peasants take the land. What happens to the Bolsheviks' chances?"
+        right: They lose their best argument: peace and land now was what drew soldiers and peasants to Lenin, and the moderates had refused it.
+        wrong: Think about what drew soldiers and peasants to the Bolsheviks, and who had refused to give it.
+        + They lose their best argument
+        * They rise: peace frees Lenin's hands
+        * No change: they had German money
+
+## Thumbnail
+role: thumbnail
+
+    icon crown size 230 set twemoji x 290 y 470 icon_look picture of crown hidden true
+    icon swiss size 130 set twemoji x 720 y 510 icon_look picture of flag-switzerland hidden true
+    text yr "Feb 1917" #8a5fa8 x 290 y 300 font_size 48 hidden true
+    text where "Lenin:" x 720 y 400 font_size 40 hidden true
+    text where2 "in Switzerland" x 720 y 345 font_size 40 hidden true
+    thumb b "Lenin missed it" kind band hidden true
+    thumb s "PLOT TWIST" kind stamp x 790 y 655 angle 8 hidden true
+
+## Thumbnail
+role: thumbnail
+
+    icon p size 170 set twemoji x 190 y 480 icon_look picture of dove hidden true
+    icon l size 170 set twemoji x 500 y 480 icon_look picture of "sheaf of rice" hidden true
+    icon br size 170 set twemoji x 810 y 480 icon_look picture of bread hidden true
+    text t1 "Peace" #b5482e x 190 y 330 font_size 52 hidden true
+    text t2 "Land" #b5482e x 500 y 330 font_size 52 hidden true
+    text t3 "Bread" #b5482e x 810 y 330 font_size 52 hidden true
+    thumb b "Three words beat the moderates" kind band hidden true
+
+## Thumbnail
+role: thumbnail
+
+    text n "24 %" #b5482e x 330 y 430 font_size 150 hidden true
+    text n2 "of the vote" x 330 y 300 font_size 44 hidden true
+    icon fl size 220 set twemoji x 760 y 440 or ["triangular flag"] icon_look picture of "red flag" hidden true
+    thumb b "A quarter of the vote. Kept power anyway." kind band hidden true
+    thumb q "?" kind star x 880 y 640 hidden true
