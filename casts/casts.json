@@ -818,6 +818,13 @@
       "file": "children-in-1800.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "co2-per-person",
+      "title": "Which country emits the most CO₂ per person?",
+      "file": "co2-per-person.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
