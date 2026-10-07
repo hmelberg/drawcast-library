@@ -783,6 +783,13 @@
       "file": "why-the-moon-never-lands.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "alcohol-top",
+      "title": "Which country drinks the most alcohol per adult?",
+      "file": "alcohol-top.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
