@@ -832,6 +832,13 @@
       "file": "cumulative-co2.cast",
       "updated": "2026-10-07",
       "page": true
+    },
+    {
+      "slug": "deaths-per-energy",
+      "title": "Which source of electricity is the deadliest?",
+      "file": "deaths-per-energy.cast",
+      "updated": "2026-10-07",
+      "page": true
     }
   ]
 }
