@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "the-deadliest-animal",
-      "title": "The deadliest animal",
-      "file": "the-deadliest-animal.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "what-99-accurate-is-worth",
       "title": "A 99 % accurate test says yes. Are you ill?",
       "file": "what-99-accurate-is-worth.cast",
@@ -1167,6 +1160,13 @@
       "title": "Why did Rome fall?",
       "file": "fall-of-rome.cast",
       "updated": "2026-10-07",
+      "page": true
+    },
+    {
+      "slug": "the-deadliest-animal",
+      "title": "The deadliest animal",
+      "file": "the-deadliest-animal.cast",
+      "updated": "2026-10-11",
       "page": true
     }
   ]
