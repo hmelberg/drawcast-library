@@ -29,15 +29,6 @@ sources:
     text l_cn "7%" right f_cn gap 14 #3d3833 cites ["chart"] font_size 50 hidden true
     text l_in "13%" right f_in gap 14 #3d3833 cites ["chart"] font_size 50 hidden true
     text l_my "7.5%" right f_my gap 14 #3d3833 cites ["chart"] font_size 50 hidden true
-    path isle smooth closed thick #87a878 points [[100,500],[180,600],[320,620],[430,540],[420,390],[340,280],[200,260],[110,350]] style.fill #e3eed8 hidden true
-    path riv1 smooth #2f6b8f points [[270,470],[220,430],[190,390],[125,360]] style.stroke_width 5 hidden true
-    path riv2 smooth #2f6b8f points [[320,450],[370,500],[405,540]] style.stroke_width 4 hidden true
-    path riv3 smooth #2f6b8f points [[280,380],[300,330],[330,290]] style.stroke_width 4 hidden true
-    path riv4 smooth #2f6b8f points [[240,520],[220,570],[200,598]] style.stroke_width 4 hidden true
-    shape city #b5482e shape circle x 190 y 390 radius 10 style.fill #b5482e hidden true
-    text pasig "Pasig: 6%" #2f6b8f cites ["owid"] x 150 y 655 font_size 48 hidden true
-    text rivers "1,000+ rivers" #2f6b8f cites ["owid"] x 280 y 205 font_size 50 hidden true
-    arrow p_ar #2f6b8f from.x 165 from.y 615 to.anchor top to.ref city hidden true
 
     card title "Who puts most plastic in the sea?"
 
@@ -69,13 +60,49 @@ A: Under one percent. Its rubbish is mostly collected and buried, far from river
 B: Drawn to scale, that's lopsided. Why the Philippines?
     move f_ph scale 1.4 duration 1.2
 
-    erase f_us f_cn f_in f_my l_us l_cn l_in l_my
+## Why the Philippines?
+use: world_map
+with:
+    focus: [Philippines]
+    highlight: [Philippines]
+    markers:
+      - {at: [120.97, 14.59], label: Pasig}
+      - {at: [121.65, 18.36], label: Cagayan}
+      - {at: [123.1, 13.65], label: Bicol}
+      - {at: [122.56, 10.7], label: Iloilo}
+      - {at: [123.9, 10.3], label: Cebu}
+      - {at: [124.65, 8.49], label: Cagayan de Oro}
+      - {at: [125.53, 8.95], label: Agusan}
+      - {at: [125.62, 7.07], label: Davao}
+sources:
+    - id: owid
+      title: Where does the plastic in our oceans come from?
+      authors: Hannah Ritchie (Our World in Data)
+      year: 2021
+      url: https://ourworldindata.org/ocean-plastics
+      finding: the Philippines accounts for 36% of plastic inputs to the ocean, India 13%, China 7%; seven of the top ten emitting rivers are in the Philippines; the Pasig river alone carries 6.4% of global river plastic; it takes the top 1,656 rivers to account for 80%
+
+    shape r1 #2f6b8f shape circle at.ref marker_1 radius 7 style.fill #2f6b8f hidden true
+    shape r2 #2f6b8f shape circle at.ref marker_2 radius 7 style.fill #2f6b8f hidden true
+    shape r3 #2f6b8f shape circle at.ref marker_3 radius 7 style.fill #2f6b8f hidden true
+    shape r4 #2f6b8f shape circle at.ref marker_4 radius 7 style.fill #2f6b8f hidden true
+    shape r5 #2f6b8f shape circle at.ref marker_5 radius 7 style.fill #2f6b8f hidden true
+    shape r6 #2f6b8f shape circle at.ref marker_6 radius 7 style.fill #2f6b8f hidden true
+    shape r7 #2f6b8f shape circle at.ref marker_7 radius 7 style.fill #2f6b8f hidden true
+    shape city #b5482e shape circle at.ref marker_0 radius 9 style.fill #b5482e hidden true
+    text pasig "Pasig: 6%" #2f6b8f cites ["owid"] x 200 y 520 font_size 48 hidden true
+    arrow p_ar #2f6b8f from.x 290 from.y 505 to.ref city hidden true
+    text rivers "1,000+ rivers" #2f6b8f cites ["owid"] x 820 y 420 font_size 50 hidden true
+
+    card title "Why the Philippines?"
+
+    hide marker_0 marker_1 marker_2 marker_3 marker_4 marker_5 marker_6 marker_7 marker_label_0 marker_label_1 marker_label_2 marker_label_3 marker_label_4 marker_label_5 marker_label_6 marker_label_7
 
 A: Thousands of islands, people living near the coast, heavy rain, and rubbish that is often never collected. It's a short trip to the sea.
-    draw isle
+    draw country_philippines hl_philippines
 
 B: So it's not one giant river, but lots of little ones?
-    draw riv1 riv2 riv3 riv4 parallel true
+    draw r1 r2 r3 r4 r5 r6 r7 parallel true
 
 A: Yes. The Pasig, a small river through Manila, carries six percent of all river plastic by itself.
     draw city pasig p_ar
