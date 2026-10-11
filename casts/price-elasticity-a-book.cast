@@ -68,15 +68,11 @@ Compare one brand of cola. Raise its price a little, and buyers simply reach for
     curve cola_d #2f6b8f expr "47.5 - k*(x - 30)" x_from 5 x_to 60
     label lFlat "one cola brand" above-right #2f6b8f attach_to cola_d
 
-    view "figure"
-
 Now take cola's rivals off the shelf, one by one, and watch its curve tilt up toward insulin's.
     animate k 1.5 duration 3 ghost ["cola_d"]
 
 Put them back, and it flattens again.
     animate k 0.25 duration 2.2
-
-    view "both"
 
     point at.ref formula
 
