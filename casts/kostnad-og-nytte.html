@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kostnad og nytte</title>
+<meta name="description" content="Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Kostnad og nytte">
+<meta property="og:description" content="Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Kostnad og nytte","description":"Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen.","inLanguage":"nb","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.html","image":"https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="kostnad-og-nytte.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 4.1 / 4), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/kostnad-og-nytte.png" alt="Kostnad og nytte"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Kostnad og nytte</h1>
+<p class="drawcast-intro">Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Kostnad og nytte</p>
+<p>Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen.</p>
+<p>Et nytt legemiddel virker bedre enn det gamle, men det koster mer: er det verdt pengene?</p>
+<p>Vi tar det i tre steg: vi måler gevinsten i helse, teller kostnadene og veier dem mot hverandre.</p>
+<p>Først nytten, som har to sider: hvor lenge pasienten lever, og hvor godt. Ett år med full helse teller som ett; et år med halv livskvalitet teller som et halvt.</p>
+<p>Ganger vi år med livskvalitet, får vi kvalitetsjusterte leveår, på engelsk QALY — gode leveår, kort sagt.</p>
+<p>Gir den nye behandlingen pasienten ett år til med halv livskvalitet, har vi vunnet et halvt godt leveår.</p>
+<p>Lindrer den plagene i stedet, blir flaten høyere, og fire år med litt bedre livskvalitet gir også et halvt.</p>
+<p>Den gevinsten, et halvt godt leveår, legger vi langs den vannrette aksen.</p>
+<p>Så kostnadene, og her må vi velge: hvem sine kostnader skal telle?</p>
+<p>Når legemidler vurderes i Norge, teller helsetjenestens kostnader: legemidlet, sykehusopphold og kontroller, pluss pasientens tid og reiser.</p>
+<p>Et samfunnsperspektiv tar i tillegg med sykefravær, uførhet og tapt produksjon: viktig for større folkehelsetiltak, men holdt utenfor når legemidler vurderes.</p>
+<p>Med helsetjenestens perspektiv: si at den nye behandlingen koster to hundre tusen kroner mer per pasient enn den gamle; da får den sin plass her.</p>
+<p>Vi deler kostnaden på gevinsten: to hundre tusen kroner for et halvt leveår blir fire hundre tusen per godt leveår, og det er stigningen på linjen fra null til punktet.</p>
+<p>Behandlingen er altså nyttig; spørsmålet er om den er nyttig nok til å forsvare prisen.</p>
+<p>Som utgangspunkt bruker norske myndigheter en grense på to hundre og syttifem tusen kroner per godt leveår. Er vår behandling verdt prisen?</p>
+<p>Med 275 000 kroner som grense: er behandlingen verdt prisen? Trykk Ja eller Nei.</p>
+<p>Nei, ikke med den grensen: punktet ligger over linjen, fordi fire hundre tusen er mer enn to hundre og syttifem tusen.</p>
+<p>Men grensen stiger med hvor alvorlig sykdommen er, målt i gode leveår den tar fra pasienten: opp til åtte hundre og tjuefem tusen.</p>
+<p>For en alvorlig nok sykdom kan den samme behandlingen være verdt prisen, og for svært sjeldne, alvorlige sykdommer kan grensen ligge enda høyere.</p>
+<p>Hvorfor en grense i det hele tatt? Fordi pengene har en alternativkostnad: de kunne gitt andre pasienter helse.</p>
+<p>To hundre og syttifem tusen er et anslag på hva helsetjenesten i dag betaler for et godt leveår andre steder: betaler vi mer her, taper andre mer helse enn vi vinner.</p>
+<p>Kort sagt: vi måler nytten i gode leveår, velger hvilke kostnader som teller, og spør hva hvert leveår koster, målt mot det pengene ellers kunne gitt.</p>
+<p>Et screeningprogram koster 30 millioner kroner mer og gir 150 gode leveår. Hva koster hvert godt leveår?</p>
+<p>To hundre tusen kroner: tretti millioner delt på hundre og femti, og det er under selv den laveste grensen.</p>
+<p>Nyttig er altså ikke nok: det må være nyttig nok, for andre pasienter venter på de samme pengene.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="kostnad-og-nytte.cast" data-gh="hmelberg/drawcast-library/casts/kostnad-og-nytte.cast"></script>
+</body>
+</html>

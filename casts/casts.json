@@ -1189,6 +1189,13 @@
       "file": "russian-revolution-2.cast",
       "updated": "2026-10-11",
       "page": true
+    },
+    {
+      "slug": "kostnad-og-nytte",
+      "title": "Kostnad og nytte",
+      "file": "kostnad-og-nytte.cast",
+      "updated": "2026-10-12",
+      "page": true
     }
   ]
 }
