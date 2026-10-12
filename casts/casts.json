@@ -1196,6 +1196,13 @@
       "file": "kostnad-og-nytte.cast",
       "updated": "2026-10-12",
       "page": true
+    },
+    {
+      "slug": "apotek-statiner",
+      "title": "Statinoppfølging i apotek: nytte og kostnad",
+      "file": "apotek-statiner.cast",
+      "updated": "2026-10-12",
+      "page": true
     }
   ]
 }
