@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "price-elasticity-a-book",
-      "title": "Price elasticity: how much less do people buy?",
-      "file": "price-elasticity-a-book.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sensitivity-and-specificity",
       "title": "What do sensitivity and specificity measure?",
       "file": "sensitivity-and-specificity.cast",
@@ -1201,6 +1194,13 @@
       "slug": "bayes-and-the-screening-test-a-book",
       "title": "Bayes and the screening test",
       "file": "bayes-and-the-screening-test-a-book.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "price-elasticity-a-book",
+      "title": "Price elasticity: how much less do people buy?",
+      "file": "price-elasticity-a-book.cast",
       "updated": "2026-10-13",
       "page": true
     }
