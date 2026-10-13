@@ -1,13 +1,6 @@
 {
   "casts": [
     {
-      "slug": "why-a-straw-looks-bent-in-water",
-      "title": "Why a straw looks bent in water",
-      "file": "why-a-straw-looks-bent-in-water.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "base-pairing-the-copying-rule",
       "title": "Why DNA pairs A with T and C with G",
       "file": "base-pairing-the-copying-rule.cast",
@@ -1201,6 +1194,13 @@
       "slug": "why-a-major-chord-sounds-sweet",
       "title": "Why a major chord sounds sweet",
       "file": "why-a-major-chord-sounds-sweet.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "why-a-straw-looks-bent-in-water",
+      "title": "Why a straw looks bent in water",
+      "file": "why-a-straw-looks-bent-in-water.cast",
       "updated": "2026-10-13",
       "page": true
     }
