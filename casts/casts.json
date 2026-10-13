@@ -43,13 +43,6 @@
       "page": true
     },
     {
-      "slug": "why-queues-explode-near-100-busy",
-      "title": "Why queues explode near 100% busy",
-      "file": "why-queues-explode-near-100-busy.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "odds-risk-hazard",
       "title": "Odds, risks and hazards",
       "file": "odds-risk-hazard.cast",
@@ -1201,6 +1194,13 @@
       "slug": "most-findings-are-false",
       "title": "Why most published findings are false",
       "file": "most-findings-are-false.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "why-queues-explode-near-100-busy",
+      "title": "Why queues explode near 100% busy",
+      "file": "why-queues-explode-near-100-busy.cast",
       "updated": "2026-10-13",
       "page": true
     }
