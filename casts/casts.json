@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "how-loud-is-loud",
-      "title": "How loud is loud?",
-      "file": "how-loud-is-loud.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -1208,6 +1201,13 @@
       "slug": "sunlight-travel-time",
       "title": "How long does sunlight take to reach Earth?",
       "file": "sunlight-travel-time.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "how-loud-is-loud",
+      "title": "How loud is loud?",
+      "file": "how-loud-is-loud.cast",
       "updated": "2026-10-13",
       "page": true
     }
