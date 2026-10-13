@@ -81,6 +81,7 @@
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-13
 - [Which country has the most time zones?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-13
 - [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-13
+- [Which is the tallest mountain on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -157,7 +158,6 @@
 - [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-07
 - [Who discovered what? Match four scientists](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-07
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-07
-- [Which is the tallest mountain on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-07
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-07
 - [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-07
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
