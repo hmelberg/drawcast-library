@@ -491,13 +491,6 @@
       "page": true
     },
     {
-      "slug": "linda-problem",
-      "title": "Linda: bank teller, or feminist bank teller?",
-      "file": "linda-problem.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "longest-pregnancy",
       "title": "Which animal has the longest pregnancy?",
       "file": "longest-pregnancy.cast",
@@ -1201,6 +1194,13 @@
       "slug": "is-it-a-dinosaur",
       "title": "Is it a dinosaur?",
       "file": "is-it-a-dinosaur.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "linda-problem",
+      "title": "Linda: bank teller, or feminist bank teller?",
+      "file": "linda-problem.cast",
       "updated": "2026-10-13",
       "page": true
     }
