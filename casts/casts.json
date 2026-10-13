@@ -379,13 +379,6 @@
       "page": true
     },
     {
-      "slug": "what-99-accurate-is-worth",
-      "title": "A 99 % accurate test says yes. Are you ill?",
-      "file": "what-99-accurate-is-worth.cast",
-      "updated": "2026-10-04",
-      "page": true
-    },
-    {
       "slug": "odds-risk-hazard",
       "title": "Odds, risks and hazards",
       "file": "odds-risk-hazard.cast",
@@ -1201,6 +1194,13 @@
       "slug": "why-the-moon-never-lands",
       "title": "Why the Moon never lands",
       "file": "why-the-moon-never-lands.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-99-accurate-is-worth",
+      "title": "A 99 % accurate test says yes. Are you ill?",
+      "file": "what-99-accurate-is-worth.cast",
       "updated": "2026-10-13",
       "page": true
     }
