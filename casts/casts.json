@@ -470,13 +470,6 @@
       "page": true
     },
     {
-      "slug": "hammer-and-feather",
-      "title": "On the Moon, which lands first: a hammer or a feather?",
-      "file": "hammer-and-feather.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "hottest-peppers",
       "title": "How hot are the world's hottest peppers?",
       "file": "hottest-peppers.cast",
@@ -1201,6 +1194,13 @@
       "slug": "linda-problem",
       "title": "Linda: bank teller, or feminist bank teller?",
       "file": "linda-problem.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "hammer-and-feather",
+      "title": "On the Moon, which lands first: a hammer or a feather?",
+      "file": "hammer-and-feather.cast",
       "updated": "2026-10-13",
       "page": true
     }

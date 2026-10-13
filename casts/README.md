@@ -72,6 +72,7 @@
 - [How many ways can a Rubik's cube be mixed up?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rubiks-cube.cast) — 2026-10-13
 - [Is it a dinosaur?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-13
 - [Linda: bank teller, or feminist bank teller?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-13
+- [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -139,7 +140,6 @@
 - [When was the first text message sent?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-07
 - [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-07
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-07
-- [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-07
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-07
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-07
 - [Which animal has the longest pregnancy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-07
