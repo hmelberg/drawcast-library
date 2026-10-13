@@ -101,6 +101,7 @@
 - [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-13
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-13
 - [How much rice on the last square of a chessboard?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-13
+- [What are their babies called?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -156,7 +157,6 @@
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
-- [What are their babies called?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-07
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [Which films won eleven Oscars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-07
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07

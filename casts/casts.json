@@ -386,13 +386,6 @@
       "page": true
     },
     {
-      "slug": "baby-animal-names",
-      "title": "What are their babies called?",
-      "file": "baby-animal-names.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "diamonds-and-water",
       "title": "Why is water cheap and diamonds dear?",
       "file": "diamonds-and-water.cast",
@@ -1208,6 +1201,13 @@
       "slug": "rice-on-a-chessboard",
       "title": "How much rice on the last square of a chessboard?",
       "file": "rice-on-a-chessboard.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "baby-animal-names",
+      "title": "What are their babies called?",
+      "file": "baby-animal-names.cast",
       "updated": "2026-10-13",
       "page": true
     }
