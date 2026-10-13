@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "greenland-vs-africa",
-      "title": "How big is Greenland next to Africa?",
-      "file": "greenland-vs-africa.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "hottest-peppers",
       "title": "How hot are the world's hottest peppers?",
       "file": "hottest-peppers.cast",
@@ -1208,6 +1201,13 @@
       "slug": "read-russian",
       "title": "Read Russian in 14 letters",
       "file": "read-russian.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "greenland-vs-africa",
+      "title": "How big is Greenland next to Africa?",
+      "file": "greenland-vs-africa.cast",
       "updated": "2026-10-13",
       "page": true
     }
