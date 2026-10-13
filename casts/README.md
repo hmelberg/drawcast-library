@@ -116,6 +116,7 @@
 - [How many whales were killed in the 20th century?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whales-hunted.cast) — 2026-10-13
 - [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-13
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-13
+- [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -133,7 +134,6 @@
 - [Do natural disasters kill more people than a century ago?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/disaster-deaths.cast) — 2026-10-07
 - [How much of the world's seafood is farmed?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/farmed-fish.cast) — 2026-10-07
 - [How many children does the average woman in the world have today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertility-halved.cast) — 2026-10-07
-- [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-07
 - [How much of the world's forest have we lost since the last ice age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/forest-lost.cast) — 2026-10-07
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-07
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-07
