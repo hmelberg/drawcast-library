@@ -64,13 +64,6 @@
       "page": true
     },
     {
-      "slug": "does-a-minimum-wage-cost-jobs",
-      "title": "Does a minimum wage cost jobs?",
-      "file": "does-a-minimum-wage-cost-jobs.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "extreme-poverty",
       "title": "How many people live in extreme poverty?",
       "file": "extreme-poverty.cast",
@@ -1201,6 +1194,13 @@
       "slug": "180-litres-in-1-5-out",
       "title": "180 litres in, 1.5 out",
       "file": "180-litres-in-1-5-out.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "does-a-minimum-wage-cost-jobs",
+      "title": "Does a minimum wage cost jobs?",
+      "file": "does-a-minimum-wage-cost-jobs.cast",
       "updated": "2026-10-13",
       "page": true
     }
