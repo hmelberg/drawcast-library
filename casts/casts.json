@@ -211,13 +211,6 @@
       "page": true
     },
     {
-      "slug": "the-herd-immunity-threshold",
-      "title": "How many must be immune to stop a disease?",
-      "file": "the-herd-immunity-threshold.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "the-prisoner-s-dilemma",
       "title": "Why two rational suspects both confess",
       "file": "the-prisoner-s-dilemma.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-broad-street-pump",
       "title": "The map that blamed a water pump",
       "file": "the-broad-street-pump.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-herd-immunity-threshold",
+      "title": "How many must be immune to stop a disease?",
+      "file": "the-herd-immunity-threshold.cast",
       "updated": "2026-10-13",
       "page": true
     }
