@@ -421,13 +421,6 @@
       "page": true
     },
     {
-      "slug": "why-the-moon-never-lands",
-      "title": "Why the Moon never lands",
-      "file": "why-the-moon-never-lands.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "news-vs-deaths",
       "title": "Does the news cover what actually kills us?",
       "file": "news-vs-deaths.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-deadliest-animal",
       "title": "The deadliest animal",
       "file": "the-deadliest-animal.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "why-the-moon-never-lands",
+      "title": "Why the Moon never lands",
+      "file": "why-the-moon-never-lands.cast",
       "updated": "2026-10-13",
       "page": true
     }
