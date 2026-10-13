@@ -17,6 +17,7 @@
 - [How a fridge keeps cold](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-fridge-keeps-cold.cast) — 2026-10-13
 - [How a magnifying glass really works](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-magnifying-glass-works.cast) — 2026-10-13
 - [How a nerve signal travels](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-nerve-signal-travels.cast) — 2026-10-13
+- [How long did Mozart live?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/mozart-s-short-life.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -146,7 +147,6 @@
 - [Why screening can look better than it is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03
 - [Two countries, one Gini](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lorenz-curve-and-gini.cast) — 2026-10-03
 - [Why most published findings are false](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
-- [How long did Mozart live?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/mozart-s-short-life.cast) — 2026-10-03
 - [Price elasticity: how much less do people buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-elasticity-a-book.cast) — 2026-10-03
 - [Scholar's Mate: the four-move trap](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/scholar-s-mate.cast) — 2026-10-03
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
