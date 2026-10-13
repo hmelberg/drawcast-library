@@ -421,13 +421,6 @@
       "page": true
     },
     {
-      "slug": "cleopatra-closer",
-      "title": "Cleopatra: closer to the pyramids or the Moon?",
-      "file": "cleopatra-closer.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "diamonds-and-water",
       "title": "Why is water cheap and diamonds dear?",
       "file": "diamonds-and-water.cast",
@@ -1201,6 +1194,13 @@
       "slug": "body-myths",
       "title": "Body myths: true or myth?",
       "file": "body-myths.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "cleopatra-closer",
+      "title": "Cleopatra: closer to the pyramids or the Moon?",
+      "file": "cleopatra-closer.cast",
       "updated": "2026-10-13",
       "page": true
     }
