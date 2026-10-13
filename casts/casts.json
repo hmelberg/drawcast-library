@@ -393,13 +393,6 @@
       "page": true
     },
     {
-      "slug": "fastest-ramp",
-      "title": "Which ramp is fastest?",
-      "file": "fastest-ramp.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "fermats-last-theorem",
       "title": "Fermat's Last Theorem",
       "file": "fermats-last-theorem.cast",
@@ -1222,6 +1215,13 @@
       "slug": "russian-gender",
       "title": "Russian gender from the last letter: он, она, оно",
       "file": "russian-gender.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "fastest-ramp",
+      "title": "Which ramp is fastest?",
+      "file": "fastest-ramp.cast",
       "updated": "2026-10-13",
       "page": true
     }
