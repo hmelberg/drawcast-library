@@ -78,13 +78,6 @@
       "page": true
     },
     {
-      "slug": "what-kills-us",
-      "title": "What kills the most people?",
-      "file": "what-kills-us.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "where-do-your-24-hours-go",
       "title": "Where does an average day go?",
       "file": "where-do-your-24-hours-go.cast",
@@ -1201,6 +1194,13 @@
       "slug": "a-positive-test",
       "title": "What does a positive test mean?",
       "file": "a-positive-test.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-kills-us",
+      "title": "What kills the most people?",
+      "file": "what-kills-us.cast",
       "updated": "2026-10-13",
       "page": true
     }
