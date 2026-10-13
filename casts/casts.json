@@ -99,13 +99,6 @@
       "page": true
     },
     {
-      "slug": "what-mitochondria-do",
-      "title": "What do mitochondria actually do?",
-      "file": "what-mitochondria-do.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "where-do-your-24-hours-go",
       "title": "Where does an average day go?",
       "file": "where-do-your-24-hours-go.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-derivative-is-a-limit-of-slopes",
       "title": "What a derivative is",
       "file": "the-derivative-is-a-limit-of-slopes.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-mitochondria-do",
+      "title": "What do mitochondria actually do?",
+      "file": "what-mitochondria-do.cast",
       "updated": "2026-10-13",
       "page": true
     }
