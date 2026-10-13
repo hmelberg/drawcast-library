@@ -834,13 +834,6 @@
       "page": true
     },
     {
-      "slug": "russian-hello",
-      "title": "Hello in Russian: привет or здравствуйте?",
-      "file": "russian-hello.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -1222,6 +1215,13 @@
       "slug": "russian-gender",
       "title": "Russian gender from the last letter: он, она, оно",
       "file": "russian-gender.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "russian-hello",
+      "title": "Hello in Russian: привет or здравствуйте?",
+      "file": "russian-hello.cast",
       "updated": "2026-10-13",
       "page": true
     }
