@@ -470,13 +470,6 @@
       "page": true
     },
     {
-      "slug": "longest-pregnancy",
-      "title": "Which animal has the longest pregnancy?",
-      "file": "longest-pregnancy.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "misnamed-things",
       "title": "Do these names tell the truth?",
       "file": "misnamed-things.cast",
@@ -1201,6 +1194,13 @@
       "slug": "first-text-message",
       "title": "When was the first text message sent?",
       "file": "first-text-message.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "longest-pregnancy",
+      "title": "Which animal has the longest pregnancy?",
+      "file": "longest-pregnancy.cast",
       "updated": "2026-10-13",
       "page": true
     }
