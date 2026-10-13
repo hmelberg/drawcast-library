@@ -133,6 +133,7 @@
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-13
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-13
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-13
+- [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -140,7 +141,6 @@
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
-- [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
 - [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-07
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-07
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-07
