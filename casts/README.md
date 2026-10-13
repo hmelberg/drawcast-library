@@ -137,6 +137,7 @@
 - [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-13
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-13
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-13
+- [How fast have measles deaths fallen since 1980?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/measles-deaths.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -144,7 +145,6 @@
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
-- [How fast have measles deaths fallen since 1980?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/measles-deaths.cast) — 2026-10-07
 - [How old is the typical person? Niger, Brazil, the US, Italy and Japan](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/median-age.cast) — 2026-10-07
 - [How many people still live without electricity?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/no-electricity.cast) — 2026-10-07
 - [What share of new cars sold in Norway are fully electric?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/norway-electric-cars.cast) — 2026-10-07
