@@ -106,6 +106,7 @@
 - [Which films won eleven Oscars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-13
 - [Which languages have the most native speakers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-13
 - [Hello in Russian: привет or здравствуйте?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-hello.cast) — 2026-10-13
+- [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -163,7 +164,6 @@
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07
-- [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
 - [P vs NP: checking versus finding](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/p-vs-np.cast) — 2026-10-07
 - [Why the Tsar fell, and why Lenin won](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution.cast) — 2026-10-07
