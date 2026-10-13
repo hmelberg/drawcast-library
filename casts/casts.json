@@ -477,13 +477,6 @@
       "page": true
     },
     {
-      "slug": "sunlight-travel-time",
-      "title": "How long does sunlight take to reach Earth?",
-      "file": "sunlight-travel-time.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "what-the-universe-is-made-of",
       "title": "What is the universe made of?",
       "file": "what-the-universe-is-made-of.cast",
@@ -1208,6 +1201,13 @@
       "slug": "hottest-peppers",
       "title": "How hot are the world's hottest peppers?",
       "file": "hottest-peppers.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "sunlight-travel-time",
+      "title": "How long does sunlight take to reach Earth?",
+      "file": "sunlight-travel-time.cast",
       "updated": "2026-10-13",
       "page": true
     }
