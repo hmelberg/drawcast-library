@@ -253,13 +253,6 @@
       "page": true
     },
     {
-      "slug": "thales-theorem",
-      "title": "Thales' theorem",
-      "file": "thales-theorem.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "the-water-cycle",
       "title": "Why rain is fresh",
       "file": "the-water-cycle.cast",
@@ -1201,6 +1194,13 @@
       "slug": "surgery-or-medication",
       "title": "Surgery or medication?",
       "file": "surgery-or-medication.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "thales-theorem",
+      "title": "Thales' theorem",
+      "file": "thales-theorem.cast",
       "updated": "2026-10-13",
       "page": true
     }

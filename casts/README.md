@@ -23,13 +23,13 @@
 - [Scholar's Mate: the four-move trap](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/scholar-s-mate.cast) — 2026-10-13
 - [Simpson's paradox: win both, lose overall](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-13
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-13
+- [Thales' theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
 - [The causes of the Second World War](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2-2.cast) — 2026-10-11
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [What p \< 0.05 really means](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-p-0-05-means.cast) — 2026-10-07
-- [Thales' theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-07
 - [Why rain is fresh](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
