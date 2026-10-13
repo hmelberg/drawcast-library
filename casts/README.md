@@ -148,12 +148,12 @@
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-13
 - [How much of the world's plastic waste gets recycled?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/plastic-recycled.cast) — 2026-10-13
 - [When will the world's population peak, and at what size?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/population-peak.cast) — 2026-10-13
+- [How many people left extreme poverty every day since 1990?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/poverty-headline.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
 - [The causes of the Second World War](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2-2.cast) — 2026-10-11
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
-- [How many people left extreme poverty every day since 1990?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/poverty-headline.cast) — 2026-10-07
 - [How much work buys an hour of light, then and now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-of-light.cast) — 2026-10-07
 - [How many times richer is the richest country than the poorest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/richest-vs-poorest.cast) — 2026-10-07
 - [Which country has the most women in parliament?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rwanda-parliament.cast) — 2026-10-07
