@@ -512,13 +512,6 @@
       "page": true
     },
     {
-      "slug": "sort-the-scientists",
-      "title": "Who discovered what? Match four scientists",
-      "file": "sort-the-scientists.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "sunlight-travel-time",
       "title": "How long does sunlight take to reach Earth?",
       "file": "sunlight-travel-time.cast",
@@ -1201,6 +1194,13 @@
       "slug": "viking-words",
       "title": "Which words came from the Vikings?",
       "file": "viking-words.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "sort-the-scientists",
+      "title": "Who discovered what? Match four scientists",
+      "file": "sort-the-scientists.cast",
       "updated": "2026-10-13",
       "page": true
     }
