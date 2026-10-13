@@ -29,13 +29,6 @@
       "page": true
     },
     {
-      "slug": "lead-time-bias",
-      "title": "Why screening can look better than it is",
-      "file": "lead-time-bias.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sirkelens-areal-med-kakestykker",
       "title": "Hvorfor sirkelens areal er πr²",
       "file": "sirkelens-areal-med-kakestykker.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-water-cycle",
       "title": "Why rain is fresh",
       "file": "the-water-cycle.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "lead-time-bias",
+      "title": "Why screening can look better than it is",
+      "file": "lead-time-bias.cast",
       "updated": "2026-10-13",
       "page": true
     }
