@@ -35,6 +35,7 @@
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-13
 - [What do mitochondria actually do?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-13
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-13
+- [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -150,7 +151,6 @@
 - [Why did Rome fall?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fall-of-rome.cast) — 2026-10-07
 - [Odds, risks and hazards](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/odds-risk-hazard.cast) — 2026-10-05
 - [Why a straw looks bent in water](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
-- [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
 - [Why DNA pairs A with T and C with G](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/base-pairing-the-copying-rule.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03

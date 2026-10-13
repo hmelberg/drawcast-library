@@ -8,13 +8,6 @@
       "page": true
     },
     {
-      "slug": "a-positive-test",
-      "title": "What does a positive test mean?",
-      "file": "a-positive-test.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "base-pairing-the-copying-rule",
       "title": "Why DNA pairs A with T and C with G",
       "file": "base-pairing-the-copying-rule.cast",
@@ -1201,6 +1194,13 @@
       "slug": "sensitivity-and-specificity",
       "title": "What do sensitivity and specificity measure?",
       "file": "sensitivity-and-specificity.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "a-positive-test",
+      "title": "What does a positive test mean?",
+      "file": "a-positive-test.cast",
       "updated": "2026-10-13",
       "page": true
     }
