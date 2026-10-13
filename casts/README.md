@@ -3,6 +3,7 @@
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-13
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-13
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-13
+- [Why the sky is blue and sunsets red](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -123,7 +124,6 @@
 - [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
 - [Why DNA pairs A with T and C with G](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/base-pairing-the-copying-rule.cast) — 2026-10-03
 - [Bayes and the screening test](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bayes-and-the-screening-test-a-book.cast) — 2026-10-03
-- [Why the sky is blue and sunsets red](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03
 - [Why did Darwin wait twenty years?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-03
