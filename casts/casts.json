@@ -106,13 +106,6 @@
       "page": true
     },
     {
-      "slug": "how-fast-can-they-run",
-      "title": "How fast can they run?",
-      "file": "how-fast-can-they-run.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hvorfor-stortinget-buler-ut",
       "title": "Hvorfor Stortinget buler ut",
       "file": "hvorfor-stortinget-buler-ut.cast",
@@ -1201,6 +1194,13 @@
       "slug": "how-big-is-jupiter",
       "title": "How big is Jupiter?",
       "file": "how-big-is-jupiter.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "how-fast-can-they-run",
+      "title": "How fast can they run?",
+      "file": "how-fast-can-they-run.cast",
       "updated": "2026-10-13",
       "page": true
     }
