@@ -91,6 +91,7 @@
 - [Do these names tell the truth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-13
 - [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/read-russian.cast) — 2026-10-13
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-13
+- [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -160,7 +161,6 @@
 - [Which languages have the most native speakers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-07
 - [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-07
 - [How much rice on the last square of a chessboard?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-07
-- [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-07
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-07
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
