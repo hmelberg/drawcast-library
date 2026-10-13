@@ -85,13 +85,6 @@
       "page": true
     },
     {
-      "slug": "the-derivative-is-a-limit-of-slopes",
-      "title": "What a derivative is",
-      "file": "the-derivative-is-a-limit-of-slopes.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "what-a-qaly-gained-measures",
       "title": "What does a 'QALY gained' actually count?",
       "file": "what-a-qaly-gained-measures.cast",
@@ -1201,6 +1194,13 @@
       "slug": "price-elasticity-a-book",
       "title": "Price elasticity: how much less do people buy?",
       "file": "price-elasticity-a-book.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-derivative-is-a-limit-of-slopes",
+      "title": "What a derivative is",
+      "file": "the-derivative-is-a-limit-of-slopes.cast",
       "updated": "2026-10-13",
       "page": true
     }
