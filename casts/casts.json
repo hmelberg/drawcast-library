@@ -113,13 +113,6 @@
       "page": true
     },
     {
-      "slug": "the-tower-of-hanoi",
-      "title": "The Tower of Hanoi: why 2ⁿ − 1 moves",
-      "file": "the-tower-of-hanoi.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "two-pumps-in-one-heart",
       "title": "Two pumps in one heart",
       "file": "two-pumps-in-one-heart.cast",
@@ -1201,6 +1194,13 @@
       "slug": "thales-theorem",
       "title": "Thales' theorem",
       "file": "thales-theorem.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-tower-of-hanoi",
+      "title": "The Tower of Hanoi: why 2ⁿ − 1 moves",
+      "file": "the-tower-of-hanoi.cast",
       "updated": "2026-10-13",
       "page": true
     }

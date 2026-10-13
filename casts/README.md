@@ -24,6 +24,7 @@
 - [Simpson's paradox: win both, lose overall](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-13
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-13
 - [Thales' theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-13
+- [The Tower of Hanoi: why 2ⁿ − 1 moves](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -154,7 +155,6 @@
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
-- [The Tower of Hanoi: why 2ⁿ − 1 moves](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-03
 - [Two pumps in one heart](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-03
 - [What 95% confidence means](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-03
 - [What a 1% fee really costs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-03
