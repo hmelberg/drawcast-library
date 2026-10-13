@@ -6,6 +6,7 @@
 - [Why the sky is blue and sunsets red](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-13
 - [The map that blamed a water pump](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-13
 - [How many must be immune to stop a disease?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-13
+- [Where a heat pump's extra heat comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-a-heat-pump-s-extra-heat-comes.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -160,7 +161,6 @@
 - [What does a 'QALY gained' actually count?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
 - [What kills the most people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03
 - [What do mitochondria actually do?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-03
-- [Where a heat pump's extra heat comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-a-heat-pump-s-extra-heat-comes.cast) — 2026-10-03
 - [Where does an average day go?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-do-your-24-hours-go.cast) — 2026-10-03
 - [Where the 206 bones are](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-206-bones-are.cast) — 2026-10-03
 - [Where the quadratic formula comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-03

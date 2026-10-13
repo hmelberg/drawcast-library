@@ -274,13 +274,6 @@
       "page": true
     },
     {
-      "slug": "where-a-heat-pump-s-extra-heat-comes",
-      "title": "Where a heat pump's extra heat comes from",
-      "file": "where-a-heat-pump-s-extra-heat-comes.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "where-do-your-24-hours-go",
       "title": "Where does an average day go?",
       "file": "where-do-your-24-hours-go.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-herd-immunity-threshold",
       "title": "How many must be immune to stop a disease?",
       "file": "the-herd-immunity-threshold.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "where-a-heat-pump-s-extra-heat-comes",
+      "title": "Where a heat pump's extra heat comes from",
+      "file": "where-a-heat-pump-s-extra-heat-comes.cast",
       "updated": "2026-10-13",
       "page": true
     }
