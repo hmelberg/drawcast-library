@@ -456,13 +456,6 @@
       "page": true
     },
     {
-      "slug": "misnamed-things",
-      "title": "Do these names tell the truth?",
-      "file": "misnamed-things.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -1201,6 +1194,13 @@
       "slug": "whats-in-the-air",
       "title": "What is the air you breathe made of?",
       "file": "whats-in-the-air.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "misnamed-things",
+      "title": "Do these names tell the truth?",
+      "file": "misnamed-things.cast",
       "updated": "2026-10-13",
       "page": true
     }
