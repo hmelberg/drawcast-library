@@ -50,13 +50,6 @@
       "page": true
     },
     {
-      "slug": "alcohol-top",
-      "title": "Which country drinks the most alcohol per adult?",
-      "file": "alcohol-top.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "battery-prices",
       "title": "Battery prices since 1991: true or myth?",
       "file": "battery-prices.cast",
@@ -1222,6 +1215,13 @@
       "slug": "local-food-myth",
       "title": "How much of beef's carbon footprint is transport?",
       "file": "local-food-myth.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "alcohol-top",
+      "title": "Which country drinks the most alcohol per adult?",
+      "file": "alcohol-top.cast",
       "updated": "2026-10-13",
       "page": true
     }
