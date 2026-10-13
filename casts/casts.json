@@ -414,13 +414,6 @@
       "page": true
     },
     {
-      "slug": "first-hard-drive",
-      "title": "How much did the first hard drive weigh?",
-      "file": "first-hard-drive.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "missing-letter-states",
       "title": "Which letter is in no US state's name?",
       "file": "missing-letter-states.cast",
@@ -1208,6 +1201,13 @@
       "slug": "paper-folding",
       "title": "How many times can you fold paper in half?",
       "file": "paper-folding.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "first-hard-drive",
+      "title": "How much did the first hard drive weigh?",
+      "file": "first-hard-drive.cast",
       "updated": "2026-10-13",
       "page": true
     }
