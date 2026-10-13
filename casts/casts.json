@@ -78,13 +78,6 @@
       "page": true
     },
     {
-      "slug": "where-the-206-bones-are",
-      "title": "Where the 206 bones are",
-      "file": "where-the-206-bones-are.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "where-the-quadratic-formula-comes-from",
       "title": "Where the quadratic formula comes from",
       "file": "where-the-quadratic-formula-comes-from.cast",
@@ -1201,6 +1194,13 @@
       "slug": "where-do-your-24-hours-go",
       "title": "Where does an average day go?",
       "file": "where-do-your-24-hours-go.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "where-the-206-bones-are",
+      "title": "Where the 206 bones are",
+      "file": "where-the-206-bones-are.cast",
       "updated": "2026-10-13",
       "page": true
     }
