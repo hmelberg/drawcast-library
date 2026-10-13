@@ -80,6 +80,7 @@
 - [Which animal has the longest pregnancy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-13
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-13
 - [Which country has the most time zones?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-time-zones.cast) — 2026-10-13
+- [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -143,7 +144,6 @@
 - [Who painted it? Match four famous paintings](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-07
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-07
-- [Which glass has more water?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/glass-conservation.cast) — 2026-10-07
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-07
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-07
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-07
