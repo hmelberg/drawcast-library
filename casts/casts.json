@@ -36,13 +36,6 @@
       "page": true
     },
     {
-      "slug": "suicide-vs-homicide",
-      "title": "Which takes more lives worldwide: suicide or homicide?",
-      "file": "suicide-vs-homicide.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "tb-still-top",
       "title": "Which infectious disease kills the most people today?",
       "file": "tb-still-top.cast",
@@ -1222,6 +1215,13 @@
       "slug": "space-launches",
       "title": "Which sent more into space: one year, or the whole space age?",
       "file": "space-launches.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "suicide-vs-homicide",
+      "title": "Which takes more lives worldwide: suicide or homicide?",
+      "file": "suicide-vs-homicide.cast",
       "updated": "2026-10-13",
       "page": true
     }
