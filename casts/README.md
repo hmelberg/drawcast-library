@@ -106,7 +106,6 @@
 - [Which languages have the most native speakers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-spoken-languages.cast) — 2026-10-13
 - [Hello in Russian: привет or здравствуйте?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-hello.cast) — 2026-10-13
 - [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-13
-- [Russian gender from the last letter: он, она, оно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-gender.cast) — 2026-10-13
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-13
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-13
 - [Guinea worm infected millions a year. How many human cases were there in 2025?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/guinea-worm.cast) — 2026-10-13
@@ -160,6 +159,7 @@
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-13
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-13
 - [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/read-russian.cast) — 2026-10-13
+- [Russian gender from the last letter: он, она, оно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-gender.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
