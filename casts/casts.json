@@ -162,13 +162,6 @@
       "page": true
     },
     {
-      "slug": "guinea-worm",
-      "title": "Guinea worm infected millions a year. How many human cases were there in 2025?",
-      "file": "guinea-worm.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "happiest-country",
       "title": "Which country tops the World Happiness Report?",
       "file": "happiest-country.cast",
@@ -1222,6 +1215,13 @@
       "slug": "diamonds-and-water",
       "title": "Why is water cheap and diamonds dear?",
       "file": "diamonds-and-water.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "guinea-worm",
+      "title": "Guinea worm infected millions a year. How many human cases were there in 2025?",
+      "file": "guinea-worm.cast",
       "updated": "2026-10-13",
       "page": true
     }
