@@ -142,13 +142,13 @@
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-13
 - [How many people still live without electricity?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/no-electricity.cast) — 2026-10-13
 - [What share of new cars sold in Norway are fully electric?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/norway-electric-cars.cast) — 2026-10-13
+- [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
 - [The causes of the Second World War](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2-2.cast) — 2026-10-11
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
-- [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-07
 - [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
 - [What happened to ozone-destroying gases after the world agreed to ban them?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ozone-cfc.cast) — 2026-10-07
 - [How much of the world's plastic waste gets recycled?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/plastic-recycled.cast) — 2026-10-07
