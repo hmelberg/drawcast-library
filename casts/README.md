@@ -59,6 +59,7 @@
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-13
 - [How many Earths fit between Earth and the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-13
 - [On Venus, which is longer: a day or a year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-13
+- [Which is heavier? Three surprising pairs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -160,7 +161,6 @@
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-07
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-07
-- [Which is heavier? Three surprising pairs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-07
 - [How fast did the world's population grow to 8 billion?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/world-population-curve.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
 - [P vs NP: checking versus finding](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/p-vs-np.cast) — 2026-10-07
