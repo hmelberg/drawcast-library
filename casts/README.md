@@ -49,6 +49,7 @@
 - [Why an epidemic turns by itself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-an-epidemic-turns.cast) — 2026-10-13
 - [Why averages make a bell](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-averages-make-a-bell.cast) — 2026-10-13
 - [Why bubble sort is so slow](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-bubble-sort-is-slow.cast) — 2026-10-13
+- [Why did Darwin wait twenty years?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -164,7 +165,6 @@
 - [Why DNA pairs A with T and C with G](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/base-pairing-the-copying-rule.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03
-- [Why did Darwin wait twenty years?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-03
 - [How the price finds its way](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/demand-shifts-the-equilibrium-follows.cast) — 2026-10-03
 - [Hvorfor Stortinget buler ut](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hvorfor-stortinget-buler-ut.cast) — 2026-10-03
 - [Why screening can look better than it is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03

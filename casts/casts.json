@@ -22,13 +22,6 @@
       "page": true
     },
     {
-      "slug": "darwin-s-twenty-year-wait",
-      "title": "Why did Darwin wait twenty years?",
-      "file": "darwin-s-twenty-year-wait.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "demand-shifts-the-equilibrium-follows",
       "title": "How the price finds its way",
       "file": "demand-shifts-the-equilibrium-follows.cast",
@@ -1201,6 +1194,13 @@
       "slug": "why-bubble-sort-is-slow",
       "title": "Why bubble sort is so slow",
       "file": "why-bubble-sort-is-slow.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "darwin-s-twenty-year-wait",
+      "title": "Why did Darwin wait twenty years?",
+      "file": "darwin-s-twenty-year-wait.cast",
       "updated": "2026-10-13",
       "page": true
     }
