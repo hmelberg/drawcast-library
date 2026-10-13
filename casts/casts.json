@@ -428,13 +428,6 @@
       "page": true
     },
     {
-      "slug": "moonwalkers",
-      "title": "How many people have walked on the Moon?",
-      "file": "moonwalkers.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "most-spoken-languages",
       "title": "Which languages have the most native speakers?",
       "file": "most-spoken-languages.cast",
@@ -1208,6 +1201,13 @@
       "slug": "ball-in-play",
       "title": "How many minutes is the ball actually in play?",
       "file": "ball-in-play.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "moonwalkers",
+      "title": "How many people have walked on the Moon?",
+      "file": "moonwalkers.cast",
       "updated": "2026-10-13",
       "page": true
     }
