@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "how-a-nerve-signal-travels",
-      "title": "How a nerve signal travels",
-      "file": "how-a-nerve-signal-travels.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hvorfor-stortinget-buler-ut",
       "title": "Hvorfor Stortinget buler ut",
       "file": "hvorfor-stortinget-buler-ut.cast",
@@ -1201,6 +1194,13 @@
       "slug": "how-a-magnifying-glass-works",
       "title": "How a magnifying glass really works",
       "file": "how-a-magnifying-glass-works.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "how-a-nerve-signal-travels",
+      "title": "How a nerve signal travels",
+      "file": "how-a-nerve-signal-travels.cast",
       "updated": "2026-10-13",
       "page": true
     }
