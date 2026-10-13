@@ -162,13 +162,6 @@
       "page": true
     },
     {
-      "slug": "local-food-myth",
-      "title": "How much of beef's carbon footprint is transport?",
-      "file": "local-food-myth.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "malaria-in-europe",
       "title": "Which of these countries still had malaria around 1900?",
       "file": "malaria-in-europe.cast",
@@ -1222,6 +1215,13 @@
       "slug": "happiest-country",
       "title": "Which country tops the World Happiness Report?",
       "file": "happiest-country.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "local-food-myth",
+      "title": "How much of beef's carbon footprint is transport?",
+      "file": "local-food-myth.cast",
       "updated": "2026-10-13",
       "page": true
     }

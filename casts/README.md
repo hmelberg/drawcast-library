@@ -119,6 +119,7 @@
 - [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-13
 - [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-13
 - [Which country tops the World Happiness Report?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/happiest-country.cast) — 2026-10-13
+- [How much of beef's carbon footprint is transport?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/local-food-myth.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -142,7 +143,6 @@
 - [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
 - [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-07
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-07
-- [How much of beef's carbon footprint is transport?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/local-food-myth.cast) — 2026-10-07
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-07
 - [How fast have measles deaths fallen since 1980?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/measles-deaths.cast) — 2026-10-07
 - [How old is the typical person? Niger, Brazil, the US, Italy and Japan](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/median-age.cast) — 2026-10-07
