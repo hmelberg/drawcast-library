@@ -78,13 +78,6 @@
       "page": true
     },
     {
-      "slug": "which-of-these-are-mammals",
-      "title": "Which of these are mammals?",
-      "file": "which-of-these-are-mammals.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "why-45-goes-farthest",
       "title": "Why 45° goes farthest",
       "file": "why-45-goes-farthest.cast",
@@ -1201,6 +1194,13 @@
       "slug": "where-the-quadratic-formula-comes-from",
       "title": "Where the quadratic formula comes from",
       "file": "where-the-quadratic-formula-comes-from.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "which-of-these-are-mammals",
+      "title": "Which of these are mammals?",
+      "file": "which-of-these-are-mammals.cast",
       "updated": "2026-10-13",
       "page": true
     }
