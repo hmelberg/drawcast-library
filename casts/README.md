@@ -4,6 +4,7 @@
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-13
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-13
 - [Why the sky is blue and sunsets red](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/blue-sky-red-sunset.cast) — 2026-10-13
+- [The map that blamed a water pump](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -148,7 +149,6 @@
 - [Simpson's paradox: win both, lose overall](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
-- [The map that blamed a water pump](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-03
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
 - [How many must be immune to stop a disease?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-03
 - [Why two rational suspects both confess](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-03

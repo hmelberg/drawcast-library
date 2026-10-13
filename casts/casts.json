@@ -204,13 +204,6 @@
       "page": true
     },
     {
-      "slug": "the-broad-street-pump",
-      "title": "The map that blamed a water pump",
-      "file": "the-broad-street-pump.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "the-derivative-is-a-limit-of-slopes",
       "title": "What a derivative is",
       "file": "the-derivative-is-a-limit-of-slopes.cast",
@@ -1201,6 +1194,13 @@
       "slug": "blue-sky-red-sunset",
       "title": "Why the sky is blue and sunsets red",
       "file": "blue-sky-red-sunset.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-broad-street-pump",
+      "title": "The map that blamed a water pump",
+      "file": "the-broad-street-pump.cast",
       "updated": "2026-10-13",
       "page": true
     }
