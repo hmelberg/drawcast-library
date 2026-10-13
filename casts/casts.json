@@ -302,13 +302,6 @@
       "page": true
     },
     {
-      "slug": "euler-s-identity-as-half-a-turn",
-      "title": "Euler's identity, as half a turn",
-      "file": "euler-s-identity-as-half-a-turn.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "odds-risk-hazard",
       "title": "Odds, risks and hazards",
       "file": "odds-risk-hazard.cast",
@@ -1201,6 +1194,13 @@
       "slug": "does-a-minimum-wage-cost-jobs",
       "title": "Does a minimum wage cost jobs?",
       "file": "does-a-minimum-wage-cost-jobs.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "euler-s-identity-as-half-a-turn",
+      "title": "Euler's identity, as half a turn",
+      "file": "euler-s-identity-as-half-a-turn.cast",
       "updated": "2026-10-13",
       "page": true
     }

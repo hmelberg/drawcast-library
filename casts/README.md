@@ -13,6 +13,7 @@
 - [Is a tomato a fruit?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-fruit.cast) — 2026-10-13
 - [180 litres in, 1.5 out](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/180-litres-in-1-5-out.cast) — 2026-10-13
 - [Does a minimum wage cost jobs?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/does-a-minimum-wage-cost-jobs.cast) — 2026-10-13
+- [Euler's identity, as half a turn](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -171,7 +172,6 @@
 - [Why averages make a bell](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-averages-make-a-bell.cast) — 2026-10-03
 - [Why bubble sort is so slow](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-bubble-sort-is-slow.cast) — 2026-10-03
 - [Why queues explode near 100% busy](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-queues-explode-near-100-busy.cast) — 2026-10-03
-- [Euler's identity, as half a turn](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-s-identity-as-half-a-turn.cast) — 2026-10-03
 
 ---
 
