@@ -50,13 +50,6 @@
       "page": true
     },
     {
-      "slug": "what-a-qaly-gained-measures",
-      "title": "What does a 'QALY gained' actually count?",
-      "file": "what-a-qaly-gained-measures.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "why-queues-explode-near-100-busy",
       "title": "Why queues explode near 100% busy",
       "file": "why-queues-explode-near-100-busy.cast",
@@ -1201,6 +1194,13 @@
       "slug": "base-pairing-the-copying-rule",
       "title": "Why DNA pairs A with T and C with G",
       "file": "base-pairing-the-copying-rule.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-a-qaly-gained-measures",
+      "title": "What does a 'QALY gained' actually count?",
+      "file": "what-a-qaly-gained-measures.cast",
       "updated": "2026-10-13",
       "page": true
     }
