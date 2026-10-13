@@ -117,6 +117,7 @@
 - [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-13
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-13
 - [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-13
+- [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -127,7 +128,6 @@
 - [Which country drinks the most alcohol per adult?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/alcohol-top.cast) — 2026-10-07
 - [Battery prices since 1991: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/battery-prices.cast) — 2026-10-07
 - [Do we need bees to eat? Four claims: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bee-colonies.cast) — 2026-10-07
-- [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-07
 - [In 1800, how many children died before their fifth birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/children-in-1800.cast) — 2026-10-07
 - [Which country emits the most CO₂ per person?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/co2-per-person.cast) — 2026-10-07
 - [Which country has emitted the most CO₂ since 1750?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cumulative-co2.cast) — 2026-10-07
