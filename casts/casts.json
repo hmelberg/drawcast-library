@@ -421,13 +421,6 @@
       "page": true
     },
     {
-      "slug": "what-the-universe-is-made-of",
-      "title": "What is the universe made of?",
-      "file": "what-the-universe-is-made-of.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "fermats-last-theorem",
       "title": "Fermat's Last Theorem",
       "file": "fermats-last-theorem.cast",
@@ -1208,6 +1201,13 @@
       "slug": "baby-animal-names",
       "title": "What are their babies called?",
       "file": "baby-animal-names.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-the-universe-is-made-of",
+      "title": "What is the universe made of?",
+      "file": "what-the-universe-is-made-of.cast",
       "updated": "2026-10-13",
       "page": true
     }
