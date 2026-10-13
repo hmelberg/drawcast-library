@@ -60,6 +60,7 @@
 - [How many Earths fit between Earth and the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-13
 - [On Venus, which is longer: a day or a year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-13
 - [Which is heavier? Three surprising pairs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-is-heavier.cast) — 2026-10-13
+- [After five heads in a row, is tails more likely?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -123,7 +124,6 @@
 - [Body myths: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-07
 - [Are there more bacteria in your body than human cells?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-07
 - [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-07
-- [After five heads in a row, is tails more likely?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/coin-streaks.cast) — 2026-10-07
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [How many Earths would fit inside the Sun?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-07
 - [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-07

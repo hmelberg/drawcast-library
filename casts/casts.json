@@ -442,13 +442,6 @@
       "page": true
     },
     {
-      "slug": "coin-streaks",
-      "title": "After five heads in a row, is tails more likely?",
-      "file": "coin-streaks.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "diamonds-and-water",
       "title": "Why is water cheap and diamonds dear?",
       "file": "diamonds-and-water.cast",
@@ -1201,6 +1194,13 @@
       "slug": "which-is-heavier",
       "title": "Which is heavier? Three surprising pairs",
       "file": "which-is-heavier.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "coin-streaks",
+      "title": "After five heads in a row, is tails more likely?",
+      "file": "coin-streaks.cast",
       "updated": "2026-10-13",
       "page": true
     }
