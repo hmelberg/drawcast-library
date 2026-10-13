@@ -111,6 +111,7 @@
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-13
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-13
 - [Guinea worm infected millions a year. How many human cases were there in 2025?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/guinea-worm.cast) — 2026-10-13
+- [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -125,7 +126,6 @@
 - [In 1800, how many children died before their fifth birthday?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/children-in-1800.cast) — 2026-10-07
 - [Which country emits the most CO₂ per person?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/co2-per-person.cast) — 2026-10-07
 - [Which country has emitted the most CO₂ since 1750?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cumulative-co2.cast) — 2026-10-07
-- [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-10-07
 - [Do natural disasters kill more people than a century ago?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/disaster-deaths.cast) — 2026-10-07
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-07
 - [How much of the world's seafood is farmed?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/farmed-fish.cast) — 2026-10-07
