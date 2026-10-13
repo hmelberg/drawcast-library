@@ -155,13 +155,6 @@
       "page": true
     },
     {
-      "slug": "what-p-0-05-means",
-      "title": "What p < 0.05 really means",
-      "file": "what-p-0-05-means.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "the-water-cycle",
       "title": "Why rain is fresh",
       "file": "the-water-cycle.cast",
@@ -1201,6 +1194,13 @@
       "slug": "what-kills-us",
       "title": "What kills the most people?",
       "file": "what-kills-us.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "what-p-0-05-means",
+      "title": "What p < 0.05 really means",
+      "file": "what-p-0-05-means.cast",
       "updated": "2026-10-13",
       "page": true
     }
