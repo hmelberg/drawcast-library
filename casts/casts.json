@@ -106,13 +106,6 @@
       "page": true
     },
     {
-      "slug": "surgery-or-medication",
-      "title": "Surgery or medication?",
-      "file": "surgery-or-medication.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "the-derivative-is-a-limit-of-slopes",
       "title": "What a derivative is",
       "file": "the-derivative-is-a-limit-of-slopes.cast",
@@ -1201,6 +1194,13 @@
       "slug": "simpson-s-paradox-drawn",
       "title": "Simpson's paradox: win both, lose overall",
       "file": "simpson-s-paradox-drawn.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "surgery-or-medication",
+      "title": "Surgery or medication?",
+      "file": "surgery-or-medication.cast",
       "updated": "2026-10-13",
       "page": true
     }
