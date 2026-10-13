@@ -540,13 +540,6 @@
       "page": true
     },
     {
-      "slug": "pythagoras-blank",
-      "title": "What finishes Pythagoras' theorem?",
-      "file": "pythagoras-blank.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "rice-on-a-chessboard",
       "title": "How much rice on the last square of a chessboard?",
       "file": "rice-on-a-chessboard.cast",
@@ -1201,6 +1194,13 @@
       "slug": "true-or-myth",
       "title": "True or myth? Five things everyone has heard",
       "file": "true-or-myth.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "pythagoras-blank",
+      "title": "What finishes Pythagoras' theorem?",
+      "file": "pythagoras-blank.cast",
       "updated": "2026-10-13",
       "page": true
     }
