@@ -414,13 +414,6 @@
       "page": true
     },
     {
-      "slug": "birthday-paradox",
-      "title": "Do two of 23 people share a birthday?",
-      "file": "birthday-paradox.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "diamonds-and-water",
       "title": "Why is water cheap and diamonds dear?",
       "file": "diamonds-and-water.cast",
@@ -1201,6 +1194,13 @@
       "slug": "euler-polyhedra",
       "title": "Corners minus edges plus faces: what does a cube give?",
       "file": "euler-polyhedra.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "birthday-paradox",
+      "title": "Do two of 23 people share a birthday?",
+      "file": "birthday-paradox.cast",
       "updated": "2026-10-13",
       "page": true
     }
