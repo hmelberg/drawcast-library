@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "hottest-peppers",
-      "title": "How hot are the world's hottest peppers?",
-      "file": "hottest-peppers.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "how-loud-is-loud",
       "title": "How loud is loud?",
       "file": "how-loud-is-loud.cast",
@@ -1208,6 +1201,13 @@
       "slug": "solar-panel-prices",
       "title": "How fast did solar panels get cheaper?",
       "file": "solar-panel-prices.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "hottest-peppers",
+      "title": "How hot are the world's hottest peppers?",
+      "file": "hottest-peppers.cast",
       "updated": "2026-10-13",
       "page": true
     }
