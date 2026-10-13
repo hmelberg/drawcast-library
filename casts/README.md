@@ -95,6 +95,7 @@
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-13
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-13
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-13
+- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -150,7 +151,6 @@
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
-- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-07
 - [What are their babies called?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/baby-animal-names.cast) — 2026-10-07
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-07
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07

@@ -386,13 +386,6 @@
       "page": true
     },
     {
-      "slug": "ants-on-earth",
-      "title": "How many ants are there on Earth?",
-      "file": "ants-on-earth.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "baby-animal-names",
       "title": "What are their babies called?",
       "file": "baby-animal-names.cast",
@@ -1208,6 +1201,13 @@
       "slug": "how-loud-is-loud",
       "title": "How loud is loud?",
       "file": "how-loud-is-loud.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "ants-on-earth",
+      "title": "How many ants are there on Earth?",
+      "file": "ants-on-earth.cast",
       "updated": "2026-10-13",
       "page": true
     }
