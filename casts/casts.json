@@ -36,13 +36,6 @@
       "page": true
     },
     {
-      "slug": "news-vs-deaths",
-      "title": "Does the news cover what actually kills us?",
-      "file": "news-vs-deaths.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "phones-vs-people",
       "title": "Are there more mobile phone subscriptions than people on Earth?",
       "file": "phones-vs-people.cast",
@@ -1222,6 +1215,13 @@
       "slug": "median-age",
       "title": "How old is the typical person? Niger, Brazil, the US, Italy and Japan",
       "file": "median-age.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "news-vs-deaths",
+      "title": "Does the news cover what actually kills us?",
+      "file": "news-vs-deaths.cast",
       "updated": "2026-10-13",
       "page": true
     }
