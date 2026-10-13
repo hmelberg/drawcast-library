@@ -157,12 +157,12 @@
 - [Which takes more lives worldwide: suicide or homicide?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/suicide-vs-homicide.cast) — 2026-10-13
 - [Which infectious disease kills the most people today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tb-still-top.cast) — 2026-10-13
 - [As Americans grow older, how much of the day do they spend alone?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/time-alone.cast) — 2026-10-13
+- [One chip against the planet: which is bigger?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/transistors.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
 - [The causes of the Second World War](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2-2.cast) — 2026-10-11
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
-- [One chip against the planet: which is bigger?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/transistors.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
