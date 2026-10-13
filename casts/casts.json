@@ -498,13 +498,6 @@
       "page": true
     },
     {
-      "slug": "most-time-zones",
-      "title": "Which country has the most time zones?",
-      "file": "most-time-zones.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "muller-lyer",
       "title": "Which line is longer?",
       "file": "muller-lyer.cast",
@@ -1201,6 +1194,13 @@
       "slug": "which-came-first",
       "title": "Which came first?",
       "file": "which-came-first.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "most-time-zones",
+      "title": "Which country has the most time zones?",
+      "file": "most-time-zones.cast",
       "updated": "2026-10-13",
       "page": true
     }
