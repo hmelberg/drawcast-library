@@ -449,13 +449,6 @@
       "page": true
     },
     {
-      "slug": "euler-polyhedra",
-      "title": "Corners minus edges plus faces: what does a cube give?",
-      "file": "euler-polyhedra.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "famous-paintings",
       "title": "Who painted it? Match four famous paintings",
       "file": "famous-paintings.cast",
@@ -1201,6 +1194,13 @@
       "slug": "cleopatra-closer",
       "title": "Cleopatra: closer to the pyramids or the Moon?",
       "file": "cleopatra-closer.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "euler-polyhedra",
+      "title": "Corners minus edges plus faces: what does a cube give?",
+      "file": "euler-polyhedra.cast",
       "updated": "2026-10-13",
       "page": true
     }

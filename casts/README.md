@@ -64,6 +64,7 @@
 - [Are there more bacteria in your body than human cells?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cells-vs-bacteria.cast) — 2026-10-13
 - [Body myths: true or myth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/body-myths.cast) — 2026-10-13
 - [Cleopatra: closer to the pyramids or the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/cleopatra-closer.cast) — 2026-10-13
+- [Corners minus edges plus faces: what does a cube give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -128,7 +129,6 @@
 - [How many Earths would fit inside the Sun?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/earths-in-the-sun.cast) — 2026-10-07
 - [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-07
 - [Which films won eleven Oscars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-07
-- [Corners minus edges plus faces: what does a cube give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/euler-polyhedra.cast) — 2026-10-07
 - [Who painted it? Match four famous paintings](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-07
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-07
