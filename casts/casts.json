@@ -1,13 +1,6 @@
 {
   "casts": [
     {
-      "slug": "base-pairing-the-copying-rule",
-      "title": "Why DNA pairs A with T and C with G",
-      "file": "base-pairing-the-copying-rule.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "bremselengden-vokser-med-kvadratet",
       "title": "Dobbel fart, firedobbel bremselengde",
       "file": "bremselengden-vokser-med-kvadratet.cast",
@@ -1201,6 +1194,13 @@
       "slug": "darwin-s-twenty-year-wait",
       "title": "Why did Darwin wait twenty years?",
       "file": "darwin-s-twenty-year-wait.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "base-pairing-the-copying-rule",
+      "title": "Why DNA pairs A with T and C with G",
+      "file": "base-pairing-the-copying-rule.cast",
       "updated": "2026-10-13",
       "page": true
     }
