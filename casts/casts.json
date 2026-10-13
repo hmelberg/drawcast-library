@@ -680,13 +680,6 @@
       "page": true
     },
     {
-      "slug": "venus-day-year",
-      "title": "On Venus, which is longer: a day or a year?",
-      "file": "venus-day-year.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "viking-words",
       "title": "Which words came from the Vikings?",
       "file": "viking-words.cast",
@@ -1201,6 +1194,13 @@
       "slug": "planets-in-a-row",
       "title": "How many Earths fit between Earth and the Moon?",
       "file": "planets-in-a-row.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "venus-day-year",
+      "title": "On Venus, which is longer: a day or a year?",
+      "file": "venus-day-year.cast",
       "updated": "2026-10-13",
       "page": true
     }

@@ -58,6 +58,7 @@
 - [Why screening can look better than it is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-13
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-13
 - [How many Earths fit between Earth and the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/planets-in-a-row.cast) — 2026-10-13
+- [On Venus, which is longer: a day or a year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -155,7 +156,6 @@
 - [Which is the tallest mountain on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-07
 - [True or myth? Five things everyone has heard](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-07
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-07
-- [On Venus, which is longer: a day or a year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/venus-day-year.cast) — 2026-10-07
 - [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-07
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-07
