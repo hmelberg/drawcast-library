@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "how-a-fridge-keeps-cold",
-      "title": "How a fridge keeps cold",
-      "file": "how-a-fridge-keeps-cold.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "how-a-magnifying-glass-works",
       "title": "How a magnifying glass really works",
       "file": "how-a-magnifying-glass-works.cast",
@@ -1201,6 +1194,13 @@
       "slug": "euler-s-identity-as-half-a-turn",
       "title": "Euler's identity, as half a turn",
       "file": "euler-s-identity-as-half-a-turn.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "how-a-fridge-keeps-cold",
+      "title": "How a fridge keeps cold",
+      "file": "how-a-fridge-keeps-cold.cast",
       "updated": "2026-10-13",
       "page": true
     }
