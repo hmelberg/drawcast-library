@@ -106,13 +106,6 @@
       "page": true
     },
     {
-      "slug": "how-big-is-jupiter",
-      "title": "How big is Jupiter?",
-      "file": "how-big-is-jupiter.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "how-fast-can-they-run",
       "title": "How fast can they run?",
       "file": "how-fast-can-they-run.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-prisoner-s-dilemma",
       "title": "Why two rational suspects both confess",
       "file": "the-prisoner-s-dilemma.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "how-big-is-jupiter",
+      "title": "How big is Jupiter?",
+      "file": "how-big-is-jupiter.cast",
       "updated": "2026-10-13",
       "page": true
     }
