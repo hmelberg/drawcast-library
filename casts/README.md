@@ -34,6 +34,7 @@
 - [Price elasticity: how much less do people buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-elasticity-a-book.cast) — 2026-10-13
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-13
 - [What do mitochondria actually do?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-13
+- [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -158,7 +159,6 @@
 - [Hvorfor Stortinget buler ut](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hvorfor-stortinget-buler-ut.cast) — 2026-10-03
 - [Why screening can look better than it is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03
 - [Why most published findings are false](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
-- [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
 - [What kills the most people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03

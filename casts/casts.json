@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "sensitivity-and-specificity",
-      "title": "What do sensitivity and specificity measure?",
-      "file": "sensitivity-and-specificity.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sirkelens-areal-med-kakestykker",
       "title": "Hvorfor sirkelens areal er πr²",
       "file": "sirkelens-areal-med-kakestykker.cast",
@@ -1201,6 +1194,13 @@
       "slug": "what-mitochondria-do",
       "title": "What do mitochondria actually do?",
       "file": "what-mitochondria-do.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "sensitivity-and-specificity",
+      "title": "What do sensitivity and specificity measure?",
+      "file": "sensitivity-and-specificity.cast",
       "updated": "2026-10-13",
       "page": true
     }
