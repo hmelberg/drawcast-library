@@ -1,9 +1,9 @@
-# Привет or здравствуйте?
+# Hello in Russian: привет or здравствуйте?
 subtitle: "Привет or здравствуйте, ты or вы: how to greet a friend and a stranger in Russian, and how to say goodbye to each."
 thumb: "band \"Don't say привет to her\" stamp \"ТЫ or ВЫ?\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 
-## Привет or здравствуйте?
+## Hello in Russian: привет or здравствуйте?
 level: basic
 
     icon tom size 170 set twemoji x 130 y 470 or ["person"] icon_look picture of man hidden true
