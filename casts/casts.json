@@ -36,13 +36,6 @@
       "page": true
     },
     {
-      "slug": "plastic-recycled",
-      "title": "How much of the world's plastic waste gets recycled?",
-      "file": "plastic-recycled.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "population-peak",
       "title": "When will the world's population peak, and at what size?",
       "file": "population-peak.cast",
@@ -1222,6 +1215,13 @@
       "slug": "phones-vs-people",
       "title": "Are there more mobile phone subscriptions than people on Earth?",
       "file": "phones-vs-people.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "plastic-recycled",
+      "title": "How much of the world's plastic waste gets recycled?",
+      "file": "plastic-recycled.cast",
       "updated": "2026-10-13",
       "page": true
     }
