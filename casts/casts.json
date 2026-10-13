@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "lorenz-curve-and-gini",
-      "title": "Two countries, one Gini",
-      "file": "lorenz-curve-and-gini.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "most-findings-are-false",
       "title": "Why most published findings are false",
       "file": "most-findings-are-false.cast",
@@ -1201,6 +1194,13 @@
       "slug": "the-tower-of-hanoi",
       "title": "The Tower of Hanoi: why 2ⁿ − 1 moves",
       "file": "the-tower-of-hanoi.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "lorenz-curve-and-gini",
+      "title": "Two countries, one Gini",
+      "file": "lorenz-curve-and-gini.cast",
       "updated": "2026-10-13",
       "page": true
     }

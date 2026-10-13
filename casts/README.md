@@ -25,6 +25,7 @@
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-13
 - [Thales' theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/thales-theorem.cast) — 2026-10-13
 - [The Tower of Hanoi: why 2ⁿ − 1 moves](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-13
+- [Two countries, one Gini](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lorenz-curve-and-gini.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -149,7 +150,6 @@
 - [How the price finds its way](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/demand-shifts-the-equilibrium-follows.cast) — 2026-10-03
 - [Hvorfor Stortinget buler ut](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hvorfor-stortinget-buler-ut.cast) — 2026-10-03
 - [Why screening can look better than it is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lead-time-bias.cast) — 2026-10-03
-- [Two countries, one Gini](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/lorenz-curve-and-gini.cast) — 2026-10-03
 - [Why most published findings are false](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
 - [Price elasticity: how much less do people buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-elasticity-a-book.cast) — 2026-10-03
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
