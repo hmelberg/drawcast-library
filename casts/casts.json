@@ -71,13 +71,6 @@
       "page": true
     },
     {
-      "slug": "why-an-epidemic-turns",
-      "title": "Why an epidemic turns by itself",
-      "file": "why-an-epidemic-turns.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "why-averages-make-a-bell",
       "title": "Why averages make a bell",
       "file": "why-averages-make-a-bell.cast",
@@ -1201,6 +1194,13 @@
       "slug": "why-a-straw-looks-bent-in-water",
       "title": "Why a straw looks bent in water",
       "file": "why-a-straw-looks-bent-in-water.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "why-an-epidemic-turns",
+      "title": "Why an epidemic turns by itself",
+      "file": "why-an-epidemic-turns.cast",
       "updated": "2026-10-13",
       "page": true
     }
