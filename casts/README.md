@@ -21,6 +21,7 @@
 - [How many people live in extreme poverty?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/extreme-poverty.cast) — 2026-10-13
 - [Measuring a policy against what never happened](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/difference-in-differences.cast) — 2026-10-13
 - [Scholar's Mate: the four-move trap](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/scholar-s-mate.cast) — 2026-10-13
+- [Simpson's paradox: win both, lose overall](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -150,7 +151,6 @@
 - [Why most published findings are false](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
 - [Price elasticity: how much less do people buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/price-elasticity-a-book.cast) — 2026-10-03
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
-- [Simpson's paradox: win both, lose overall](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/simpson-s-paradox-drawn.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
