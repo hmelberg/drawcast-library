@@ -435,13 +435,6 @@
       "page": true
     },
     {
-      "slug": "paper-folding",
-      "title": "How many times can you fold paper in half?",
-      "file": "paper-folding.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "rice-on-a-chessboard",
       "title": "How much rice on the last square of a chessboard?",
       "file": "rice-on-a-chessboard.cast",
@@ -1208,6 +1201,13 @@
       "slug": "moonwalkers",
       "title": "How many people have walked on the Moon?",
       "file": "moonwalkers.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "paper-folding",
+      "title": "How many times can you fold paper in half?",
+      "file": "paper-folding.cast",
       "updated": "2026-10-13",
       "page": true
     }
