@@ -50,13 +50,6 @@
       "page": true
     },
     {
-      "slug": "malaria-in-europe",
-      "title": "Which of these countries still had malaria around 1900?",
-      "file": "malaria-in-europe.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "measles-deaths",
       "title": "How fast have measles deaths fallen since 1980?",
       "file": "measles-deaths.cast",
@@ -1222,6 +1215,13 @@
       "slug": "livestock-land",
       "title": "Livestock uses most farmland. How much of our food does it give?",
       "file": "livestock-land.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "malaria-in-europe",
+      "title": "Which of these countries still had malaria around 1900?",
+      "file": "malaria-in-europe.cast",
       "updated": "2026-10-13",
       "page": true
     }
