@@ -29,6 +29,7 @@
 - [Two pumps in one heart](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-13
 - [What 95% confidence means](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-13
 - [What a 1% fee really costs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-13
+- [What a confounder does](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -158,7 +159,6 @@
 - [What do sensitivity and specificity measure?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sensitivity-and-specificity.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
-- [What a confounder does](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
 - [What kills the most people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-10-03
 - [What do mitochondria actually do?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-mitochondria-do.cast) — 2026-10-03
