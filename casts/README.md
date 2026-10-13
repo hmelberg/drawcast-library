@@ -130,6 +130,7 @@
 - [How much of the world's seafood is farmed?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/farmed-fish.cast) — 2026-10-13
 - [How many children does the average woman in the world have today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertility-halved.cast) — 2026-10-13
 - [How much of the world's forest have we lost since the last ice age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/forest-lost.cast) — 2026-10-13
+- [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -137,7 +138,6 @@
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
-- [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-07
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-07
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-07
 - [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
