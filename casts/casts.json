@@ -8,13 +8,6 @@
       "page": true
     },
     {
-      "slug": "comparative-advantage",
-      "title": "Why trade if you're better at everything?",
-      "file": "comparative-advantage.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "demand-shifts-the-equilibrium-follows",
       "title": "How the price finds its way",
       "file": "demand-shifts-the-equilibrium-follows.cast",
@@ -1201,6 +1194,13 @@
       "slug": "lead-time-bias",
       "title": "Why screening can look better than it is",
       "file": "lead-time-bias.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "comparative-advantage",
+      "title": "Why trade if you're better at everything?",
+      "file": "comparative-advantage.cast",
       "updated": "2026-10-13",
       "page": true
     }
