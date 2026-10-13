@@ -92,13 +92,6 @@
       "page": true
     },
     {
-      "slug": "scholar-s-mate",
-      "title": "Scholar's Mate: the four-move trap",
-      "file": "scholar-s-mate.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sensitivity-and-specificity",
       "title": "What do sensitivity and specificity measure?",
       "file": "sensitivity-and-specificity.cast",
@@ -1201,6 +1194,13 @@
       "slug": "difference-in-differences",
       "title": "Measuring a policy against what never happened",
       "file": "difference-in-differences.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "scholar-s-mate",
+      "title": "Scholar's Mate: the four-move trap",
+      "file": "scholar-s-mate.cast",
       "updated": "2026-10-13",
       "page": true
     }
