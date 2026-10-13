@@ -50,13 +50,6 @@
       "page": true
     },
     {
-      "slug": "the-water-cycle",
-      "title": "Why rain is fresh",
-      "file": "the-water-cycle.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "news-vs-deaths",
       "title": "Does the news cover what actually kills us?",
       "file": "news-vs-deaths.cast",
@@ -1201,6 +1194,13 @@
       "slug": "why-queues-explode-near-100-busy",
       "title": "Why queues explode near 100% busy",
       "file": "why-queues-explode-near-100-busy.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-water-cycle",
+      "title": "Why rain is fresh",
+      "file": "the-water-cycle.cast",
       "updated": "2026-10-13",
       "page": true
     }
