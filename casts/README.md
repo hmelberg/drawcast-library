@@ -73,6 +73,7 @@
 - [Is it a dinosaur?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/is-it-a-dinosaur.cast) — 2026-10-13
 - [Linda: bank teller, or feminist bank teller?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/linda-problem.cast) — 2026-10-13
 - [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-13
+- [True or myth? Five things everyone has heard](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -156,7 +157,6 @@
 - [Who discovered what? Match four scientists](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-07
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-07
 - [Which is the tallest mountain on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/tallest-mountain.cast) — 2026-10-07
-- [True or myth? Five things everyone has heard](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-07
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-07
 - [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-07
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
