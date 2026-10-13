@@ -64,13 +64,6 @@
       "page": true
     },
     {
-      "slug": "extreme-poverty",
-      "title": "How many people live in extreme poverty?",
-      "file": "extreme-poverty.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hvorfor-stortinget-buler-ut",
       "title": "Hvorfor Stortinget buler ut",
       "file": "hvorfor-stortinget-buler-ut.cast",
@@ -1201,6 +1194,13 @@
       "slug": "mozart-s-short-life",
       "title": "How long did Mozart live?",
       "file": "mozart-s-short-life.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "extreme-poverty",
+      "title": "How many people live in extreme poverty?",
+      "file": "extreme-poverty.cast",
       "updated": "2026-10-13",
       "page": true
     }
