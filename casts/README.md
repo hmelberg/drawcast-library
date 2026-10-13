@@ -114,6 +114,7 @@
 - [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-10-13
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-13
 - [How many whales were killed in the 20th century?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whales-hunted.cast) — 2026-10-13
+- [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -149,7 +150,6 @@
 - [What share of new cars sold in Norway are fully electric?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/norway-electric-cars.cast) — 2026-10-07
 - [How many nuclear warheads are left in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/nuclear-warheads.cast) — 2026-10-07
 - [Are there more obese or more underweight adults in the world?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/obese-vs-underweight.cast) — 2026-10-07
-- [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-07
 - [What happened to ozone-destroying gases after the world agreed to ban them?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ozone-cfc.cast) — 2026-10-07
 - [How much of the world's plastic waste gets recycled?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/plastic-recycled.cast) — 2026-10-07
 - [When will the world's population peak, and at what size?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/population-peak.cast) — 2026-10-07

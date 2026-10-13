@@ -246,13 +246,6 @@
       "page": true
     },
     {
-      "slug": "ocean-plastic-country",
-      "title": "Which country puts the most plastic into the ocean?",
-      "file": "ocean-plastic-country.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "ozone-cfc",
       "title": "What happened to ozone-destroying gases after the world agreed to ban them?",
       "file": "ozone-cfc.cast",
@@ -1222,6 +1215,13 @@
       "slug": "whales-hunted",
       "title": "How many whales were killed in the 20th century?",
       "file": "whales-hunted.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "ocean-plastic-country",
+      "title": "Which country puts the most plastic into the ocean?",
+      "file": "ocean-plastic-country.cast",
       "updated": "2026-10-13",
       "page": true
     }
