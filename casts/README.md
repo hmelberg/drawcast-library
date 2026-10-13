@@ -118,6 +118,7 @@
 - [The Dutch are the world's tallest men. How tall were they a century earlier?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/dutch-height.cast) — 2026-10-13
 - [How many people are alive thanks to synthetic fertilizer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fertilizer-feeds-half.cast) — 2026-10-13
 - [How many chickens are slaughtered for meat each year?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/chickens-per-year.cast) — 2026-10-13
+- [Which country tops the World Happiness Report?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/happiest-country.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -137,7 +138,6 @@
 - [How much of the world's forest have we lost since the last ice age?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/forest-lost.cast) — 2026-10-07
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-07
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-07
-- [Which country tops the World Happiness Report?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/happiest-country.cast) — 2026-10-07
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-07
 - [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-07
 - [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-07

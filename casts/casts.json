@@ -134,13 +134,6 @@
       "page": true
     },
     {
-      "slug": "happiest-country",
-      "title": "Which country tops the World Happiness Report?",
-      "file": "happiest-country.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "internet-half",
       "title": "In what year did half of the world's people first use the internet?",
       "file": "internet-half.cast",
@@ -1222,6 +1215,13 @@
       "slug": "chickens-per-year",
       "title": "How many chickens are slaughtered for meat each year?",
       "file": "chickens-per-year.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "happiest-country",
+      "title": "Which country tops the World Happiness Report?",
+      "file": "happiest-country.cast",
       "updated": "2026-10-13",
       "page": true
     }
