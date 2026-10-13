@@ -1224,6 +1224,13 @@
       "file": "russian-hello.cast",
       "updated": "2026-10-13",
       "page": true
+    },
+    {
+      "slug": "russian-cafe",
+      "title": "At the café in Russian: кофе, чай, суп",
+      "file": "russian-cafe.cast",
+      "updated": "2026-10-13",
+      "page": true
     }
   ]
 }
