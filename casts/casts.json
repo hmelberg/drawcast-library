@@ -617,13 +617,6 @@
       "page": true
     },
     {
-      "slug": "planets-in-a-row",
-      "title": "How many Earths fit between Earth and the Moon?",
-      "file": "planets-in-a-row.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "pythagoras-blank",
       "title": "What finishes Pythagoras' theorem?",
       "file": "pythagoras-blank.cast",
@@ -1201,6 +1194,13 @@
       "slug": "comparative-advantage",
       "title": "Why trade if you're better at everything?",
       "file": "comparative-advantage.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "planets-in-a-row",
+      "title": "How many Earths fit between Earth and the Moon?",
+      "file": "planets-in-a-row.cast",
       "updated": "2026-10-13",
       "page": true
     }
