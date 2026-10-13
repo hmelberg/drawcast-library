@@ -421,13 +421,6 @@
       "page": true
     },
     {
-      "slug": "famous-paintings",
-      "title": "Who painted it? Match four famous paintings",
-      "file": "famous-paintings.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "fastest-ramp",
       "title": "Which ramp is fastest?",
       "file": "fastest-ramp.cast",
@@ -1201,6 +1194,13 @@
       "slug": "sort-the-scientists",
       "title": "Who discovered what? Match four scientists",
       "file": "sort-the-scientists.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "famous-paintings",
+      "title": "Who painted it? Match four famous paintings",
+      "file": "famous-paintings.cast",
       "updated": "2026-10-13",
       "page": true
     }

@@ -85,6 +85,7 @@
 - [Which line is longer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/muller-lyer.cast) — 2026-10-13
 - [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-13
 - [Who discovered what? Match four scientists](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sort-the-scientists.cast) — 2026-10-13
+- [Who painted it? Match four famous paintings](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -145,7 +146,6 @@
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-07
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [Which films won eleven Oscars?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eleven-oscars.cast) — 2026-10-07
-- [Who painted it? Match four famous paintings](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/famous-paintings.cast) — 2026-10-07
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-07
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-07
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-07
