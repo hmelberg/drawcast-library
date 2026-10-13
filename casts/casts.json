@@ -428,13 +428,6 @@
       "page": true
     },
     {
-      "slug": "rice-on-a-chessboard",
-      "title": "How much rice on the last square of a chessboard?",
-      "file": "rice-on-a-chessboard.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "what-the-universe-is-made-of",
       "title": "What is the universe made of?",
       "file": "what-the-universe-is-made-of.cast",
@@ -1208,6 +1201,13 @@
       "slug": "first-hard-drive",
       "title": "How much did the first hard drive weigh?",
       "file": "first-hard-drive.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "rice-on-a-chessboard",
+      "title": "How much rice on the last square of a chessboard?",
+      "file": "rice-on-a-chessboard.cast",
       "updated": "2026-10-13",
       "page": true
     }
