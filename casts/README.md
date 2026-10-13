@@ -78,6 +78,7 @@
 - [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-13
 - [When was the first text message sent?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-13
 - [Which animal has the longest pregnancy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-13
+- [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -161,7 +162,6 @@
 - [Which words came from the Vikings?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/viking-words.cast) — 2026-10-07
 - [What is the universe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-the-universe-is-made-of.cast) — 2026-10-07
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-07
-- [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
 - [P vs NP: checking versus finding](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/p-vs-np.cast) — 2026-10-07
 - [Why the Tsar fell, and why Lenin won](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution.cast) — 2026-10-07
