@@ -1217,6 +1217,13 @@
       "file": "missing-letter-states.cast",
       "updated": "2026-10-13",
       "page": true
+    },
+    {
+      "slug": "russian-gender",
+      "title": "Russian gender from the last letter: он, она, оно",
+      "file": "russian-gender.cast",
+      "updated": "2026-10-13",
+      "page": true
     }
   ]
 }
