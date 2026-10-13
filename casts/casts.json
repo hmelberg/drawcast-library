@@ -1203,6 +1203,13 @@
       "file": "misnamed-things.cast",
       "updated": "2026-10-13",
       "page": true
+    },
+    {
+      "slug": "read-russian",
+      "title": "Read Russian in 14 letters",
+      "file": "read-russian.cast",
+      "updated": "2026-10-13",
+      "page": true
     }
   ]
 }

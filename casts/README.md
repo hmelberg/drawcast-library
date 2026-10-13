@@ -89,6 +89,7 @@
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-13
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-13
 - [Do these names tell the truth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-13
+- [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/read-russian.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
