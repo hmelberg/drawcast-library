@@ -43,6 +43,7 @@
 - [Where the quadratic formula comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-13
 - [Which of these are mammals?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-of-these-are-mammals.cast) — 2026-10-13
 - [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-13
+- [Why 45° goes farthest](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-45-goes-farthest.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -166,7 +167,6 @@
 - [Why most published findings are false](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/most-findings-are-false.cast) — 2026-10-03
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [What does a 'QALY gained' actually count?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-qaly-gained-measures.cast) — 2026-10-03
-- [Why 45° goes farthest](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-45-goes-farthest.cast) — 2026-10-03
 - [Why a major chord sounds sweet](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-major-chord-sounds-sweet.cast) — 2026-10-03
 - [Why an epidemic turns by itself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-an-epidemic-turns.cast) — 2026-10-03
 - [Why averages make a bell](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-averages-make-a-bell.cast) — 2026-10-03
