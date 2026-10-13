@@ -42,13 +42,13 @@
 - [Where the 206 bones are](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-206-bones-are.cast) — 2026-10-13
 - [Where the quadratic formula comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-the-quadratic-formula-comes-from.cast) — 2026-10-13
 - [Which of these are mammals?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-of-these-are-mammals.cast) — 2026-10-13
+- [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
 - [The causes of the Second World War](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/causes-of-ww2-2.cast) — 2026-10-11
 - [Bread to Bolsheviks: Russia, 1917](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution-2.cast) — 2026-10-11
 - [Why rain is fresh](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-water-cycle.cast) — 2026-10-07
-- [Who pays a ticket tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-pays-a-ticket-tax.cast) — 2026-10-07
 - [Does the news cover what actually kills us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/news-vs-deaths.cast) — 2026-10-07
 - [Are there more mobile phone subscriptions than people on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/phones-vs-people.cast) — 2026-10-07
 - [Which country drinks the most alcohol per adult?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/alcohol-top.cast) — 2026-10-07
