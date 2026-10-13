@@ -109,6 +109,7 @@
 - [Which letter is in no US state's name?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/missing-letter-states.cast) — 2026-10-13
 - [Russian gender from the last letter: он, она, оно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-gender.cast) — 2026-10-13
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-13
+- [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -164,7 +165,6 @@
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-07
 - [In how many countries do women live longer than men?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/women-outlive-men.cast) — 2026-10-07
 - [How many hours did a German work in 1870, compared with today?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/working-hours.cast) — 2026-10-07
-- [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-07
 - [Fermat's Last Theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fermats-last-theorem.cast) — 2026-10-07
 - [P vs NP: checking versus finding](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/p-vs-np.cast) — 2026-10-07
 - [Why the Tsar fell, and why Lenin won](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-revolution.cast) — 2026-10-07

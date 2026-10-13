@@ -386,13 +386,6 @@
       "page": true
     },
     {
-      "slug": "diamonds-and-water",
-      "title": "Why is water cheap and diamonds dear?",
-      "file": "diamonds-and-water.cast",
-      "updated": "2026-10-07",
-      "page": true
-    },
-    {
       "slug": "fermats-last-theorem",
       "title": "Fermat's Last Theorem",
       "file": "fermats-last-theorem.cast",
@@ -1222,6 +1215,13 @@
       "slug": "fastest-ramp",
       "title": "Which ramp is fastest?",
       "file": "fastest-ramp.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "diamonds-and-water",
+      "title": "Why is water cheap and diamonds dear?",
+      "file": "diamonds-and-water.cast",
       "updated": "2026-10-13",
       "page": true
     }
