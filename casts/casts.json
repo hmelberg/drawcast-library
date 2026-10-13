@@ -57,13 +57,6 @@
       "page": true
     },
     {
-      "slug": "difference-in-differences",
-      "title": "Measuring a policy against what never happened",
-      "file": "difference-in-differences.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "hvorfor-stortinget-buler-ut",
       "title": "Hvorfor Stortinget buler ut",
       "file": "hvorfor-stortinget-buler-ut.cast",
@@ -1201,6 +1194,13 @@
       "slug": "extreme-poverty",
       "title": "How many people live in extreme poverty?",
       "file": "extreme-poverty.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "difference-in-differences",
+      "title": "Measuring a policy against what never happened",
+      "file": "difference-in-differences.cast",
       "updated": "2026-10-13",
       "page": true
     }
