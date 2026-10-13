@@ -22,13 +22,6 @@
       "page": true
     },
     {
-      "slug": "bayes-and-the-screening-test-a-book",
-      "title": "Bayes and the screening test",
-      "file": "bayes-and-the-screening-test-a-book.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "bremselengden-vokser-med-kvadratet",
       "title": "Dobbel fart, firedobbel bremselengde",
       "file": "bremselengden-vokser-med-kvadratet.cast",
@@ -1201,6 +1194,13 @@
       "slug": "what-a-confounder-does",
       "title": "What a confounder does",
       "file": "what-a-confounder-does.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "bayes-and-the-screening-test-a-book",
+      "title": "Bayes and the screening test",
+      "file": "bayes-and-the-screening-test-a-book.cast",
       "updated": "2026-10-13",
       "page": true
     }

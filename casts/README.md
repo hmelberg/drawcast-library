@@ -30,6 +30,7 @@
 - [What 95% confidence means](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-13
 - [What a 1% fee really costs](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-1-fee-costs.cast) — 2026-10-13
 - [What a confounder does](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-a-confounder-does.cast) — 2026-10-13
+- [Bayes and the screening test](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bayes-and-the-screening-test-a-book.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -147,7 +148,6 @@
 - [Why a straw looks bent in water](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-a-straw-looks-bent-in-water.cast) — 2026-10-03
 - [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-03
 - [Why DNA pairs A with T and C with G](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/base-pairing-the-copying-rule.cast) — 2026-10-03
-- [Bayes and the screening test](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bayes-and-the-screening-test-a-book.cast) — 2026-10-03
 - [Dobbel fart, firedobbel bremselengde](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/bremselengden-vokser-med-kvadratet.cast) — 2026-10-03
 - [Why trade if you're better at everything?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/comparative-advantage.cast) — 2026-10-03
 - [Why did Darwin wait twenty years?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/darwin-s-twenty-year-wait.cast) — 2026-10-03
