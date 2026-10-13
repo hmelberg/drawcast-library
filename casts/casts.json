@@ -36,13 +36,6 @@
       "page": true
     },
     {
-      "slug": "most-findings-are-false",
-      "title": "Why most published findings are false",
-      "file": "most-findings-are-false.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "sirkelens-areal-med-kakestykker",
       "title": "Hvorfor sirkelens areal er πr²",
       "file": "sirkelens-areal-med-kakestykker.cast",
@@ -1201,6 +1194,13 @@
       "slug": "what-a-qaly-gained-measures",
       "title": "What does a 'QALY gained' actually count?",
       "file": "what-a-qaly-gained-measures.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "most-findings-are-false",
+      "title": "Why most published findings are false",
+      "file": "most-findings-are-false.cast",
       "updated": "2026-10-13",
       "page": true
     }
