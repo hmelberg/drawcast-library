@@ -211,13 +211,6 @@
       "page": true
     },
     {
-      "slug": "the-prisoner-s-dilemma",
-      "title": "Why two rational suspects both confess",
-      "file": "the-prisoner-s-dilemma.cast",
-      "updated": "2026-10-03",
-      "page": true
-    },
-    {
       "slug": "the-tower-of-hanoi",
       "title": "The Tower of Hanoi: why 2ⁿ − 1 moves",
       "file": "the-tower-of-hanoi.cast",
@@ -1201,6 +1194,13 @@
       "slug": "where-a-heat-pump-s-extra-heat-comes",
       "title": "Where a heat pump's extra heat comes from",
       "file": "where-a-heat-pump-s-extra-heat-comes.cast",
+      "updated": "2026-10-13",
+      "page": true
+    },
+    {
+      "slug": "the-prisoner-s-dilemma",
+      "title": "Why two rational suspects both confess",
+      "file": "the-prisoner-s-dilemma.cast",
       "updated": "2026-10-13",
       "page": true
     }

@@ -7,6 +7,7 @@
 - [The map that blamed a water pump](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-broad-street-pump.cast) — 2026-10-13
 - [How many must be immune to stop a disease?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-herd-immunity-threshold.cast) — 2026-10-13
 - [Where a heat pump's extra heat comes from](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/where-a-heat-pump-s-extra-heat-comes.cast) — 2026-10-13
+- [Why two rational suspects both confess](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11
@@ -152,7 +153,6 @@
 - [Hvorfor sirkelens areal er πr²](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sirkelens-areal-med-kakestykker.cast) — 2026-10-03
 - [Surgery or medication?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/surgery-or-medication.cast) — 2026-10-03
 - [What a derivative is](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-derivative-is-a-limit-of-slopes.cast) — 2026-10-03
-- [Why two rational suspects both confess](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-prisoner-s-dilemma.cast) — 2026-10-03
 - [The Tower of Hanoi: why 2ⁿ − 1 moves](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-tower-of-hanoi.cast) — 2026-10-03
 - [Two pumps in one heart](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/two-pumps-in-one-heart.cast) — 2026-10-03
 - [What 95% confidence means](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-95-confidence-means.cast) — 2026-10-03
