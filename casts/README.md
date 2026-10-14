@@ -7,6 +7,7 @@
 - [A longer Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-review.cast) — 2026-10-14
 - [I speak Russian: я говорю, ты говоришь](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-speak.cast) — 2026-10-14
 - [A little story in Russian: мама, папа и кот](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-story.cast) — 2026-10-14
+- [The Ambassadors: what is on the floor?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-ambassadors.cast) — 2026-10-14
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-13
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-13
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-13

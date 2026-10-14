@@ -1273,6 +1273,13 @@
       "file": "russian-story.cast",
       "updated": "2026-10-14",
       "page": true
+    },
+    {
+      "slug": "the-ambassadors",
+      "title": "The Ambassadors: what is on the floor?",
+      "file": "the-ambassadors.cast",
+      "updated": "2026-10-14",
+      "page": true
     }
   ]
 }
