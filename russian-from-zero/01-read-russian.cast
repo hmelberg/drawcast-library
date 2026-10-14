@@ -237,7 +237,7 @@ Next: Russian gender from the last letter: он, она, оно
     link end_next href lecture:2 title "Russian gender from the last letter: он, она, оно" size 320 x 500 y 395
 
     link end_again href lecture:1 title "Watch again" form text open here x 500 y 160
-    text end_count "1 of 50" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "1 of 60" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

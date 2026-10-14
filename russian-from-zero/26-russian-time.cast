@@ -343,7 +343,7 @@ Next: Where are you going in Russian: куда?
     link end_next href lecture:27 title "Where are you going in Russian: куда?" size 320 x 735 y 395
 
     link end_again href lecture:26 title "Watch again" form text open here x 500 y 160
-    text end_count "26 of 50" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "26 of 60" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

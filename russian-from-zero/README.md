@@ -106,6 +106,26 @@ Learn to read, hear and say your first Russian, one short lesson at a time. Each
    - Can you introduce yourself using everything so far?
 50. [A fifth Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/50-russian-review-5.cast)
    - Can you read the longest story yet, using everything from lessons 1 to 49?
+51. [Talking about things in Russian: о маме, о работе](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/51-russian-about.cast)
+   - How do you say what you talk and think about: о маме, о работе?
+52. [Many and few in Russian: много книг](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/52-russian-many.cast)
+   - How do you say many and few: много книг, мало времени?
+53. [Years in Russian: в две тысячи двадцать пятом году](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/53-russian-years.cast)
+   - How do you say a year: в каком году?
+54. [Dates in Russian: первое мая](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/54-russian-dates.cast)
+   - How do you say the date: какое сегодня число?
+55. [I see my brother in Russian: ви́жу бра́та](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/55-russian-animate.cast)
+   - Why вижу дом but вижу брата?
+56. [I work as a doctor in Russian: рабо́таю врачо́м](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/56-russian-instrumental.cast)
+   - How do you say what you work as: работаю врачом?
+57. [Phoning mum in Russian: звоню́ ма́ме](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/57-russian-dative.cast)
+   - How do you say to whom: звоню маме, помогаю брату?
+58. [In a big house in Russian: в большо́м до́ме](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/58-russian-adjective-cases.cast)
+   - How do adjectives change: в большом доме, с новой книгой?
+59. [To my brother in Russian: моему́ бра́ту](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/59-russian-possessive-cases.cast)
+   - How do my and your change: моему брату, с моей мамой?
+60. [A sixth Russian story: Ivan's birthday](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/60-russian-review-6.cast)
+   - Can you read a whole story using everything from lessons 51 to 59?
 
 ---
 

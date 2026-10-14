@@ -2,6 +2,7 @@
 subtitle: "Read Masha's longest note yet, written on her way to see her brother in Oslo and built only from lessons 1–49, page by page, hear it line by line, test what you understood, and look back at the first fifty lessons, the halfway mark."
 thumb: "band \"A fifth story: read it all yourself\" note \"lessons 1–49, 12 lines\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Talking about things in Russian: о маме, о работе","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/51-russian-about.cast"}
 
 ## A fifth Russian story: read it all yourself
 level: basic
@@ -230,11 +231,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:49 title "Tell me about yourself in Russian" size 320 x 500 y 395
+Next: Talking about things in Russian: о маме, о работе
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:49 title "Tell me about yourself in Russian" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:51 title "Talking about things in Russian: о маме, о работе" size 320 x 735 y 395
 
     link end_again href lecture:50 title "Watch again" form text open here x 500 y 160
-    text end_count "50 of 50" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "50 of 60" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

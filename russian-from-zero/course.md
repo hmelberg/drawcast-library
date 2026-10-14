@@ -260,3 +260,53 @@ status: done · id: 00813461-148d-4572-b481-cd2d1b804a9c · file: 49-russian-abo
 ## A fifth Russian story: read it all yourself
 Can you read the longest story yet, using everything from lessons 1 to 49?
 status: done · id: f2d795d2-f72e-4299-86b6-52ea74254a11 · file: 50-russian-review-5.cast · 2026-10-14
+
+---
+## Talking about things in Russian: о маме, о работе
+How do you say what you talk and think about: о маме, о работе?
+status: done · id: 2ac941f8-a247-4867-b88a-0bad33703879 · file: 51-russian-about.cast · 2026-10-14
+
+---
+## Many and few in Russian: много книг
+How do you say many and few: много книг, мало времени?
+status: done · id: 2f01153e-5fdc-49e9-a74b-51ce4418cad1 · file: 52-russian-many.cast · 2026-10-14
+
+---
+## Years in Russian: в две тысячи двадцать пятом году
+How do you say a year: в каком году?
+status: done · id: 1118e367-f5c3-4aa4-8ec9-a3ee5de384ed · file: 53-russian-years.cast · 2026-10-14
+
+---
+## Dates in Russian: первое мая
+How do you say the date: какое сегодня число?
+status: done · id: b6643668-b2b9-4644-ac02-32ca9b98de7e · file: 54-russian-dates.cast · 2026-10-14
+
+---
+## I see my brother in Russian: ви́жу бра́та
+Why вижу дом but вижу брата?
+status: done · id: f6a230c4-7d48-414b-9180-1983bf36b0dd · file: 55-russian-animate.cast · 2026-10-14
+
+---
+## I work as a doctor in Russian: рабо́таю врачо́м
+How do you say what you work as: работаю врачом?
+status: done · id: 9e306287-aa4e-4474-8b4e-85ecbfba23d4 · file: 56-russian-instrumental.cast · 2026-10-14
+
+---
+## Phoning mum in Russian: звоню́ ма́ме
+How do you say to whom: звоню маме, помогаю брату?
+status: done · id: 59ac19fd-fa3b-4f2d-b9d0-76a41866eeb9 · file: 57-russian-dative.cast · 2026-10-14
+
+---
+## In a big house in Russian: в большо́м до́ме
+How do adjectives change: в большом доме, с новой книгой?
+status: done · id: c765c8b2-1c8f-482c-8fab-692e08f070af · file: 58-russian-adjective-cases.cast · 2026-10-14
+
+---
+## To my brother in Russian: моему́ бра́ту
+How do my and your change: моему брату, с моей мамой?
+status: done · id: 592188fd-8cb8-42ea-86bd-3a3a827cb4d0 · file: 59-russian-possessive-cases.cast · 2026-10-14
+
+---
+## A sixth Russian story: Ivan's birthday
+Can you read a whole story using everything from lessons 51 to 59?
+status: done · id: c75d54ba-23b3-4c4b-8d26-3be0a525af06 · file: 60-russian-review-6.cast · 2026-10-14
