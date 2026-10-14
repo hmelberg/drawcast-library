@@ -270,7 +270,7 @@ Next: Was in Russian: был, была, было
     link end_next href lecture:18 title "Was in Russian: был, была, было" size 320 x 735 y 395
 
     link end_again href lecture:17 title "Watch again" form text open here x 500 y 160
-    text end_count "17 of 40" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "17 of 50" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

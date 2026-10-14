@@ -2,6 +2,7 @@
 subtitle: "Read a note from Masha about yesterday, today and tomorrow, built only from lessons 1–39, page by page, hear it line by line, test what you understood, and see what you can do now."
 thumb: "band \"Read it all yourself, a fourth time\" note \"lessons 31–39, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Please say it again in Russian: повторите","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/41-russian-say-again.cast"}
 
 ## A fourth Russian story: read it all yourself
 level: basic
@@ -212,11 +213,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:39 title "Whose is it in Russian: чей, чья, чьё" size 320 x 500 y 395
+Next: Please say it again in Russian: повторите
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:39 title "Whose is it in Russian: чей, чья, чьё" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:41 title "Please say it again in Russian: повторите" size 320 x 735 y 395
 
     link end_again href lecture:40 title "Watch again" form text open here x 500 y 160
-    text end_count "40 of 40" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "40 of 50" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

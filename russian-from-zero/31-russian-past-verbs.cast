@@ -307,7 +307,7 @@ Next: Tomorrow I will in Russian: я буду
     link end_next href lecture:32 title "Tomorrow I will in Russian: я буду" size 320 x 735 y 395
 
     link end_again href lecture:31 title "Watch again" form text open here x 500 y 160
-    text end_count "31 of 40" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "31 of 50" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

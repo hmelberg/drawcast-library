@@ -1,6 +1,6 @@
 # Russian from zero
 
-Learn to read, hear and say your first Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs, my family and where things are; then plurals, adjectives, I want, the -у ending, the days of the week, prices, question words, the past and I like it — with two short stories you read yourself. Tap any Russian word to hear it again. How do you ask someone to repeat or slow down: повторите, говорите медленнее? How do you ask the way and follow directions: направо, налево, прямо? How do you compare: больше, лучше, чем? What is the difference between читал and прочитал? How do you say to whom: маме, брату? How do you make plans: давай пойдём в кино в субботу? How do you travel: еду на поезде, билет в Москву? How do you talk about hobbies: играю в футбол, на гитаре? Can you introduce yourself using everything so far? Can you read the longest story yet, using everything from lessons 1 to 49?
+Learn to read, hear and say your first Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs, my family and where things are; then plurals, adjectives, I want, the -у ending, the days of the week, prices, question words, the past and I like it — with two short stories you read yourself. Tap any Russian word to hear it again.
 
 1. [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/01-read-russian.cast)
    - Which Cyrillic letters look like English ones but sound different?
@@ -86,6 +86,26 @@ Learn to read, hear and say your first Russian, one short lesson at a time. Each
    - How do you ask whose it is: чей, чья, чьё?
 40. [A fourth Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/40-russian-review-4.cast)
    - Can you read a whole story using everything from lessons 31 to 39?
+41. [Please say it again in Russian: повторите](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/41-russian-say-again.cast)
+   - How do you ask someone to repeat or slow down: повторите, говорите медленнее?
+42. [Directions in Russian: направо, налево, прямо](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/42-russian-directions.cast)
+   - How do you ask the way and follow directions: направо, налево, прямо?
+43. [Bigger and better in Russian: больше, лучше](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/43-russian-compare.cast)
+   - How do you compare: больше, лучше, чем?
+44. [Done or doing in Russian: читал or прочитал?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/44-russian-aspect.cast)
+   - What is the difference between читал and прочитал?
+45. [A present for mum in Russian: маме, брату](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/45-russian-gift.cast)
+   - How do you say to whom: маме, брату?
+46. [Making plans in Russian: давай пойдём в кино](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/46-russian-plans.cast)
+   - How do you make plans: давай пойдём в кино в субботу?
+47. [Travel in Russian: поезд, самолёт, билет](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/47-russian-travel.cast)
+   - How do you travel: еду на поезде, билет в Москву?
+48. [Hobbies in Russian: играю в футбол](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/48-russian-hobbies.cast)
+   - How do you talk about hobbies: играю в футбол, на гитаре?
+49. [Tell me about yourself in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/49-russian-about-me.cast)
+   - Can you introduce yourself using everything so far?
+50. [A fifth Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/50-russian-review-5.cast)
+   - Can you read the longest story yet, using everything from lessons 1 to 49?
 
 ---
 

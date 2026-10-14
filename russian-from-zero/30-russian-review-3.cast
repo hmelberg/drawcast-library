@@ -234,7 +234,7 @@ Next: What did you do yesterday in Russian: читал, читала
     link end_next href lecture:31 title "What did you do yesterday in Russian: читал, читала" size 320 x 735 y 395
 
     link end_again href lecture:30 title "Watch again" form text open here x 500 y 160
-    text end_count "30 of 40" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "30 of 50" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
