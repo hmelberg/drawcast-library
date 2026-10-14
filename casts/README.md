@@ -5,6 +5,7 @@
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
 - [A longer Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-review.cast) — 2026-10-14
+- [A little story in Russian: мама, папа и кот](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-story.cast) — 2026-10-14
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-13
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-13
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-13
@@ -166,7 +167,6 @@
 - [Russian gender from the last letter: он, она, оно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-gender.cast) — 2026-10-13
 - [Hello in Russian: привет or здравствуйте?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-hello.cast) — 2026-10-13
 - [At the café in Russian: кофе, чай, суп](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-cafe.cast) — 2026-10-13
-- [A little story in Russian: мама, папа и кот](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-story.cast) — 2026-10-13
 - [Kostnad og nytte](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/kostnad-og-nytte.cast) — 2026-10-12
 - [Statinoppfølging i apotek: nytte og kostnad](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apotek-statiner.cast) — 2026-10-12
 - [Apollo 11: the landing](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/apollo-11.cast) — 2026-10-11

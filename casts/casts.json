@@ -1233,13 +1233,6 @@
       "page": true
     },
     {
-      "slug": "russian-story",
-      "title": "A little story in Russian: мама, папа и кот",
-      "file": "russian-story.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "russian-numbers",
       "title": "Count to ten in Russian: один, два, три",
       "file": "russian-numbers.cast",
@@ -1271,6 +1264,13 @@
       "slug": "russian-review",
       "title": "A longer Russian story: read it all yourself",
       "file": "russian-review.cast",
+      "updated": "2026-10-14",
+      "page": true
+    },
+    {
+      "slug": "russian-story",
+      "title": "A little story in Russian: мама, папа и кот",
+      "file": "russian-story.cast",
       "updated": "2026-10-14",
       "page": true
     }
