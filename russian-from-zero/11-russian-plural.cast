@@ -239,7 +239,7 @@ Next: Big and small in Russian: новый, новая, новое
     link end_next href lecture:12 title "Big and small in Russian: новый, новая, новое" size 320 x 735 y 395
 
     link end_again href lecture:11 title "Watch again" form text open here x 500 y 160
-    text end_count "11 of 20" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "11 of 30" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

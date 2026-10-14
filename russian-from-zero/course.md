@@ -110,3 +110,53 @@ status: done · id: e477aa01-cdf2-449e-a423-0329c21c1fae · file: 19-russian-lik
 ## A second Russian story: read it all yourself
 Can you read a whole story using everything from lessons 11 to 19?
 status: done · id: 17e34e86-a33d-4c42-b31a-fa0bf742466c · file: 20-russian-review-2.cast · 2026-10-14
+
+---
+## What's your name in Russian: меня зовут
+How do you ask and tell a name: как тебя зовут, меня зовут?
+status: done · id: 606a0641-2e4d-439c-876c-11dda101a9b4 · file: 21-russian-name.cast · 2026-10-14
+
+---
+## I read, I know in Russian: читаю, знаю
+How do читать, знать and понимать change with я, ты, мы and они?
+status: done · id: 143e6ab3-bb5f-46a7-a19d-b8c84c542c14 · file: 22-russian-verbs-read.cast · 2026-10-14
+
+---
+## Where do you live in Russian: я живу в Москве
+How do you say where you live: я живу в Москве?
+status: done · id: 983d34e5-cbf9-4bd0-9063-5c121471c27d · file: 23-russian-live.cast · 2026-10-14
+
+---
+## I love it in Russian: люблю
+How do you say what you love: люблю, любишь?
+status: done · id: c712913d-753b-45cc-a7d8-b3428a2b4649 · file: 24-russian-love.cast · 2026-10-14
+
+---
+## At the market in Russian: хлеб, сыр, рыба
+How do you buy bread and fish, and why один рубль but пять рублей?
+status: done · id: de78f650-b900-4384-955a-f3ddce58ec95 · file: 25-russian-market.cast · 2026-10-14
+
+---
+## What time is it in Russian: который час?
+How do you ask and tell the time: который час?
+status: done · id: f3e7b6c0-1fea-428f-9f5c-0820a064fd2a · file: 26-russian-time.cast · 2026-10-14
+
+---
+## Where are you going in Russian: куда?
+Where to or where: куда or где, and я иду в школу?
+status: done · id: bb7891a6-823a-404b-9474-61c96aefe144 · file: 27-russian-going.cast · 2026-10-14
+
+---
+## I have in Russian: у меня есть
+How do you say what you have and don't have: у меня есть, у меня нет?
+status: done · id: 916001cf-0eda-4e72-b32e-5b3efcf0533a · file: 28-russian-have.cast · 2026-10-14
+
+---
+## How old are you in Russian: мне двадцать лет
+How do you say how old you are: мне двадцать лет?
+status: done · id: d1eed9fe-bc96-496a-8682-d27ef3ffded8 · file: 29-russian-age.cast · 2026-10-14
+
+---
+## A third Russian story: read it all yourself
+Can you read a whole story using everything from lessons 21 to 29?
+status: done · id: 7fec18b5-7110-47ad-9700-653c3fb2e1a4 · file: 30-russian-review-3.cast · 2026-10-14

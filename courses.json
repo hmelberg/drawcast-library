@@ -1,36 +1,6 @@
 {
   "courses": [
     {
-      "slug": "russian-from-zero",
-      "title": "Russian from zero",
-      "files": [
-        "russian-from-zero/01-read-russian.cast",
-        "russian-from-zero/02-russian-gender.cast",
-        "russian-from-zero/03-russian-hello.cast",
-        "russian-from-zero/04-russian-cafe.cast",
-        "russian-from-zero/05-russian-story.cast",
-        "russian-from-zero/06-russian-numbers.cast",
-        "russian-from-zero/07-russian-speak.cast",
-        "russian-from-zero/08-russian-family.cast",
-        "russian-from-zero/09-russian-where.cast",
-        "russian-from-zero/10-russian-review.cast",
-        "russian-from-zero/11-russian-plural.cast",
-        "russian-from-zero/12-russian-adjectives.cast",
-        "russian-from-zero/13-russian-want.cast",
-        "russian-from-zero/14-russian-see.cast",
-        "russian-from-zero/15-russian-days.cast",
-        "russian-from-zero/16-russian-prices.cast",
-        "russian-from-zero/17-russian-questions.cast",
-        "russian-from-zero/18-russian-past.cast",
-        "russian-from-zero/19-russian-like.cast",
-        "russian-from-zero/20-russian-review-2.cast",
-        "russian-from-zero/course.md",
-        "russian-from-zero/index.html",
-        "russian-from-zero/README.md"
-      ],
-      "updated": "2026-10-14"
-    },
-    {
       "slug": "chess-30-days",
       "title": "Chess in 30 Days: Break the Plateau",
       "files": [
@@ -67,6 +37,46 @@
         "chess-30-days/course.md",
         "chess-30-days/index.html",
         "chess-30-days/README.md"
+      ],
+      "updated": "2026-10-14"
+    },
+    {
+      "slug": "russian-from-zero",
+      "title": "Russian from zero",
+      "files": [
+        "russian-from-zero/01-read-russian.cast",
+        "russian-from-zero/02-russian-gender.cast",
+        "russian-from-zero/03-russian-hello.cast",
+        "russian-from-zero/04-russian-cafe.cast",
+        "russian-from-zero/05-russian-story.cast",
+        "russian-from-zero/06-russian-numbers.cast",
+        "russian-from-zero/07-russian-speak.cast",
+        "russian-from-zero/08-russian-family.cast",
+        "russian-from-zero/09-russian-where.cast",
+        "russian-from-zero/10-russian-review.cast",
+        "russian-from-zero/11-russian-plural.cast",
+        "russian-from-zero/12-russian-adjectives.cast",
+        "russian-from-zero/13-russian-want.cast",
+        "russian-from-zero/14-russian-see.cast",
+        "russian-from-zero/15-russian-days.cast",
+        "russian-from-zero/16-russian-prices.cast",
+        "russian-from-zero/17-russian-questions.cast",
+        "russian-from-zero/18-russian-past.cast",
+        "russian-from-zero/19-russian-like.cast",
+        "russian-from-zero/20-russian-review-2.cast",
+        "russian-from-zero/21-russian-name.cast",
+        "russian-from-zero/22-russian-verbs-read.cast",
+        "russian-from-zero/23-russian-live.cast",
+        "russian-from-zero/24-russian-love.cast",
+        "russian-from-zero/25-russian-market.cast",
+        "russian-from-zero/26-russian-time.cast",
+        "russian-from-zero/27-russian-going.cast",
+        "russian-from-zero/28-russian-have.cast",
+        "russian-from-zero/29-russian-age.cast",
+        "russian-from-zero/30-russian-review-3.cast",
+        "russian-from-zero/course.md",
+        "russian-from-zero/index.html",
+        "russian-from-zero/README.md"
       ],
       "updated": "2026-10-14"
     }

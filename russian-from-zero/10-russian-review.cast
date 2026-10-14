@@ -219,7 +219,7 @@ Next: Plurals in Russian: коты, книги, окна
     link end_next href lecture:11 title "Plurals in Russian: коты, книги, окна" size 320 x 735 y 395
 
     link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 20" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "10 of 30" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
