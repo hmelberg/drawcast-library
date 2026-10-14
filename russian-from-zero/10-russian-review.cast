@@ -129,8 +129,8 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
         right: Mum: ма́ма пьёт чай, and dad has the coffee.
         wrong: Dad has the coffee; who has the other drink?
         * Па́па
-        + Ма́ма
         * Брат
+        + Ма́ма
 
     erase reveal_2_stamp
 
@@ -144,8 +144,8 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
     quiz "Who speaks a little Russian? Pick one." reveal.text "Том немно́го говори́т" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 test t1
         right: Tom: Том немно́го говори́т по-ру́сски. A little!
         wrong: Who was the surprise guest at the table?
-        * Брат
         + Том
+        * Брат
         * Кот
 
     erase reveal_4_stamp
@@ -154,8 +154,8 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
         right: On the window: он то́же тут, на окне́.
         wrong: The last sentence: он то́же тут, на… what?
         * на столе́
-        + на окне́
         * в до́ме
+        + на окне́
 
     erase reveal_5_stamp
 
@@ -219,7 +219,7 @@ Next: Plurals in Russian: коты, книги, окна
     link end_next href lecture:11 title "Plurals in Russian: коты, книги, окна" size 320 x 735 y 395
 
     link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 30" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "10 of 40" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

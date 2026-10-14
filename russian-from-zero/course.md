@@ -160,3 +160,53 @@ status: done · id: d1eed9fe-bc96-496a-8682-d27ef3ffded8 · file: 29-russian-age
 ## A third Russian story: read it all yourself
 Can you read a whole story using everything from lessons 21 to 29?
 status: done · id: 7fec18b5-7110-47ad-9700-653c3fb2e1a4 · file: 30-russian-review-3.cast · 2026-10-14
+
+---
+## What did you do yesterday in Russian: читал, читала
+How do you say what you did: читал, читала, читали?
+status: done · id: b7a336e3-d667-4ead-a0a4-9c0618293696 · file: 31-russian-past-verbs.cast · 2026-10-14
+
+---
+## Tomorrow I will in Russian: я буду
+How do you say what you will do: я буду читать?
+status: done · id: f79fd2df-a9ea-4983-8113-8f638a2d8574 · file: 32-russian-future.cast · 2026-10-14
+
+---
+## Weather in Russian: холодно, тепло, идёт снег
+How do you talk about the weather: холодно, тепло, идёт снег?
+status: done · id: bd8b9176-2fb3-42a6-83b2-ee8846856df5 · file: 33-russian-weather.cast · 2026-10-14
+
+---
+## Around town in Russian: в магазине, на работе
+Where were you: в магазине, на работе?
+status: done · id: 3be6c551-70b6-430e-bb9b-a14766bbec97 · file: 34-russian-town.cast · 2026-10-14
+
+---
+## I can in Russian: могу, можно, нужно
+How do you say can, may and must: могу, можно, нужно?
+status: done · id: 2ab91f9c-997c-4fff-aeb8-9768e2d931a0 · file: 35-russian-can.cast · 2026-10-14
+
+---
+## Coffee with milk in Russian: с молоком
+How do you say with: кофе с молоком, с мамой?
+status: done · id: 445f9c4a-e6f2-4c77-859e-62909ca3d5a8 · file: 36-russian-with.cast · 2026-10-14
+
+---
+## My day in Russian: утром, днём, вечером
+How do you tell your day: утром, днём, вечером?
+status: done · id: da330ad2-bc0e-4f45-8671-0eb6316c0e9f · file: 37-russian-my-day.cast · 2026-10-14
+
+---
+## I feel ill in Russian: у меня болит голова
+How do you say what hurts: у меня болит голова?
+status: done · id: 076f18a0-9ba5-425e-971d-7e870172cbc5 · file: 38-russian-ill.cast · 2026-10-14
+
+---
+## Whose is it in Russian: чей, чья, чьё
+How do you ask whose it is: чей, чья, чьё?
+status: done · id: 27e9efaa-f8fb-4e86-a52e-2b09a85c5955 · file: 39-russian-whose.cast · 2026-10-14
+
+---
+## A fourth Russian story: read it all yourself
+Can you read a whole story using everything from lessons 31 to 39?
+status: done · id: 20823ec5-8619-4cbd-b74a-df07fb47fb69 · file: 40-russian-review-4.cast · 2026-10-14

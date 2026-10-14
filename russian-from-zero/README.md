@@ -66,6 +66,26 @@ Learn to read, hear and say your first Russian, one short lesson at a time. Each
    - How do you say how old you are: мне двадцать лет?
 30. [A third Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/30-russian-review-3.cast)
    - Can you read a whole story using everything from lessons 21 to 29?
+31. [What did you do yesterday in Russian: читал, читала](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/31-russian-past-verbs.cast)
+   - How do you say what you did: читал, читала, читали?
+32. [Tomorrow I will in Russian: я буду](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/32-russian-future.cast)
+   - How do you say what you will do: я буду читать?
+33. [Weather in Russian: холодно, тепло, идёт снег](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/33-russian-weather.cast)
+   - How do you talk about the weather: холодно, тепло, идёт снег?
+34. [Around town in Russian: в магазине, на работе](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/34-russian-town.cast)
+   - Where were you: в магазине, на работе?
+35. [I can in Russian: могу, можно, нужно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/35-russian-can.cast)
+   - How do you say can, may and must: могу, можно, нужно?
+36. [Coffee with milk in Russian: с молоком](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/36-russian-with.cast)
+   - How do you say with: кофе с молоком, с мамой?
+37. [My day in Russian: утром, днём, вечером](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/37-russian-my-day.cast)
+   - How do you tell your day: утром, днём, вечером?
+38. [I feel ill in Russian: у меня болит голова](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/38-russian-ill.cast)
+   - How do you say what hurts: у меня болит голова?
+39. [Whose is it in Russian: чей, чья, чьё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/39-russian-whose.cast)
+   - How do you ask whose it is: чей, чья, чьё?
+40. [A fourth Russian story: read it all yourself](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/40-russian-review-4.cast)
+   - Can you read a whole story using everything from lessons 31 to 39?
 
 ---
 

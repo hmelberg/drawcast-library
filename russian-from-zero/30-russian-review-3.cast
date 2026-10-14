@@ -2,6 +2,7 @@
 subtitle: "Read a ten-sentence note from Masha's brother built only from lessons 1–29, page by page, hear it line by line, test what you understood, and see what you can do now."
 thumb: "band \"Read it all yourself, a third time\" note \"lessons 21–29, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"What did you do yesterday in Russian: читал, читала","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/31-russian-past-verbs.cast"}
 
 ## A third Russian story: read it all yourself
 level: basic
@@ -148,16 +149,16 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
         right: Twenty-two, and after two comes го́да.
         wrong: Line two: мне два́дцать… how many?
         * два го́да
-        + два́дцать два го́да
         * два́дцать пять лет
+        + два́дцать два го́да
 
     erase question_2_stamp
 
     quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Я живу́ в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         right: In Oslo; it is Masha who lives in Moscow.
         wrong: Masha lives in Moscow. Where does her brother live?
-        * в Москве́
         + в О́сло
+        * в Москве́
         * в Ло́ндоне
 
     erase question_3_stamp
@@ -166,8 +167,8 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
         right: Milk, for the cat, with the а after нет.
         wrong: He has a cat and a job. What does the cat love?
         * ко́шки
-        + молока́
         * рабо́ты
+        + молока́
 
     erase question_4_stamp
 
@@ -226,11 +227,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:29 title "How old are you in Russian: мне двадцать лет" size 320 x 500 y 395
+Next: What did you do yesterday in Russian: читал, читала
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:29 title "How old are you in Russian: мне двадцать лет" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:31 title "What did you do yesterday in Russian: читал, читала" size 320 x 735 y 395
 
     link end_again href lecture:30 title "Watch again" form text open here x 500 y 160
-    text end_count "30 of 30" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "30 of 40" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

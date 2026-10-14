@@ -223,8 +223,8 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
         right: A country in ия ends in ии after в.
         wrong: Норве́гия ends in ия, so not е.
         * Норве́гия
-        + Норве́гии
         * Норве́гие
+        + Норве́гии
 
     icon q_nor size 130 set twemoji x 500 y 560 or ["Norway","snow-capped mountain"] icon_look picture of "flag: Norway"
 
@@ -235,8 +235,8 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
     quiz "Mum and dad live in Berlin: Ма́ма и па́па … в Берли́не. Which form?" store q4 reveal.text "живу́т в Берли́не" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Mum and dad are они́, so живу́т: ма́ма и па́па живу́т в Берли́не.
         wrong: Two people: who are they, он, мы or они́?
-        * живёт
         + живу́т
+        * живёт
         * живём
 
     icon q_fam1 size 120 set twemoji x 440 y 560 or ["person"] icon_look picture of woman
@@ -306,7 +306,7 @@ Next: I love it in Russian: люблю
     link end_next href lecture:24 title "I love it in Russian: люблю" size 320 x 735 y 395
 
     link end_again href lecture:23 title "Watch again" form text open here x 500 y 160
-    text end_count "23 of 30" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "23 of 40" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
