@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "slug": "russian-from-zero",
+      "title": "Russian from zero",
+      "files": [
+        "russian-from-zero/01-read-russian.cast",
+        "russian-from-zero/02-russian-gender.cast",
+        "russian-from-zero/03-russian-hello.cast",
+        "russian-from-zero/04-russian-cafe.cast",
+        "russian-from-zero/05-russian-story.cast",
+        "russian-from-zero/06-russian-numbers.cast",
+        "russian-from-zero/07-russian-speak.cast",
+        "russian-from-zero/08-russian-family.cast",
+        "russian-from-zero/09-russian-where.cast",
+        "russian-from-zero/10-russian-review.cast",
+        "russian-from-zero/course.md",
+        "russian-from-zero/index.html",
+        "russian-from-zero/README.md"
+      ],
+      "updated": "2026-10-14"
+    }
+  ]
+}
