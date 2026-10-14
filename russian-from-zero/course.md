@@ -210,3 +210,53 @@ status: done · id: 27e9efaa-f8fb-4e86-a52e-2b09a85c5955 · file: 39-russian-who
 ## A fourth Russian story: read it all yourself
 Can you read a whole story using everything from lessons 31 to 39?
 status: done · id: 20823ec5-8619-4cbd-b74a-df07fb47fb69 · file: 40-russian-review-4.cast · 2026-10-14
+
+---
+## Please say it again in Russian: повторите
+How do you ask someone to repeat or slow down: повторите, говорите медленнее?
+status: done · id: dcbb6c1d-64b9-49f2-a012-d44f92f79b8f · file: 41-russian-say-again.cast · 2026-10-14
+
+---
+## Directions in Russian: направо, налево, прямо
+How do you ask the way and follow directions: направо, налево, прямо?
+status: done · id: b66f7002-cd05-4388-b4a6-a1beec7b3deb · file: 42-russian-directions.cast · 2026-10-14
+
+---
+## Bigger and better in Russian: больше, лучше
+How do you compare: больше, лучше, чем?
+status: done · id: 58c863b1-dfea-44be-bb7d-4c193873f116 · file: 43-russian-compare.cast · 2026-10-14
+
+---
+## Done or doing in Russian: читал or прочитал?
+What is the difference between читал and прочитал?
+status: done · id: 8f9d0bee-d110-4972-8ddd-64e9c3780ff8 · file: 44-russian-aspect.cast · 2026-10-14
+
+---
+## A present for mum in Russian: маме, брату
+How do you say to whom: маме, брату?
+status: done · id: f3f6d97b-b8aa-4649-8f35-56bd1611391b · file: 45-russian-gift.cast · 2026-10-14
+
+---
+## Making plans in Russian: давай пойдём в кино
+How do you make plans: давай пойдём в кино в субботу?
+status: done · id: fd3b41a1-3f47-4c35-947e-5277aaeb308b · file: 46-russian-plans.cast · 2026-10-14
+
+---
+## Travel in Russian: поезд, самолёт, билет
+How do you travel: еду на поезде, билет в Москву?
+status: done · id: 086c7bd6-add9-4b39-ac5d-fc1a2294f0a2 · file: 47-russian-travel.cast · 2026-10-14
+
+---
+## Hobbies in Russian: играю в футбол
+How do you talk about hobbies: играю в футбол, на гитаре?
+status: done · id: 953a53d3-f947-45e2-83d1-3b7a851e4e52 · file: 48-russian-hobbies.cast · 2026-10-14
+
+---
+## Tell me about yourself in Russian
+Can you introduce yourself using everything so far?
+status: done · id: 00813461-148d-4572-b481-cd2d1b804a9c · file: 49-russian-about-me.cast · 2026-10-14
+
+---
+## A fifth Russian story: read it all yourself
+Can you read the longest story yet, using everything from lessons 1 to 49?
+status: done · id: f2d795d2-f72e-4299-86b6-52ea74254a11 · file: 50-russian-review-5.cast · 2026-10-14
