@@ -1247,13 +1247,6 @@
       "page": true
     },
     {
-      "slug": "russian-story",
-      "title": "A little story in Russian: мама, папа и кот",
-      "file": "russian-story.cast",
-      "updated": "2026-10-14",
-      "page": true
-    },
-    {
       "slug": "russian-cafe",
       "title": "At the café in Russian: кофе, чай, суп",
       "file": "russian-cafe.cast",
@@ -1271,6 +1264,13 @@
       "slug": "russian-speak",
       "title": "I speak Russian: я говорю, ты говоришь",
       "file": "russian-speak.cast",
+      "updated": "2026-10-14",
+      "page": true
+    },
+    {
+      "slug": "russian-story",
+      "title": "A little story in Russian: мама, папа и кот",
+      "file": "russian-story.cast",
       "updated": "2026-10-14",
       "page": true
     }
