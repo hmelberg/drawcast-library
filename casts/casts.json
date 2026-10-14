@@ -1252,6 +1252,13 @@
       "file": "russian-speak.cast",
       "updated": "2026-10-14",
       "page": true
+    },
+    {
+      "slug": "russian-family",
+      "title": "My family in Russian: мой, моя́, моё",
+      "file": "russian-family.cast",
+      "updated": "2026-10-14",
+      "page": true
     }
   ]
 }
