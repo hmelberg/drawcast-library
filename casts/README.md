@@ -1,5 +1,6 @@
 # Drawcasts
 
+- [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [The deadliest animal](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/the-deadliest-animal.cast) — 2026-10-13
 - [Why the Moon never lands](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/why-the-moon-never-lands.cast) — 2026-10-13
 - [A 99 % accurate test says yes. Are you ill?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-99-accurate-is-worth.cast) — 2026-10-13

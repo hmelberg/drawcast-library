@@ -1238,6 +1238,13 @@
       "file": "russian-story.cast",
       "updated": "2026-10-13",
       "page": true
+    },
+    {
+      "slug": "russian-numbers",
+      "title": "Count to ten in Russian: один, два, три",
+      "file": "russian-numbers.cast",
+      "updated": "2026-10-14",
+      "page": true
     }
   ]
 }
