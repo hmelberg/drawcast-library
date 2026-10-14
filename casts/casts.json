@@ -1233,13 +1233,6 @@
       "page": true
     },
     {
-      "slug": "russian-speak",
-      "title": "I speak Russian: я говорю, ты говоришь",
-      "file": "russian-speak.cast",
-      "updated": "2026-10-14",
-      "page": true
-    },
-    {
       "slug": "russian-family",
       "title": "My family in Russian: мой, моя́, моё",
       "file": "russian-family.cast",
@@ -1271,6 +1264,13 @@
       "slug": "russian-review",
       "title": "A longer Russian story: read it all yourself",
       "file": "russian-review.cast",
+      "updated": "2026-10-14",
+      "page": true
+    },
+    {
+      "slug": "russian-speak",
+      "title": "I speak Russian: я говорю, ты говоришь",
+      "file": "russian-speak.cast",
       "updated": "2026-10-14",
       "page": true
     }
