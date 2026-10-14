@@ -1266,6 +1266,13 @@
       "file": "russian-where.cast",
       "updated": "2026-10-14",
       "page": true
+    },
+    {
+      "slug": "russian-review",
+      "title": "A longer Russian story: read it all yourself",
+      "file": "russian-review.cast",
+      "updated": "2026-10-14",
+      "page": true
     }
   ]
 }
