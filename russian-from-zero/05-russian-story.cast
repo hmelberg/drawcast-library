@@ -191,7 +191,7 @@ Next: Count to ten in Russian: один, два, три
     link end_next href lecture:6 title "Count to ten in Russian: один, два, три" size 320 x 735 y 395
 
     link end_again href lecture:5 title "Watch again" form text open here x 500 y 160
-    text end_count "5 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "5 of 20" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

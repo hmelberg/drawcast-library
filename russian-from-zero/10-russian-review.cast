@@ -2,6 +2,7 @@
 subtitle: "Read a nine-sentence Russian story made only of words from lessons 1–9, hear it, test what you understood, and see how far you've come."
 thumb: "band \"Read it all yourself\" note \"10 lessons, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Plurals in Russian: коты, книги, окна","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/11-russian-plural.cast"}
 
 ## A longer Russian story: read it all yourself
 level: basic
@@ -211,11 +212,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:9 title "Where is it? где, в and на in Russian" size 320 x 500 y 395
+Next: Plurals in Russian: коты, книги, окна
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:9 title "Where is it? где, в and на in Russian" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:11 title "Plurals in Russian: коты, книги, окна" size 320 x 735 y 395
 
     link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "10 of 20" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
