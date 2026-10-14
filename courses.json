@@ -29,6 +29,46 @@
         "russian-from-zero/README.md"
       ],
       "updated": "2026-10-14"
+    },
+    {
+      "slug": "chess-30-days",
+      "title": "Chess in 30 Days: Break the Plateau",
+      "files": [
+        "chess-30-days/01-why-have-you-stopped-getting-better.cast",
+        "chess-30-days/02-what-did-your-opponent-s-last-move-do.cast",
+        "chess-30-days/03-does-this-exchange-really-win.cast",
+        "chess-30-days/04-how-far-ahead-can-you-see.cast",
+        "chess-30-days/05-why-do-the-opening-rules-exist.cast",
+        "chess-30-days/06-how-do-you-learn-from-your-own-games.cast",
+        "chess-30-days/07-week-1-review-habits-under-pressure.cast",
+        "chess-30-days/08-how-can-one-move-attack-two-things.cast",
+        "chess-30-days/09-why-can-t-that-piece-move-and-what-is.cast",
+        "chess-30-days/10-who-is-guarding-what.cast",
+        "chess-30-days/11-which-mating-patterns-should-you-know-by.cast",
+        "chess-30-days/12-why-do-in-between-moves-wreck-your.cast",
+        "chess-30-days/13-how-do-two-tactics-combine.cast",
+        "chess-30-days/14-week-2-review-tactics-without-labels.cast",
+        "chess-30-days/15-what-should-you-play-as-white.cast",
+        "chess-30-days/16-what-should-black-play-against-1-e4.cast",
+        "chess-30-days/17-what-should-black-play-against-1-d4.cast",
+        "chess-30-days/18-which-opening-traps-catch-club-players.cast",
+        "chess-30-days/19-what-do-the-pawns-tell-you.cast",
+        "chess-30-days/20-which-of-your-pieces-is-doing-nothing.cast",
+        "chess-30-days/21-how-do-you-make-a-plan-in-the-middlegame.cast",
+        "chess-30-days/22-week-3-review-openings-and-plans.cast",
+        "chess-30-days/23-can-the-king-catch-the-pawn.cast",
+        "chess-30-days/24-what-must-you-know-about-rook-endings.cast",
+        "chess-30-days/25-bishop-or-knight-in-the-ending.cast",
+        "chess-30-days/26-how-do-you-win-a-won-game.cast",
+        "chess-30-days/27-how-do-you-save-a-lost-game.cast",
+        "chess-30-days/28-how-do-you-think-with-the-clock-running.cast",
+        "chess-30-days/29-where-does-every-lesson-show-up-in-one.cast",
+        "chess-30-days/30-final-test-how-far-have-you-come.cast",
+        "chess-30-days/course.md",
+        "chess-30-days/index.html",
+        "chess-30-days/README.md"
+      ],
+      "updated": "2026-10-14"
     }
   ]
 }
