@@ -36,11 +36,10 @@ sources:
     text w_cons "Consistent" #2f6b8f x 835 y 455 font_size 34 hidden true
     text w_comp "Complete" #2f6b8f x 835 y 405 font_size 34 hidden true
     mark strike_comp around w_comp kind strike hidden true
-    portrait hilbert x 135 y 290 width 170 of "David Hilbert" hidden true
+    portrait hilbert x 135 y 290 width 170 font_size 26 of "David Hilbert" hidden true
     text quote "“We must know. We will know.”" #8a5fa8 x 365 y 320 width 240 font_size 34 hidden true
     text tag_k "Königsberg, 1930" #8f887c x 365 y 215 font_size 26 hidden true
-    image godel x 640 y 300 width 150 of "Kurt Gödel" hidden true
-    text godel_l "Kurt Gödel, 24" x 640 y 425 font_size 28 hidden true
+    portrait godel x 640 y 300 width 150 font_size 26 of "Kurt Gödel" hidden true
     text t_h1 "Symbol" #8f887c x 130 y 610 font_size 36 hidden true
     text t_h2 "Code" #8f887c x 310 y 610 font_size 36 hidden true
     path t_rule #8f887c points [[40,575],[400,575]] hidden true
@@ -91,8 +90,7 @@ sources:
 
     card title "Can maths prove everything?"
 
-A: Here's a question that sounds easy: can one fixed set of rules prove every true statement about whole numbers?
-    draw q1 q2 q3
+A: Here's a question that sounds easy: can one fixed set of rules (@draw q1@) prove every (@draw q2@) true statement (@draw q3@) about whole numbers?
 
 B: Surely yes. If something's true about numbers, somebody can prove it, eventually.
     draw q_prov
@@ -104,19 +102,17 @@ A: That was the great hope. Picture a machine: axioms go in, strict rules work o
 
     flow m_a1 m_a2 duration 1.5
 
-A: Its champion was David Hilbert, the leading mathematician of his day. He wanted the machine consistent, never proving a falsehood, and complete, proving every truth.
-    draw hilbert w_cons w_comp
+A: Its champion was David Hilbert, the leading mathematician of his day. He wanted the machine (@draw w_cons@) consistent, never proving a falsehood, and (@draw w_comp@) complete, proving every truth.
+    draw hilbert
 
-A: He was so sure that in September 1930, in Königsberg, he ended a famous speech with a motto: we must know, we will know.
-    draw tag_k quote
+A: He was so sure that in September 1930, (@draw tag_k@) in Königsberg, he ended a famous speech with a motto: (@draw quote@) we must know, we will know.
 
-A: The day before, at a round table in the same city, a twenty-four-year-old called Kurt Gödel had quietly announced that it can't be done.
-    draw godel godel_l strike_comp
+A: The day before, at a round table in the same city, (@draw godel@) a twenty-four-year-old called Kurt Gödel had quietly announced that (@draw strike_comp@) it can't be done.
 
 B: Quietly is right. Hardly anyone in the room noticed, apart from John von Neumann.
     highlight godel
 
-    erase godel godel_l hilbert quote tag_k
+    erase godel hilbert quote tag_k
 
 A: Here's our route: turn sentences into numbers, build a sentence that talks about itself, then see why no new rule can rescue the machine.
     blocking false
@@ -219,7 +215,7 @@ A: G sits here, in the gap: true, but out of the machine's reach.
 B: Easy fix, then. Add G as a new axiom, and now the machine proves it.
     animate p 150 duration 2.5 ghost ["v_prov"]
 
-A: It does. But the new system can describe its own proofs too, so it has its own sen (@draw d_g1 d_g1_l@)tence, G-prime, built the same way.
+A: It does. But the new system can describe its own proofs too, so it has its own (@draw d_g1 d_g1_l@) sentence, G-prime, built the same way.
 
 B: And if I add G-prime, there's a G-double-prime waiting.
     animate p 175 duration 2.5
@@ -234,9 +230,9 @@ A: Every time. Any consistent rulebook for arithmetic, with axioms you can list,
 B: Hilbert had a fallback, though: could he at least prove his machine never contradicts itself?
     point at.ref v_prov gesture circle
 
-A: That's Gödel's second theorem: a consistent system can't prove its own consistency. 'I  (@draw d_con d_con_l@)am consistent' lands out here too.
+A: That's Gödel's second theorem: a consistent system can't prove its own consistency. 'I (@draw d_con d_con_l@) am consistent' lands out here too.
 
-A: None of this means nothing is certain, though. Almost everything math (@draw v_ok@)ematicians prove is proved as before; the theorem only says the rulebook has an edge.
+A: None of this means nothing is certain, though. Almost everything (@draw v_ok@) mathematicians prove is proved as before; the theorem only says the rulebook has an edge.
 
 A: And the gap holds more than riddles. In 1982, Paris and Kirby showed that Goodstein's theorem, about sequences that balloon and then fall back to zero, can't be proved from the usual axioms.
     shape d_good #8a5fa8 cites ["kirby_paris"] shape circle x 420 y 192 radius 11 style.fill #8a5fa8
