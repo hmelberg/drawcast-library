@@ -91,17 +91,7 @@ Above the lover stands a stone Cupid with a finger to his lips, after a famous m
     camera reset true
 
 A writer of the time, Charles Collé, recorded the order: a gentleman of the court wanted his mistress on a swing, pushed by a bishop, with himself placed where he could see her legs.
-    blocking false
-
-    highlight art:woman strength soft lift true duration 4.6
-
-    highlight art:woman duration 2.4
-
-    highlight art:husband duration 2
-
-    highlight art:lover duration 2.6
-
-    pause 0.3
+    highlight art:woman art:husband art:lover strength soft
 
 The painter Gabriel-François Doyen turned the job down; Fragonard took it, and made the  (@highlight art:husband@)bishop an ordinary older man.
 
@@ -109,28 +99,10 @@ So the man in the bushes plays the client's own part: he paid to watch, and he i
     highlight art:lover strength strong rest grey
 
 Now count the views. The husband sees only her back.
-    blocking false
-
-    pause 1.2
-
-    highlight art:husband_face lift true duration 1.5
-
-    highlight art:woman_back duration 1.8
-
-    pause 0.4
+    highlight art:husband_face art:woman_back
 
 The lover looks up under her skirts, and she looks down at him.
-    blocking false
-
-    highlight art:lover_face lift true duration 1
-
-    highlight art:skirts duration 1.2
-
-    highlight art:woman_face duration 1
-
-    highlight art:lover duration 1.2
-
-    pause 0.4
+    highlight art:lover_face art:skirts art:woman_face art:lover
 
 Only we see all of it: the lover, the husband, and the secret between them.
     highlight art:scene strength strong lift true

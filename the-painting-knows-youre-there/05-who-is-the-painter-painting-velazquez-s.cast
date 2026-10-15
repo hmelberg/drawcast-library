@@ -57,17 +57,7 @@ and Nicolás Pertusat (@highlight art:nicolas strength strong lift true@)o, who 
 Behind them, her chaperone talks (@highlight art:chaperone_guard art:nieto effect detail@) to a guard, and in the bright doorway the queen's chamberlain, José Nieto, pauses on the stairs.
 
 Now follow their eyes: the painter, the princess, a menina, the dwarf. They all look out of the picture, at one spot.
-    blocking false
-
-    pause 1.3
-
-    highlight art:painter_face strength strong lift true duration 0.8
-
-    highlight art:infanta_face strength strong lift true duration 0.8
-
-    highlight art:maid_right_face strength strong lift true duration 0.8
-
-    highlight art:mari_face strength strong lift true duration 2.6
+    highlight art:painter_face art:infanta_face art:maid_right_face art:mari_face strength strong
 
     camera reset true
 

@@ -43,13 +43,7 @@ At first sight there are two people: an Italian merchant, probably Giovanni Arno
     highlight art:man art:woman
 
 Everything around them says money, from the brass chandelier to the oranges, an expensive import.
-    blocking false
-
-    pause 1.6
-
-    highlight art:chandelier duration 1.6
-
-    highlight art:oranges duration 2.2
+    highlight art:chandelier art:oranges
 
 He raises one hand and takes hers with the other, as if making a promise.
     highlight art:raised_hand art:joined_hands
