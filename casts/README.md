@@ -3,6 +3,7 @@
 - [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-15
 - [Gödel's incompleteness theorems](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/godel-incompleteness.cast) — 2026-10-15
 - [Arrow's impossibility theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/arrow-impossibility.cast) — 2026-10-15
+- [Test your Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/test-your-russian.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14

@@ -1301,6 +1301,13 @@
       "file": "arrow-impossibility.cast",
       "updated": "2026-10-15",
       "page": true
+    },
+    {
+      "slug": "test-your-russian",
+      "title": "Test your Russian",
+      "file": "test-your-russian.cast",
+      "updated": "2026-10-15",
+      "page": true
     }
   ]
 }
