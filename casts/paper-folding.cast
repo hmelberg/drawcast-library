@@ -1,6 +1,7 @@
 # How many times can you fold paper in half?
 subtitle: "Guess the record for folding paper in half, then see how a student beat the 'seven folds' myth, and why doubling makes each fold harder."
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","take":"lines"}
+format: quiz
 
 ## How many times can you fold paper in half?
 affirm: playful

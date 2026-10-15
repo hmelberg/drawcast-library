@@ -1,6 +1,7 @@
 # How much rice on the last square of a chessboard?
 subtitle: "Guess how much rice ends up on the last square of a chessboard when you double each time, and see why doubling fools everyone."
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","b":"gemini:Umbriel | an easy-going co-host, amused by the answers; natural, never exaggerated","take":"lines"}
+format: quiz
 
 ## How much rice on the last square of a chessboard?
 affirm: playful

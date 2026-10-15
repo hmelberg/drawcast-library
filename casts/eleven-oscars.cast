@@ -1,6 +1,7 @@
 # Which films won eleven Oscars?
 subtitle: "Tap the three films that share the record of eleven Oscars, and find out which one won every award it was up for."
 voices: {"a":"gemini:Vindemiatrix | a gentle, curious quiz host; warm","take":"lines"}
+format: quiz
 
 ## Which films won eleven Oscars?
 affirm: playful

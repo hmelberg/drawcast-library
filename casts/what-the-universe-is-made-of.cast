@@ -1,6 +1,7 @@
 # What is the universe made of?
 subtitle: "Dark energy, dark matter, and everything we can see: guess how big a slice of the universe is ordinary matter, and see how little we know."
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry quiz host; dry humour","take":"lines"}
+format: quiz
 
 ## What is the universe made of?
 affirm: playful

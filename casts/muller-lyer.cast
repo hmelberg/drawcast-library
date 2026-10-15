@@ -1,6 +1,7 @@
 # Which line is longer?
 subtitle: "Two lines, one looks longer: tap the longer one, then see why the Müller-Lyer illusion fools almost everyone, even when you know the trick."
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","take":"lines"}
+format: quiz
 
 ## Which line is longer?
 affirm: playful

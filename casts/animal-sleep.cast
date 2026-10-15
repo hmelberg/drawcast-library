@@ -1,6 +1,7 @@
 # How long do animals sleep?
 subtitle: "Guess how long a bat, a cat, a giraffe and a wild elephant sleep each day, and see why some sleep the day away while others barely sleep at all."
 voices: {"a":"gemini:Callirrhoe | an easy-going nature quiz host; warm and light","take":"lines"}
+format: quiz
 
 ## How long do animals sleep?
 affirm: playful

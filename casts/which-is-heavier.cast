@@ -1,6 +1,7 @@
 # Which is heavier? Three surprising pairs
 subtitle: "Tap the heavier of three surprising pairs, from a blue whale's heart to a puffy cloud, and see why weight hides in things spread thin."
 voices: {"a":"gemini:Fenrir | an excitable quiz host with surprising pairs; energetic, still clear","take":"lines"}
+format: quiz
 
 ## Which is heavier? Three surprising pairs
 affirm: playful

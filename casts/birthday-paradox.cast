@@ -1,6 +1,7 @@
 # Do two of 23 people share a birthday?
 subtitle: "Twenty-three people in a room: guess the chance that two share a birthday, then hear two friends work out why it is a coin flip."
 voices: {"a":"gemini:Orus | a firm, patient probability teacher; plain and kind","b":"gemini:Laomedeia | an upbeat co-host who doubts it; curious, natural, never exaggerated","take":"lines"}
+format: quiz
 
 ## Do two of 23 people share a birthday?
 affirm: playful

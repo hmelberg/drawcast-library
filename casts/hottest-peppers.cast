@@ -1,6 +1,7 @@
 # How hot are the world's hottest peppers?
 subtitle: "Place four chillies on a ten-times-per-step heat scale, then learn why the burn is not real heat, and why birds do not feel it."
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","take":"lines"}
+format: quiz
 
 ## How hot are the world's hottest peppers?
 affirm: playful

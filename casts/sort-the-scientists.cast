@@ -1,6 +1,7 @@
 # Who discovered what? Match four scientists
 subtitle: "Match Harvey, Faraday, Noether and Meitner to what they discovered, and hear how Lise Meitner missed a Nobel but got an element."
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","take":"lines"}
+format: quiz
 
 ## Who discovered what? Match four scientists
 affirm: playful

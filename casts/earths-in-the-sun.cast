@@ -1,6 +1,7 @@
 # How many Earths would fit inside the Sun?
 subtitle: "Guess how many Earths would fit inside the Sun on a line where every step is ten times bigger, then see why the answer runs into millions."
 voices: {"a":"gemini:Iapetus | a clear space quiz host; quiet wonder, natural pace","take":"lines"}
+format: quiz
 
 ## How many Earths would fit inside the Sun?
 affirm: playful

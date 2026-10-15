@@ -1,6 +1,7 @@
 # Which letter is in no US state's name?
 subtitle: "J, Q, X or Z: one letter appears in no US state name. Pick it, then meet the lone states that save the other three."
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","take":"lines"}
+format: quiz
 
 ## Which letter is in no US state's name?
 affirm: playful

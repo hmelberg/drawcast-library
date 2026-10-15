@@ -1,6 +1,7 @@
 # Which animal has the longest pregnancy?
 subtitle: "Rank five animals by pregnancy length, from the elephant's two years to the hamster's sixteen days, and see why size sets the clock."
 voices: {"a":"gemini:Iapetus | a clear, curious quiz host; plain and friendly","take":"lines"}
+format: quiz
 
 ## Which animal has the longest pregnancy?
 affirm: playful

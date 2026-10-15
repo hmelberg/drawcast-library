@@ -1,6 +1,7 @@
 # Which came first?
 subtitle: "The fax or the telephone? Oxford or the Aztecs? The pyramids or the last mammoths? Tap the older one, and watch history's timeline fold."
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic, still clear","take":"lines"}
+format: quiz
 
 ## Which came first?
 affirm: playful

@@ -1,6 +1,7 @@
 # After five heads in a row, is tails more likely?
 subtitle: "Five heads in a row: is tails now due? Guess, then hear why the coin has no memory, and how a Monte Carlo roulette wheel cost gamblers millions."
 voices: {"a":"gemini:Kore | a firm, clear statistician hosting a quiz; calm, a little dry","b":"gemini:Zephyr | a bright co-host sure that tails is due; natural, never exaggerated","take":"lines"}
+format: quiz
 
 ## After five heads in a row, is tails more likely?
 affirm: playful

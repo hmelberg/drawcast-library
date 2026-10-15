@@ -1,6 +1,7 @@
 # On the Moon, which lands first: a hammer or a feather?
 subtitle: "Drop a hammer and a feather on the Moon: which lands first? Guess, then watch Apollo 15's famous test prove Galileo right."
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","take":"lines"}
+format: quiz
 
 ## On the Moon, which lands first: a hammer or a feather?
 affirm: playful

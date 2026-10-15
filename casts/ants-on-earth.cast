@@ -1,6 +1,7 @@
 # How many ants are there on Earth?
 subtitle: "Guess how many ants are alive on Earth, then see the 2022 count: twenty quadrillion, outweighing every wild bird and mammal combined."
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic, still clear","take":"lines"}
+format: quiz
 
 ## How many ants are there on Earth?
 affirm: playful

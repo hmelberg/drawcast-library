@@ -1,6 +1,7 @@
 # How many minutes is the ball actually in play?
 subtitle: "Guess how many minutes of a football match the ball is really in play, and find out where the other forty minutes go."
 voices: {"a":"gemini:Schedar | an even, thoughtful data-journalist quiz host; calm, natural pace","take":"lines"}
+format: quiz
 
 ## How many minutes is the ball actually in play?
 affirm: playful

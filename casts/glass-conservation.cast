@@ -1,6 +1,7 @@
 # Which glass has more water?
 subtitle: "Water is poured from a short glass into a tall one: tap the glass with more, then hear why young children choose the tall one, as Piaget found."
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
+format: quiz
 
 ## Which glass has more water?
 affirm: playful

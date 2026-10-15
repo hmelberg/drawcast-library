@@ -1,6 +1,7 @@
 # Corners minus edges plus faces: what does a cube give?
 subtitle: "Count a cube's corners, edges and faces, type what V − E + F gives, and see why Euler's answer, 2, holds for every solid without holes."
 voices: {"a":"gemini:Erinome | a clear maths quiz host; neat, unhurried, never slow","take":"lines"}
+format: quiz
 
 ## Corners minus edges plus faces: what does a cube give?
 affirm: playful

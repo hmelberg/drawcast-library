@@ -1,6 +1,7 @@
 # Is it a dinosaur?
 subtitle: "T. rex, a pterodactyl, a chicken, a mammoth: tap every true dinosaur, and find out why one of them lays your breakfast eggs."
 voices: {"a":"gemini:Puck | an upbeat dinosaur-mad quiz host; playful and quick","take":"lines"}
+format: quiz
 
 ## Is it a dinosaur?
 affirm: playful

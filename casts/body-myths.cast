@@ -1,6 +1,7 @@
 # Body myths: true or myth?
 subtitle: "Five things people say about your body, from cracked knuckles to swallowed spiders: true or myth? Guess each one, then hear the story behind it."
 voices: {"a":"gemini:Sadachbia | a lively myth-busting quiz host; playful, quick","take":"lines"}
+format: quiz
 
 ## Body myths: true or myth?
 feedback:
