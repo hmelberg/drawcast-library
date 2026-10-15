@@ -1,5 +1,7 @@
 # Arrow's impossibility theorem
 subtitle: "A town that votes in circles, the theorem that says no voting rule is perfect, and why that does not make democracy impossible."
+tags: ["economics","political science","social choice","voting","arrow impossibility theorem","democracy"]
+teaches: ["concepts/arrow-impossibility-theorem","concepts/condorcet-paradox","concepts/single-peaked-preferences","concepts/agenda-setting"]
 thumb: "band \"No fair voting system exists. Or does it?\" stamp \"PARADOX\""
 voices: {"a":"gemini:Sadaltager | a calm, warm economist who enjoys the puzzle","b":"gemini:Aoede | a relaxed, good-humoured co-host with a dry, understated wit; never exaggerated","take":"lines"}
 
@@ -263,10 +265,10 @@ B: Easy. Majority rule. Whatever most people prefer, the group prefers.
 A: Let's test that. A town of three equal groups must build one thing: a pool, a park or a library.
     draw n_pool n_park n_lib
 
-A: Group one ranks pool, then park, then library. Group two: park, library, pool. Group three: library, pool, park.
-    draw col1 col2 col3
+A: Group one ranks pool, then park, then library. (@draw col2@) Group two: park, library, pool. (@draw col3@) Group three: library, pool, park.
+    draw col1
 
-A: Now vote in pairs. Pool against park: groups o (@draw a_pp l_pp@)ne and three put the pool higher, so it wins two to one.
+A: Now vote in pairs. Pool against park: groups (@draw a_pp l_pp@) one and three put the pool higher, so it wins two to one.
 
     ask "Park against library: which wins? Tap it." choose ["n_park","n_lib"] answer n_park store pk voice b
         right: The park, two to one.
@@ -276,16 +278,16 @@ A: The park, two to one: groups one and two both rank it above the library.
 
     erase pk_ring
 
-B: So the pool beats the park, and the park beats the library. Then the pool must beat the library.
-    draw a_guess l_guess
+B: So the pool beats the park, (@highlight a_pl l_pl duration 1.8@) and the park beats the library. (@draw a_guess l_guess@) Then the pool must beat the library.
+    highlight a_pp l_pp duration 1.8
 
     erase a_guess l_guess
 
-A: That's what logic says. But groups two and  (@draw a_lp l_lp@)three both prefer the library, so it beats the pool, two to one.
+A: That's what logic says. But groups two and (@draw a_lp l_lp@) three both prefer the library, so it beats the pool, two to one.
 
     erase table
 
-A: The marquis de Condorcet spotted this in 1785: every voter is perfectly consistent, and yet the majority goes round in a circle.
+A: The marquis de Condorcet spotted this in 1785: every voter is perfectly consistent, and yet the majority (@flow a_pp a_pl a_lp duration 2.5@) goes round in a circle.
     draw condorcet
 
     erase condorcet
@@ -392,10 +394,9 @@ A: And when Gerry Mackie rechecked the famous cases of cycling in 2003, Riker's 
 B: So what keeps real electorates out of the circle?
     draw ax ax_y xs xm xl
 
-A: Often, the options line up on one scale. Say a small, medium or large budget, and each voter likes options less the further they are from a favourite.
-    draw pk1 pk2 pk3
+A: Often, the options line up on one scale. (@draw pk1@) Say a small, (@draw pk2@) medium or (@draw pk3@) large budget, and (@highlight pk1 pk2 pk3 duration 2.5@) each voter likes options less the further they are from a favourite.
 
-A: That shape is the rescue. Duncan Black showed in 1948 that then there's no circle: (@draw pt_med lab_med@) the voter in the middle, the median voter, is on the winning side of every pair.
+A: That (@highlight pk2 duration 2.5@) shape is the rescue. Duncan Black showed in 1948 that then there's no circle: (@draw pt_med lab_med@) the voter in the middle, the median voter, is on the winning side of every pair.
 
 B: And our town failed that test. Every option was someone's last choice, so no order of the three gives everyone a single peak.
     draw town

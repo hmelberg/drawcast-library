@@ -1282,13 +1282,6 @@
       "page": true
     },
     {
-      "slug": "arrow-impossibility",
-      "title": "Arrow's impossibility theorem",
-      "file": "arrow-impossibility.cast",
-      "updated": "2026-10-15",
-      "page": true
-    },
-    {
       "slug": "leaded-petrol",
       "title": "When did the last country stop selling leaded petrol?",
       "file": "leaded-petrol.cast",
@@ -1299,6 +1292,13 @@
       "slug": "godel-incompleteness",
       "title": "Gödel's incompleteness theorems",
       "file": "godel-incompleteness.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "arrow-impossibility",
+      "title": "Arrow's impossibility theorem",
+      "file": "arrow-impossibility.cast",
       "updated": "2026-10-15",
       "page": true
     }
