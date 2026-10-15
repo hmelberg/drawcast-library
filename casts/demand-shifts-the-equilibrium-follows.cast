@@ -1,5 +1,7 @@
 # How the price finds its way
 subtitle: "How a shortage pushes a market to its new price after demand jumps, and why slow-growing crops can circle that price forever."
+tags: ["economics","supply and demand","price equilibrium","market shortage","agricultural markets"]
+teaches: ["concepts/price-equilibrium","concepts/supply-demand-dynamics","concepts/cobweb-model","methods/reading-supply-demand-graphs"]
 voices: {"a":"gemini:Charon | a warm, clear economics teacher; calm and unhurried, never theatrical","take":"lines"}
 
 ## How the price finds its way

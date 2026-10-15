@@ -1,5 +1,7 @@
 # Who discovered what? Match four scientists
 subtitle: "Match Harvey, Faraday, Noether and Meitner to what they discovered, and hear how Lise Meitner missed a Nobel but got an element."
+tags: ["physics history","scientists discoveries","women in science","electromagnetism","nuclear fission","mathematics symmetry"]
+teaches: ["history/scientific-discoveries","history/notable-scientists","concepts/conservation-laws","history/women-in-stem"]
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","take":"lines"}
 format: quiz
 

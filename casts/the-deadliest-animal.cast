@@ -1,5 +1,7 @@
 # The deadliest animal
 subtitle: "Guess which animals kill the most people each year, and see why the deadliest are the ones that carry disease, not the ones with teeth."
+tags: ["biology","deadliest animals","disease","malaria","mosquitoes","human mortality"]
+teaches: ["concepts/disease-transmission","concepts/statistical-comparison","concepts/risk-perception","biology/animal-threats"]
 thumb: "band \"It's not the shark\" stamp \"PLOT TWIST\""
 voices: {"a":"gemini:Algenib | a gravelly nature-documentary narrator with a dry twist; unhurried but never slow","take":"lines"}
 

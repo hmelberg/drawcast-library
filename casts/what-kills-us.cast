@@ -1,5 +1,7 @@
 # What kills the most people?
 subtitle: "Rank five of the world's biggest killers, then see why the heart, the blood vessels and the lungs top the list."
+tags: ["world health","leading causes of death","cardiovascular disease","respiratory disease","diabetes"]
+teaches: ["concepts/global-health-burden","concepts/disease-ranking","anatomy/circulatory-system","anatomy/respiratory-system"]
 voices: {"a":"gemini:Kore | a firm, calm public-health quiz host; serious but not grim","take":"lines"}
 
 ## What kills the most people?

@@ -1,5 +1,7 @@
 # Which is the tallest mountain on Earth?
 subtitle: "Everest is the highest, but is it the tallest? Guess, then watch Mauna Kea rise from the sea floor and meet the summit closest to the stars."
+tags: ["geography","mountains","earth measurements","highest vs tallest","mauna kea","everest"]
+teaches: ["concepts/mountain-measurement","geography/mountain-comparisons","concepts/sea-level-reference"]
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","take":"lines"}
 format: quiz
 

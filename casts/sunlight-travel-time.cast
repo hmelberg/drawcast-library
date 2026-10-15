@@ -1,5 +1,7 @@
 # How long does sunlight take to reach Earth?
 subtitle: "Guess how many minutes sunlight takes to reach Earth, then see why you always see the Sun as it was, and how old its light really is."
+tags: ["light speed","solar system","astronomy","earth-sun distance","electromagnetic radiation","light travel time"]
+teaches: ["concepts/light-travel-time","concepts/observation-delay","concepts/photon-age","methods/distance-speed-calculation"]
 voices: {"a":"gemini:Algenib | a gravelly, twinkly quiz host with stories to tell; warm, natural pace","take":"lines"}
 format: quiz
 

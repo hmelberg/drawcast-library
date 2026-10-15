@@ -1,5 +1,7 @@
 # How fast did solar panels get cheaper?
 subtitle: "Draw where the price of solar panels went after 2008, then see the crash: from $132 a watt in 1975 to about 27 cents today."
+tags: ["solar energy","price history","renewable energy","manufacturing economics","technology cost trends"]
+teaches: ["concepts/price-decline-factors","history/solar-panel-development","methods/reading-price-charts","concepts/swanson's-law"]
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","take":"lines"}
 format: quiz
 

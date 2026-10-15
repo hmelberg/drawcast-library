@@ -1,5 +1,7 @@
 # What do mitochondria actually do?
 subtitle: "How mitochondria burn food with oxygen to make fifteen times more ATP, the fuel every cell spends, on folds full of tiny turbines"
+tags: ["biology","cell biology","mitochondria","atp production","cellular respiration","aerobic metabolism"]
+teaches: ["concepts/aerobic-respiration","concepts/atp-synthesis","concepts/chemiosmosis","biology/mitochondrial-function"]
 voices: {"a":"gemini:Aoede | a breezy biology presenter; light and easy","take":"lines"}
 
 ## What do mitochondria actually do?

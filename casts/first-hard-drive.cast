@@ -1,5 +1,7 @@
 # How much did the first hard drive weigh?
 subtitle: "Guess how much the first hard drive weighed in 1956, then compare it with the microSD card in your phone, a gram that holds a terabyte."
+tags: ["computer history","hard drive evolution","data storage","technology comparison","1956 ibm"]
+teaches: ["history/computer-storage-technology","concepts/technological-progress","concepts/data-density"]
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","take":"lines"}
 format: quiz
 

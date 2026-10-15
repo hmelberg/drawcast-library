@@ -1,5 +1,7 @@
 # Why rain is fresh
 subtitle: "How the sun distils salty seawater into fresh rain, and why the very same cycle has slowly made the sea salty."
+tags: ["water cycle","evaporation and precipitation","why seawater is salty","how rain forms","earth science"]
+teaches: ["concepts/water-cycle","concepts/evaporation","concepts/precipitation","concepts/salinity"]
 thumb: notebook
 voices: {"a":"gemini:Aoede | a breezy, warm nature presenter; light and easy","take":"lines"}
 

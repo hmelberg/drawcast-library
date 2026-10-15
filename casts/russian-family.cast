@@ -1,5 +1,7 @@
 # My family in Russian: мой, моя́, моё
 subtitle: "Say my mum, my dad and my sister in Russian, and see why my has three forms, мой, моя́ and моё, that follow the noun's ending."
+tags: ["russian vocabulary","possessive adjectives","gender agreement"]
+teaches: ["vocabulary/possessive-pronouns","grammar/gender-agreement","grammar/russian-adjective-endings"]
 thumb: "band \"One word for my? Try three.\" note \"моя́ ма́ма\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 

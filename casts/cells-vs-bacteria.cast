@@ -1,5 +1,7 @@
 # Are there more bacteria in your body than human cells?
 subtitle: "Do bacteria outnumber your own cells ten to one? Guess, then watch the famous ratio shrink and learn why one trip to the toilet can tip it."
+tags: ["bacteria","human cells","body composition","microbiome","scientific myth","cell count"]
+teaches: ["concepts/bacteria-to-human-cell-ratio","concepts/microbiome-composition","methods/scientific-counting","history/textbook-myths"]
 voices: {"a":"gemini:Leda | a youthful biology quiz host; bright and curious","take":"lines"}
 format: quiz
 

@@ -1,5 +1,7 @@
 # A longer Russian story: read it all yourself
 subtitle: "Read a nine-sentence Russian story made only of words from lessons 1–9, hear it, test what you understood, and see how far you've come."
+tags: ["russian reading","beginner russian","russian comprehension"]
+teaches: ["vocabulary/family-words","vocabulary/food-and-drink","grammar/gender-agreement","reading/russian-story"]
 thumb: "band \"Read it all yourself\" note \"10 lessons, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 

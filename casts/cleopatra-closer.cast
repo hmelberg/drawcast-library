@@ -1,5 +1,7 @@
 # Cleopatra: closer to the pyramids or the Moon?
 subtitle: "Place the Great Pyramid, Cleopatra and the Moon landing on one timeline, and see how 'ancient' Egypt stretches across time."
+tags: ["cleopatra","ancient egypt","timeline","perspective","great pyramid","moon landing"]
+teaches: ["history/ancient-egypt","concepts/historical-perspective","concepts/timeline-scale"]
 voices: {"a":"gemini:Algenib | a gravelly history quiz host with a twinkle; warm, natural pace","take":"lines"}
 format: quiz
 

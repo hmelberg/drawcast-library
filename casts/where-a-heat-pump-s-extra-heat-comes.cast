@@ -1,5 +1,7 @@
 # Where a heat pump's extra heat comes from
 subtitle: "Follow the refrigerant round its loop to see how one kilowatt-hour of electricity carries two more in from cold outdoor air."
+tags: ["heat pump","thermodynamics","refrigeration cycle","heating efficiency","renewable energy","coefficient of performance"]
+teaches: ["concepts/heat-pump-operation","concepts/energy-transfer","concepts/coefficient-of-performance","methods/refrigerant-loop-analysis"]
 voices: {"a":"gemini:Puck | an upbeat engineer delighted by a clever machine; relaxed and good-humoured","take":"lines"}
 
 ## Where a heat pump's extra heat comes from

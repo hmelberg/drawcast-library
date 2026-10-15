@@ -1,5 +1,7 @@
 # How a magnifying glass really works
 subtitle: "Trace two light rays through a lens to find the bigger letter, and see that what really magnifies is letting your eye get close."
+tags: ["optics","magnifying glass","lenses","light refraction","virtual images","vision"]
+teaches: ["concepts/magnification","concepts/focal-length","concepts/virtual-images","methods/ray-tracing"]
 voices: {"a":"gemini:Leda | a youthful, curious science presenter; bright, not overexcited","take":"lines"}
 
 ## How a magnifying glass really works

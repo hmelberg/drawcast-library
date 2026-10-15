@@ -1,5 +1,7 @@
 # Where the 206 bones are
 subtitle: "A tour of the adult skeleton that tallies its 206 bones region by region, and shows why more than half sit in the hands and feet."
+tags: ["anatomy","skeleton","human body","bones","hands and feet"]
+teaches: ["anatomy/skeletal-regions","anatomy/bone-count","anatomy/skeletal-structure"]
 voices: {"a":"gemini:Achernar | a soft, clear anatomy guide; calm, never sleepy","take":"lines"}
 
 ## Where the 206 bones are

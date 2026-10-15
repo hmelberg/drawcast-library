@@ -1,5 +1,7 @@
 # How many Earths fit between Earth and the Moon?
 subtitle: "Guess how many Earths would fill the gap to the Moon, then watch all the other planets squeeze into the same gap, drawn to scale."
+tags: ["earth-moon distance","planet sizes","solar system scale","space visualization","astronomy basics"]
+teaches: ["concepts/planetary-scale","concepts/orbital-mechanics","visualization/spatial-relationships"]
 voices: {"a":"gemini:Enceladus | an awed space quiz host; breathy wonder, but keep moving","take":"lines"}
 format: quiz
 

@@ -1,5 +1,7 @@
 # Where is it? где, в and на in Russian
 subtitle: "Ask where something is in Russian with где, answer with тут, там, в and на, and see why the place word ends in е."
+tags: ["russian","location prepositions","prepositional case","where questions"]
+teaches: ["vocabulary/где-там-тут","vocabulary/в-на","grammar/prepositional-case-endings","concepts/russian-locative"]
 thumb: "band \"Where's the cat?\" note \"где = where\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 

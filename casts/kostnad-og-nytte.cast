@@ -1,5 +1,7 @@
 # Kostnad og nytte
 subtitle: "Hvordan helseøkonomer måler nytte i gode leveår, velger hvilke kostnader som teller, og avgjør om en behandling er verdt prisen."
+tags: ["health economics","cost-benefit analysis","quality-adjusted life years","healthcare resource allocation","treatment evaluation"]
+teaches: ["concepts/qaly-calculation","methods/cost-effectiveness-analysis","concepts/opportunity-cost","concepts/health-threshold-prioritization"]
 thumb: "band \"Nyttig er ikke nok\" note \"400 000 kr per QALY?\""
 voices: {"a":"gemini:Sulafat | a warm, clear Norwegian teacher speaking natural Norwegian Bokmål with an Eastern Norwegian accent; calm and unhurried, never theatrical","take":"lines"}
 

@@ -1,5 +1,7 @@
 # Linda: bank teller, or feminist bank teller?
 subtitle: "Meet Linda, then pick the likelier story about her. See why most people choose wrong, and how two circles expose the conjunction fallacy."
+tags: ["logic","conjunction fallacy","probability","cognitive bias","decision making"]
+teaches: ["concepts/conjunction-fallacy","concepts/probability-reasoning","logic/venn-diagrams"]
 voices: {"a":"gemini:Gacrux | a mature psychologist hosting a quiz; measured, a little wry","b":"gemini:Pulcherrima | a forward co-host who falls for the trap; natural, never exaggerated","take":"lines"}
 format: quiz
 

@@ -1,5 +1,7 @@
 # Which ramp is fastest?
 subtitle: "A straight ramp, a steep drop, or a swooping curve: tap the one that wins the race, then hear how Newton solved it overnight."
+tags: ["physics","ramps","brachistochrone","cycloid","newton","optimization"]
+teaches: ["concepts/brachistochrone-problem","concepts/cycloid","physics/speed-and-distance","history/newton-and-bernoulli"]
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host; light and quick","take":"lines"}
 format: quiz
 

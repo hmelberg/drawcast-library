@@ -1,5 +1,7 @@
 # Which languages have the most native speakers?
 subtitle: "Rank five great languages by native speakers, then see how the order flips when you count everyone who speaks them."
+tags: ["languages","native speakers","world population"]
+teaches: ["vocabulary/language-statistics","concepts/native-vs-second-language","geography/global-language-distribution"]
 voices: {"a":"gemini:Orus | a firm, confident quiz host; plain and kind","take":"lines"}
 format: quiz
 

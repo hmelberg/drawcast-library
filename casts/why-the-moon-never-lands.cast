@@ -1,5 +1,7 @@
 # Why the Moon never lands
 subtitle: "Newton's cannon and a falling apple show that the Moon falls toward Earth all the time and only its sideways speed makes it keep missing."
+tags: ["gravity","orbital mechanics","moon physics","falling objects","escape velocity"]
+teaches: ["concepts/orbital-mechanics","concepts/gravity","methods/newtonian-analysis","concepts/centripetal-force"]
 thumb: "band \"It's falling right now\" eyes card navy"
 voices: {"a":"gemini:Iapetus | a clear, calm physics teacher with quiet wonder; natural pace","take":"lines"}
 

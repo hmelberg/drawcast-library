@@ -1,5 +1,7 @@
 # What is the air you breathe made of?
 subtitle: "Share out the pie: how much of the air you breathe is nitrogen, oxygen and argon? Then see where carbon dioxide's tiny sliver fits."
+tags: ["atmosphere composition","oxygen nitrogen argon","carbon dioxide greenhouse gas"]
+teaches: ["concepts/atmospheric-composition","concepts/greenhouse-gas-effects","vocabulary/atmospheric-gases"]
 voices: {"a":"gemini:Orus | a firm, confident quiz host; plain and kind","take":"lines"}
 format: quiz
 

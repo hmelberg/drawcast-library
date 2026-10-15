@@ -1,5 +1,7 @@
 # Measuring a policy against what never happened
 subtitle: "How difference-in-differences borrows the world without a policy from a group it missed, and the parallel-trends bet it rests on."
+tags: ["economics","causal inference","difference-in-differences","policy evaluation","counterfactuals","parallel trends"]
+teaches: ["concepts/difference-in-differences","concepts/parallel-trends-assumption","methods/causal-identification","concepts/counterfactual-reasoning"]
 voices: {"a":"gemini:Orus | a firm, patient econometrics teacher; plain and confident","take":"lines"}
 
 ## Measuring a policy against what never happened

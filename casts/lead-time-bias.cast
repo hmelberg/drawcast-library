@@ -1,5 +1,7 @@
 # Why screening can look better than it is
 subtitle: "How screening can add years of 'survival' without adding a single day of life, and why only fewer deaths prove it works."
+tags: ["medical screening","survival statistics","cancer diagnosis","lead-time bias","healthcare outcomes","mortality rates"]
+teaches: ["concepts/lead-time-bias","methods/evaluating-screening-effectiveness","concepts/survival-vs-mortality","vocabulary/screening-metrics"]
 voices: {"a":"gemini:Despina | a smooth, careful doctor explaining a trap; calm and clear","take":"lines"}
 
 ## Why screening can look better than it is

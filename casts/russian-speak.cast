@@ -1,5 +1,7 @@
 # I speak Russian: я говорю, ты говоришь
 subtitle: "Ask a Russian if they speak English, answer \"yes, a little\", and see how one verb changes its ending for я, ты, он, она and вы."
+tags: ["russian","verbs","present tense","conjugation","я-ты-он-вы","speaking english"]
+teaches: ["vocabulary/да-немного-po","grammar/verb-conjugation-present-tense","grammar/russian-pronouns","vocabulary/говорить-forms"]
 thumb: "band \"Yes, a little\" note \"да, немного\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 

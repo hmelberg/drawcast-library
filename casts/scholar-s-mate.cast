@@ -1,5 +1,7 @@
 # Scholar's Mate: the four-move trap
 subtitle: "How Scholar's Mate wins in four moves by counting attackers on one weak square, f7, and the single pawn move that stops it."
+tags: ["chess openings","chess tactics","weak squares","beginner mistakes"]
+teaches: ["tactics/counting-attackers","tactics/weak-square-defense","openings/early-development","concepts/material-advantage"]
 voices: {"a":"gemini:Fenrir | an excitable chess coach showing a trap; energetic, still clear","take":"lines"}
 
 ## Scholar's Mate: the four-move trap

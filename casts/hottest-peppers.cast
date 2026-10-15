@@ -1,5 +1,7 @@
 # How hot are the world's hottest peppers?
 subtitle: "Place four chillies on a ten-times-per-step heat scale, then learn why the burn is not real heat, and why birds do not feel it."
+tags: ["peppers","scoville scale","capsaicin","heat measurement","plant biology","sensory science"]
+teaches: ["vocabulary/scoville-units","concepts/capsaicin-and-trpv1","concepts/plant-animal-coevolution","methods/comparing-logarithmic-scales"]
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","take":"lines"}
 format: quiz
 

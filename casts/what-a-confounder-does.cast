@@ -1,5 +1,7 @@
 # What a confounder does
 subtitle: "Coffee, smoking and heart disease in one causal diagram: how a common cause fakes a link, and how comparing like with like removes it."
+tags: ["statistics","confounders","causal inference","study design","coffee smoking","epidemiology"]
+teaches: ["concepts/confounding","methods/adjustment","concepts/causal-diagrams","methods/back-door-criterion"]
 voices: {"a":"gemini:Pulcherrima | a forward, sharp epidemiologist; brisk and direct","take":"lines"}
 
 ## What a confounder does

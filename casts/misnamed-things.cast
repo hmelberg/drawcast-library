@@ -1,5 +1,7 @@
 # Do these names tell the truth?
 subtitle: "Three famous names, three fibs: guess how long the Hundred Years' War lasted, where Panama hats are made and where guinea pigs come from."
+tags: ["misleading names","etymology","south america"]
+teaches: ["history/conflict-duration","geography/product-origins","vocabulary/naming-origins","concepts/misnomers"]
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","b":"gemini:Pulcherrima | a forward co-host who says what most people think; natural, never exaggerated","take":"lines"}
 format: quiz
 

@@ -1,5 +1,7 @@
 # Which country has the most time zones?
 subtitle: "Russia? The USA? Guess which country runs the most clocks, then hear why the answer is France, and why vast China gets by with just one."
+tags: ["geography","time zones","france","russia","china","political boundaries"]
+teaches: ["geography/time-zones","geography/global-territories","concepts/political-time-standardization"]
 voices: {"a":"gemini:Schedar | an even, thoughtful data-journalist quiz host; calm, natural pace","b":"gemini:Puck | a curious co-host guessing out loud; relaxed and good-humoured, never exaggerated","take":"lines"}
 format: quiz
 

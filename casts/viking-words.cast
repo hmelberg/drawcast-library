@@ -1,5 +1,7 @@
 # Which words came from the Vikings?
 subtitle: "Tap the everyday English words that came from the Vikings' Old Norse, and hear what 'window' and 'husband' first meant."
+tags: ["english vocabulary","viking history","word origins","old norse","etymology","language evolution"]
+teaches: ["vocabulary/viking-words","history/viking-influence","concepts/language-change"]
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","take":"lines"}
 format: quiz
 

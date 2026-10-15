@@ -1,5 +1,7 @@
 # How many must be immune to stop a disease?
 subtitle: "Why a disease twice as contagious needs only a little more immunity, and why measles needs 95 % of children vaccinated"
+tags: ["epidemiology herd immunity","disease transmission r0"]
+teaches: ["concepts/herd-immunity-threshold","concepts/basic-reproduction-number","methods/vaccination-strategy-planning"]
 voices: {"a":"gemini:Kore | a firm, clear epidemiologist; calm and plain, never preachy","take":"lines"}
 
 ## How many must be immune to stop a disease?

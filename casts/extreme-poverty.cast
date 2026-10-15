@@ -1,5 +1,7 @@
 # How many people live in extreme poverty?
 subtitle: "Guess the share of the world living on under three dollars a day, today and in 1990, and see how far it has fallen in one generation."
+tags: ["economics","poverty","global development","statistics","world history"]
+teaches: ["concepts/extreme-poverty","concepts/purchasing-power-parity","methods/data-interpretation"]
 voices: {"a":"gemini:Schedar | an even, serious but hopeful data journalist; quiz host, natural pace","take":"lines"}
 
 ## How many people live in extreme poverty?

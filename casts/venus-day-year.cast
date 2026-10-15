@@ -1,5 +1,7 @@
 # On Venus, which is longer: a day or a year?
 subtitle: "Guess whether a day or a year lasts longer on Venus, then hear why it spins so slowly, and backwards, so that the Sun rises in the west."
+tags: ["venus","planetary rotation","day-year comparison","solar system facts","space astronomy"]
+teaches: ["concepts/planetary-rotation","concepts/day-length","concepts/orbital-mechanics"]
 voices: {"a":"gemini:Charon | a warm, clear astronomer hosting a quiz; patient, natural","b":"gemini:Puck | a curious co-host guessing out loud; relaxed and good-humoured, never exaggerated","take":"lines"}
 format: quiz
 

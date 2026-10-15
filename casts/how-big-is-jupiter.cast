@@ -1,5 +1,7 @@
 # How big is Jupiter?
 subtitle: "The planets drawn at their true sizes: how many Earths fit inside Jupiter, and why it weighs far less than its size suggests."
+tags: ["astronomy","planets","solar system","size comparison","jupiter","density"]
+teaches: ["concepts/planetary-scale","concepts/volume-calculation","concepts/density","vocabulary/gas-giants"]
 voices: {"a":"gemini:Enceladus | an awed astronomer; slightly breathy wonder, but keep moving","take":"lines"}
 
 ## How big is Jupiter?

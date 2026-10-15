@@ -1,5 +1,7 @@
 # How many people have walked on the Moon?
 subtitle: "Type how many people have ever walked on the Moon, then meet the first and the last, and the mission that never landed."
+tags: ["space exploration","moon landing","apollo missions","astronauts","history"]
+teaches: ["history/apollo-program","history/moon-landings","concepts/space-exploration"]
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","take":"lines"}
 format: quiz
 

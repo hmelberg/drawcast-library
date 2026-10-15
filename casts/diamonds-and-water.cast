@@ -1,5 +1,7 @@
 # Why is water cheap and diamonds dear?
 subtitle: "Adam Smith's puzzle: why is life-giving water cheap and useless diamonds dear? Answer, then see the last glass of water explain it."
+tags: ["economics","water and diamonds","marginal utility","supply and demand","value and price"]
+teaches: ["concepts/marginal-utility","concepts/supply-and-demand","economics/price-theory"]
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","b":"gemini:Despina | a smooth, sceptical co-host; natural, never exaggerated","take":"lines"}
 format: quiz
 

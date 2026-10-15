@@ -1,5 +1,7 @@
 # Thales' theorem
 subtitle: "Why any angle drawn in a semicircle is exactly ninety degrees, proved with nothing more than three equal radii."
+tags: ["geometry","circle theorems","thales theorem","right angles","proofs"]
+teaches: ["concepts/thales-theorem","concepts/isosceles-triangles","geometry-proofs/angle-in-semicircle","concepts/inscribed-angles"]
 thumb: chalkboard
 voices: {"a":"gemini:Erinome | a clear geometry teacher; neat and unhurried, never slow","take":"lines"}
 

@@ -1,5 +1,7 @@
 # Which line is longer?
 subtitle: "Two lines, one looks longer: tap the longer one, then see why the Müller-Lyer illusion fools almost everyone, even when you know the trick."
+tags: ["visual illusion","perception","müller-lyer illusion","optical tricks","brain science","psychology"]
+teaches: ["concepts/visual-illusions","concepts/perception-bias","history/müller-lyer-illusion","methods/critical-analysis"]
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","take":"lines"}
 format: quiz
 

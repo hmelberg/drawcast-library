@@ -1,5 +1,7 @@
 # The map that blamed a water pump
 subtitle: "How John Snow traced London's 1854 cholera outbreak to one pump, and why the exceptions, not the cluster, made his case"
+tags: ["epidemiology cholera outbreak","disease transmission evidence","john snow mapping"]
+teaches: ["methods/epidemiological-investigation","concepts/causation-vs-correlation","history/public-health","logic/ruling-out-alternatives"]
 voices: {"a":"gemini:Gacrux | a mature storyteller telling a Victorian detective story; measured, gripping, natural pace","take":"lines"}
 
 ## Soho, autumn 1854

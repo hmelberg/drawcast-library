@@ -1,5 +1,7 @@
 # Price elasticity: how much less do people buy?
 subtitle: "How one number measures how strongly buyers react to a price, why substitutes and time change it, and when a fare rise loses money."
+tags: ["economics","price elasticity","demand curves","substitutes","time effects","revenue"]
+teaches: ["concepts/price-elasticity","concepts/elastic-vs-inelastic-demand","methods/calculating-elasticity","concepts/revenue-optimization"]
 voices: {"a":"gemini:Charon | an informative, warm economist reading his own short book aloud; steady, natural pace","take":"lines"}
 
 chapter: "What elasticity is"

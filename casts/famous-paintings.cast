@@ -1,5 +1,7 @@
 # Who painted it? Match four famous paintings
 subtitle: "Match the Mona Lisa, The Starry Night, The Scream and Girl with a Pearl Earring to their painters, and hear how a theft made one world-famous."
+tags: ["art history","famous paintings","mona lisa","van gogh","vermeer","theft"]
+teaches: ["art-history/painter-identification","art-history/painting-provenance","history/cultural-impact"]
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry quiz host; dry humour","take":"lines"}
 format: quiz
 

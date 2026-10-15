@@ -1,5 +1,7 @@
 # 180 litres in, 1.5 out
 subtitle: "Why your kidneys filter 180 litres a day only to take nearly all of it back, and how a percent of that sets your water balance."
+tags: ["kidney filtration","nephron reabsorption","water balance","urine production","osmoregulation","diabetes mellitus"]
+teaches: ["anatomy/nephron-structure","physiology/glomerular-filtration","physiology/tubular-reabsorption","concepts/osmotic-gradient"]
 voices: {"a":"gemini:Vindemiatrix | a gentle, clear kidney doctor amazed by the numbers; warm, natural pace","take":"lines"}
 
 ## 180 litres in, 1.5 out

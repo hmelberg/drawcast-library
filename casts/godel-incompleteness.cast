@@ -1,5 +1,7 @@
 # Gödel's incompleteness theorems
 subtitle: "How a 24-year-old turned sentences into numbers and proved that no rulebook for arithmetic can prove every truth about it."
+tags: ["mathematics","logic","gödel incompleteness theorems","proof systems","mathematical foundations","self-reference"]
+teaches: ["concepts/gödel-incompleteness","methods/gödel-numbering","concepts/self-referential-sentences","history/hilbert-program"]
 thumb: "band \"This sentence is unprovable\" graph stamp \"TRUE.\""
 voices: {"a":"gemini:Charon | a calm, warm mathematician who enjoys the puzzle","b":"gemini:Aoede | a relaxed, good-humoured co-host with a dry, understated wit; never exaggerated","take":"lines"}
 

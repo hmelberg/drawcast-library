@@ -1,5 +1,7 @@
 # How fast can they run?
 subtitle: "Place a cheetah, a racehorse, the fastest human and an elephant on a speed line, and see how far apart their top speeds really are."
+tags: ["animal speeds","comparative speed","land animals","top speed records"]
+teaches: ["concepts/speed-comparison","vocabulary/animal-speeds"]
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic and playful, still clear","take":"lines"}
 
 ## How fast can they run?

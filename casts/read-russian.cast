@@ -1,5 +1,7 @@
 # Read Russian in 14 letters
 subtitle: "Fourteen Cyrillic letters, a handful of words and a short Russian text you can read by the end, learned the way memory works best."
+tags: ["russian","cyrillic alphabet","reading basics"]
+teaches: ["vocabulary/russian-words","reading/cyrillic-letters","methods/spaced-repetition"]
 thumb: "band \"PECTOPAH? Read it again.\" stamp \"RESTORAN\""
 voices: {"a":"gemini:Achird | a warm, patient language teacher, clear and unhurried; says every Russian word the way a native Russian speaker would"}
 

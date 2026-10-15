@@ -1,5 +1,7 @@
 # How many ways can a Rubik's cube be mixed up?
 subtitle: "Guess how many ways a Rubik's cube can be mixed up, on a scale of powers of ten, then learn why every mess is at most twenty moves from solved."
+tags: ["combinatorics","permutations","puzzle solving"]
+teaches: ["concepts/permutation-counting","concepts/god's-number","methods/symmetry-in-problem-solving"]
 voices: {"a":"gemini:Umbriel | an easy-going puzzle fan hosting a quiz; relaxed and amused","take":"lines"}
 format: quiz
 

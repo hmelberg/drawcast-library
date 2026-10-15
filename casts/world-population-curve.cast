@@ -1,5 +1,7 @@
 # How fast did the world's population grow to 8 billion?
 subtitle: "Draw how the world's population grew from 1950 to today, then see how each new billion arrived faster, and where the curve is heading."
+tags: ["world population","demographic growth","population history","exponential growth","billion milestones"]
+teaches: ["concepts/population-growth","history/demographic-trends","methods/reading-growth-curves"]
 voices: {"a":"gemini:Schedar | an even data journalist hosting a quiz; calm, natural pace","take":"lines"}
 format: quiz
 

@@ -1,5 +1,7 @@
 # What a derivative is
 subtitle: "How a speed at one instant can make sense: shrink the gap between two moments and watch the slope settle on the derivative."
+tags: ["calculus","derivatives","rate of change","limits","instantaneous velocity","functions"]
+teaches: ["concepts/derivatives","concepts/limits","methods/finding-instantaneous-rate-of-change","vocabulary/derivative-notation"]
 voices: {"a":"gemini:Charon | an informative, warm maths teacher; steady, natural pace","take":"lines"}
 
 ## What a derivative is

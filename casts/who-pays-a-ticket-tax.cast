@@ -1,5 +1,7 @@
 # Who pays a ticket tax?
 subtitle: "Why a $10 ticket tax is split by who can walk away more easily, not by who hands the money to the government."
+tags: ["economics","tax incidence","supply and demand","ticket pricing","market equilibrium"]
+teaches: ["concepts/tax-incidence","concepts/supply-elasticity","concepts/economic-burden"]
 thumb: "card cork"
 voices: {"a":"gemini:Rasalgethi | an informative economist with a light touch; crisp","take":"lines"}
 

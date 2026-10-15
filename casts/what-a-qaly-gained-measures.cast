@@ -1,5 +1,7 @@
 # What does a 'QALY gained' actually count?
 subtitle: "How a QALY weighs each year of life by its quality, and why easing suffering can count as much as adding years."
+tags: ["healthcare economics","quality of life measurement","qaly health metrics","cost-effectiveness analysis","treatment outcomes"]
+teaches: ["concepts/qaly-calculation","concepts/quality-adjusted-life-years","methods/health-economics-evaluation"]
 voices: {"a":"gemini:Schedar | an even, thoughtful health economist; calm, natural pace","take":"lines"}
 
 ## What does a 'QALY gained' actually count?

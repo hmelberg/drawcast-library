@@ -1,5 +1,7 @@
 # When was the Eiffel Tower finished?
 subtitle: "Guess the year the Eiffel Tower was finished, then hear how a tower built to last twenty years, and hated by artists, was saved by radio."
+tags: ["eiffel tower","paris history","monument preservation","radio technology"]
+teaches: ["history/eiffel-tower-construction","history/paris-landmarks","concepts/how-structures-become-permanent"]
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","take":"lines"}
 format: quiz
 

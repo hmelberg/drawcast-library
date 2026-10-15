@@ -1,5 +1,7 @@
 # Is a tomato a fruit?
 subtitle: "Pick out the fruits among six salad and soup foods the way a botanist would, and learn what makes a fruit a fruit."
+tags: ["botany","fruit classification","tomatoes","plant biology","vegetables"]
+teaches: ["vocabulary/fruit-definition","concepts/botanical-vs-culinary-classification","methods/plant-identification"]
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host who loves a botanical surprise; light and quick","take":"lines"}
 
 ## Is a tomato a fruit?

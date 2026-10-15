@@ -1,5 +1,7 @@
 # Why an epidemic turns by itself
 subtitle: "How an epidemic peaks and fades while the virus stays just as contagious: it burns through the very people it needs"
+tags: ["epidemiology","epidemic models","disease transmission","herd immunity","viral spread","sir model"]
+teaches: ["concepts/epidemic-dynamics","concepts/herd-immunity","methods/mathematical-modeling","history/epidemiology"]
 voices: {"a":"gemini:Gacrux | a mature, calm epidemiologist; measured and clear","take":"lines"}
 
 ## Why an epidemic turns by itself

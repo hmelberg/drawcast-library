@@ -1,5 +1,7 @@
 # When was the first text message sent?
 subtitle: "Guess the year of the first text message, then hear what it said, who got it, and why he could not reply."
+tags: ["texting history","first text message","mobile communication history","sms technology","digital collectibles"]
+teaches: ["history/texting-origins","history/mobile-phone-technology","vocabulary/sms-basics"]
 voices: {"a":"gemini:Algenib | a gravelly, twinkly quiz host with stories to tell; warm, natural pace","take":"lines"}
 format: quiz
 

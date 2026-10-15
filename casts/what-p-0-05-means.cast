@@ -1,5 +1,7 @@
 # What p < 0.05 really means
 subtitle: "A blood-pressure trial on one curve: what a p-value measures, the misreading that flips it, and why 0.05 is only a convention."
+tags: ["statistics","p-values","hypothesis testing","research methods","drug trials","common misconceptions"]
+teaches: ["concepts/p-value-interpretation","concepts/type-i-error","methods/two-sided-testing","concepts/effect-size-vs-significance"]
 thumb: graph
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry statistician; dry humour, conversational","take":"lines"}
 

@@ -1,5 +1,7 @@
 # Why two rational suspects both confess
 subtitle: "Why two suspects who each do what is best for them both end up worse off, and how meeting again and again lets cooperation pay."
+tags: ["game theory","nash equilibrium","cooperation","repeated games","tit for tat"]
+teaches: ["concepts/prisoners-dilemma","concepts/nash-equilibrium","concepts/repeated-game-dynamics","strategies/tit-for-tat"]
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry game theorist; dry humour, conversational","take":"lines"}
 
 ## Why two rational suspects both confess

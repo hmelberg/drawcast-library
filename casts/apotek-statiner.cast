@@ -1,5 +1,7 @@
 # Statinoppfølging i apotek: nytte og kostnad
 subtitle: "Hvorfor verdien av at apoteket følger opp statinbrukere ligger i målingene og fastlegens svar, ikke i samtalen – og hva som fortsatt er usikkert."
+tags: ["pharmacy statin follow-up","cholesterol management","norwegian healthcare","medication adherence","cost-effectiveness analysis"]
+teaches: ["concepts/statin-follow-up-value","methods/qaly-health-economics","concepts/medication-adherence-barriers","concepts/primary-care-coordination"]
 thumb: "band \"Det er ikke samtalen\" note \"Fastlegen avgjør\" title \"Statinoppfølging i apotek: nytte og kostnad\""
 voices: {"a":"gemini:Charon | rolig, varm og tydelig norsk foredragsholder som snakker bokmål; saklig, aldri overdrevet"}
 

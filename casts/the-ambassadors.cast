@@ -1,5 +1,7 @@
 # The Ambassadors: what is on the floor?
 subtitle: "Holbein's Ambassadors shows off everything two young men knew and owned, then hides death where only a step to the side reveals it."
+tags: ["renaissance art","holbein","anamorphosis","memento mori","symbolism in painting","perspective tricks"]
+teaches: ["art-history/renaissance-painting","concepts/anamorphosis","concepts/memento-mori","analysis/visual-symbolism"]
 thumb: "question \"What's on the floor?\" picture \"File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg\" colour bottom"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 

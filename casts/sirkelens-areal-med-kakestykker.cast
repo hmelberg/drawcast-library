@@ -1,5 +1,7 @@
 # Hvorfor sirkelens areal er πr²
 subtitle: "Skjær en sirkel i tynne kakestykker, legg dem om til et rektangel, og se hvorfor arealet blir pi ganger radius i andre."
+tags: ["geometry","circle area","pi","radius","mathematics"]
+teaches: ["concepts/circle-area-formula","methods/geometric-proof","concepts/circumference-relationship"]
 voices: {"a":"gemini:Sulafat | a warm, clear Norwegian teacher speaking natural Norwegian Bokmål with an Eastern Norwegian accent; calm and unhurried, never theatrical","take":"lines"}
 
 ## Hvorfor sirkelens areal er πr²

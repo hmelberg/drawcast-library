@@ -1,5 +1,7 @@
 # How long did Mozart live?
 subtitle: "Guess when Mozart was born and how old he was when he died, then see how short the life behind six hundred works was."
+tags: ["mozart","classical music","composer biography","music history","lifespan"]
+teaches: ["history/mozart-life","history/classical-period","vocabulary/mozart-works"]
 voices: {"a":"gemini:Callirrhoe | an easy-going music lover hosting a quiz; warm and light","take":"lines"}
 
 ## How long did Mozart live?
