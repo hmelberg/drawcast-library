@@ -1,4 +1,5 @@
 # Does this exchange really win?
+teaches: ["calculation/counting","calculation/in-between-move"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do you count attackers and defenders on a square? Why can a trade that looks equal lose material? What is an in-between move, and why does it break your count?"
 next: {"title":"How far ahead can you see?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/04-how-far-ahead-can-you-see.cast"}
@@ -26,7 +27,7 @@ A: Ask what his move left behind. Who guards that knight on e4?
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Count who guards the knight on e4.","Your knight on c3."] themes ["hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["Count who guards the knight on e4.","Your knight on c3."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Knight takes e4: one attacker, no defender, so the knight was simply loose.
         wrong: Before you save your knight, count who guards his.
 
@@ -51,7 +52,7 @@ A: The knight and the queen both hit h2, and only your king guards it.
 
     erase arrow_0 arrow_1
 
-    ask "Stop the threat." widget chess line true hints ["Block the queen's path to h2.","A pawn move."] themes ["threat"] voice a
+    ask "Stop the threat." widget chess line true hints ["Block the queen's path to h2.","A pawn move."] themes ["threat"] voice a teaches ["safety/threats"]
         right: Pawn to h3: it shuts the queen off from h2 and attacks the knight on g4.
         wrong: Pawn to g3 still allows queen takes h2. What stands between the queen and h2?
 

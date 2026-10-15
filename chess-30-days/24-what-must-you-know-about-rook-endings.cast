@@ -1,4 +1,5 @@
 # What must you know about rook endings?
+teaches: ["endgames/rook-endings"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Why does the rook belong behind the passed pawn? How do you hold Philidor's position and win Lucena's?"
 next: {"title":"Bishop or knight in the ending?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/25-bishop-or-knight-in-the-ending.cast"}
@@ -26,7 +27,7 @@ A: Your king already stands inside that pawn's square. Count the square of your 
 
     pause 0.3
 
-    ask "Win the race." widget chess line true hints ["Count the square of your own pawn.","Push the b-pawn now."] themes ["square rule"] voice a
+    ask "Win the race." widget chess line true hints ["Count the square of your own pawn.","Push the b-pawn now."] themes ["square rule"] voice a teaches ["endgames/square-rule"]
         right: Pawn to b5. The pawn's square shrinks, Black's king is now outside it, and your own king still stops the h-pawn.
         wrong: Draw the square from your b-pawn to the eighth rank. Where is Black's king?
 
@@ -51,7 +52,7 @@ A: and the pawn walks through to e8.
 
     pause 0.3
 
-    ask "Save the draw." widget chess line true hints ["Keep your king in front of the pawn.","Where does your king answer when White's comes to f6?"] themes ["opposition"] voice a
+    ask "Save the draw." widget chess line true hints ["Keep your king in front of the pawn.","Where does your king answer when White's comes to f6?"] themes ["opposition"] voice a teaches ["endgames/opposition"]
         right: King to e8, straight back. When White's king comes to f6, yours answers on f8: you keep the opposition, and it's a draw.
         wrong: Off the pawn's file, White's king gets past you. Stay in front of the pawn.
 
@@ -255,7 +256,7 @@ A: Checks first. There's a check that wins more.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Look at every check.","Which check lines up the king and the rook?"] themes ["skewer","rook ending"] voice a
+    ask "Win material." widget chess line true hints ["Look at every check.","Which check lines up the king and the rook?"] themes ["skewer","rook ending"] voice a teaches ["tactics/skewer","endgames/rook-endings"]
         right: Rook to a6, check. The king steps away, and the rook on h6 falls: a skewer along the sixth rank.
         wrong: The pawn can wait. Which check puts the king and the rook on one line?
 
@@ -267,7 +268,7 @@ B: I'd keep the rooks on. More pieces, more chances.
 
     pause 0.3
 
-    ask "Find the win." widget chess line true hints ["Count it to the end: what is left after a trade?","Your king already stands in front of its pawn."] themes ["opposition","conversion"] voice a
+    ask "Find the win." widget chess line true hints ["Count it to the end: what is left after a trade?","Your king already stands in front of its pawn."] themes ["opposition","conversion"] voice a teaches ["endgames/opposition","endgames/conversion"]
         right: Rook takes e7, check, and the king takes back: a won pawn ending, with your king in front of its pawn. Keep the rooks, and the best you get is a draw.
         wrong: With the rooks on, Black holds. What does a trade leave?
 

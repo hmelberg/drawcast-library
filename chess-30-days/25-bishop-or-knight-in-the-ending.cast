@@ -1,4 +1,5 @@
 # Bishop or knight in the ending?
+teaches: ["endgames/minor-piece-endings"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "When is a bishop better than a knight, and when the other way round? How do you trade down into an ending you know is won?"
 next: {"title":"How do you win a won game?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/26-how-do-you-win-a-won-game.cast"}
@@ -29,7 +30,7 @@ A: Day twenty-three: the king goes first.
 
     pause 0.3
 
-    ask "Win the game." widget chess line true hints ["The king leads, the pawn follows.","Which square in front of the pawn can your king reach?"] themes ["key squares","opposition"] voice a
+    ask "Win the game." widget chess line true hints ["The king leads, the pawn follows.","Which square in front of the pawn can your king reach?"] themes ["key squares","opposition"] voice a teaches ["endgames/opposition"]
         right: King to e6: your king stands in front of the pawn, on a key square, and Black's king can no longer stop the pawn.
         wrong: Bring the king up first, in front of the pawn.
 
@@ -47,7 +48,7 @@ A: Yesterday's rule says the rook belongs behind the pawn. Yours isn't, so find 
 
     pause 0.3
 
-    ask "Win the game." widget chess line true hints ["Move the rook off the a-file, to a square with a future check.","If his rook takes the pawn, which check lines up king and rook?"] themes ["rook ending","skewer"] voice a
+    ask "Win the game." widget chess line true hints ["Move the rook off the a-file, to a square with a future check.","If his rook takes the pawn, which check lines up king and rook?"] themes ["rook ending","skewer"] voice a teaches ["endgames/rook-endings","tactics/skewer"]
         right: Rook to h8. His rook takes the pawn, rook to h7 is check, and when the king steps away, the rook on a7 falls. If he leaves the pawn, it queens and costs him his rook.
         wrong: Your rook can leave the a-file. Where would a check line up his king and his rook?
 
@@ -235,7 +236,7 @@ A: And the bishop just takes it: nothing guards e5.
 
     pause 0.3
 
-    ask "Win the game." widget chess line true hints ["Look at the checks first.","A knight check that hits the bishop too."] themes ["fork","minor piece ending"] voice a
+    ask "Win the game." widget chess line true hints ["Look at the checks first.","A knight check that hits the bishop too."] themes ["fork","minor piece ending"] voice a teaches ["tactics/fork","endgames/minor-piece-endings"]
         right: Knight to f5, check, forking king and bishop. The king steps away, the knight takes the bishop, and knight and pawn beat a lone king.
         wrong: Which knight check also attacks the bishop?
 
@@ -250,7 +251,7 @@ A: Then his knight keeps guarding c6, and your pawn is stuck: a draw.
 
     pause 0.3
 
-    ask "Win the game." widget chess line true hints ["Picture the ending after a trade.","Without his knight, can his king catch your pawn?"] themes ["conversion","square rule"] voice a
+    ask "Win the game." widget chess line true hints ["Picture the ending after a trade.","Without his knight, can his king catch your pawn?"] themes ["conversion","square rule"] voice a teaches ["endgames/conversion","endgames/square-rule"]
         right: Knight takes d4, the king takes back, and the pawn runs: his king can't catch it, and yours guards c7 and c8.
         wrong: Saving the knight lets his knight stop the pawn. What if there were no knights at all?
 

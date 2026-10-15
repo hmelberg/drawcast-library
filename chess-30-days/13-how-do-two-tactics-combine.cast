@@ -1,4 +1,5 @@
 # How do two tactics combine?
+teaches: ["calculation/combination"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do you spot a combination that uses two motifs at once? When does a sacrifice actually work?"
 next: {"title":"Week 2 review: tactics without labels","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/14-week-2-review-tactics-without-labels.cast"}
@@ -30,7 +31,7 @@ A: No: the pawn on d6 takes back, a rook for a knight. This pinned knight can't 
 
     pause 0.3
 
-    ask "Win the knight." widget chess line true hints ["The knight is pinned: it can't move.","Which pawn can attack it?"] themes ["pin"] voice a
+    ask "Win the knight." widget chess line true hints ["The knight is pinned: it can't move.","Which pawn can attack it?"] themes ["pin"] voice a teaches ["tactics/pin"]
         right: Pawn to f4. The knight can't step away without exposing the king, and next move the pawn takes it.
         wrong: Don't take yet. Attack the pinned knight with your cheapest piece.
 
@@ -48,7 +49,7 @@ A: It's your move: that queen isn't going anywhere yet. So first: checks, captur
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A capture with check comes first.","Your knight on d5."] themes ["in-between move"] voice a
+    ask "Win material." widget chess line true hints ["A capture with check comes first.","Your knight on d5."] themes ["in-between move"] voice a teaches ["calculation/in-between-move"]
         right: Knight takes the rook on e7, check. The king goes to h8, and then the rook takes back the queen: a whole rook won.
         wrong: The queen can wait one move. What can you take with check?
 
@@ -96,7 +97,7 @@ A: The guard on c6 is the one thing in the way.
 
     pause 0.3
 
-    ask "Win the queen." widget chess line true hints ["Remove the guard of e7 first.","Your bishop on b5."] themes ["removing the defender","fork"] voice a
+    ask "Win the queen." widget chess line true hints ["Remove the guard of e7 first.","Your bishop on b5."] themes ["removing the defender","fork"] voice a teaches ["tactics/removing-the-defender","tactics/fork"]
         right: Bishop takes c6. If the pawn takes back, knight to e7, check: the king steps to h8, and the knight takes the queen on c8.
         wrong: The fork on e7 is guarded. Take the guard first.
 
@@ -201,7 +202,7 @@ A: Now that you've seen two tactics work as one, it's your turn: three combinati
 
     pause 0.3
 
-    ask "Checkmate." widget chess line true hints ["The knight on f6 guards h7.","Take it, with check."] themes ["removing the defender","mating pattern"] voice a test d13
+    ask "Checkmate." widget chess line true hints ["The knight on f6 guards h7.","Take it, with check."] themes ["removing the defender","mating pattern"] voice a test d13 teaches ["tactics/removing-the-defender","tactics/mating-patterns"]
         right: Knight takes f6, check. The pawn takes back, but whatever Black does, the queen mates on h7, with the bishop behind her.
         wrong: Your queen and bishop both aim at h7. What guards it?
 
@@ -213,7 +214,7 @@ A: Next: one black piece has two jobs.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["The rook on d8 guards the queen and the back rank.","Your queen."] themes ["overloading","back rank"] voice a test d13
+    ask "Win material." widget chess line true hints ["The rook on d8 guards the queen and the back rank.","Your queen."] themes ["overloading","back rank"] voice a test d13 teaches ["tactics/overloading","safety/back-rank"]
         right: Queen takes d7. If the rook takes back, rook to e8 is mate; if not, you're a queen up.
         wrong: Which black piece is guarding two things at once?
 
@@ -222,7 +223,7 @@ A: An older one now, from the pins and skewers day.
 
     pause 0.3
 
-    ask "Win the rook." widget chess line true hints ["A check on the long diagonal.","Your bishop."] themes ["skewer"] voice a test d13
+    ask "Win the rook." widget chess line true hints ["A check on the long diagonal.","Your bishop."] themes ["skewer"] voice a test d13 teaches ["tactics/skewer"]
         right: Bishop to e4, check. The king steps off the diagonal, and the bishop takes the rook on b1.
         wrong: Check the king so that the rook stands behind it on the same line.
 
@@ -231,7 +232,7 @@ A: Last one: you're Black, so the board turns round.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["The knight on f3 is the rook's only guard.","Your bishop on g4."] themes ["removing the defender"] voice a test d13
+    ask "Win a piece." widget chess line true hints ["The knight on f3 is the rook's only guard.","Your bishop on g4."] themes ["removing the defender"] voice a test d13 teaches ["tactics/removing-the-defender"]
         right: Bishop takes f3, the rook's only guard. If the pawn takes back, your other bishop takes the rook on d4 for free; if the rook runs, you stay a knight up.
         wrong: Taking the rook now gives three for five. What guards it?
 

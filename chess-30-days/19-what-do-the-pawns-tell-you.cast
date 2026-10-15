@@ -1,4 +1,5 @@
 # What do the pawns tell you?
+teaches: ["strategy/pawn-structure"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What are isolated, doubled, backward and passed pawns good and bad for? How does a pawn chain tell you which side of the board to play on?"
 next: {"title":"Which of your pieces is doing nothing?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/20-which-of-your-pieces-is-doing-nothing.cast"}
@@ -35,7 +36,7 @@ A: It's guarded twice, by the king and the bishop: you'd lose the queen.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Checks first.","Which pawn can your queen take with check?"] themes ["trap"] voice a
+    ask "Win material." widget chess line true hints ["Checks first.","Which pawn can your queen take with check?"] themes ["trap"] voice a teaches ["openings/traps"]
         right: Queen takes e4, check. A bishop block walks into knight to f3, mate; so White blocks with the queen, and the knight takes it.
         wrong: Look for a queen check that also takes something.
 
@@ -53,7 +54,7 @@ A: Then the knight takes back, and you've given a rook for a bishop.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["Remove the guard.","Your bishop on g5."] themes ["removing the defender"] voice a
+    ask "Win a piece." widget chess line true hints ["Remove the guard.","Your bishop on g5."] themes ["removing the defender"] voice a teaches ["tactics/removing-the-defender"]
         right: Bishop takes f6: the bishop on d5 loses its only guard. The pawn takes back, and the rook takes d5.
         wrong: Before you take on d5, take away what guards it.
 
@@ -235,7 +236,7 @@ B: The rook on d8 blocks it. I'll bring my king up.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Attack the blocker.","Your rook on c1."] themes ["deflection","pawn structure"] voice a
+    ask "Win material." widget chess line true hints ["Attack the blocker.","Your rook on c1."] themes ["deflection","pawn structure"] voice a teaches ["tactics/deflection","strategy/pawn-structure"]
         right: Rook to c8 attacks the blocker. If it takes, the pawn takes and queens; so Black gives the rook for the pawn, and the bishop takes back.
         wrong: Which move hits the rook on d8, so that taking costs Black the pawn's queen?
 
@@ -247,7 +248,7 @@ B: Black's pieces look safe to me.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A pawn can attack two pieces.","Your pawn on d4."] themes ["fork","pawn structure"] voice a
+    ask "Win material." widget chess line true hints ["A pawn can attack two pieces.","Your pawn on d4."] themes ["fork","pawn structure"] voice a teaches ["tactics/fork","strategy/pawn-structure"]
         right: Pawn to d5 forks the knight and the bishop, and the pawn on e4 guards it: one of them is lost.
         wrong: Which pawn move attacks two black pieces at once?
 
@@ -259,7 +260,7 @@ A: One older theme: a passed pawn on a7, and a rook behind it.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Get your rook out of the pawn's way.","If the rook takes a7, which check lines up the king and the rook?"] themes ["skewer","pawn structure"] voice a
+    ask "Win material." widget chess line true hints ["Get your rook out of the pawn's way.","If the rook takes a7, which check lines up the king and the rook?"] themes ["skewer","pawn structure"] voice a teaches ["tactics/skewer","strategy/pawn-structure"]
         right: Rook to h8, so the pawn threatens to queen. The rook takes a7, rook to h7 is check along the seventh, the king steps away, and the rook on a7 falls.
         wrong: Move your rook so the pawn can queen, and keep a check in reserve.
 

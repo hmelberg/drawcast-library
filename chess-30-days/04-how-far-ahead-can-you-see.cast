@@ -1,4 +1,5 @@
 # How far ahead can you see?
+teaches: ["calculation/visualisation","safety/three-questions"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Why look at checks, captures and threats first? How do you calculate three moves deep without moving the pieces?"
 next: {"title":"Why do the opening rules exist?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/05-why-do-the-opening-rules-exist.cast"}
@@ -25,7 +26,7 @@ A: Count what the pieces cost, not just how many. Which of your attackers is che
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Count what each piece costs.","Your knight."] themes ["counting"] voice a
+    ask "Win material." widget chess line true hints ["Count what each piece costs.","Your knight."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Knight takes the rook, and the pawn takes back: a rook for a knight, and Black's extra exchange is gone. The numbers were equal; the values weren't.
         wrong: Two against two, but what does each of those pieces cost?
 
@@ -46,7 +47,7 @@ A: Find a move that makes two threats at once.
 
     pause 0.3
 
-    ask "Make two threats." widget chess line true hints ["Your queen and bishop both aim at g7.","Which queen move also hits b4?"] themes ["threat"] voice a
+    ask "Make two threats." widget chess line true hints ["Your queen and bishop both aim at g7.","Which queen move also hits b4?"] themes ["threat"] voice a teaches ["safety/threats"]
         right: Queen to g4 threatens mate on g7 and the loose knight on b4. Black stops the mate, and the knight falls.
         wrong: Look for a queen move that threatens mate and attacks the knight.
 
@@ -125,7 +126,7 @@ A: That's where most players stop: one move deep. It's your move again. Checks, 
 
     pause 0.3
 
-    ask "Keep going." widget chess line true hints ["A check with the knight.","What does your queen see once the knight has moved?"] themes ["discovered attack","combination"] voice a
+    ask "Keep going." widget chess line true hints ["A check with the knight.","What does your queen see once the knight has moved?"] themes ["discovered attack","combination"] voice a teaches ["tactics/discovered-attack","calculation/combination"] pool false
         right: Knight to g5, check. The king steps away, and the queen takes the bishop on g4.
         wrong: Checks first: which knight move gives check, and what does it uncover?
 
@@ -157,7 +158,7 @@ A: Now sit in Black's chair: the board turns round.
 
     pause 0.3
 
-    ask "Punish it." widget chess line true hints ["Checks first.","Your rook and queen stand on the e-file."] themes ["back rank"] voice a
+    ask "Punish it." widget chess line true hints ["Checks first.","Your rook and queen stand on the e-file."] themes ["back rank"] voice a teaches ["safety/back-rank"]
         right: Rook to e1, check. The rook takes it, the queen takes back: mate on the back rank.
         wrong: Look at Black's checks first: who still guards e1?
 
@@ -200,7 +201,7 @@ A: Now you know the method: forcing moves first, each to a quiet end. Your turn:
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Checks first: your bishop.","What does the rook on d1 see once the bishop has gone?"] themes ["discovered attack"] voice a
+    ask "Win material." widget chess line true hints ["Checks first: your bishop.","What does the rook on d1 see once the bishop has gone?"] themes ["discovered attack"] voice a teaches ["tactics/discovered-attack"]
         right: Bishop takes h7, check. The king takes, and the rook takes the queen: a queen for a rook and a bishop.
         wrong: Which check moves a piece out of your rook's way?
 
@@ -209,7 +210,7 @@ A: Now you're Black, so the board turns round. An old friend: a loose piece.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which white piece has no guard?","A queen check."] themes ["hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["Which white piece has no guard?","A queen check."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Queen to a5, check. White blocks, and the queen takes the loose knight on e5.
         wrong: Find the white piece nobody guards, then a check that also hits it.
 
@@ -221,7 +222,7 @@ B: So it's safe.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Count the pieces behind, too.","Your second rook and queen are on the d-file."] themes ["counting"] voice a
+    ask "Win material." widget chess line true hints ["Count the pieces behind, too.","Your second rook and queen are on the d-file."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Rook takes, rook takes back, rook takes again. Your second rook and queen stand behind the first: three attackers against one defender, and you win a rook.
         wrong: Count every piece lined up on the d-file, front and back.
 
@@ -234,19 +235,19 @@ A: Now the test: three positions, each two or three moves deep.
 A: See it to the end before your first move.
     highlight piece_g8
 
-    ask "Mate in two." widget chess line true themes ["back rank"] voice a test day4
+    ask "Mate in two." widget chess line true themes ["back rank"] voice a test day4 teaches ["safety/back-rank"]
         right: Queen takes f8, check. The king must take, and the rook mates on d8: the pawn on f6 covers e7, and his own pawns block f7 and g7.
 
 A: Two. You're Black, so the board turns round.
     animate position_shown 4 plies_shown 0 duration 0.4
 
-    ask "Mate in two." widget chess line true themes ["mating pattern"] voice a test day4
+    ask "Mate in two." widget chess line true themes ["mating pattern"] voice a test day4 teaches ["tactics/mating-patterns"]
         right: Queen takes h2, check, with the bishop behind her. The king runs to f1, and the queen mates on h1: his own rook, bishop and pawns block him in.
 
 A: Last one. Black has two answers. See both.
     animate position_shown 5 plies_shown 0 duration 0.4
 
-    ask "Win material." widget chess line true themes ["combination"] voice a test day4
+    ask "Win material." widget chess line true themes ["combination"] voice a test day4 teaches ["calculation/combination"]
         right: Rook to c8. If the rook takes, the pawn takes back and queens with mate. So the king steps aside to f8, and your rook takes d8 with check: a whole rook up.
 
     erase position

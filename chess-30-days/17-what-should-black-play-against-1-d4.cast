@@ -1,4 +1,5 @@
 # What should Black play against 1.d4?
+teaches: ["openings/black-against-d4"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How does the Queen's Gambit Declined set-up work? What do you do against the London and other quiet systems?"
 next: {"title":"Which opening traps catch club players?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/18-which-opening-traps-catch-club-players.cast"}
@@ -34,7 +35,7 @@ A: It only swaps a bishop for a knight. A pinned piece can't run: there's more t
 
     pause 0.5
 
-    ask "Win a piece." widget chess line true hints ["What is cheaper than a bishop?","A pawn move."] themes ["pin","opening"] voice a
+    ask "Win a piece." widget chess line true hints ["What is cheaper than a bishop?","A pawn move."] themes ["pin","opening"] voice a teaches ["tactics/pin","openings/black-against-d4"]
         right: Pawn to d5 attacks the pinned knight. It can't step away from its king, and Black can't save it.
         wrong: Which of your cheapest men can attack the knight?
 
@@ -51,7 +52,7 @@ A: Your rook on e1 pins the knight on e5 to the king.
 
     pause 0.5
 
-    ask "Win a piece." widget chess line true hints ["Hit the pinned knight with something cheap.","A pawn move."] themes ["pin"] voice a
+    ask "Win a piece." widget chess line true hints ["Hit the pinned knight with something cheap.","A pawn move."] themes ["pin"] voice a teaches ["tactics/pin"]
         right: Pawn to f4 attacks the pinned knight. Black can block the pin, but the knight is still lost.
         wrong: The knight can't move. Which pawn can attack it?
 
@@ -167,7 +168,7 @@ A: Pinned only to the queen, so it can still move. You've met this trap twice; h
 
     pause 0.5
 
-    ask "Win material." widget chess line 3 hints ["Is the knight on f6 really stuck?","After White takes your queen, give check."] themes ["opening","trap","pin"] voice a
+    ask "Win material." widget chess line 3 hints ["Is the knight on f6 really stuck?","After White takes your queen, give check."] themes ["opening","trap","pin"] voice a teaches ["openings/black-against-d4","openings/traps","tactics/pin"]
         right: Knight takes d5. White takes your queen, and bishop to b4 gives check.
         wrong: Let the knight take, then count every capture after it, checks included.
 
@@ -325,7 +326,7 @@ A: The Cambridge Springs, named after a tournament there in 1904: your queen on 
 
     pause 0.5
 
-    ask "Win a piece." widget chess line true hints ["A pawn capture that attacks.","What does your queen see once d5 is empty?"] themes ["opening","trap","discovered attack"] voice a
+    ask "Win a piece." widget chess line true hints ["A pawn capture that attacks.","What does your queen see once d5 is empty?"] themes ["opening","trap","discovered attack"] voice a teaches ["openings/black-against-d4","openings/traps","tactics/discovered-attack"]
         right: Pawn takes c4. It hits the bishop on d3 and opens the fifth rank, so your queen now hits the bishop on g5 too. White can't keep both bishops.
         wrong: Look along the fifth rank from your queen: what stands in the way?
 
@@ -339,7 +340,7 @@ A: Next, a middlegame after the freeing break.
 
     pause 0.5
 
-    ask "Win a piece." widget chess line true hints ["Push the freeing pawn once more.","Which two pieces would it attack?"] themes ["fork","pawn structure"] voice a
+    ask "Win a piece." widget chess line true hints ["Push the freeing pawn once more.","Which two pieces would it attack?"] themes ["fork","pawn structure"] voice a teaches ["tactics/fork","strategy/pawn-structure"]
         right: Pawn to e4 forks the bishop and the knight. If the bishop takes it, your knight takes back: a piece for a pawn.
         wrong: Which pawn move attacks two pieces at once?
 
@@ -353,7 +354,7 @@ A: Next: White's bishop went to g5 early.
 
     pause 0.5
 
-    ask "Win a piece." widget chess line true hints ["Checks first.","A queen check that also sees g5."] themes ["fork","hanging piece"] voice a
+    ask "Win a piece." widget chess line true hints ["Checks first.","A queen check that also sees g5."] themes ["fork","hanging piece"] voice a teaches ["tactics/fork","safety/hanging-pieces"]
         right: Queen to a5, check. The knight blocks on c3, and the queen takes the bishop on g5.
         wrong: Which check also lines your queen up with g5?
 
@@ -367,7 +368,7 @@ A: And one from mating-pattern day.
 
     pause 0.5
 
-    ask "Mate in two." widget chess line true hints ["Look at White's back rank.","Give up your queen with check."] themes ["back rank","mating pattern"] voice a
+    ask "Mate in two." widget chess line true hints ["Look at White's back rank.","Give up your queen with check."] themes ["back rank","mating pattern"] voice a teaches ["safety/back-rank","tactics/mating-patterns"]
         right: Queen takes e1, check. White's queen takes back, and the rook mates on the back rank.
         wrong: White's king has no escape square. Which capture opens the e-file for your rook?
 

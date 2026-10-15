@@ -1,4 +1,5 @@
 # Who is guarding what?
+teaches: ["tactics/removing-the-defender","tactics/overloading","tactics/deflection","tactics/decoy"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do you remove the defender? What does it mean when one piece has too many jobs? How do deflection and decoy pull a piece away?"
 next: {"title":"Which mating patterns should you know by sight?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/11-which-mating-patterns-should-you-know-by.cast"}
@@ -25,7 +26,7 @@ A: It can't move: behind it stands the king.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["A pinned piece can't run.","Attack it with a pawn."] themes ["pin"] voice a
+    ask "Win a piece." widget chess line true hints ["A pinned piece can't run.","Attack it with a pawn."] themes ["pin"] voice a teaches ["tactics/pin"]
         right: Pawn to f4 attacks the knight, and it can't move at all: the king is behind it.
         wrong: The knight can't move. What cheap piece can attack it?
 
@@ -40,7 +41,7 @@ B: My knight can check on f6.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check that hits something big.","Knight to f6."] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight check that hits something big.","Knight to f6."] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to f6, check: it hits the king and the queen. The king steps away, and the knight takes the queen: a knight for a queen.
         wrong: Which knight check also attacks the queen?
 
@@ -164,7 +165,7 @@ A: Now it stands on h8, off f7, on a fork square.
 
     pause 0.3
 
-    ask "Finish it." widget chess line 1 hints ["A knight check.","Knight takes f7."] themes ["decoy","fork"] voice a
+    ask "Finish it." widget chess line 1 hints ["A knight check.","Knight takes f7."] themes ["decoy","fork"] voice a teaches ["tactics/decoy","tactics/fork"]
         right: Knight takes f7, check: it forks the king and the queen.
         wrong: The king stands on h8 now. Which knight check also hits the queen?
 
@@ -241,7 +242,7 @@ A: Back to White, and a trick from day eight.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["A pawn can fork.","The pawn on e4."] themes ["fork"] voice a
+    ask "Win a piece." widget chess line true hints ["A pawn can fork.","The pawn on e4."] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Pawn to e5 hits the knight and the bishop: one of them falls.
         wrong: Which pawn move attacks two black pieces at once?
 
@@ -250,7 +251,7 @@ A: Last, as Black again: a pin from day nine.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which white piece stands in front of its king?","Bishop to b4."] themes ["pin"] voice a
+    ask "Win material." widget chess line true hints ["Which white piece stands in front of its king?","Bishop to b4."] themes ["pin"] voice a teaches ["tactics/pin"]
         right: Bishop to b4 pins the queen to the king, so White loses her for a bishop. Here she takes it, and the pawn takes her.
         wrong: Look along the diagonal to White's king.
 

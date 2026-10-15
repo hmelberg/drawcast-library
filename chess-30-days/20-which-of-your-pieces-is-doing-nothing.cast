@@ -1,4 +1,5 @@
 # Which of your pieces is doing nothing?
+teaches: ["strategy/piece-activity"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What makes a piece good or bad: outposts, the bad bishop? Why improve your worst piece first? Why do rooks belong on open files and the seventh rank?"
 next: {"title":"How do you make a plan in the middlegame?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/21-how-do-you-make-a-plan-in-the-middlegame.cast"}
@@ -25,7 +26,7 @@ A: A check, yes. But the king steps aside, and then what? Look behind the king.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Look for a skewer.","Check the king on the long diagonal."] themes ["skewer"] voice a
+    ask "Win material." widget chess line true hints ["Look for a skewer.","Check the king on the long diagonal."] themes ["skewer"] voice a teaches ["tactics/skewer"]
         right: Bishop to f3, check: the king has to leave the long diagonal, and the bishop takes the rook on a8.
         wrong: Which check has something standing behind the king?
 
@@ -43,7 +44,7 @@ A: Your pawns are nearer the end. Give two, and the third runs.
 
     pause 0.3
 
-    ask "Break through." widget chess line true hints ["Give up a pawn first.","The middle pawn goes first."] themes ["pawn structure"] voice a
+    ask "Break through." widget chess line true hints ["Give up a pawn first.","The middle pawn goes first."] themes ["pawn structure"] voice a teaches ["strategy/pawn-structure"]
         right: Pawn to b6: the c-pawn takes. Pawn to a6: the b-pawn takes. Then c6, and nothing can stop it reaching c8.
         wrong: Push the middle pawn: whichever pawn takes it, look at the gap it leaves.
 
@@ -232,7 +233,7 @@ A: First, a knight on its outpost.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Look for a fork with check.","The knight on d5."] themes ["outpost","fork"] voice a test d20
+    ask "Win material." widget chess line true hints ["Look for a fork with check.","The knight on d5."] themes ["outpost","fork"] voice a test d20 teaches ["strategy/piece-activity","tactics/fork"]
         right: Knight to f6, check: it hits the king and the queen on d7. The king steps away, and the knight takes the queen.
         wrong: Which knight jump gives check and hits something else too?
 
@@ -244,7 +245,7 @@ A: Two rooks on the seventh rank. Black has a queen; you don't.
 
     pause 0.3
 
-    ask "Mate in three." widget chess line true hints ["Start with a capture that checks.","Rook takes g7."] themes ["mating pattern"] voice a test d20
+    ask "Mate in three." widget chess line true hints ["Start with a capture that checks.","Rook takes g7."] themes ["mating pattern"] voice a test d20 teaches ["tactics/mating-patterns"]
         right: Rook takes g7, check. The king goes to h8; rook takes h7, check; back to g8; and the other rook comes to g7: mate.
         wrong: Both rooks work along the seventh rank. Start with a capture that checks.
 
@@ -256,7 +257,7 @@ A: Now two rooks on the open file.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Look at his back rank.","One rook goes in first."] themes ["open file","back rank"] voice a test d20
+    ask "Find the best move." widget chess line true hints ["Look at his back rank.","One rook goes in first."] themes ["open file","back rank"] voice a test d20 teaches ["strategy/piece-activity","safety/back-rank"]
         right: Rook to d8, check: his rook takes, and your second rook takes back with mate on the back rank.
         wrong: His king has no escape square. Which check lands on his back rank?
 
@@ -268,7 +269,7 @@ B: Can I just take it? It looks too easy.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Check what guards b7.","Nothing does."] themes ["hanging piece"] voice a test d20
+    ask "Find the best move." widget chess line true hints ["Check what guards b7.","Nothing does."] themes ["hanging piece"] voice a test d20 teaches ["safety/hanging-pieces"]
         right: Rook takes b7: nothing guards the bishop. Sometimes the obvious move is the right one.
         wrong: Count what guards the bishop on b7.
 

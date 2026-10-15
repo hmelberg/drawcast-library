@@ -1,4 +1,5 @@
 # What should Black play against 1.e4?
+teaches: ["openings/black-against-e4"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How does 1…e5 meet the Italian with …Bc5? What do you do against the Scotch and other early d4 moves?"
 next: {"title":"What should Black play against 1.d4?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/17-what-should-black-play-against-1-d4.cast"}
@@ -25,7 +26,7 @@ B: The knight looks safe. Nothing of White's attacks it.
 
     pause 0.3
 
-    ask "Win material." widget chess line 1 hints ["One move, two threats.","Your queen, and the square f7."] themes ["opening","fork"] voice a
+    ask "Win material." widget chess line 1 hints ["One move, two threats.","Your queen, and the square f7."] themes ["opening","fork"] voice a teaches ["openings/black-against-e4","tactics/fork"]
         right: Queen to d5: it threatens mate on f7 with the bishop, and it hits the knight on e4 at the same time.
         wrong: Which queen move threatens mate and hits the knight?
 
@@ -49,7 +50,7 @@ B: Material's level. I'd pull my knight back to safety.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the rook?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the rook?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to c7, check, instead of retreating: the king steps to d8, and the knight takes the rook on a8.
         wrong: Before it retreats, look for a check that hits something else too.
 
@@ -239,7 +240,7 @@ A: The Scotch. White took your knight on c6, your queen went to f6, and White ju
 
     pause 0.3
 
-    ask "Mate in one." widget chess line true hints ["Checks first.","What guards f2?"] themes ["opening","mating pattern"] voice a
+    ask "Mate in one." widget chess line true hints ["Checks first.","What guards f2?"] themes ["opening","mating pattern"] voice a teaches ["openings/black-against-e4","tactics/mating-patterns"]
         right: Queen takes f2, mate. The bishop on c5 guards her, and the king has no square.
         wrong: Which square next to White's king does only the king defend?
 
@@ -251,7 +252,7 @@ A: The Centre Game. White's queen ran from your knight to c3.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["What stands behind the queen?","A bishop move."] themes ["opening","pin"] voice a
+    ask "Win material." widget chess line true hints ["What stands behind the queen?","A bishop move."] themes ["opening","pin"] voice a teaches ["openings/black-against-e4","tactics/pin"]
         right: Bishop to b4 pins the queen to the king: she falls for a bishop.
         wrong: Look along the diagonal from the queen to White's king.
 
@@ -266,7 +267,7 @@ B: I save the bishop.
 
     pause 0.3
 
-    ask "Keep your extra piece." widget chess line true hints ["Captures first.","Your knight on e5 can take something."] themes ["opening","in-between move"] voice a
+    ask "Keep your extra piece." widget chess line true hints ["Captures first.","Your knight on e5 can take something."] themes ["opening","in-between move"] voice a teaches ["openings/black-against-e4","calculation/in-between-move"]
         right: Knight takes c4 first, instead of saving the bishop. White takes your bishop, and you stay a knight up for a pawn.
         wrong: Before you save anything, what can your attacked knight capture?
 
@@ -275,7 +276,7 @@ A: One from week two. White's pawn on c3 kicks your knight.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the queen?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the queen?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to f3, check: the king steps aside, and the queen on d2 falls.
         wrong: Before it retreats, look for a check that hits something else too.
 

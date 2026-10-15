@@ -1,4 +1,5 @@
 # How do you win a won game?
+teaches: ["endgames/conversion"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Why trade pieces, not pawns, when you are ahead? How do you take away the opponent's counterplay before you cash in?"
 next: {"title":"How do you save a lost game?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/27-how-do-you-save-a-lost-game.cast"}
@@ -28,7 +29,7 @@ A: Rook first, and the pawn takes it. Then his rook on d8 takes your knight. Cou
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Send the cheapest attacker in first.","Your knight on c3."] themes ["counting"] voice a
+    ask "Win material." widget chess line true hints ["Send the cheapest attacker in first.","Your knight on c3."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Knight takes d5, and the pawn takes back: a knight for a rook. Then stop, because his rook on d8 guards d5 again.
         wrong: Rook first gives five for five, and then you lose the knight. Which attacker costs least?
 
@@ -48,7 +49,7 @@ A: There's a better push.
 
     pause 0.3
 
-    ask "Make a queen." widget chess line true hints ["Give the bishop a pawn to take.","The pawn on b6."] themes ["minor piece ending","decoy"] voice a
+    ask "Make a queen." widget chess line true hints ["Give the bishop a pawn to take.","The pawn on b6."] themes ["minor piece ending","decoy"] voice a teaches ["endgames/minor-piece-endings","tactics/decoy"]
         right: Pawn to b7. If the bishop takes, the a-pawn takes back, and nothing covers b8; if it doesn't, b8 makes a queen.
         wrong: Pushing to a7 lets the bishop wait. Which push forces it to take?
 
@@ -148,7 +149,7 @@ A: We're on Black's side of the board now. Find his move.
 
     pause 0.3
 
-    ask "Punish the grab." widget chess line true hints ["Checks first.","White's king has no air on the back rank."] themes ["back rank"] voice a
+    ask "Punish the grab." widget chess line true hints ["Checks first.","White's king has no air on the back rank."] themes ["back rank"] voice a teaches ["safety/back-rank"]
         right: Rook to e1, mate. White's king has no air, and nothing can cover e1.
         wrong: Look at every check, starting with the rook.
 
@@ -230,7 +231,7 @@ A: Now a fork, from week two. He has one rook left.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check.","Which square hits the king and the rook?"] themes ["fork","conversion"] voice a test conv
+    ask "Win material." widget chess line true hints ["A knight check.","Which square hits the king and the rook?"] themes ["fork","conversion"] voice a test conv teaches ["tactics/fork","endgames/conversion"]
         right: Knight to c7, check: the king moves, and the knight takes the rook on a8. He has nothing left to fight with.
         wrong: Look for a knight check that also hits a8.
 
@@ -239,7 +240,7 @@ A: Last one: a skewer. Here you're only a pawn up.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["His king and rook share a rank.","A rook check along the fifth rank."] themes ["skewer","conversion"] voice a test conv
+    ask "Win material." widget chess line true hints ["His king and rook share a rank.","A rook check along the fifth rank."] themes ["skewer","conversion"] voice a test conv teaches ["tactics/skewer","endgames/conversion"]
         right: Rook to h5, check: the king has to leave the fifth rank, and the rook takes a5.
         wrong: Check the king along the line it shares with his rook.
 

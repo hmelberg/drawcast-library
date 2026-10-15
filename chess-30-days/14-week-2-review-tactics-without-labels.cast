@@ -1,4 +1,5 @@
 # Week 2 review: tactics without labels
+teaches: ["calculation/combination","tactics/fork","tactics/pin","tactics/removing-the-defender"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Can you find the tactic when the theme is not named? Can you win material from a position against the computer?"
 next: {"title":"What should you play as White?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/15-what-should-you-play-as-white.cast"}
@@ -25,7 +26,7 @@ A: Don't hunt for a pattern. Ask the Three Questions, checks first.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which checks do you have?","Your bishop on f1."] themes ["skewer"] voice a
+    ask "Win material." widget chess line true hints ["Which checks do you have?","Your bishop on f1."] themes ["skewer"] voice a teaches ["tactics/skewer"]
         right: Bishop to c4, check. The king has to step off the diagonal, and the bishop takes the rook behind it.
         wrong: Look at every check first. What stands behind the king?
 
@@ -43,7 +44,7 @@ A: Checks first, even one that gives your queen away.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Checks first, even a queen sacrifice.","Your knight guards g8."] themes ["smothered mate","mating pattern"] voice a
+    ask "Find the best move." widget chess line true hints ["Checks first, even a queen sacrifice.","Your knight guards g8."] themes ["smothered mate","mating pattern"] voice a teaches ["tactics/mating-patterns"]
         right: Queen to g8, check! The knight guards g8, so the rook on f8 must take, and knight to f7 is mate: the king is smothered by its own pieces.
         wrong: Look at every check, even one that gives your queen away. What could take her on g8?
 
@@ -145,7 +146,7 @@ A: So make the guard choose.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Give the queen a job she must do now.","A capture with check on e8."] themes ["overloading"] voice a
+    ask "Win material." widget chess line true hints ["Give the queen a job she must do now.","A capture with check on e8."] themes ["overloading"] voice a teaches ["tactics/overloading"]
         right: Rook takes e8, check. The queen has to take back, and the knight on d5 has lost its only guard: queen takes it.
         wrong: Make her take on e8 first. What does she stop guarding?
 
@@ -194,7 +195,7 @@ A: Next one, still White.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["His king has no escape square on the back rank.","Only the rook on f8 guards it."] themes ["back rank","decoy"] voice a test week2
+    ask "Find the best move." widget chess line true hints ["His king has no escape square on the back rank.","Only the rook on f8 guards it."] themes ["back rank","decoy"] voice a test week2 teaches ["safety/back-rank","tactics/decoy"]
         right: Queen takes f8, check! The king has to take back, and rook to d8 is mate: the knight covers e7.
         wrong: Rook to d8 is met by the rook on f8. Can you remove that guard with check?
 
@@ -203,7 +204,7 @@ A: Black's bishop has just taken your knight on c3.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Checks before recaptures.","The d-file is open now."] themes ["in-between move"] voice a test week2
+    ask "Find the best move." widget chess line true hints ["Checks before recaptures.","The d-file is open now."] themes ["in-between move"] voice a test week2 teaches ["calculation/in-between-move"]
         right: Rook takes d8, check, before anything else. The rook takes back, and only then does the pawn take the bishop: a queen and a bishop for a rook.
         wrong: The bishop can wait one move. What did his capture open?
 

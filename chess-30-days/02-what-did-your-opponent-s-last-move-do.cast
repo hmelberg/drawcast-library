@@ -1,4 +1,5 @@
 # What did your opponent's last move do?
+teaches: ["safety/threats","safety/three-questions"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Why is reading the opponent's move the first habit of strong players? How do you spot a threat before it lands?"
 next: {"title":"Does this exchange really win?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/03-does-this-exchange-really-win.cast"}
@@ -22,7 +23,7 @@ B: Loose means nothing guards it. Fine, I'll find one.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["Look at the edge of the board.","Your bishop on d2."] themes ["hanging piece"] voice a
+    ask "Win a piece." widget chess line true hints ["Look at the edge of the board.","Your bishop on d2."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Bishop takes a5: the knight on the rim had no guard.
         wrong: Find a black piece that nothing defends, then what reaches it.
 
@@ -43,7 +44,7 @@ A: Your king already guards g7. Look at what she left behind.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["Where was the queen before?","Your queen on d8."] themes ["hanging piece"] voice a
+    ask "Win a piece." widget chess line true hints ["Where was the queen before?","Your queen on d8."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Queen takes d4: the white queen used to guard that knight from d1.
         wrong: What did the white queen guard before she moved?
 
@@ -119,7 +120,7 @@ A: First ask what it stopped guarding.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["What did the knight on f6 guard?","Your queen and bishop both aim at h7."] themes ["mating pattern"] voice a
+    ask "Find the best move." widget chess line true hints ["What did the knight on f6 guard?","Your queen and bishop both aim at h7."] themes ["mating pattern"] voice a teaches ["tactics/mating-patterns"]
         right: Queen takes h7, mate: the bishop guards the queen, and the knight that held h7 has gone.
         wrong: Before you trade, look at the square the knight stopped guarding.
 
@@ -146,7 +147,7 @@ A: Before you do, pretend he could move again. Swap chairs: you're Black.
 
     pause 0.3
 
-    ask "Play his best move." widget chess line true hints ["His queen is not the only piece aiming at h2.","The bishop on c7 sees h2."] themes ["threat","mating pattern"] voice a
+    ask "Play his best move." widget chess line true hints ["His queen is not the only piece aiming at h2.","The bishop on c7 sees h2."] themes ["threat","mating pattern"] voice a teaches ["safety/threats","tactics/mating-patterns"] pool false
         right: Queen takes h2, mate: the bishop on c7 guards the queen, and White's own rook blocks f1.
         wrong: Taking the knight is good. Is there something even better?
 
@@ -204,7 +205,7 @@ A: Black's queen has just come to h4. Swap chairs: you're Black, and it's your m
 
     pause 0.3
 
-    ask "Play his threat." widget chess line true hints ["Two pieces aim at one square.","The queen and the bishop on d6."] themes ["threat","mating pattern"] voice a
+    ask "Play his threat." widget chess line true hints ["Two pieces aim at one square.","The queen and the bishop on d6."] themes ["threat","mating pattern"] voice a teaches ["safety/threats","tactics/mating-patterns"] pool false
         right: Queen takes h2, mate: the bishop on d6 guards her, and White's rook blocks f1.
         wrong: Look for a check that the king cannot escape.
 
@@ -216,7 +217,7 @@ A: Back in White's chair. Find the defence.
 
     pause 0.3
 
-    ask "Stop the threat." widget chess line true hints ["What did his queen guard before she moved?","Your rook on d1."] themes ["defence","hanging piece"] voice a
+    ask "Stop the threat." widget chess line true hints ["What did his queen guard before she moved?","Your rook on d1."] themes ["defence","hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Rook takes d6: the queen used to guard that bishop, and without it there's no mate on h2.
         wrong: Moving a pawn may stop the mate. Is there a move that stops it and wins something?
 
@@ -228,7 +229,7 @@ A: Next. Black's knight has just landed on d4. Swap chairs again.
 
     pause 0.3
 
-    ask "Play his threat." widget chess line true hints ["A knight check.","Which square hits the king and the queen?"] themes ["threat","fork"] voice a
+    ask "Play his threat." widget chess line true hints ["A knight check.","Which square hits the king and the queen?"] themes ["threat","fork"] voice a teaches ["safety/threats","tactics/fork"] pool false
         right: Knight to f3, check: the king steps aside, and the knight takes the queen on d2.
         wrong: Find a knight check that also hits something big.
 
@@ -240,7 +241,7 @@ A: Back to White. Black's queen has gone to b6, after your pawns.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["What did the queen guard on d8?","Your bishop on g5."] themes ["hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["What did the queen guard on d8?","Your bishop on g5."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Bishop takes e7: the queen used to guard that bishop from d8.
         wrong: Before you save a pawn, ask what his queen stopped guarding.
 
@@ -255,7 +256,7 @@ A: Swap chairs one more time.
 
     pause 0.3
 
-    ask "Play his threat." widget chess line true hints ["Move the knight with check.","Then the rook sees the queen."] themes ["threat","discovered attack"] voice a
+    ask "Play his threat." widget chess line true hints ["Move the knight with check.","Then the rook sees the queen."] themes ["threat","discovered attack"] voice a teaches ["safety/threats","tactics/discovered-attack"] pool false
         right: Knight to g3, check: White takes it, and the rook takes the queen on e2.
         wrong: Which knight move gives check and opens the e-file?
 

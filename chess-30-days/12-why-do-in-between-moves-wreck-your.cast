@@ -1,4 +1,5 @@
 # Why do in-between moves wreck your calculation?
+teaches: ["calculation/in-between-move","tactics/desperado"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What is an in-between move (zwischenzug)? What is a desperado, and why play it?"
 next: {"title":"How do two tactics combine?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/13-how-do-two-tactics-combine.cast"}
@@ -25,7 +26,7 @@ A: Before you take back, the Three Questions. Any checks?
 
     pause 0.3
 
-    ask "Mate in two." widget chess line true hints ["A check that takes a pawn.","Then the knight on c3."] themes ["mating pattern"] voice a
+    ask "Mate in two." widget chess line true hints ["A check that takes a pawn.","Then the knight on c3."] themes ["mating pattern"] voice a teaches ["tactics/mating-patterns"]
         right: Bishop takes f7, check; the king must go to e7, and knight to d5 is mate.
         wrong: Start with a check. Which of your pieces can give one?
 
@@ -43,7 +44,7 @@ B: His king and queen are both on light squares. That's the knight's scanner.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the queen?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the queen?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to d6, check: it hits the king and the queen. The king steps aside, and the queen falls for a knight.
         wrong: Look for a knight move that gives check and hits the queen too.
 
@@ -185,7 +186,7 @@ B: Pawn takes back. Queen for queen.
 
     pause 0.3
 
-    ask "Before you take back." widget chess line true themes ["in-between move","back rank"] voice a test d12
+    ask "Before you take back." widget chess line true themes ["in-between move","back rank"] voice a test d12 teaches ["calculation/in-between-move","safety/back-rank"]
         right: Rook to e8 is mate: nothing guards Black's back rank, and the queen on b3 never mattered.
         wrong: Before the recapture, the Three Questions: any checks?
 

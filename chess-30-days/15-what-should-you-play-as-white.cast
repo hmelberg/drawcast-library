@@ -1,4 +1,5 @@
 # What should you play as White?
+teaches: ["openings/italian-game"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What is the idea behind each move of the Italian Game? What is White's plan with c3 and d4?"
 next: {"title":"What should Black play against 1.e4?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/16-what-should-black-play-against-1-e4.cast"}
@@ -25,7 +26,7 @@ A: Before you offer a draw, run the Three Questions: checks first.
 
     pause 0.3
 
-    ask "Mate in two." widget chess line true hints ["A check, even if it costs your queen.","After the recapture, the rook on e1 is still there."] themes ["back rank"] voice a
+    ask "Mate in two." widget chess line true hints ["A check, even if it costs your queen.","After the recapture, the rook on e1 is still there."] themes ["back rank"] voice a teaches ["safety/back-rank"]
         right: Queen to e8, check. The rook on d8 takes her, and the rook on e1 takes back: mate, with Black's own pawns locking the king in.
         wrong: Checks first: which check is there, and what comes after the recapture?
 
@@ -40,7 +41,7 @@ B: Any bishop move uncovers my rook on her. But she just steps away.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A bishop move she has no time to answer.","Which bishop move gives check?"] themes ["discovered attack","combination"] voice a
+    ask "Win material." widget chess line true hints ["A bishop move she has no time to answer.","Which bishop move gives check?"] themes ["discovered attack","combination"] voice a teaches ["tactics/discovered-attack","calculation/combination"]
         right: Bishop takes h7 with check, so the queen gets no time. The king takes, your rook takes the queen, the rooks trade on d8, and your rook is left.
         wrong: A bishop move with check would leave her no time to step away.
 
@@ -119,7 +120,7 @@ A: Now look from Black's side: the board turns.
 
     pause 0.3
 
-    ask "Punish it." widget chess line true hints ["The Three Questions: any captures?","Your queen's diagonal is open."] themes ["hanging piece"] voice a
+    ask "Punish it." widget chess line true hints ["The Three Questions: any captures?","Your queen's diagonal is open."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Queen takes g5: her diagonal was open, and nothing guarded the knight.
         wrong: Which black piece can capture the knight on g5?
 
@@ -228,7 +229,7 @@ A: Black's bishop just came to e6, beside the knight.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["A pawn can attack two pieces.","The pawn on d4."] themes ["fork","opening"] voice a
+    ask "Win a piece." widget chess line true hints ["A pawn can attack two pieces.","The pawn on d4."] themes ["fork","opening"] voice a teaches ["tactics/fork","openings/italian-game"]
         right: Pawn to d5 forks the knight and the bishop. The bishop steps back to d7, and the pawn takes the knight: however Black answers, a piece falls.
         wrong: Which of your pawns can attack two black pieces at once?
 
@@ -240,7 +241,7 @@ A: Next, Black's queen has grabbed a pawn on e4.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Black's king and queen share a file.","A rook to the e-file."] themes ["pin","opening"] voice a
+    ask "Win material." widget chess line true hints ["Black's king and queen share a file.","A rook to the e-file."] themes ["pin","opening"] voice a teaches ["tactics/pin","openings/italian-game"]
         right: Rook to e1 pins the queen to her king. She can only move along the file, and every square there, even taking the rook, loses her for a rook. Here she steps to e7, and the rook takes her with check.
         wrong: Look at the e-file: what stands behind Black's queen?
 
@@ -249,7 +250,7 @@ A: Here it's a knight that took on e4.
 
     pause 0.3
 
-    ask "Win material." widget chess line 1 hints ["Two targets: a loose knight, and f7.","One queen move hits both."] themes ["fork","opening"] voice a
+    ask "Win material." widget chess line 1 hints ["Two targets: a loose knight, and f7.","One queen move hits both."] themes ["fork","opening"] voice a teaches ["tactics/fork","openings/italian-game"]
         right: Queen to d5: she threatens mate on f7 and attacks the knight on e4, both at once.
         wrong: Find one queen move that hits f7 and the knight together.
 
@@ -270,7 +271,7 @@ A: One from week two: Black's king is still in the middle.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the rook?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight check.","Which square touches the king and the rook?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to c7, check, forks the king and the rook. The king steps aside, and the knight takes the rook on a8.
         wrong: Which knight move gives check and hits something big?
 

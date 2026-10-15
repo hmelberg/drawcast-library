@@ -1,4 +1,5 @@
 # Which mating patterns should you know by sight?
+teaches: ["tactics/mating-patterns","safety/back-rank"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What do back-rank, smothered, Anastasia's and Arabian mates have in common? Why does the Greek gift sacrifice on h7 work, and when does it fail?"
 next: {"title":"Why do in-between moves wreck your calculation?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/12-why-do-in-between-moves-wreck-your.cast"}
@@ -25,7 +26,7 @@ A: A check, but the king just steps aside, and you've won nothing.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A check on the d-file.","What stands behind the king?"] themes ["skewer"] voice a
+    ask "Win material." widget chess line true hints ["A check on the d-file.","What stands behind the king?"] themes ["skewer"] voice a teaches ["tactics/skewer"]
         right: Rook to d1, check: the king steps to e6, and the rook takes the rook on d8.
         wrong: Look for a check along the line that runs through the king and the rook.
 
@@ -43,7 +44,7 @@ A: And the knight on f6 takes your queen. It guards h7.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which black piece guards h7?","Take the guard."] themes ["removing the defender"] voice a
+    ask "Win material." widget chess line true hints ["Which black piece guards h7?","Take the guard."] themes ["removing the defender"] voice a teaches ["tactics/removing-the-defender"]
         right: Bishop takes f6, hitting the queen and the guard that matters. Taking back allows mate on h7, so Black plays pawn to h6, and the bishop takes the queen.
         wrong: Before you take on h7, take the piece that guards it.
 
@@ -260,7 +261,7 @@ A: One from last week. You're White again.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A check on a diagonal.","What stands behind the king?"] themes ["skewer"] voice a
+    ask "Win material." widget chess line true hints ["A check on a diagonal.","What stands behind the king?"] themes ["skewer"] voice a teaches ["tactics/skewer"]
         right: Bishop to c4, check: the pawn on b3 guards it. The king steps to c6, and the bishop takes the rook on g8.
         wrong: Find a check on the line through the king and the rook.
 
@@ -272,7 +273,7 @@ A: Last one: the hardest. Black's king has a wall of pawns.
 
     pause 0.3
 
-    ask "Mate in three." widget chess line true hints ["Start with a knight check.","Then give the queen on h7."] themes ["mating pattern","combination"] voice a
+    ask "Mate in three." widget chess line true hints ["Start with a knight check.","Then give the queen on h7."] themes ["mating pattern","combination"] voice a teaches ["tactics/mating-patterns","calculation/combination"]
         right: Knight to e7, check, and the king goes to h8. Queen takes h7, check, the king takes, and the rook mates on h3: Anastasia's mate.
         wrong: Which knight check guards g8 and g6? Then open the h-file.
 

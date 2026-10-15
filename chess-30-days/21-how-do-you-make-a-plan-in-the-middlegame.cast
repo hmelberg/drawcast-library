@@ -1,4 +1,5 @@
 # How do you make a plan in the middlegame?
+teaches: ["strategy/planning","strategy/king-attack"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do you find the weakness to aim at? When should you attack the king, and how do pawn storms work when kings castle on opposite sides?"
 next: {"title":"Week 3 review: openings and plans","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/22-week-3-review-openings-and-plans.cast"}
@@ -25,7 +26,7 @@ A: Look again. His king is too far away to stop a passed pawn.
 
     pause 0.3
 
-    ask "Make a queen." widget chess line true hints ["Give a pawn away first.","Push the middle pawn."] themes ["pawn structure"] voice a
+    ask "Make a queen." widget chess line true hints ["Give a pawn away first.","Push the middle pawn."] themes ["pawn structure"] voice a teaches ["strategy/pawn-structure"]
         right: Pawn to b6: the a-pawn takes, pawn to c6, the b-pawn takes, and your a-pawn runs. His king is too far to catch it.
         wrong: Push the middle pawn first, then see what each capture leaves open.
 
@@ -46,7 +47,7 @@ A: Why one day? Look what the knight would hit from there.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["The knight on e3.","What would it attack from d5?"] themes ["outpost","fork"] voice a
+    ask "Win material." widget chess line true hints ["The knight on e3.","What would it attack from d5?"] themes ["outpost","fork"] voice a teaches ["strategy/piece-activity","tactics/fork"]
         right: Knight to d5 hits the queen and the rook. The queen steps to d8 to guard the rook, and the knight takes it anyway, with check: a rook for a knight.
         wrong: Put the knight on the hole, and look at what it attacks.
 
@@ -153,7 +154,7 @@ A: And the centre is locked, so he can't hit back in the middle. Chase the knigh
 
     pause 0.3
 
-    ask "Attack." widget chess line 1 hints ["Checks first.","Your bishop on d3."] themes ["king attack","combination"] voice a
+    ask "Attack." widget chess line 1 hints ["Checks first.","Your bishop on d3."] themes ["king attack","combination"] voice a teaches ["strategy/king-attack","calculation/combination"]
         right: Bishop takes h7, check. The knight guards h7, so the king can't take: he must hide on h8.
         wrong: Which check near his king can he not answer by taking?
 
@@ -223,7 +224,7 @@ A: Bobby Fischer's recipe against this set-up: pry open the h-file, sac, sac, ma
 
     pause 0.3
 
-    ask "Finish it." widget chess line true hints ["Give up a rook, with check.","The rook on h4."] themes ["king attack","mating pattern"] voice a
+    ask "Finish it." widget chess line true hints ["Give up a rook, with check.","The rook on h4."] themes ["king attack","mating pattern"] voice a teaches ["strategy/king-attack","tactics/mating-patterns"]
         right: Rook to h8, check: the queen behind it guards h8, so the king can't take, and the bishop must. Then queen to h7, mate, guarded by the knight.
         wrong: Which check can only be answered one way?
 
@@ -275,7 +276,7 @@ A: Next, you're Black, so the board turns round. The kings castled on opposite s
 
     pause 0.3
 
-    ask "Mate in one." widget chess line true hints ["An open file points at his king.","Your queen."] themes ["king attack","mating pattern"] voice a test d21
+    ask "Mate in one." widget chess line true hints ["An open file points at his king.","Your queen."] themes ["king attack","mating pattern"] voice a test d21 teaches ["strategy/king-attack","tactics/mating-patterns"]
         right: Queen to b2, mate: the rook on b8 guards her, down the open b-file.
         wrong: Which square next to his king does your rook already cover?
 
@@ -293,7 +294,7 @@ A: Don't hunt for tricks. Run the three questions.
 
     pause 0.3
 
-    ask "Mate in one." widget chess line true hints ["Checks first.","Your queen, with the bishop behind."] themes ["king attack","mating pattern"] voice a test d21
+    ask "Mate in one." widget chess line true hints ["Checks first.","Your queen, with the bishop behind."] themes ["king attack","mating pattern"] voice a test d21 teaches ["strategy/king-attack","tactics/mating-patterns"]
         right: Queen to g7, mate: the bishop on b2 guards her down the long diagonal.
         wrong: Which check can his king not take back?
 
@@ -302,7 +303,7 @@ A: Last one. Black is ahead in material, so only an attack will do.
 
     pause 0.3
 
-    ask "Mate in two." widget chess line true hints ["Give up the queen, with check.","Then the rook on f3."] themes ["king attack","mating pattern"] voice a test d21
+    ask "Mate in two." widget chess line true hints ["Give up the queen, with check.","Then the rook on f3."] themes ["king attack","mating pattern"] voice a test d21 teaches ["strategy/king-attack","tactics/mating-patterns"]
         right: Queen takes h7, check: the king must take, and the rook swings to h3, mate. The pawn on f5 covers g6.
         wrong: Which sacrifice drags his king onto an open file?
 

@@ -1,4 +1,5 @@
 # Week 1 review: habits under pressure
+teaches: ["safety/three-questions","safety/threats","calculation/in-between-move","endgames/conversion"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Can you use the three questions when nobody tells you which tactic is coming? Can you finish a won ending against the computer?"
 next: {"title":"How can one move attack two things?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/08-how-can-one-move-attack-two-things.cast"}
@@ -48,7 +49,7 @@ A: Then it's your move again. Keep going.
 
     pause 0.3
 
-    ask "Calculate to the end." widget chess line true hints ["Start with the check.","After the rook takes, what can the pawn take?"] themes ["deflection","back rank"] voice a
+    ask "Calculate to the end." widget chess line true hints ["Start with the check.","After the rook takes, what can the pawn take?"] themes ["deflection","back rank"] voice a teaches ["tactics/deflection","safety/back-rank"]
         right: Rook to c8, check; the rook has to take, and the pawn takes back and queens, with mate.
         wrong: Don't stop when he takes your rook: whose move is it then?
 
@@ -99,7 +100,7 @@ A: There's a safe way to win that bishop. Find it.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Two pieces attack the bishop. Which one is cheaper?","Your knight on b3."] themes ["counting"] voice a
+    ask "Win material." widget chess line true hints ["Two pieces attack the bishop. Which one is cheaper?","Your knight on b3."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Knight takes c5. If the queen takes back, the rook takes her, and the rook never leaves the back rank.
         wrong: Which of your two attackers can take without leaving your back rank?
 
@@ -163,7 +164,7 @@ B: And again, until he's on the edge.
 
     pause 0.3
 
-    ask "Finish it." widget chess line true hints ["The kings face each other.","Your rook to the back rank."] themes ["mating pattern"] voice a
+    ask "Finish it." widget chess line true hints ["The kings face each other.","Your rook to the back rank."] themes ["mating pattern"] voice a teaches ["tactics/mating-patterns"]
         right: Rook to a8, mate: your king covers the three squares in front of his.
         wrong: Which check can't he step away from?
 
@@ -205,7 +206,7 @@ A: First one. Black's queen has just left d8.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["What did the queen stop guarding?","Your rook on d1."] themes ["hanging piece"] voice a test week1
+    ask "Find the best move." widget chess line true hints ["What did the queen stop guarding?","Your rook on d1."] themes ["hanging piece"] voice a test week1 teaches ["safety/hanging-pieces"]
         right: Rook takes d7: the queen was the knight's only guard, and she left.
         wrong: Ask what Black's last move left behind.
 
@@ -214,7 +215,7 @@ A: Next, an opening. Black's last move was knight to f6.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Checks first.","f7 is guarded only by the king."] themes ["opening","mating pattern"] voice a test week1
+    ask "Find the best move." widget chess line true hints ["Checks first.","f7 is guarded only by the king."] themes ["opening","mating pattern"] voice a test week1 teaches ["openings/principles","tactics/mating-patterns"]
         right: Queen takes f7, mate. The knight attacked your queen, but a check comes first, and f7 was guarded only by the king.
         wrong: Look at every check, even one that captures.
 
@@ -241,7 +242,7 @@ A: Last one: today's ending.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Your king already covers g7 and g8.","Check along the h-file."] themes ["mating pattern","stalemate"] voice a test week1
+    ask "Find the best move." widget chess line true hints ["Your king already covers g7 and g8.","Check along the h-file."] themes ["mating pattern","stalemate"] voice a test week1 teaches ["tactics/mating-patterns","endgames/saving-lost-games"]
         right: Rook to h1, mate. Rook to g7 looks like closing in, but it leaves him no move and no check: stalemate.
         wrong: He is in the corner. Which check leaves him no square?
 

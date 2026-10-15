@@ -4,6 +4,13 @@ level: standard: players who have played many games (about 800–1300 online) an
 language: English
 notation: Moves in standard algebraic notation (Nf3, exd5, O-O); squares a1–h8; White and Black; the three questions are 'checks, captures, threats' (for both sides), named the Three Questions throughout; material counted pawn 1, knight 3, bishop 3, rook 5, queen 9.
 example: Two voices throughout: the Coach (a), calm and sure, and the Player (b), a club player stuck at about 1000 online who suggests the natural move, often the wrong one — the naive answer each lesson starts from. Every lecture: part 1 a warm-up of earlier themes as puzzles played on the board, part 2 the lesson, part 3 'your turn' — puzzles, then a goal against the computer, an openings drill or a review of missed puzzles, and one line of homework (one slow game, find its first mistake).
+skills/safety: three-questions, threats, hanging-pieces, back-rank
+skills/calculation: counting, visualisation, in-between-move, combination
+skills/tactics: fork, pin, skewer, discovered-attack, removing-the-defender, overloading, deflection, decoy, desperado, mating-patterns
+skills/openings: principles, italian-game, black-against-e4, black-against-d4, traps
+skills/strategy: pawn-structure, piece-activity, planning, king-attack
+skills/endgames: square-rule, opposition, rook-endings, minor-piece-endings, conversion, saving-lost-games
+skills/training: game-review, time-management
 #for=improving-club-players
 
 Thirty lessons for players who have stopped improving: the habits that stop the blunders, a bank of tactical patterns, three openings you understand, plans for the middlegame and the endings that decide games. Every lesson has you play the moves on the board.

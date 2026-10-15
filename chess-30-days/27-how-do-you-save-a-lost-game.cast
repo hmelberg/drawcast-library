@@ -1,4 +1,5 @@
 # How do you save a lost game?
+teaches: ["endgames/saving-lost-games"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do stalemate tricks and perpetual check save half a point? What is a fortress, and how do you make the opponent prove it?"
 next: {"title":"How do you think with the clock running?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/28-how-do-you-think-with-the-clock-running.cast"}
@@ -26,7 +27,7 @@ A: Before you guard f2, the Three Questions: your own checks first.
 
     pause 0.3
 
-    ask "Win the game." widget chess line true hints ["His back rank has no air, and his rook on d8 has one guard.","Your queen and rook stand in a line on the d-file."] themes ["back rank"] voice a
+    ask "Win the game." widget chess line true hints ["His back rank has no air, and his rook on d8 has one guard.","Your queen and rook stand in a line on the d-file."] themes ["back rank"] voice a teaches ["safety/back-rank"]
         right: Queen takes d8, check. The queen takes back, and your rook takes on d8: mate on the back rank.
         wrong: Checks first. Which check takes away his rook's only guard?
 
@@ -47,7 +48,7 @@ A: Back one move. This time, finish it.
 
     pause 0.3
 
-    ask "Finish it." widget chess line true hints ["Leave his pawn alone.","A check his king can't escape."] themes ["conversion","stalemate"] voice a
+    ask "Finish it." widget chess line true hints ["Leave his pawn alone.","A check his king can't escape."] themes ["conversion","stalemate"] voice a teaches ["endgames/conversion","endgames/saving-lost-games"]
         right: Checkmate. Queen to b2 mates, guarded by your king; e1, c3 or d4 mate too. Taking the pawn was stalemate.
         wrong: If you take the pawn, he has no move at all. Is there a check instead?
 
@@ -280,7 +281,7 @@ A: Back to the check. You can do better.
 
     pause 0.3
 
-    ask "Deal with the check." widget chess line true hints ["His king is boxed in. Count its squares after each of your moves.","Your queen."] themes ["conversion","stalemate"] voice a test save
+    ask "Deal with the check." widget chess line true hints ["His king is boxed in. Count its squares after each of your moves.","Your queen."] themes ["conversion","stalemate"] voice a test save teaches ["endgames/conversion","endgames/saving-lost-games"]
         right: Queen takes g3. Your queen leaves c7, so his king gets a7 and b7: no stalemate, and it's a queen against nothing.
         wrong: A king move still wins, but slowly: the rook keeps checking. Find the quickest way.
 

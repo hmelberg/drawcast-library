@@ -1,4 +1,5 @@
 # Week 3 review: openings and plans
+teaches: ["openings/italian-game","openings/black-against-e4","openings/black-against-d4","strategy/planning"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "Can you play your three openings from memory? Can you find the plan in a quiet position?"
 next: {"title":"Can the king catch the pawn?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/23-can-the-king-catch-the-pawn.cast"}
@@ -26,7 +27,7 @@ A: Look at his king, not your queen. Checks first.
 
     pause 0.3
 
-    ask "Mate in two." widget chess line true hints ["Checks first: which piece can give check?","Your bishop on c4 can take on f7."] themes ["trap","mating pattern"] voice a
+    ask "Mate in two." widget chess line true hints ["Checks first: which piece can give check?","Your bishop on c4 can take on f7."] themes ["trap","mating pattern"] voice a teaches ["openings/traps","tactics/mating-patterns"]
         right: Bishop takes f7, check. The king's only square is e7, and knight to d5 is mate. It's called Légal's mate.
         wrong: Forget the queen. Which check leaves his king almost no squares?
 
@@ -50,7 +51,7 @@ A: Take it back, and look again.
 
     pause 0.3
 
-    ask "Win a piece." widget chess line true hints ["A pawn can attack two pieces at once.","Your pawn on e4."] themes ["fork","pawn structure"] voice a
+    ask "Win a piece." widget chess line true hints ["A pawn can attack two pieces at once.","Your pawn on e4."] themes ["fork","pawn structure"] voice a teaches ["tactics/fork","strategy/pawn-structure"]
         right: Pawn to e5 hits the bishop and the knight at once. Black can save only one of them.
         wrong: Which pawn move attacks two black pieces on the same rank?
 
@@ -231,7 +232,7 @@ A: White's knight has just taken on d5.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Is your knight on f6 really pinned to anything that matters?","Take on d5, then look at the check on b4."] themes ["trap","opening"] voice a test week3
+    ask "Find the best move." widget chess line true hints ["Is your knight on f6 really pinned to anything that matters?","Take on d5, then look at the check on b4."] themes ["trap","opening"] voice a test week3 teaches ["openings/traps","openings/italian-game","openings/black-against-e4","openings/black-against-d4"]
         right: Knight takes d5. The bishop takes your queen, and bishop to b4 is check. White's only block is the queen; you take her, the kings take back, and you're a piece up for a pawn: the Elephant Trap.
         wrong: Count what happens if White's bishop takes your queen. Is there a check after that?
 
@@ -243,7 +244,7 @@ A: forking your queen and rook.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["Your queen has a target of her own.","The pawn on g2."] themes ["trap"] voice a test week3
+    ask "Find the best move." widget chess line true hints ["Your queen has a target of her own.","The pawn on g2."] themes ["trap"] voice a test week3 teaches ["openings/traps"]
         right: Queen takes g2 and hits the rook on h1. If it runs to f1, queen takes e4, check; if the bishop blocks, knight to f3 is mate. That's the Blackburne–Shilling trap.
         wrong: Don't save the rook. What can your queen take, with a threat?
 
@@ -252,7 +253,7 @@ A: Last one: back to White, with the kings castled on opposite sides.
 
     pause 0.3
 
-    ask "Find the best move." widget chess line true hints ["What holds h7?","A pawn can chase it away."] themes ["king attack"] voice a test week3
+    ask "Find the best move." widget chess line true hints ["What holds h7?","A pawn can chase it away."] themes ["king attack"] voice a test week3 teaches ["strategy/king-attack"]
         right: Pawn to g5 hits the knight, the only piece holding h7. With the rook behind the queen, the king's guard doesn't help: wherever the knight goes, h7 or the knight itself falls.
         wrong: Your queen and rook already aim at h7. What stands in their way?
 

@@ -1,4 +1,5 @@
 # Why can't that piece move, and what is behind it?
+teaches: ["tactics/pin","tactics/skewer"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What is the difference between an absolute and a relative pin? How do you pile up on a pinned piece and win it? How does a skewer differ from a pin?"
 next: {"title":"Who is guarding what?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/10-who-is-guarding-what.cast"}
@@ -25,7 +26,7 @@ B: So which square touches both of them?
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight move with check.","Which square touches h8 and d8?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight move with check.","Which square touches h8 and d8?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to f7, check, hits the king and the queen. The king steps aside, the knight takes the queen, and the rook takes the knight.
         wrong: Look for a knight check that also hits the queen.
 
@@ -43,7 +44,7 @@ A: Nothing attacks it yet. But nothing guards it either.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A queen check.","Which queen check also hits e5?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A queen check.","Which queen check also hits e5?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Queen to a5, check: the knight blocks on c3, and the queen takes the loose knight on e5, with check.
         wrong: Find a queen check on a line that also runs to e5.
 
@@ -248,7 +249,7 @@ A: Back to White, and yesterday's theme.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which black piece is loose?","A queen check."] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["Which black piece is loose?","A queen check."] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Queen to a4, check: a queen fork. However Black answers the check, here with the knight, the loose bishop on g4 drops off.
         wrong: Find the black piece with no guard, then a queen check that also hits it.
 

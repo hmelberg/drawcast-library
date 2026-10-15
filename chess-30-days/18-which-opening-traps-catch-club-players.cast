@@ -1,4 +1,5 @@
 # Which opening traps catch club players?
+teaches: ["openings/traps"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do the Fried Liver, Légal's mate and the Blackburne–Shilling trap work? How do you avoid each one, and when can you use them?"
 next: {"title":"What do the pawns tell you?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/19-what-do-the-pawns-tell-you.cast"}
@@ -28,7 +29,7 @@ A: Three Questions first. Black's queen has just left d8.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A knight move with check.","Which square touches the king and the rook in the corner?"] themes ["fork"] voice a
+    ask "Win material." widget chess line true hints ["A knight move with check.","Which square touches the king and the rook in the corner?"] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Knight to c7, check, hits the king and the rook. The king steps to d8, and the knight takes the rook on a8.
         wrong: Look for a knight check that hits something big as well.
 
@@ -46,7 +47,7 @@ A: Look down the e-file first. Behind that knight stands Black's own king.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["The knight can't leave the e-file.","Attack it with a pawn."] themes ["pin"] voice a
+    ask "Win material." widget chess line true hints ["The knight can't leave the e-file.","Attack it with a pawn."] themes ["pin"] voice a teaches ["tactics/pin"]
         right: Pawn to d4 attacks the knight, and it can't step off the e-file. A pawn wins a piece.
         wrong: The knight can't move. What cheap piece can attack it?
 
@@ -294,7 +295,7 @@ B: White grabbed e5, then took f7. Now his knight forks my queen and rook.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Move the queen with a threat.","What stands behind the pawn on g2?"] themes ["trap","threat"] voice a test d18
+    ask "Win material." widget chess line true hints ["Move the queen with a threat.","What stands behind the pawn on g2?"] themes ["trap","threat"] voice a test d18 teaches ["openings/traps","safety/threats"]
         right: Queen takes g2: she escapes the fork and hits the rook on h1. If the rook runs to f1, queen takes e4, check, and if the bishop blocks, knight to f3 is mate.
         wrong: Don't just save the queen: move her where she attacks.
 
@@ -303,7 +304,7 @@ A: Back to White. Légal's trap again, and this time Black took your knight, not
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Which black piece is loose?","The bishop that pinned your knight."] themes ["trap","hanging piece"] voice a test d18
+    ask "Win material." widget chess line true hints ["Which black piece is loose?","The bishop that pinned your knight."] themes ["trap","hanging piece"] voice a test d18 teaches ["openings/traps","safety/hanging-pieces"]
         right: Queen takes h5: the pinning bishop was loose, and you're a pawn up.
         wrong: Your knight is gone. Which black piece has no guard now?
 
@@ -315,7 +316,7 @@ A: Next, the Petrov Defence. Black took your e-pawn, your queen came to e2, and 
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Your queen and Black's king share the e-file.","Move the knight with check."] themes ["discovered attack","trap"] voice a test d18
+    ask "Win material." widget chess line true hints ["Your queen and Black's king share the e-file.","Move the knight with check."] themes ["discovered attack","trap"] voice a test d18 teaches ["tactics/discovered-attack","openings/traps"]
         right: Knight to c6 uncovers check from your queen and hits Black's queen. The queen blocks on e7, the knight takes her, and the bishop takes back: whatever blocks, the queen falls.
         wrong: What is your knight hiding on the e-file?
 
@@ -324,7 +325,7 @@ A: The board turns again: you're Black. White's bishop has just taken yours on b
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Checks first: your pawn on e3.","When it promotes, think: not a queen."] themes ["discovered attack","trap"] voice a test d18
+    ask "Win material." widget chess line true hints ["Checks first: your pawn on e3.","When it promotes, think: not a queen."] themes ["discovered attack","trap"] voice a test d18 teaches ["tactics/discovered-attack","openings/traps"]
         right: Pawn takes f2, check: if the king takes, your queen takes his. So the king goes to e2, and the pawn takes the knight on g1 and becomes a knight, with check.
         wrong: Look at every check, even a pawn's.
 

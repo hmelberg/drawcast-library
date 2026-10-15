@@ -1,4 +1,5 @@
 # How do you learn from your own games?
+teaches: ["training/game-review"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How do you find the move where a game turned? Why keep a list of your own mistakes?"
 next: {"title":"Week 1 review: habits under pressure","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/07-week-1-review-habits-under-pressure.cast"}
@@ -27,7 +28,7 @@ A: A pawn, but there's better: one move that makes two threats.
 
     pause 0.8
 
-    ask "Make two threats at once." widget chess line true hints ["One threat is mate on h7.","Your queen."] themes ["threat"] voice a
+    ask "Make two threats at once." widget chess line true hints ["One threat is mate on h7.","Your queen."] themes ["threat"] voice a teaches ["safety/threats"]
         right: Queen to e4 threatens mate on h7 and hits the loose knight on a4. Black can only stop one.
         wrong: Find a queen move that threatens mate and hits something loose.
 
@@ -47,7 +48,7 @@ A: Then look again. What can that rook still do?
 
     pause 0.8
 
-    ask "Calculate to the end." widget chess line true hints ["Start with the queen check.","After the recapture: your rook on e1."] themes ["combination","back rank"] voice a
+    ask "Calculate to the end." widget chess line true hints ["Start with the queen check.","After the recapture: your rook on e1."] themes ["combination","back rank"] voice a teaches ["calculation/combination","safety/back-rank"]
         right: Queen takes f7, rook takes, rook to e8: mate. The bishop on c4 pins the rook, so it cannot block.
         wrong: After the rook takes your queen, look at every check you have left.
 
@@ -134,7 +135,7 @@ A: White's knight just landed on d5. What do you play?
 
     pause 0.8
 
-    ask "Punish White's last move." widget chess line true hints ["Captures first.","Your g-pawn."] themes ["hanging piece","threat"] voice a
+    ask "Punish White's last move." widget chess line true hints ["Captures first.","Your g-pawn."] themes ["hanging piece","threat"] voice a teaches ["safety/hanging-pieces","safety/threats"]
         right: Pawn takes h4: the bishop was attacked, and White moved something else.
         wrong: Which white piece is attacked right now, and by what?
 
@@ -233,7 +234,7 @@ A: You're Black, and White's queen has just stepped off the d-file.
 
     pause 0.8
 
-    ask "Win material." widget chess line true hints ["Captures first.","Who guards the knight on d4?"] themes ["hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["Captures first.","Who guards the knight on d4?"] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Knight takes d4: the queen left, and nothing else guarded it.
         wrong: Before anything else, look at every capture you have.
 
@@ -247,7 +248,7 @@ A: Next, White, and you're behind. Checks first.
 
     pause 0.8
 
-    ask "Win material." widget chess line true hints ["Your queen can give check.","Which black piece has no guard?"] themes ["fork","hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["Your queen can give check.","Which black piece has no guard?"] themes ["fork","hanging piece"] voice a teaches ["tactics/fork","safety/hanging-pieces"]
         right: Queen to b3, check: the king steps aside, and the loose bishop on b7 falls.
         wrong: Try every queen check, and see what else it hits.
 
@@ -258,7 +259,7 @@ A: Black again.
 
     pause 0.8
 
-    ask "Win a piece." widget chess line true hints ["One pawn, two targets.","Your e-pawn."] themes ["fork"] voice a
+    ask "Win a piece." widget chess line true hints ["One pawn, two targets.","Your e-pawn."] themes ["fork"] voice a teaches ["tactics/fork"]
         right: Pawn to e4 hits the bishop and the knight. One of them falls.
         wrong: Which pawn move attacks two white pieces at once?
 
@@ -269,7 +270,7 @@ A: Last one: calculate to the end.
 
     pause 0.8
 
-    ask "Mate in two." widget chess line true hints ["Start with a capture that checks.","After the recapture: your rook on d1."] themes ["back rank","combination"] voice a
+    ask "Mate in two." widget chess line true hints ["Start with a capture that checks.","After the recapture: your rook on d1."] themes ["back rank","combination"] voice a teaches ["safety/back-rank","calculation/combination"]
         right: Queen takes d8, check; queen takes back; rook takes d8: mate on the back rank.
         wrong: Follow every check to the end, even the one that gives up your queen.
 
@@ -285,7 +286,7 @@ A: Move eleven. His bishop has just come to e6. What would you play?
 
     pause 0.8
 
-    ask "Your move." widget chess line true hints ["Look at what each pawn can hit.","Your d-pawn."] themes ["fork","threat"] voice a
+    ask "Your move." widget chess line true hints ["Look at what each pawn can hit.","Your d-pawn."] themes ["fork","threat"] voice a teaches ["tactics/fork","safety/threats"]
         right: Pawn to d5 hits the knight and the bishop at once: one of them falls.
         wrong: Which of your pawns can attack two black pieces?
 

@@ -1,4 +1,5 @@
 # Where does every lesson show up in one game?
+teaches: ["openings/principles","tactics/pin","calculation/combination"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How did Morphy's Opera Game (Paris, 1858) use development, pins and a sacrifice? Which of the course's habits would have saved Black?"
 next: {"title":"Final test: how far have you come?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/30-final-test-how-far-have-you-come.cast"}
@@ -47,7 +48,7 @@ A: Not yet: the knight on f6 guards h7.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Remove the guard first.","Your bishop on g5."] themes ["removing the defender"] voice a
+    ask "Win material." widget chess line true hints ["Remove the guard first.","Your bishop on g5."] themes ["removing the defender"] voice a teaches ["tactics/removing-the-defender"]
         right: Bishop takes f6. If Black takes back, queen takes h7 is mate, so White stays a knight up.
         wrong: Before you take on h7, take away the piece that guards it.
 
@@ -324,7 +325,7 @@ B: White's king has walked out to d3.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A check along a line.","Your rook on a8."] themes ["skewer"] voice a
+    ask "Win material." widget chess line true hints ["A check along a line.","Your rook on a8."] themes ["skewer"] voice a teaches ["tactics/skewer"]
         right: Rook to a3, check: the king has to step off the rank, and the rook takes the queen behind it. A skewer, from day nine.
         wrong: Which check hits the king with something bigger behind it?
 
@@ -345,7 +346,7 @@ A: Black's queen goes to e6, to free the knight on f6 from its pin.
 
     pause 0.3
 
-    ask "Find Morphy's move." widget chess line 1 themes ["pin","removing the defender"] voice a test opera
+    ask "Find Morphy's move." widget chess line 1 themes ["pin","removing the defender"] voice a test opera teaches ["tactics/pin","tactics/removing-the-defender"]
         right: Bishop takes d7, check: the pinned rook falls.
 
 B: The knight took back. Wouldn't the queen take?
@@ -356,7 +357,7 @@ A: The queen would have lasted longer, but Black was lost either way.
 
     pause 0.3
 
-    ask "Mate in two." widget chess line 3 themes ["deflection","mating pattern","combination"] voice a test opera
+    ask "Mate in two." widget chess line 3 themes ["deflection","mating pattern","combination"] voice a test opera teaches ["tactics/deflection","tactics/mating-patterns","calculation/combination"]
         right: Queen to b8, check! The knight has to take, and rook to d8 is mate: the bishop on g5 guards the rook and the square e7.
 
     pause 0.6

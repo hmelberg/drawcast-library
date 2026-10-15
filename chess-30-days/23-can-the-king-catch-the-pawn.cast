@@ -1,4 +1,5 @@
 # Can the king catch the pawn?
+teaches: ["endgames/square-rule","endgames/opposition"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What is the rule of the square? What is the opposition, and what are key squares?"
 next: {"title":"What must you know about rook endings?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/24-what-must-you-know-about-rook-endings.cast"}
@@ -25,7 +26,7 @@ A: Look at the knight on e7. It already guards g8 and g6.
 
     pause 0.3
 
-    ask "Checkmate in two." widget chess line true hints ["Give up the queen, with check.","Then the rook on d3 swings to the h-file."] themes ["king attack","mating pattern"] voice a
+    ask "Checkmate in two." widget chess line true hints ["Give up the queen, with check.","Then the rook on d3 swings to the h-file."] themes ["king attack","mating pattern"] voice a teaches ["strategy/king-attack","tactics/mating-patterns"]
         right: Queen takes h7, check: the king must take, and rook to h3 is mate. The knight covers g8 and g6.
         wrong: Which check strips away the king's pawn cover?
 
@@ -46,7 +47,7 @@ A: Then look at what the bishop left behind.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["A check that uncovers an attack.","What stands behind the bishop on d3?"] themes ["discovered attack","combination"] voice a
+    ask "Win material." widget chess line true hints ["A check that uncovers an attack.","What stands behind the bishop on d3?"] themes ["discovered attack","combination"] voice a teaches ["tactics/discovered-attack","calculation/combination"]
         right: Bishop takes h7, check: the king takes it, and rook takes d7. A bishop for the queen.
         wrong: Look for a bishop move that gives check.
 
@@ -284,7 +285,7 @@ A: Now a review from an earlier day. White to move.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Line up king and rook.","A check along the fifth rank."] themes ["skewer"] voice a test t23
+    ask "Win material." widget chess line true hints ["Line up king and rook.","A check along the fifth rank."] themes ["skewer"] voice a test t23 teaches ["tactics/skewer"]
         right: Rook to a5, check: the king steps off the rank, and the rook on h5 falls.
         wrong: Is there a check that hits something behind the king?
 

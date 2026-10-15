@@ -1,4 +1,5 @@
 # How can one move attack two things?
+teaches: ["tactics/fork"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What makes a fork work: knight, queen and pawn forks? How do you set up a fork that is not there yet?"
 next: {"title":"Why can't that piece move, and what is behind it?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/09-why-can-t-that-piece-move-and-what-is.cast"}
@@ -28,7 +29,7 @@ A: Count it to the end. Rook first, and you swap a rook for a knight and a bisho
 
     pause 0.3
 
-    ask "Win the most material." widget chess line true hints ["Count every capture to the end.","Send the cheapest piece in first."] themes ["counting"] voice a
+    ask "Win the most material." widget chess line true hints ["Count every capture to the end.","Send the cheapest piece in first."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Knight first, rook last: you give a knight and win a knight and a bishop, a whole piece up.
         wrong: Count to the end of the trades: which piece should go in first?
 
@@ -49,7 +50,7 @@ A: Don't stop there. After the recapture, it's your move again: checks, captures
 
     pause 0.3
 
-    ask "Calculate to the end." widget chess line true hints ["Every move is a check or a capture.","Your second rook is waiting on e1."] themes ["back rank"] voice a
+    ask "Calculate to the end." widget chess line true hints ["Every move is a check or a capture.","Your second rook is waiting on e1."] themes ["back rank"] voice a teaches ["safety/back-rank"]
         right: Rook takes, rook takes back, rook takes again: mate on the back rank, and the queen never moves.
         wrong: After the recapture, look again: what can your second rook do?
 
@@ -261,7 +262,7 @@ B: I'd save the rook on a1... or the other one?
 
     pause 0.3
 
-    ask "What do you play?" widget chess line true hints ["The Three Questions: any captures?","Is that knight guarded?"] themes ["hanging piece"] voice a
+    ask "What do you play?" widget chess line true hints ["The Three Questions: any captures?","Is that knight guarded?"] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Take the knight: a forking piece that stands loose is just a free piece.
         wrong: Before you save a rook, look at the knight itself.
 
@@ -270,7 +271,7 @@ A: Now the fork that isn't there yet. First, bring the king to the square.
 
     pause 0.3
 
-    ask "Set up a fork." widget chess line true hints ["A capture with check.","Where will the king stand after it takes back?"] themes ["fork","decoy"] voice a
+    ask "Set up a fork." widget chess line true hints ["A capture with check.","Where will the king stand after it takes back?"] themes ["fork","decoy"] voice a teaches ["tactics/fork","tactics/decoy"]
         right: Rook takes f8, check: the king must take back, and knight to d7 forks the king and the queen.
         wrong: Trade first, with check. Then look where the king ends up.
 
@@ -279,7 +280,7 @@ A: The same trick, from Black's side.
 
     pause 0.3
 
-    ask "Set up a fork." widget chess line true hints ["Trade on f1, with check.","Then the knight on e4."] themes ["fork","decoy"] voice a
+    ask "Set up a fork." widget chess line true hints ["Trade on f1, with check.","Then the knight on e4."] themes ["fork","decoy"] voice a teaches ["tactics/fork","tactics/decoy"]
         right: Rook takes f1, check: the king takes back, and knight to d2 forks the king and the queen on b3.
         wrong: Which capture brings White's king onto a square your knight can reach?
 

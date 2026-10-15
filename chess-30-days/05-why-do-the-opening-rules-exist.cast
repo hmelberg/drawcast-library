@@ -1,4 +1,5 @@
 # Why do the opening rules exist?
+teaches: ["openings/principles"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "What do tempo, the centre and king safety buy you? When is it right to break an opening rule?"
 next: {"title":"How do you learn from your own games?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/06-how-do-you-learn-from-your-own-games.cast"}
@@ -28,7 +29,7 @@ A: Rules come second. Ask the Three Questions first: any captures?
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Captures first: which black piece has no guard?","Your queen's diagonal."] themes ["hanging piece"] voice a
+    ask "Win material." widget chess line true hints ["Captures first: which black piece has no guard?","Your queen's diagonal."] themes ["hanging piece"] voice a teaches ["safety/hanging-pieces"]
         right: Queen takes h5: the knight on the rim had no defender.
         wrong: Look at every capture before any developing move.
 
@@ -46,7 +47,7 @@ A: Count the values, not just the numbers. Which attacker is the cheapest?
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Send the cheapest attacker in first.","Your d-pawn."] themes ["counting"] voice a
+    ask "Win material." widget chess line true hints ["Send the cheapest attacker in first.","Your d-pawn."] themes ["counting"] voice a teaches ["calculation/counting"]
         right: Pawn takes the knight, and a pawn takes back: a pawn for a knight.
         wrong: Two against two: which of your attackers costs the least?
 
@@ -152,7 +153,7 @@ B: Then my knight goes back home to f6.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Your knight on e5 is all that stands between your queen and the king.","A knight move with check."] themes ["discovered attack","opening"] voice a
+    ask "Win material." widget chess line true hints ["Your knight on e5 is all that stands between your queen and the king.","A knight move with check."] themes ["discovered attack","opening"] voice a teaches ["tactics/discovered-attack","openings/principles"]
         right: Knight to c6: check from White's queen. The bishop blocks, and the knight takes the queen on d8.
         wrong: Move the knight off the e-file, and hit something as it goes.
 
@@ -234,7 +235,7 @@ A: Four puzzles, then the openings themselves.
 
     pause 0.3
 
-    ask "Mate in one." widget chess line true hints ["Checks first.","What guards f7?"] themes ["opening","mating pattern"] voice a
+    ask "Mate in one." widget chess line true hints ["Checks first.","What guards f7?"] themes ["opening","mating pattern"] voice a teaches ["openings/principles","tactics/mating-patterns"]
         right: Queen takes f7, mate. The bishop guards the queen.
         wrong: Which square near Black's king does only the king defend?
 
@@ -249,7 +250,7 @@ A: White has pushed the two pawns beside his king.
 
     pause 0.3
 
-    ask "Mate in one." widget chess line true hints ["Checks first.","The diagonal from your queen to White's king."] themes ["opening","king attack"] voice a
+    ask "Mate in one." widget chess line true hints ["Checks first.","The diagonal from your queen to White's king."] themes ["opening","king attack"] voice a teaches ["openings/principles","strategy/king-attack"]
         right: Queen to h4, mate. Nothing can block, and the king can't move.
         wrong: Which diagonal leads straight to White's king now?
 
@@ -264,7 +265,7 @@ A: Black grabbed a pawn and spent his moves holding on to it.
 
     pause 0.3
 
-    ask "Win material." widget chess line true hints ["Black's rook still stands on a8.","A queen move down the long diagonal."] themes ["opening","threat"] voice a
+    ask "Win material." widget chess line true hints ["Black's rook still stands on a8.","A queen move down the long diagonal."] themes ["opening","threat"] voice a teaches ["openings/principles","safety/threats"]
         right: Queen to f3 hits the rook on a8. The knight blocks on c6, and the queen takes it with check.
         wrong: Find the black piece that never moved, then a queen move that hits it.
 
@@ -279,7 +280,7 @@ A: White has grabbed a pawn on d5, sure your knight can't move.
 
     pause 0.3
 
-    ask "Win material." widget chess line 3 hints ["Count to the end: what if the knight moves anyway?","After Bxd8, a bishop check."] themes ["counting","opening"] voice a
+    ask "Win material." widget chess line 3 hints ["Count to the end: what if the knight moves anyway?","After Bxd8, a bishop check."] themes ["counting","opening"] voice a teaches ["calculation/counting","openings/principles"]
         right: Knight takes d5. White takes your queen, and bishop to b4, check, wins White's queen back.
         wrong: Let the knight take, then count every capture after it, checks included.
 

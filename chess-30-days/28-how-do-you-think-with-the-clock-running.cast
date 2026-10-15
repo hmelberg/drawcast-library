@@ -1,4 +1,5 @@
 # How do you think with the clock running?
+teaches: ["training/time-management"]
 voices: {"a":"gemini:Charon | calm, warm chess coach","b":"gemini:Puck | eager club player, relaxed and good-humoured; never exaggerated"}
 prompt: "How should you split your time across a game? Why do slow games make you better faster? What do you do after a bad loss?"
 next: {"title":"Where does every lesson show up in one game?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/chess-30-days/29-where-does-every-lesson-show-up-in-one.cast"}
@@ -50,7 +51,7 @@ A: Checks first. Then follow the line to the end.
 
     pause 1
 
-    ask "Win material." widget chess line true hints ["Move the bishop with check.","Then the rook on d1 sees the queen."] themes ["discovered attack"] voice a
+    ask "Win material." widget chess line true hints ["Move the bishop with check.","Then the rook on d1 sees the queen."] themes ["discovered attack"] voice a teaches ["tactics/discovered-attack"]
         right: Bishop takes h7, check. The king takes it, and your rook takes the queen on d6: a bishop for a queen.
         wrong: Which bishop move gives check, so Black has no time to save the queen?
 
@@ -162,7 +163,7 @@ A: So spend them now. Checks, captures and threats, for both sides.
 
     pause 1
 
-    ask "Find the best move." widget chess line true hints ["Captures first, and not only the obvious one.","The bishop on h4 is attacked. Can it take something first?"] themes ["in-between move","counting"] voice a
+    ask "Find the best move." widget chess line true hints ["Captures first, and not only the obvious one.","The bishop on h4 is attacked. Can it take something first?"] themes ["in-between move","counting"] voice a teaches ["calculation/in-between-move","calculation/counting"]
         right: Bishop takes e7 first, and the queen takes back. Now the knight on e4 is attacked twice and guarded once: it falls next move.
         wrong: Before you take back on e4, look at what your bishop on h4 can take.
 
@@ -238,7 +239,7 @@ A: First one: Black has just taken your knight on f3.
 
     pause 1
 
-    ask "What do you play?" widget chess line true hints ["Any check or capture that wins more?","Which piece can take back?"] themes ["counting"] voice a test day28
+    ask "What do you play?" widget chess line true hints ["Any check or capture that wins more?","Which piece can take back?"] themes ["counting"] voice a test day28 teaches ["calculation/counting"]
         right: Forced: a move for seconds. Pawn takes f3: no check or capture beats taking back.
         wrong: Run the Three Questions: is there anything better than taking back?
 
@@ -253,7 +254,7 @@ A: Next. Black's queen has just left d8.
 
     pause 1
 
-    ask "Win material." widget chess line true hints ["What did d8 guard?","A knight check."] themes ["fork"] voice a test day28
+    ask "Win material." widget chess line true hints ["What did d8 guard?","A knight check."] themes ["fork"] voice a test day28 teaches ["tactics/fork"]
         right: Critical: his queen's move left c7 unguarded. Knight to c7, check, forks the king and the rook. The king steps aside, and the knight takes the rook on a8.
         wrong: The queen used to guard c7. What can land there now?
 
@@ -268,7 +269,7 @@ A: Next: a capture. Follow it to the end.
 
     pause 1
 
-    ask "Win material." widget chess line true hints ["Your queen and bishop aim at h7.","Which black piece guards h7?"] themes ["removing the defender"] voice a test day28
+    ask "Win material." widget chess line true hints ["Your queen and bishop aim at h7.","Which black piece guards h7?"] themes ["removing the defender"] voice a test day28 teaches ["tactics/removing-the-defender"]
         right: Critical: a capture that changes two things. Bishop takes f6, the knight that guarded h7. Take back, and queen takes h7 is mate, so Black blocks with g6, and you're a knight up.
         wrong: Which black piece stops queen takes h7? Remove it.
 
@@ -286,7 +287,7 @@ A: White's rook on e1 is attacked twice and guarded once.
 
     pause 1
 
-    ask "Mate in two." widget chess line true hints ["Count to the end of the trades on e1.","Rook first, queen last."] themes ["back rank","counting"] voice a test day28
+    ask "Mate in two." widget chess line true hints ["Count to the end of the trades on e1.","Rook first, queen last."] themes ["back rank","counting"] voice a test day28 teaches ["safety/back-rank","calculation/counting"]
         right: Critical: the count ends in mate. Rook takes e1, check. The queen has to take back, and your queen takes e1: mate on the back rank.
         wrong: Two against two on e1. Who makes the last capture, and is it check?
 
