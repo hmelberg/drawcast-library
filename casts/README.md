@@ -4,6 +4,7 @@
 - [Gödel's incompleteness theorems](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/godel-incompleteness.cast) — 2026-10-15
 - [Arrow's impossibility theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/arrow-impossibility.cast) — 2026-10-15
 - [Test your Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/test-your-russian.cast) — 2026-10-15
+- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
@@ -107,7 +108,6 @@
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-13
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-13
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-13
-- [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-13
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-13
 - [How many people have walked on the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-13
 - [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-13

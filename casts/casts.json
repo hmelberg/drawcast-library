@@ -764,13 +764,6 @@
       "page": true
     },
     {
-      "slug": "ants-on-earth",
-      "title": "How many ants are there on Earth?",
-      "file": "ants-on-earth.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "ball-in-play",
       "title": "How many minutes is the ball actually in play?",
       "file": "ball-in-play.cast",
@@ -1306,6 +1299,13 @@
       "slug": "test-your-russian",
       "title": "Test your Russian",
       "file": "test-your-russian.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "ants-on-earth",
+      "title": "How many ants are there on Earth?",
+      "file": "ants-on-earth.cast",
       "updated": "2026-10-15",
       "page": true
     }
