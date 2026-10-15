@@ -33,7 +33,7 @@ sources:
     card title "The Milkmaid"
 
 This is The Milkmaid, painted by Johannes Vermeer of Delft around 1660,
-    image art cites ["rijks"] credit "Vermeer, c. 1660. Rijksmuseum, Amsterdam. Public domain." x 360 y 335 width 575 url https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg look screen regions.apron [0.415,0.48,0.33,0.4] regions.arms [0.29,0.37,0.44,0.24] regions.bowl [0.266,0.603,0.172,0.065] regions.bread [0.06,0.63,0.45,0.15] regions.cupid [0.728,0.833,0.038,0.038] regions.face [0.52,0.19,0.125,0.135] regions.floor [0.6,0.7,0.4,0.25] regions.foot_warmer [0.773,0.838,0.145,0.096] regions.head [0.475,0.15,0.21,0.18] regions.jug [0.289,0.487,0.086,0.123] regions.maid [0.29,0.15,0.46,0.85] regions.nail [0.45,0.022,0.03,0.035] regions.pour [0.26,0.47,0.2,0.21] regions.stream [0.325,0.565,0.02,0.065] regions.wall [0.12,0,0.88,0.8] regions.window [0,0,0.11,0.42]
+    image art cites ["rijks"] credit "Vermeer, c. 1660. Rijksmuseum, Amsterdam. Public domain." x 290 y 335 width 575 url https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg look screen regions.apron [0.415,0.48,0.33,0.4] regions.arms [0.29,0.37,0.44,0.24] regions.bowl [0.266,0.603,0.172,0.065] regions.bread [0.06,0.63,0.45,0.15] regions.crust [0.15,0.645,0.12,0.07] regions.cupid [0.728,0.833,0.038,0.038] regions.cupid_tile [0.705,0.815,0.08,0.075] regions.face [0.52,0.19,0.125,0.135] regions.face_d [0.5,0.17,0.17,0.17] regions.floor [0.6,0.7,0.4,0.25] regions.foot_warmer [0.773,0.838,0.145,0.096] regions.head [0.475,0.15,0.21,0.18] regions.jug [0.289,0.487,0.086,0.123] regions.maid [0.29,0.15,0.46,0.85] regions.nail [0.45,0.022,0.03,0.035] regions.nail_wall [0.43,0.005,0.07,0.065] regions.pour [0.26,0.47,0.2,0.21] regions.stream [0.325,0.565,0.02,0.065] regions.stream_d [0.28,0.5,0.1,0.14] regions.wall [0.12,0,0.88,0.8] regions.window [0,0,0.11,0.42]
 
 and our question is how pouring milk can look monumental.
     highlight art:pour strength strong
@@ -47,18 +47,14 @@ In Dutch pictures and plays of the time, maids were often a joke: flirting, or d
 Here there's no joke and no story, not even a saint walking in, as in Caravaggio's tax office.
     highlight art:maid art:pour
 
-    move art by [-150,0] scale 0.8 duration 1.2
-
 She fills the picture like a statue. So how big do you think the canvas is?
-    scale size x 520 y 380 width 420 label "Canvas height" unit cm min 0 max 200 value 45 ticks 4
+    scale size x 610 y 380 width 350 label "Canvas height" unit cm min 0 max 200 value 45 ticks 4
 
     ask "Click where you think its height is." on size store g default "120"
         right: You said {g} centimetres: close. It's only about forty-five centimetres tall.
         wrong: You said {g}. It's only about forty-five centimetres tall, less than half a metre.
 
     erase size
-
-    move art by [150,0] scale 1.25 duration 1.2
 
 So the weight isn't in the size. It's in how Vermeer builds her.
     highlight art:maid lift true
@@ -67,7 +63,7 @@ We look at her from slightly below,
     highlight art:head strength soft
 
 and her shape climbs like a pyramid, from the bread on the table to her white cap.
-    path pyramid closed #f2c14e points [[408.9,560.7],[101.2,148],[503.8,44.8]] style.stroke_width 5
+    path pyramid closed #f2c14e points [[338.9,560.7],[31.2,148],[433.8,44.8]] style.stroke_width 5
 
     erase pyramid
 
@@ -81,48 +77,34 @@ Her sleeves are pushed up over strong forearms: a worker's arms.
 And her apron is painted in ultramarine, ground from lapis lazuli, one of the costliest paints of the day, spent on a servant.
     highlight art:apron strength strong lift true
 
-    camera on ["art:pour"]
+    camera reset true
 
-Everything leads to one place: a thin stream of mil (@highlight art:stream strength strong rest blur@)k, the only thing in the room that moves.
-
-    camera on ["art@[0.28,0.15,0.42,0.5]"]
+Everything leads to one place: a thin stream of mil (@highlight art:stream_d effect detail@)k, the only thing in the room that moves.
 
 Her eyes are on it. She is completely absorbed in what she is doing.
-    highlight art:face art:stream lift true
-
-    camera reset true
+    highlight art:face_d effect detail
 
 Light from the window falls across a bare wall, so plain that
     highlight art:window art:wall strength soft
 
-    camera on ["art:nail"] zoom 4
-
 a nail and its little shadow are left in view.
-    point at.ref art:nail gesture glow
-
-    camera on ["art:bread"]
+    highlight art:nail_wall effect detail
 
 Then the bread: Vermeer paints its crust in tiny dots of light, so a plain loaf glitters.
-    highlight art:bread
-
-    camera reset true
+    highlight art:crust effect detail
 
     ask "Where is the foot warmer? Tap it." spot foot_warmer on art
         intro: One more object waits on the floor: a foot warmer, a little box for a pot of hot coals.
         right: There it is, low on the floor behind her skirt.
         wrong: Look down at the floor, to the right of her red skirt.
 
-    camera on ["art@[0.66,0.76,0.3,0.14]"] zoom 3.6
-
-Right beside the foot warmer, on a (@point at.ref art:cupid gesture glow@) tile, a tiny Cupid draws his bow.
+Right beside the foot warmer, on a (@highlight art:cupid_tile effect detail@) tile, a tiny Cupid draws his bow.
 
 Foot warmers heated what lay under a woman's skirts, so in Dutch paintings they often hinted at desire; with Cupid beside it, some read a daydream of love.
-    highlight art:foot_warmer art:cupid
+    highlight art:foot_warmer effect detail
 
 Others see only a useful thing in a cool kitchen. Either way, the old joke about maids is pushed down to the floor, small and quiet.
-    highlight art:foot_warmer
-
-    camera reset true
+    highlight art:foot_warmer art:cupid lift true
 
 So the bread,
     highlight art:bread lift true
@@ -146,10 +128,10 @@ Pouring milk becomes monumental because Vermeer gives a servant what painters on
         * Close-up, chatting in a crowd
         + From below, absorbed in the work
 
-    camera on ["art:pour"]
+    camera reset true
 
 And at its centre, a thin line of milk that never finishes falling.
-    highlight art:stream lift true
+    highlight art:stream_d effect detail
 
 ## Where next
 end_page: true

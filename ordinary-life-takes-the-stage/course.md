@@ -35,14 +35,14 @@ What do the bread, the jug and the foot warmer tell us?
 #interactive #parts=1
 
 ---
-status: done · id: 8542195d-1ad4-4f57-b696-83d611678ddf · file: 04-how-can-pouring-milk-be-monumental.cast · 2026-10-14
+status: done · id: 8542195d-1ad4-4f57-b696-83d611678ddf · file: 04-how-can-pouring-milk-be-monumental.cast · 2026-10-15
 ## Why paint a child's game? Chardin's The House of Cards
 What is the boy really doing?
 Why would a painter give a game this much care?
 #calm #quiz #parts=1
 
 ---
-status: done · id: 0740b23c-edf6-4652-a463-79f1f72260bd · file: 05-why-paint-a-child-s-game-chardin-s-the.cast · 2026-10-14
+status: done · id: 0740b23c-edf6-4652-a463-79f1f72260bd · file: 05-why-paint-a-child-s-game-chardin-s-the.cast · 2026-10-15
 ## Why was a village funeral a scandal? Courbet's A Burial at Ornans
 Who are these people, and how big is the canvas?
 Why did Paris critics hate it?

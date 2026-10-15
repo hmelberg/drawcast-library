@@ -30,19 +30,18 @@ sources:
 
     card title "The House of Cards"
 
-    image art cites ["nga","ngl"] credit "Chardin, probably 1737. National Gallery of Art, Washington. Public domain." x 455 y 345 width 500 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg/1920px-Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg look screen regions.blank [0.213,0.832,0.097,0.067] regions.boy [0.4,0.18,0.56,0.8] regions.builder [0,0.2,0.66,0.6] regions.card_wall [0,0.635,0.22,0.15] regions.cheek [0.47,0.33,0.07,0.07] regions.coins [0.375,0.805,0.175,0.035] regions.counter [0.05,0.79,0.14,0.035] regions.cuff [0.442,0.685,0.05,0.08] regions.drawer [0.1,0.82,0.38,0.15] regions.drawer_front [0.1,0.89,0.38,0.077] regions.face [0.45,0.24,0.17,0.18] regions.folded [0.25,0.61,0.11,0.095] regions.hands [0.2,0.61,0.27,0.16] regions.jack [0.125,0.825,0.095,0.07] regions.room [0.1,0.15,0.8,0.7] regions.signature [0.54,0.918,0.095,0.035] regions.table [0,0.6,0.58,0.3]
+    image art cites ["nga","ngl"] credit "Chardin, probably 1737. National Gallery of Art, Washington. Public domain." x 296 y 345 height 640 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg/1920px-Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg look screen regions.blank [0.213,0.832,0.097,0.067] regions.boy [0.4,0.18,0.56,0.8] regions.builder [0,0.2,0.66,0.6] regions.card_wall [0,0.635,0.22,0.15] regions.cheek [0.47,0.33,0.07,0.07] regions.coins [0.375,0.805,0.175,0.035] regions.counter [0.05,0.79,0.14,0.035] regions.cuff [0.442,0.685,0.05,0.08] regions.drawer [0.1,0.82,0.38,0.15] regions.drawer_front [0.1,0.89,0.38,0.077] regions.face [0.45,0.24,0.17,0.18] regions.folded [0.25,0.61,0.11,0.095] regions.hands [0.2,0.61,0.27,0.16] regions.jack [0.125,0.825,0.095,0.07] regions.room [0.1,0.15,0.8,0.7] regions.signature [0.54,0.918,0.095,0.035] regions.table [0,0.6,0.58,0.3]
 
 A boy leans over a card table, and our question is simple: why would anyone paint this?
     camera on ["art:room"] zoom 1.4 duration 6
 
-    camera on ["art@[0.3,0.62,0.55,0.3]"]
-
-This is The House of Cards by Jean-Siméon Chardin, from about 1737; his si (@highlight art:signature effect ring@)gnature is on the table.
-
-He painted the subject several times, and this version hangs in Washington.
     camera reset true
 
-    portrait chardin x 850 y 440 width 190 of "Jean-Siméon Chardin" cameo true
+This is The House of Cards by Jean-Siméon Chardin, from about 1737; his si (@highlight art:signature effect detail@)gnature is on the table.
+
+He painted the subject several times, and this version hangs in Washington.
+
+    portrait chardin x 780 y 400 width 190 of "Jean-Siméon Chardin" cameo true
 
 Chardin made his name with (@highlight art:drawer art:card_wall strength soft@) still lifes, near the bottom of the ladder: the French Academy put gods, saints and heroes at the top.
 
@@ -58,44 +57,30 @@ So what is this boy really doing?
 
     pause 1
 
-    camera on ["art:table"]
-
 At first glance, playing cards. But look at his hands.
-    highlight art:hands
-
-    camera on ["art:folded"] zoom 3.5
+    highlight art:hands effect detail
 
 He isn't holding a hand to play. He folds each card down the middle, so that it can stand on its own.
-    highlight art:folded
-
-    camera on ["art:card_wall","art:hands"]
+    highlight art:folded effect detail
 
 And at his fingertips, a row of folded cards stands like a little wall. He is building, not playing.
-    highlight art:card_wall lift true
+    highlight art:card_wall effect detail
 
     pause 1
 
-    camera on ["art:table"]
-
-Cards had another life, of course: on the gr (@highlight art:coins lift true@)een cloth lie coins, as on any gaming table.
-
-    camera reset true
+Cards had another life, of course: on the gr (@highlight art:coins effect detail@)een cloth lie coins, as on any gaming table.
 
     ask "Tap it." spot jack on art
         intro: One card here has a figure on it.
         right: There it is, in the open drawer.
         wrong: Look below the table top, in the drawer.
 
-    camera on ["art:drawer"] zoom 2.5
-
-A jack of hearts, the only picture ca (@highlight art:jack art:blank lift true@)rd, and beside it, a blank one.
+A jack of hearts, the only picture ca (@highlight art:jack art:blank effect detail@)rd, and beside it, a blank one.
 
 Some read the jack as a nod to the gamblers' world.
-    highlight art:jack lift true
+    highlight art:jack effect detail
 
-    camera on ["art:card_wall","art:hands"]
-
-The boy has no use for faces: to him, (@highlight art:card_wall lift true@) a card is just a brick.
+The boy has no use for faces: to him, (@highlight art:card_wall effect detail@) a card is just a brick.
 
     pause 1
 
@@ -109,7 +94,7 @@ That's the old moral: everything we build is a house of cards.
 
     pause 1
 
-    camera on ["art:boy"]
+    camera reset true
 
 But the painting itself doesn't preach. There is no motto, and no one wags a finger.
     highlight art:face strength soft lift true
@@ -121,24 +106,18 @@ What Chardin paints instead is attention: eyes lowered, hands steady, the whole 
 
     pause 1
 
-    camera on ["art:face"] zoom 3
+    camera reset true
 
-And he gives it the care others gave to saints: so (@highlight art:cheek lift true@)ft light on the cheek,
-
-    camera on ["art:cuff"] zoom 4
+And he gives it the care others gave to saints: so (@highlight art:cheek effect detail@)ft light on the cheek,
 
 the white cuff,
-    highlight art:cuff
-
-    camera on ["art:drawer"] zoom 2.5
+    highlight art:cuff effect detail
 
 the worn wood of the drawer.
-    highlight art:drawer_front
-
-    camera on ["art:table"]
+    highlight art:drawer_front effect detail
 
 Like the milkmaid's pour, a moment of nothing much is held still, so that we notice it.
-    highlight art:hands
+    highlight art:hands lift true
 
     pause 1
 
