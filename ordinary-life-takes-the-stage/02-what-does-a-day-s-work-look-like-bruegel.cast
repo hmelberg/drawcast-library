@@ -46,15 +46,7 @@ Bruegel answered with a wheat field at the height of summer, in 1565.
     highlight art:wheat strength soft
 
 In the Fall of Icarus, a myth still hid in the corner. Here it's gone altogether: just a harvest, from the front edge to the horizon.
-    blocking false
-
-    highlight art:corner_bl duration 3.2
-
-    highlight art:mowers art:meal strength soft duration 2.6
-
-    highlight art:village strength soft duration 1.8
-
-    highlight art:ships strength soft duration 1.6
+    highlight art:corner_bl art:mowers art:meal art:village art:ships strength soft
 
     camera on ["art@[0.04,0.62,0.3,0.38]"]
 
@@ -96,24 +88,12 @@ One cuts bread from a basket, one tips back a jug, others spoon from bowls, and 
     camera on ["art@[0.76,0.26,0.24,0.32]"]
 
 The pears come from the tree on the right, where someone up in the branches is picking and others gather from the ground.
-    blocking false
-
-    pause 2.2
-
-    highlight art:picker duration 2.6
-
-    highlight art:gatherers lift true duration 2.4
+    highlight art:picker art:gatherers
 
     camera on ["art@[0.19,0.44,0.27,0.08]"]
 
 Further off, the village keeps its own hours: people bathe in a pond, and on the green others play cock throwing, a cruel old game of hurling sticks at a tethered rooster.
-    blocking false
-
-    pause 2.6
-
-    highlight art:bathers duration 2.4
-
-    highlight art:game lift true duration 5.5
+    highlight art:bathers art:game
 
     camera reset true
 

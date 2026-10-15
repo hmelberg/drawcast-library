@@ -46,11 +46,7 @@ Start with the room: (@highlight art:room strength soft lift true@) a bare wall,
     camera on ["art@[0.12,0.38,0.32,0.32]"]
 
 On the table lie a few coins, and a young man counts them with his head down.
-    blocking false
-
-    highlight art:coins lift true duration 2.2
-
-    highlight art:coin_counter lift true duration 2.8
+    highlight art:coins art:coin_counter
 
 An old man in spectacles leans over him, checking the sums.
     highlight art:old_man lift true
@@ -83,13 +79,7 @@ Jesus and Peter wear plain, timeless robes (@highlight art:bare_feet strength st
     camera reset true
 
 So the painting holds two times at once: the Bible's on the right, Caravaggio's own at the table.
-    blocking false
-
-    pause 1.6
-
-    highlight art:holy_pair lift true duration 2
-
-    highlight art:table lift true duration 2.4
+    highlight art:holy_pair art:table
 
 And Jesus reaches a (@highlight art:call_line strength soft lift true@)cross from one into the other, as if the call could come into any room, today.
 
@@ -107,11 +97,7 @@ Two years later, the same church turned down his first altarpiece of Matthew (@h
 He had to paint it again. Yet thes (@highlight art:call_line strength soft lift true@)e side paintings made him famous almost overnight.
 
 Bruegel had pushed a myth into the corner of a working day. Caravaggio brings the holy story right into the working room.
-    blocking false
-
-    highlight art:table strength soft lift true duration 3.4
-
-    highlight art:jesus lift true duration 3.4
+    highlight art:table art:jesus strength soft
 
     camera on ["art:call_line"]
 
@@ -128,11 +114,7 @@ The daring idea: holiness needs no special place. It can walk into a tax office,
         + Today's clothes and street
 
 Four hundred years on, the coins are still on the table, and the call still comes into an ordinary room.
-    blocking false
-
-    highlight art:coins strength soft lift true duration 2.6
-
-    highlight art:call_line strength soft lift true duration 3.4
+    highlight art:coins art:call_line strength soft
 
 ## Where next
 end_page: true

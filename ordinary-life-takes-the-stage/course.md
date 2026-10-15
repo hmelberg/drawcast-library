@@ -22,14 +22,14 @@ Why paint peasants as the whole subject?
 #facts #parts=1
 
 ---
-status: done · id: ed53e949-a25e-4d63-83a4-5cda222f190c · file: 02-what-does-a-day-s-work-look-like-bruegel.cast · 2026-10-14
+status: done · id: ed53e949-a25e-4d63-83a4-5cda222f190c · file: 02-what-does-a-day-s-work-look-like-bruegel.cast · 2026-10-15
 ## Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew
 What makes this room so ordinary?
 Why did Caravaggio dress the scene in his own time?
 #why #parts=1
 
 ---
-status: done · id: e766c588-cf4c-422d-a9e6-1c9b5ed0e946 · file: 03-why-set-a-holy-story-in-a-tax-office.cast · 2026-10-14
+status: done · id: e766c588-cf4c-422d-a9e6-1c9b5ed0e946 · file: 03-why-set-a-holy-story-in-a-tax-office.cast · 2026-10-15
 ## How can pouring milk be monumental? Vermeer's The Milkmaid
 What makes one kitchen task look so important?
 What do the bread, the jug and the foot warmer tell us?
