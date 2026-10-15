@@ -1,4 +1,6 @@
 # How did oil paint make light glow? Van Eyck's Arnolfini Portrait
+tags: ["oil paint techniques","renaissance art","light in painting","van eyck","glazing technique","color theory"]
+teaches: ["art-history/northern-renaissance","techniques/oil-paint-glazing","concepts/light-reflection","methods/observing-paintings"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the light come from in this room? What could oil glazes do that earlier paint couldn't?"
 next: {"title":"Can one beam tell a story? Caravaggio's Calling of Saint Matthew","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast"}

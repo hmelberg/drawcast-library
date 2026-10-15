@@ -1,4 +1,6 @@
 # Why paint the same church thirty times? Monet's Rouen Cathedral
+tags: ["monet","impressionism","light and color","series paintings","rouen cathedral"]
+teaches: ["art-history/impressionism","concepts/light-as-subject","methods/serial-observation"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What changes between two of the paintings? What was Monet really painting?"
 next: {"title":"Can dots make light? Seurat's A Sunday on La Grande Jatte","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast"}

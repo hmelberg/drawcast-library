@@ -1,4 +1,6 @@
 # Why does window light feel so calm? Vermeer's The Milkmaid
+tags: ["vermeer","window light","painting technique","dutch golden age","composition","light in art"]
+teaches: ["art-history/vermeer","concepts/light-in-composition","methods/observing-light","techniques/edge-contrast"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the light fall, and where doesn't it? How do the little dots of light on the bread work?"
 next: {"title":"Can a sunset say goodbye? Turner's The Fighting Temeraire","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast"}

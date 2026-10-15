@@ -1,4 +1,6 @@
 # What if you paint the light, not the thing? Monet's Impression, Sunrise
+tags: ["impressionism","monet","light-and-color","painting-technique","art-history"]
+teaches: ["art-history/impressionism-movement","concepts/light-as-subject","techniques/color-over-form","art-analysis/how-paintings-create-perception"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "How little is actually drawn? How did this painting give a movement its name?"
 next: {"title":"Why paint the same church thirty times? Monet's Rouen Cathedral","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast"}

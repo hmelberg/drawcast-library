@@ -1,5 +1,6 @@
 # How Painters Caught Light
 slug: how-painters-caught-light
+#art_history #painting #light_in_painting #impressionism #renaissance_art
 level: standard: curious adults of better-than-average ability with no art-history background; define a term once, in passing
 language: English
 notation: Each lecture is one painting shown large as a mapped picture, explained as a conversation between two voices: a = the guide (Gemini Charon, warm and knowledgeable), b = a curious visitor (Gemini Puck, relaxed, good-humoured, asks, guesses, sometimes wrong, sums up). Soft lights on the picture are the natural tool here; strength/rest emphasis (grey, blur, paper) at one or two moments where the light IS the point.

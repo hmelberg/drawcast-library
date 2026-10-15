@@ -1,4 +1,6 @@
 # Can dots make light? Seurat's A Sunday on La Grande Jatte
+tags: ["art history","pointillism","seurat","color theory","optical mixing","renaissance painting"]
+teaches: ["art-history/pointillism-technique","concepts/optical-color-mixing","concepts/color-relationships","methods/scientific-painting"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What happens to the dots when you step back? Why did Seurat think this would make colours brighter?"
 next: {"title":"Can light be a feeling? Van Gogh's The Starry Night","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast"}

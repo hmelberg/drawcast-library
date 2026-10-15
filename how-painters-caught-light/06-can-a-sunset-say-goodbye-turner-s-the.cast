@@ -1,4 +1,6 @@
 # Can a sunset say goodbye? Turner's The Fighting Temeraire
+tags: ["art history","turner","painting light","symbolism in art","romanticism","naval history"]
+teaches: ["art-history/symbolism-in-painting","concepts/composition-and-meaning","methods/painting-light-to-convey-emotion","vocabulary/artistic-techniques"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is the old ship, and what is towing it? What is the sunset doing on the right?"
 next: {"title":"What if you paint the light, not the thing? Monet's Impression, Sunrise","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/07-what-if-you-paint-the-light-not-the.cast"}

@@ -1,4 +1,6 @@
 # Can light be a feeling? Van Gogh's The Starry Night
+tags: ["art history","van gogh","starry night","light in painting","emotion and color","impressionism"]
+teaches: ["art-history/symbolism-in-painting","concepts/emotional-light","visual-analysis/composition","art-appreciation/expressionism"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is real in this sky, and what isn't? Where does the light come from now?"
 
