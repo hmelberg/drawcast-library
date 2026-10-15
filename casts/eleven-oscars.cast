@@ -21,9 +21,9 @@ sources:
         * "The Godfather" icon.of rose icon.set twemoji in false
         * "Avatar" icon.of alien icon.set twemoji in false
         * "Casablanca" icon.of airplane icon.set twemoji in false
-    text l_ben "11 of 12" #2f6b8f x 215 y 245 font_size 32 hidden true
-    text l_tit "11 of 14" #2f6b8f x 405 y 245 font_size 32 hidden true
-    text l_rotk "11 of 11" #b5482e x 595 y 245 font_size 32 hidden true
+    text l_ben "11 of 12" #2f6b8f x 215 y 292 font_size 32 hidden true
+    text l_tit "11 of 14" #2f6b8f x 405 y 292 font_size 32 hidden true
+    text l_rotk "11 of 11" #b5482e x 595 y 292 font_size 32 hidden true
     icon trophy size 130 set twemoji x 830 y 300 icon_look picture of trophy hidden true
 
     card title "Which films won 11 Oscars?"
