@@ -1,4 +1,6 @@
 # Who is the barmaid? Manet's A Bar at the Folies-Bergère
+tags: ["art history","manet","impressionism","19th century paris","social class","labor"]
+teaches: ["art-history/painting-interpretation","social-history/urban-labor","visual-analysis/composition-and-mirror"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is she, and what is she selling? What does her face say that the crowd behind her doesn't?"
 next: {"title":"Who gets a day off? Seurat's A Sunday on La Grande Jatte","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/10-who-gets-a-day-off-seurat-s-a-sunday-on.cast"}

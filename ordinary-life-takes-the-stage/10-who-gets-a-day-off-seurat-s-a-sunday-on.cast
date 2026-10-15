@@ -1,4 +1,6 @@
 # Who gets a day off? Seurat's A Sunday on La Grande Jatte
+tags: ["art history","impressionism","paris 1880s","labor rights","sunday rest","social class"]
+teaches: ["art-history/frieze-composition","concepts/leisure-and-labor","vocabulary/pointillism","history/working-rights"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is in the park, and what is each doing? Why paint leisure with such strict order?"
 

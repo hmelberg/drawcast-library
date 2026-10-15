@@ -1,5 +1,6 @@
 # Ordinary Life Takes the Stage
 slug: ordinary-life-takes-the-stage
+#art_history #painting #realism #everyday_life #bruegel #impressionism
 level: standard: curious adults of better-than-average ability with no art-history background; define a term once, in passing
 language: English
 notation: Each lecture is one painting shown large as a mapped picture: soft lights, zooms and arrows on its parts; strength/rest emphasis (grey, blur, paper) at one or two moments. Narrator: one voice, a warm gallery guide.

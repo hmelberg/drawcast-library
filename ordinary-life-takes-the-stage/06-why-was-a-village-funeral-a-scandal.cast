@@ -1,4 +1,6 @@
 # Why was a village funeral a scandal? Courbet's A Burial at Ornans
+tags: ["art history","realism","courbet","painting scandals","19th century france","social class in art"]
+teaches: ["art-history/realism-movement","concepts/hierarchy-of-genres","art-analysis/composition-and-scale","history/19th-century-social-politics"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who are these people, and how big is the canvas? Why did Paris critics hate it?"
 next: {"title":"What is gleaning? Millet's The Gleaners","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast"}

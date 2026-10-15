@@ -1,4 +1,6 @@
 # Why paint a child's game? Chardin's The House of Cards
+tags: ["chardin","still life painting","17th century art","composition and light","everyday moments in art"]
+teaches: ["art-history/chardin","concepts/memento-mori","methods/visual-attention","vocabulary/still-life"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is the boy really doing? Why would a painter give a game this much care?"
 next: {"title":"Why was a village funeral a scandal? Courbet's A Burial at Ornans","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/06-why-was-a-village-funeral-a-scandal.cast"}

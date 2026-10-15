@@ -1,4 +1,6 @@
 # Why were these workers 'vulgar'? Caillebotte's The Floor Scrapers
+tags: ["art history","realism","caillebotte","salon rejection","19th century paris","working class subjects"]
+teaches: ["history/academic-salon-system","concepts/vulgarity-in-art","analysis/composition-and-perspective","history/impressionism"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What are the men doing, and how do we see them? Why did the Salon turn it away?"
 next: {"title":"Who is the barmaid? Manet's A Bar at the Folies-Bergère","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast"}

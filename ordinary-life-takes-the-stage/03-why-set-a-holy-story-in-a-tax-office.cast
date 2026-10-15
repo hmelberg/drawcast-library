@@ -1,4 +1,6 @@
 # Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew
+tags: ["caravaggio","renaissance painting","religious art","composition and perspective","everyday life in art"]
+teaches: ["art-history/caravaggio","concepts/anachronism-in-art","methods/setting-biblical-stories-in-contemporary-spaces","analysis/symbolism-in-painting"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What makes this room so ordinary? Why did Caravaggio dress the scene in his own time?"
 next: {"title":"How can pouring milk be monumental? Vermeer's The Milkmaid","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/04-how-can-pouring-milk-be-monumental.cast"}

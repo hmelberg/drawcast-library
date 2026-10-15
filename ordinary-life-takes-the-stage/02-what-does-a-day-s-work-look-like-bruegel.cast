@@ -1,4 +1,6 @@
 # What does a day's work look like? Bruegel's The Harvesters
+tags: ["bruegel","renaissance art","labor and work","daily life painting","social history"]
+teaches: ["art-history/genre-painting","visual-analysis/composition","history/peasant-life","methods/visual-storytelling"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is each group doing at this hour? Why paint peasants as the whole subject?"
 next: {"title":"Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast"}

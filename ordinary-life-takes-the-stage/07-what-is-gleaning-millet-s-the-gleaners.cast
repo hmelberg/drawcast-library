@@ -1,4 +1,6 @@
 # What is gleaning? Millet's The Gleaners
+tags: ["art history","gleaning poverty","millet realism","social class painting","19th century france","biblical charity"]
+teaches: ["art-history/social-class-in-painting","concepts/gleaning","history/french-revolution-context","methods/composition-foreground-emphasis"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What are the three women doing, and what is behind them? Why did some see a threat in it?"
 next: {"title":"Why were these workers 'vulgar'? Caillebotte's The Floor Scrapers","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/08-why-were-these-workers-vulgar.cast"}

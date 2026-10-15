@@ -1,4 +1,6 @@
 # How can pouring milk be monumental? Vermeer's The Milkmaid
+tags: ["art history","vermeer","dutch golden age","painting composition","dignity in labor","still life"]
+teaches: ["art-history/compositional-techniques","concepts/how-artists-convey-dignity","analysis/visual-symbolism","methods/close-looking"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What makes one kitchen task look so important? What do the bread, the jug and the foot warmer tell us?"
 next: {"title":"Why paint a child's game? Chardin's The House of Cards","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast"}
