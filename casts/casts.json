@@ -624,13 +624,6 @@
       "page": true
     },
     {
-      "slug": "eiffel-tower-year",
-      "title": "When was the Eiffel Tower finished?",
-      "file": "eiffel-tower-year.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "first-text-message",
       "title": "When was the first text message sent?",
       "file": "first-text-message.cast",
@@ -1306,6 +1299,13 @@
       "slug": "arrow-impossibility",
       "title": "Arrow's impossibility theorem",
       "file": "arrow-impossibility.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "eiffel-tower-year",
+      "title": "When was the Eiffel Tower finished?",
+      "file": "eiffel-tower-year.cast",
       "updated": "2026-10-15",
       "page": true
     }

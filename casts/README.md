@@ -7,6 +7,7 @@
 - [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-15
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-15
 - [Arrow's impossibility theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/arrow-impossibility.cast) — 2026-10-15
+- [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
@@ -90,7 +91,6 @@
 - [On the Moon, which lands first: a hammer or a feather?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hammer-and-feather.cast) — 2026-10-13
 - [True or myth? Five things everyone has heard](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/true-or-myth.cast) — 2026-10-13
 - [What finishes Pythagoras' theorem?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/pythagoras-blank.cast) — 2026-10-13
-- [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-13
 - [When was the first text message sent?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-text-message.cast) — 2026-10-13
 - [Which animal has the longest pregnancy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/longest-pregnancy.cast) — 2026-10-13
 - [Which came first?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/which-came-first.cast) — 2026-10-13
