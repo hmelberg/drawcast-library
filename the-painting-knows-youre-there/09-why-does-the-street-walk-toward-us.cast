@@ -1,4 +1,6 @@
 # Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day
+tags: ["caillebotte paris","perspective composition","impressionist painting","photography influence","urban scenes"]
+teaches: ["art-history/perspective","concepts/viewer-positioning","methods/compositional-framing","vocabulary/horizon-line"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Why are the figures cut off by the frame? Where would we have to be standing?"
 next: {"title":"Can this mirror be right? Manet's A Bar at the Folies-Bergère","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast"}

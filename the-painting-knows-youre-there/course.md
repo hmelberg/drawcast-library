@@ -1,5 +1,6 @@
 # The Painting Knows You're There
 slug: the-painting-knows-youre-there
+#art_history #painting #renaissance_art #perspective #symbolism
 level: standard: curious adults of better-than-average ability with no art-history background; define a term once, in passing
 language: English
 notation: Each lecture is one painting shown large as a mapped picture: soft lights, zooms and arrows on its parts; strength/rest emphasis (grey, blur, paper) at one or two moments. Narrator: one voice, a warm gallery guide.

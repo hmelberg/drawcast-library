@@ -1,4 +1,6 @@
 # Why show a man from behind? Friedrich's Wanderer above the Sea of Fog
+tags: ["romantic painting","caspar david friedrich","composition techniques","german art","perspective symbolism"]
+teaches: ["art-history/romantic-era-painting","composition/rückenfigur-back-figure","visual-analysis/viewer-perspective","art-techniques/composition-and-emotion"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What changes when we see a figure only from the back? Where does the painting put us?"
 next: {"title":"Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast"}

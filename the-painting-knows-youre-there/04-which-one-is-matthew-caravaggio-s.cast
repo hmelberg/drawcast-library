@@ -1,4 +1,6 @@
 # Which one is Matthew? Caravaggio's Calling of Saint Matthew
+tags: ["caravaggio","renaissance art","painting interpretation","religious art","baroque","visual analysis"]
+teaches: ["art-history/baroque-painting","interpretation/ambiguity-in-art","concepts/visual-composition","viewer-engagement/personal-meaning"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Where does the light point, and where does Christ's hand point? Is Matthew the bearded man or the young man counting coins?"
 next: {"title":"Who is the painter painting? Velázquez's Las Meninas","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast"}

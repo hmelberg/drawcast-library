@@ -1,4 +1,6 @@
 # Who is watching whom? Fragonard's The Swing
+tags: ["art history","rococo painting","visual perspective","fragonard","social commentary","voyeurism"]
+teaches: ["art-history/perspective-and-viewpoint","concepts/visual-storytelling","analysis/composition-and-symbolism","vocabulary/rococo-painting"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who can see what from where? What makes us part of the joke?"
 next: {"title":"Why show a man from behind? Friedrich's Wanderer above the Sea of Fog","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast"}

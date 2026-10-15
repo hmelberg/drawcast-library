@@ -1,4 +1,6 @@
 # Why pull back a curtain? Vermeer's The Art of Painting
+tags: ["art history","vermeer","painting technique","dutch golden age","composition","viewer perspective"]
+teaches: ["art-history/symbolism","visual-analysis/composition","concepts/artistic-convention","methods/close-looking"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is the curtain pulled back for? Why paint the painter from behind?"
 next: {"title":"Who is watching whom? Fragonard's The Swing","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast"}

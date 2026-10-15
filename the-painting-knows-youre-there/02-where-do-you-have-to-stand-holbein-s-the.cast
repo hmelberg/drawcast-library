@@ -1,4 +1,6 @@
 # Where do you have to stand? Holbein's The Ambassadors
+tags: ["renaissance art","hans holbein","anamorphosis","memento mori","perspective tricks","symbolism in painting"]
+teaches: ["art-history/renaissance-portraiture","visual-analysis/anamorphosis","concepts/memento-mori","methods/reading-hidden-symbolism"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is the grey smear across the floor? Why hide death where only a step to the side reveals it?"
 next: {"title":"Where is the hero? Bruegel's Fall of Icarus","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast"}

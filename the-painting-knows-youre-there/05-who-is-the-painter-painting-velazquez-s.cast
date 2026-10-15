@@ -1,4 +1,6 @@
 # Who is the painter painting? Velázquez's Las Meninas
+tags: ["art history","velazquez","las meninas","perspective","royal portraiture","baroque painting"]
+teaches: ["art-history/compositional-perspective","concepts/viewer-positioning","art-analysis/symbolism-and-iconography","history/spanish-golden-age-court"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is everyone in the room looking at? Whose place are we standing in?"
 next: {"title":"Why pull back a curtain? Vermeer's The Art of Painting","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast"}
