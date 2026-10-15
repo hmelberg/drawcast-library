@@ -25,13 +25,7 @@ sources:
     image art cites ["ng","wiki"] credit "J. M. W. Turner, 1839. National Gallery, London. Public domain." x 500 y 330 width 880 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/1920px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg look screen regions.buoy [0.815,0.8,0.055,0.1] regions.convoy [0.14,0.2,0.29,0.6] regions.cool_side [0,0,0.5,1] regions.far_ship [0.44,0.66,0.04,0.075] regions.flag [0.305,0.37,0.025,0.04] regions.funnel [0.355,0.55,0.02,0.17] regions.hull [0.145,0.6,0.165,0.17] regions.masts [0.14,0.2,0.16,0.42] regions.moon [0.085,0.16,0.025,0.04] regions.red_clouds [0.6,0.56,0.3,0.12] regions.reflection [0.735,0.73,0.08,0.25] regions.ship [0.14,0.2,0.18,0.58] regions.smoke [0.245,0.42,0.13,0.17] regions.sun [0.755,0.675,0.05,0.06] regions.sun_column [0.6,0.5,0.36,0.48] regions.sun_glow [0.66,0.56,0.24,0.22] regions.sunset [0.56,0.15,0.44,0.62] regions.tug [0.26,0.57,0.165,0.22] regions.warm_side [0.5,0,0.5,1]
 
 B: A pale old warship, a little black boat, and a sky on fire. Can a sunset really say goodbye?
-    blocking false
-
-    highlight art:ship strength soft duration 1.6
-
-    highlight art:tug strength soft lift true duration 1.4
-
-    highlight art:sunset strength soft lift true duration 2.2
+    highlight art:ship art:tug art:sunset strength soft
 
 A: Turner thought so. This is his Fighting Temeraire, shown at the Royal Academy in London in 1839.
     portrait turner x 175 y 555 width 90 of "J. M. W. Turner" cameo true
@@ -45,11 +39,7 @@ A: The Temeraire: a warship of ninety-eight guns, and one of the ships that foug
     highlight art:ship
 
 A: But in 1838 the navy sold her, and steam tugs towed her up the Thames to be broken up.
-    blocking false
-
-    highlight art:ship duration 2.2
-
-    highlight art:tug lift true duration 3
+    highlight art:ship art:tug
 
     camera on ["art@[0.12,0.36,0.36,0.46]"]
 
@@ -99,11 +89,7 @@ A: A thin crescent, rising over her. Sun going down on one side, moon coming up 
     highlight art:moon effect ring lift true duration 2.6
 
 A: Even the red clouds by the sun pick up the rusty colour of the tug's smoke.
-    blocking false
-
-    highlight art:red_clouds lift true duration 2.2
-
-    highlight art:smoke lift true duration 2.2
+    highlight art:red_clouds art:smoke
 
 B: Surely he was there to watch her go, though?
     highlight art:sunset strength soft lift true

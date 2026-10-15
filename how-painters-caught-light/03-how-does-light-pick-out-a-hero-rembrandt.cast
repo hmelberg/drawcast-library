@@ -103,13 +103,7 @@ B: A walking coat of arms. With poultry.
     camera on ["art@[0.2,0.38,0.55,0.6]"]
 
 B: So the light isn't one beam this time. It's handed out: the leader, his lieutenant, and the company's sign.
-    blocking false
-
-    highlight art:captain lift true duration 1.6
-
-    highlight art:lieutenant lift true duration 1.4
-
-    highlight art:girl lift true duration 1.6
+    highlight art:captain art:lieutenant art:girl
 
 A: Yes: Caravaggio's beam chose one man. Rembrandt's light builds a cast, a hero in front and a crowd behind.
     highlight art:cast strength soft rest grey lift true

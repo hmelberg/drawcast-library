@@ -77,11 +77,7 @@ B: Same church? It looks rebuilt out of ice.
 A: Nothing was rebuilt. The sun has gone, (@highlight west:sky west:all@) the sky is a pale haze, and the same stone has turned blue and lilac.
 
 A: Even the great rose window, dusky violet in the sun, is a deep blue hole here.
-    blocking false
-
-    highlight art:rose_window lift true duration 2.4
-
-    highlight west:rose_window lift true duration 2.6
+    highlight art:rose_window west:rose_window
 
     quiz "Which is the stone's real colour? Pick one." on_canvas true buttons_at.x 500 buttons_at.y 380 voice a
         intro: So which one shows the stone's real colour?

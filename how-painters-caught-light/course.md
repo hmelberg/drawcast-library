@@ -50,7 +50,7 @@ What is the sunset doing on the right?
 #qa #history #parts=1
 
 ---
-status: done · id: 4c408145-14c9-48d4-a897-5a9e1ccc2077 · file: 06-can-a-sunset-say-goodbye-turner-s-the.cast · 2026-10-14
+status: done · id: 4c408145-14c9-48d4-a897-5a9e1ccc2077 · file: 06-can-a-sunset-say-goodbye-turner-s-the.cast · 2026-10-15
 ## What if you paint the light, not the thing? Monet's Impression, Sunrise
 How little is actually drawn?
 How did this painting give a movement its name?

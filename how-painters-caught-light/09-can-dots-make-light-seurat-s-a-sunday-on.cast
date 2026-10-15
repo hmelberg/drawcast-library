@@ -123,13 +123,7 @@ A: And in the sunlit grass, yellow with orange dots: warm against cool, each mak
     camera reset true
 
 B: So the sunshine isn't painted on top. It's in every patch.
-    blocking false
-
-    highlight art:sunlit3 strength strong lift true duration 1.3
-
-    highlight art:sunlit strength strong lift true duration 1.3
-
-    highlight art:sunlit2 strength strong lift true duration 1.5
+    highlight art:sunlit3 art:sunlit art:sunlit2 strength strong
 
 A: The honest catch: the eye averages the dots, so they're never brighter than the paints themselves. What they give instead is a shimmer, like air on a hot day.
     highlight art:lawn lift true

@@ -48,22 +48,12 @@ B: A candle, I suppose.
     highlight art:lamp effect detail lift true
 
 A: Look closer: a wick in oil, in a glass, a little night lamp, with a thread of black smoke rising off the flame.
-    blocking false
-
-    highlight art:glass effect detail lift true duration 3.2
-
-    highlight art:smoke effect detail lift true duration 3
+    highlight art:glass art:smoke effect detail
 
     camera reset true
 
 B: So what does it light? Her face, her shoulder, that white blouse.
-    blocking false
-
-    pause 1.2
-
-    highlight art:face effect detail lift true duration 1.8
-
-    highlight art:blouse lift true duration 2
+    highlight art:face art:blouse
 
 A: Whatever is near it, and the  (@highlight art:flame art:blouse art:legs lift true@)nearer, the brighter: a small flame's light fades fast with distance.
 
@@ -104,11 +94,7 @@ B: And the flame is burning itself away while she watches.
     highlight art:flame_up effect detail lift true
 
 A: That's the old meaning: a flame that uses itself up is a short life, and its smoke drifts off and is gone.
-    blocking false
-
-    highlight art:flame_up effect detail lift true duration 3.5
-
-    highlight art:smoke effect detail lift true duration 3
+    highlight art:flame_up art:smoke effect detail
 
 B: That's rather gloomy.
     highlight art:smoke strength soft
@@ -119,11 +105,7 @@ A: There's a brighter reading too. The museum links the flame to the living flam
     highlight art:flame lift true
 
 B: So the skull is what she holds, and the flame is what she thinks about.
-    blocking false
-
-    highlight art:skull lift true duration 2.2
-
-    highlight art:flame lift true duration 2.5
+    highlight art:skull art:flame
 
     camera on ["art@[0.25,0.04,0.55,0.5]"]
 
