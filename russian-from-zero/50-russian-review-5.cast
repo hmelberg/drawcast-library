@@ -1,5 +1,6 @@
 # A fifth Russian story: read it all yourself
 subtitle: "Read Masha's longest note yet, written on her way to see her brother in Oslo and built only from lessons 1–49, page by page, hear it line by line, test what you understood, and look back at the first fifty lessons, the halfway mark."
+teaches: ["reading/reading-stories"]
 thumb: "band \"A fifth story: read it all yourself\" note \"lessons 1–49, 12 lines\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Talking about things in Russian: о маме, о работе","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/51-russian-about.cast"}
@@ -132,7 +133,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase s10 s11 s12
 
-    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Ива́н живёт в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Ива́н живёт в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the note, from memory.
         right: In Oslo: Masha is flying there to see him.
         wrong: Masha is flying to see him. Where to?
@@ -142,7 +143,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase question_1_stamp
 
-    quiz "How old will Ivan be tomorrow? Pick one." reveal.text "Два́дцать три го́да!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "How old will Ivan be tomorrow? Pick one." reveal.text "Два́дцать три го́да!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Twenty-three: tomorrow is his birthday.
         wrong: Thirty-one is Tom, and twenty-two was last year.
         + Два́дцать три го́да.
@@ -158,7 +159,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase question_3_stamp
 
-    quiz "How does Masha get from the station to the hotel? Pick one." reveal.text "Пря́мо, пото́м нале́во." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "How does Masha get from the station to the hotel? Pick one." reveal.text "Пря́мо, пото́м нале́во." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Straight on, then left.
         wrong: First straight on. Then look at the middle of the word: ле is left.
         * Нале́во, пото́м пря́мо.

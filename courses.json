@@ -41,6 +41,66 @@
       "updated": "2026-10-14"
     },
     {
+      "slug": "the-painting-knows-youre-there",
+      "title": "The Painting Knows You're There",
+      "files": [
+        "the-painting-knows-youre-there/01-who-else-is-in-the-room-van-eyck-s.cast",
+        "the-painting-knows-youre-there/02-where-do-you-have-to-stand-holbein-s-the.cast",
+        "the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast",
+        "the-painting-knows-youre-there/04-which-one-is-matthew-caravaggio-s.cast",
+        "the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast",
+        "the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast",
+        "the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast",
+        "the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast",
+        "the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast",
+        "the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast",
+        "the-painting-knows-youre-there/course.md",
+        "the-painting-knows-youre-there/index.html",
+        "the-painting-knows-youre-there/README.md"
+      ],
+      "updated": "2026-10-14"
+    },
+    {
+      "slug": "ordinary-life-takes-the-stage",
+      "title": "Ordinary Life Takes the Stage",
+      "files": [
+        "ordinary-life-takes-the-stage/01-why-is-the-ploughman-bigger-than-the.cast",
+        "ordinary-life-takes-the-stage/02-what-does-a-day-s-work-look-like-bruegel.cast",
+        "ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast",
+        "ordinary-life-takes-the-stage/04-how-can-pouring-milk-be-monumental.cast",
+        "ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast",
+        "ordinary-life-takes-the-stage/06-why-was-a-village-funeral-a-scandal.cast",
+        "ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast",
+        "ordinary-life-takes-the-stage/08-why-were-these-workers-vulgar.cast",
+        "ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast",
+        "ordinary-life-takes-the-stage/10-who-gets-a-day-off-seurat-s-a-sunday-on.cast",
+        "ordinary-life-takes-the-stage/course.md",
+        "ordinary-life-takes-the-stage/index.html",
+        "ordinary-life-takes-the-stage/README.md"
+      ],
+      "updated": "2026-10-14"
+    },
+    {
+      "slug": "how-painters-caught-light",
+      "title": "How Painters Caught Light",
+      "files": [
+        "how-painters-caught-light/01-how-did-oil-paint-make-light-glow-van.cast",
+        "how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast",
+        "how-painters-caught-light/03-how-does-light-pick-out-a-hero-rembrandt.cast",
+        "how-painters-caught-light/04-what-can-one-candle-do-la-tour-s.cast",
+        "how-painters-caught-light/05-why-does-window-light-feel-so-calm.cast",
+        "how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast",
+        "how-painters-caught-light/07-what-if-you-paint-the-light-not-the.cast",
+        "how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast",
+        "how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast",
+        "how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast",
+        "how-painters-caught-light/course.md",
+        "how-painters-caught-light/index.html",
+        "how-painters-caught-light/README.md"
+      ],
+      "updated": "2026-10-14"
+    },
+    {
       "slug": "russian-from-zero",
       "title": "Russian from zero",
       "files": [
@@ -105,70 +165,11 @@
         "russian-from-zero/59-russian-possessive-cases.cast",
         "russian-from-zero/60-russian-review-6.cast",
         "russian-from-zero/course.md",
+        "russian-from-zero/pool.json",
         "russian-from-zero/index.html",
         "russian-from-zero/README.md"
       ],
-      "updated": "2026-10-14"
-    },
-    {
-      "slug": "the-painting-knows-youre-there",
-      "title": "The Painting Knows You're There",
-      "files": [
-        "the-painting-knows-youre-there/01-who-else-is-in-the-room-van-eyck-s.cast",
-        "the-painting-knows-youre-there/02-where-do-you-have-to-stand-holbein-s-the.cast",
-        "the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast",
-        "the-painting-knows-youre-there/04-which-one-is-matthew-caravaggio-s.cast",
-        "the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast",
-        "the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast",
-        "the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast",
-        "the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast",
-        "the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast",
-        "the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast",
-        "the-painting-knows-youre-there/course.md",
-        "the-painting-knows-youre-there/index.html",
-        "the-painting-knows-youre-there/README.md"
-      ],
-      "updated": "2026-10-14"
-    },
-    {
-      "slug": "ordinary-life-takes-the-stage",
-      "title": "Ordinary Life Takes the Stage",
-      "files": [
-        "ordinary-life-takes-the-stage/01-why-is-the-ploughman-bigger-than-the.cast",
-        "ordinary-life-takes-the-stage/02-what-does-a-day-s-work-look-like-bruegel.cast",
-        "ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast",
-        "ordinary-life-takes-the-stage/04-how-can-pouring-milk-be-monumental.cast",
-        "ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast",
-        "ordinary-life-takes-the-stage/06-why-was-a-village-funeral-a-scandal.cast",
-        "ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast",
-        "ordinary-life-takes-the-stage/08-why-were-these-workers-vulgar.cast",
-        "ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast",
-        "ordinary-life-takes-the-stage/10-who-gets-a-day-off-seurat-s-a-sunday-on.cast",
-        "ordinary-life-takes-the-stage/course.md",
-        "ordinary-life-takes-the-stage/index.html",
-        "ordinary-life-takes-the-stage/README.md"
-      ],
-      "updated": "2026-10-14"
-    },
-    {
-      "slug": "how-painters-caught-light",
-      "title": "How Painters Caught Light",
-      "files": [
-        "how-painters-caught-light/01-how-did-oil-paint-make-light-glow-van.cast",
-        "how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast",
-        "how-painters-caught-light/03-how-does-light-pick-out-a-hero-rembrandt.cast",
-        "how-painters-caught-light/04-what-can-one-candle-do-la-tour-s.cast",
-        "how-painters-caught-light/05-why-does-window-light-feel-so-calm.cast",
-        "how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast",
-        "how-painters-caught-light/07-what-if-you-paint-the-light-not-the.cast",
-        "how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast",
-        "how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast",
-        "how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast",
-        "how-painters-caught-light/course.md",
-        "how-painters-caught-light/index.html",
-        "how-painters-caught-light/README.md"
-      ],
-      "updated": "2026-10-14"
+      "updated": "2026-10-15"
     }
   ]
 }

@@ -1,5 +1,6 @@
 # Numbers to 100 in Russian: how much is it?
 subtitle: "Count from eleven to a hundred in Russian, hear thirteen from thirty, and ask what a coffee costs in roubles."
+teaches: ["vocabulary/numbers-to-100","phrases/prices"]
 thumb: "band \"Eleven is 'one on ten'\" note \"13 ≠ 30\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Who, what, when in Russian: кто, что, когда","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/17-russian-questions.cast"}

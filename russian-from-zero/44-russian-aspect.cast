@@ -1,5 +1,6 @@
 # Done or doing in Russian: читал or прочитал?
 subtitle: "A first look at Russian's verb pairs: чита́ла says Masha spent time reading, прочита́ла says she finished, and the same with де́лал/сде́лал, писа́л/написа́л, смотре́л/посмотре́л."
+teaches: ["grammar/aspect"]
 thumb: "band \"Read it, or finished it?\" note \"чита́ла · прочита́ла\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"A present for mum in Russian: маме, брату","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/45-russian-gift.cast"}

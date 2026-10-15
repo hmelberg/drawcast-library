@@ -1,5 +1,6 @@
 # In a big house in Russian: в большо́м до́ме
 subtitle: "Say in a big house, with a new book and there's no big table in Russian: big and new go into the case with their noun, в большо́м до́ме, с но́вой кни́гой, нет большо́го стола́."
+teaches: ["grammar/case-agreement","grammar/adjectives"]
 thumb: "band \"In a big house, big changes too\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"To my brother in Russian: моему́ бра́ту","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/59-russian-possessive-cases.cast"}

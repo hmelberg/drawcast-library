@@ -1,5 +1,6 @@
 # Directions in Russian: направо, налево, прямо
 subtitle: "Ask the way in Russian with извини́те, как пройти́ на вокза́л? and follow the answer: пря́мо, напра́во, нале́во, бли́зко or далеко́."
+teaches: ["phrases/asking-directions"]
 thumb: "band \"Left, right, or lost?\" note \"напра́во\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Bigger and better in Russian: больше, лучше","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/43-russian-compare.cast"}

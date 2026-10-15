@@ -1,5 +1,6 @@
 # I can in Russian: могу, можно, нужно
 subtitle: "Say what you can, may and must in Russian: я могу́ changes with the person, while мо́жно, нельзя́, ну́жно and на́до take мне, тебе́, ему́."
+teaches: ["phrases/can-and-must","grammar/to-ending"]
 thumb: "band \"Can, may, must: 3 words\" note \"Мо́жно?\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Coffee with milk in Russian: с молоком","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/36-russian-with.cast"}

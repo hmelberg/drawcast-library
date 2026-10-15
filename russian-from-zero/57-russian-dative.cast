@@ -1,5 +1,6 @@
 # Phoning mum in Russian: звоню́ ма́ме
 subtitle: "Say who you phone, write to and help in Russian: звоню́ ма́ме, пишу́ сестре́, помога́ю бра́ту, and go к a person, all with the to-ending."
+teaches: ["grammar/to-ending"]
 thumb: "band \"You don't phone mum. You ring TO her\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"In a big house in Russian: в большо́м до́ме","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/58-russian-adjective-cases.cast"}

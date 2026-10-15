@@ -1,5 +1,6 @@
 # Around town in Russian: в магазине, на работе
 subtitle: "Say where you were around town in Russian: в магази́не, в ба́нке, на рабо́те. Once you're there, nearly every place ends in е."
+teaches: ["vocabulary/places-in-town","grammar/place-ending"]
 thumb: "band \"Where were you? In town.\" note \"в па́рке\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"I can in Russian: могу, можно, нужно","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/35-russian-can.cast"}

@@ -1,5 +1,6 @@
 # I love it in Russian: люблю
 subtitle: "Say what you love in Russian with люблю: you do the loving, the thing takes the object ending, and the endings are говорить's, from люблю to любят."
+teaches: ["phrases/likes-and-loves","grammar/object-ending"]
 thumb: "band \"Like it? No: love it.\" note \"я люблю\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"At the market in Russian: хлеб, сыр, рыба","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/25-russian-market.cast"}

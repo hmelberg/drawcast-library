@@ -1,5 +1,6 @@
 # Tell me about yourself in Russian
 subtitle: "Introduce yourself in Russian with words you already know: your name, age, city, work, what you love and have, and немно́го по-ру́сски."
+teaches: ["phrases/about-me"]
 thumb: "band \"Introduce yourself\" note \"меня́ зову́т …\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"A fifth Russian story: read it all yourself","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/50-russian-review-5.cast"}
@@ -143,7 +144,7 @@ B: Only the purple ends are his. Swap in yours, line by line, and each end still
 B: Line one: your name.
     draw s1_lbl s1_icon
 
-    quiz "Which one starts it?" reveal.text "Меня́ зову́т ___." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Which one starts it?" reveal.text "Меня́ зову́т ___." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1 pool false
         intro: Five questions as you build it, then your score.
         right: Меня́ зову́т: me, they call, and зову́т never changes.
         wrong: Word for word it's they call me: which word is me?

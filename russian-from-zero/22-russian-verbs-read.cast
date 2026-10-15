@@ -1,5 +1,6 @@
 # I read, I know in Russian: читаю, знаю
 subtitle: "Learn the six endings of verbs like читать (я читаю, ты читаешь, мы читаем…) and get знать, понимать, делать and работать with them: what are you doing, where do you work, I don't understand."
+teaches: ["grammar/present-tense"]
 thumb: "band \"One verb. Four more free.\" note \"чита́ю, зна́ю\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Where do you live in Russian: я живу в Москве","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/23-russian-live.cast"}

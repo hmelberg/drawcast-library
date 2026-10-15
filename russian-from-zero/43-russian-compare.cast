@@ -1,5 +1,6 @@
 # Bigger and better in Russian: больше, лучше
 subtitle: "Compare things in Russian with бо́льше, ме́ньше, лу́чше and ху́же and чем for than, and make many more compare words, like тепле́е, warmer."
+teaches: ["grammar/comparatives"]
 thumb: "band \"Good, better, лучше\" note \"бо́льше? ме́ньше?\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Done or doing in Russian: читал or прочитал?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/44-russian-aspect.cast"}

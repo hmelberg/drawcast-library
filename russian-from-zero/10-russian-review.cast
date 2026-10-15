@@ -1,5 +1,6 @@
 # A longer Russian story: read it all yourself
 subtitle: "Read a nine-sentence Russian story made only of words from lessons 1–9, hear it, test what you understood, and see how far you've come."
+teaches: ["reading/reading-stories"]
 thumb: "band \"Read it all yourself\" note \"10 lessons, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Plurals in Russian: коты, книги, окна","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/11-russian-plural.cast"}
@@ -115,7 +116,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     hide story s1_g_1 s1_g_2 s1_g_3 s1_g_4 s1_g_5 s2_g_1 s2_g_2 s2_g_3 s2_g_4 s2_g_5 s2_g_6 s2_g_7 s2_g_8 s3_g_1 s3_g_2 s3_g_3 s3_g_4 s3_g_5 s3_g_6 s4_g_1 s4_g_2 s4_g_3 s4_g_4 s5_g_1 s5_g_2 s5_g_3 s5_g_4 s5_g_5 s5_g_6 s5_g_7 s6_g_1 s6_g_2 s6_g_3 s6_g_4 s6_g_5 s6_g_6 s6_g_7 s6_g_8
 
-    quiz "What number is the table? Pick one." reveal.text "стол но́мер семь" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "What number is the table? Pick one." reveal.text "стол но́мер семь" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Семь, seven: стол но́мер семь.
         wrong: Look back at the first line: стол но́мер… which one?
@@ -125,7 +126,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_1_stamp
 
-    quiz "Who drinks tea? Pick one." reveal.text "ма́ма пьёт чай" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "Who drinks tea? Pick one." reveal.text "ма́ма пьёт чай" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         right: Mum: ма́ма пьёт чай, and dad has the coffee.
         wrong: Dad has the coffee; who has the other drink?
         * Па́па
@@ -134,14 +135,14 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_2_stamp
 
-    ask "What does the brother ask for? Type it in Russian." answer ["суп","суп пожалуйста","суп, пожалуйста","суп, пожалуйста!"] translit true reveal.text "Суп, пожа́луйста!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    ask "What does the brother ask for? Type it in Russian." answer ["суп","суп пожалуйста","суп, пожалуйста","суп, пожалуйста!"] translit true reveal.text "Суп, пожа́луйста!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЭЯ
         right: Суп: брат говори́т, суп, пожа́луйста!
         wrong: Three letters, and you ordered it in the café lesson.
 
     erase reveal_3_stamp
 
-    quiz "Who speaks a little Russian? Pick one." reveal.text "Том немно́го говори́т" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 test t1
+    quiz "Who speaks a little Russian? Pick one." reveal.text "Том немно́го говори́т" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 test t1 pool false
         right: Tom: Том немно́го говори́т по-ру́сски. A little!
         wrong: Who was the surprise guest at the table?
         + Том
@@ -150,7 +151,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_4_stamp
 
-    quiz "Где кот? Where is the cat? Pick one." reveal.text "на окне́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "Где кот? Where is the cat? Pick one." reveal.text "на окне́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         right: On the window: он то́же тут, на окне́.
         wrong: The last sentence: он то́же тут, на… what?
         * на столе́

@@ -1,5 +1,6 @@
 # What's your name in Russian: меня зовут
 subtitle: "Ask someone's name in Russian and give yours: как тебя́ зову́т?, меня́ зову́т Том, его́ and её зову́т, and о́чень прия́тно when you meet."
+teaches: ["phrases/my-name"]
 thumb: "band \"They call me Tom\" note \"меня зовут\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"I read, I know in Russian: читаю, знаю","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/22-russian-verbs-read.cast"}

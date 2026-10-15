@@ -1,5 +1,6 @@
 # Coffee with milk in Russian: с молоком
 subtitle: "Ask for coffee with milk and say who you're with in Russian: after с, a word takes the with-ending, ом after a consonant or о and ой for words in а."
+teaches: ["grammar/with-ending"]
 thumb: "band \"Coffee with milk? The milk changes\" note \"с молоко́м\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"My day in Russian: утром, днём, вечером","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/37-russian-my-day.cast"}

@@ -1,5 +1,6 @@
 # At the café in Russian: кофе, чай, суп
 subtitle: "Order soup, tea or coffee in Russian, learn the word that means please, here you are and you're welcome, and see why кофе is a he."
+teaches: ["phrases/ordering","vocabulary/food-and-drink"]
 thumb: "band \"One word, three jobs\" note \"пожалуйста\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"A little story in Russian: мама, папа и кот","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/05-russian-story.cast"}

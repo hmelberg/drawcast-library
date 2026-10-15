@@ -1,5 +1,6 @@
 # Please say it again in Russian: повторите
 subtitle: "Ask a Russian to repeat, slow down, tell, show or wait: six request words that end in те for вы, and drop it for a friend."
+teaches: ["phrases/asking-to-repeat","grammar/requests"]
 thumb: "band \"Too fast? Say this.\" note \"Повтори́те!\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Directions in Russian: направо, налево, прямо","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/42-russian-directions.cast"}

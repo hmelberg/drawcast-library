@@ -1,5 +1,6 @@
 # What did you do yesterday in Russian: читал, читала
 subtitle: "Say what you did yesterday in Russian: drop the ть, add л, and end it like был: я чита́л, она́ чита́ла, мы смотре́ли, and the one odd verb, шёл."
+teaches: ["grammar/past-tense"]
 thumb: "band \"Drop ть. Add л.\" note \"чита́л · чита́ла\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Tomorrow I will in Russian: я буду","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/32-russian-future.cast"}

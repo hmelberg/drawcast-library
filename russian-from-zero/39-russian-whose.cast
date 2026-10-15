@@ -1,5 +1,6 @@
 # Whose is it in Russian: чей, чья, чьё
 subtitle: "Ask whose it is in Russian with чей, чья, чьё and чьи, say yours with твой, and name the owner with the of-ending: кни́га ма́мы."
+teaches: ["grammar/possessives","grammar/of-ending"]
 thumb: "band \"Whose cat? Ask the cat\" note \"чей? чья?\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"A fourth Russian story: read it all yourself","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/40-russian-review-4.cast"}

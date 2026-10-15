@@ -1,5 +1,6 @@
 # I work as a doctor in Russian: рабо́таю врачо́м
 subtitle: "Say what you work as, what you go in for and what you write with in Russian: the with-ending without с, рабо́таю врачо́м, занима́юсь спо́ртом, пишу́ ру́чкой."
+teaches: ["grammar/with-ending"]
 thumb: "band \"The with-ending, minus the with\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Phoning mum in Russian: звоню́ ма́ме","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/57-russian-dative.cast"}

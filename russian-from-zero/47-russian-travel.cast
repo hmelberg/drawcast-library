@@ -1,5 +1,6 @@
 # Travel in Russian: поезд, самолёт, билет
 subtitle: "Travel in Russian: е́ду when something carries you, на по́езде or на авто́бусе for how, a биле́т в Москву́, and a но́мер in a гости́ница."
+teaches: ["vocabulary/travel","grammar/verbs-of-motion"]
 thumb: "band \"Not on foot: е́ду\" note \"на по́езде\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Hobbies in Russian: играю в футбол","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/48-russian-hobbies.cast"}

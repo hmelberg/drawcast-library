@@ -1,5 +1,6 @@
 # Count to ten in Russian: один, два, три
 subtitle: "Count from one to ten in Russian, read out a phone number, find your table in a café, and meet ь, a letter you see but never hear."
+teaches: ["vocabulary/numbers-1-10"]
 thumb: "band \"They end in a silent letter\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"I speak Russian: я говорю, ты говоришь","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/07-russian-speak.cast"}

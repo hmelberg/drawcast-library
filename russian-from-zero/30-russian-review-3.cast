@@ -1,5 +1,6 @@
 # A third Russian story: read it all yourself
 subtitle: "Read a ten-sentence note from Masha's brother built only from lessons 1–29, page by page, hear it line by line, test what you understood, and see what you can do now."
+teaches: ["reading/reading-stories"]
 thumb: "band \"Read it all yourself, a third time\" note \"lessons 21–29, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"What did you do yesterday in Russian: читал, читала","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/31-russian-past-verbs.cast"}
@@ -135,7 +136,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase s7 s8 s9
 
-    quiz "Как его́ зову́т? What is Masha's brother called? Pick one." reveal.text "Меня́ зову́т Ива́н." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Как его́ зову́т? What is Masha's brother called? Pick one." reveal.text "Меня́ зову́т Ива́н." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Ivan: меня́ зову́т Ива́н, in the very first line.
         wrong: Look back at the first line: меня́ зову́т…
@@ -145,7 +146,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_1_stamp
 
-    quiz "How old is Ivan? Pick one." reveal.text "Мне два́дцать два го́да." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "How old is Ivan? Pick one." reveal.text "Мне два́дцать два го́да." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Twenty-two, and after two comes го́да.
         wrong: Line two: мне два́дцать… how many?
         * два го́да
@@ -154,7 +155,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_2_stamp
 
-    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Я живу́ в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Я живу́ в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: In Oslo; it is Masha who lives in Moscow.
         wrong: Masha lives in Moscow. Where does her brother live?
         + в О́сло
@@ -163,7 +164,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_3_stamp
 
-    quiz "What has Ivan run out of? Pick one: у меня́ нет…" reveal.text "У меня́ нет молока́!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "What has Ivan run out of? Pick one: у меня́ нет…" reveal.text "У меня́ нет молока́!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Milk, for the cat, with the а after нет.
         wrong: He has a cat and a job. What does the cat love?
         * ко́шки
@@ -172,7 +173,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_4_stamp
 
-    ask "At what time is Ivan going to work today? Type the number in Russian." answer ["семь","в семь","семь часов","в семь часов"] reveal.text "в семь часо́в" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "At what time is Ivan going to work today? Type the number in Russian." answer ["семь","в семь","семь часов","в семь часов"] reveal.text "в семь часо́в" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Seven: в семь часо́в.
         wrong: Four letters, and one more than шесть.

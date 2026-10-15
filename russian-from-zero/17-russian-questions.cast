@@ -1,5 +1,6 @@
 # Who, what, when in Russian: кто, что, когда
 subtitle: "Ask who, what, where, how and when in Russian with кто, что, где, как and когда, and turn any sentence into a question with your voice."
+teaches: ["grammar/question-words"]
 thumb: "band \"A cat is a who, not a what\" note \"кто?\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Was in Russian: был, была, было","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/18-russian-past.cast"}

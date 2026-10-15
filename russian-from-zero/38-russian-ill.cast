@@ -1,5 +1,6 @@
 # I feel ill in Russian: у меня болит голова
 subtitle: "Say where it hurts and how you feel in Russian: у меня́ боли́т голова́, мне пло́хо, and ask for a doctor or a pharmacy."
+teaches: ["vocabulary/health"]
 thumb: "band \"My head hurts: 'by me hurts head'\" note \"Мне пло́хо\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Whose is it in Russian: чей, чья, чьё","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/39-russian-whose.cast"}

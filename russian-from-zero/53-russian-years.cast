@@ -1,5 +1,6 @@
 # Years in Russian: в две тысячи двадцать пятом году
 subtitle: "Read a Russian year aloud and say when you were born: the hundreds, ты́сяча, and в две ты́сячи два́дцать пя́том году́."
+teaches: ["vocabulary/big-numbers"]
 thumb: "band \"One year, six words\" note \"в … пя́том году́\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Dates in Russian: первое мая","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/54-russian-dates.cast"}

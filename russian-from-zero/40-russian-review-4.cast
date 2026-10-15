@@ -1,5 +1,6 @@
 # A fourth Russian story: read it all yourself
 subtitle: "Read a note from Masha about yesterday, today and tomorrow, built only from lessons 1–39, page by page, hear it line by line, test what you understood, and see what you can do now."
+teaches: ["reading/reading-stories"]
 thumb: "band \"Read it all yourself, a fourth time\" note \"lessons 31–39, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Please say it again in Russian: повторите","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/41-russian-say-again.cast"}
@@ -122,7 +123,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase s7 s8 s9
 
-    quiz "Где Ма́ша была́ вчера́? Where was Masha yesterday? Pick one." reveal.text "Вчера́ я была́ в го́роде." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Где Ма́ша была́ вчера́? Where was Masha yesterday? Pick one." reveal.text "Вчера́ я была́ в го́роде." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the note, from memory.
         right: In town: вчера́ я была́ в го́роде, in the very first line.
         wrong: Look back at the first line: вчера́ я была́…
@@ -132,7 +133,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_1_stamp
 
-    quiz "What was the weather like yesterday? Pick one." reveal.text "Бы́ло о́чень хо́лодно." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "What was the weather like yesterday? Pick one." reveal.text "Бы́ло о́чень хо́лодно." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Very cold. Warm is for tomorrow.
         wrong: Warm is for tomorrow. What was it like yesterday?
         * Бы́ло жа́рко.
@@ -148,7 +149,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_3_stamp
 
-    quiz "Who did Masha watch the film with? Pick one." reveal.text "Я смотре́ла фильм с бра́том." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "Who did Masha watch the film with? Pick one." reveal.text "Я смотре́ла фильм с бра́том." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1 pool false
         right: With her brother, Ivan.
         wrong: Not mum, and not a sister. Who is Ivan?
         * с ма́мой
@@ -157,7 +158,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_4_stamp
 
-    quiz "What will Masha do tomorrow morning? Pick one." reveal.text "У́тром я бу́ду чита́ть." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "What will Masha do tomorrow morning? Pick one." reveal.text "У́тром я бу́ду чита́ть." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: Read: у́тром я бу́ду чита́ть, and then the park.
         wrong: Work is today, and the bank was yesterday.
         * Она́ бу́дет рабо́тать.

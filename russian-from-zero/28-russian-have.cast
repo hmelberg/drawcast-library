@@ -1,5 +1,6 @@
 # I have in Russian: у меня есть
 subtitle: "Say I have and I don't have in Russian with у меня есть and у меня нет, and learn the new ending a word takes when it isn't there."
+teaches: ["phrases/having","grammar/of-ending"]
 thumb: "band \"No milk? Then no молоко.\" note \"молоко́ → молока́\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"How old are you in Russian: мне двадцать лет","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/29-russian-age.cast"}

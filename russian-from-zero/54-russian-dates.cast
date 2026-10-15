@@ -1,5 +1,6 @@
 # Dates in Russian: первое мая
 subtitle: "Name the twelve months, say \"in May\" with the place ending, and ask and give the date in Russian: Како́е сего́дня число́? Сего́дня пе́рвое ма́я."
+teaches: ["vocabulary/months","phrases/dates"]
 thumb: "band \"The first of May, in Russian\" note \"пе́рвое ма́я\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"I see my brother in Russian: ви́жу бра́та","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/55-russian-animate.cast"}

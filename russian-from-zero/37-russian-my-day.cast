@@ -1,5 +1,6 @@
 # My day in Russian: утром, днём, вечером
 subtitle: "Tell someone about your day in Russian: у́тром, днём, ве́чером, но́чью with the seasons' ending, the meals as verbs (за́втракаю, обе́даю, у́жинаю), and пото́м to go on."
+teaches: ["vocabulary/times-of-day"]
 thumb: "band \"Four words for one day\" note \"у́тром · днём · ве́чером\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"I feel ill in Russian: у меня болит голова","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/38-russian-ill.cast"}

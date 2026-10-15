@@ -1,5 +1,6 @@
 # Talking about things in Russian: о маме, о работе
 subtitle: "Say what you're thinking or talking about in Russian: о ма́ме, о рабо́те, кни́га о Москве́. Ask о чём? and о ком?, and hear it first."
+teaches: ["grammar/place-ending"]
 thumb: "band \"Talking about things in Russian\" note \"о ма́ме\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Many and few in Russian: много книг","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/52-russian-many.cast"}

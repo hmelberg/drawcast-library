@@ -1,5 +1,6 @@
 # A second Russian story: read it all yourself
 subtitle: "Read a ten-sentence Russian story built only from lessons 1–19, with wants, prices, cats and was, hear it line by line, test what you understood, and see what you can do now."
+teaches: ["reading/reading-stories"]
 thumb: "band \"Read it all yourself, again\" note \"lessons 11–19, 1 story\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"What's your name in Russian: меня зовут","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/21-russian-name.cast"}
@@ -95,7 +96,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     hide story s1_g_1 s1_g_2 s1_g_3 s1_g_4 s1_g_5 s1_g_6 s1_g_7 s2_g_1 s2_g_2 s2_g_3 s2_g_4 s3_g_1 s3_g_2 s3_g_3 s3_g_4 s3_g_5 s3_g_6 s3_g_7 s4_g_1 s4_g_2 s4_g_3 s4_g_4 s5_g_1 s5_g_2 s5_g_3 s5_g_4 s5_g_5 s6_g_1 s6_g_2 s6_g_3 s6_g_4 s6_g_5 s7_g_1 s7_g_2 s7_g_3 s7_g_4 s7_g_5 s7_g_6 s7_g_7 s7_g_8 s7_g_9
 
-    quiz "What day is it in the story? Pick one." reveal.text "Сего́дня суббо́та." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "What day is it in the story? Pick one." reveal.text "Сего́дня суббо́та." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Saturday: the story's very first words.
         wrong: Look back at the first line: сего́дня… which day?
@@ -105,7 +106,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_1_stamp
 
-    quiz "What does Masha want? Pick one." reveal.text "Ма́ша хо́чет во́ду." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "What does Masha want? Pick one." reveal.text "Ма́ша хо́чет во́ду." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Water, with the object ending; Tom has the coffee.
         wrong: Tom has the coffee; look at the second half of line three.
         * ко́фе
@@ -114,14 +115,14 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_2_stamp
 
-    ask "How much is the coffee? Type the number in Russian." answer ["сто","сто рублей"] reveal.text "сто рубле́й" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "How much is the coffee? Type the number in Russian." answer ["сто","сто рублей"] reveal.text "сто рубле́й" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: A hundred: ко́фе сто́ит сто рубле́й.
         wrong: Three letters, and more than пятьдеся́т.
 
     erase reveal_3_stamp
 
-    quiz "Кто на окне́? Who is on the windowsill? Pick one." reveal.text "на окне́ коты́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "Кто на окне́? Who is on the windowsill? Pick one." reveal.text "на окне́ коты́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: The cats, and they're a кто, not a что.
         wrong: Line five: кто э́то на окне́? …
         * ма́ма
@@ -130,7 +131,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_4_stamp
 
-    quiz "Где была́ Ма́ша вчера́? Where was Masha yesterday? Pick one." reveal.text "на мо́ре" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Где была́ Ма́ша вчера́? Where was Masha yesterday? Pick one." reveal.text "на мо́ре" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: At the seaside, and Tom was there too.
         wrong: The last line: вчера́ Ма́ша была́ на… what?
         * в рестора́не

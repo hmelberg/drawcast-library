@@ -1,5 +1,6 @@
 # Hobbies in Russian: играю в футбол
 subtitle: "Say what you like to do in Russian with люблю́ and a verb, and play: в for a game (игра́ю в футбо́л), на for an instrument (на гита́ре)."
+teaches: ["vocabulary/hobbies"]
 thumb: "band \"Football в, guitar на\" note \"игра́ю в футбо́л\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Tell me about yourself in Russian","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/49-russian-about-me.cast"}

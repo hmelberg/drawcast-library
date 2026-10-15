@@ -1,5 +1,6 @@
 # Days of the week in Russian: сегодня, завтра
 subtitle: "Learn the seven Russian days of the week, find the numbers hidden in their names, and say what day it is today and tomorrow."
+teaches: ["vocabulary/days-of-week"]
 thumb: "band \"Thursday is just 'fourth'\" note \"Friday = five\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Numbers to 100 in Russian: how much is it?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/16-russian-prices.cast"}

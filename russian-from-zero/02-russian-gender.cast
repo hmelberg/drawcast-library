@@ -1,5 +1,6 @@
 # Russian gender from the last letter: он, она, оно
 subtitle: "Every Russian noun is a he, a she or an it, and its last letter tells you which: он, она or оно, with the one exception worth knowing."
+teaches: ["grammar/gender"]
 thumb: "band \"Even a table is a he\" note \"СТОЛ = ОН\""
 voices: {"a":"gemini:Achird | a warm, patient language teacher, clear and unhurried; says every Russian word the way a native Russian speaker would"}
 next: {"title":"Hello in Russian: привет or здравствуйте?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/03-russian-hello.cast"}
@@ -208,7 +209,7 @@ For a man, the meaning wins over the ending.
 
     erase k_card k_s k_e k_g k_pron
 
-    ask "Type any noun from this lesson that is она." answer ["КНИГА","МАМА","ВОДА","НЕДЕЛЯ"] keys АКМОТВЕНРСУДИПЛГЯ
+    ask "Type any noun from this lesson that is она." answer ["КНИГА","МАМА","ВОДА","НЕДЕЛЯ"] keys АКМОТВЕНРСУДИПЛГЯ pool false
         right: Книга, мама, вода or неделя: each one ends in а or я.
         wrong: Think of a word that ends in а, but not dad.
 

@@ -1,5 +1,6 @@
 # Read Russian in 14 letters
 subtitle: "Fourteen Cyrillic letters, a handful of words and a short Russian text you can read by the end, learned the way memory works best."
+teaches: ["reading/cyrillic-letters"]
 thumb: "band \"PECTOPAH? Read it again.\" stamp \"RESTORAN\""
 voices: {"a":"gemini:Achird | a warm, patient language teacher, clear and unhurried; says every Russian word the way a native Russian speaker would"}
 next: {"title":"Russian gender from the last letter: он, она, оно","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/02-russian-gender.cast"}
@@ -175,7 +176,7 @@ One more, with a letter from each row: вода, water. Listen: an O without the
 Now the test from the start, with the letters put away: read it yourself first.
     fade goal to 1 duration 1.2
 
-    quiz "Where is the cat?"
+    quiz "Where is the cat?" pool false
         right: At home: НЕТ, no, then КОТ ДОМА, the cat at home.
         wrong: Find НЕТ in the last line, and the word with Д, the little house.
         * In the restaurant

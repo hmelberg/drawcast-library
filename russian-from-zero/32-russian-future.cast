@@ -1,5 +1,6 @@
 # Tomorrow I will in Russian: я буду
 subtitle: "Say what you will do tomorrow in Russian: бу́ду, бу́дешь, бу́дет… and any verb you know, just as it is, from я бу́ду чита́ть to за́втра я бу́ду в Москве́."
+teaches: ["grammar/future-tense"]
 thumb: "band \"One word for tomorrow\" note \"я бу́ду\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Weather in Russian: холодно, тепло, идёт снег","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/33-russian-weather.cast"}

@@ -2,6 +2,10 @@
 slug: russian-from-zero
 level: Complete beginners who speak English; no Cyrillic needed to start
 language: English narration, Russian words in Cyrillic with stress marks; Tom and Masha speak the Russian
+skills/reading: cyrillic-letters, reading-stories
+skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies
+skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns
+skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me
 #basic
 
 Learn to read, hear and say your first Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs, my family and where things are; then plurals, adjectives, I want, the -у ending, the days of the week, prices, question words, the past and I like it — with two short stories you read yourself. Tap any Russian word to hear it again.

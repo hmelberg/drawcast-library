@@ -1,5 +1,6 @@
 # How old are you in Russian: мне двадцать лет
 subtitle: "Ask and tell age in Russian: сколько тебе лет? Your years are given to you (мне, ему, ей), and the number picks год, года or лет."
+teaches: ["phrases/telling-age","grammar/to-ending","grammar/counting-nouns"]
 thumb: "band \"Russian counts your summers\" note \"мне 25 лет\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"A third Russian story: read it all yourself","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/30-russian-review-3.cast"}

@@ -1,5 +1,6 @@
 # Making plans in Russian: давай пойдём в кино
 subtitle: "Ask a friend out in Russian: ты свобо́ден?, дава́й пойдём в кино́, and when, в суббо́ту в семь часо́в, with yes or no for an answer."
+teaches: ["phrases/making-plans"]
 thumb: "band \"Free on Saturday?\" note \"Дава́й!\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 next: {"title":"Travel in Russian: поезд, самолёт, билет","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/47-russian-travel.cast"}
