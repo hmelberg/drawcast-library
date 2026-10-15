@@ -750,13 +750,6 @@
       "page": true
     },
     {
-      "slug": "moonwalkers",
-      "title": "How many people have walked on the Moon?",
-      "file": "moonwalkers.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "paper-folding",
       "title": "How many times can you fold paper in half?",
       "file": "paper-folding.cast",
@@ -1306,6 +1299,13 @@
       "slug": "eiffel-tower-year",
       "title": "When was the Eiffel Tower finished?",
       "file": "eiffel-tower-year.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "moonwalkers",
+      "title": "How many people have walked on the Moon?",
+      "file": "moonwalkers.cast",
       "updated": "2026-10-15",
       "page": true
     }

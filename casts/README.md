@@ -8,6 +8,7 @@
 - [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-15
 - [Arrow's impossibility theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/arrow-impossibility.cast) — 2026-10-15
 - [When was the Eiffel Tower finished?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/eiffel-tower-year.cast) — 2026-10-15
+- [How many people have walked on the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
@@ -109,7 +110,6 @@
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-13
 - [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-13
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-13
-- [How many people have walked on the Moon?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/moonwalkers.cast) — 2026-10-13
 - [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-13
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-13
 - [How much rice on the last square of a chessboard?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/rice-on-a-chessboard.cast) — 2026-10-13
