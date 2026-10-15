@@ -1287,6 +1287,13 @@
       "file": "fall-of-icarus.cast",
       "updated": "2026-10-14",
       "page": true
+    },
+    {
+      "slug": "godel-incompleteness",
+      "title": "Gödel's incompleteness theorems",
+      "file": "godel-incompleteness.cast",
+      "updated": "2026-10-15",
+      "page": true
     }
   ]
 }

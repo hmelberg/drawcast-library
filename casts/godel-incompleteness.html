@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gödel's incompleteness theorems</title>
+<meta name="description" content="How a 24-year-old turned sentences into numbers and proved that no rulebook for arithmetic can prove every truth about it.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Gödel's incompleteness theorems">
+<meta property="og:description" content="How a 24-year-old turned sentences into numbers and proved that no rulebook for arithmetic can prove every truth about it.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Gödel's incompleteness theorems","description":"How a 24-year-old turned sentences into numbers and proved that no rulebook for arithmetic can prove every truth about it.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.html","image":"https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="godel-incompleteness.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 4.1 / 4), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/godel-incompleteness.png" alt="Gödel's incompleteness theorems"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Gödel's incompleteness theorems</h1>
+<p class="drawcast-intro">How a 24-year-old turned sentences into numbers and proved that no rulebook for arithmetic can prove every truth about it.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Here's a question that sounds easy: can one fixed set of rules prove every true statement about whole numbers?</p>
+<p>Surely yes. If something's true about numbers, somebody can prove it, eventually.</p>
+<p>That was the great hope. Picture a machine: axioms go in, strict rules work on them, and out come theorems, each step checked.</p>
+<p>Its champion was David Hilbert, the leading mathematician of his day. He wanted the machine consistent, never proving a falsehood, and complete, proving every truth.</p>
+<p>He was so sure that in September 1930, in Königsberg, he ended a famous speech with a motto: we must know, we will know.</p>
+<p>The day before, at a round table in the same city, a twenty-four-year-old called Kurt Gödel had quietly announced that it can't be done.</p>
+<p>Quietly is right. Hardly anyone in the room noticed, apart from John von Neumann.</p>
+<p>Here's our route: turn sentences into numbers, build a sentence that talks about itself, then see why no new rule can rescue the machine.</p>
+<p>Start with the numbers, then. How does a sentence become a number?</p>
+<p>Give every symbol a code. Zero is six, and the equals sign is five.</p>
+<p>Take the tiny formula zero equals zero: three symbols, so the codes six, five, six.</p>
+<p>Now glue them into one number: put the first code on the prime two, the second on three, the third on five.</p>
+<p>Which tile finishes the code of 0 = 0?</p>
+<p>Sixty-four, times two hundred and forty-three, times fifteen thousand six hundred and twenty-five: two hundred and forty-three million.</p>
+<p>That's a lot of number for 'zero equals zero'. Why bother?</p>
+<p>Because a number splits into primes only one way, you can always unpack it and get the formula back.</p>
+<p>So a whole proof, which is just a list of formulas, becomes one bigger number.</p>
+<p>Yes, and 'this is a proof of that' turns into a statement about numbers, one the system itself can check.</p>
+<p>Hang on. So arithmetic can talk about its own proofs, without knowing that's what it's doing?</p>
+<p>Exactly, and Gödel used that to write a sentence, G, that says: G has no proof in this system.</p>
+<p>Isn't that just the liar paradox? 'This sentence is false', and round and round we go.</p>
+<p>Close, but one word differs. The liar talks about truth; G talks about proof, and proof is something a machine can check.</p>
+<p>So there are just two cases. Suppose first that the system could prove G.</p>
+<p>Then it would prove a sentence that says it has no proof: a falsehood. The machine would be broken.</p>
+<p>And the other case is that it can't prove G.</p>
+<p>If the system never proves a falsehood, which case is G in? Tap it.</p>
+<p>Unprovable: the other branch broke the machine.</p>
+<p>Unprovable. And no proof is exactly what G says about itself, so G is true.</p>
+<p>So it's true, we can see it's true, and the system itself can never prove it. No paradox at all.</p>
+<p>So picture every statement about numbers: the true ones fill this circle, and the provable ones sit inside it.</p>
+<p>G sits here, in the gap: true, but out of the machine's reach.</p>
+<p>Easy fix, then. Add G as a new axiom, and now the machine proves it.</p>
+<p>It does. But the new system can describe its own proofs too, so it has its own sentence, G-prime, built the same way.</p>
+<p>And if I add G-prime, there's a G-double-prime waiting.</p>
+<p>Every time. Any consistent rulebook for arithmetic, with axioms you can list, leaves a true sentence out.</p>
+<p>Hilbert had a fallback, though: could he at least prove his machine never contradicts itself?</p>
+<p>That's Gödel's second theorem: a consistent system can't prove its own consistency. 'I am consistent' lands out here too.</p>
+<p>None of this means nothing is certain, though. Almost everything mathematicians prove is proved as before; the theorem only says the rulebook has an edge.</p>
+<p>And the gap holds more than riddles. In 1982, Paris and Kirby showed that Goodstein's theorem, about sequences that balloon and then fall back to zero, can't be proved from the usual axioms.</p>
+<p>So the trouble isn't that we forgot an axiom. It's that the system is strong enough to talk about itself.</p>
+<p>Yes: once arithmetic can describe its own proofs, it can build a truth it can't reach, and every new axiom only moves the edge.</p>
+<p>A friend builds a new, consistent rulebook for arithmetic with a million axioms, all listed. What can you say?</p>
+<p>Some truths stay unprovable: Gödel's argument works for any listable, consistent set of axioms, however many.</p>
+<p>So, back to where we started: can one set of rules prove every truth about numbers?</p>
+<p>No. And Gödel proved it using arithmetic itself.</p>
+<p>Not bad for a twenty-four-year-old.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="godel-incompleteness.cast" data-gh="hmelberg/drawcast-library/casts/godel-incompleteness.cast"></script>
+</body>
+</html>
