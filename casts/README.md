@@ -2,6 +2,7 @@
 
 - [Gödel's incompleteness theorems](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/godel-incompleteness.cast) — 2026-10-15
 - [Arrow's impossibility theorem](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/arrow-impossibility.cast) — 2026-10-15
+- [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
@@ -141,7 +142,6 @@
 - [How much of the world's energy still comes from fossil fuels?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fossil-share.cast) — 2026-10-13
 - [What does it cost to read a human genome now?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/genome-cost.cast) — 2026-10-13
 - [In what year did half of the world's people first use the internet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/internet-half.cast) — 2026-10-13
-- [When did the last country stop selling leaded petrol?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/leaded-petrol.cast) — 2026-10-13
 - [In 1820, what share of the world could read?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/literacy-1820.cast) — 2026-10-13
 - [Livestock uses most farmland. How much of our food does it give?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/livestock-land.cast) — 2026-10-13
 - [Which of these countries still had malaria around 1900?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/malaria-in-europe.cast) — 2026-10-13

@@ -1016,13 +1016,6 @@
       "page": true
     },
     {
-      "slug": "leaded-petrol",
-      "title": "When did the last country stop selling leaded petrol?",
-      "file": "leaded-petrol.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "literacy-1820",
       "title": "In 1820, what share of the world could read?",
       "file": "literacy-1820.cast",
@@ -1299,6 +1292,13 @@
       "slug": "arrow-impossibility",
       "title": "Arrow's impossibility theorem",
       "file": "arrow-impossibility.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "leaded-petrol",
+      "title": "When did the last country stop selling leaded petrol?",
+      "file": "leaded-petrol.cast",
       "updated": "2026-10-15",
       "page": true
     }

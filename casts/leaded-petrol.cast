@@ -34,7 +34,7 @@ sources:
       finding: Midgley found tetraethyllead as a petrol additive in 1921 and developed CFCs (Freon) in the late 1920s
 
     icon pump size 160 set twemoji x 130 y 580 icon_look picture of "fuel pump" hidden true
-    scale yr cites ["owid_ban"] x 90 y 380 width 840 font_size 34 min 1900 max 2030 value 2021 markers [{"value":1986,"label":"Japan","color":"#2f6b8f"},{"value":1996,"label":"USA","color":"#2f6b8f"}] hidden true
+    scale yr cites ["owid_ban"] x 90 y 380 width 840 min 1900 max 2030 value 2021 markers [{"value":1986,"label":"Japan","color":"#2f6b8f"},{"value":1996,"label":"USA","color":"#2f6b8f"}] hidden true
     icon flag_dz size 120 set twemoji x 871.8461538461538 y 640 icon_look picture of "flag algeria" hidden true
     text y2021 "Algeria" #b5482e cites ["owid_ban"] x 721.8461538461538 y 640 font_size 52 hidden true
     text y1921 "1921: lead added" #5e584e cites ["midgley"] x 315.6923076923077 y 460 font_size 40 hidden true
