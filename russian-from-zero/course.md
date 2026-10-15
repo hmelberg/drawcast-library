@@ -1,5 +1,6 @@
 # Russian from zero
 slug: russian-from-zero
+test: test-your-russian-by-hmelberg
 level: Complete beginners who speak English; no Cyrillic needed to start
 language: English narration, Russian words in Cyrillic with stress marks; Tom and Masha speak the Russian
 skills/reading: cyrillic-letters, reading-stories
