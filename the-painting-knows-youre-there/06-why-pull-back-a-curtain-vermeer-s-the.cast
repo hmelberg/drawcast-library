@@ -32,7 +32,7 @@ sources:
     card title "The Art of Painting"
 
 Johannes Vermeer painted this studio in Delft in the late sixteen-sixties,
-    image art cites ["khm"] credit "Johannes Vermeer, c. 1666–68. Kunsthistorisches Museum, Vienna. Public domain." x 500 y 330 width 555 url https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/1920px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg look screen regions.book [0.404,0.474,0.073,0.074] regions.canvas [0.755,0.495,0.155,0.23] regions.chair [0.13,0.88,0.36,0.12] regions.chandelier [0.51,0.06,0.27,0.19] regions.clio [0.36,0.39,0.18,0.29] regions.clio_wreath [0.405,0.39,0.12,0.045] regions.curtain [0,0,0.44,1] regions.curtain_edge [0.27,0,0.18,0.6] regions.hitch [0.2,0.25,0.3,0.45] regions.map [0.38,0.18,0.57,0.32] regions.painted_wreath [0.765,0.505,0.072,0.035] regions.painter [0.565,0.42,0.32,0.52] regions.painter_head [0.66,0.42,0.125,0.095] regions.painter_view [0.38,0.4,0.62,0.5] regions.studio [0.36,0.06,0.64,0.88] regions.trumpet [0.266,0.483,0.166,0.045] regions.whole [0,0,1,1] regions.wreath_view [0.66,0.44,0.26,0.17]
+    image art cites ["khm"] credit "Johannes Vermeer, c. 1666–68. Kunsthistorisches Museum, Vienna. Public domain." x 318 y 330 width 555 url https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/1920px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg look screen regions.book [0.404,0.474,0.073,0.074] regions.canvas [0.755,0.495,0.155,0.23] regions.chair [0.13,0.88,0.36,0.12] regions.chandelier [0.51,0.06,0.27,0.19] regions.clio [0.36,0.39,0.18,0.29] regions.clio_wreath [0.405,0.39,0.12,0.045] regions.curtain [0,0,0.44,1] regions.curtain_edge [0.27,0,0.18,0.6] regions.hitch [0.2,0.25,0.3,0.45] regions.map [0.38,0.18,0.57,0.32] regions.painted_wreath [0.765,0.505,0.072,0.035] regions.painter [0.565,0.42,0.32,0.52] regions.painter_head [0.66,0.42,0.125,0.095] regions.painter_view [0.38,0.4,0.62,0.5] regions.studio [0.36,0.06,0.64,0.88] regions.trumpet [0.266,0.483,0.166,0.045] regions.whole [0,0,1,1] regions.wreath_view [0.66,0.44,0.26,0.17]
 
 and our question is: why pu (@highlight art:curtain@)ll back a curtain?
 
@@ -59,19 +59,17 @@ So who has this one been pulled back for?
 
     pause 0.4
 
-    camera on ["art@[0.28,0.34,0.36,0.36]"]
-
 Not for the model: she stands in the light, dressed as Clio, the muse of history.
     highlight art:clio strength strong lift true
 
 Her laurel wreath stands for glory,
-    highlight art:clio_wreath lift true
+    highlight art:clio_wreath effect detail
 
 the trumpet for fame,
-    highlight art:trumpet lift true
+    highlight art:trumpet effect detail
 
 and the book for the history that keeps them.
-    highlight art:book lift true
+    highlight art:book effect detail
 
     camera on ["art:painter_view"]
 
@@ -90,22 +88,16 @@ It is pulled back for us, into a room where nobody knows we are there.
         right: Just a wreath: a few leaves, and the rest still bare.
         wrong: Look past his shoulder, at the canvas on the easel.
 
-    camera on ["art:wreath_view"]
+    camera reset true
 
 He began with the wreath, the sign of glory; once green, its leaves have turned blue over the centuries.
-    highlight art:painted_wreath strength spotlight rest grey lift true
-
-    camera reset true
+    highlight art:painted_wreath effect detail
 
 Last time, in Las Meninas, Velázquez looked straight out at us from his canvas. Vermeer turns his painter round.
     highlight art:painter lift true
 
-    camera on ["art:painter_head"] zoom 3
-
 He is often taken for Vermeer himself, but with his face turned from us he could be any painter: less a portrait than the art of painting.
-    highlight art:painter_head
-
-    camera reset true
+    highlight art:painter_head effect detail
 
 He kept this picture: Vermeer never sold it, even in debt, and after his death his widow gave it to her mother to keep it from his creditors.
     highlight art:whole strength soft lift true

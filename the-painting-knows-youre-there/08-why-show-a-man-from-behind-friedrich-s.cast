@@ -26,13 +26,13 @@ sources:
     card title "Wanderer above the Sea of Fog"
 
 Caspar David Friedrich painted this wanderer around 1817,
-    image art cites ["hk","wiki"] credit "Caspar David Friedrich, c. 1817. Hamburger Kunsthalle. Public domain." x 420 y 334 width 500 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg/1920px-Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg look screen regions.back [0.41,0.37,0.18,0.24] regions.far [0.17,0.27,0.65,0.13] regions.fog [0,0.42,1,0.4] regions.foreground [0,0.68,1,0.32] regions.head [0.455,0.335,0.075,0.06] regions.left_crags [0.07,0.455,0.29,0.2] regions.left_mountain [0.17,0.27,0.3,0.13] regions.left_ridge [0,0.37,0.44,0.08] regions.ridges [0,0.355,1,0.1] regions.right_crags [0.6,0.48,0.3,0.13] regions.right_ridge [0.6,0.36,0.4,0.1] regions.rl_a [0.03,0.36,0.02,0.02] regions.rl_b [0.385,0.405,0.02,0.02] regions.rr_a [0.95,0.355,0.02,0.02] regions.rr_b [0.6,0.43,0.02,0.02] regions.sky [0,0,1,0.27] regions.view [0,0.25,1,0.45] regions.wanderer [0.4,0.33,0.2,0.42] regions.zirkelstein [0.725,0.325,0.08,0.07]
+    image art cites ["hk","wiki"] credit "Caspar David Friedrich, c. 1817. Hamburger Kunsthalle. Public domain." x 294 y 334 height 640 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg/1920px-Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg look screen regions.back [0.41,0.37,0.18,0.24] regions.far [0.17,0.27,0.65,0.13] regions.fog [0,0.42,1,0.4] regions.foreground [0,0.68,1,0.32] regions.head [0.455,0.335,0.075,0.06] regions.left_crags [0.07,0.455,0.29,0.2] regions.left_mountain [0.17,0.27,0.3,0.13] regions.left_ridge [0,0.37,0.44,0.08] regions.ridges [0,0.355,1,0.1] regions.right_crags [0.6,0.48,0.3,0.13] regions.right_ridge [0.6,0.36,0.4,0.1] regions.rl_a [0.03,0.36,0.02,0.02] regions.rl_b [0.385,0.405,0.02,0.02] regions.rr_a [0.95,0.355,0.02,0.02] regions.rr_b [0.6,0.43,0.02,0.02] regions.sky [0,0,1,0.27] regions.view [0,0.25,1,0.45] regions.wanderer [0.4,0.33,0.2,0.42] regions.zirkel_view [0.695,0.295,0.14,0.12] regions.zirkelstein [0.725,0.325,0.08,0.07]
 
 and our question is: why show him only from behind?
     highlight art:wanderer strength soft
 
 Friedrich was a German painter, living in Dresden, who painted mostly lonely landscapes.
-    portrait friedrich of "Caspar David Friedrich" cameo true
+    portrait friedrich x 760 y 360 width 220 of "Caspar David Friedrich" cameo true
 
     erase friedrich
 
@@ -50,12 +50,12 @@ and wooded ridges on the other, like islands.
 The view is put together from real places in the Elbe Sandstone Mountains near Dresden, sketched outdoors and rearranged in the studio.
     highlight art:left_mountain art:zirkelstein strength soft
 
-That flat-topped pillar of rock far off on the right is the Zirkelstein.
-    point at.ref art:zirkelstein gesture glow
-
     camera reset true
 
-And the man himself? Most portraits give us a face. This one g (@point at.ref art:head gesture arrow@)ives us the back of a head.
+That flat-topped pillar of rock far off on the right is the Zirkelstein.
+    highlight art:zirkel_view effect detail
+
+And the man himself? Most portraits give us a face. This one g (@highlight art:head effect detail@)ives us the back of a head.
 
     quiz "Who is the man on the rock?" on_canvas true buttons_at.x 780 buttons_at.y 360 buttons_layout column
         right: We aren't told: the painter never says, and the man never turns round.
@@ -64,12 +64,8 @@ And the man himself? Most portraits give us a face. This one g (@point at.ref ar
         * A soldier
         + We aren't told
 
-    camera on ["art:head"] zoom 4
-
 Nobody knows who he is. Some point to his red hair, like Friedrich's own; others see a soldier's green uniform.
-    highlight art:head lift true
-
-    camera reset true
+    highlight art:head art:back effect detail
 
 A figure seen from behind even has a name in German: a [de:Rückenfigur], a back figure, and Friedrich came back to it again and again.
     highlight art:wanderer
@@ -100,8 +96,8 @@ In earlier rooms, a dog, a painter and a whole royal court looked back at us. Th
         wrong: Trace each ridge downhill, toward the middle of the picture.
 
 There he is: the ridges on both sides slope in toward him,
-    arrow ar_l #f2c14e from.canvas [237,419] to.canvas [391,392] style.stroke_width 5
-    arrow ar_r #f2c14e from.canvas [628,421] to.canvas [474,382] style.stroke_width 5
+    arrow ar_l #f2c14e from.canvas [128,419] to.canvas [284,392] style.stroke_width 5
+    arrow ar_r #f2c14e from.canvas [524,421] to.canvas [368,382] style.stroke_width 5
     parallel true
 
     erase ar_l ar_r

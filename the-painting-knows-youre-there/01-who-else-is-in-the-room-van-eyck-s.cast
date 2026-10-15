@@ -28,13 +28,9 @@ sources:
       year: 1433
       finding: Frame inscribed 'Johes de Eyck me fecit' (Jan van Eyck made me), 21 October 1433; a man in a red headdress
 
-    image art cites ["ng"] credit "Jan van Eyck, 1434. National Gallery, London. Public domain." x 500 y 342 width 462 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1920px-Van_Eyck_-_Arnolfini_Portrait.jpg look screen regions.backs [0.49,0.288,0.04,0.037] regions.chandelier [0.37,0,0.286,0.198] regions.dog [0.365,0.823,0.208,0.16] regions.dog_face [0.486,0.842,0.088,0.061] regions.dog_legs [0.37,0.925,0.21,0.065] regions.foreground [0,0.86,1,0.14] regions.joined_hands [0.505,0.396,0.11,0.044] regions.man [0.068,0.11,0.443,0.796] regions.mirror [0.426,0.241,0.158,0.116] regions.mirror_glass [0.457,0.264,0.094,0.069] regions.oranges [0.071,0.522,0.046,0.023] regions.raised_hand [0.231,0.293,0.042,0.08] regions.room [0.25,0.15,0.5,0.45] regions.signature [0.418,0.193,0.14,0.042] regions.visitors [0.503,0.293,0.019,0.023] regions.woman [0.536,0.171,0.453,0.812] hidden true
-    image detail credit Detail x 640 y 400 width 420 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1920px-Van_Eyck_-_Arnolfini_Portrait.jpg look screen view [0.41,0.185,0.18,0.15] regions.backs [0.49,0.288,0.04,0.037] regions.mirror_glass [0.457,0.264,0.094,0.069] regions.signature [0.418,0.193,0.14,0.042] regions.visitors [0.503,0.293,0.019,0.023] reveal develop hidden true
-    image turban cites ["turban"] credit "Van Eyck, 1433. National Gallery, London." x 640 y 420 width 340 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433_Frame.jpg/960px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433_Frame.jpg look screen regions.inscription [0,0.935,1,0.065] regions.turban [0.16,0.11,0.62,0.37] reveal develop hidden true
-
     card title "The Arnolfini Portrait"
 
-    draw art
+    image art cites ["ng"] credit "Jan van Eyck, 1434. National Gallery, London. Public domain." x 271 y 342 width 462 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1920px-Van_Eyck_-_Arnolfini_Portrait.jpg look screen regions.backs [0.478,0.279,0.058,0.05] regions.chandelier [0.37,0,0.286,0.198] regions.dog [0.365,0.823,0.208,0.16] regions.dog_face [0.486,0.842,0.088,0.061] regions.dog_legs [0.37,0.925,0.21,0.065] regions.foreground [0,0.86,1,0.14] regions.joined_hands [0.505,0.396,0.11,0.044] regions.man [0.068,0.11,0.443,0.796] regions.mirror [0.426,0.241,0.158,0.116] regions.mirror_glass [0.457,0.264,0.094,0.069] regions.oranges [0.071,0.522,0.046,0.023] regions.raised_hand [0.231,0.293,0.042,0.08] regions.room [0.25,0.15,0.5,0.45] regions.signature [0.418,0.193,0.14,0.042] regions.visitors [0.494,0.285,0.034,0.036] regions.woman [0.536,0.171,0.453,0.812]
 
 Jan van Eyck painted this couple in Bruges in 1434, and our question is: who else is in the room?
     camera on ["art:room"] zoom 1.5 duration 6
@@ -57,56 +53,42 @@ He raises one hand and takes hers with the other, as if making a promise.
     highlight art:raised_hand art:joined_hands
 
 And the little dog looks straight out of the picture, at us.
-    highlight art:dog_face
+    highlight art:dog_face effect detail
 
     ask "Where are they? Tap the place." spot mirror on art
         intro: Two people and a dog, then. But van Eyck put more people in this room.
         right: Yes: the little round mirror on the back wall.
         wrong: Look at the back wall, between the two of them.
 
-    move art to.canvas [140,560] scale 0.4 duration 0.9
-
-    draw detail
-
 On the back wall hangs a convex mirror, bulging outward, so it gathers the whole room into one small circle.
-    highlight detail:mirror_glass lift true
-
-    camera on ["detail:mirror_glass"] zoom 2.2
+    highlight art:mirror_glass effect detail
 
 In it, we see the couple again, from behind.
-    highlight detail:backs
+    highlight art:backs effect detail
 
 And facing them, in the doorway, two more people: one in blue, one in red.
-    highlight detail:visitors
-
-    camera reset true
+    highlight art:visitors effect detail
 
 That door is behind us.
-    highlight detail:visitors strength spotlight rest grey
+    highlight art:visitors effect detail
 
 They stand on our side of the room, just where we stand to look.
-    arrow to_us #b5482e from.x 669 from.y 215 to.x 669 to.y 120 style.stroke_width 5
-
-    highlight art:foreground strength strong duration 1.5
-
-    erase to_us
+    highlight art:foreground strength strong
 
 Above the mirror, in looping letters, the painter wrote on the wall in Latin: Jan van Eyck was here, 1434.
-    highlight detail:signature strength strong lift true
+    highlight art:signature effect detail
 
 Now look back into the glass.
-    highlight detail:visitors strength spotlight rest grey lift true
+    highlight art:visitors effect detail
 
-    quiz "Who might the figure in red be?" on_canvas true buttons_at.x 140 buttons_at.y 290 buttons_layout column
+    quiz "Who might the figure in red be?" on_canvas true buttons_at.x 770 buttons_at.y 560 buttons_layout column
         right: Many think so: the man who signed the wall stands in the doorway.
         wrong: Read the words painted just above the mirror.
         * A servant
         + The painter
         * A priest
 
-    erase detail
-
-    draw turban
+    image turban cites ["turban"] credit "Van Eyck, 1433. National Gallery, London." x 770 y 360 width 340 url https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433_Frame.jpg/960px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433_Frame.jpg look screen regions.inscription [0,0.935,1,0.065] regions.turban [0.16,0.11,0.62,0.37] reveal develop
 
 A portrait thought to be van Eyck himself, painted a year earlier, shows a man in a red headdress too.
     highlight turban:turban
@@ -115,30 +97,18 @@ On its frame he wrote: Jan van Eyck  (@highlight turban:inscription art:signatur
 
     erase turban
 
-    move art to.canvas [500,342] scale 2.5 duration 0.9
-
-    camera on ["art:signature","art:mirror"] zoom 4
-
-That is how a witness signs, and in 1934 t (@highlight art:signature art:mirror_glass@)he art historian Erwin Panofsky read the whole picture as a wedding, with van Eyck as its witness.
+That is how a witness signs, and in 1934 t (@highlight art:signature art:mirror_glass effect detail@)he art historian Erwin Panofsky read the whole picture as a wedding, with van Eyck as its witness.
 
 Many now doubt it was a wedding at all, but the witness in the glass is still there.
-    highlight art:mirror_glass lift true
-
-    camera on ["art@[0.3,0.78,0.4,0.22]"] zoom 2.5
+    highlight art:visitors effect detail
 
 But he was here in another way too: beside the dog's leg, his thumbprint is pressed into the paint.
-    highlight art:dog_legs strength spotlight lift true
-
-    camera reset true
+    highlight art:dog_legs effect detail
 
 So the mirror shows what the room itself can't: (@highlight art:mirror_glass art:foreground@) the people standing on our side of it.
 
-    camera on ["art:mirror"] zoom 6
-
 Van Eyck signs himself into that doorway, and leaves room there for us, as witnesses too.
-    highlight art:mirror_glass rest paper
-
-    camera reset true
+    highlight art:mirror_glass effect detail
 
     quiz "A photographer wants one shot of a bride that shows the guests watching, without turning the camera. What would van Eyck do?"
         right: A mirror behind her: it shows the room on the camera's side, guests, photographer and all.

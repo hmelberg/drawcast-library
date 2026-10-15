@@ -14,7 +14,7 @@ Why would a painter write 'Jan van Eyck was here' on the wall?
 #history #interactive #parts=1
 
 ---
-status: done · id: 264c701d-e7ec-4abe-9cbd-a20bfdad06ad · file: 01-who-else-is-in-the-room-van-eyck-s.cast · 2026-10-14
+status: done · id: 264c701d-e7ec-4abe-9cbd-a20bfdad06ad · file: 01-who-else-is-in-the-room-van-eyck-s.cast · 2026-10-15
 ## Where do you have to stand? Holbein's The Ambassadors
 What is the grey smear across the floor?
 Why hide death where only a step to the side reveals it?
@@ -42,28 +42,28 @@ Whose place are we standing in?
 #history #quiz #parts=1
 
 ---
-status: done · id: 6b6814ec-0d06-4443-940e-962582e3ca9a · file: 05-who-is-the-painter-painting-velazquez-s.cast · 2026-10-14
+status: done · id: 6b6814ec-0d06-4443-940e-962582e3ca9a · file: 05-who-is-the-painter-painting-velazquez-s.cast · 2026-10-15
 ## Why pull back a curtain? Vermeer's The Art of Painting
 Who is the curtain pulled back for?
 Why paint the painter from behind?
 #why #parts=1
 
 ---
-status: done · id: 61184fe0-5eaf-4bd4-b2c6-f8a362c7d609 · file: 06-why-pull-back-a-curtain-vermeer-s-the.cast · 2026-10-14
+status: done · id: 61184fe0-5eaf-4bd4-b2c6-f8a362c7d609 · file: 06-why-pull-back-a-curtain-vermeer-s-the.cast · 2026-10-15
 ## Who is watching whom? Fragonard's The Swing
 Who can see what from where?
 What makes us part of the joke?
 #dry #interactive #parts=1
 
 ---
-status: done · id: 3d54bcce-8184-468e-9269-c42dccf17ccf · file: 07-who-is-watching-whom-fragonard-s-the.cast · 2026-10-14
+status: done · id: 3d54bcce-8184-468e-9269-c42dccf17ccf · file: 07-who-is-watching-whom-fragonard-s-the.cast · 2026-10-15
 ## Why show a man from behind? Friedrich's Wanderer above the Sea of Fog
 What changes when we see a figure only from the back?
 Where does the painting put us?
 #why #quiz #parts=1
 
 ---
-status: done · id: e072e859-34fa-4a98-baa1-b2b85defa6b4 · file: 08-why-show-a-man-from-behind-friedrich-s.cast · 2026-10-14
+status: done · id: e072e859-34fa-4a98-baa1-b2b85defa6b4 · file: 08-why-show-a-man-from-behind-friedrich-s.cast · 2026-10-15
 ## Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day
 Why are the figures cut off by the frame?
 Where would we have to be standing?

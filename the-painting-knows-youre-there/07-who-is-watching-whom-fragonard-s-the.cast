@@ -33,7 +33,7 @@ sources:
     card title "The Swing"
 
 This is Fragonard's The Swing, from about 1767.
-    image art cites ["wallace"] credit "Fragonard, c. 1767–68. Wallace Collection, London. Public domain." x 500 y 340 width 510 url https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/1920px-Fragonard%2C_The_Swing.jpg look screen regions.cupid [0,0.455,0.12,0.19] regions.cupid_hush [0.045,0.458,0.065,0.065] regions.dog [0.745,0.898,0.06,0.045] regions.garden [0,0.44,0.95,0.5] regions.hat [0.265,0.718,0.06,0.045] regions.husband [0.715,0.7,0.18,0.21] regions.husband_face [0.83,0.7,0.06,0.05] regions.lover [0.065,0.77,0.26,0.13] regions.lover_face [0.085,0.77,0.07,0.06] regions.putti [0.525,0.715,0.16,0.12] regions.scene [0.05,0.48,0.88,0.44] regions.skirts [0.3,0.6,0.32,0.15] regions.slipper [0.205,0.515,0.05,0.05] regions.woman [0.26,0.49,0.44,0.29] regions.woman_back [0.6,0.55,0.1,0.12] regions.woman_face [0.51,0.5,0.07,0.06]
+    image art cites ["wallace"] credit "Fragonard, c. 1767–68. Wallace Collection, London. Public domain." x 295 y 340 height 640 url https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/1920px-Fragonard%2C_The_Swing.jpg look screen regions.cupid [0,0.455,0.12,0.19] regions.cupid_hush [0.045,0.45,0.07,0.09] regions.dog [0.725,0.88,0.1,0.08] regions.garden [0,0.44,0.95,0.5] regions.hat [0.265,0.718,0.06,0.045] regions.husband [0.715,0.7,0.18,0.21] regions.husband_face [0.83,0.7,0.06,0.05] regions.lover [0.065,0.77,0.26,0.13] regions.lover_face [0.085,0.77,0.07,0.06] regions.putti [0.525,0.715,0.16,0.12] regions.scene [0.05,0.48,0.88,0.44] regions.skirts [0.3,0.6,0.32,0.15] regions.slipper [0.205,0.515,0.05,0.05] regions.woman [0.26,0.49,0.44,0.29] regions.woman_back [0.6,0.55,0.1,0.12] regions.woman_face [0.51,0.5,0.07,0.06]
 
 A young woman in pink is flying high in a garden.
     highlight art:woman strength soft
@@ -41,7 +41,7 @@ A young woman in pink is flying high in a garden.
 And our ques (@highlight art:husband_face art:lover_face art:woman_face@)tion: who here can see what?
 
 It was painted by Jean-Honoré Fragonard for a private client, on a canvas only about eighty centimetres tall.
-    portrait fragonard x 880 y 420 width 190 of "Jean-Honoré Fragonard" cameo true
+    portrait fragonard x 760 y 380 width 190 of "Jean-Honoré Fragonard" cameo true
 
     erase fragonard
 
@@ -56,25 +56,21 @@ Behind her, half in the shade, an older man works the ropes. The museum calls hi
         right: There he is, half hidden in the roses.
         wrong: Look low down, on the left, in the bushes.
 
-    camera on ["art@[0.03,0.62,0.4,0.28]"]
-
 Down in the bushes lies a young man, gazing straight up into her flying skirts.
-    highlight art:lover lift true
-
-    camera on ["art@[0.03,0.47,0.4,0.33]"]
+    highlight art:lover effect detail
 
 At the top of the swing, one of her slippers flies off, in his direction.
-    point at.ref art:slipper gesture glow
+    highlight art:slipper effect detail
 
 He holds up his hat to her, as if to catch it, and he is plainly enjoying the view.
-    highlight art:hat
+    highlight art:hat effect detail
 
     camera reset true
 
 The French title calls it the happy accidents of the swing. Few viewers have believed in the accident.
     highlight art:slipper strength strong
 
-    quiz "Who cannot see the young man? Pick one." on_canvas true buttons_at.x 905 buttons_at.y 380 buttons_layout column
+    quiz "Who cannot see the young man? Pick one." on_canvas true buttons_at.x 780 buttons_at.y 380 buttons_layout column
         intro: So, who in the garden cannot see the young man?
         right: The older man: he stands behind her, in the shade, and the bushes hide the lover from him.
         wrong: Follow each one's eyes, and what stands in the way.
@@ -82,17 +78,13 @@ The French title calls it the happy accidents of the swing. Few viewers have bel
         * The woman
         * Us, the viewers
 
-    camera on ["art@[0.5,0.5,0.45,0.42]"]
-
-He smiles, pulls the ropes, and sees only (@highlight art:husband_face art:woman_back lift true@) the back of her dress. He is, in effect, helping.
+He smiles, pulls the ropes, and sees only (@highlight art:husband_face art:woman_back effect detail@) the back of her dress. He is, in effect, helping.
 
 Only the little white dog at his feet barks, and nobody listens.
-    point at.ref art:dog gesture glow
-
-    camera on ["art:cupid"]
+    highlight art:dog effect detail
 
 Above the lover stands a stone Cupid with a finger to his lips, after a famous marble Falconet made for Madame de Pompadour.
-    highlight art:cupid_hush
+    highlight art:cupid effect detail
 
     camera reset true
 
@@ -141,10 +133,8 @@ The lover looks up under her skirts, and she looks down at him.
 Only we see all of it: the lover, the husband, and the secret between them.
     highlight art:scene strength strong lift true
 
-    camera on ["art:cupid"]
-
 That is why some read the Cupid's hush as aimed out of the frame, at the one person who knows everything: you.
-    focus art:cupid_hush rest paper
+    highlight art:cupid_hush effect detail
 
     camera reset true
 

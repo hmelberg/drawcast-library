@@ -30,7 +30,7 @@ sources:
     card title "Las Meninas"
 
 Diego Velázquez painted this enormous canvas, more than three metres tall, at the Spanish court in 1656.
-    image art cites ["prado","wiki"] credit "Diego Velázquez, 1656. Museo del Prado, Madrid. Public domain." x 500 y 342 width 550 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1920px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg look screen regions.canvas [0,0.14,0.175,0.84] regions.chaperone_guard [0.66,0.51,0.2,0.16] regions.cup [0.37,0.71,0.04,0.04] regions.dog [0.6,0.835,0.32,0.14] regions.doorway [0.5,0.52,0.115,0.15] regions.eyes_band [0.17,0.5,0.7,0.21] regions.front [0,0.9,1,0.1] regions.infanta [0.37,0.625,0.23,0.3] regions.infanta_face [0.44,0.645,0.06,0.065] regions.maid_left [0.18,0.625,0.2,0.3] regions.maid_right [0.55,0.55,0.23,0.34] regions.maid_right_face [0.61,0.555,0.06,0.065] regions.mari [0.755,0.615,0.165,0.31] regions.mari_face [0.8,0.63,0.06,0.07] regions.mirror [0.362,0.5,0.115,0.13] regions.mirror_glass [0.387,0.524,0.065,0.08] regions.nicolas [0.905,0.665,0.09,0.2] regions.nieto [0.535,0.52,0.07,0.13] regions.painter [0.15,0.495,0.16,0.33] regions.painter_face [0.2,0.505,0.06,0.06] regions.royals [0.388,0.548,0.062,0.056] regions.santiago [0.215,0.565,0.045,0.05]
+    image art cites ["prado","wiki"] credit "Diego Velázquez, 1656. Museo del Prado, Madrid. Public domain." x 315 y 342 width 550 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1920px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg look screen regions.canvas [0,0.14,0.175,0.84] regions.chaperone_guard [0.66,0.51,0.2,0.16] regions.cup [0.37,0.71,0.04,0.04] regions.dog [0.6,0.835,0.32,0.14] regions.doorway [0.5,0.52,0.115,0.15] regions.eyes_band [0.17,0.5,0.7,0.21] regions.front [0,0.9,1,0.1] regions.infanta [0.37,0.625,0.23,0.3] regions.infanta_face [0.44,0.645,0.06,0.065] regions.maid_left [0.18,0.625,0.2,0.3] regions.maid_right [0.55,0.55,0.23,0.34] regions.maid_right_face [0.61,0.555,0.06,0.065] regions.mari [0.755,0.615,0.165,0.31] regions.mari_face [0.8,0.63,0.06,0.07] regions.mirror [0.362,0.5,0.115,0.13] regions.mirror_glass [0.387,0.524,0.065,0.08] regions.nicolas [0.905,0.665,0.09,0.2] regions.nieto [0.535,0.52,0.07,0.13] regions.painter [0.15,0.495,0.16,0.33] regions.painter_face [0.2,0.505,0.06,0.06] regions.royals [0.388,0.548,0.062,0.056] regions.santiago [0.215,0.565,0.045,0.05]
 
 And our question is: who is the painter painting?
     point at.ref art:painter_face gesture glow
@@ -50,7 +50,9 @@ To the right stand two co (@highlight art:mari strength strong lift true@)urt dw
 
 and Nicolás Pertusat (@highlight art:nicolas strength strong lift true@)o, who nudges a sleepy mastiff with his foot.
 
-Behind them, her chaperone talks (@highlight art:chaperone_guard art:nieto lift true@) to a guard, and in the bright doorway the queen's chamberlain, José Nieto, pauses on the stairs.
+    camera reset true
+
+Behind them, her chaperone talks (@highlight art:chaperone_guard art:nieto effect detail@) to a guard, and in the bright doorway the queen's chamberlain, José Nieto, pauses on the stairs.
 
 Now follow their eyes: the painter, the princess, a menina, the dwarf. They all look out of the picture, at one spot.
     blocking false
@@ -75,14 +77,10 @@ That spot is where we are standing.
         right: Yes: the mirror on the back wall.
         wrong: Look on the back wall for something that could show the front of the room.
 
-    camera on ["art:mirror"] zoom 6
-
 In the mirror, faint and blurred, are King Philip the Fourth and Queen Mariana.
-    highlight art:royals strength spotlight rest grey lift true
+    highlight art:royals effect detail
 
     pause 0.6
-
-    camera reset true
 
 So the king and queen stand just  (@highlight art:mirror strength strong lift true@)in front of the scene, in our place, and the room has turned to look at them.
 
@@ -93,25 +91,17 @@ Some historians read the mirror differently: it may  (@highlight art:mirror art:
 Either way, the true subjects of this picture are outside it, and we see the room through their eyes.
     highlight art:mirror_glass lift true
 
-    camera center.ref art:mirror zoom 3
-
 It's the trick of van Eyck's little round mirror, which showed two visitors on our side of the room; this one puts a king there.
-    highlight art:mirror_glass lift true
-
-    camera on ["art:painter"] zoom 3
+    highlight art:mirror_glass effect detail
 
 The red cross on the painter's chest is the badge of the Order of Santiago, a knighthood he received only in 1659, three years after the painting.
-    highlight art:santiago effect ring
+    highlight art:santiago effect detail
 
 His early biographer Palomino says the king had it added after the painter's death: it makes him a nobleman, and painting, long seen as a mere craft, a noble art.
     highlight art:painter lift true
 
-    camera on ["art:mirror"] zoom 2.5
-
 The picture hung in the king's private rooms, so the viewer it was made for was Philip himself, standing just where the mirror shows him.
-    highlight art:royals lift true
-
-    camera reset true
+    highlight art:royals effect detail
 
 Today, whoever stands there takes the king's plac (@highlight art:painter_face strength strong lift true@)e: the painter looks up from his canvas,
 
