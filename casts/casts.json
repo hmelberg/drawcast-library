@@ -1275,13 +1275,6 @@
       "page": true
     },
     {
-      "slug": "arrow-impossibility",
-      "title": "Arrow's impossibility theorem",
-      "file": "arrow-impossibility.cast",
-      "updated": "2026-10-15",
-      "page": true
-    },
-    {
       "slug": "test-your-russian",
       "title": "Test your Russian",
       "file": "test-your-russian.cast",
@@ -1306,6 +1299,13 @@
       "slug": "greenland-vs-africa",
       "title": "How big is Greenland next to Africa?",
       "file": "greenland-vs-africa.cast",
+      "updated": "2026-10-15",
+      "page": true
+    },
+    {
+      "slug": "arrow-impossibility",
+      "title": "Arrow's impossibility theorem",
+      "file": "arrow-impossibility.cast",
       "updated": "2026-10-15",
       "page": true
     }
