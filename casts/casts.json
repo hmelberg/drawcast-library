@@ -1294,6 +1294,13 @@
       "file": "godel-incompleteness.cast",
       "updated": "2026-10-15",
       "page": true
+    },
+    {
+      "slug": "arrow-impossibility",
+      "title": "Arrow's impossibility theorem",
+      "file": "arrow-impossibility.cast",
+      "updated": "2026-10-15",
+      "page": true
     }
   ]
 }
