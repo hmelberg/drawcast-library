@@ -6,6 +6,7 @@
 - [Test your Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/test-your-russian.cast) — 2026-10-15
 - [How many ants are there on Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ants-on-earth.cast) — 2026-10-15
 - [What does a positive test mean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/a-positive-test.cast) — 2026-10-15
+- [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-15
 - [Count to ten in Russian: один, два, три](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-numbers.cast) — 2026-10-14
 - [My family in Russian: мой, моя́, моё](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-family.cast) — 2026-10-14
 - [Where is it? где, в and на in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/russian-where.cast) — 2026-10-14
@@ -103,7 +104,6 @@
 - [You have $100 to split with a stranger. How much would you offer?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ultimatum-game.cast) — 2026-10-13
 - [What is the air you breathe made of?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whats-in-the-air.cast) — 2026-10-13
 - [Do these names tell the truth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/misnamed-things.cast) — 2026-10-13
-- [How big is Greenland next to Africa?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/greenland-vs-africa.cast) — 2026-10-13
 - [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-13
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-13
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-13
