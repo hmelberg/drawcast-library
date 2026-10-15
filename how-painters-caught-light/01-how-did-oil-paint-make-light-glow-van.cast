@@ -39,7 +39,7 @@ sources:
     card title "The Arnolfini Portrait"
 
 A: How do you put light on a flat surface?
-    image art cites ["ng","wiki"] credit "Jan van Eyck, 1434. National Gallery, London. Public domain." x 500 y 330 width 470 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1920px-Van_Eyck_-_Arnolfini_Portrait.jpg look screen regions.beads [0.39,0.27,0.03,0.07] regions.candle [0.415,0.05,0.02,0.034] regions.chandelier [0.37,0,0.286,0.198] regions.chest_oranges [0.071,0.522,0.046,0.023] regions.folds [0.56,0.6,0.4,0.37] regions.gown [0.565,0.29,0.405,0.69] regions.man [0.068,0.11,0.443,0.796] regions.man_face [0.25,0.17,0.08,0.09] regions.mirror [0.425,0.241,0.16,0.117] regions.mirror_glass [0.458,0.262,0.09,0.07] regions.mirror_window [0.462,0.276,0.03,0.036] regions.signature [0.417,0.194,0.188,0.038] regions.sill_orange [0.095,0.462,0.022,0.018] regions.window [0.04,0,0.095,0.48] regions.woman [0.536,0.171,0.453,0.812] regions.woman_face [0.705,0.205,0.075,0.085]
+    image art cites ["ng","wiki"] credit "Jan van Eyck, 1434. National Gallery, London. Public domain." x 275 y 330 width 470 url https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1920px-Van_Eyck_-_Arnolfini_Portrait.jpg look screen regions.beads [0.39,0.27,0.03,0.07] regions.candle [0.415,0.05,0.02,0.034] regions.chandelier [0.37,0,0.286,0.198] regions.chest_oranges [0.071,0.522,0.046,0.023] regions.folds [0.56,0.6,0.4,0.37] regions.gown [0.565,0.29,0.405,0.69] regions.man [0.068,0.11,0.443,0.796] regions.man_face [0.25,0.17,0.08,0.09] regions.mirror [0.425,0.241,0.16,0.117] regions.mirror_glass [0.458,0.262,0.09,0.07] regions.mirror_window [0.462,0.276,0.03,0.036] regions.signature [0.417,0.194,0.188,0.038] regions.sill_orange [0.083,0.424,0.05,0.042] regions.window [0.04,0,0.095,0.48] regions.woman [0.536,0.171,0.453,0.812] regions.woman_face [0.705,0.205,0.075,0.085]
 
 A: Over ten paintings, that's our question, and we start in Bruges, in 1434.
     highlight art:window strength soft
@@ -48,27 +48,23 @@ B: With a rather well-dressed couple, by the look of it.
     highlight art:man art:woman strength soft
 
 A: This is Jan van Eyck's Arnolfini Portrait: probably an Italian merchant, Giovanni Arnolfini, and his wife.
-    portrait vaneyck x 868 y 400 width 220 of "Jan van Eyck" cameo true
+    portrait vaneyck x 760 y 360 width 220 of "Jan van Eyck" cameo true
 
     erase vaneyck
 
-    camera on ["art:signature"] zoom 5
-
 A: Van Eyck even signed the wall above the mirror, in Latin: Jan van Eyck was here, 1434.
-    highlight art:signature
+    highlight art:signature effect detail
 
 B: Very elegant graffiti.
-    highlight art:signature effect underline
+    highlight art:signature effect detail
 
     camera reset true
 
 B: So where is the light coming from? The chandelier, I'd guess.
     point at.ref art:chandelier gesture glow
 
-    camera on ["art:chandelier"]
-
 A: It holds just one lit candle, in broad daylight. Far too little to light a room.
-    point at.ref art:candle gesture glow
+    highlight art:candle effect detail
 
     camera reset true
 
@@ -82,18 +78,12 @@ A: The daylight comes in from the window on the left,
 A: and falls across both their faces.
     highlight art:man_face art:woman_face
 
-    camera center.ref art:sill_orange zoom 6
+B: And it doesn't stop at faces. The or (@highlight art:sill_orange effect detail@)ange on the sill has caught it too.
 
-B: And it doesn't stop at faces. The or (@highlight art:sill_orange lift true@)ange on the sill has caught it too.
-
-    camera on ["art@[0.36,0.0,0.3,0.36]"]
-
-A: So have the brass chandelier and every bead b (@highlight art:chandelier art:beads lift true@)eside the mirror, each with its own glint of the window.
-
-    camera on ["art:mirror_glass"] zoom 10
+A: So have the brass chandelier and every bead b (@highlight art:chandelier art:beads effect detail@)eside the mirror, each with its own glint of the window.
 
 A: And the mirror at the back reflects the window itself, with two figures in the doorway.
-    highlight art:mirror_window art:mirror_glass
+    highlight art:mirror_glass effect detail
 
     camera reset true
 

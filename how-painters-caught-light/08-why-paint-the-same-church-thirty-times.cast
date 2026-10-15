@@ -33,20 +33,18 @@ sources:
     card title "Rouen Cathedral"
 
 B: Monet painted the front of this one church more than thirty times. Why would anyone do that?
-    image art cites ["nga","series"] credit "Monet, West Façade, Sunlight, 1894. NGA, Washington" x 500 y 345 width 412 url https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg/1920px-Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg look screen regions.blue_shadow [0.255,0.2,0.07,0.6] regions.doorways [0.48,0.6,0.48,0.38] regions.left_tower [0,0,0.27,0.92] regions.lit_stone [0.03,0.17,0.43,0.4] regions.people [0.17,0.935,0.09,0.055] regions.portal_paint [0.49,0.62,0.2,0.18] regions.rose_window [0.47,0.27,0.24,0.27] regions.signature [0.74,0.958,0.25,0.04] regions.sky [0.27,0,0.6,0.2] regions.thick_paint [0.3,0.14,0.26,0.14] regions.upper_front [0.25,0.06,0.62,0.24]
+    image art cites ["nga","series"] credit "Monet, West Façade, Sunlight, 1894. NGA, Washington" x 246 y 345 width 412 url https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg/1920px-Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg look screen regions.blue_bit [0.18,0.28,0.2,0.22] regions.blue_shadow [0.255,0.2,0.07,0.6] regions.doorways [0.48,0.6,0.48,0.38] regions.left_tower [0,0,0.27,0.92] regions.lit_stone [0.03,0.17,0.43,0.4] regions.people [0.17,0.935,0.09,0.055] regions.portal_paint [0.49,0.62,0.2,0.18] regions.rose_window [0.47,0.27,0.24,0.27] regions.signature [0.74,0.958,0.25,0.04] regions.sky [0.27,0,0.6,0.2] regions.thick_paint [0.3,0.14,0.26,0.14] regions.upper_front [0.25,0.06,0.62,0.24]
 
 A: Because the church wasn't really his subject.
     highlight art:upper_front strength soft
 
 A: In the winter of 1892 he rented rooms right across the square from Rouen Cathedral,
-    portrait monet of "Claude Monet" cameo true
+    portrait monet x 720 y 360 of "Claude Monet" cameo true
 
 A: and the next winter he came back to do it again.
     erase monet
 
-    camera on ["art:signature"] zoom 3
-
-A: This is one  (@point at.ref art:signature gesture glow@)of them, signed in 1894, now in Washington: the west front in full sun.
+A: This is one  (@highlight art:signature effect detail lift true@)of them, signed in 1894, now in Washington: the west front in full sun.
 
     camera reset true
 
@@ -56,19 +54,15 @@ B: It hardly looks like stone. It looks dusted with sugar.
 A: That's the sun, risen behind the church and come round to strike its front, washing the stone almost white.
     highlight art:lit_stone lift true
 
-    camera on ["art:blue_shadow"] zoom 2.2
-
-A: And where it can't reac (@highlight art:blue_shadow strength soft lift true@)h, the shadows aren't grey: they're blue and violet.
-
-    camera on ["art:doorways"]
+A: And where it can't reac (@highlight art:blue_bit effect detail lift true@)h, the shadows aren't grey: they're blue and violet.
 
 A: Down in the deep doorways, the shadow even glows orange.
-    highlight art:doorways lift true
+    highlight art:doorways effect detail lift true
 
     camera reset true
 
 B: Lovely. But one sunny day doesn't explain thirty canvases.
-    move art by [-325,0] duration 2
+    move art by [-71,0] duration 2
 
 A: Here is another from the same series, also in Washington:
     image west cites ["nga"] credit "Monet, West Façade, 1894. NGA, Washington" x 825 y 345 width 404 url https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Claude_Monet_-_Rouen_Cathedral%2C_West_Fa%C3%A7ade_-_Google_Art_Project.jpg/1920px-Claude_Monet_-_Rouen_Cathedral%2C_West_Fa%C3%A7ade_-_Google_Art_Project.jpg look screen regions.all [0,0,1,1] regions.left_tower [0,0,0.36,0.75] regions.rose_window [0.48,0.29,0.24,0.21] regions.sky [0.38,0,0.47,0.2] regions.stone [0,0.08,0.36,0.62] reveal develop
@@ -116,12 +110,10 @@ A: No, every light was the right one. He worked on sever (@highlight art:lit_sto
     erase west
 
 B: Like a cook with a row of pans, dashing to whichever one is about to boil.
-    move art by [325,0] duration 2
-
-    camera on ["art:portal_paint"] zoom 3.5
+    move art by [71,0] duration 2
 
 A: And look how he laid the paint on: thick, crust on crust, until the canvas is as rough as the wall it shows.
-    highlight art:portal_paint strength soft
+    highlight art:portal_paint effect detail
 
     camera reset true
 

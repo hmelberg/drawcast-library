@@ -27,7 +27,7 @@ sources:
     card title "The Magdalen with the Smoking Flame"
 
 B: A woman alone at night, a skull, and one small flame. What can one flame do?
-    image art cites ["lacma","wiki"] credit "Georges de La Tour, c. 1635–37. Los Angeles County Museum of Art. Public domain." x 500 y 334 width 500 url https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg/1920px-Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg look screen regions.blouse [0.15,0.22,0.41,0.24] regions.books [0.725,0.305,0.2,0.1] regions.cross [0.72,0.415,0.27,0.045] regions.dark_corner [0.76,0.47,0.24,0.42] regions.eye [0.44,0.18,0.03,0.03] regions.face [0.38,0.14,0.095,0.11] regions.figure [0.05,0.04,0.7,0.94] regions.flame [0.643,0.235,0.034,0.08] regions.glass [0.595,0.305,0.13,0.145] regions.lamp [0.59,0.22,0.14,0.23] regions.legs [0.3,0.58,0.62,0.42] regions.lit_pool [0.15,0.07,0.6,0.4] regions.lower_dark [0,0.6,1,0.4] regions.scourge [0.73,0.395,0.17,0.035] regions.skull [0.455,0.475,0.16,0.11] regions.smoke [0.625,0.09,0.065,0.155] regions.table [0.55,0.3,0.45,0.17] regions.waist_rope [0.24,0.435,0.24,0.05]
+    image art cites ["lacma","wiki"] credit "Georges de La Tour, c. 1635–37. Los Angeles County Museum of Art. Public domain." x 290 y 334 width 500 url https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg/1920px-Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg look screen regions.blouse [0.15,0.22,0.41,0.24] regions.books [0.725,0.305,0.2,0.1] regions.cross [0.72,0.415,0.27,0.045] regions.dark_corner [0.76,0.47,0.24,0.42] regions.eye [0.44,0.18,0.03,0.03] regions.face [0.38,0.14,0.095,0.11] regions.figure [0.05,0.04,0.7,0.94] regions.flame [0.643,0.235,0.034,0.08] regions.flame_up [0.6,0.1,0.11,0.22] regions.glass [0.595,0.305,0.13,0.145] regions.lamp [0.59,0.22,0.14,0.23] regions.legs [0.3,0.58,0.62,0.42] regions.lit_pool [0.15,0.07,0.6,0.4] regions.lower_dark [0,0.6,1,0.4] regions.scourge [0.73,0.395,0.17,0.035] regions.skull [0.455,0.475,0.16,0.11] regions.smoke [0.625,0.09,0.065,0.155] regions.table [0.55,0.3,0.45,0.17] regions.waist_rope [0.24,0.435,0.24,0.05]
 
 A: This is Georges de La Tour's Magdalen with the Smoking Flame, painted in Lorraine in the 1630s. He painted her by night more than once; this version hangs in Los Angeles.
     camera on ["art@[0.1,0.04,0.82,0.6]"] duration 6
@@ -40,17 +40,17 @@ A: That's the new step: the source sits inside the picture, and one small flame 
 
     pause 0.8
 
-    camera on ["art:lamp"] zoom 3
+    camera reset true
 
 B: A candle, I suppose.
-    highlight art:flame lift true
+    highlight art:lamp effect detail lift true
 
 A: Look closer: a wick in oil, in a glass, a little night lamp, with a thread of black smoke rising off the flame.
     blocking false
 
-    highlight art:glass lift true duration 3.2
+    highlight art:glass effect detail lift true duration 3.2
 
-    highlight art:smoke lift true duration 3
+    highlight art:smoke effect detail lift true duration 3
 
     camera reset true
 
@@ -59,7 +59,7 @@ B: So what does it light? Her face, her shoulder, that white blouse.
 
     pause 1.2
 
-    highlight art:face lift true duration 1.5
+    highlight art:face effect detail lift true duration 1.8
 
     highlight art:blouse lift true duration 2
 
@@ -85,32 +85,28 @@ B: She's staring at the skull in her lap, surely.
 
     highlight art:flame strength strong lift true duration 1.5
 
-    camera on ["art@[0.28,0.36,0.5,0.32]"]
+    camera reset true
 
 B: Why a skull, though?
-    highlight art:skull lift true
+    highlight art:skull effect detail lift true
 
 A: It's a memento mori, a reminder that everyone dies. And in the tradition of La Tour's time, the Magdalen was the sinner who gave up her old life to repent.
-    highlight art:skull
-
-    camera on ["art@[0.2,0.3,0.8,0.22]"]
+    highlight art:skull effect detail
 
 B: And that rope round her waist? Part of it?
-    highlight art:waist_rope strength strong lift true
+    highlight art:waist_rope effect detail lift true
 
-A: Yes: the rope, and the knotte (@highlight art:scourge strength strong lift true@)d scourge on the table, are the tools of her penance.
-
-    camera on ["art@[0.5,0.05,0.4,0.42]"]
+A: Yes: the rope, and the knotte (@highlight art:scourge effect detail lift true@)d scourge on the table, are the tools of her penance.
 
 B: And the flame is burning itself away while she watches.
-    highlight art:flame lift true
+    highlight art:flame_up effect detail lift true
 
 A: That's the old meaning: a flame that uses itself up is a short life, and its smoke drifts off and is gone.
     blocking false
 
-    highlight art:flame lift true duration 3.5
+    highlight art:flame_up effect detail lift true duration 3.5
 
-    highlight art:smoke lift true duration 3
+    highlight art:smoke effect detail lift true duration 3
 
 B: That's rather gloomy.
     highlight art:smoke strength soft

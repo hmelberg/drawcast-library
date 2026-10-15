@@ -14,7 +14,7 @@ What could oil glazes do that earlier paint couldn't?
 #qa #history #parts=1
 
 ---
-status: done · id: 1883e46e-1271-41e2-b9f5-66cdef823748 · file: 01-how-did-oil-paint-make-light-glow-van.cast · 2026-10-14
+status: done · id: 1883e46e-1271-41e2-b9f5-66cdef823748 · file: 01-how-did-oil-paint-make-light-glow-van.cast · 2026-10-15
 ## Can one beam tell a story? Caravaggio's Calling of Saint Matthew
 Where does the beam enter, and what does it hit?
 What does the darkness do?
@@ -35,14 +35,14 @@ Why a candle and a skull?
 #qa #calm #parts=1
 
 ---
-status: done · id: 3a93314f-278b-4645-ab68-d871a55dfc30 · file: 04-what-can-one-candle-do-la-tour-s.cast · 2026-10-14
+status: done · id: 3a93314f-278b-4645-ab68-d871a55dfc30 · file: 04-what-can-one-candle-do-la-tour-s.cast · 2026-10-15
 ## Why does window light feel so calm? Vermeer's The Milkmaid
 Where does the light fall, and where doesn't it?
 How do the little dots of light on the bread work?
 #qa #interactive #parts=1
 
 ---
-status: done · id: 78db768c-af8b-41c0-b85f-67bcc4f0709c · file: 05-why-does-window-light-feel-so-calm.cast · 2026-10-14
+status: done · id: 78db768c-af8b-41c0-b85f-67bcc4f0709c · file: 05-why-does-window-light-feel-so-calm.cast · 2026-10-15
 ## Can a sunset say goodbye? Turner's The Fighting Temeraire
 What is the old ship, and what is towing it?
 What is the sunset doing on the right?
@@ -63,7 +63,7 @@ What was Monet really painting?
 #qa #why #parts=1
 
 ---
-status: done · id: 41b46c56-175c-4877-a465-1412516b03f8 · file: 08-why-paint-the-same-church-thirty-times.cast · 2026-10-14
+status: done · id: 41b46c56-175c-4877-a465-1412516b03f8 · file: 08-why-paint-the-same-church-thirty-times.cast · 2026-10-15
 ## Can dots make light? Seurat's A Sunday on La Grande Jatte
 What happens to the dots when you step back?
 Why did Seurat think this would make colours brighter?

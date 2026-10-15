@@ -27,7 +27,7 @@ sources:
     card title "The Milkmaid"
 
 B: After a candle in the dark, this room feels so quiet.
-    image art cites ["rijks","wiki","ev"] credit "Johannes Vermeer, c. 1660. Rijksmuseum, Amsterdam. Public domain." x 500 y 330 width 580 url https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg look screen regions.bread [0.06,0.635,0.45,0.15] regions.bright_wall [0.74,0.06,0.25,0.72] regions.contour [0.685,0.29,0.05,0.25] regions.crumbs [0.3,0.645,0.215,0.09] regions.dark_corner [0,0.44,0.17,0.33] regions.lit_shoulder [0.44,0.3,0.1,0.1] regions.loaf [0.13,0.64,0.16,0.08] regions.maid [0.29,0.15,0.47,0.85] regions.milk [0.322,0.56,0.03,0.07] regions.near_wall [0.15,0.02,0.3,0.42] regions.shaded_side [0.66,0.3,0.08,0.26] regions.shoulder_edge [0.34,0.27,0.17,0.17] regions.shoulder_rim [0.415,0.295,0.06,0.07] regions.table [0,0.55,0.62,0.45] regions.window [0,0,0.09,0.36] reveal develop
+    image art cites ["rijks","wiki","ev"] credit "Johannes Vermeer, c. 1660. Rijksmuseum, Amsterdam. Public domain." x 290 y 330 width 580 url https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg look screen regions.bread [0.06,0.635,0.45,0.15] regions.bright_wall [0.74,0.06,0.25,0.72] regions.contour [0.685,0.29,0.05,0.25] regions.crumbs [0.3,0.645,0.215,0.09] regions.crust [0.15,0.645,0.12,0.07] regions.dark_corner [0,0.44,0.17,0.33] regions.dots [0.38,0.645,0.13,0.08] regions.edge_dark [0.64,0.29,0.12,0.25] regions.edge_lit [0.37,0.28,0.15,0.15] regions.lit_shoulder [0.44,0.3,0.1,0.1] regions.loaf [0.13,0.64,0.16,0.08] regions.maid [0.29,0.15,0.47,0.85] regions.milk [0.322,0.56,0.03,0.07] regions.near_wall [0.15,0.02,0.3,0.42] regions.shaded_side [0.66,0.3,0.08,0.26] regions.shoulder_edge [0.34,0.27,0.17,0.17] regions.shoulder_rim [0.415,0.295,0.06,0.07] regions.table [0,0.55,0.62,0.45] regions.window [0,0,0.09,0.36] reveal develop
 
 B: Why is window light this calm?
     highlight art:window strength soft
@@ -57,15 +57,15 @@ A: and it brightens the further it gets from the glass.
     highlight art:bright_wall lift true
 
 B: That seems backwards.
-    camera on ["art@[0.3,0.14,0.62,0.5]"]
+    highlight art:near_wall art:bright_wall strength soft
 
 A: It's arranged. Look at her edges:
     highlight art:shoulder_edge lift true
 
 A: her lit shoulder, near the window, stands against the shaded wall.
-    point at.ref art:shoulder_rim gesture glow
+    highlight art:edge_lit effect detail
 
-A: And her shaded side stands against the bright wall. Ve (@point at.ref art:contour gesture glow@)rmeer even ran a thin line of white along it.
+A: And her shaded side  (@highlight art:edge_dark effect detail@)stands against the bright wall. Vermeer even ran a thin line of white along it.
 
 B: Light against dark,
     highlight art:shoulder_edge lift true
@@ -73,15 +73,11 @@ B: Light against dark,
 B: dark against light. So she never melts into the wall.
     highlight art:shaded_side lift true
 
-    camera reset true
-
 A: And X-rays show he once painted something on that wall, perhaps a map, then covered it over.
     highlight art:bright_wall strength soft lift true
 
 B: So the empty wall is the point: nothing on it but light.
     highlight art:bright_wall strength strong rest grey lift true
-
-    camera on ["art@[0.05,0.33,0.95,0.62]"]
 
 A: On the bread, the light does something stranger.
     highlight art:bread lift true
@@ -89,21 +85,18 @@ A: On the bread, the light does something stranger.
 B: I see crumbs. Lots of glittering crumbs.
     point at.ref art:crumbs gesture glow
 
-    quiz "Up close, what makes the bread glitter? Pick one." on_canvas true buttons_at.x 720 buttons_at.y 300 buttons_layout column say_question true voice a
+    quiz "Up close, what makes the bread glitter? Pick one." on_canvas true buttons_at.x 810 buttons_at.y 420 buttons_layout column say_question true voice a
         right: Dots: small dabs of pale paint, laid on one by one.
         wrong: Think of how a painter makes a sparkle with a brush.
         + Dots of paint
         * Varnish
         * Real crumbs
 
-    camera on ["art:crumbs"] zoom 5
-
 A: They're dots: hundreds of small dabs of thick, pale paint on the crust and the basket.
-    highlight art:crumbs rest paper lift true
+    highlight art:dots effect detail
 
-A: Each dot is a spark where light catches a bump. Up close, just pa (@camera on ["art@[0.05,0.33,0.95,0.62]"]@)int; from a step back, rough bread in bright daylight.
-
-    camera reset true
+A: Each dot is a spark where light catches a bump. Up close, just paint; from a step back, rough bread in bright daylight.
+    highlight art:crust effect detail
 
 B: So he paints the sparkle, not the crumbs.
     highlight art:bread strength soft lift true
