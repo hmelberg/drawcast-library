@@ -1,5 +1,6 @@
 # Where is the hero? Bruegel's Fall of Icarus
 tags: ["bruegel","icarus myth","renaissance art","composition","visual storytelling","perspective"]
+thumb: "band \"Where's Icarus?\" picture \"File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_&_Culture.jpg\" colour"
 teaches: ["art-history/renaissance-painting","concepts/visual-hierarchy","interpretation/symbolism","analysis/composition"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Where is Icarus? Why does nobody in the picture look?"

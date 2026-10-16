@@ -1,5 +1,6 @@
 # What is gleaning? Millet's The Gleaners
 tags: ["art history","gleaning poverty","millet realism","social class painting","19th century france","biblical charity"]
+thumb: "none picture \"File:Jean-François_Millet_-_Gleaners_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/social-class-in-painting","concepts/gleaning","history/french-revolution-context","methods/composition-foreground-emphasis"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What are the three women doing, and what is behind them? Why did some see a threat in it?"

@@ -1,5 +1,6 @@
 # What does a day's work look like? Bruegel's The Harvesters
 tags: ["bruegel","renaissance art","labor and work","daily life painting","social history"]
+thumb: "band \"Lunch break, 1565\" picture \"File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/genre-painting","visual-analysis/composition","history/peasant-life","methods/visual-storytelling"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is each group doing at this hour? Why paint peasants as the whole subject?"

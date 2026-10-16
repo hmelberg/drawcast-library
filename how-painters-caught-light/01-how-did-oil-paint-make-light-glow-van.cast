@@ -1,5 +1,6 @@
 # How did oil paint make light glow? Van Eyck's Arnolfini Portrait
 tags: ["oil paint techniques","renaissance art","light in painting","van eyck","glazing technique","color theory"]
+thumb: "band \"Why does it glow?\" picture \"File:Van_Eyck_-_Arnolfini_Portrait.jpg\" colour"
 teaches: ["art-history/northern-renaissance","techniques/oil-paint-glazing","concepts/light-reflection","methods/observing-paintings"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the light come from in this room? What could oil glazes do that earlier paint couldn't?"

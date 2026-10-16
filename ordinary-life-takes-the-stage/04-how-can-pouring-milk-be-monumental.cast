@@ -1,5 +1,6 @@
 # How can pouring milk be monumental? Vermeer's The Milkmaid
 tags: ["art history","vermeer","dutch golden age","painting composition","dignity in labor","still life"]
+thumb: "question \"How can pouring milk be monumental?\" picture \"File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/compositional-techniques","concepts/how-artists-convey-dignity","analysis/visual-symbolism","methods/close-looking"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What makes one kitchen task look so important? What do the bread, the jug and the foot warmer tell us?"

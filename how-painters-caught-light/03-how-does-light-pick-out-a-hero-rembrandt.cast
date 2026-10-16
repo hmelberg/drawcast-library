@@ -1,5 +1,6 @@
 # How does light pick out a hero? Rembrandt's The Night Watch
 tags: ["art history","light and shadow","rembrandt","composition","dutch golden age","visual hierarchy"]
+thumb: "band \"Who's the hero?\" picture \"File:The_Night_Watch_-_HD.jpg\" colour"
 teaches: ["art-history/rembrandt-technique","methods/compositional-lighting","concepts/visual-storytelling","history/dutch-portraiture"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Who is lit, and who is left in shadow? Who is the glowing girl?"

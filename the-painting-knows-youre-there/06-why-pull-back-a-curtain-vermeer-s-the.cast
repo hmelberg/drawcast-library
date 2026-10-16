@@ -1,5 +1,6 @@
 # Why pull back a curtain? Vermeer's The Art of Painting
 tags: ["art history","vermeer","painting technique","dutch golden age","composition","viewer perspective"]
+thumb: "none picture \"File:Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/symbolism","visual-analysis/composition","concepts/artistic-convention","methods/close-looking"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is the curtain pulled back for? Why paint the painter from behind?"

@@ -1,5 +1,6 @@
 # Can a sunset say goodbye? Turner's The Fighting Temeraire
 tags: ["art history","turner","painting light","symbolism in art","romanticism","naval history"]
+thumb: "question \"What is the sunset saying?\" picture \"File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg\" colour"
 teaches: ["art-history/symbolism-in-painting","concepts/composition-and-meaning","methods/painting-light-to-convey-emotion","vocabulary/artistic-techniques"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is the old ship, and what is towing it? What is the sunset doing on the right?"

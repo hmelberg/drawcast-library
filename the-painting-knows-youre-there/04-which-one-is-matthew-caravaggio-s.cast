@@ -1,5 +1,6 @@
 # Which one is Matthew? Caravaggio's Calling of Saint Matthew
 tags: ["caravaggio","renaissance art","painting interpretation","religious art","baroque","visual analysis"]
+thumb: "question \"Which one is Matthew?\" picture \"File:Michelangelo_Caravaggio_040.jpg\" colour"
 teaches: ["art-history/baroque-painting","interpretation/ambiguity-in-art","concepts/visual-composition","viewer-engagement/personal-meaning"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Where does the light point, and where does Christ's hand point? Is Matthew the bearded man or the young man counting coins?"

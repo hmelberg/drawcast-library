@@ -1,5 +1,6 @@
 # Why show a man from behind? Friedrich's Wanderer above the Sea of Fog
 tags: ["romantic painting","caspar david friedrich","composition techniques","german art","perspective symbolism"]
+thumb: "none picture \"File:Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg\" colour"
 teaches: ["art-history/romantic-era-painting","composition/rückenfigur-back-figure","visual-analysis/viewer-perspective","art-techniques/composition-and-emotion"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What changes when we see a figure only from the back? Where does the painting put us?"

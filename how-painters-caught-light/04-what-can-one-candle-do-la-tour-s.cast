@@ -1,5 +1,6 @@
 # What can one candle do? La Tour's Magdalen with the Smoking Flame
 tags: ["art history","caravaggio lighting","renaissance painting","symbolism","memento mori","baroque"]
+thumb: "none picture \"File:Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/baroque-light-techniques","interpretation/religious-symbolism","visual-analysis/composition","concepts/memento-mori"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is lit, and what is hidden? Why a candle and a skull?"

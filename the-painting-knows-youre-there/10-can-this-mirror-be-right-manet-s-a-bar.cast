@@ -1,5 +1,6 @@
 # Can this mirror be right? Manet's A Bar at the Folies-Bergère
 tags: ["manet","painting composition","perspective and reflection","viewer positioning","19th century art","realism and illusion"]
+thumb: "question \"Can this mirror be right?\" picture \"File:Edouard_Manet,_A_Bar_at_the_Folies-Bergère.jpg\" colour"
 teaches: ["art-history/manet-techniques","concepts/perspective-distortion","concepts/viewer-manipulation","methods/visual-narrative"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Why doesn't the reflection match the barmaid? Who is the man in the mirror, and where are we?"

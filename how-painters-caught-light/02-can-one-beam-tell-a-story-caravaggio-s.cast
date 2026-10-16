@@ -1,5 +1,6 @@
 # Can one beam tell a story? Caravaggio's Calling of Saint Matthew
 tags: ["caravaggio","light in painting","narrative composition","renaissance art","baroque technique"]
+thumb: "question \"Where is the light pointing?\" picture \"File:Michelangelo_Caravaggio_040.jpg\" colour"
 teaches: ["art-history/baroque-painting","visual-analysis/light-as-storytelling","composition/directional-emphasis"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the beam enter, and what does it hit? What does the darkness do?"

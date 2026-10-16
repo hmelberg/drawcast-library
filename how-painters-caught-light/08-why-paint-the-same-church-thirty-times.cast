@@ -1,5 +1,6 @@
 # Why paint the same church thirty times? Monet's Rouen Cathedral
 tags: ["monet","impressionism","light and color","series paintings","rouen cathedral"]
+thumb: "band \"Thirty times. Why?\" picture \"File:Claude_Monet,_Rouen_Cathedral,_West_Façade,_Sunlight,_1894,_NGA_46654.jpg\" colour"
 teaches: ["art-history/impressionism","concepts/light-as-subject","methods/serial-observation"]
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What changes between two of the paintings? What was Monet really painting?"

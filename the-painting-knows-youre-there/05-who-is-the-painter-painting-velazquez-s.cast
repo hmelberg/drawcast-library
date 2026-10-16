@@ -1,5 +1,6 @@
 # Who is the painter painting? Velázquez's Las Meninas
 tags: ["art history","velazquez","las meninas","perspective","royal portraiture","baroque painting"]
+thumb: "band \"Who is he painting?\" picture \"File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg\" colour bottom"
 teaches: ["art-history/compositional-perspective","concepts/viewer-positioning","art-analysis/symbolism-and-iconography","history/spanish-golden-age-court"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is everyone in the room looking at? Whose place are we standing in?"

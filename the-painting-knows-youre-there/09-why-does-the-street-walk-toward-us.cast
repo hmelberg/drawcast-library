@@ -1,5 +1,6 @@
 # Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day
 tags: ["caillebotte paris","perspective composition","impressionist painting","photography influence","urban scenes"]
+thumb: "band \"Why does the street walk at us?\" picture \"File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/perspective","concepts/viewer-positioning","methods/compositional-framing","vocabulary/horizon-line"]
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Why are the figures cut off by the frame? Where would we have to be standing?"
