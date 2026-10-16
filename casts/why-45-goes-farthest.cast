@@ -2,6 +2,7 @@
 subtitle: "Split a throw into speed across and time aloft to see why 45 degrees wins, and why 30° and 60° land on the very same spot."
 tags: ["physics","projectile motion","ballistics","optimal angle","kinematics"]
 teaches: ["concepts/projectile-range","concepts/angle-optimization","methods/velocity-decomposition","history/galileo"]
+thumb: "card wood"
 voices: {"a":"gemini:Puck | an upbeat physics coach on a sports field; relaxed and good-humoured","take":"lines"}
 
 ## Why 45° goes farthest

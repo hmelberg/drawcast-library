@@ -2,7 +2,7 @@
 subtitle: "Count from one to ten in Russian, read out a phone number, find your table in a café, and meet ь, a letter you see but never hear."
 tags: ["russian vocabulary","numbers 1-10","basic counting","russian pronunciation","soft sign ь"]
 teaches: ["vocabulary/numbers-one-to-ten","vocabulary/russian-pronunciation","concepts/soft-sign","methods/digit-by-digit-reading"]
-thumb: "band \"They end in a silent letter\""
+thumb: "band \"They end in a silent letter\" card teal"
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
 
 ## Count to ten in Russian: один, два, три

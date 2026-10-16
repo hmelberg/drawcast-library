@@ -4,6 +4,7 @@ tags: ["probability","coin toss","monte carlo fallacy","independent events","cog
 teaches: ["concepts/gambler's-fallacy","concepts/independent-events","concepts/probability-misconceptions"]
 voices: {"a":"gemini:Kore | a firm, clear statistician hosting a quiz; calm, a little dry","b":"gemini:Zephyr | a bright co-host sure that tails is due; natural, never exaggerated","take":"lines"}
 format: quiz
+thumb: "card wood star"
 
 ## After five heads in a row, is tails more likely?
 affirm: playful

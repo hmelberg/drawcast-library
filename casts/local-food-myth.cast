@@ -2,7 +2,7 @@
 subtitle: "Guess how much of beef's climate footprint comes from transport, then see why what you eat matters far more than where it comes from."
 tags: ["food","earth","data"]
 format: quiz
-thumb: "band \"Local beef saves the planet?\" stamp \"MYTH?\""
+thumb: "band \"Local beef saves the planet?\" stamp \"MYTH?\" card pink"
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","b":"gemini:Enceladus | a co-host who is genuinely amazed; natural, never exaggerated","take":"lines"}
 
 ## How much of beef's carbon footprint is transport?

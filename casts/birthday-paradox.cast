@@ -4,6 +4,7 @@ tags: ["probability","birthday problem","combinatorics","statistics","counterint
 teaches: ["concepts/birthday-paradox","methods/probability-calculation","concepts/pairwise-comparison"]
 voices: {"a":"gemini:Orus | a firm, patient probability teacher; plain and kind","b":"gemini:Laomedeia | an upbeat co-host who doubts it; curious, natural, never exaggerated","take":"lines"}
 format: quiz
+thumb: "card purple"
 
 ## Do two of 23 people share a birthday?
 affirm: playful

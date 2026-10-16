@@ -2,7 +2,7 @@
 subtitle: "Guess how many children in a hundred died before age five in 1800, then see today's rate and how the best of then compares with the worst of now."
 tags: ["health","history","data"]
 format: quiz
-thumb: "band \"Then vs now\" note \"Guess first\""
+thumb: "band \"Then vs now\" note \"Guess first\" card pink"
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","take":"lines"}
 
 ## In 1800, how many children died before their fifth birthday?

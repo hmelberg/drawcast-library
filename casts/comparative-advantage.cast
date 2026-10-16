@@ -2,6 +2,7 @@
 subtitle: "How Ricardo's wine and cloth show that trade pays even a country that is better at making both goods than its partner."
 tags: ["economics","comparative advantage","international trade","opportunity cost","ricardo","why countries trade"]
 teaches: ["concepts/comparative-advantage","concepts/opportunity-cost","concepts/relative-efficiency","methods/trade-analysis"]
+thumb: "card blue"
 voices: {"a":"gemini:Sadaltager | a knowledgeable economist telling a small story; warm, natural pace","take":"lines"}
 
 ## Why trade if you're better at everything?

@@ -4,6 +4,7 @@ tags: ["computer history","hard drive evolution","data storage","technology comp
 teaches: ["history/computer-storage-technology","concepts/technological-progress","concepts/data-density"]
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","take":"lines"}
 format: quiz
+thumb: "card purple"
 
 ## How much did the first hard drive weigh?
 affirm: playful

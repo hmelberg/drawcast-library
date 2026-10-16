@@ -2,6 +2,7 @@
 subtitle: "Watch bubble sort swap neighbours one pair at a time, count the swaps it must make, then sort six bars yourself and beat it."
 tags: ["sorting algorithms","bubble sort","algorithm efficiency","time complexity","comparison sorts"]
 teaches: ["algorithms/bubble-sort","concepts/time-complexity","methods/counting-inversions","tactics/neighbor-swapping"]
+thumb: "card yellow"
 voices: {"a":"gemini:Umbriel | an easy-going programmer; relaxed and amused","take":"lines"}
 
 ## Why bubble sort is so slow

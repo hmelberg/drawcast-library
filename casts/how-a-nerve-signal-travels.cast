@@ -2,6 +2,7 @@
 subtitle: "How a nerve cell fires an all-or-nothing spike, passes it down its axon like a burning fuse, and signals strength by rate."
 tags: ["neuroscience","nerve signals","action potentials","axon","neuron firing","synaptic transmission"]
 teaches: ["concepts/action-potential","concepts/all-or-nothing-principle","concepts/nerve-signal-propagation","methods/rate-coding"]
+thumb: "card green"
 voices: {"a":"gemini:Iapetus | a clear neuroscience teacher; steady and vivid","take":"lines"}
 
 ## How a nerve signal travels

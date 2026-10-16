@@ -2,7 +2,7 @@
 subtitle: "Place five countries on a line by the age of their middle person, then see why Japan, the oldest, was younger in 1950 than Brazil is today."
 tags: ["geography","data"]
 format: quiz
-thumb: "band \"Half of Niger is under 15\" note \"Japan: ?\""
+thumb: "band \"Half of Niger is under 15\" note \"Japan: ?\" card orange"
 voices: {"a":"gemini:Orus | a firm, confident quiz host; plain and kind","take":"lines"}
 
 ## How old is the typical person? Niger, Brazil, the US, Italy and Japan

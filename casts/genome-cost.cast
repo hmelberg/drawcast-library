@@ -2,7 +2,7 @@
 subtitle: "In 2001 reading one human genome cost $95 million. Guess today's price on a log line, then see how it outran even computer chips."
 tags: ["biology","data"]
 format: quiz
-thumb: "band \"Was $95 million. Now?\" note \"2001\""
+thumb: "band \"Was $95 million. Now?\" note \"2001\" card cork eyes"
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","take":"lines"}
 
 ## What does it cost to read a human genome now?

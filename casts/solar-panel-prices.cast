@@ -4,6 +4,7 @@ tags: ["solar energy","price history","renewable energy","manufacturing economic
 teaches: ["concepts/price-decline-factors","history/solar-panel-development","methods/reading-price-charts","concepts/swanson's-law"]
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","take":"lines"}
 format: quiz
+thumb: "card green"
 
 ## How fast did solar panels get cheaper?
 use: line_chart

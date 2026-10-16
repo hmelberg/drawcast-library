@@ -2,7 +2,7 @@
 subtitle: "Two head-to-head rounds: too thin or obese, which is more common among the world's adults? Then see the year the two lines crossed."
 tags: ["health","data"]
 format: quiz
-thumb: "band \"Too thin or too heavy?\" note \"The lines crossed\""
+thumb: "band \"Too thin or too heavy?\" note \"The lines crossed\" card cork eyes"
 voices: {"a":"gemini:Algenib | a gravelly, twinkly quiz host with stories to tell; warm, natural pace","take":"lines"}
 
 ## Are there more obese or more underweight adults in the world?

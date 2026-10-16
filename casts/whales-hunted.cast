@@ -2,7 +2,7 @@
 subtitle: "Click your guess for how many whales were hunted in the 20th century, then see it as whales per day, and what it did to the blue whale."
 tags: ["biology","history","data"]
 format: quiz
-thumb: "band \"Guess the catch\" note \"1900–1999\""
+thumb: "band \"Guess the catch\" note \"1900–1999\" card green"
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic, still clear","take":"lines"}
 
 ## How many whales were killed in the 20th century?

@@ -2,7 +2,7 @@
 subtitle: "Tap the bigger of three space-age pairs, then watch sixty flat years of launches shoot up, and meet the one project behind most of it."
 tags: ["astronomy","data","history of science"]
 format: quiz
-thumb: "band \"One year vs the space age\" note \"Guess first\""
+thumb: "band \"One year vs the space age\" note \"Guess first\" card purple"
 voices: {"a":"gemini:Vindemiatrix | a gentle, curious quiz host; warm","b":"gemini:Achird | a friendly co-host thinking it through; natural, never exaggerated","take":"lines"}
 
 ## Which sent more into space: one year, or the whole space age?

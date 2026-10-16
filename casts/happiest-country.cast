@@ -2,7 +2,7 @@
 subtitle: "Follow three clues to the country that tops the World Happiness Report, then find out what the survey really asks, and where money stops helping."
 tags: ["psychology","economics","geography"]
 format: quiz
-thumb: "band \"Guess the happiest\" stamp \"Not who you think\""
+thumb: "band \"Guess the happiest\" stamp \"Not who you think\" card teal"
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","b":"gemini:Despina | a smooth, sceptical co-host; natural, never exaggerated","take":"lines"}
 
 ## Which country tops the World Happiness Report?

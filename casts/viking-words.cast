@@ -4,6 +4,7 @@ tags: ["english vocabulary","viking history","word origins","old norse","etymolo
 teaches: ["vocabulary/viking-words","history/viking-influence","concepts/language-change"]
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","take":"lines"}
 format: quiz
+thumb: "card teal"
 
 ## Which words came from the Vikings?
 affirm: playful

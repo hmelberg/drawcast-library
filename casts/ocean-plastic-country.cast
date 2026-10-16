@@ -2,7 +2,7 @@
 subtitle: "Pick the country that puts the most plastic into the ocean, then see why it is a nation of islands and small city rivers, not the biggest user."
 tags: ["earth","geography","data"]
 format: quiz
-thumb: "band \"Not who you'd guess\" note \"1/3 of it\""
+thumb: "band \"Not who you'd guess\" note \"1/3 of it\" card charcoal eyes"
 voices: {"a":"gemini:Schedar | an even, thoughtful data-journalist quiz host; calm, natural pace","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
 
 ## Which country puts the most plastic into the ocean?

@@ -4,6 +4,7 @@ tags: ["earth-moon distance","planet sizes","solar system scale","space visualiz
 teaches: ["concepts/planetary-scale","concepts/orbital-mechanics","visualization/spatial-relationships"]
 voices: {"a":"gemini:Enceladus | an awed space quiz host; breathy wonder, but keep moving","take":"lines"}
 format: quiz
+thumb: "card cork"
 
 ## How many Earths fit between Earth and the Moon?
 affirm: playful

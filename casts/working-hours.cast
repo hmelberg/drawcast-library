@@ -2,7 +2,7 @@
 subtitle: "Two hosts, one bar to drag: guess how long Germans worked in 1870, then see what cut the hours by sixty percent, and who works least today."
 tags: ["economics","history","data"]
 format: quiz
-thumb: "band \"Land of hard work?\" stamp \"PLOT TWIST\""
+thumb: "band \"Land of hard work?\" stamp \"PLOT TWIST\" card teal"
 voices: {"a":"gemini:Algenib | a gravelly, twinkly quiz host with stories to tell; warm, natural pace","b":"gemini:Puck | a curious co-host guessing out loud; relaxed and good-humoured, never exaggerated","take":"lines"}
 
 ## How many hours did a German work in 1870, compared with today?

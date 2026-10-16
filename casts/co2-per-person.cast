@@ -2,7 +2,7 @@
 subtitle: "Pick the country that emits the most CO₂ per person from five oil and gas states, then see how a year in Congo compares with half a day there."
 tags: ["earth","geography","data"]
 format: quiz
-thumb: "band \"Not the one you think\" note \"CO₂ per person\""
+thumb: "band \"Not the one you think\" note \"CO₂ per person\" card red"
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host; light and quick","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
 
 ## Which country emits the most CO₂ per person?

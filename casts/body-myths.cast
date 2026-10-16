@@ -4,6 +4,7 @@ tags: ["body myths","human biology","facts vs misconceptions","health rumors","s
 teaches: ["concepts/body-myths","concepts/human-physiology","methods/myth-busting","vocabulary/senses"]
 voices: {"a":"gemini:Sadachbia | a lively myth-busting quiz host; playful, quick","take":"lines"}
 format: quiz
+thumb: "card purple"
 
 ## Body myths: true or myth?
 feedback:

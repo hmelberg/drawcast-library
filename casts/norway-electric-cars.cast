@@ -2,7 +2,7 @@
 subtitle: "A host and an oil-country skeptic: drag a pie slice to guess Norway's share of fully electric new cars, then see how fast it got there."
 tags: ["economics","data"]
 format: quiz
-thumb: "band \"Oil country, electric cars\" note \"How many?\""
+thumb: "band \"Oil country, electric cars\" note \"How many?\" card charcoal"
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
 
 ## What share of new cars sold in Norway are fully electric?

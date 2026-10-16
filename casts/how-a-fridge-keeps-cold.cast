@@ -2,6 +2,7 @@
 subtitle: "Follow the coolant as it boils inside, is squeezed, and dumps your food's heat out the back: a fridge moves heat, it makes no cold."
 tags: ["refrigeration","thermodynamics","heat transfer","phase change","compressor","coolant cycle"]
 teaches: ["concepts/heat-movement","concepts/phase-change","methods/refrigeration-cycle","concepts/pressure-temperature-relationship"]
+thumb: "card blue"
 voices: {"a":"gemini:Achird | a friendly kitchen-table engineer; relaxed and plain","take":"lines"}
 
 ## How a fridge keeps cold

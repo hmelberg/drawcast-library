@@ -2,7 +2,7 @@
 subtitle: "How risk, odds and hazard ratios differ, when they agree, and why twice the odds is rarely twice the risk, worked through a stroke trial, a lung-cancer case-control study and survival curves."
 tags: ["statistics","risk-odds-hazard","clinical trials","epidemiology","study design"]
 teaches: ["concepts/risk-odds-hazard-ratios","concepts/baseline-risk","methods/case-control-studies","methods/interpreting-effect-sizes"]
-thumb: "band \"Twice the odds is not twice the risk\""
+thumb: "band \"Twice the odds is not twice the risk\" card blue seal"
 voices: {"a":"gemini:Charon | a calm, precise epidemiology lecturer; clear and unhurried, never theatrical","take":"lines"}
 
 chapter: Risks

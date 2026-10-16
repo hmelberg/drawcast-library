@@ -2,7 +2,7 @@
 subtitle: "Drag the slice: how many adults could read in 1820? Then watch the world flip in two centuries, and meet the gap between grandparents and grandchildren."
 tags: ["history","language","data"]
 format: quiz
-thumb: "band \"Could your ancestors read?\" note \"1820\""
+thumb: "band \"Could your ancestors read?\" note \"1820\" card cork"
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","b":"gemini:Despina | a smooth, sceptical co-host; natural, never exaggerated","take":"lines"}
 
 ## In 1820, what share of the world could read?

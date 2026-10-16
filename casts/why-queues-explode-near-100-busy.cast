@@ -2,6 +2,7 @@
 subtitle: "Run a day at one cashier and watch the wait stay short at half busy, then blow up near 100%, because no slack is left for random bursts."
 tags: ["queueing theory","queues","capacity planning","randomness","server utilization","waiting time"]
 teaches: ["concepts/queue-dynamics","concepts/server-utilization-nonlinearity","methods/queueing-theory-prediction","concepts/slack-and-buffers"]
+thumb: "card charcoal"
 voices: {"a":"gemini:Achird | a friendly operations engineer who has stood in many queues; relaxed, amused","take":"lines"}
 
 ## Why queues explode near 100% busy

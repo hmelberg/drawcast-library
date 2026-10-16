@@ -2,7 +2,7 @@
 subtitle: "Split the world's plastic waste between recycling, burning, landfill and litter, then see the real share recycled and why it rarely lasts."
 tags: ["earth","chemistry","data"]
 format: quiz
-thumb: "band \"Into the recycling bin. Then?\" note \"?%\""
+thumb: "band \"Into the recycling bin. Then?\" note \"?%\" card wood eyes"
 voices: {"a":"gemini:Schedar | an even, thoughtful data-journalist quiz host; calm, natural pace","take":"lines"}
 
 ## How much of the world's plastic waste gets recycled?

@@ -4,6 +4,7 @@ tags: ["animal reproduction","pregnancy duration","mammals","gestation periods",
 teaches: ["biology/gestation-length","concepts/size-development-relationship","vocabulary/mammal-pregnancy"]
 voices: {"a":"gemini:Iapetus | a clear, curious quiz host; plain and friendly","take":"lines"}
 format: quiz
+thumb: "card cork"
 
 ## Which animal has the longest pregnancy?
 affirm: playful

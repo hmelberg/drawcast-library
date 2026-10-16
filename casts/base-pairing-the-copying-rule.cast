@@ -2,6 +2,7 @@
 subtitle: "How the fit of big and small bases makes DNA its own template, so each strand can rebuild the other letter for letter"
 tags: ["dna","base pairing","molecular biology","cell replication","genetics"]
 teaches: ["concepts/base-pairing-rules","concepts/dna-structure","methods/dna-replication","history/watson-crick-discovery"]
+thumb: "card blue"
 voices: {"a":"gemini:Erinome | a clear molecular-biology teacher; neat and unhurried, never slow","take":"lines"}
 
 ## Why DNA pairs A with T and C with G

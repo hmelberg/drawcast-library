@@ -4,6 +4,7 @@ tags: ["physics history","scientists discoveries","women in science","electromag
 teaches: ["history/scientific-discoveries","history/notable-scientists","concepts/conservation-laws","history/women-in-stem"]
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","take":"lines"}
 format: quiz
+thumb: "card navy"
 
 ## Who discovered what? Match four scientists
 affirm: playful

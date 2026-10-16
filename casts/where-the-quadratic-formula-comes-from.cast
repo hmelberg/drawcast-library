@@ -2,6 +2,7 @@
 subtitle: "How completing the square, drawn as an actual square, turns x² + 6x = 16 into the quadratic formula for every equation."
 tags: ["algebra","quadratic formula","completing the square","polynomial equations","geometric algebra","al-khwarizmi"]
 teaches: ["concepts/quadratic-formula","methods/completing-the-square","concepts/discriminant","history/algebra-origins"]
+thumb: "card yellow"
 voices: {"a":"gemini:Orus | a firm, confident algebra teacher; clear, natural pace","take":"lines"}
 
 ## Where the quadratic formula comes from

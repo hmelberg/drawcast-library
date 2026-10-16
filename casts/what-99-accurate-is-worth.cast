@@ -2,7 +2,7 @@
 subtitle: "Why a positive on a 99 % accurate test can be a coin flip when the disease is rare, and why a second test settles it"
 tags: ["probability","medical testing","bayes theorem","rare diseases","false positives","diagnostic accuracy"]
 teaches: ["concepts/bayes-theorem","concepts/base-rate-fallacy","methods/interpreting-test-results","methods/sequential-testing"]
-thumb: "band \"99 % accurate. Probably fine.\" note"
+thumb: "band \"99 % accurate. Probably fine.\" note card orange"
 voices: {"a":"gemini:Sadachbia | a lively, friendly statistician unpicking a surprise; conversational","take":"lines"}
 
 ## A 99 % accurate test says yes. Are you ill?

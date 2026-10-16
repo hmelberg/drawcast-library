@@ -2,7 +2,7 @@
 subtitle: "Sort countries by who lives longer there, then see how big the gap is, where it comes from, and the countries where it once ran the other way."
 tags: ["health","data","geography"]
 format: quiz
-thumb: "band \"Who lives longer, where?\" note \"Women vs men\""
+thumb: "band \"Who lives longer, where?\" note \"Women vs men\" card teal eyes"
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","b":"gemini:Enceladus | a co-host who is genuinely amazed; natural, never exaggerated","take":"lines"}
 
 ## In how many countries do women live longer than men?

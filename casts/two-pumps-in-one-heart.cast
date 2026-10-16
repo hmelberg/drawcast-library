@@ -2,6 +2,7 @@
 subtitle: "How blood runs a figure of eight through heart, lungs and body, and why the left side pushes five times harder."
 tags: ["human anatomy","circulatory system","heart chambers","blood flow","pulmonary circulation","systemic circulation"]
 teaches: ["anatomy/heart-structure","concepts/pulmonary-and-systemic-circulation","anatomy/blood-flow-pathway","concepts/pressure-differences-in-heart-pumps"]
+thumb: "card navy"
 voices: {"a":"gemini:Despina | a smooth, calm cardiologist; warm and clear","take":"lines"}
 
 ## Two pumps in one heart

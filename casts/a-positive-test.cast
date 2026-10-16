@@ -2,6 +2,7 @@
 subtitle: "Guess how many of 108 positive tests are real, and see why a 90 % accurate test is right only about one time in twelve."
 tags: ["probability","disease testing","bayes theorem","medical diagnosis","accuracy paradox","false positives"]
 teaches: ["concepts/bayes-theorem","concepts/false-positive-rate","concepts/conditional-probability","methods/interpreting-test-results"]
+thumb: "card teal"
 voices: {"a":"gemini:Sadachbia | a lively quiz host with a statistical twist; playful, clear","take":"lines"}
 
 ## What does a positive test mean?

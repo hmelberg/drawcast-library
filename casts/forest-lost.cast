@@ -2,7 +2,7 @@
 subtitle: "Guess how much of the world's forest is gone since the ice age, then how much of that went in the last century, and where forests are growing back."
 tags: ["earth","history","geography"]
 format: quiz
-thumb: "band \"Ten thousand years of chopping\" note \"How much is gone?\""
+thumb: "band \"Ten thousand years of chopping\" note \"How much is gone?\" card red"
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic, still clear","take":"lines"}
 
 ## How much of the world's forest have we lost since the last ice age?

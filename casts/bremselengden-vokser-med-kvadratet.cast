@@ -2,6 +2,7 @@
 subtitle: "Hvorfor bremselengden firedobles når farten dobles, og hvorfor reaksjonstiden gjør at bilen i hundre treffer i full fart."
 tags: ["trafikksikkerhet","fysikk","bremselengde","fart og energi","reaksjonstid","bilkjøring"]
 teaches: ["concepts/braking-distance","concepts/kinetic-energy","concepts/quadratic-relationships","methods/safety-calculation"]
+thumb: "card yellow"
 voices: {"a":"gemini:Sulafat | a warm, clear Norwegian teacher speaking natural Norwegian Bokmål with an Eastern Norwegian accent; calm and unhurried, never theatrical","take":"lines"}
 
 ## Dobbel fart, firedobbel bremselengde

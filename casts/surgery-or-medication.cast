@@ -2,6 +2,7 @@
 subtitle: "How a decision tree weighs every outcome by its chance to pick between surgery and tablets, and how safe that choice really is."
 tags: ["decision trees","medical treatment decisions","expected value","quality-adjusted life years","risk analysis","healthcare outcomes"]
 teaches: ["concepts/decision-tree-analysis","concepts/expected-value-calculation","methods/risk-sensitivity-analysis","vocabulary/qaly"]
+thumb: "card purple"
 voices: {"a":"gemini:Gacrux | a mature, calm clinician thinking aloud; measured and kind","take":"lines"}
 
 ## Surgery or medication?

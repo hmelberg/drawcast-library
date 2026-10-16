@@ -2,7 +2,7 @@
 subtitle: "Two hosts argue over the fossil slice of the world's energy pie, then find why it has barely shrunk since 1990 even as solar power boomed."
 tags: ["earth","economics","data"]
 format: quiz
-thumb: "band \"Solar boomed. And yet…\" note \"1990 → 2025\""
+thumb: "band \"Solar boomed. And yet…\" note \"1990 → 2025\" card red"
 voices: {"a":"gemini:Schedar | an even, thoughtful data-journalist quiz host; calm, natural pace","b":"gemini:Pulcherrima | a forward co-host who says what most people think; natural, never exaggerated","take":"lines"}
 
 ## How much of the world's energy still comes from fossil fuels?

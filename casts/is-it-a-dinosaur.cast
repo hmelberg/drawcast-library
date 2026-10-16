@@ -4,6 +4,7 @@ tags: ["dinosaurs","prehistoric animals","evolutionary classification","bird ori
 teaches: ["concepts/dinosaur-identification","concepts/evolutionary-relationships","concepts/dinosaur-survival"]
 voices: {"a":"gemini:Puck | an upbeat dinosaur-mad quiz host; playful and quick","take":"lines"}
 format: quiz
+thumb: "card red"
 
 ## Is it a dinosaur?
 affirm: playful

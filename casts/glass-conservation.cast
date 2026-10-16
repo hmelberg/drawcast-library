@@ -4,6 +4,7 @@ tags: ["child development","piaget","conservation","cognitive psychology","visua
 teaches: ["concepts/conservation","concepts/centration","developmental-psychology/cognitive-stages"]
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
 format: quiz
+thumb: "card orange"
 
 ## Which glass has more water?
 affirm: playful

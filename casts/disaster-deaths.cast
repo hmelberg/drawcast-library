@@ -2,7 +2,7 @@
 subtitle: "Today disasters kill about 45,000 people a year. Guess the 1920s toll, then see why the risk per person fell by about 98 percent."
 tags: ["earth","history","data"]
 format: quiz
-thumb: "band \"Deadlier than ever?\" note \"1920s vs 2010s\""
+thumb: "band \"Deadlier than ever?\" note \"1920s vs 2010s\" card teal eyes"
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","take":"lines"}
 
 ## Do natural disasters kill more people than a century ago?

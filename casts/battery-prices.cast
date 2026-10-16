@@ -2,7 +2,7 @@
 subtitle: "Four claims about lithium-ion batteries, true or myth? Two hosts argue each one, then the price of an electric car's battery in 1991."
 tags: ["economics","data"]
 format: quiz
-thumb: "band \"Ten times cheaper? Not even close\" stamp \"MYTH?\""
+thumb: "band \"Ten times cheaper? Not even close\" stamp \"MYTH?\" card blue"
 voices: {"a":"gemini:Vindemiatrix | a gentle, curious quiz host; warm","b":"gemini:Puck | a curious co-host guessing out loud; relaxed and good-humoured, never exaggerated","take":"lines"}
 
 ## Battery prices since 1991: true or myth?

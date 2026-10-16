@@ -2,6 +2,7 @@
 subtitle: "Why moving a tower of n disks takes exactly 2ⁿ − 1 moves: the doubling at the heart of recursion, then solve the puzzle yourself."
 tags: ["tower of hanoi","recursive algorithms","exponential growth","puzzle solving","mathematical patterns"]
 teaches: ["concepts/recursion","concepts/exponential-growth","problem-solving/tower-of-hanoi","methods/recursive-decomposition"]
+thumb: "card charcoal"
 voices: {"a":"gemini:Umbriel | an easy-going puzzle fan; relaxed and amused","take":"lines"}
 
 ## The Tower of Hanoi: why 2ⁿ − 1 moves

@@ -2,7 +2,7 @@
 subtitle: "Pick the bigger killer, smallpox or the two World Wars, then see the gap drawn to scale, and how a vaccine wiped smallpox out for good."
 tags: ["history","medicine","epidemiology"]
 format: quiz
-thumb: "band \"Which killed more?\" note \"?\""
+thumb: "band \"Which killed more?\" note \"?\" card teal"
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry quiz host; dry humour","b":"gemini:Zephyr | a bright co-host with confident wrong hunches; natural, never exaggerated","take":"lines"}
 
 ## Which killed more in the 20th century: smallpox or the World Wars?

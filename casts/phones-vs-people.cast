@@ -2,7 +2,7 @@
 subtitle: "Three claims about phones and the internet, true or myth, with two hosts arguing, then how rare a mobile was in 1990."
 tags: ["computing","data","culture"]
 format: quiz
-thumb: "band \"More phones than people\" stamp \"TRUE OR MYTH?\""
+thumb: "band \"More phones than people\" stamp \"TRUE OR MYTH?\" card charcoal"
 voices: {"a":"gemini:Fenrir | an excitable quiz host; energetic, still clear","b":"gemini:Pulcherrima | a forward co-host who says what most people think; natural, never exaggerated","take":"lines"}
 
 ## Are there more mobile phone subscriptions than people on Earth?

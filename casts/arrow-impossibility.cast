@@ -2,7 +2,7 @@
 subtitle: "A town that votes in circles, the theorem that says no voting rule is perfect, and why that does not make democracy impossible."
 tags: ["economics","political science","social choice","voting","arrow impossibility theorem","democracy"]
 teaches: ["concepts/arrow-impossibility-theorem","concepts/condorcet-paradox","concepts/single-peaked-preferences","concepts/agenda-setting"]
-thumb: "band \"No fair voting system exists. Or does it?\" stamp \"PARADOX\""
+thumb: "band \"No fair voting system exists. Or does it?\" stamp \"PARADOX\" card navy eyes"
 voices: {"a":"gemini:Sadaltager | a calm, warm economist who enjoys the puzzle","b":"gemini:Aoede | a relaxed, good-humoured co-host with a dry, understated wit; never exaggerated","take":"lines"}
 
 ## Arrow's impossibility theorem

@@ -2,7 +2,7 @@
 subtitle: "Guess the year the last country stopped selling leaded petrol, then see how long the world took, what it did for children, and who invented it."
 tags: ["health","history","chemistry"]
 format: quiz
-thumb: "band \"Surely that was ages ago\" note \"Leaded petrol\""
+thumb: "band \"Surely that was ages ago\" note \"Leaded petrol\" card cork"
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","b":"gemini:Umbriel | an easy-going co-host, amused by the answers; natural, never exaggerated","take":"lines"}
 
 ## When did the last country stop selling leaded petrol?

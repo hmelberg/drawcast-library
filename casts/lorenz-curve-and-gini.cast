@@ -2,6 +2,7 @@
 subtitle: "How the Lorenz curve turns into the Gini coefficient, and why two very different countries can share the same Gini."
 tags: ["economics inequality","lorenz curve","gini coefficient","income distribution","wealth inequality measurement"]
 teaches: ["concepts/lorenz-curve","concepts/gini-coefficient","concepts/income-inequality","methods/comparing-distributions"]
+thumb: "card green"
 voices: {"a":"gemini:Alnilam | a firm, clear economist on inequality; plain, never preachy","take":"lines"}
 
 ## Two countries, one Gini

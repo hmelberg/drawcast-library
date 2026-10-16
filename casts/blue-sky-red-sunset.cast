@@ -2,6 +2,7 @@
 subtitle: "How one effect, air scattering blue light far more than red, paints the daytime sky blue and turns the setting sun orange and red."
 tags: ["light scattering","sky color","sunset physics","atmospheric optics","wavelength","rayleigh scattering"]
 teaches: ["concepts/light-scattering","concepts/why-sky-is-blue","concepts/why-sunsets-are-red","concepts/wavelength-dependence"]
+thumb: "card navy"
 voices: {"a":"gemini:Aoede | a breezy, warm presenter watching a sunset; light and easy","take":"lines"}
 
 ## Why the sky is blue and sunsets red

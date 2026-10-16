@@ -2,7 +2,7 @@
 subtitle: "Sweep across a crowd of a hundred to guess how many owe their food to factory fertilizer, then two hosts unmask the chemist behind it."
 tags: ["food","chemistry","history of science"]
 format: quiz
-thumb: "band \"Air into bread\" note \"1 in 2?\""
+thumb: "band \"Air into bread\" note \"1 in 2?\" card blue"
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","b":"gemini:Pulcherrima | a forward co-host who says what most people think; natural, never exaggerated","take":"lines"}
 
 ## How many people are alive thanks to synthetic fertilizer?

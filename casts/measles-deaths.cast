@@ -2,7 +2,7 @@
 subtitle: "Draw how measles deaths changed after 1985, then see the fall of about 90 percent, what drove it, and why the line turned up again."
 tags: ["health","epidemiology","data"]
 format: quiz
-thumb: "band \"Draw the line\" note \"1980 to now\""
+thumb: "band \"Draw the line\" note \"1980 to now\" card navy"
 voices: {"a":"gemini:Vindemiatrix | a gentle, curious quiz host; warm","take":"lines"}
 
 ## How fast have measles deaths fallen since 1980?

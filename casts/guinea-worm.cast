@@ -2,7 +2,7 @@
 subtitle: "Guinea worm infected millions a year in 1986. Guess how many cases were left in 2025, then see how it fell without a vaccine or a cure."
 tags: ["health","epidemiology","history"]
 format: quiz
-thumb: "band \"No vaccine. No cure. Nearly gone.\" note \"How?\""
+thumb: "band \"No vaccine. No cure. Nearly gone.\" note \"How?\" card green"
 voices: {"a":"gemini:Sadachbia | a lively quiz host who enjoys a surprise; conversational","take":"lines"}
 
 ## Guinea worm infected millions a year. How many human cases were there in 2025?

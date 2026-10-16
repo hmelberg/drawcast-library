@@ -3,6 +3,7 @@ subtitle: "Type how many people have ever walked on the Moon, then meet the firs
 tags: ["space exploration","moon landing","apollo missions","astronauts","history"]
 teaches: ["history/apollo-program","history/moon-landings","concepts/space-exploration"]
 format: quiz
+thumb: "card green"
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","take":"lines"}
 
 ## How many people have walked on the Moon?

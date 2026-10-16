@@ -2,6 +2,7 @@
 subtitle: "Follow one ray of light out of the water to see why a straight straw looks broken, and why a pool's bottom looks shallower than it is."
 tags: ["optics","light refraction","perception illusion"]
 teaches: ["concepts/refraction","concepts/light-behavior","physics/vision-perception"]
+thumb: "card orange"
 voices: {"a":"gemini:Leda | a youthful science presenter at the kitchen table; bright, not overexcited","take":"lines"}
 
 ## Why a straw looks bent in water

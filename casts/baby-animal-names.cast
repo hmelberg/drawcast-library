@@ -4,6 +4,7 @@ tags: ["animal babies","vocabulary","zoology"]
 teaches: ["vocabulary/animal-babies","vocabulary/specialized-terms"]
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","take":"lines"}
 format: quiz
+thumb: "card green"
 
 ## What are their babies called?
 affirm: playful

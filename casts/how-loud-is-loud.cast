@@ -4,6 +4,7 @@ tags: ["sound","decibels","noise levels","hearing damage","acoustic energy"]
 teaches: ["concepts/decibel-scale","concepts/sound-energy-logarithm","concepts/hearing-safety"]
 voices: {"a":"gemini:Iapetus | a clear, curious quiz host; plain and friendly","take":"lines"}
 format: quiz
+thumb: "card cork"
 
 ## How loud is loud?
 affirm: playful

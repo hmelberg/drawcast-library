@@ -3,6 +3,7 @@ subtitle: "Guess Greenland's size next to Africa with a bar, then see why the Me
 tags: ["geography","map projections","greenland","africa","mercator projection","cartography"]
 teaches: ["concepts/map-projection-distortion","geography/relative-landmass-sizes","concepts/mercator-projection-limitations"]
 format: quiz
+thumb: "card teal"
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host; light and quick","take":"lines"}
 
 ## How big is Greenland next to Africa?

@@ -2,7 +2,7 @@
 subtitle: "Tap every country that still had malaria around 1900, from Italy to Finland, then hear why it was never really a tropical disease."
 tags: ["health","history","geography"]
 format: quiz
-thumb: "band \"Where did malaria live?\" stamp \"1900\""
+thumb: "band \"Where did malaria live?\" stamp \"1900\" card navy"
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry quiz host; dry humour","b":"gemini:Enceladus | a co-host who is genuinely amazed; natural, never exaggerated","take":"lines"}
 
 ## Which of these countries still had malaria around 1900?

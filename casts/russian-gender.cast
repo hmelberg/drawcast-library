@@ -2,7 +2,7 @@
 subtitle: "Every Russian noun is a he, a she or an it, and its last letter tells you which: он, она or оно, with the one exception worth knowing."
 tags: ["russian grammar","noun gender","russian pronunciation"]
 teaches: ["grammar/russian-noun-gender","vocabulary/russian-nouns","methods/letter-pattern-recognition"]
-thumb: "band \"Even a table is a he\" note \"СТОЛ = ОН\""
+thumb: "band \"Even a table is a he\" note \"СТОЛ = ОН\" card orange"
 voices: {"a":"gemini:Achird | a warm, patient language teacher, clear and unhurried; says every Russian word the way a native Russian speaker would"}
 
 ## Russian gender from the last letter: он, она, оно

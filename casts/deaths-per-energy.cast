@@ -2,7 +2,7 @@
 subtitle: "Rank coal, oil, gas, nuclear and solar by deaths per unit of electricity, then see what a town would pay for each in lives."
 tags: ["health","earth","data"]
 format: quiz
-thumb: "band \"Rank your fears\" stamp \"Nuclear?\""
+thumb: "band \"Rank your fears\" stamp \"Nuclear?\" card wood"
 voices: {"a":"gemini:Algenib | a gravelly, twinkly quiz host with stories to tell; warm, natural pace","b":"gemini:Enceladus | a co-host who is genuinely amazed; natural, never exaggerated","take":"lines"}
 
 ## Which source of electricity is the deadliest?

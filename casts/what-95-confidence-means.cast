@@ -2,6 +2,7 @@
 subtitle: "Twenty trials, twenty intervals, one miss: what the 95 percent in a confidence interval promises — and what it doesn't."
 tags: ["statistics","confidence intervals","hypothesis testing","research methods","data interpretation","probability"]
 teaches: ["concepts/confidence-intervals","concepts/statistical-inference","concepts/sampling-variability","methods/interpreting-confidence-intervals"]
+thumb: "card wood"
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry statistician; dry humour, conversational","take":"lines"}
 
 ## What 95% confidence means

@@ -2,6 +2,7 @@
 subtitle: "Darwin had natural selection by 1838 but published in 1859: what he did with those twenty years, and the letter that ended them"
 tags: ["darwin","natural selection","history of science","scientific evidence","priority and discovery"]
 teaches: ["history/darwin-and-natural-selection","concepts/how-scientific-ideas-develop","concepts/the-role-of-evidence-in-science"]
+thumb: "card pink"
 voices: {"a":"gemini:Algenib | a gravelly historian telling a story; warm and gripping, natural pace","take":"lines"}
 
 ## Why did Darwin wait twenty years?

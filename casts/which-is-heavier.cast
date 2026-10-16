@@ -4,6 +4,7 @@ tags: ["physics and weight","surprising comparisons","density and mass","why clo
 teaches: ["concepts/weight-and-density","concepts/why-clouds-float","reasoning/comparing-magnitudes"]
 voices: {"a":"gemini:Fenrir | an excitable quiz host with surprising pairs; energetic, still clear","take":"lines"}
 format: quiz
+thumb: "card red"
 
 ## Which is heavier? Three surprising pairs
 affirm: playful

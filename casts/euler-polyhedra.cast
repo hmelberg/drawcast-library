@@ -4,6 +4,7 @@ tags: ["geometry","polyhedra","topology","mathematical patterns"]
 teaches: ["concepts/euler-characteristic","concepts/polyhedra-properties","methods/pattern-recognition"]
 voices: {"a":"gemini:Erinome | a clear maths quiz host; neat, unhurried, never slow","take":"lines"}
 format: quiz
+thumb: "card red"
 
 ## Corners minus edges plus faces: what does a cube give?
 affirm: playful

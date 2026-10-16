@@ -4,6 +4,7 @@ tags: ["visual illusion","perception","müller-lyer illusion","optical tricks","
 teaches: ["concepts/visual-illusions","concepts/perception-bias","history/müller-lyer-illusion","methods/critical-analysis"]
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host; warm and relaxed","take":"lines"}
 format: quiz
+thumb: "card pink"
 
 ## Which line is longer?
 affirm: playful

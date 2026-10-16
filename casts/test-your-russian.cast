@@ -3,6 +3,7 @@ subtitle: "Find your level in Russian from zero: a few quick parts, one for each
 tags: ["russian","placement test","language level","beginner russian"]
 course: russian-from-zero-by-hmelberg
 format: test
+thumb: "card pink"
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly, clear and unhurried"}
 next: {"title":"Russian from zero","href":"https://www.drawcast.app/#russian-from-zero-by-hmelberg"}
 

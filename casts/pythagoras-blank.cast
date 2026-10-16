@@ -4,6 +4,7 @@ tags: ["geometry","pythagorean theorem","right triangles","babylonian mathematic
 teaches: ["concepts/pythagorean-theorem","methods/verifying-right-angles","history/ancient-mathematics"]
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","take":"lines"}
 format: quiz
+thumb: "card green"
 
 ## What finishes Pythagoras' theorem?
 text: {"font_size":32}

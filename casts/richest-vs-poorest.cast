@@ -2,7 +2,7 @@
 subtitle: "Guess how many times richer the richest country is than the poorest, then see the gap in coins, and how small it was in 1820."
 tags: ["economics","history","data"]
 format: quiz
-thumb: "band \"Guess the gap\" note \"Richest vs poorest\""
+thumb: "band \"Guess the gap\" note \"Richest vs poorest\" card pink"
 voices: {"a":"gemini:Gacrux | a mature, wry quiz host; measured but never slow","b":"gemini:Enceladus | a co-host who is genuinely amazed; natural, never exaggerated","take":"lines"}
 
 ## How many times richer is the richest country than the poorest?

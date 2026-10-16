@@ -2,7 +2,7 @@
 subtitle: "Guess the year half of humanity first got online, then see the hundred-person world: who is still offline, and where."
 tags: ["computing","data","geography"]
 format: quiz
-thumb: "band \"Half the world online. When?\" stamp \"Which year?\""
+thumb: "band \"Half the world online. When?\" stamp \"Which year?\" card green"
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","take":"lines"}
 
 ## In what year did half of the world's people first use the internet?

@@ -2,6 +2,7 @@
 subtitle: "Why e to the i pi equals minus one: multiplying by i is a quarter turn, so e to the i pi is half a turn around the unit circle."
 tags: ["complex numbers","unit circle","trigonometry","exponentials","radians"]
 teaches: ["concepts/euler's-identity","concepts/complex-rotation","concepts/polar-coordinates","methods/geometric-intuition"]
+thumb: "card wood"
 voices: {"a":"gemini:Sadaltager | a knowledgeable maths lecturer who finds this beautiful; calm delight","take":"lines"}
 
 ## Euler's identity, as half a turn

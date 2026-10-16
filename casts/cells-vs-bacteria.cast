@@ -4,6 +4,7 @@ tags: ["bacteria","human cells","body composition","microbiome","scientific myth
 teaches: ["concepts/bacteria-to-human-cell-ratio","concepts/microbiome-composition","methods/scientific-counting","history/textbook-myths"]
 voices: {"a":"gemini:Leda | a youthful biology quiz host; bright and curious","take":"lines"}
 format: quiz
+thumb: "card yellow"
 
 ## Are there more bacteria in your body than human cells?
 affirm: playful

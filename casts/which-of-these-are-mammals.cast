@@ -2,6 +2,7 @@
 subtitle: "Tap the mammals among eight animals of sea, air and land, and learn the test that decides it: hair and milk, not where they live."
 tags: ["biology","mammals","animal classification","animal characteristics","sea creatures","vertebrates"]
 teaches: ["concepts/mammal-identification","vocabulary/mammal-traits","concepts/animal-classification"]
+thumb: "card green"
 voices: {"a":"gemini:Laomedeia | an upbeat nature quiz host; playful and quick","take":"lines"}
 
 ## Which of these are mammals?

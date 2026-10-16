@@ -2,6 +2,7 @@
 subtitle: "How a drug can win among mild cases and among severe cases yet lose overall — and why randomising the mix makes the paradox vanish."
 tags: ["statistics","drug efficacy","randomized trials","confounding variables","causal inference"]
 teaches: ["concepts/simpsons-paradox","methods/randomized-trials","concepts/confounding-bias","concepts/aggregation-reversal"]
+thumb: "card purple bang"
 voices: {"a":"gemini:Zephyr | a bright statistician revealing a paradox; lively, a touch of mischief","take":"lines"}
 
 ## Simpson's paradox: win both, lose overall

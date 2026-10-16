@@ -2,7 +2,7 @@
 subtitle: "Tap the infection you think kills the most people today, then hear why an old, curable disease is still on top, ahead of COVID, HIV and malaria."
 tags: ["health","epidemiology","data"]
 format: quiz
-thumb: "band \"Not the one you think\" note \"1 germ, 1 million deaths\""
+thumb: "band \"Not the one you think\" note \"1 germ, 1 million deaths\" card blue"
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","b":"gemini:Pulcherrima | a forward co-host who says what most people think; natural, never exaggerated","take":"lines"}
 
 ## Which infectious disease kills the most people today?

@@ -2,7 +2,7 @@
 subtitle: "Play newspaper editor and share out a hundred stories on causes of death, then watch the bars turn into what Americans actually died of."
 tags: ["health","data","psychology"]
 format: quiz
-thumb: "band \"Read all about it\" note \"News vs reality\""
+thumb: "band \"Read all about it\" note \"News vs reality\" card teal"
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","b":"gemini:Puck | a curious co-host guessing out loud; relaxed and good-humoured, never exaggerated","take":"lines"}
 
 ## Does the news cover what actually kills us?

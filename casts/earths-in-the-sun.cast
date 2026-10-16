@@ -4,6 +4,7 @@ tags: ["astronomy","scale and size","solar system","sun and earth","volume calcu
 teaches: ["concepts/scale-in-space","concepts/volume-and-cubes","concepts/orders-of-magnitude","concepts/solar-system-composition"]
 voices: {"a":"gemini:Iapetus | a clear space quiz host; quiet wonder, natural pace","take":"lines"}
 format: quiz
+thumb: "card charcoal"
 
 ## How many Earths would fit inside the Sun?
 affirm: playful

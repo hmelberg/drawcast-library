@@ -4,6 +4,7 @@ tags: ["paper folding","exponential growth","world records","mathematics limits"
 teaches: ["concepts/exponential-growth","methods/scientific-experimentation","concepts/physical-constraints"]
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","take":"lines"}
 format: quiz
+thumb: "card orange"
 
 ## How many times can you fold paper in half?
 affirm: playful

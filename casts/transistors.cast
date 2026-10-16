@@ -2,7 +2,7 @@
 subtitle: "One computer chip against everyone on Earth, then against all the chickens eaten in a year: pick the bigger, and hear two hosts argue about it."
 tags: ["computing","data"]
 format: quiz
-thumb: "band \"One chip vs the whole planet\" note \"2,300 in 1971\""
+thumb: "band \"One chip vs the whole planet\" note \"2,300 in 1971\" card orange"
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","b":"gemini:Despina | a smooth, sceptical co-host; natural, never exaggerated","take":"lines"}
 
 ## One chip against the planet: which is bigger?

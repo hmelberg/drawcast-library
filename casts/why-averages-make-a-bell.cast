@@ -2,6 +2,7 @@
 subtitle: "Why the averages of lopsided data, like hospital stays, pile up into a bell — and why doubling the sample doesn't halve the error."
 tags: ["statistics","central limit theorem","sampling","bell curve","data distribution"]
 teaches: ["concepts/central-limit-theorem","concepts/sampling-error","methods/understanding-sample-size-effects","concepts/why-averages-normalize"]
+thumb: "card pink"
 voices: {"a":"gemini:Zephyr | a bright statistician who loves this result; lively","take":"lines"}
 
 ## Why averages make a bell

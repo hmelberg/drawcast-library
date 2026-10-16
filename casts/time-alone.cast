@@ -2,7 +2,7 @@
 subtitle: "Draw how much of the day Americans spend alone from 15 to 80, then hear two hosts weigh friends, loneliness and the young."
 tags: ["psychology","data","culture"]
 format: quiz
-thumb: "band \"How alone at 80?\" note \"draw your guess\""
+thumb: "band \"How alone at 80?\" note \"draw your guess\" card cork"
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host; light and quick","b":"gemini:Umbriel | an easy-going co-host, amused by the answers; natural, never exaggerated","take":"lines"}
 
 ## As Americans grow older, how much of the day do they spend alone?

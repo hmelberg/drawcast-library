@@ -4,6 +4,7 @@ tags: ["animal behavior","sleep patterns","mammals","biology","predator-prey rel
 teaches: ["concepts/sleep-needs-vary-by-species","concepts/predator-prey-sleep-trade-offs","vocabulary/animal-sleep-duration"]
 voices: {"a":"gemini:Callirrhoe | an easy-going nature quiz host; warm and light","take":"lines"}
 format: quiz
+thumb: "card cork"
 
 ## How long do animals sleep?
 affirm: playful

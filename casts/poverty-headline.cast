@@ -2,7 +2,7 @@
 subtitle: "Guess how many people left extreme poverty on an average day since 1990, then see the headline no paper ran, and why it may soon stop."
 tags: ["economics","data","history"]
 format: quiz
-thumb: "band \"The headline nobody printed\" note \"Every day for 35 years\""
+thumb: "band \"The headline nobody printed\" note \"Every day for 35 years\" card wood"
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","b":"gemini:Despina | a smooth, sceptical co-host; natural, never exaggerated","take":"lines"}
 
 ## How many people left extreme poverty every day since 1990?

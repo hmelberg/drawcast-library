@@ -4,6 +4,7 @@ tags: ["world population","demographic growth","population history","exponential
 teaches: ["concepts/population-growth","history/demographic-trends","methods/reading-growth-curves"]
 voices: {"a":"gemini:Schedar | an even data journalist hosting a quiz; calm, natural pace","take":"lines"}
 format: quiz
+thumb: "card pink"
 
 ## How fast did the world's population grow to 8 billion?
 use: line_chart

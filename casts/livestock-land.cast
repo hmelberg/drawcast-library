@@ -2,7 +2,7 @@
 subtitle: "Guess how much farmland goes to livestock, then how much of the world's food it gives back: four fifths of the land, under a fifth of the calories."
 tags: ["food","earth","data"]
 format: quiz
-thumb: "band \"Most farmland feeds animals. And us?\" note \"?\""
+thumb: "band \"Most farmland feeds animals. And us?\" note \"?\" card charcoal"
 voices: {"a":"gemini:Leda | a youthful, bright quiz host; curious, not overexcited","take":"lines"}
 
 ## Livestock uses most farmland. How much of our food does it give?

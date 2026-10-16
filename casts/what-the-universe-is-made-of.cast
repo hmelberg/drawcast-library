@@ -4,6 +4,7 @@ tags: ["universe composition","dark energy","dark matter","ordinary matter","cos
 teaches: ["concepts/universe-composition","concepts/dark-energy","concepts/dark-matter","history/cosmological-discoveries"]
 voices: {"a":"gemini:Zubenelgenubi | a casual, wry quiz host; dry humour","take":"lines"}
 format: quiz
+thumb: "card teal"
 
 ## What is the universe made of?
 affirm: playful

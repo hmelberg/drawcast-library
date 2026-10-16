@@ -2,7 +2,7 @@
 subtitle: "Guess how many people still live without electricity, then a second question: where they live, and the country that switched on 420 million."
 tags: ["geography","economics","data"]
 format: quiz
-thumb: "band \"Still in the dark: how many?\" note \"1 in ?\""
+thumb: "band \"Still in the dark: how many?\" note \"1 in ?\" card blue eyes"
 voices: {"a":"gemini:Laomedeia | an upbeat, playful quiz host; light and quick","take":"lines"}
 
 ## How many people still live without electricity?

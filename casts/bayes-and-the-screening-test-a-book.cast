@@ -2,6 +2,7 @@
 subtitle: "Why a positive result from a good test can still mean only a one-in-ten chance of disease, worked out with a table and then Bayes' rule."
 tags: ["probability","medical testing","bayes rule","disease screening","false positives","conditional probability"]
 teaches: ["concepts/bayes-theorem","concepts/base-rate-fallacy","methods/probability-calculation","concepts/false-positive-paradox"]
+thumb: "card navy"
 voices: {"a":"gemini:Sulafat | a warm, clear doctor reading a short illustrated book aloud; calm, natural pace, never slow","take":"lines"}
 
 ## A thousand people tested

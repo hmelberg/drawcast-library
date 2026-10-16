@@ -2,6 +2,7 @@
 subtitle: "Why a test that is 90% sensitive and 95% specific can still be wrong about most positives when the disease is rare."
 tags: ["statistics","medical testing","sensitivity and specificity","diagnostic accuracy","base rates","probability"]
 teaches: ["concepts/sensitivity-and-specificity","concepts/positive-predictive-value","concepts/base-rate-effect","methods/reading-contingency-tables"]
+thumb: "card purple"
 voices: {"a":"gemini:Iapetus | a clear, patient medical-school teacher; plain and steady","take":"lines"}
 
 ## What do sensitivity and specificity measure?

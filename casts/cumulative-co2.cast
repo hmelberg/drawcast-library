@@ -2,7 +2,7 @@
 subtitle: "Rank five countries by all the CO₂ they have ever emitted, then rewind to 1850 to see who started it all, as two hosts argue it out."
 tags: ["earth","history","data"]
 format: quiz
-thumb: "band \"Not who you'd blame\" note \"All-time CO₂\""
+thumb: "band \"Not who you'd blame\" note \"All-time CO₂\" card purple eyes"
 voices: {"a":"gemini:Kore | a firm, calm quiz host with a dry wit; clear","b":"gemini:Achird | a friendly co-host thinking it through; natural, never exaggerated","take":"lines"}
 
 ## Which country has emitted the most CO₂ since 1750?

@@ -3,6 +3,7 @@ subtitle: "Tap the three films that share the record of eleven Oscars, and find 
 tags: ["film history","oscars awards","movie records"]
 teaches: ["history/oscar-records","trivia/film-achievements"]
 format: quiz
+thumb: "card navy"
 voices: {"a":"gemini:Vindemiatrix | a gentle, curious quiz host; warm","take":"lines"}
 
 ## Which films won eleven Oscars?

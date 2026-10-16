@@ -2,7 +2,7 @@
 subtitle: "Guess the world's births per woman today, take a clue and guess again, then see how it halved since the 1960s, and South Korea's record low."
 tags: ["data","economics","geography"]
 format: quiz
-thumb: "band \"Five kids, then…\" note \"Births per woman\""
+thumb: "band \"Five kids, then…\" note \"Births per woman\" card navy"
 voices: {"a":"gemini:Iapetus | a clear, curious quiz host; plain and friendly","take":"lines"}
 
 ## How many children does the average woman in the world have today?

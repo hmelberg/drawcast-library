@@ -2,6 +2,7 @@
 subtitle: "Split an average day into sleep, work, TV, meals and the rest, then compare your guess with a large American time-use survey."
 tags: ["time management","daily routine","american survey","time use statistics","sleep work leisure"]
 teaches: ["concepts/time-allocation","methods/survey-analysis","vocabulary/time-use-categories"]
+thumb: "card charcoal"
 voices: {"a":"gemini:Callirrhoe | an easy-going quiz host about everyday life; warm and light","take":"lines"}
 
 ## Where does an average day go?

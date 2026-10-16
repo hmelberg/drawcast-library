@@ -4,6 +4,7 @@ tags: ["physics","gravity","moon","galileo","air resistance","free fall"]
 teaches: ["concepts/gravity-and-mass","concepts/air-resistance","history/galileo","methods/experimental-proof"]
 voices: {"a":"gemini:Charon | a warm, clear quiz host who loves a good fact; patient, natural pace","take":"lines"}
 format: quiz
+thumb: "card teal"
 
 ## On the Moon, which lands first: a hammer or a feather?
 affirm: playful

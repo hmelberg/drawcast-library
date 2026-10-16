@@ -2,6 +2,7 @@
 subtitle: "A thousand hypotheses in one table show how honest studies, low power and long-shot ideas fill journals with false findings."
 tags: ["statistics","research methodology","false discoveries","p-values","scientific publishing","study power"]
 teaches: ["concepts/p-value-interpretation","concepts/statistical-power","concepts/prior-probability","methods/evaluating-research-credibility"]
+thumb: "card charcoal"
 voices: {"a":"gemini:Alnilam | a firm, sceptical science journalist; sharp and clear, never preachy","take":"lines"}
 
 ## Why most published findings are false

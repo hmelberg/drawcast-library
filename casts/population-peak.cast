@@ -2,7 +2,7 @@
 subtitle: "A host quizzes a co-host and you: when does the world's population peak, and how big? Then see the number that has already peaked."
 tags: ["geography","data"]
 format: quiz
-thumb: "band \"The peak is coming\" note \"When?\""
+thumb: "band \"The peak is coming\" note \"When?\" card red"
 voices: {"a":"gemini:Aoede | a breezy quiz host; easy and warm","b":"gemini:Umbriel | an easy-going co-host, amused by the answers; natural, never exaggerated","take":"lines"}
 
 ## When will the world's population peak, and at what size?

@@ -4,6 +4,7 @@ tags: ["geography","mountains","earth measurements","highest vs tallest","mauna 
 teaches: ["concepts/mountain-measurement","geography/mountain-comparisons","concepts/sea-level-reference"]
 voices: {"a":"gemini:Rasalgethi | an informative quiz host with a light touch; crisp","take":"lines"}
 format: quiz
+thumb: "card purple"
 
 ## Which is the tallest mountain on Earth?
 affirm: playful
