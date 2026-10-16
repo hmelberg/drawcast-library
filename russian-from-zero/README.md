@@ -186,6 +186,26 @@ Learn to read, hear and say Russian, one short lesson at a time. Each lesson bui
    - How do you wish someone a happy New Year or birthday?
 90. [A ninth Russian story: New Year at Masha's](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/90-russian-review-9.cast)
    - Can you read the story of New Year at Masha's, using everything from lessons 81 to 89?
+91. [At the airport in Russian: паспорт, рейс](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/91-russian-airport.cast)
+   - How do you get through check-in and boarding at a Russian airport?
+92. [At the hotel in Russian: у меня́ не рабо́тает душ](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/92-russian-hotel.cast)
+   - How do you check in at a hotel and say what doesn't work?
+93. [Getting around in Russian: сле́дующая ста́нция](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/93-russian-transport.cast)
+   - How do you find your stop, change lines and ask how long it takes?
+94. [Telling a story in Russian: снача́ла, пото́м](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/94-russian-narrative.cast)
+   - How do you tell a story in order: сначала, потом, наконец, вдруг?
+95. [Writing in Russian: дорога́я Ма́ша](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/95-russian-letters.cast)
+   - How do you start and end a letter or message in Russian?
+96. [The weather forecast in Russian: ми́нус де́сять](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/96-russian-forecast.cast)
+   - Can you understand a Russian weather forecast: минус десять, ветер, снег?
+97. [A Russian life: Gagarin](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/97-russian-biography.cast)
+   - Can you read the life of Yuri Gagarin in Russian?
+98. [Russian sayings: без труда́…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/98-russian-sayings.cast)
+   - What do five common Russian sayings mean, and when do you use them?
+99. [A whole conversation in Russian](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/99-russian-conversation.cast)
+   - Can you hold a whole conversation in Russian with someone new?
+100. [Lesson 100: a Russian story](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/100-russian-review-10.cast)
+   - Can you read the longest story yet — and what can you do after 100 lessons?
 
 ---
 

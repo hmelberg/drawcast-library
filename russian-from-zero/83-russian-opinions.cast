@@ -254,7 +254,7 @@ Next: Feelings in Russian: мне ску́чно
     link end_next href lecture:84 title "Feelings in Russian: мне ску́чно" size 320 x 735 y 395
 
     link end_again href lecture:83 title "Watch again" form text open here x 500 y 160
-    text end_count "83 of 90" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "83 of 100" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

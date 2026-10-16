@@ -257,7 +257,7 @@ Next: Holidays in Russian: с Но́вым го́дом!
     link end_next href lecture:89 title "Holidays in Russian: с Но́вым го́дом!" size 320 x 735 y 395
 
     link end_again href lecture:88 title "Watch again" form text open here x 500 y 160
-    text end_count "88 of 90" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "88 of 100" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -257,7 +257,7 @@ Next: A longer Russian story: read it all yourself
     link end_next href lecture:10 title "A longer Russian story: read it all yourself" size 320 x 735 y 395
 
     link end_again href lecture:9 title "Watch again" form text open here x 500 y 160
-    text end_count "9 of 90" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "9 of 100" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

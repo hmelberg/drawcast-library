@@ -4,9 +4,9 @@ test: test-your-russian-by-hmelberg
 level: Complete beginners who speak English; no Cyrillic needed to start
 language: English narration, Russian words in Cyrillic with stress marks; Tom and Masha speak the Russian
 skills/reading: cyrillic-letters, reading-stories
-skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays
-skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency
-skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes
+skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays, sayings
+skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency, narrative-words
+skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes, travel-phrases, writing-messages
 #basic
 
 Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again.
@@ -376,3 +376,43 @@ status: done · id: cc355a5e-7e1d-455d-a78b-f1f273de6b88 · file: 89-russian-hol
 ## A ninth Russian story: New Year at Masha's
 Can you read the story of New Year at Masha's, using everything from lessons 81 to 89?
 status: done · id: ecaa1c98-006e-47b4-b28d-5c2be85866f9 · file: 90-russian-review-9.cast · 2026-10-16
+---
+## At the airport in Russian: паспорт, рейс
+How do you get through check-in and boarding at a Russian airport?
+status: done · id: 6aedbe55-d193-4f9a-bfac-1cdbb095d4b2 · file: 91-russian-airport.cast · 2026-10-16
+---
+## At the hotel in Russian: у меня́ не рабо́тает душ
+How do you check in at a hotel and say what doesn't work?
+status: done · id: d110cb5f-9cb5-419c-a1de-f5873b2d69ad · file: 92-russian-hotel.cast · 2026-10-16
+---
+## Getting around in Russian: сле́дующая ста́нция
+How do you find your stop, change lines and ask how long it takes?
+status: done · id: 9d8ba320-0b40-41ae-bbd8-7a01d0f3b308 · file: 93-russian-transport.cast · 2026-10-17
+---
+## Telling a story in Russian: снача́ла, пото́м
+How do you tell a story in order: сначала, потом, наконец, вдруг?
+status: done · id: 466e523b-48a4-49b9-85dc-1968a6ed0d45 · file: 94-russian-narrative.cast · 2026-10-16
+---
+## Writing in Russian: дорога́я Ма́ша
+How do you start and end a letter or message in Russian?
+status: done · id: ee46dcab-1ba8-4969-8d42-d6cc2db71f3d · file: 95-russian-letters.cast · 2026-10-17
+---
+## The weather forecast in Russian: ми́нус де́сять
+Can you understand a Russian weather forecast: минус десять, ветер, снег?
+status: done · id: fe64a990-4be1-4b6c-a54e-1e259e5e34e7 · file: 96-russian-forecast.cast · 2026-10-16
+---
+## A Russian life: Gagarin
+Can you read the life of Yuri Gagarin in Russian?
+status: done · id: d04d496d-3b8b-4e5f-afd5-7cd6e80dae42 · file: 97-russian-biography.cast · 2026-10-16
+---
+## Russian sayings: без труда́…
+What do five common Russian sayings mean, and when do you use them?
+status: done · id: 6ebddec8-8d95-4abf-85af-4f1b21c7aa1b · file: 98-russian-sayings.cast · 2026-10-17
+---
+## A whole conversation in Russian
+Can you hold a whole conversation in Russian with someone new?
+status: done · id: d03e7fc9-ef06-434f-aeb9-b5a4895e6dab · file: 99-russian-conversation.cast · 2026-10-17
+---
+## Lesson 100: a Russian story
+Can you read the longest story yet — and what can you do after 100 lessons?
+status: done · id: d9770a3d-1cd9-4f58-b8b1-70555dece292 · file: 100-russian-review-10.cast · 2026-10-16
