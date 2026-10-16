@@ -379,8 +379,8 @@ B: Which is why the even numbers count as many as all the whole numbers. Odd, bu
 A: And the decimals are more: every pairing with the  (@draw crowds@)rooms leaves someone out. A crowd that fits the hotel is called countable.
 
     ask "Which crowds fit Hilbert's Hotel, and which are too many? Sort each card." on crowds store s voice b
-        right: {s} on the first try.
-        wrong: {s} on the first try.
+        right: {s} of {s.total} on the first try.
+        wrong: {s} of {s.total} on the first try.
 
 A: Fractions are the surprise. Cantor showed in 1874 that they can be listed too, so they fit.
     highlight crowds_3
