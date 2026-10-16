@@ -119,7 +119,7 @@ sources:
     text cy_y "1821" #8f887c x 910 y 375 font_size 32 hidden true
     group cy cites ["cauchy1821"] members ["cy_d","cy_n","cy_y"] hidden true
     text ar_c "only potential ∞" #3d3833 x 250 y 610 font_size 38 hidden true
-    text am_c "¼ + 1⁄16 + … = ⅓" #3d3833 x 395 y 315 font_size 38 hidden true
+    text am_c "1/4 + 1/16 + … = 1/3" #3d3833 x 395 y 315 font_size 38 hidden true
     text gr_c "1 − 1 + 1 − 1 + …" #8a5fa8 cites ["grandi"] x 765 y 315 font_size 38 hidden true
     scratch grandi_s work [{"tex":"(1-1)+(1-1)+\\dots = 0"},{"tex":"1+(-1+1)+(-1+1)+\\dots = 1"}] x 540 y 215 font_size 36 hidden true
     portrait cauchy of "Augustin-Louis Cauchy" cameo true hidden true
@@ -161,7 +161,7 @@ sources:
     text ea2_x "✗" #b5482e x 647 y 505 font_size 64 hidden true
     mark e3_x around e3 kind strike hidden true
     text e_fix "finite: 11.1 s" #2f6b8f x 640 y 595 font_size 44 hidden true
-    text e_harm "½ + ⅓ + ¼ + …" #8a5fa8 x 430 y 375 font_size 46 hidden true
+    text e_harm "1/2 + 1/3 + 1/4 + …" #8a5fa8 x 430 y 375 font_size 46 hidden true
     text e_harm2 "grows to ∞" #8a5fa8 x 740 y 375 font_size 46 hidden true
     path ftrk thick #3d3833 points [[100,205],[900,205]] hidden true
     icon f_ach size 110 set twemoji x 160 y 261 icon_look picture of "person running" hidden true
