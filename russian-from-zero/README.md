@@ -1,6 +1,6 @@
 # Russian from zero
 
-Learn to read, hear and say your first Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs, my family and where things are; then plurals, adjectives, I want, the -у ending, the days of the week, prices, question words, the past and I like it — with two short stories you read yourself. Tap any Russian word to hear it again.
+Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again.
 
 1. [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/01-read-russian.cast)
    - Which Cyrillic letters look like English ones but sound different?
@@ -126,6 +126,66 @@ Learn to read, hear and say your first Russian, one short lesson at a time. Each
    - How do my and your change: моему брату, с моей мамой?
 60. [A sixth Russian story: Ivan's birthday](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/60-russian-review-6.cast)
    - Can you read a whole story using everything from lessons 51 to 59?
+61. [Verbs in -ся in Russian: учу́сь, занима́юсь](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/61-russian-reflexive.cast)
+   - Why do some Russian verbs end in -ся: учусь, занимаюсь?
+62. [Going in Russian: иду or хожу?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/62-russian-idti-hodit.cast)
+   - When do you say иду and when хожу?
+63. [Travelling in Russian: е́ду or е́зжу?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/63-russian-ehat-ezdit.cast)
+   - When do you say еду and when езжу — and how do you go by car or metro?
+64. [Came and went in Russian: пришёл, ушёл](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/64-russian-motion-prefixes.cast)
+   - How do при-, у-, в- and вы- turn шёл into came, left, went in and went out?
+65. [I will read or I will finish in Russian: прочита́ю](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/65-russian-aspect-future.cast)
+   - How do you say I will read and I will have read: буду читать or прочитаю?
+66. [Commands in Russian: прочита́й!](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/66-russian-imperative-aspect.cast)
+   - Which verb goes in a command: читай or прочитай — and why не открывай?
+67. [I must in Russian: я до́лжен](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/67-russian-must.cast)
+   - How do you say I must: должен, должна, должны?
+68. [If and would in Russian: е́сли, бы](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/68-russian-conditional.cast)
+   - How do you say if and would: если будет тепло, я бы поехал?
+69. [Joining sentences in Russian: что, кото́рый](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/69-russian-which.cast)
+   - How do you join sentences with что and который?
+70. [A seventh Russian story: Tom's trip](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/70-russian-review-7.cast)
+   - Can you read Tom's letter from his trip, using everything from lessons 61 to 69?
+71. [Clothes in Russian: в кра́сной ку́ртке](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/71-russian-clothes.cast)
+   - How do you say what you wear: в красной куртке?
+72. [At home in Russian: на ку́хне](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/72-russian-home.cast)
+   - How do you name the rooms and say where things stand, lie and hang?
+73. [Cooking in Russian: вари́ть, ре́зать](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/73-russian-cooking.cast)
+   - How do you follow a recipe in Russian: свари, нарежь, добавь?
+74. [Ordering in a Russian restaurant: принеси́те, пожа́луйста](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/74-russian-restaurant.cast)
+   - How do you order a whole meal and ask for the bill?
+75. [Shopping in Russian: можно примерить?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/75-russian-shopping.cast)
+   - How do you ask to try something on and say it suits you?
+76. [At the doctor in Russian: что у вас боли́т?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/76-russian-doctor.cast)
+   - How do you tell a doctor what hurts and understand what to take?
+77. [Jobs in Russian: кем вы рабо́таете?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/77-russian-jobs.cast)
+   - How do you ask and say what someone does for a living?
+78. [Studying in Russian: я изуча́ю ру́сский](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/78-russian-study.cast)
+   - How do you talk about studying: учиться or изучать?
+79. [On the phone in Russian: алло́, перезвоню́](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/79-russian-phone.cast)
+   - How do you get through a phone call and send a message?
+80. [An eighth Russian story: Masha's day](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/80-russian-review-8.cast)
+   - Can you follow a whole day in Masha's life, using everything from lessons 71 to 79?
+81. [Describing people in Russian: похо́ж на па́пу](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/81-russian-looks.cast)
+   - How do you describe what someone looks like?
+82. [The biggest in Russian: са́мый большо́й](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/82-russian-superlative.cast)
+   - How do you say the biggest and the best: самый, лучший?
+83. [Opinions in Russian: по-мо́ему](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/83-russian-opinions.cast)
+   - How do you give your opinion, agree and disagree?
+84. [Feelings in Russian: мне ску́чно](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/84-russian-feelings.cast)
+   - How do you say how you feel: мне скучно, я рад?
+85. [Time words in Russian: уже́, ещё, че́рез](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/85-russian-time-words.cast)
+   - How do you say ago, in, already and not yet?
+86. [How often in Russian: иногда́, никогда́](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/86-russian-frequency.cast)
+   - How do you say always, sometimes and never?
+87. [Nothing and nobody in Russian: ничего́ не зна́ю](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/87-russian-negatives.cast)
+   - Why does Russian say nobody doesn't know nothing?
+88. [Busy and free in Russian: я за́нят](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/88-russian-short-adjectives.cast)
+   - How do you say busy, free, ready and right: занят, свободен, готов, прав?
+89. [Holidays in Russian: с Но́вым го́дом!](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/89-russian-holidays.cast)
+   - How do you wish someone a happy New Year or birthday?
+90. [A ninth Russian story: New Year at Masha's](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/90-russian-review-9.cast)
+   - Can you read the story of New Year at Masha's, using everything from lessons 81 to 89?
 
 ---
 

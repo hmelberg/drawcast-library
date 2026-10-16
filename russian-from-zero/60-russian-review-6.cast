@@ -3,6 +3,7 @@ subtitle: "Read Masha's note from her brother Ivan's birthday in Oslo, built onl
 teaches: ["reading/reading-stories"]
 thumb: "band \"A sixth story: Ivan's birthday\" note \"lessons 51–59, 12 lines\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Verbs in -ся in Russian: учу́сь, занима́юсь","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/61-russian-reflexive.cast"}
 
 ## A sixth Russian story: Ivan's birthday
 level: basic
@@ -275,11 +276,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:59 title "To my brother in Russian: моему́ бра́ту" size 320 x 500 y 395
+Next: Verbs in -ся in Russian: учу́сь, занима́юсь
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:59 title "To my brother in Russian: моему́ бра́ту" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:61 title "Verbs in -ся in Russian: учу́сь, занима́юсь" size 320 x 735 y 395
 
     link end_again href lecture:60 title "Watch again" form text open here x 500 y 160
-    text end_count "60 of 60" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "60 of 90" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
