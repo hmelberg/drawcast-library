@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What is SQL?</title>
+<meta name="description" content="What SQL is, and how one short query keeps just the rows and columns you asked for — and in what order the database does it.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/what-is-sql.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="What is SQL?">
+<meta property="og:description" content="What SQL is, and how one short query keeps just the rows and columns you asked for — and in what order the database does it.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/what-is-sql.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/what-is-sql.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"What is SQL?","description":"What SQL is, and how one short query keeps just the rows and columns you asked for — and in what order the database does it.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/what-is-sql.html","image":"https://hmelberg.github.io/drawcast-library/casts/what-is-sql.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="what-is-sql.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --cs-page-aspect-inv: 0.7500; --cs-page-phone-inv: 1.0250;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-phone-inv, 1.025)), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/what-is-sql.png" alt="What is SQL?"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>What is SQL?</h1>
+<p class="drawcast-intro">What SQL is, and how one short query keeps just the rows and columns you asked for — and in what order the database does it.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>SQL is the language we use to ask a database questions — so how does one question pull out just the rows and columns you want?</p>
+<p>Take a small table of pets: each row is one animal, each column one fact about it.</p>
+<p>Say we want the names and ages of the cats, and nothing else.</p>
+<p>In most programming languages you would spell out the steps: go through every row, test it, copy the parts you need.</p>
+<p>SQL skips the steps: you describe the result in a query, and the database works out how to get it.</p>
+<p>This way of asking is older than it looks: IBM researchers designed SQL in the early 1970s, first calling it SEQUEL.</p>
+<p>FROM pets says which table to look in.</p>
+<p>Then WHERE species equals cat sets a test that every row must pass.</p>
+<p>The database checks each row in turn: Rex is a dog, so out; Misty is a cat, so in.</p>
+<p>Three cats pass, the other three rows drop out: WHERE picks the rows.</p>
+<p>Now the columns: SELECT name, age says which ones to keep.</p>
+<p>Species and owner fall away, and what is left is our answer.</p>
+<p>The answer comes back as a table of its own: three names, three ages.</p>
+<p>Read the query again, though: you write SELECT first, but it acts last.</p>
+<p>In its logic, the database starts at FROM, filters with WHERE, and only then picks the columns.</p>
+<p>That order is the whole idea: choose the rows, then the columns, and say what you want, never how.</p>
+<p>One last check, on the same table: what does this query give back?</p>
+<p>Same table. What does SELECT owner FROM pets WHERE age &gt; 5 give back?</p>
+<p>Ana, Dev and Eli: WHERE keeps Rex, Tiger and Coco, and SELECT keeps only their owner column.</p>
+<p>So every question you ask a database comes down to two choices: which rows, and which columns.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="what-is-sql.cast" data-gh="hmelberg/drawcast-library/casts/what-is-sql.cast"></script>
+</body>
+</html>

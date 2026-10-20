@@ -1315,6 +1315,13 @@
       "file": "the-scream.cast",
       "updated": "2026-10-20",
       "page": true
+    },
+    {
+      "slug": "what-is-sql",
+      "title": "What is SQL?",
+      "file": "what-is-sql.cast",
+      "updated": "2026-10-20",
+      "page": true
     }
   ]
 }
