@@ -1322,6 +1322,13 @@
       "file": "what-is-sql.cast",
       "updated": "2026-10-20",
       "page": true
+    },
+    {
+      "slug": "leap-years",
+      "title": "Why 1900 had no leap day",
+      "file": "leap-years.cast",
+      "updated": "2026-10-20",
+      "page": true
     }
   ]
 }

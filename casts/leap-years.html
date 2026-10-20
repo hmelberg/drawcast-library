@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why 1900 had no leap day</title>
+<meta name="description" content="Why February gets a 29th day every four years, and why skipping it in 1900 but not in 2000 keeps the calendar on time.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/leap-years.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Why 1900 had no leap day">
+<meta property="og:description" content="Why February gets a 29th day every four years, and why skipping it in 1900 but not in 2000 keeps the calendar on time.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/leap-years.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/leap-years.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Why 1900 had no leap day","description":"Why February gets a 29th day every four years, and why skipping it in 1900 but not in 2000 keeps the calendar on time.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/leap-years.html","image":"https://hmelberg.github.io/drawcast-library/casts/leap-years.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="leap-years.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --cs-page-aspect-inv: 0.7500; --cs-page-phone-inv: 1.0250;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-phone-inv, 1.025)), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/leap-years.png" alt="Why 1900 had no leap day"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Why 1900 had no leap day</h1>
+<p class="drawcast-intro">Why February gets a 29th day every four years, and why skipping it in 1900 but not in 2000 keeps the calendar on time.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Why 1900 had no leap day</p>
+<p>Why February gets a 29th day every four years, and why skipping it in 1900 but not in 2000 keeps the calendar on time.</p>
+<p>Most of us learned that every fourth year is a leap year.</p>
+<p>Yet 1900 had no twenty-ninth of February, and 2000 did, so what is the rule really for?</p>
+<p>It starts with the sun: from one spring to the next takes 365 days, plus almost six hours.</p>
+<p>A calendar of exactly 365 days drops those hours, so each year spring arrives about six hours later by the date.</p>
+<p>After four years the leftovers come to nearly a whole day, and so Julius Caesar's calendar added one: a leap day every fourth year.</p>
+<p>But four lots of five hours forty-nine make twenty-three hours sixteen, not twenty-four.</p>
+<p>So every leap day adds about three quarters of an hour too much, which is eleven minutes for every year.</p>
+<p>Eleven minutes is nothing in a lifetime, but by 1582 the calendar had run ten days ahead of where the Church had fixed the spring equinox in 325, the day Easter is counted from: it now fell on the eleventh of March.</p>
+<p>So Pope Gregory the Thirteenth cut the ten days out: Thursday the fourth of October 1582 was followed by Friday the fifteenth.</p>
+<p>That reset the calendar, but with the old rule it would simply drift away again: four more days by 2100.</p>
+<p>The fix is to drop a leap day now and then.</p>
+<p>A century of overshoots comes to about three quarters of a day, so the century years lose their leap day: 1700, 1800 and 1900.</p>
+<p>But three quarters is not a whole day, so skipping every century would cut one day too many in four hundred years.</p>
+<p>And so the centuries divisible by four hundred keep their leap day, which is why 2000 had its twenty-ninth of February.</p>
+<p>That makes 97 leap days in every four hundred years, and the error falls from eleven minutes a year to under half a minute.</p>
+<p>Not everyone made the switch: some Orthodox churches still keep the Julian calendar, so for them 1900 was a leap year.</p>
+<p>So their gap grew to thirteen days, and their Christmas, the twenty-fifth of December, now falls on our seventh of January.</p>
+<p>A leap year is a correction, 1900 was a correction of the correction, and 2000 corrected that one in turn.</p>
+<p>Your turn. Leap year or not? Drag each year into its box.</p>
+<p>The next February without a twenty-ninth is in 2100, and now you know why.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="leap-years.cast" data-gh="hmelberg/drawcast-library/casts/leap-years.cast"></script>
+</body>
+</html>
