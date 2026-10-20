@@ -1308,6 +1308,13 @@
       "file": "test-your-russian.cast",
       "updated": "2026-10-16",
       "page": true
+    },
+    {
+      "slug": "the-scream",
+      "title": "The Scream: who is screaming?",
+      "file": "the-scream.cast",
+      "updated": "2026-10-20",
+      "page": true
     }
   ]
 }
