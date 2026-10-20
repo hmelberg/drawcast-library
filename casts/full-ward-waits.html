@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why almost-full hospital wards keep patients waiting</title>
+<meta name="description" content="Why a hospital ward that is nine-tenths full keeps patients waiting so much longer than one that is half full — and why the last few beds matter most.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="Why almost-full hospital wards keep patients waiting">
+<meta property="og:description" content="Why a hospital ward that is nine-tenths full keeps patients waiting so much longer than one that is half full — and why the last few beds matter most.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Why almost-full hospital wards keep patients waiting","description":"Why a hospital ward that is nine-tenths full keeps patients waiting so much longer than one that is half full — and why the last few beds matter most.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.html","image":"https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="full-ward-waits.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --cs-page-aspect-inv: 0.7500; --cs-page-phone-inv: 1.0250;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-phone-inv, 1.025)), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/full-ward-waits.png" alt="Why almost-full hospital wards keep patients waiting"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>Why almost-full hospital wards keep patients waiting</h1>
+<p class="drawcast-intro">Why a hospital ward that is nine-tenths full keeps patients waiting so much longer than one that is half full — and why the last few beds matter most.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>Why do waits for a hospital bed explode when a ward is almost, but not quite, full?</p>
+<p>Surely a ward at 95 % full is only a little worse than one at 90? The wait just grows in step.</p>
+<p>That's the natural guess. Take the simplest queue, with made-up numbers: say a patient waits an hour for a bed when the ward is half full.</p>
+<p>Fill it to 80 %, and the wait is four hours; at 90 %, nine.</p>
+<p>So what happens at 95 %, just five points fuller?</p>
+<p>Click the line where you think the wait at 95 % full lands.</p>
+<p>Five more points of fullness, and the wait has more than doubled.</p>
+<p>Doubled? Why would five points matter so much?</p>
+<p>Because patients do not arrive evenly: some nights bring a rush, and only the beds still free can soak it up.</p>
+<p>At 90 % full, a tenth of the capacity is spare; at 95 %, only a twentieth.</p>
+<p>The wait follows busy divided by spare, so halving the spare share about doubles the wait.</p>
+<p>What does that mean on a bad night, say five extra admissions?</p>
+<p>A ward that can discharge twenty a day but takes in ten has ten spare a day, and catches up within half a day.</p>
+<p>At 95 % full it takes in nineteen and has one spare a day: five days to catch up, and the next bad night comes first.</p>
+<p>Where would freeing five points of room cut the wait most? Tap that band.</p>
+<p>Where would freeing five points of room cut the wait most?</p>
+<p>Yes: there it more than halves the wait, from nineteen hours to nine.</p>
+<p>There it more than halves the wait, from nineteen hours to nine.</p>
+<p>But a real ward has dozens of beds. Doesn't that change things?</p>
+<p>It softens it: a ward with many beds stays flat for longer, but the wall at full stays where it is.</p>
+<p>Even so, above about 85 % full the bad nights start leaving no bed free at all now and then: that is where a well-known 1999 study found the risks begin.</p>
+<p>Try it: drag the dot along the curve, and watch the wait climb the wall.</p>
+<p>So it's not really how full the ward is.</p>
+<p>No: it's how little room is left to absorb bad luck — and near full, that room vanishes fast.</p>
+<p>If every patient arrived exactly on schedule, evenly spaced, and every stay lasted exactly as long, what would the wait be at 95 % full?</p>
+<p>Hardly any: with no bad nights and no surprise stays, there is never a rush for the spare beds to absorb.</p>
+<p>That is why some hospitals now spread planned operations evenly across the week: they cannot remove the bad nights, but they can stop adding their own.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="full-ward-waits.cast" data-gh="hmelberg/drawcast-library/casts/full-ward-waits.cast"></script>
+</body>
+</html>

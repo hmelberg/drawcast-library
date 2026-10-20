@@ -1329,6 +1329,13 @@
       "file": "leap-years.cast",
       "updated": "2026-10-20",
       "page": true
+    },
+    {
+      "slug": "full-ward-waits",
+      "title": "Why almost-full hospital wards keep patients waiting",
+      "file": "full-ward-waits.cast",
+      "updated": "2026-10-20",
+      "page": true
     }
   ]
 }
