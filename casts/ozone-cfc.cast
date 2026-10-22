@@ -59,9 +59,9 @@ sources:
       finding: ozone back to 1980 levels by about 2040 for most of the world and about 2066 over Antarctica
 
     dot endpt #b5482e at.data [2021,17] hidden true
-    text drop "−99%" #b5482e at.data [2012,700] cites ["owid_ozone"] font_size 90 hidden true
-    text montreal "← Montreal treaty" #2f6b8f at.data [1999,1640] cites ["owid_ozone"] font_size 44 hidden true
-    text every "every country signed" #2f6b8f at.data [2004,1400] font_size 44 hidden true
+    text drop "−99%" #b5482e at.data [2012,600] cites ["owid_ozone"] font_size 90 hidden true
+    text montreal "← Montreal treaty" #2f6b8f at.data [1999,1480] cites ["owid_ozone"] font_size 44 hidden true
+    text every "every country signed" #2f6b8f at.data [2007,1220] font_size 44 hidden true
     scale tl cites ["unep"] x 90 y 360 width 840 font_size 34 min 1980 max 2070 hidden true
     text now "today ↓" #5e584e x 559.3333333333333 y 510 font_size 36 hidden true
     path brace thick #b5482e points [[519.3333333333333,285],[519.3333333333333,270],[892.6666666666666,270],[892.6666666666666,285]] hidden true

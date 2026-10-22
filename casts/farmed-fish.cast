@@ -72,19 +72,19 @@ The seas were fished to their limit, so all the growth since has come from farms
     erase cross cross_l ceil ceil_l
 
 That farmed total counts mussels, shrimp and seaweed too: sixty percent of everything.
-    icon oyster size 120 set twemoji x 230 y 560 icon_look picture of oyster
-    icon shrimp size 120 set twemoji x 370 y 560 icon_look picture of shrimp
-    text incl "+ shellfish, seaweed" #8f887c x 300 y 465 font_size 36
+    icon oyster size 120 set twemoji x 230 y 480 icon_look picture of oyster
+    icon shrimp size 120 set twemoji x 370 y 480 icon_look picture of shrimp
+    text incl "+ shellfish, seaweed" #8f887c x 300 y 385 font_size 36
 
     erase incl
 
 Counting animals alone, farms passed the half-way mark in 2022.
-    text half "animals only: ~half" #b5482e cites ["sofia"] x 300 y 465 font_size 36
+    text half "animals only: ~half" #b5482e cites ["sofia"] x 300 y 385 font_size 36
 
     erase oyster shrimp half
 
 So the picture of seafood as a boat hauling in a net is out of date: most of it now grows up in a farm.
-    icon pole size 150 set twemoji x 290 y 540 icon_look picture of "fishing pole"
+    icon pole size 150 set twemoji x 290 y 450 icon_look picture of "fishing pole"
 
 ## Thumbnail
 role: thumbnail

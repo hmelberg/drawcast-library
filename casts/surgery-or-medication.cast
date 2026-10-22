@@ -21,9 +21,9 @@ with:
 
     math threshold tex "9(1-p) + 3p = 7.4 \\;\\Rightarrow\\; p \\approx 0.27" size 30 x 500 y 140 hidden true
     text q_s_ok "9" #3d3833 x 905 y 650 font_size 34 hidden true
-    text q_s_bad "3" #3d3833 x 905 y 540 font_size 34 hidden true
-    text q_m_ok "8" #3d3833 x 905 y 409 font_size 34 hidden true
-    text q_m_bad "6" #3d3833 x 905 y 299 font_size 34 hidden true
+    text q_s_bad "3" #3d3833 x 905 y 551 font_size 34 hidden true
+    text q_m_ok "8" #3d3833 x 905 y 431 font_size 34 hidden true
+    text q_m_bad "6" #3d3833 x 905 y 331 font_size 34 hidden true
     text q_head "QALYs" #5a534c x 905 y 690 font_size 22 hidden true
 
     card title "Surgery or medication?"

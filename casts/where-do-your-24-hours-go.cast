@@ -40,7 +40,7 @@ Where do a day's twenty-four hours go? Everyone gets the same twenty-four, and e
     ask "How does the average day split? Drag each bar; the bar on the right shows the hours left." on all budget 24 judge false store d default 6,6,4,4,4 account_label "Hours left"
         right: You gave the most to {d.biggest}. Here is the split from a large American time-use survey.
 
-    text h1 "9 h" x 200 y 560 font_size 30
+    text h1 "9 h" x 200 y 538 font_size 30
 
 Sleep takes the biggest share, about nine hours, and that is high because the survey counts everyone aged fifteen and over, on every day of the week.
     highlight bar_1

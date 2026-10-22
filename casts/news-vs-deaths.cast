@@ -54,8 +54,8 @@ sources:
       year: 2025
       finding: counts of news articles mentioning each cause of death (the coverage shares in the OWID analysis)
 
-    text tag_news "NYT stories" #2f6b8f cites ["owid_news"] x 250 y 580 font_size 52 hidden true
-    text tag_deaths "US deaths" #b5482e cites ["owid_news"] x 250 y 580 font_size 52 hidden true
+    text tag_news "NYT stories" #2f6b8f cites ["owid_news"] x 330 y 580 font_size 52 hidden true
+    text tag_deaths "US deaths" #b5482e cites ["owid_news"] x 330 y 580 font_size 52 hidden true
     path gh0 dashed #2f6b8f points [[-0.32,3],[0.32,3]] data true style.stroke_width 4 hidden true
     path gh1 dashed #2f6b8f points [[0.6799999999999999,4],[1.32,4]] data true style.stroke_width 4 hidden true
     path gh2 dashed #2f6b8f points [[1.68,42],[2.32,42]] data true style.stroke_width 4 hidden true
