@@ -1,29 +1,6 @@
 {
   "courses": [
     {
-      "slug": "paradoxes",
-      "title": "Twelve Paradoxes That Broke the Rules",
-      "files": [
-        "paradoxes/01-how-can-achilles-ever-catch-the-tortoise.cast",
-        "paradoxes/02-can-a-full-hotel-take-one-more-guest.cast",
-        "paradoxes/03-can-one-ball-become-two-the-banach.cast",
-        "paradoxes/04-does-the-set-of-all-sets-that-don-t.cast",
-        "paradoxes/05-what-is-the-smallest-number-you-can-t.cast",
-        "paradoxes/06-can-maths-prove-everything-godel-s.cast",
-        "paradoxes/07-can-a-program-tell-whether-any-program.cast",
-        "paradoxes/08-can-a-surprise-be-announced-the-surprise.cast",
-        "paradoxes/09-when-does-sand-become-a-heap-the-sorites.cast",
-        "paradoxes/10-would-you-pay-a-fortune-for-an.cast",
-        "paradoxes/11-one-box-or-two-newcomb-s-problem.cast",
-        "paradoxes/12-can-any-voting-rule-be-fair-arrow-s.cast",
-        "paradoxes/course.md",
-        "paradoxes/pool.json",
-        "paradoxes/index.html",
-        "paradoxes/README.md"
-      ],
-      "updated": "2026-10-15"
-    },
-    {
       "slug": "russian-from-zero",
       "title": "Russian from zero",
       "files": [
@@ -1584,6 +1561,41 @@
         "chess-30-days/pool.json",
         "chess-30-days/index.html",
         "chess-30-days/README.md"
+      ],
+      "updated": "2026-10-23"
+    },
+    {
+      "slug": "paradoxes",
+      "title": "Twelve Paradoxes That Broke the Rules",
+      "files": [
+        "paradoxes/01-how-can-achilles-ever-catch-the-tortoise.cast",
+        "paradoxes/02-can-a-full-hotel-take-one-more-guest.cast",
+        "paradoxes/03-can-one-ball-become-two-the-banach.cast",
+        "paradoxes/04-does-the-set-of-all-sets-that-don-t.cast",
+        "paradoxes/05-what-is-the-smallest-number-you-can-t.cast",
+        "paradoxes/06-can-maths-prove-everything-godel-s.cast",
+        "paradoxes/07-can-a-program-tell-whether-any-program.cast",
+        "paradoxes/08-can-a-surprise-be-announced-the-surprise.cast",
+        "paradoxes/09-when-does-sand-become-a-heap-the-sorites.cast",
+        "paradoxes/10-would-you-pay-a-fortune-for-an.cast",
+        "paradoxes/11-one-box-or-two-newcomb-s-problem.cast",
+        "paradoxes/12-can-any-voting-rule-be-fair-arrow-s.cast",
+        "paradoxes/course.md",
+        "paradoxes/pool-audio/213692e35ac87af9.mp3",
+        "paradoxes/pool-audio/2ce2410d2aa78aea.mp3",
+        "paradoxes/pool-audio/32ea646d827fe17b.mp3",
+        "paradoxes/pool-audio/3781e9e34389007c.mp3",
+        "paradoxes/pool-audio/6edb46b14640ead6.mp3",
+        "paradoxes/pool-audio/8958a1292aa87409.mp3",
+        "paradoxes/pool-audio/8b7262ecb9ee0cba.mp3",
+        "paradoxes/pool-audio/91a6d3946cd55645.mp3",
+        "paradoxes/pool-audio/b2ac9b0bc23db46d.mp3",
+        "paradoxes/pool-audio/be923ebd80549c10.mp3",
+        "paradoxes/pool-audio/f66daba0dd50d361.mp3",
+        "paradoxes/pool-audio/f84662e2f2e6005c.mp3",
+        "paradoxes/pool.json",
+        "paradoxes/index.html",
+        "paradoxes/README.md"
       ],
       "updated": "2026-10-23"
     }
