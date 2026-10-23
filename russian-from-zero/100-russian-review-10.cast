@@ -4,6 +4,7 @@ tags: ["russian","russian reading","russian story","russian travel","petersburg"
 teaches: ["reading/reading-stories"]
 thumb: "band \"Lesson 100: a Russian story\" note \"Petersburg in winter, 16\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Why and because in Russian: потому что","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/101-russian-because.cast"}
 
 ## Lesson 100: a Russian story
 level: basic
@@ -277,11 +278,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:99 title "A whole conversation in Russian" size 320 x 500 y 395
+Next: Why and because in Russian: потому что
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:99 title "A whole conversation in Russian" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:101 title "Why and because in Russian: потому что" size 320 x 735 y 395
 
     link end_again href lecture:100 title "Watch again" form text open here x 500 y 160
-    text end_count "100 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "100 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

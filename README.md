@@ -5,7 +5,7 @@
 - [How Painters Caught Light](how-painters-caught-light/) — updated 2026-10-15
 - [Ordinary Life Takes the Stage](ordinary-life-takes-the-stage/) — updated 2026-10-15
 - [The Painting Knows You're There](the-painting-knows-youre-there/) — updated 2026-10-15
-- [Russian from zero](russian-from-zero/) — updated 2026-10-16
+- [Russian from zero](russian-from-zero/) — updated 2026-10-23
 
 ---
 

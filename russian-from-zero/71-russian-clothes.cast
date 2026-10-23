@@ -327,7 +327,7 @@ Next: At home in Russian: на ку́хне
     link end_next href lecture:72 title "At home in Russian: на ку́хне" size 320 x 735 y 395
 
     link end_again href lecture:71 title "Watch again" form text open here x 500 y 160
-    text end_count "71 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "71 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

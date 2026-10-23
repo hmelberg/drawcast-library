@@ -39,7 +39,7 @@ level: basic
     text w_20 "Два́дцать мину́т." say "Два́дцать мину́т." say_voice b x 500 y 380 font_size 64 hidden true
     icon clock size 100 set twemoji x 500 y 250 or ["alarm clock"] icon_look picture of stopwatch hidden true
     icon bus_full size 170 set twemoji x 500 y 560 or ["oncoming bus"] icon_look picture of bus hidden true
-    text w_vy_q "Вы выхо́дите?" say "Вы выхо́дите?" colors {"^вы":"#8a5fa8"} x 500 y 380 font_size 70 hidden true
+    text w_vy_q "Вы выхо́дите?" say "Вы выхо́дите?" colors {"^[вы]х":"#8a5fa8"} x 500 y 380 font_size 70 hidden true
     text w_vyshel "вы́шел  →  выходи́ть" say "вы́шел, выходи́ть" colors {"^вы":"#8a5fa8"} x 500 y 560 font_size 58 hidden true
     text w_hozhu "хожу́  →  выхожу́" say "хожу́, выхожу́" colors {"^вы":"#8a5fa8"} x 500 y 460 font_size 52 hidden true
     text c1 "я выхожу́" say "я выхожу́" colors {"^вы":"#8a5fa8"} x 500 y 360 font_size 50 hidden true
@@ -56,7 +56,7 @@ level: basic
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, я в гости́нице. Как е́хать к тебе́?","gloss":"Masha, I'm at the hotel. How do I get to your place?"},{"by":"b","text":"На метро́. Ста́нция бли́зко, но есть переса́дка.","gloss":"By metro. The station is near, but there's a change."},{"by":"a","text":"Где переса́дка?","gloss":"Where's the change?"},{"by":"b","text":"На Пу́шкинской. Там переса́дка.","gloss":"At Pushkinskaya. You change there."},{"by":"a","text":"А ско́лько е́хать?","gloss":"And how long is the ride?"},{"by":"b","text":"Обы́чно два́дцать мину́т. Я ка́ждый день е́зжу на метро́.","gloss":"Usually twenty minutes. I go by metro every day."},{"by":"a","text":"Спаси́бо! Я бу́ду у тебя́ че́рез час.","gloss":"Thanks! I'll be at your place in an hour."},{"by":"b","text":"Хорошо́, я жду. Пока́!","gloss":"Good, I'll be waiting. Bye!"}] show_gloss false practice true size 1.8 hidden true
     text s1 "остано́вка · ста́нция · переса́дка" say "остано́вка, ста́нция, переса́дка" x 500 y 560 font_size 50 hidden true
     text s2 "Ско́лько е́хать?" say "Ско́лько е́хать?" x 500 y 450 font_size 50 hidden true
-    text s3 "Вы выхо́дите на сле́дующей?" say "Вы выхо́дите на сле́дующей?" colors {"^вы":"#8a5fa8"} x 500 y 340 font_size 50 hidden true
+    text s3 "Вы выхо́дите на сле́дующей?" say "Вы выхо́дите на сле́дующей?" colors {"^[вы]х":"#8a5fa8"} x 500 y 340 font_size 50 hidden true
     group board members ["s1","s2","s3"] hidden true
     icon end_masha size 170 set twemoji x 500 y 480 or ["girl"] icon_look picture of woman hidden true
     text end_gloss "your stop is next" #8f887c x 500 y 230 font_size 32 hidden true
@@ -277,7 +277,7 @@ Next: Telling a story in Russian: снача́ла, пото́м
     link end_next href lecture:94 title "Telling a story in Russian: снача́ла, пото́м" size 320 x 735 y 395
 
     link end_again href lecture:93 title "Watch again" form text open here x 500 y 160
-    text end_count "93 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "93 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

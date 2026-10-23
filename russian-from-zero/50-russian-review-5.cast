@@ -239,7 +239,7 @@ Next: Talking about things in Russian: о маме, о работе
     link end_next href lecture:51 title "Talking about things in Russian: о маме, о работе" size 320 x 735 y 395
 
     link end_again href lecture:50 title "Watch again" form text open here x 500 y 160
-    text end_count "50 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "50 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

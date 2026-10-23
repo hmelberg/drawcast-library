@@ -128,7 +128,7 @@ A: Did you hear it? Not молоко́, but молока́: after нет, the en
     highlight talk2_4_words part молока́ effect underline color #8f887c
 
 A: Here нет means there is no, and the thing that isn't there takes a new ending.
-    highlight talk2_4_words part ^нет effect underline color #8f887c
+    highlight talk2_4_words part "[нет] молока́" effect underline color #8f887c
 
 A: Grammar books call it the genitive; think of it as the of-ending: нет молока́ is close to none of milk.
     highlight talk2_4_words part молока́ effect underline color #8f887c
@@ -277,7 +277,7 @@ Next: How old are you in Russian: мне двадцать лет
     link end_next href lecture:29 title "How old are you in Russian: мне двадцать лет" size 320 x 735 y 395
 
     link end_again href lecture:28 title "Watch again" form text open here x 500 y 160
-    text end_count "28 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "28 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

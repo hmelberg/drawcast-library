@@ -128,7 +128,7 @@ B: But the middle moves: хоч for я, ты and он…
     highlight v_ya v_ty v_on part ч color #d0865f effect pulse
 
 B: …then хот for вы. Говорю́ never does that, so learn these four by ear.
-    highlight v_vy part т color #d0865f effect pulse
+    highlight v_vy part ^хо[т] color #d0865f effect pulse
 
     hide table govcol
 
@@ -280,7 +280,7 @@ Next: I see mum in Russian: the -у ending
     link end_next href lecture:14 title "I see mum in Russian: the -у ending" size 320 x 735 y 395
 
     link end_again href lecture:13 title "Watch again" form text open here x 500 y 160
-    text end_count "13 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "13 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

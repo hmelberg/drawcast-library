@@ -1,6 +1,6 @@
 # Russian from zero
 
-Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again.
+Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story.
 
 1. [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/01-read-russian.cast)
    - Which Cyrillic letters look like English ones but sound different?
@@ -206,6 +206,66 @@ Learn to read, hear and say Russian, one short lesson at a time. Each lesson bui
    - Can you hold a whole conversation in Russian with someone new?
 100. [Lesson 100: a Russian story](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/100-russian-review-10.cast)
    - Can you read the longest story yet — and what can you do after 100 lessons?
+101. [Why and because in Russian: потому что](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/101-russian-because.cast)
+   - Why and because in Russian: потому что or поэтому?
+102. [Packing in Russian: все эти вещи](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/102-russian-packing.cast)
+   - What happens to plural objects in Russian: книги or книг, друзья or друзей?
+103. [Carrying in Russian: несу or ношу?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/103-russian-carry.cast)
+   - How do you say carry in Russian: несу or ношу?
+104. [Putting things in Russian: поставь, положи, повесь](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/104-russian-put.cast)
+   - How do you say put in Russian: поставь, положи or повесь?
+105. [Formal Russian: ты, вы and Нина Петровна](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/105-russian-formal-you.cast)
+   - When do you say вы in Russian, and how do you address Нина Петровна?
+106. [Three plural endings in Russian: -ам, -ами, -ах](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/106-russian-plural-endings.cast)
+   - Which endings do Russian plurals take for to, with and where, and why are they the same for every gender?
+107. [Across and past in Russian: перейти через, пройти мимо](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/107-russian-commute.cast)
+   - How do you say across, past and up to in Russian: перейти через, пройти мимо?
+108. [Two new chairs in Russian: два новых стула](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/108-russian-two-chairs.cast)
+   - Why do you say два новых стула, with новых, after two in Russian?
+109. [In order to in Russian: чтобы](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/109-russian-in-order-to.cast)
+   - How do you say in order to in Russian, and why does чтобы sometimes take the past?
+110. [An eleventh Russian story: Tom's first week in Petersburg](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/110-russian-review-11.cast)
+   - Can you read Tom's letter home about his first week in Petersburg?
+111. [All six cases in Russian: one table](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/111-russian-case-table.cast)
+   - How do all six Russian cases fit in one table, and which case follows для, от and после?
+112. [Plural cases in Russian: дети, детей, детьми](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/112-russian-plural-table.cast)
+   - How does a Russian plural change through all six cases, and why is it детьми?
+113. [Asking whether in Russian: ли](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/113-russian-whether.cast)
+   - How do you say she asked whether… in Russian: why ли and never если?
+114. [Leading and driving in Russian: веду, везу](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/114-russian-lead-drive.cast)
+   - How do you say you're taking someone, on foot or by car: веду or везу?
+115. [Oneself in Russian: себя, сам, свой](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/115-russian-oneself.cast)
+   - How do you say for myself, by myself and my own in Russian: себя, сам or свой?
+116. [Flying in Russian: лечу or летаю?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/116-russian-fly.cast)
+   - How do you say flying in Russian: лечу or летаю?
+117. [Someone and anything in Russian: кто-то, что-нибудь](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/117-russian-someone.cast)
+   - When do you say кто-то and when кто-нибудь in Russian?
+118. [From two till five in Russian: с двух до пяти](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/118-russian-from-till.cast)
+   - How do you say from two till five, after seven and between two and three in Russian?
+119. [Although and despite in Russian: хотя, несмотря на](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/119-russian-although.cast)
+   - How do you say although and despite in Russian: хотя or несмотря на?
+120. [A twelfth Russian story: white nights](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/120-russian-review-12.cast)
+   - Can you read a story about a white night in Petersburg, when the bridges go up?
+121. [A formal letter in Russian: уважаемый…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/121-russian-formal-letter.cast)
+   - How do you write a formal letter in Russian, from уважаемый to с уважением?
+122. [Word families in Russian: вход, выход, переход](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/122-russian-word-families.cast)
+   - How do Russian words grow from one root: вход, выход, переход, записать, описать?
+123. [Reading the news in Russian: a headline](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/123-russian-news.cast)
+   - How do you read a Russian news headline: why does the verb come before its subject, and where did 'is' go?
+124. [Saying ты at work in Russian: давай на ты](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/124-russian-let-us.cast)
+   - How do you switch from вы to ты in Russian, and how do you say let him and she asked me to?
+125. [Reading participles in Russian: работающий, бывший](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/125-russian-participles-active.cast)
+   - How do you read Russian participles like живущий and бывший?
+126. [Closed and sold out in Russian: закрыто, продано](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/126-russian-participles-passive.cast)
+   - How do Russian signs say closed, open and sold out: закрыто, открыто, продано?
+127. [Doing two things at once in Russian: читая, прочитав](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/127-russian-gerunds.cast)
+   - What do читая and прочитав mean, and how do you read Russian gerunds?
+128. [If only in Russian: если бы](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/128-russian-if-only.cast)
+   - How do you say if only, about what isn't real, in Russian: если бы?
+129. [Used to it in Russian: я привык к…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/129-russian-verb-cases.cast)
+   - Which case comes after a Russian verb like привыкнуть, скучать or бояться?
+130. [Reading Chekhov in Russian: Fat and Thin](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/130-russian-chekhov.cast)
+   - Can you read Chekhov in Russian, and why does the thin one switch from ты to вы?
 
 ---
 

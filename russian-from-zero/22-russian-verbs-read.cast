@@ -109,7 +109,7 @@ B: Я чита́ю, ты чита́ешь, он чита́ет, мы чита́�
     highlight v_ya v_ty v_on v_my v_vy v_oni effect underline color #c9871a
 
 A: Four endings start with е; only я and они́ have ю.
-    highlight v_ty v_on v_my v_vy part е color #c9871a
+    highlight v_ty v_on v_my v_vy part ^чита[е] color #c9871a
 
 A: Now the good news: many verbs ending in ать work just the same.
     highlight inf effect underline color #c9871a
@@ -253,7 +253,7 @@ Next: Where do you live in Russian: я живу в Москве
     link end_next href lecture:23 title "Where do you live in Russian: я живу в Москве" size 320 x 735 y 395
 
     link end_again href lecture:22 title "Watch again" form text open here x 500 y 160
-    text end_count "22 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "22 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

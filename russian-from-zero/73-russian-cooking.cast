@@ -270,7 +270,7 @@ Next: Ordering in a Russian restaurant: принеси́те, пожа́луйс
     link end_next href lecture:74 title "Ordering in a Russian restaurant: принеси́те, пожа́луйста" size 320 x 735 y 395
 
     link end_again href lecture:73 title "Watch again" form text open here x 500 y 160
-    text end_count "73 of 100" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "73 of 130" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
