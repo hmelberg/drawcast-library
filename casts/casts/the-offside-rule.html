@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The offside rule</title>
+<meta name="description" content="A player is offside only if she is past the last defender but one at the moment the ball is played, not when it arrives.">
+<link rel="canonical" href="https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="drawcast">
+<meta property="og:title" content="The offside rule">
+<meta property="og:description" content="A player is offside only if she is past the last defender but one at the moment the ball is played, not when it arrives.">
+<meta property="og:url" content="https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.html">
+<meta property="og:image" content="https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"The offside rule","description":"A player is offside only if she is past the last defender but one at the moment the ball is played, not when it arrives.","inLanguage":"en","learningResourceType":"Narrated drawing","isAccessibleForFree":true,"url":"https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.html","image":"https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.png","author":{"@type":"Person","name":"hmelberg"}}</script>
+<link rel="icon" href="https://www.drawcast.app/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preload" href="the-offside-rule.cast" as="fetch" crossorigin>
+<script type="module" src="https://www.drawcast.app/play.js" crossorigin></script>
+</head>
+<body>
+<style>
+#boot { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; color: #6f685c; font: 1.2rem "Patrick Hand", system-ui, sans-serif; background: #efe9da; }
+#boot img { max-width: min(720px, 90vw); max-height: 70vh; opacity: 0.45; }
+@media (prefers-color-scheme: dark) { #boot { color: #a49b8b; background: #1c1a17; } }
+/* The viewer lays the body out as one centred row (styles.css .viewer-body):
+   wrap it, and give this section a row of its own at the player's width.
+   Laid out so from the first byte, not when the player's stylesheet comes:
+   the player's place (#app) is held at the height the viewer's box will have
+   (styles.css .viewer-wrap: its padding, the frame — stage plus bar — and the
+   row under it), so nothing below moves when it mounts (this section used
+   to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
+   heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
+body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
+  --cs-page-aspect-inv: 0.7500; --cs-page-phone-inv: 1.0250;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-phone-inv, 1.025)), calc(100dvh - 10rem)); } }
+@media (hover: none) { body { --page-bar-h: 66px; } }
+@media (max-width: 560px) { body { --page-bar-h: 55px; } }
+@media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
+/* Its margins fill the row, so this section starts a row of its own even in
+   a window two players wide (1920 px put it beside the player, cut off at the top). */
+#app { flex: 0 0 min(960px, 96vw); margin: 0 calc((100% - min(960px, 96vw)) / 2); min-height: calc(1.2rem + var(--page-stage-h) + var(--page-bar-h) + 2.4rem + 2.5rem); }
+/* One heading: this page's own, with its introduction, replaces the
+   viewer's title line under the player. */
+body.viewer-body .player-meta .player-title { display: none; }
+#drawcast-about { flex: 0 0 min(960px, 96vw); box-sizing: border-box; margin: -1.6rem auto 3rem; padding: 0 0.2rem; font: 1rem/1.55 system-ui, sans-serif; color: inherit; }
+#drawcast-about h1 { font: 1.5rem "Patrick Hand", system-ui, sans-serif; margin: 0.5rem 0 0.3rem; }
+#drawcast-about p { max-width: 46rem; }
+#drawcast-transcript summary { cursor: pointer; opacity: 0.75; }
+</style>
+<div id="boot" role="status"><img src="https://hmelberg.github.io/drawcast-library/casts/casts/the-offside-rule.png" alt="The offside rule"><span>Loading…</span></div>
+<div id="app"></div>
+<noscript><style>#boot { display: none; }</style><p>This drawcast needs JavaScript to play; its transcript is below.</p></noscript>
+<section id="drawcast-about">
+<h1>The offside rule</h1>
+<p class="drawcast-intro">A player is offside only if she is past the last defender but one at the moment the ball is played, not when it arrives.</p>
+<details id="drawcast-transcript">
+<summary>Transcript</summary>
+<p>The offside rule</p>
+<p>A player is offside only if she is past the last defender but one at the moment the ball is played, not when it arrives.</p>
+<p>When is a footballer offside? Here the red team attacks to the right, toward the blue team's goal.</p>
+<p>The red player on the ball wants to pass forward to her teammate, far up the pitch.</p>
+<p>Between that teammate and the goal line stand two defenders: the keeper, and one more.</p>
+<p>The rule watches the last defender but one. Picture a line across the pitch, level with him.</p>
+<p>If the teammate is past that line when the ball is played, she is offside, and the free kick goes to blue.</p>
+<p>So she waits level with the line, or behind it.</p>
+<p>Now she is onside, and the pass is fair.</p>
+<p>Once the ball is played she may sprint past the line to meet it.</p>
+<p>Offside is judged at the moment of the pass, not when the ball arrives.</p>
+<p>She is level with the line when the ball is played, then sprints past it. Offside?</p>
+<p>Not offside: only where she stood at the pass counts, and level is onside.</p>
+<p>So when the flag goes up, think back to the moment of the pass.</p>
+</details>
+</section>
+<!-- The drawcast is the .cast file beside this page; the page plays it. -->
+<script type="text/x-drawcast" id="drawcast-cast" data-src="the-offside-rule.cast" data-gh="hmelberg/drawcast-library/casts/casts/the-offside-rule.cast"></script>
+</body>
+</html>
