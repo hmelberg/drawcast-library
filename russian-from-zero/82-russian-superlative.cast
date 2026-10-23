@@ -45,13 +45,13 @@ level: basic
     text masha_name "Masha" #8f887c x 150 y 340 font_size 32 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, где са́мый лу́чший рестора́н в Москве́?","gloss":"Masha, where's the best restaurant in Moscow?"},{"by":"b","text":"Тут! Мой друг Оле́г рабо́тает тут.","gloss":"Here! My friend Oleg works here."},{"by":"a","text":"Он официа́нт?","gloss":"Is he a waiter?"},{"by":"b","text":"Нет, он по́вар. Лу́чший по́вар в ми́ре!","gloss":"No, he's a cook. The best cook in the world!"},{"by":"a","text":"А что тут са́мое дорого́е?","gloss":"And what's the most expensive thing here?"},{"by":"b","text":"Мя́со. Но са́мый лу́чший — суп.","gloss":"The meat. But the best is the soup."},{"by":"a","text":"Хорошо́, я бу́ду суп.","gloss":"Fine, I'll have the soup."},{"by":"b","text":"И я! Оле́г, два су́па, пожа́луйста!","gloss":"Me too! Oleg, two soups, please!"}] practice true size 1.5 hidden true
     text chto "что → са́мое дорого́е" say "Что тут са́мое дорого́е?" colors {"ое$":"#8a5fa8"} x 500 y 600 font_size 54 hidden true
-    icon q_dress size 170 set twemoji x 500 y 480 icon_look picture of dress hidden true
-    icon q_soup size 170 set twemoji x 500 y 480 or ["steaming bowl","bowl with spoon"] icon_look picture of "pot of food" hidden true
-    icon q_jeans size 170 set twemoji x 500 y 480 icon_look picture of jeans hidden true
+    icon q_dress size 120 set twemoji x 500 y 480 icon_look picture of dress hidden true
+    icon q_soup size 120 set twemoji x 500 y 480 or ["steaming bowl","bowl with spoon"] icon_look picture of "pot of food" hidden true
+    icon q_jeans size 120 set twemoji x 500 y 480 icon_look picture of jeans hidden true
     icon q_city size 180 set twemoji x 500 y 480 or ["classical building"] icon_look picture of cityscape hidden true
     text say_line "Москва́ — са́мый большо́й го́род в Росси́и." say "Москва́ — са́мый большо́й го́род в Росси́и." say_voice b colors {"ый$":"#2f6b8f","ой$":"#2f6b8f"} x 500 y 280 font_size 42 hidden true
-    icon q_coat size 160 set twemoji x 400 y 480 or ["jacket"] icon_look picture of coat hidden true
-    icon q_money size 140 set twemoji x 620 y 480 or ["banknote with dollar sign"] icon_look picture of "money bag" hidden true
+    icon q_coat size 120 set twemoji x 400 y 480 or ["jacket"] icon_look picture of coat hidden true
+    icon q_money size 120 set twemoji x 620 y 480 or ["banknote with dollar sign"] icon_look picture of "money bag" hidden true
     text s_he "са́мый" say са́мый colors {"ый$":"#2f6b8f"} x 200 y 560 font_size 54 hidden true
     text s_she "са́мая" say са́мая colors {"ая$":"#b5482e"} x 400 y 560 font_size 54 hidden true
     text s_it "са́мое" say са́мое colors {"ое$":"#8a5fa8"} x 600 y 560 font_size 54 hidden true
@@ -185,7 +185,7 @@ A: Что тут са́мое дорого́е? With что, the it-form: са́
 
     draw q_dress
 
-    quiz "The most expensive dress: ___ дорого́е пла́тье. Which word fills the gap?" reveal.text "са́мое дорого́е пла́тье" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "The most expensive dress: ___ дорого́е пла́тье. Which word fills the gap?" above q_dress reveal.text "са́мое дорого́е пла́тье" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Са́мое: пла́тье is an it-word, so ое, like дорого́е.
         wrong: It's са́мое: пла́тье is an it-word, with ое like дорого́е.
@@ -197,7 +197,7 @@ A: Что тут са́мое дорого́е? With что, the it-form: са́
 
     draw q_soup
 
-    quiz "What does Э́то лу́чший суп в ми́ре mean?" reveal.text "лу́чший суп в ми́ре" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "What does Э́то лу́чший суп в ми́ре mean?" above q_soup reveal.text "лу́чший суп в ми́ре" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Лу́чший is the best, and в ми́ре, in the world.
         wrong: It's the best soup in the world: лу́чший comes from лу́чше, better.
         * This soup is better than the world.
@@ -208,7 +208,7 @@ A: Что тут са́мое дорого́е? With что, the it-form: са́
 
     draw q_jeans
 
-    quiz "The biggest trousers: which is right?" reveal.text "са́мые больши́е брю́ки" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "The biggest trousers: which is right?" above q_jeans reveal.text "са́мые больши́е брю́ки" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Са́мые больши́е брю́ки: брю́ки are plural, so both words are too.
         wrong: It's са́мые больши́е: брю́ки are always plural, so ые and ие.
         * са́мая больша́я брю́ки
@@ -228,7 +228,7 @@ B: Москва́ — са́мый большо́й го́род в Росси́
 
     draw q_coat q_money
 
-    ask "Now build a whole sentence. Type: This is the most expensive jacket." answer ["это самая дорогая куртка"] reveal.text "са́мая дорога́я ку́ртка" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: This is the most expensive jacket." above ["q_coat","q_money"] answer ["это самая дорогая куртка"] reveal.text "са́мая дорога́я ку́ртка" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Э́то са́мая дорога́я ку́ртка: ая on both, for a she-word.
         wrong: Э́то са́мая дорога́я ку́ртка: э́то, then са́мая and дорога́я, both with ая.
@@ -282,14 +282,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Opinions in Russian: по-мо́ему
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:81 title "Describing people in Russian: похо́ж на па́пу" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:83 title "Opinions in Russian: по-мо́ему" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:83 title "Opinions in Russian: по-мо́ему" form title size 600 x 500 y 420
 
-    link end_again href lecture:82 title "Watch again" form text open here x 500 y 160
-    text end_count "82 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:82 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "82 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

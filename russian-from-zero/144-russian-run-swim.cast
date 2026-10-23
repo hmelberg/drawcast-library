@@ -232,7 +232,7 @@ A: Куда́ ты бежи́шь? — К реке́!
 
     ask say_it "Я бе́гаю ка́ждое у́тро." also ["Ка́ждое у́тро я бе́гаю.","Бе́гаю ка́ждое у́тро.","Я ка́ждое у́тро бе́гаю."] gloss "I run every morning." voice a show cue reveal.text "Я бе́гаю ка́ждое у́тро." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: I'm running to the river (now)." answer ["я бегу к реке","бегу к реке","я к реке бегу","к реке я бегу","я бегу на реку","бегу на реку"] reveal.text "Я бегу́ к реке́." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I'm running to the river (now)." frame true answer ["я бегу к реке","бегу к реке","я к реке бегу","к реке я бегу","я бегу на реку","бегу на реку"] reveal.text "Я бегу́ к реке́." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! One way, now: бегу́.
         wrong: One way, now: я бегу́ к реке́.
@@ -282,14 +282,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Reported speech in Russian: he advised us to go
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:143 title "As soon as and until in Russian: как только, пока не" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:145 title "Reported speech in Russian: he advised us to go" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:145 title "Reported speech in Russian: he advised us to go" form title size 600 x 500 y 420
 
-    link end_again href lecture:144 title "Watch again" form text open here x 500 y 160
-    text end_count "144 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:144 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "144 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

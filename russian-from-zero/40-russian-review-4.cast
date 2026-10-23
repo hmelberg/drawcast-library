@@ -123,7 +123,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase s7 s8 s9
 
-    quiz "Где Ма́ша была́ вчера́? Where was Masha yesterday? Pick one." reveal.text "Вчера́ я была́ в го́роде." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "Где Ма́ша была́ вчера́? Where was Masha yesterday? Pick one." frame true reveal.text "Вчера́ я была́ в го́роде." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the note, from memory.
         right: In town: вчера́ я была́ в го́роде, in the very first line.
         wrong: Look back at the first line: вчера́ я была́…
@@ -133,7 +133,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_1_stamp
 
-    quiz "What was the weather like yesterday? Pick one." reveal.text "Бы́ло о́чень хо́лодно." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "What was the weather like yesterday? Pick one." frame true reveal.text "Бы́ло о́чень хо́лодно." reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Very cold. Warm is for tomorrow.
         wrong: Warm is for tomorrow. What was it like yesterday?
         * Бы́ло жа́рко.
@@ -142,14 +142,14 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_2_stamp
 
-    ask "Masha drank coffee with milk. Type the missing word: ко́фе с …" answer ["молоком"] reveal.text "ко́фе с молоко́м" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "Masha drank coffee with milk. Type the missing word: ко́фе с …" frame true answer ["молоком"] reveal.text "ко́фе с молоко́м" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Молоко́м: after с, молоко́ takes ом.
         wrong: Start from молоко́ and add the with-ending, ом.
 
     erase question_3_stamp
 
-    quiz "Who did Masha watch the film with? Pick one." reveal.text "Я смотре́ла фильм с бра́том." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1 pool false
+    quiz "Who did Masha watch the film with? Pick one." frame true reveal.text "Я смотре́ла фильм с бра́том." reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1 pool false
         right: With her brother, Ivan.
         wrong: Not mum, and not a sister. Who is Ivan?
         * с ма́мой
@@ -158,7 +158,7 @@ A: Last, ты хо́чешь в парк? Do you want to come to the park? Masha
 
     erase question_4_stamp
 
-    quiz "What will Masha do tomorrow morning? Pick one." reveal.text "У́тром я бу́ду чита́ть." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "What will Masha do tomorrow morning? Pick one." frame true reveal.text "У́тром я бу́ду чита́ть." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: Read: у́тром я бу́ду чита́ть, and then the park.
         wrong: Work is today, and the bank was yesterday.
         * Она́ бу́дет рабо́тать.
@@ -214,14 +214,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Please say it again in Russian: повторите
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:39 title "Whose is it in Russian: чей, чья, чьё" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:41 title "Please say it again in Russian: повторите" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:41 title "Please say it again in Russian: повторите" form title size 600 x 500 y 420
 
-    link end_again href lecture:40 title "Watch again" form text open here x 500 y 160
-    text end_count "40 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:40 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "40 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

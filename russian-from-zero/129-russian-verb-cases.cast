@@ -120,7 +120,7 @@ A: Мы наде́емся на хоро́шую пого́ду. Молоде́�
 A: Напиши́те по-ру́сски: I miss Moscow.
     text b1_cue "I miss Moscow." #3d3833 x 500 y 560 font_size 56
 
-    ask "Напиши́те: I miss Moscow." answer ["я скучаю по москве","скучаю по москве","я по москве скучаю"] reveal.text "Я скуча́ю по Москве́." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: I miss Moscow." above b1_cue answer ["я скучаю по москве","скучаю по москве","я по москве скучаю"] reveal.text "Я скуча́ю по Москве́." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Скуча́ть по, and the to-ending.
         wrong: Скуча́ть по, then the to-ending: по Москве́.
@@ -184,7 +184,7 @@ A: Я привы́к к Петербу́ргу.
 
     erase t_gaps
 
-    quiz "She is afraid of the exam. Вы́берите." store q_fear reveal.text "Она́ бои́тся экза́мена." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "She is afraid of the exam. Вы́берите." frame true store q_fear reveal.text "Она́ бои́тся экза́мена." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: Боя́ться takes the of-ending.
         wrong: Боя́ться, then the of-ending: экза́мена.
         + Она́ бои́тся экза́мена.
@@ -197,7 +197,7 @@ A: Я привы́к к Петербу́ргу.
 
     erase reveal_3_stamp
 
-    ask "Напиши́те: I'm interested in history." answer ["я интересуюсь историей","интересуюсь историей","я историей интересуюсь"] reveal.text "Я интересу́юсь исто́рией." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I'm interested in history." frame true answer ["я интересуюсь историей","интересуюсь историей","я историей интересуюсь"] reveal.text "Я интересу́юсь исто́рией." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Интересова́ться, then the with-ending.
         wrong: Интересова́ться, then the with-ending: исто́рией.
@@ -250,14 +250,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Reading Chekhov in Russian: Fat and Thin
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:128 title "If only in Russian: если бы" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:130 title "Reading Chekhov in Russian: Fat and Thin" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:130 title "Reading Chekhov in Russian: Fat and Thin" form title size 600 x 500 y 420
 
-    link end_again href lecture:129 title "Watch again" form text open here x 500 y 160
-    text end_count "129 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:129 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "129 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

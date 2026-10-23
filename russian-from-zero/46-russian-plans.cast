@@ -44,11 +44,11 @@ level: basic
     icon f_tom size 150 set twemoji x 300 y 500 or ["person"] icon_look picture of man hidden true
     text f_m "ты свобо́ден" #3d3833 say "ты свобо́ден" say_voice b x 300 y 360 font_size 56 hidden true
     text f_byl "был  →  была́" #8f887c say "был, была́" colors {"а$":"#b5482e"} x 500 y 250 font_size 46 hidden true
-    icon t1_pic size 130 set twemoji x 500 y 570 or ["girl"] icon_look picture of woman hidden true
-    icon t2_pic size 130 set twemoji x 500 y 570 or ["performing arts"] icon_look picture of "performing arts" hidden true
-    icon t3_pic size 130 set twemoji x 500 y 570 or ["calendar"] icon_look picture of "spiral calendar" hidden true
-    icon t4_pic size 130 set twemoji x 500 y 570 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
-    icon t5_pic size 130 set twemoji x 500 y 570 or ["family: man, woman, boy","people holding hands"] icon_look picture of family hidden true
+    icon t1_pic size 120 set twemoji x 500 y 570 or ["girl"] icon_look picture of woman hidden true
+    icon t2_pic size 120 set twemoji x 500 y 570 or ["performing arts"] icon_look picture of "performing arts" hidden true
+    icon t3_pic size 120 set twemoji x 500 y 570 or ["calendar"] icon_look picture of "spiral calendar" hidden true
+    icon t4_pic size 120 set twemoji x 500 y 570 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
+    icon t5_pic size 120 set twemoji x 500 y 570 or ["family: man, woman, boy","people holding hands"] icon_look picture of family hidden true
     text pc_k1 "free?" #8f887c x 150 y 590 font_size 32 hidden true
     text pc_1 "Ты свобо́ден / свобо́дна?" #3d3833 say "Ты свобо́ден? Ты свобо́дна?" x 560 y 590 font_size 50 hidden true
     text pc_k2 "let's go" #8f887c x 150 y 505 font_size 32 hidden true
@@ -170,7 +170,7 @@ B: And свобо́ден has an extra е before н; свобо́дна does wit
 
     draw t1_pic
 
-    quiz "Tom asks Masha: Ты … в суббо́ту? Which word fills the gap?" reveal.text "Ты свобо́дна в суббо́ту?" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 store q1 voice a test t1
+    quiz "Tom asks Masha: Ты … в суббо́ту? Which word fills the gap?" above t1_pic reveal.text "Ты свобо́дна в суббо́ту?" reveal.style label reveal.size 64 reveal.color #3d3833 store q1 voice a test t1
         intro: Five questions now, then your score.
         right: Свобо́дна: Masha is a woman, so the а.
         wrong: Masha is a woman: свобо́дна, with the а of была́.
@@ -184,7 +184,7 @@ B: And свобо́ден has an extra е before н; свобо́дна does wit
 
     draw t2_pic
 
-    quiz "Suggest the theatre to a friend. Pick one." reveal.text "Дава́й пойдём в теа́тр!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 store q2 voice b test t1
+    quiz "Suggest the theatre to a friend. Pick one." above t2_pic reveal.text "Дава́й пойдём в теа́тр!" reveal.style label reveal.size 64 reveal.color #3d3833 store q2 voice b test t1
         right: В теа́тр: where to, and теа́тр stays as it is.
         wrong: You're going there, so в, and теа́тр stays as it is: в теа́тр.
         * Дава́й пойдём в теа́тре!
@@ -197,7 +197,7 @@ B: And свобо́ден has an extra е before н; свобо́дна does wit
 
     draw t3_pic
 
-    ask "Tom asks: Ты свобо́дна в ___? Make it Friday." answer ["пятницу"] default пятницу reveal.text "в пя́тницу" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 store q3 voice a test t1
+    ask "Tom asks: Ты свобо́дна в ___? Make it Friday." above t3_pic answer ["пятницу"] default пятницу reveal.text "в пя́тницу" reveal.style label reveal.size 64 reveal.color #3d3833 store q3 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Пя́тницу: пя́тница's а becomes у after в.
         wrong: Start from пя́тница; after в, its а becomes у: в пя́тницу.
@@ -208,7 +208,7 @@ B: And свобо́ден has an extra е before н; свобо́дна does wit
 
     draw t4_pic
 
-    quiz "Masha says: дава́й пойдём в парк! You're free. What do you answer? Pick one." reveal.text "Да, дава́й!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 store q4 voice b test t1
+    quiz "Masha says: дава́й пойдём в парк! You're free. What do you answer? Pick one." above t4_pic reveal.text "Да, дава́й!" reveal.style label reveal.size 64 reveal.color #3d3833 store q4 voice b test t1
         right: Да, дава́й: yes, let's!
         wrong: Не могу́ and мне ну́жно рабо́тать say no. Yes is да, дава́й!
         * Не могу́.
@@ -221,7 +221,7 @@ B: And свобо́ден has an extra е before н; свобо́дна does wit
 
     draw t5_pic
 
-    quiz "Now ask Masha's mum and dad to the cinema. Pick one." reveal.text "Дава́йте пойдём в кино́!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 store q5 voice a test t1
+    quiz "Now ask Masha's mum and dad to the cinema. Pick one." above t5_pic reveal.text "Дава́йте пойдём в кино́!" reveal.style label reveal.size 64 reveal.color #3d3833 store q5 voice a test t1
         right: Дава́йте: two people, so the те.
         wrong: Two people get вы, so add the те: дава́йте.
         * Дава́й пойдём в кино́!
@@ -283,14 +283,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Travel in Russian: поезд, самолёт, билет
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:45 title "A present for mum in Russian: маме, брату" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:47 title "Travel in Russian: поезд, самолёт, билет" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:47 title "Travel in Russian: поезд, самолёт, билет" form title size 600 x 500 y 420
 
-    link end_again href lecture:46 title "Watch again" form text open here x 500 y 160
-    text end_count "46 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:46 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "46 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

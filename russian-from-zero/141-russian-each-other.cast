@@ -136,7 +136,7 @@ A: Ма́ша и Ива́н ча́сто говоря́т друг с дру́г
 A: Напиши́те по-ру́сски: they help each other.
     draw b1_cue
 
-    ask "Напиши́те: They help each other." answer ["они помогают друг другу","помогают друг другу","они друг другу помогают"] reveal.text "Они́ помога́ют друг дру́гу." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: They help each other." above b1_cue answer ["они помогают друг другу","помогают друг другу","они друг другу помогают"] reveal.text "Они́ помога́ют друг дру́гу." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Помога́ть кому́: друг дру́гу.
         wrong: Помога́ть кому́? The to-form: друг дру́гу.
@@ -222,7 +222,7 @@ A: Ма́ша. Послу́шайте и напиши́те.
 
     ask say_it "Мы понима́ем друг дру́га без слов." also ["Мы друг дру́га понима́ем без слов.","Мы без слов понима́ем друг дру́га.","Понима́ем друг дру́га без слов.","Мы понима́ем без слов друг дру́га."] gloss "We understand each other without words." voice a show cue reveal.text "Мы понима́ем друг дру́га без слов." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 52 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: Masha's mum invited me." answer ["мама маши пригласила меня","мама маши меня пригласила","меня пригласила мама маши","меня мама маши пригласила"] reveal.text "Ма́ма Ма́ши пригласи́ла меня́." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Masha's mum invited me." frame true answer ["мама маши пригласила меня","мама маши меня пригласила","меня пригласила мама маши","меня мама маши пригласила"] reveal.text "Ма́ма Ма́ши пригласи́ла меня́." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Пригласи́ла: she invited.
         wrong: Ма́ма Ма́ши пригласи́ла меня́: Masha's mum, then the verb.
@@ -274,14 +274,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Passive in Russian: билеты продаются, каток открывается
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:140 title "A fourteenth Russian story: the wedding banquet" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:142 title "Passive in Russian: билеты продаются, каток открывается" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:142 title "Passive in Russian: билеты продаются, каток открывается" form title size 600 x 500 y 420
 
-    link end_again href lecture:141 title "Watch again" form text open here x 500 y 160
-    text end_count "141 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:141 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "141 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

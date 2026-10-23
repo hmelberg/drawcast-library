@@ -180,7 +180,7 @@ B: Был comes from быть, to be, in just the same way.
 
     draw q5_text
 
-    quiz "What does Вчера́ коты́ бы́ли тут mean?" say_answer false reveal.text "= yesterday the cats were here" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 46 reveal.color #3d3833 voice a test t1
+    quiz "What does Вчера́ коты́ бы́ли тут mean?" above q5_text say_answer false reveal.text "= yesterday the cats were here" reveal.style label reveal.size 46 reveal.color #3d3833 voice a test t1
         right: Вчера́ is yesterday, and коты́ бы́ли is the cats were: more than one, so и.
         wrong: Is it today or yesterday, and one cat or more?
         + Yesterday the cats were here
@@ -240,14 +240,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I like it in Russian: мне нравится
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:17 title "Who, what, when in Russian: кто, что, когда" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:19 title "I like it in Russian: мне нравится" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:19 title "I like it in Russian: мне нравится" form title size 600 x 500 y 420
 
-    link end_again href lecture:18 title "Watch again" form text open here x 500 y 160
-    text end_count "18 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:18 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "18 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -40,14 +40,14 @@ level: basic
     text rx_g "prescription · recipe" #8f887c x 520 y 290 font_size 36 hidden true
     text d3 "Не забу́дьте реце́пт!" say "Не забу́дьте реце́пт!" say_voice b x 500 y 180 font_size 60 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"b","text":"Здра́вствуйте! Что у вас боли́т?","gloss":"Hello! What's wrong?"},{"by":"a","text":"У меня́ боли́т го́рло, и у меня́ ка́шель.","gloss":"My throat hurts, and I have a cough."},{"by":"b","text":"Кака́я у вас температу́ра?","gloss":"What's your temperature?"},{"by":"a","text":"Три́дцать во́семь. Мне пло́хо.","gloss":"Thirty-eight. I feel awful."},{"by":"b","text":"Вот реце́пт. Вы должны́ принима́ть лека́рство три ра́за в день.","gloss":"Here's a prescription. You must take the medicine three times a day."},{"by":"a","text":"Спаси́бо. А как называ́ется лека́рство?","gloss":"Thank you. And what's the medicine called?"},{"by":"b","text":"Вот, в реце́пте. Не забу́дьте: три ра́за в день!","gloss":"Here, on the prescription. Don't forget: three times a day!"}] show_gloss false practice true size 1.2 x 500 width 680 hidden true
-    icon q_cough size 170 set twemoji x 500 y 480 or ["face with medical mask"] icon_look picture of "sneezing face" hidden true
-    icon q_rx size 160 set twemoji x 500 y 480 or ["memo"] icon_look picture of "page facing up" hidden true
-    icon q_pill1 size 130 set twemoji x 420 y 480 or ["syringe"] icon_look picture of pill hidden true
-    icon q_pill2 size 130 set twemoji x 580 y 480 or ["syringe"] icon_look picture of pill hidden true
+    icon q_cough size 120 set twemoji x 500 y 480 or ["face with medical mask"] icon_look picture of "sneezing face" hidden true
+    icon q_rx size 120 set twemoji x 500 y 480 or ["memo"] icon_look picture of "page facing up" hidden true
+    icon q_pill1 size 120 set twemoji x 420 y 480 or ["syringe"] icon_look picture of pill hidden true
+    icon q_pill2 size 120 set twemoji x 580 y 480 or ["syringe"] icon_look picture of pill hidden true
     icon q_fever size 170 set twemoji x 400 y 480 or ["thermometer"] icon_look picture of "face with thermometer" hidden true
     icon q_cough2 size 170 set twemoji x 600 y 480 or ["face with medical mask"] icon_look picture of "sneezing face" hidden true
     text q_say "У меня́ температу́ра и ка́шель." say "У меня́ температу́ра и ка́шель." x 500 y 300 font_size 56 hidden true
-    icon q_doc size 150 set twemoji x 500 y 520 or ["woman","girl"] icon_look picture of "woman health worker" hidden true
+    icon q_doc size 120 set twemoji x 500 y 520 or ["woman","girl"] icon_look picture of "woman health worker" hidden true
     text q_b1 "Вы должны́ принима́ть лека́рство" say "Вы должны́ принима́ть лека́рство три ра́за в день." x 500 y 340 font_size 54 hidden true
     text q_b2 "три ра́за в день." say "Вы должны́ принима́ть лека́рство три ра́за в день." x 500 y 260 font_size 54 hidden true
     text sum1 "У меня́ температу́ра и ка́шель." say "У меня́ температу́ра и ка́шель." x 500 y 560 font_size 54 hidden true
@@ -166,7 +166,7 @@ A: Now the whole visit. Listen, then practise it.
 
     draw q_cough
 
-    quiz "You have a cough. Tell the doctor." reveal.text "У меня́ ка́шель." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "You have a cough. Tell the doctor." above q_cough reveal.text "У меня́ ка́шель." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: У меня́ ка́шель: with у меня́, and no есть.
         wrong: Say it the way you say у меня́ боли́т го́рло.
@@ -178,7 +178,7 @@ A: Now the whole visit. Listen, then practise it.
 
     draw q_rx
 
-    quiz "The doctor doesn't want you to forget your prescription. What does she say?" reveal.text "Не забу́дьте реце́пт!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "The doctor doesn't want you to forget your prescription. What does she say?" above q_rx reveal.text "Не забу́дьте реце́пт!" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Не забу́дьте реце́пт: don't forget, and реце́пт is the prescription.
         wrong: Don't forget needs не; the prescription is реце́пт.
         + Не забу́дьте реце́пт!
@@ -189,7 +189,7 @@ A: Now the whole visit. Listen, then practise it.
 
     draw q_pill1 q_pill2
 
-    quiz "The doctor says: Вы должны́ принима́ть лека́рство два ра́за в день. How often?" say_answer false reveal.text "два ра́за в день" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "The doctor says: Вы должны́ принима́ть лека́рство два ра́за в день. How often?" above ["q_pill1","q_pill2"] say_answer false reveal.text "два ра́за в день" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Twice a day: два ра́за в день.
         wrong: Ра́за counts the times; в день is a day.
         * once a day
@@ -211,7 +211,7 @@ A: У меня́ температу́ра и ка́шель.
 
     draw q_doc
 
-    ask "Now build a whole sentence. Tell a patient (вы): You must take the medicine three times a day." answer ["вы должны принимать лекарство три раза в день","должны принимать лекарство три раза в день","вы должны принимать лекарство три раза в день."] voice b test t1
+    ask "Now build a whole sentence. Tell a patient (вы): You must take the medicine three times a day." above q_doc answer ["вы должны принимать лекарство три раза в день","должны принимать лекарство три раза в день","вы должны принимать лекарство три раза в день."] voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Должны́ for вы, then the doing verb, because it's again and again.
         wrong: Start with вы, then must for вы, then to take, medicine, and three times a day.
@@ -268,14 +268,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Jobs in Russian: кем вы рабо́таете?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:75 title "Shopping in Russian: можно примерить?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:77 title "Jobs in Russian: кем вы рабо́таете?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:77 title "Jobs in Russian: кем вы рабо́таете?" form title size 600 x 500 y 420
 
-    link end_again href lecture:76 title "Watch again" form text open here x 500 y 160
-    text end_count "76 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:76 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "76 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -156,7 +156,7 @@ A: Сего́дня Ма́ша уже́ уе́хала на рабо́ту. Мо
 A: Напиши́те по-ру́сски, as Masha.
     draw b1_cue
 
-    ask "Напиши́те: I leave for work at eight." answer ["я ухожу на работу в восемь","ухожу на работу в восемь","я в восемь ухожу на работу","в восемь я ухожу на работу","я ухожу в восемь на работу","в восемь ухожу на работу","я уезжаю на работу в восемь","уезжаю на работу в восемь","в восемь я уезжаю на работу","я ухожу на работу в 8","ухожу на работу в 8","в 8 я ухожу на работу","я уезжаю на работу в 8"] reveal.text "Я ухожу́ на рабо́ту в во́семь." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice a
+    ask "Напиши́те: I leave for work at eight." above b1_cue answer ["я ухожу на работу в восемь","ухожу на работу в восемь","я в восемь ухожу на работу","в восемь я ухожу на работу","я ухожу в восемь на работу","в восемь ухожу на работу","я уезжаю на работу в восемь","уезжаю на работу в восемь","в восемь я уезжаю на работу","я ухожу на работу в 8","ухожу на работу в 8","в 8 я ухожу на работу","я уезжаю на работу в 8"] reveal.text "Я ухожу́ на рабо́ту в во́семь." reveal.style label reveal.size 56 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Every day: ухожу́.
         wrong: Every day, so ухожу́: я ухожу́ на рабо́ту в во́семь.
@@ -229,7 +229,7 @@ A: Том, сходи́ в магази́н, пожа́луйста.
 
     ask say_it "Сходи́ в магази́н, пожа́луйста." also ["Пожа́луйста, сходи́ в магази́н.","Сходи́те в магази́н, пожа́луйста.","Сходи́ в магази́н."] gloss "Pop to the shop, please." voice a show cue reveal true test t1
 
-    ask "Напиши́те: I won't make it in time (once, tonight)." answer ["я не успею","не успею","я не успею сегодня","сегодня я не успею","я сегодня не успею"] reveal.text "Я не успе́ю." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I won't make it in time (once, tonight)." frame true answer ["я не успею","не успею","я не успею сегодня","сегодня я не успею","я сегодня не успею"] reveal.text "Я не успе́ю." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Once: успе́ть, я не успе́ю.
         wrong: Once, so успе́ть: я не успе́ю.
@@ -282,14 +282,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Don't forget in Russian: aspect after не
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:133 title "Away and around in Russian: отнести, обойти, сойти" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:135 title "Don't forget in Russian: aspect after не" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:135 title "Don't forget in Russian: aspect after не" form title size 600 x 500 y 420
 
-    link end_again href lecture:134 title "Watch again" form text open here x 500 y 160
-    text end_count "134 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:134 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "134 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

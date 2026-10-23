@@ -96,7 +96,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     hide story s1_g_1 s1_g_2 s1_g_3 s1_g_4 s1_g_5 s1_g_6 s1_g_7 s2_g_1 s2_g_2 s2_g_3 s2_g_4 s3_g_1 s3_g_2 s3_g_3 s3_g_4 s3_g_5 s3_g_6 s3_g_7 s4_g_1 s4_g_2 s4_g_3 s4_g_4 s5_g_1 s5_g_2 s5_g_3 s5_g_4 s5_g_5 s6_g_1 s6_g_2 s6_g_3 s6_g_4 s6_g_5 s7_g_1 s7_g_2 s7_g_3 s7_g_4 s7_g_5 s7_g_6 s7_g_7 s7_g_8 s7_g_9
 
-    quiz "What day is it in the story? Pick one." reveal.text "Сего́дня суббо́та." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "What day is it in the story? Pick one." frame true reveal.text "Сего́дня суббо́та." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Saturday: the story's very first words.
         wrong: Look back at the first line: сего́дня… which day?
@@ -106,7 +106,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_1_stamp
 
-    quiz "What does Masha want? Pick one." reveal.text "Ма́ша хо́чет во́ду." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "What does Masha want? Pick one." frame true reveal.text "Ма́ша хо́чет во́ду." reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Water, with the object ending; Tom has the coffee.
         wrong: Tom has the coffee; look at the second half of line three.
         * ко́фе
@@ -115,14 +115,14 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_2_stamp
 
-    ask "How much is the coffee? Type the number in Russian." answer ["сто","сто рублей"] reveal.text "сто рубле́й" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    ask "How much is the coffee? Type the number in Russian." frame true answer ["сто","сто рублей"] reveal.text "сто рубле́й" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: A hundred: ко́фе сто́ит сто рубле́й.
         wrong: Three letters, and more than пятьдеся́т.
 
     erase reveal_3_stamp
 
-    quiz "Кто на окне́? Who is on the windowsill? Pick one." reveal.text "на окне́ коты́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "Кто на окне́? Who is on the windowsill? Pick one." frame true reveal.text "на окне́ коты́" reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: The cats, and they're a кто, not a что.
         wrong: Line five: кто э́то на окне́? …
         * ма́ма
@@ -131,7 +131,7 @@ B: And Том то́же был там: Tom was there too, and был, for a he,
 
     erase reveal_4_stamp
 
-    quiz "Где была́ Ма́ша вчера́? Where was Masha yesterday? Pick one." reveal.text "на мо́ре" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "Где была́ Ма́ша вчера́? Where was Masha yesterday? Pick one." frame true reveal.text "на мо́ре" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: At the seaside, and Tom was there too.
         wrong: The last line: вчера́ Ма́ша была́ на… what?
         * в рестора́не
@@ -187,14 +187,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: What's your name in Russian: меня зовут
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:19 title "I like it in Russian: мне нравится" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:21 title "What's your name in Russian: меня зовут" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:21 title "What's your name in Russian: меня зовут" form title size 600 x 500 y 420
 
-    link end_again href lecture:20 title "Watch again" form text open here x 500 y 160
-    text end_count "20 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:20 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "20 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

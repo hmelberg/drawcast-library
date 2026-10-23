@@ -38,7 +38,7 @@ heading: false
     icon o_env size 210 set twemoji x 500 y 480 or ["love letter","e-mail"] icon_look picture of envelope hidden true
     text o_head "Письмо́ ма́ме" say "Письмо́ ма́ме" x 500 y 320 font_size 60 hidden true
     text q_title "Six questions" #8f887c x 500 y 640 font_size 44 hidden true
-    icon q_case size 170 set twemoji x 500 y 470 or ["briefcase"] icon_look picture of luggage hidden true
+    icon q_case size 120 set twemoji x 500 y 470 or ["briefcase"] icon_look picture of luggage hidden true
     icon q_tom size 170 set twemoji x 260 y 460 or ["person"] icon_look picture of man hidden true
     text q_tom_n "Том" #8f887c x 260 y 340 font_size 34 hidden true
     icon q_nina size 170 set twemoji x 740 y 460 or ["woman"] icon_look picture of "old woman" hidden true
@@ -160,7 +160,7 @@ B: Now six questions on unit eleven, then your score.
 
     draw q_case
 
-    quiz "Я перее́хал в Петербу́рг, ___ мне предложи́ли рабо́ту." reveal.text "потому́ что" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Я перее́хал в Петербу́рг, ___ мне предложи́ли рабо́ту." above ["q_case","q_title"] reveal.text "потому́ что" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: The job is the reason, and the reason comes after потому́ что.
         wrong: The job is the reason: потому́ что. Поэ́тому brings a result, что́бы a purpose.
         + потому́ что
@@ -272,14 +272,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: All six cases in Russian: one table
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:109 title "In order to in Russian: чтобы" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:111 title "All six cases in Russian: one table" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:111 title "All six cases in Russian: one table" form title size 600 x 500 y 420
 
-    link end_again href lecture:110 title "Watch again" form text open here x 500 y 160
-    text end_count "110 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:110 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "110 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

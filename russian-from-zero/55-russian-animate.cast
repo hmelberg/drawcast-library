@@ -131,9 +131,9 @@ A: Ви́жу по́езд, but ви́жу кота́: the train is a thing, and
 
     hide masha masha_name tom tom_name
 
-    icon q_friend size 170 set twemoji x 500 y 470 or ["man","person"] icon_look picture of "man raising hand"
+    icon q_friend size 120 set twemoji x 500 y 470 or ["man","person"] icon_look picture of "man raising hand"
 
-    quiz "Tom sees his friend. Я ви́жу ___. Which word fills the gap?" reveal.text "Я ви́жу дру́га." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom sees his friend. Я ви́жу ___. Which word fills the gap?" above q_friend reveal.text "Я ви́жу дру́га." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Дру́га: a friend is alive, so he takes the of-ending а.
         wrong: A friend is alive, so after ви́жу he takes the of-ending: друг adds а.
@@ -143,10 +143,10 @@ A: Ви́жу по́езд, but ви́жу кота́: the train is a thing, and
 
     erase q_friend
 
-    icon q_house size 160 set twemoji x 380 y 470 or ["house with garden"] icon_look picture of house
-    icon q_cat size 160 set twemoji x 620 y 470 or ["cat face"] icon_look picture of cat
+    icon q_house size 120 set twemoji x 380 y 470 or ["house with garden"] icon_look picture of house
+    icon q_cat size 120 set twemoji x 620 y 470 or ["cat face"] icon_look picture of cat
 
-    quiz "Masha sees a house and a cat. Which is right?" reveal.text "Я ви́жу дом и кота́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha sees a house and a cat. Which is right?" above ["q_cat","q_house"] reveal.text "Я ви́жу дом и кота́." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: The house is a thing and stays дом; the cat is alive: кота́.
         wrong: Which of the two is alive?
         * Я ви́жу дом и кот.
@@ -155,9 +155,9 @@ A: Ви́жу по́езд, but ви́жу кота́: the train is a thing, and
 
     erase q_house q_cat
 
-    icon q_dad size 170 set twemoji x 500 y 470 or ["bearded person","person"] icon_look picture of "man: beard"
+    icon q_dad size 120 set twemoji x 500 y 470 or ["bearded person","person"] icon_look picture of "man: beard"
 
-    quiz "Masha is waiting for her dad. Я жду ___. Which is right?" reveal.text "Я жду па́пу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha is waiting for her dad. Я жду ___. Which is right?" above q_dad reveal.text "Я жду па́пу." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Па́пу: па́па ends in а, so it goes like ма́ма, ма́му.
         wrong: Па́па ends in а, like ма́ма. What did ма́ма become after ви́жу?
         + па́пу
@@ -177,9 +177,9 @@ B: Бра́та! Я жду бра́та.
 
     erase q_station q_say q_masha
 
-    icon q_teach size 170 set twemoji x 500 y 470 or ["teacher","man"] icon_look picture of "man teacher"
+    icon q_teach size 120 set twemoji x 500 y 470 or ["teacher","man"] icon_look picture of "man teacher"
 
-    ask "Now build a whole sentence. Type: I'm waiting for the teacher." answer ["я жду учителя","жду учителя"] reveal.text "Я жду учи́теля." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I'm waiting for the teacher." above q_teach answer ["я жду учителя","жду учителя"] reveal.text "Я жду учи́теля." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я жду учи́теля: the ь of учи́тель becomes я.
         wrong: Start with я жду, then учи́тель: what does a living he become?
@@ -235,14 +235,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I work as a doctor in Russian: рабо́таю врачо́м
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:54 title "Dates in Russian: первое мая" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:56 title "I work as a doctor in Russian: рабо́таю врачо́м" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:56 title "I work as a doctor in Russian: рабо́таю врачо́м" form title size 600 x 500 y 420
 
-    link end_again href lecture:55 title "Watch again" form text open here x 500 y 160
-    text end_count "55 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:55 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "55 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -31,13 +31,13 @@ heading: false
     icon open_pot size 110 set twemoji x 420 y 240 or ["bread"] icon_look picture of egg hidden true
     icon open_bag size 110 set twemoji x 580 y 240 or ["shopping cart"] icon_look picture of "shopping bags" hidden true
     icon open_phone size 110 set twemoji x 740 y 240 or ["telephone"] icon_look picture of "mobile phone" hidden true
-    icon q_money size 170 set twemoji x 500 y 480 or ["coin"] icon_look picture of "money bag" hidden true
+    icon q_money size 120 set twemoji x 500 y 480 or ["coin"] icon_look picture of "money bag" hidden true
     icon q_man size 180 set twemoji x 280 y 300 or ["person in tuxedo","man"] icon_look picture of "man in tuxedo" hidden true
     text q_waiter "официа́нт" #8f887c say официа́нт x 280 y 170 font_size 36 hidden true
     icon q_plate size 130 set twemoji x 500 y 290 or ["fork and knife"] icon_look picture of "fork and knife with plate" hidden true
     icon q_woman size 180 set twemoji x 720 y 280 or ["person"] icon_look picture of woman hidden true
-    icon q_pill size 160 set twemoji x 500 y 480 or ["face with thermometer"] icon_look picture of pill hidden true
-    icon q_phone size 160 set twemoji x 500 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
+    icon q_pill size 120 set twemoji x 500 y 480 or ["face with thermometer"] icon_look picture of pill hidden true
+    icon q_phone size 120 set twemoji x 500 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon q_receiver size 150 set twemoji x 500 y 500 or ["telephone"] icon_look picture of "telephone receiver" hidden true
     text q_say "Ма́ма, я тебе́ перезвоню́!" say "Ма́ма, я тебе́ перезвоню́!" x 500 y 320 font_size 56 hidden true
     icon score_woman size 200 set twemoji x 500 y 440 or ["person"] icon_look picture of woman hidden true
@@ -159,7 +159,7 @@ A: And должна́ перезвони́ть: she must call Mum back. Пять
 B: Now five questions, then your score.
     draw q_money
 
-    quiz "Пять ты́сяч ___. Which form of рубль?" reveal.text "Пять ты́сяч рубле́й." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Пять ты́сяч ___. Which form of рубль?" above q_money reveal.text "Пять ты́сяч рубле́й." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: After five, the many-ending, on both words.
         wrong: After пять it's рубле́й. Рубля́ goes after two, three and four.
         + рубле́й
@@ -188,7 +188,7 @@ B: На второ́е я бу́ду мя́со с карто́шкой.
 
     draw q_pill
 
-    quiz "In Masha's day, who has a cough, ка́шель?" reveal.text "У То́ма ка́шель." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
+    quiz "In Masha's day, who has a cough, ка́шель?" above q_pill reveal.text "У То́ма ка́шель." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
         right: Tom has the cough, and takes medicine three times a day.
         wrong: It's Tom: у То́ма ка́шель, a cough.
         * ма́ма
@@ -199,7 +199,7 @@ B: На второ́е я бу́ду мя́со с карто́шкой.
 
     draw q_phone
 
-    ask "Now build a sentence. Type: I must call Mum back." answer ["я должна перезвонить маме","я должен перезвонить маме","я должна маме перезвонить","я должен маме перезвонить","мне надо перезвонить маме","мне нужно перезвонить маме"] reveal.text "Я должна́ перезвони́ть ма́ме." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Now build a sentence. Type: I must call Mum back." above q_phone answer ["я должна перезвонить маме","я должен перезвонить маме","я должна маме перезвонить","я должен маме перезвонить","мне надо перезвонить маме","мне нужно перезвонить маме"] reveal.text "Я должна́ перезвони́ть ма́ме." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я до́лжен, or я должна́, then перезвони́ть ма́ме: Mum takes the to-ending.
         wrong: Start with я до́лжен or я должна́, then перезвони́ть, then ма́ме.
@@ -271,14 +271,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Describing people in Russian: похо́ж на па́пу
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:79 title "On the phone in Russian: алло́, перезвоню́" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:81 title "Describing people in Russian: похо́ж на па́пу" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:81 title "Describing people in Russian: похо́ж на па́пу" form title size 600 x 500 y 420
 
-    link end_again href lecture:80 title "Watch again" form text open here x 500 y 160
-    text end_count "80 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:80 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "80 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -140,7 +140,7 @@ B: Whoever it is, зову́т stays put, and so does the name; you only pick th
 
     hide board
 
-    quiz "You meet Masha's teacher for the first time. What do you ask?" store q1 reveal.text "Здра́вствуйте! Как вас зову́т?" reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "You meet Masha's teacher for the first time. What do you ask?" frame true store q1 reveal.text "Здра́вствуйте! Как вас зову́т?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: A teacher you've just met gets вы, so вас.
         wrong: Would you greet her with приве́т, or with здра́вствуйте?
@@ -153,7 +153,7 @@ B: Whoever it is, зову́т stays put, and so does the name; you only pick th
 
     erase q_teacher q1_stamp
 
-    ask "You're Tom. Tell Masha your name: … зову́т Том. Type the missing word." answer ["меня"] store a2 default меня reveal.text "Меня́ зову́т Том." reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "You're Tom. Tell Masha your name: … зову́т Том. Type the missing word." frame true answer ["меня"] store a2 default меня reveal.text "Меня́ зову́т Том." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Меня́: me, they call Tom.
         wrong: Not я: the word for me, as in Masha's own answer.
@@ -164,7 +164,7 @@ B: Whoever it is, зову́т stays put, and so does the name; you only pick th
 
     erase q_tom a2_stamp
 
-    quiz "Tom tells a friend about Masha's brother: … зову́т Ива́н. Pick the missing word." store q3 reveal.text "Его́ зову́т Ива́н." reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom tells a friend about Masha's brother: … зову́т Ива́н. Pick the missing word." frame true store q3 reveal.text "Его́ зову́т Ива́н." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ivan is a he, and it's said ye-VO.
         wrong: Ivan is a he: which word goes with он?
         * Меня́
@@ -177,7 +177,7 @@ B: Whoever it is, зову́т stays put, and so does the name; you only pick th
 
     erase q_bro q3_stamp
 
-    quiz "Which question asks Masha her name?" store q4 reveal.text "Как тебя́ зову́т?" reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which question asks Masha her name?" frame true store q4 reveal.text "Как тебя́ зову́т?" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Russians ask how you are called, not what.
         wrong: Word for word it's how do they call you?
         * Что тебя́ зову́т?
@@ -189,7 +189,7 @@ B: Whoever it is, зову́т stays put, and so does the name; you only pick th
 
     erase q_masha q4_stamp
 
-    quiz "Tom says Меня́ зову́т Том. What does Masha say next?" store q5 reveal.text "О́чень прия́тно!" reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom says Меня́ зову́т Том. What does Masha say next?" frame true store q5 reveal.text "О́чень прия́тно!" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Very pleasant, which is nice to meet you.
         wrong: They have only just met. Which did Masha say in the café?
         + О́чень прия́тно!
@@ -253,14 +253,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I read, I know in Russian: читаю, знаю
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:20 title "A second Russian story: read it all yourself" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:22 title "I read, I know in Russian: читаю, знаю" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:22 title "I read, I know in Russian: читаю, знаю" form title size 600 x 500 y 420
 
-    link end_again href lecture:21 title "Watch again" form text open here x 500 y 160
-    text end_count "21 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:21 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "21 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

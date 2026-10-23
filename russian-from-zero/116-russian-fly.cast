@@ -198,7 +198,7 @@ A: Опа́здывать is its often partner: па́па никогда́ не
 
     erase o_late o_often
 
-    ask "Напиши́те: Today I'm flying to Moscow." answer ["сегодня я лечу в москву","я лечу в москву сегодня","я сегодня лечу в москву"] reveal.text "Сего́дня я лечу́ в Москву́." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 56 reveal.color #3d3833 voice a
+    ask "Напиши́те: Today I'm flying to Moscow." frame true answer ["сегодня я лечу в москву","я лечу в москву сегодня","я сегодня лечу в москву"] reveal.text "Сего́дня я лечу́ в Москву́." reveal.style label reveal.size 56 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Лечу́: one flight. Сего́дня я лечу́ в Москву́.
         wrong: One flight, so лечу́: сего́дня я лечу́ в Москву́.
@@ -227,7 +227,7 @@ A: Оте́ц ча́сто лета́ет, и сего́дня он лети́т
 
     erase t_gap
 
-    quiz "Вы́берите: They fly home in a week. Че́рез неде́лю они́ ___." shuffle true reveal.text "Че́рез неде́лю они́ улетя́т." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите: They fly home in a week. Че́рез неде́лю они́ ___." frame true shuffle true reveal.text "Че́рез неде́лю они́ улетя́т." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         right: Улетя́т: у, away.
         wrong: Away is у: улетя́т.
         * прилетя́т
@@ -243,7 +243,7 @@ A: Мои́ роди́тели прилетя́т в пя́тницу.
 
     erase t_say
 
-    ask "Напиши́те: My father often flies to Moscow." answer ["мой отец часто летает в москву","мой отец летает в москву часто","отец часто летает в москву","часто мой отец летает в москву","мой папа часто летает в москву","папа часто летает в москву"] reveal.text "ча́сто лета́ет в Москву́" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: My father often flies to Moscow." frame true answer ["мой отец часто летает в москву","мой отец летает в москву часто","отец часто летает в москву","часто мой отец летает в москву","мой папа часто летает в москву","папа часто летает в москву"] reveal.text "ча́сто лета́ет в Москву́" reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Лета́ет: often.
         wrong: Often, so лета́ет: мой оте́ц ча́сто лета́ет в Москву́.
@@ -291,14 +291,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Someone and anything in Russian: кто-то, что-нибудь
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:115 title "Oneself in Russian: себя, сам, свой" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:117 title "Someone and anything in Russian: кто-то, что-нибудь" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:117 title "Someone and anything in Russian: кто-то, что-нибудь" form title size 600 x 500 y 420
 
-    link end_again href lecture:116 title "Watch again" form text open here x 500 y 160
-    text end_count "116 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:116 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "116 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -127,9 +127,9 @@ A: Смотри́, он несёт цветы́! Now, so несу́ and несё
 
     erase drill
 
-    icon b_bag size 130 set twemoji x 500 y 470 or ["purse","school backpack"] icon_look picture of handbag
+    icon b_bag size 120 set twemoji x 500 y 470 or ["purse","school backpack"] icon_look picture of handbag
 
-    ask "Напиши́те: Let me carry the bag." answer ["давай я понесу сумку","давайте я понесу сумку","давай понесу сумку","давайте понесу сумку","давай я понесу твою сумку","давайте я понесу вашу сумку","давай я сумку понесу","давайте я сумку понесу"] reveal.text "Дава́й я понесу́ су́мку." reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833 voice b
+    ask "Напиши́те: Let me carry the bag." above b_bag answer ["давай я понесу сумку","давайте я понесу сумку","давай понесу сумку","давайте понесу сумку","давай я понесу твою сумку","давайте я понесу вашу сумку","давай я сумку понесу","давайте я сумку понесу"] reveal.text "Дава́й я понесу́ су́мку." reveal.style label reveal.size 60 reveal.color #3d3833 voice b
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Дава́й я понесу́ су́мку: дава́й to a friend, дава́йте to someone you call вы.
         wrong: Дава́й, then я понесу́, then су́мку: дава́й я понесу́ су́мку.
@@ -194,11 +194,11 @@ B: Ка́ждый день она́ но́сит кни́ги в шко́лу.
 
     erase q_ear
 
-    icon q_man size 160 set twemoji x 400 y 500 or ["older man","old man"] icon_look picture of "man with beard"
+    icon q_man size 120 set twemoji x 400 y 500 or ["older man","old man"] icon_look picture of "man with beard"
     icon q_manbag size 120 set twemoji x 580 y 470 or ["briefcase"] icon_look picture of luggage
     text q_man_w "пассажи́р" #8f887c say пассажи́р x 400 y 370 font_size 36
 
-    quiz "On the platform, right now: Пассажи́р ___ тяжёлый чемода́н." reveal.text "Пассажи́р несёт чемода́н." reveal.at.x 500 reveal.at.y 230 reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
+    quiz "On the platform, right now: Пассажи́р ___ тяжёлый чемода́н." above ["q_man_w","q_man","q_manbag"] reveal.text "Пассажи́р несёт чемода́н." reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
         right: Right now, under way: он несёт.
         wrong: One trip, under way, and he is the one carrying: пассажи́р несёт.
         + несёт
@@ -207,9 +207,9 @@ B: Ка́ждый день она́ но́сит кни́ги в шко́лу.
 
     erase q_man q_manbag q_man_w question_7_stamp
 
-    icon q_heavy size 190 set twemoji x 500 y 480 or ["briefcase"] icon_look picture of luggage
+    icon q_heavy size 120 set twemoji x 500 y 480 or ["briefcase"] icon_look picture of luggage
 
-    quiz "Your friend's suitcase looks heavy. What do you say?" reveal.text "Дава́й я понесу́!" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Your friend's suitcase looks heavy. What do you say?" above q_heavy reveal.text "Дава́й я понесу́!" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Дава́й я понесу́: let me carry it.
         wrong: Offer to carry it: дава́й я понесу́!
         * Я ношу́ су́мку.
@@ -230,9 +230,9 @@ A: Моё ме́сто ря́дом с окно́м.
 
     erase q_seat q_win q_seat_line
 
-    icon q_coat size 170 set twemoji x 500 y 500 or ["jeans"] icon_look picture of coat
+    icon q_coat size 120 set twemoji x 500 y 500 or ["jeans"] icon_look picture of coat
 
-    ask "Напиши́те: I (always) wear a blue jacket." answer ["я ношу синюю куртку","я всегда ношу синюю куртку","я ношу всегда синюю куртку","ношу синюю куртку","я синюю куртку ношу","всегда я ношу синюю куртку","я ношу куртку синюю"] reveal.text "Я ношу́ си́нюю ку́ртку." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Напиши́те: I (always) wear a blue jacket." above q_coat answer ["я ношу синюю куртку","я всегда ношу синюю куртку","я ношу всегда синюю куртку","ношу синюю куртку","я синюю куртку ношу","всегда я ношу синюю куртку","я ношу куртку синюю"] reveal.text "Я ношу́ си́нюю ку́ртку." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я ношу́ си́нюю ку́ртку: clothes you wear take носи́ть.
         wrong: Wearing is носи́ть: я ношу́, then си́нюю ку́ртку.
@@ -289,14 +289,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Putting things in Russian: поставь, положи, повесь
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:102 title "Packing in Russian: все эти вещи" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:104 title "Putting things in Russian: поставь, положи, повесь" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:104 title "Putting things in Russian: поставь, положи, повесь" form title size 600 x 500 y 420
 
-    link end_again href lecture:103 title "Watch again" form text open here x 500 y 160
-    text end_count "103 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:103 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "103 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

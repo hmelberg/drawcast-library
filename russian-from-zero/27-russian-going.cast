@@ -45,11 +45,11 @@ level: basic
     text g3 "в кино́" say "в кино́" x 300 y 290 font_size 46 hidden true
     text k3 "в кино́" say "в кино́" x 700 y 290 font_size 46 hidden true
     group board members ["h_gde","h_kuda","g1","k1","g2","k2","g3","k3"] hidden true
-    icon q_walk size 170 set twemoji x 500 y 470 or ["man walking","walking"] icon_look picture of "person walking" hidden true
-    icon q_school size 170 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school hidden true
-    icon q_park size 170 set twemoji x 500 y 470 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
-    icon q_cinema size 170 set twemoji x 500 y 470 or ["clapper board","film frames"] icon_look picture of cinema hidden true
-    icon q_city size 170 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
+    icon q_walk size 120 set twemoji x 500 y 470 or ["man walking","walking"] icon_look picture of "person walking" hidden true
+    icon q_school size 120 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school hidden true
+    icon q_park size 120 set twemoji x 500 y 470 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
+    icon q_cinema size 120 set twemoji x 500 y 470 or ["clapper board","film frames"] icon_look picture of cinema hidden true
+    icon q_city size 120 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
     icon r1 size 110 set twemoji x 320 y 450 or ["school building","classical building"] icon_look picture of school hidden true
     icon r2 size 110 set twemoji x 440 y 450 or ["office","briefcase"] icon_look picture of "office building" hidden true
     icon r3 size 110 set twemoji x 560 y 450 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
@@ -158,7 +158,7 @@ A: Куда́ asks where you're going, and an а-word takes у; a я-word takes 
 
     draw q_walk
 
-    quiz "Masha asks where Tom is heading: ___ ты идёшь? Which word starts it?" reveal.text "Куда́ ты идёшь?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha asks where Tom is heading: ___ ты идёшь? Which word starts it?" above q_walk reveal.text "Куда́ ты идёшь?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Куда́, where to: где would ask where he is right now.
         wrong: She isn't asking where he is, but where he's going.
@@ -170,7 +170,7 @@ A: Куда́ asks where you're going, and an а-word takes у; a я-word takes 
 
     draw q_school
 
-    ask "Masha's brother walks to school. Type the missing word: Брат идёт в ___." answer ["школу"] reveal.text "в шко́лу" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Masha's brother walks to school. Type the missing word: Брат идёт в ___." above q_school answer ["школу"] reveal.text "в шко́лу" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Шко́лу: going there, the а of шко́ла becomes у.
         wrong: Start from шко́ла; heading there, what happens to its last letter?
@@ -179,7 +179,7 @@ A: Куда́ asks where you're going, and an а-word takes у; a я-word takes 
 
     draw q_park
 
-    quiz "Dad is going to the park. Па́па идёт в ___. Which is right?" reveal.text "в парк" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Dad is going to the park. Па́па идёт в ___. Which is right?" above q_park reveal.text "в парк" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Парк: a he-word that's a thing stays as it is after в.
         wrong: Does парк end in а?
         + парк
@@ -190,7 +190,7 @@ A: Куда́ asks where you're going, and an а-word takes у; a я-word takes 
 
     draw q_cinema
 
-    ask "Type we are going: Мы ___ в кино́." answer ["идём","идем"] reveal.text "мы идём в кино́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Type we are going: Мы ___ в кино́." above q_cinema answer ["идём","идем"] reveal.text "мы идём в кино́" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Идём: the мы form, with the ё of идёшь and идёт.
         wrong: It starts like иду́ and ends like чита́ем, with ё.
@@ -199,7 +199,7 @@ A: Куда́ asks where you're going, and an а-word takes у; a я-word takes 
 
     draw q_city
 
-    quiz "Now Tom says where he lives. Я живу́ в ___. Which is right?" reveal.text "живу́ в Москве́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Now Tom says where he lives. Я живу́ в ___. Which is right?" above q_city reveal.text "живу́ в Москве́" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Москве́: живу́ says where you are, so е; в Москву́ is for going there.
         wrong: Is Tom there, or on his way?
         * Москва́
@@ -253,14 +253,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I have in Russian: у меня есть
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:26 title "What time is it in Russian: который час?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:28 title "I have in Russian: у меня есть" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:28 title "I have in Russian: у меня есть" form title size 600 x 500 y 420
 
-    link end_again href lecture:27 title "Watch again" form text open here x 500 y 160
-    text end_count "27 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:27 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "27 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

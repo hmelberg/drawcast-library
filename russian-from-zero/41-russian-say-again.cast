@@ -173,9 +173,9 @@ B: Ещё раз, and говори́ ме́дленнее. So I slow down.
 
     hide speakers
 
-    icon t1_pic size 130 set twemoji x 500 y 560 or ["speaking head"] icon_look picture of ear
+    icon t1_pic size 120 set twemoji x 500 y 560 or ["speaking head"] icon_look picture of ear
 
-    quiz "You didn't catch what a stranger said. Ask them to say it again. Pick one." store q1 reveal.text "Повтори́те, пожа́луйста." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "You didn't catch what a stranger said. Ask them to say it again. Pick one." above t1_pic store q1 reveal.text "Повтори́те, пожа́луйста." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Повтори́те: say it again.
         wrong: Подожди́те is wait, and покажи́те is show me. Say it again is повтори́те.
@@ -187,9 +187,9 @@ B: Ещё раз, and говори́ ме́дленнее. So I slow down.
 
     erase t1_pic q1_stamp
 
-    icon t2_pic size 130 set twemoji x 500 y 560 or ["speaking head"] icon_look picture of "speech balloon"
+    icon t2_pic size 120 set twemoji x 500 y 560 or ["speaking head"] icon_look picture of "speech balloon"
 
-    quiz "What does скажи́те mean? Pick one." store q2 reveal.text "Скажи́те = tell me" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What does скажи́те mean? Pick one." above t2_pic store q2 reveal.text "Скажи́те = tell me" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Tell me, as in скажи́те, пожа́луйста, где апте́ка?
         wrong: Show me is покажи́те, and wait is подожди́те. Скажи́те is tell me.
         * show me
@@ -200,9 +200,9 @@ B: Ещё раз, and говори́ ме́дленнее. So I slow down.
 
     erase t2_pic q2_stamp
 
-    icon t3_pic size 130 set twemoji x 500 y 560 or ["turtle"] icon_look picture of snail
+    icon t3_pic size 120 set twemoji x 500 y 560 or ["turtle"] icon_look picture of snail
 
-    quiz "Ask a stranger to speak more slowly: … ме́дленнее, пожа́луйста. Which word fills the gap?" store q3 reveal.text "Говори́те ме́дленнее!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Ask a stranger to speak more slowly: … ме́дленнее, пожа́луйста. Which word fills the gap?" above t3_pic store q3 reveal.text "Говори́те ме́дленнее!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: A stranger gets вы, so the те: говори́те.
         wrong: Говори́ is for a friend, and говорю́ means I speak. A stranger gets говори́те.
         + Говори́те
@@ -213,9 +213,9 @@ B: Ещё раз, and говори́ ме́дленнее. So I slow down.
 
     erase t3_pic q3_stamp
 
-    icon t4_pic size 130 set twemoji x 500 y 560 or ["baguette bread"] icon_look picture of bread
+    icon t4_pic size 120 set twemoji x 500 y 560 or ["baguette bread"] icon_look picture of bread
 
-    ask "To a friend, да́йте becomes … ? Type it." answer ["дай"] store q4 default дай reveal.text "Дай хлеб, пожа́луйста!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "To a friend, да́йте becomes … ? Type it." above t4_pic answer ["дай"] store q4 default дай reveal.text "Дай хлеб, пожа́луйста!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Дай: the odd one, ending in й.
         wrong: Да́йте drops its те, and what's left is дай.
@@ -224,9 +224,9 @@ B: Ещё раз, and говори́ ме́дленнее. So I slow down.
 
     erase t4_pic q4_stamp
 
-    icon t5_pic size 130 set twemoji x 500 y 560 or ["hourglass not done","stopwatch"] icon_look picture of "hourglass done"
+    icon t5_pic size 120 set twemoji x 500 y 560 or ["hourglass not done","stopwatch"] icon_look picture of "hourglass done"
 
-    quiz "Masha must wait a moment. What do you say to her? Pick one." store q5 reveal.text Подожди́! reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Masha must wait a moment. What do you say to her? Pick one." above t5_pic store q5 reveal.text Подожди́! reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: A friend gets ты: no те, подожди́.
         wrong: Подожди́те is for вы, and покажи́ means show me. To Masha: подожди́.
         * Подожди́те!
@@ -289,14 +289,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Directions in Russian: направо, налево, прямо
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:40 title "A fourth Russian story: read it all yourself" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:42 title "Directions in Russian: направо, налево, прямо" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:42 title "Directions in Russian: направо, налево, прямо" form title size 600 x 500 y 420
 
-    link end_again href lecture:41 title "Watch again" form text open here x 500 y 160
-    text end_count "41 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:41 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "41 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -196,7 +196,7 @@ A: Ка́ждый день is a habit: Ни́на Петро́вна во́ди�
 
     erase t_gap
 
-    quiz "Вы́берите: Ма́ша ___ конфе́ты из Москвы́. (She came on the Сапса́н.)" shuffle true reveal.text "Ма́ша привезла́ конфе́ты." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите: Ма́ша ___ конфе́ты из Москвы́. (She came on the Сапса́н.)" frame true shuffle true reveal.text "Ма́ша привезла́ конфе́ты." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         right: Привезла́: by train, so з, and при for arriving.
         wrong: By train, so з: привезла́.
         * привела́
@@ -211,7 +211,7 @@ A: Я везу́ тебя́ в Эрмита́ж: by taxi, so з.
 
     erase question_11_stamp
 
-    ask "Напиши́те: Every Saturday I take friends to the museum." answer ["каждую субботу я вожу друзей в музей","я вожу друзей в музей каждую субботу","я каждую субботу вожу друзей в музей","каждую субботу я вожу в музей друзей"] reveal.text "вожу́ друзе́й в музе́й" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Every Saturday I take friends to the museum." frame true answer ["каждую субботу я вожу друзей в музей","я вожу друзей в музей каждую субботу","я каждую субботу вожу друзей в музей","каждую субботу я вожу в музей друзей"] reveal.text "вожу́ друзе́й в музе́й" reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Вожу́: every Saturday is a habit.
         wrong: A habit, so вожу́: ка́ждую суббо́ту я вожу́ друзе́й в музе́й.
@@ -261,14 +261,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Oneself in Russian: себя, сам, свой
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:113 title "Asking whether in Russian: ли" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:115 title "Oneself in Russian: себя, сам, свой" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:115 title "Oneself in Russian: себя, сам, свой" form title size 600 x 500 y 420
 
-    link end_again href lecture:114 title "Watch again" form text open here x 500 y 160
-    text end_count "114 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:114 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "114 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

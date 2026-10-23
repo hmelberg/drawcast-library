@@ -184,9 +184,9 @@ B: Only the past asks if you're a man or a woman; the future, like the present, 
 
     hide board
 
-    icon q_book size 170 set twemoji x 500 y 470 or ["book","books"] icon_look picture of "open book"
+    icon q_book size 120 set twemoji x 500 y 470 or ["book","books"] icon_look picture of "open book"
 
-    quiz "Masha talks about tomorrow: За́втра я ___ чита́ть. Which word?" reveal.text "За́втра я бу́ду чита́ть." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha talks about tomorrow: За́втра я ___ чита́ть. Which word?" above q_book reveal.text "За́втра я бу́ду чита́ть." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Бу́ду: it's tomorrow, and it's я.
         wrong: Is it yesterday or tomorrow, and who is speaking?
@@ -196,18 +196,18 @@ B: Only the past asks if you're a man or a woman; the future, like the present, 
 
     erase q_book question_1_stamp
 
-    icon q_cinema size 170 set twemoji x 500 y 470 or ["clapper board","film frames"] icon_look picture of cinema
+    icon q_cinema size 120 set twemoji x 500 y 470 or ["clapper board","film frames"] icon_look picture of cinema
 
-    ask "Type we will: Мы ___ смотре́ть фильм." answer ["будем"] reveal.text "Мы бу́дем смотре́ть фильм." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Type we will: Мы ___ смотре́ть фильм." above q_cinema answer ["будем"] reveal.text "Мы бу́дем смотре́ть фильм." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Бу́дем: the мы form, with ем, as in живём.
         wrong: Start from бу́ду and give it the мы ending.
 
     erase q_cinema question_2_stamp
 
-    icon q_rest size 170 set twemoji x 500 y 470 or ["fork and knife","plate"] icon_look picture of "fork and knife with plate"
+    icon q_rest size 120 set twemoji x 500 y 470 or ["fork and knife","plate"] icon_look picture of "fork and knife with plate"
 
-    quiz "Tom will work tomorrow: Я бу́ду ___ в рестора́не. Which is right?" reveal.text "бу́ду рабо́тать в рестора́не" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom will work tomorrow: Я бу́ду ___ в рестора́не. Which is right?" above q_rest reveal.text "бу́ду рабо́тать в рестора́не" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Рабо́тать: after бу́ду, the verb stays as it is in the dictionary.
         wrong: Only бу́ду changes; what form does the verb after it take?
         * рабо́таю
@@ -216,9 +216,9 @@ B: Only the past asks if you're a man or a woman; the future, like the present, 
 
     erase q_rest question_3_stamp
 
-    icon q_city size 170 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape
+    icon q_city size 120 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape
 
-    quiz "Вчера́ Ма́ша была́ в Москве́. За́втра она́ ___ в Ло́ндоне. Which word?" reveal.text "она́ бу́дет в Ло́ндоне" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Вчера́ Ма́ша была́ в Москве́. За́втра она́ ___ в Ло́ндоне. Which word?" above q_city reveal.text "она́ бу́дет в Ло́ндоне" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Бу́дет: for она́, and the future has no а for a woman.
         wrong: It's tomorrow now, and Masha isn't the one speaking.
         + бу́дет
@@ -227,9 +227,9 @@ B: Only the past asks if you're a man or a woman; the future, like the present, 
 
     erase q_city question_4_stamp
 
-    icon q_family size 170 set twemoji x 500 y 470 or ["family man woman boy","people holding hands"] icon_look picture of family
+    icon q_family size 120 set twemoji x 500 y 470 or ["family man woman boy","people holding hands"] icon_look picture of family
 
-    ask "Mum and dad will live in Moscow. Type the missing word: Ма́ма и па́па ___ жить в Москве́." answer ["будут"] reveal.text "они́ бу́дут жить" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Mum and dad will live in Moscow. Type the missing word: Ма́ма и па́па ___ жить в Москве́." above q_family answer ["будут"] reveal.text "они́ бу́дут жить" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Бу́дут: mum and dad are они́, so ут, as in живу́т.
         wrong: Mum and dad together are они́.
@@ -279,14 +279,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Weather in Russian: холодно, тепло, идёт снег
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:31 title "What did you do yesterday in Russian: читал, читала" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:33 title "Weather in Russian: холодно, тепло, идёт снег" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:33 title "Weather in Russian: холодно, тепло, идёт снег" form title size 600 x 500 y 420
 
-    link end_again href lecture:32 title "Watch again" form text open here x 500 y 160
-    text end_count "32 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:32 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "32 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

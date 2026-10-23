@@ -172,7 +172,7 @@ A: Несу́ суп гостя́м: the soup goes to the guests, so гостя�
 
     erase nb
 
-    quiz "The plates are on the shelves. Таре́лки на ___." reveal.text "Таре́лки на по́лках." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "The plates are on the shelves. Таре́лки на ___." frame true reveal.text "Таре́лки на по́лках." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         intro: Six questions now, then your score.
         right: Пра́вильно! На, for where something is, takes ах.
         wrong: Where: на and the place ending, ах.
@@ -192,7 +192,7 @@ A: Я пишу́ колле́гам о гостя́х.
 
     erase q2
 
-    quiz "Soup with tasty mushrooms: суп с ___ гриба́ми." reveal.text "суп с вку́сными гриба́ми" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "Soup with tasty mushrooms: суп с ___ гриба́ми." frame true reveal.text "суп с вку́сными гриба́ми" reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         right: Вку́сными: after с, ыми, like гриба́ми.
         wrong: After с the adjective takes ыми, like гриба́ми.
         + вку́сными
@@ -201,7 +201,7 @@ A: Я пишу́ колле́гам о гостя́х.
 
     erase question_7_stamp
 
-    quiz "Next to the pots: ря́дом с ___." reveal.text "ря́дом с кастрю́лями" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "Next to the pots: ря́дом с ___." frame true reveal.text "ря́дом с кастрю́лями" reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         right: Кастрю́лями: кастрю́ля ends in я, so ями.
         wrong: After с, the with-ending; кастрю́ля ends in я, so ями.
         + кастрю́лями
@@ -216,7 +216,7 @@ A: Я пишу́ колле́гам о гостя́х.
 
     erase q_pot question_9_stamp
 
-    ask "Now build a sentence. Type: I help my new colleagues." answer ["я помогаю новым коллегам","помогаю новым коллегам"] reveal.text "Я помога́ю но́вым колле́гам." reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: I help my new colleagues." frame true answer ["я помогаю новым коллегам","помогаю новым коллегам"] reveal.text "Я помога́ю но́вым колле́гам." reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я помога́ю но́вым колле́гам: help goes to them, so ым and ам.
         wrong: Помога́ю takes the to-ending: но́вым колле́гам.
@@ -274,14 +274,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Across and past in Russian: перейти через, пройти мимо
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:105 title "Formal Russian: ты, вы and Нина Петровна" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:107 title "Across and past in Russian: перейти через, пройти мимо" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:107 title "Across and past in Russian: перейти через, пройти мимо" form title size 600 x 500 y 420
 
-    link end_again href lecture:106 title "Watch again" form text open here x 500 y 160
-    text end_count "106 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:106 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "106 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

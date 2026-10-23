@@ -162,9 +162,9 @@ B: В апте́ку has the у of direction, as in в шко́лу: Tom has to 
 
     hide speakers
 
-    icon t1_pic size 130 set twemoji x 500 y 560 or ["face with head-bandage"] icon_look picture of "face with thermometer"
+    icon t1_pic size 120 set twemoji x 500 y 560 or ["face with head-bandage"] icon_look picture of "face with thermometer"
 
-    quiz "Your throat hurts. Pick one." store q1 reveal.text "У меня́ боли́т го́рло." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Your throat hurts. Pick one." above t1_pic store q1 reveal.text "У меня́ боли́т го́рло." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Боли́т says it hurts; есть would only say you have one.
         wrong: Look for the word that means hurts.
@@ -176,9 +176,9 @@ B: В апте́ку has the у of direction, as in в шко́лу: Tom has to 
 
     erase t1_pic q1_stamp
 
-    icon t2_pic size 240 set twemoji x 500 y 530 or ["standing person"] icon_look picture of "person standing"
+    icon t2_pic size 120 set twemoji x 500 y 530 or ["standing person"] icon_look picture of "person standing"
 
-    quiz "What does живо́т mean? Pick one." store q2 reveal.text "живо́т = the stomach" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "What does живо́т mean? Pick one." above t2_pic store q2 reveal.text "живо́т = the stomach" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Живо́т is the stomach, the belly.
         wrong: Живо́т was the label on the belly.
         + the stomach
@@ -191,9 +191,9 @@ B: В апте́ку has the у of direction, as in в шко́лу: Tom has to 
 
     erase t2_pic q2_stamp t2_ow
 
-    icon t3_pic size 130 set twemoji x 500 y 560 or ["face with thermometer"] icon_look picture of "nauseated face"
+    icon t3_pic size 120 set twemoji x 500 y 560 or ["face with thermometer"] icon_look picture of "nauseated face"
 
-    quiz "You feel ill. Tell a friend. Pick one." store q3 reveal.text "Мне пло́хо." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "You feel ill. Tell a friend. Pick one." above t3_pic store q3 reveal.text "Мне пло́хо." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: The feeling goes to you: мне, as in мне хо́лодно.
         wrong: Start from мне хо́лодно, I'm cold.
         * Я пло́хо.
@@ -204,9 +204,9 @@ B: В апте́ку has the у of direction, as in в шко́лу: Tom has to 
 
     erase t3_pic q3_stamp
 
-    icon t4_pic size 130 set twemoji x 500 y 560 or ["man: beard","older man"] icon_look picture of "bearded person"
+    icon t4_pic size 120 set twemoji x 500 y 560 or ["man: beard","older man"] icon_look picture of "bearded person"
 
-    quiz "Masha's brother has a stomach ache. Pick one." store q4 reveal.text "У него́ боли́т живо́т." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha's brother has a stomach ache. Pick one." above t4_pic store q4 reveal.text "У него́ боли́т живо́т." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Боли́т takes the by-words, so he becomes у него́, as in у него́ есть брат.
         wrong: Боли́т never takes ему́; and who has the stomach ache?
         * Ему́ боли́т живо́т.
@@ -217,9 +217,9 @@ B: В апте́ку has the у of direction, as in в шко́лу: Tom has to 
 
     erase t4_pic q4_stamp
 
-    icon t5_pic size 130 set twemoji x 500 y 560 or ["pill bottle"] icon_look picture of pill
+    icon t5_pic size 120 set twemoji x 500 y 560 or ["pill bottle"] icon_look picture of pill
 
-    ask "Ask where the pharmacy is: Где … ? Type the missing word." answer ["аптека"] store q5 default апте́ка reveal.text "Где апте́ка?" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Ask where the pharmacy is: Где … ? Type the missing word." above t5_pic answer ["аптека"] store q5 default апте́ка reveal.text "Где апте́ка?" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Где апте́ка? Where is the pharmacy?
         wrong: The pharmacy is the апте́ка.
@@ -276,14 +276,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Whose is it in Russian: чей, чья, чьё
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:37 title "My day in Russian: утром, днём, вечером" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:39 title "Whose is it in Russian: чей, чья, чьё" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:39 title "Whose is it in Russian: чей, чья, чьё" form title size 600 x 500 y 420
 
-    link end_again href lecture:38 title "Watch again" form text open here x 500 y 160
-    text end_count "38 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:38 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "38 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

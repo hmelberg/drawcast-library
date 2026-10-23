@@ -175,7 +175,7 @@ A: С уваже́нием, Том, рестора́н «Нева́».
 A: Напиши́те по-ру́сски, politely: Could you call tomorrow?
     draw b1_cue
 
-    ask "Напиши́те: Could you call tomorrow?" answer ["не могли бы вы позвонить завтра","не могли бы вы завтра позвонить","вы не могли бы позвонить завтра","вы не могли бы завтра позвонить","не могли бы вы перезвонить завтра","вы не могли бы перезвонить завтра","не могли бы вы завтра перезвонить","вы не могли бы завтра перезвонить"] reveal.text "Не могли́ бы вы позвони́ть за́втра?" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 44 reveal.color #3d3833 voice a
+    ask "Напиши́те: Could you call tomorrow?" above b1_cue answer ["не могли бы вы позвонить завтра","не могли бы вы завтра позвонить","вы не могли бы позвонить завтра","вы не могли бы завтра позвонить","не могли бы вы перезвонить завтра","вы не могли бы перезвонить завтра","не могли бы вы завтра перезвонить","вы не могли бы завтра перезвонить"] reveal.text "Не могли́ бы вы позвони́ть за́втра?" reveal.style label reveal.size 44 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Не могли́ бы вы, then the infinitive.
         wrong: Не могли́ бы вы, then the infinitive: позвони́ть за́втра.
@@ -241,7 +241,7 @@ A: Уважа́емая Ири́на! Не могли́ бы вы привезт
 
     ask say_it "Не могли́ бы вы подтверди́ть зака́з?" also ["Вы не могли́ бы подтверди́ть зака́з?","Не могли́ бы вы подтверди́ть наш зака́з?"] gloss "Could you confirm the order?" voice a show cue reveal.text "Не могли́ бы вы подтверди́ть зака́з?" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 44 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: She said that the delivery will be tomorrow." answer ["она сказала что доставка будет завтра","она сказала что завтра будет доставка","сказала что доставка будет завтра","она сказала что доставка завтра будет"] reveal.text "Она́ сказа́ла, что доста́вка бу́дет за́втра." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 42 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: She said that the delivery will be tomorrow." frame true answer ["она сказала что доставка будет завтра","она сказала что завтра будет доставка","сказала что доставка будет завтра","она сказала что доставка завтра будет"] reveal.text "Она́ сказа́ла, что доста́вка бу́дет за́втра." reveal.style label reveal.size 42 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! бу́дет stays бу́дет.
         wrong: Keep her tense: что доста́вка бу́дет за́втра.
@@ -286,14 +286,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Both and the two of us in Russian: оба, двое, полтора
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:136 title "I had to in Russian: пришлось, удалось, не хватает" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:138 title "Both and the two of us in Russian: оба, двое, полтора" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:138 title "Both and the two of us in Russian: оба, двое, полтора" form title size 600 x 500 y 420
 
-    link end_again href lecture:137 title "Watch again" form text open here x 500 y 160
-    text end_count "137 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:137 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "137 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

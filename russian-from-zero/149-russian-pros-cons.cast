@@ -172,7 +172,7 @@ A: На твоём ме́сте я бы согласи́лся. Молоде́ц
 A: Напиши́те по-ру́сски, with мне ка́жется.
     draw b_who b_cue
 
-    ask "Напиши́те: It seems to me it's a good offer." answer ["мне кажется хорошее предложение","мне кажется что хорошее предложение","мне кажется что это хорошее предложение","мне кажется это хорошее предложение","это хорошее предложение мне кажется"] reveal.text "Мне ка́жется, э́то хоро́шее предложе́ние." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 44 reveal.color #3d3833 voice a
+    ask "Напиши́те: It seems to me it's a good offer." above ["b_who","b_cue"] answer ["мне кажется хорошее предложение","мне кажется что хорошее предложение","мне кажется что это хорошее предложение","мне кажется это хорошее предложение","это хорошее предложение мне кажется"] reveal.text "Мне ка́жется, э́то хоро́шее предложе́ние." reveal.style label reveal.size 44 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Мне ка́жется, then the opinion.
         wrong: Мне ка́жется, э́то хоро́шее предложе́ние.
@@ -249,7 +249,7 @@ A: Я счита́ю, что Том прав.
         gloss: If I were you, I'd say yes.
         say_it: На твоём ме́сте я бы согласи́лся.
 
-    ask "Напиши́те, with я счита́ю: I believe that Tom is right." answer ["считаю что том прав","я считаю что том прав"] reveal.text "Я счита́ю, что Том прав." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те, with я счита́ю: I believe that Tom is right." frame true answer ["считаю что том прав","я считаю что том прав"] reveal.text "Я счита́ю, что Том прав." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Я счита́ю, что…: a firm opinion.
         wrong: Я счита́ю, что Том прав.
@@ -299,14 +299,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A fifteenth Russian story: a winter diary
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:148 title "Really? in Russian: же, ведь, разве, неужели" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:150 title "A fifteenth Russian story: a winter diary" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:150 title "A fifteenth Russian story: a winter diary" form title size 600 x 500 y 420
 
-    link end_again href lecture:149 title "Watch again" form text open here x 500 y 160
-    text end_count "149 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:149 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "149 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

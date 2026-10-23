@@ -120,7 +120,7 @@ A: Unlike большо́й, with its four endings, a compare word has just one f
 
     hide boardC
 
-    quiz "Росси́я is a she-word. Which word fills the gap? Росси́я ___, чем Норве́гия." store chk reveal.text "Росси́я бо́льше, чем Норве́гия" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice a
+    quiz "Росси́я is a she-word. Which word fills the gap? Росси́я ___, чем Норве́гия." frame true store chk reveal.text "Росси́я бо́льше, чем Норве́гия" reveal.style label reveal.size 60 reveal.color #3d3833 voice a
         right: Бо́льше: a compare word has one form for he, she and it.
         wrong: Больша́я just says big. Which word compares?
         + бо́льше
@@ -178,7 +178,7 @@ A: No чем there: when it's clear what you compare with, you can leave it out.
 
     hide speakers
 
-    quiz "Oslo is smaller than Moscow: О́сло ___, чем Москва́. Which word fills the gap?" reveal.text "О́сло ме́ньше, чем Москва́." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Oslo is smaller than Moscow: О́сло ___, чем Москва́. Which word fills the gap?" frame true reveal.text "О́сло ме́ньше, чем Москва́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Ме́ньше is smaller, the short new word for ма́ленький.
         wrong: Which one is smaller, not bigger or worse?
@@ -188,14 +188,14 @@ A: No чем there: when it's clear what you compare with, you can leave it out.
 
     erase question_2_stamp
 
-    ask "For Tom, coffee is better than tea. Type the missing word: Ко́фе ___, чем чай." answer ["лучше"] reveal.text "Ко́фе лу́чше, чем чай." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "For Tom, coffee is better than tea. Type the missing word: Ко́фе ___, чем чай." frame true answer ["лучше"] reveal.text "Ко́фе лу́чше, чем чай." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Лу́чше: хорошо́ becomes лу́чше, better.
         wrong: Start from хорошо́: better is a new word.
 
     erase question_3_stamp
 
-    quiz "What does Зимо́й тут ху́же mean?" say_answer false reveal.text "Зимо́й тут ху́же." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "What does Зимо́й тут ху́же mean?" frame true say_answer false reveal.text "Зимо́й тут ху́же." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ху́же is worse, from пло́хо.
         wrong: Ху́же comes from пло́хо, bad.
         + In winter it's worse here.
@@ -204,7 +204,7 @@ A: No чем there: when it's clear what you compare with, you can leave it out.
 
     erase question_4_stamp
 
-    quiz "Moscow is bigger than Berlin: Москва́ бо́льше, ___ Берли́н. Which word fills the gap?" reveal.text "Москва́ бо́льше, чем Берли́н." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Moscow is bigger than Berlin: Москва́ бо́льше, ___ Берли́н. Which word fills the gap?" frame true reveal.text "Москва́ бо́льше, чем Берли́н." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Чем is than, with a comma before it.
         wrong: Which word means than?
         * и
@@ -213,7 +213,7 @@ A: No чем there: when it's clear what you compare with, you can leave it out.
 
     erase question_5_stamp
 
-    quiz "Today it's colder than yesterday: Сего́дня ___, чем вчера́. Which word fills the gap?" reveal.text "Сего́дня холодне́е, чем вчера́" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Today it's colder than yesterday: Сего́дня ___, чем вчера́. Which word fills the gap?" frame true reveal.text "Сего́дня холодне́е, чем вчера́" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Холодне́е: хо́лодно drops its last о and adds е́е, like тепло́ and тепле́е.
         wrong: Do with хо́лодно what тепло́ did to make тепле́е.
         * хо́лодно
@@ -268,14 +268,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Done or doing in Russian: читал or прочитал?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:42 title "Directions in Russian: направо, налево, прямо" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:44 title "Done or doing in Russian: читал or прочитал?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:44 title "Done or doing in Russian: читал or прочитал?" form title size 600 x 500 y 420
 
-    link end_again href lecture:43 title "Watch again" form text open here x 500 y 160
-    text end_count "43 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:43 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "43 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

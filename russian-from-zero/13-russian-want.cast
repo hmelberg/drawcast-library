@@ -54,9 +54,9 @@ level: basic
         * "ты" match хо́чешь
         * "он" match хо́чет
         * "вы" match хоти́те
-    icon q_dad size 130 set twemoji x 500 y 560 or ["man: dark hair","man"] icon_look picture of "man: curly hair" hidden true
-    icon q_soup size 130 set twemoji x 500 y 560 or ["bowl with spoon"] icon_look picture of "pot of food" hidden true
-    icon q_coffee size 130 set twemoji x 500 y 560 or ["coffee"] icon_look picture of "hot beverage" hidden true
+    icon q_dad size 120 set twemoji x 500 y 560 or ["man: dark hair","man"] icon_look picture of "man: curly hair" hidden true
+    icon q_soup size 120 set twemoji x 500 y 560 or ["bowl with spoon"] icon_look picture of "pot of food" hidden true
+    icon q_coffee size 120 set twemoji x 500 y 560 or ["coffee"] icon_look picture of "hot beverage" hidden true
     text r1 "Я хочу́ чай." #3d3833 say "Я хочу чай." x 500 y 540 font_size 70 hidden true
     text r2 "Я не хочу́ чай." #3d3833 say "Я не хочу чай." x 500 y 420 font_size 70 hidden true
     text r3 "Чай и́ли ко́фе?" #3d3833 say "Чай или кофе?" x 500 y 300 font_size 70 hidden true
@@ -182,7 +182,7 @@ A: The cat is он, so кот хо́чет. Tea or coffee? Neither: milk for bot
 
     draw q_dad
 
-    quiz "Tom says about his dad: Па́па … чай. Which word fills the gap?" reveal.text "Па́па хо́чет чай." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Tom says about his dad: Па́па … чай. Which word fills the gap?" above q_dad reveal.text "Па́па хо́чет чай." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Па́па is он, and он takes the ending ет.
         wrong: Tom is talking about his dad, not to him: which row is он?
         * хочу́
@@ -193,7 +193,7 @@ A: The cat is он, so кот хо́чет. Tea or coffee? Neither: milk for bot
 
     draw q_soup
 
-    ask "Say you don't want soup: Я … хочу́ суп. Type the missing word." answer ["не"] store a3 default не reveal.text "Я не хочу́ суп." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Say you don't want soup: Я … хочу́ суп. Type the missing word." above q_soup answer ["не"] store a3 default не reveal.text "Я не хочу́ суп." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Не, right before the verb: I don't want soup.
         wrong: Two letters, and it goes just before хочу́.
@@ -213,7 +213,7 @@ A: The cat is он, so кот хо́чет. Tea or coffee? Neither: milk for bot
 
     draw q_coffee
 
-    ask "Masha asks: Что вы хоти́те? Finish your answer: Я … ко́фе. Type the verb." answer ["хочу"] store a5 default хочу reveal.text "Я хочу́ ко́фе." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Masha asks: Что вы хоти́те? Finish your answer: Я … ко́фе. Type the verb." above q_coffee answer ["хочу"] store a5 default хочу reveal.text "Я хочу́ ко́фе." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Я хочу́ ко́фе: I want coffee.
         wrong: It's the я form: it ends in у.
@@ -273,14 +273,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I see mum in Russian: the -у ending
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:12 title "Big and small in Russian: новый, новая, новое" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:14 title "I see mum in Russian: the -у ending" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:14 title "I see mum in Russian: the -у ending" form title size 600 x 500 y 420
 
-    link end_again href lecture:13 title "Watch again" form text open here x 500 y 160
-    text end_count "13 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:13 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "13 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

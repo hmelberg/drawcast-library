@@ -30,12 +30,12 @@ level: basic
     text sea_l2 "но я до́лжен рабо́тать." say "но я до́лжен рабо́тать." x 500 y 330 font_size 56 hidden true
     text sea_g "пое́хать: to go, set off (by car, train…)" #8f887c x 500 y 230 font_size 34 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, что ты де́лаешь в суббо́ту?","gloss":"Masha, what are you doing on Saturday?"},{"by":"b","text":"Е́сли бу́дет тепло́, мы пойдём в парк.","gloss":"If it's warm, we'll go to the park."},{"by":"a","text":"А е́сли бу́дет хо́лодно?","gloss":"And if it's cold?"},{"by":"b","text":"Прочита́ю кни́гу. А ты?","gloss":"I'll read a book. And you?"},{"by":"a","text":"Я бы пое́хал на мо́ре, но я до́лжен рабо́тать.","gloss":"I'd go to the sea, but I have to work."},{"by":"b","text":"Е́сли бу́дет вре́мя, приходи́ в парк!","gloss":"If there's time (вре́мя), come to the park!"}] practice true size 1.6 hidden true
-    icon q_snow size 150 set twemoji x 500 y 480 or ["cloud with snow"] icon_look picture of snowflake hidden true
-    icon q_coffee size 150 set twemoji x 500 y 480 or ["teacup without handle"] icon_look picture of "hot beverage" hidden true
-    icon q_train size 150 set twemoji x 500 y 480 or ["railway car"] icon_look picture of train hidden true
+    icon q_snow size 120 set twemoji x 500 y 480 or ["cloud with snow"] icon_look picture of snowflake hidden true
+    icon q_coffee size 120 set twemoji x 500 y 480 or ["teacup without handle"] icon_look picture of "hot beverage" hidden true
+    icon q_train size 120 set twemoji x 500 y 480 or ["railway car"] icon_look picture of train hidden true
     icon q_park size 150 set twemoji x 500 y 500 or ["evergreen tree"] icon_look picture of "deciduous tree" hidden true
     text q_say "Е́сли бу́дет тепло́, мы пойдём в парк." say "Е́сли бу́дет тепло́, мы пойдём в парк." say_voice b colors {"^Е́сли":"#b0417a"} x 500 y 320 font_size 42 hidden true
-    icon q_film size 150 set twemoji x 500 y 480 or ["movie camera"] icon_look picture of "film frames" hidden true
+    icon q_film size 120 set twemoji x 500 y 480 or ["movie camera"] icon_look picture of "film frames" hidden true
     text q_build "Е́сли бу́дет хо́лодно, мы посмо́трим фильм." say "Е́сли бу́дет хо́лодно, мы посмо́трим фильм." colors {"^Е́сли":"#b0417a"} x 500 y 300 font_size 42 hidden true
     text sum1 "Е́сли бу́дет тепло́, мы пойдём в парк." say "Е́сли бу́дет тепло́, мы пойдём в парк." say_voice b colors {"^Е́сли":"#b0417a"} x 500 y 500 font_size 44 hidden true
     text sum2 "Я бы пое́хал на мо́ре." say "Я бы пое́хал на мо́ре." colors {"^бы$":"#b0417a"} x 500 y 360 font_size 44 hidden true
@@ -138,7 +138,7 @@ A: Now the whole talk about Saturday. Listen, then practise it.
 
     draw q_snow
 
-    quiz "If it's cold tomorrow, I'll watch a film. Е́сли за́втра ___ хо́лодно, я посмотрю́ фильм. Which word fills the gap?" reveal.text "Е́сли за́втра бу́дет хо́лодно…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "If it's cold tomorrow, I'll watch a film. Е́сли за́втра ___ хо́лодно, я посмотрю́ фильм. Which word fills the gap?" above q_snow reveal.text "Е́сли за́втра бу́дет хо́лодно…" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Бу́дет: tomorrow is still to come, so е́сли takes the future.
         wrong: Is tomorrow past or still to come?
@@ -150,7 +150,7 @@ A: Now the whole talk about Saturday. Listen, then practise it.
 
     draw q_coffee
 
-    quiz "A woman asks for coffee politely. Which is right?" reveal.text "Я хоте́ла бы ко́фе." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "A woman asks for coffee politely. Which is right?" above q_coffee reveal.text "Я хоте́ла бы ко́фе." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Хоте́ла бы: бы with the past, and a woman's past ends in а.
         wrong: Бы takes the past form, and she is a woman.
         * Я хочу́ бы ко́фе.
@@ -161,7 +161,7 @@ A: Now the whole talk about Saturday. Listen, then practise it.
 
     draw q_train
 
-    quiz "What does Я бы пое́хал в Москву́ mean?" reveal.text "Я бы пое́хал в Москву́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "What does Я бы пое́хал в Москву́ mean?" above q_train reveal.text "Я бы пое́хал в Москву́." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: I'd go to Moscow: бы turns the past form into a would.
         wrong: Look for бы: it changes what пое́хал means.
         + I'd go to Moscow.
@@ -184,7 +184,7 @@ B: Е́сли бу́дет тепло́, мы пойдём в парк.
 
     draw q_film
 
-    ask "Now build a whole sentence. Type: If it's cold, we'll watch a film." answer ["если будет холодно мы посмотрим фильм","если будет холодно, мы посмотрим фильм","если будет холодно мы будем смотреть фильм","если будет холодно, мы будем смотреть фильм","если будет холодно то мы посмотрим фильм","если будет холодно, то мы посмотрим фильм","если будет холодно мы посмотрим кино","если будет холодно, мы посмотрим кино","если будет холодно, то мы посмотрим кино"] voice a test t1
+    ask "Now build a whole sentence. Type: If it's cold, we'll watch a film." above q_film answer ["если будет холодно мы посмотрим фильм","если будет холодно, мы посмотрим фильм","если будет холодно мы будем смотреть фильм","если будет холодно, мы будем смотреть фильм","если будет холодно то мы посмотрим фильм","если будет холодно, то мы посмотрим фильм","если будет холодно мы посмотрим кино","если будет холодно, мы посмотрим кино","если будет холодно, то мы посмотрим кино"] voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Е́сли бу́дет хо́лодно, мы посмо́трим фильм: the future on both sides.
         wrong: Start with е́сли and бу́дет хо́лодно, then мы and a future verb.
@@ -241,14 +241,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Joining sentences in Russian: что, кото́рый
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:67 title "I must in Russian: я до́лжен" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:69 title "Joining sentences in Russian: что, кото́рый" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:69 title "Joining sentences in Russian: что, кото́рый" form title size 600 x 500 y 420
 
-    link end_again href lecture:68 title "Watch again" form text open here x 500 y 160
-    text end_count "68 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:68 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "68 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

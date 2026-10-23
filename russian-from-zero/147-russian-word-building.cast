@@ -251,7 +251,7 @@ B: Спаси́бо за объясне́ние! Ты хоро́ший помо�
 A: Напиши́те по-ру́сски.
     draw t_cue
 
-    ask "Напиши́те: a difficult decision." answer ["сложное решение","тяжёлое решение","тяжелое решение","трудное решение"] reveal.text "сло́жное реше́ние" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: a difficult decision." above t_cue answer ["сложное решение","тяжёлое решение","тяжелое решение","трудное решение"] reveal.text "сло́жное реше́ние" reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Реше́ние — оно́: сло́жное реше́ние.
         wrong: Реше́ние — оно́: сло́жное реше́ние.
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Really? in Russian: же, ведь, разве, неужели
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:146 title "Even if in Russian: даже если, всё-таки, что бы ни" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:148 title "Really? in Russian: же, ведь, разве, неужели" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:148 title "Really? in Russian: же, ведь, разве, неужели" form title size 600 x 500 y 420
 
-    link end_again href lecture:147 title "Watch again" form text open here x 500 y 160
-    text end_count "147 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:147 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "147 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

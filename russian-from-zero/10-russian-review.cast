@@ -116,7 +116,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     hide story s1_g_1 s1_g_2 s1_g_3 s1_g_4 s1_g_5 s2_g_1 s2_g_2 s2_g_3 s2_g_4 s2_g_5 s2_g_6 s2_g_7 s2_g_8 s3_g_1 s3_g_2 s3_g_3 s3_g_4 s3_g_5 s3_g_6 s4_g_1 s4_g_2 s4_g_3 s4_g_4 s5_g_1 s5_g_2 s5_g_3 s5_g_4 s5_g_5 s5_g_6 s5_g_7 s6_g_1 s6_g_2 s6_g_3 s6_g_4 s6_g_5 s6_g_6 s6_g_7 s6_g_8
 
-    quiz "What number is the table? Pick one." reveal.text "стол но́мер семь" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "What number is the table? Pick one." frame true reveal.text "стол но́мер семь" reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Семь, seven: стол но́мер семь.
         wrong: Look back at the first line: стол но́мер… which one?
@@ -126,7 +126,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_1_stamp
 
-    quiz "Who drinks tea? Pick one." reveal.text "ма́ма пьёт чай" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "Who drinks tea? Pick one." frame true reveal.text "ма́ма пьёт чай" reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         right: Mum: ма́ма пьёт чай, and dad has the coffee.
         wrong: Dad has the coffee; who has the other drink?
         * Па́па
@@ -135,14 +135,14 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_2_stamp
 
-    ask "What does the brother ask for? Type it in Russian." answer ["суп","суп пожалуйста","суп, пожалуйста","суп, пожалуйста!"] translit true reveal.text "Суп, пожа́луйста!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    ask "What does the brother ask for? Type it in Russian." frame true answer ["суп","суп пожалуйста","суп, пожалуйста","суп, пожалуйста!"] translit true reveal.text "Суп, пожа́луйста!" reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЭЯ
         right: Суп: брат говори́т, суп, пожа́луйста!
         wrong: Three letters, and you ordered it in the café lesson.
 
     erase reveal_3_stamp
 
-    quiz "Who speaks a little Russian? Pick one." reveal.text "Том немно́го говори́т" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 test t1 pool false
+    quiz "Who speaks a little Russian? Pick one." frame true reveal.text "Том немно́го говори́т" reveal.style label reveal.size 56 reveal.color #3d3833 test t1 pool false
         right: Tom: Том немно́го говори́т по-ру́сски. A little!
         wrong: Who was the surprise guest at the table?
         + Том
@@ -151,7 +151,7 @@ B: Он то́же тут, на окне́: on the window, with the е after н�
 
     erase reveal_4_stamp
 
-    quiz "Где кот? Where is the cat? Pick one." reveal.text "на окне́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "Где кот? Where is the cat? Pick one." frame true reveal.text "на окне́" reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
         right: On the window: он то́же тут, на окне́.
         wrong: The last sentence: он то́же тут, на… what?
         * на столе́
@@ -213,14 +213,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Plurals in Russian: коты, книги, окна
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:9 title "Where is it? где, в and на in Russian" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:11 title "Plurals in Russian: коты, книги, окна" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:11 title "Plurals in Russian: коты, книги, окна" form title size 600 x 500 y 420
 
-    link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:10 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "10 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

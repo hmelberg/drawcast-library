@@ -222,7 +222,7 @@ A: Неда́вно, recently: the opposite of давно́.
 
     erase question_5_stamp
 
-    ask "Where do her daughter's children live?" listen same options ["near the park","in Moscow","near the station"] correct 1 reveal.text "о́коло па́рка" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    ask "Where do her daughter's children live?" frame true listen same options ["near the park","in Moscow","near the station"] correct 1 reveal.text "о́коло па́рка" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         right: Три сы́на, о́коло па́рка: three sons, near the park.
         wrong: О́коло is near.
 
@@ -230,10 +230,10 @@ A: Неда́вно, recently: the opposite of давно́.
 
     hide nina nina_name1 nina_name2 tom tom_name
 
-    icon q_kids size 130 set twemoji x 430 y 520 or ["child"] icon_look picture of boy
-    icon q_kids2 size 130 set twemoji x 570 y 520 or ["child"] icon_look picture of girl
+    icon q_kids size 120 set twemoji x 430 y 520 or ["child"] icon_look picture of boy
+    icon q_kids2 size 120 set twemoji x 570 y 520 or ["child"] icon_look picture of girl
 
-    quiz "Вы́берите. Мы игра́ем в па́рке с ___." reveal.text "с детьми́" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите. Мы игра́ем в па́рке с ___." above ["q_kids2","q_kids"] reveal.text "с детьми́" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: С, with, takes the with-ending, and де́ти has its own: -ьми.
         wrong: С is with.
         + детьми́
@@ -259,7 +259,7 @@ A: Я ду́маю о мои́х ста́рых колле́гах в Ло́нд
 
     erase q_gran question_9_stamp
 
-    ask "Напиши́те: We're talking about our children." answer ["мы говорим о наших детях","о наших детях мы говорим","мы говорим о детях"] reveal.text "Мы говори́м о на́ших де́тях." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: We're talking about our children." frame true answer ["мы говорим о наших детях","о наших детях мы говорим","мы говорим о детях"] reveal.text "Мы говори́м о на́ших де́тях." reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: О на́ших де́тях: the about-ending, -их and -ях.
         wrong: Мы говори́м, then о, then на́ших де́тях.
@@ -318,14 +318,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Asking whether in Russian: ли
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:111 title "All six cases in Russian: one table" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:113 title "Asking whether in Russian: ли" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:113 title "Asking whether in Russian: ли" form title size 600 x 500 y 420
 
-    link end_again href lecture:112 title "Watch again" form text open here x 500 y 160
-    text end_count "112 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:112 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "112 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

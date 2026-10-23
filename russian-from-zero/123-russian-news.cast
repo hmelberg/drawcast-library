@@ -238,7 +238,7 @@ A: В Москве́ произошло́ большо́е собы́тие.
 
     erase t_g
 
-    quiz "In the news, одна́ко means…" reveal.text "одна́ко = however" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "In the news, одна́ко means…" frame true reveal.text "одна́ко = however" reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         right: Пра́вильно! Одна́ко: however, a written но.
         wrong: Одна́ко: however, a written но.
         + however
@@ -256,9 +256,9 @@ A: На Васи́льевском откры́ли но́вую ста́нци�
 
     erase question_10_stamp
 
-    icon t_bridge size 160 set twemoji x 500 y 480 or ["newspaper"] icon_look picture of "rolled-up newspaper"
+    icon t_bridge size 120 set twemoji x 500 y 480 or ["newspaper"] icon_look picture of "rolled-up newspaper"
 
-    ask "Напиши́те the headline: They have built a new bridge in Petersburg." answer ["в петербурге построили новый мост","новый мост построили в петербурге","построили новый мост в петербурге","в петербурге построили мост","в петербурге построен новый мост","новый мост в петербурге построили"] reveal.text "постро́или но́вый мост" reveal.at.x 500 reveal.at.y 640 reveal.style label reveal.size 50 reveal.color #3d3833 voice b test t1
+    ask "Напиши́те the headline: They have built a new bridge in Petersburg." above t_bridge answer ["в петербурге построили новый мост","новый мост построили в петербурге","построили новый мост в петербурге","в петербурге построили мост","в петербурге построен новый мост","новый мост в петербурге построили"] reveal.text "постро́или но́вый мост" reveal.style label reveal.size 50 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Постро́или, with no subject.
         wrong: Постро́или, with no subject: в Петербу́рге постро́или но́вый мост.
@@ -326,14 +326,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Saying ты at work in Russian: давай на ты
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:122 title "Word families in Russian: вход, выход, переход" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:124 title "Saying ты at work in Russian: давай на ты" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:124 title "Saying ты at work in Russian: давай на ты" form title size 600 x 500 y 420
 
-    link end_again href lecture:123 title "Watch again" form text open here x 500 y 160
-    text end_count "123 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:123 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "123 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

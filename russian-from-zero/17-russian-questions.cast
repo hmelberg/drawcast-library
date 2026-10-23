@@ -49,11 +49,11 @@ level: basic
         * "что" match what
         * "где" match where
         * "когда́" match when
-    icon q_cat size 170 set twemoji x 500 y 540 or ["cat face"] icon_look picture of cat hidden true
-    icon q_book size 160 set twemoji x 500 y 540 or ["book","books"] icon_look picture of "closed book" hidden true
+    icon q_cat size 120 set twemoji x 500 y 540 or ["cat face"] icon_look picture of cat hidden true
+    icon q_book size 120 set twemoji x 500 y 540 or ["book","books"] icon_look picture of "closed book" hidden true
     text q_kniga "Э́то кни́га?" #3d3833 say "Это книга?" say_voice b x 500 y 520 font_size 96 hidden true
     arrow ar_q4 #c9871a from.x 495 from.y 590 to.x 615 to.y 635 style.stroke_width 6 hidden true
-    icon q_cal size 150 set twemoji x 500 y 560 or ["sunrise over mountains","sun"] icon_look picture of sunrise hidden true
+    icon q_cal size 120 set twemoji x 500 y 560 or ["sunrise over mountains","sun"] icon_look picture of sunrise hidden true
     text r1 "Кто э́то? Э́то Ма́ша." #3d3833 say "Кто это? Это Маша." x 500 y 520 font_size 76 hidden true
     text r2 "Ко́фе?" #3d3833 say Кофе? say_voice b x 500 y 320 font_size 96 hidden true
     arrow ar_r2 #c9871a from.x 430 from.y 385 to.x 590 to.y 430 style.stroke_width 6 hidden true
@@ -166,7 +166,7 @@ B: Three questions: ко́фе, with my voice going up; когда́, when; and 
 
     pause 1
 
-    quiz "Masha points at her cat. What does Tom ask?" store q2 reveal.text "Кто э́то? Э́то кот." reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha points at her cat. What does Tom ask?" above q_cat store q2 reveal.text "Кто э́то? Э́то кот." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: A cat is alive, so it's кто.
         wrong: Is a cat alive, or a thing?
         + Кто э́то?
@@ -179,7 +179,7 @@ B: Three questions: ко́фе, with my voice going up; когда́, when; and 
 
     pause 1
 
-    ask "You point at a book and ask what it is: … э́то? Type the question word." answer ["что","што","shto"] store a3 default что reveal.text "Что э́то? Э́то кни́га." reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "You point at a book and ask what it is: … э́то? Type the question word." above q_book answer ["что","што","shto"] store a3 default что reveal.text "Что э́то? Э́то кни́га." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Что: a book is a thing. Written with ч, said што.
         wrong: A book is a thing, not a person: the word for what.
@@ -202,7 +202,7 @@ B: Three questions: ко́фе, with my voice going up; когда́, when; and 
 
     pause 1
 
-    ask "Tom asks a one-word question, and Masha answers За́втра! Type Tom's question." answer ["когда"] store a5 default когда reveal.text "Когда́? За́втра!" reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Tom asks a one-word question, and Masha answers За́втра! Type Tom's question." above q_cal answer ["когда"] store a5 default когда reveal.text "Когда́? За́втра!" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Когда́: when? Tomorrow!
         wrong: За́втра is a time: the word for when.
@@ -264,14 +264,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Was in Russian: был, была, было
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:16 title "Numbers to 100 in Russian: how much is it?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:18 title "Was in Russian: был, была, было" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:18 title "Was in Russian: был, была, было" form title size 600 x 500 y 420
 
-    link end_again href lecture:17 title "Watch again" form text open here x 500 y 160
-    text end_count "17 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:17 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "17 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

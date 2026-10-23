@@ -62,12 +62,12 @@ level: basic
     ellipse ring_oleg thick #5b8c5a x 870 y 235 rx 58 ry 72 hidden true
     group guests members ["g_ivan","g_ivan_n","g_anna","g_coat","g_anna_n","g_oleg","g_oleg_n"] hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, кто э́то?","gloss":"Masha, who's that?"},{"by":"b","text":"Ива́н, мой друг. Он программи́ст.","gloss":"Ivan, my friend. He's a programmer."},{"by":"a","text":"А кто э́то, в кра́сной ку́ртке?","gloss":"And who's that, in the red jacket?"},{"by":"b","text":"Э́то А́нна. Она́ рабо́тает медсестро́й в больни́це.","gloss":"That's Anna. She works as a nurse in a hospital."},{"by":"a","text":"А э́тот, кото́рый ва́рит суп на ку́хне?","gloss":"And this one, who's cooking soup in the kitchen?"},{"by":"b","text":"Э́то Оле́г. Он по́вар, рабо́тает в рестора́не.","gloss":"That's Oleg. He's a cook; he works in a restaurant."},{"by":"a","text":"По́вар? Я то́же!","gloss":"A cook? Me too!"}] practice true size 1.5 hidden true
-    icon q_nurse size 150 set twemoji x 500 y 480 or ["adhesive bandage"] icon_look picture of syringe hidden true
-    icon q_hosp size 170 set twemoji x 500 y 480 or ["office building"] icon_look picture of hospital hidden true
-    icon q_shop size 170 set twemoji x 500 y 480 or ["shopping cart"] icon_look picture of "convenience store" hidden true
+    icon q_nurse size 120 set twemoji x 500 y 480 or ["adhesive bandage"] icon_look picture of syringe hidden true
+    icon q_hosp size 120 set twemoji x 500 y 480 or ["office building"] icon_look picture of hospital hidden true
+    icon q_shop size 120 set twemoji x 500 y 480 or ["shopping cart"] icon_look picture of "convenience store" hidden true
     icon q_meet size 160 set twemoji x 500 y 480 or ["man"] icon_look picture of handshake hidden true
-    icon q_prog size 150 set twemoji x 380 y 480 or ["laptop"] icon_look picture of "man technologist" hidden true
-    icon q_bank size 150 set twemoji x 620 y 480 or ["classical building"] icon_look picture of bank hidden true
+    icon q_prog size 120 set twemoji x 380 y 480 or ["laptop"] icon_look picture of "man technologist" hidden true
+    icon q_bank size 120 set twemoji x 620 y 480 or ["classical building"] icon_look picture of bank hidden true
     text b1 "Кем вы рабо́таете?" say "Кем вы рабо́таете?" x 500 y 560 font_size 54 hidden true
     text b2 "Я рабо́таю инжене́ром в ба́нке." say "Я рабо́таю инжене́ром в ба́нке." colors {"ом$":"#2f6b8f","е$":"#d0865f"} x 500 y 420 font_size 50 hidden true
 
@@ -208,7 +208,7 @@ A: Now Masha's party: I ask who everyone is. Listen; then practise it.
 
     draw q_nurse
 
-    quiz "She works as a nurse: Она́ рабо́тает ___. Which word fills the gap?" reveal.text "рабо́тает медсестро́й" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "She works as a nurse: Она́ рабо́тает ___. Which word fills the gap?" above q_nurse reveal.text "рабо́тает медсестро́й" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Медсестро́й: the job you work as takes the with-ending, and а becomes ой.
         wrong: After рабо́тает, the job takes the with-ending.
@@ -220,7 +220,7 @@ A: Now Masha's party: I ask who everyone is. Listen; then practise it.
 
     draw q_hosp
 
-    quiz "Он рабо́тает в больни́це. Which job fits best?" reveal.text "врач · в больни́це" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Он рабо́тает в больни́це. Which job fits best?" above q_hosp reveal.text "врач · в больни́це" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Врач: a doctor works in a hospital, в больни́це.
         wrong: Больни́ца is a hospital. Who works there?
         + врач
@@ -231,7 +231,7 @@ A: Now Masha's party: I ask who everyone is. Listen; then practise it.
 
     draw q_shop
 
-    quiz "He works as a shop assistant: Он рабо́тает ___. Which is right?" reveal.text "рабо́тает продавцо́м" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "He works as a shop assistant: Он рабо́тает ___. Which is right?" above q_shop reveal.text "рабо́тает продавцо́м" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Продавцо́м: the е drops out, and ом comes on the end.
         wrong: Продаве́ц loses its е, then takes the with-ending.
         * продаве́цом
@@ -248,7 +248,7 @@ A: Now Masha's party: I ask who everyone is. Listen; then practise it.
 
     draw q_prog q_bank
 
-    ask "Now build a whole sentence. Type: I work as a programmer in a bank." answer ["я работаю программистом в банке","работаю программистом в банке"] reveal.text "программи́стом в ба́нке" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I work as a programmer in a bank." above ["q_prog","q_bank"] answer ["я работаю программистом в банке","работаю программистом в банке"] reveal.text "программи́стом в ба́нке" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я рабо́таю программи́стом в ба́нке: ом for the job, е for the place.
         wrong: Я рабо́таю, then the job with ом, then в and банк with е.
@@ -302,14 +302,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Studying in Russian: я изуча́ю ру́сский
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:76 title "At the doctor in Russian: что у вас боли́т?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:78 title "Studying in Russian: я изуча́ю ру́сский" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:78 title "Studying in Russian: я изуча́ю ру́сский" form title size 600 x 500 y 420
 
-    link end_again href lecture:77 title "Watch again" form text open here x 500 y 160
-    text end_count "77 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:77 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "77 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

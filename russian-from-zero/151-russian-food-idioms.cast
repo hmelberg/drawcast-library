@@ -197,7 +197,7 @@ A: Послу́шайте и напиши́те.
 A: Напиши́те по-ру́сски, with как по ма́слу.
     draw b_cue
 
-    ask "Напиши́те: Everything is going smoothly." answer ["все идет как по маслу","все идёт как по маслу","все как по маслу","всё идёт как по маслу","всё идёт как по маслу у нас","всё как по маслу","идет как по маслу","идёт как по маслу","у нас всё идёт как по маслу"] reveal.text "Всё идёт как по ма́слу." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 52 reveal.color #3d3833 voice a
+    ask "Напиши́те: Everything is going smoothly." above b_cue answer ["все идет как по маслу","все идёт как по маслу","все как по маслу","всё идёт как по маслу","всё идёт как по маслу у нас","всё как по маслу","идет как по маслу","идёт как по маслу","у нас всё идёт как по маслу"] reveal.text "Всё идёт как по ма́слу." reveal.style label reveal.size 52 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Всё идёт как по ма́слу.
         wrong: Всё идёт как по ма́слу.
@@ -270,7 +270,7 @@ A: Э́то тру́дно? Нет, э́то про́ще па́реной ре�
         gloss: The first pancake is a lump; the second will be better.
         say_it: Пе́рвый блин ко́мом, второ́й бу́дет лу́чше.
 
-    ask "Напиши́те: Stop pulling my leg! (the noodles one)" answer ["не вешай лапшу мне на уши","не вешай лапшу на уши","не вешай мне лапшу на уши","не вешай мне на уши лапшу","не вешайте лапшу мне на уши","не вешайте лапшу на уши","не вешайте мне лапшу на уши","не вешайте мне на уши лапшу","не надо вешать лапшу на уши","не надо вешать мне лапшу на уши"] reveal.text "Не ве́шай мне лапшу́ на у́ши!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Stop pulling my leg! (the noodles one)" frame true answer ["не вешай лапшу мне на уши","не вешай лапшу на уши","не вешай мне лапшу на уши","не вешай мне на уши лапшу","не вешайте лапшу мне на уши","не вешайте лапшу на уши","не вешайте мне лапшу на уши","не вешайте мне на уши лапшу","не надо вешать лапшу на уши","не надо вешать мне лапшу на уши"] reveal.text "Не ве́шай мне лапшу́ на у́ши!" reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Не ве́шай мне лапшу́ на у́ши!
         wrong: Не ве́шай мне лапшу́ на у́ши!
@@ -319,14 +319,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: It's done in Russian: заказ принят, столы накрыты
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:150 title "A fifteenth Russian story: a winter diary" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:152 title "It's done in Russian: заказ принят, столы накрыты" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:152 title "It's done in Russian: заказ принят, столы накрыты" form title size 600 x 500 y 420
 
-    link end_again href lecture:151 title "Watch again" form text open here x 500 y 160
-    text end_count "151 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:151 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "151 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

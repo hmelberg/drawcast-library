@@ -61,7 +61,7 @@ level: basic
     icon q_c2 size 140 set twemoji x 500 y 470 or ["cat face"] icon_look picture of cat hidden true
     icon q_c3 size 140 set twemoji x 660 y 470 or ["cat face"] icon_look picture of cat hidden true
     group q_cats members ["q_c1","q_c2","q_c3"] hidden true
-    icon q_books size 170 set twemoji x 500 y 490 or ["closed book"] icon_look picture of books hidden true
+    icon q_books size 120 set twemoji x 500 y 490 or ["closed book"] icon_look picture of books hidden true
     icon q_w1 size 150 set twemoji x 420 y 470 or ["frame with picture"] icon_look picture of window hidden true
     icon q_w2 size 150 set twemoji x 580 y 470 or ["frame with picture"] icon_look picture of window hidden true
     group q_wins members ["q_w1","q_w2"] hidden true
@@ -156,7 +156,7 @@ B: Э́то мои́ кни́ги: these are my books. Э́то stays the same, 
 
     draw q_books
 
-    ask "One book is кни́га. Type the word for books." answer ["книги"] reveal.text кни́ги reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "One book is кни́га. Type the word for books." above q_books answer ["книги"] reveal.text кни́ги reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЩЫЬЭЮЯ
         right: After г, Russian writes и, not ы.
         wrong: Кни́га has г before its а, and г is on the и list.
@@ -176,7 +176,7 @@ B: Э́то мои́ кни́ги: these are my books. Э́то stays the same, 
 
     draw q_text
 
-    quiz "What does Они́ на столе́ mean?" say_answer false reveal.text "= they are on the table" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
+    quiz "What does Они́ на столе́ mean?" above q_text say_answer false reveal.text "= they are on the table" reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
         right: They are on the table: они́ is they, and на столе́ is on the table, from lesson nine.
         wrong: Он is he and она́ is she; они́ is the word for many.
         + They are on the table
@@ -233,14 +233,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Big and small in Russian: новый, новая, новое
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:10 title "A longer Russian story: read it all yourself" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:12 title "Big and small in Russian: новый, новая, новое" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:12 title "Big and small in Russian: новый, новая, новое" form title size 600 x 500 y 420
 
-    link end_again href lecture:11 title "Watch again" form text open here x 500 y 160
-    text end_count "11 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:11 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "11 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

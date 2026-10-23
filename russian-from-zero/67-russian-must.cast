@@ -147,9 +147,9 @@ A: Now the whole conversation. Listen, then practise it.
 
     hide masha masha_name tom tom_name
 
-    icon q_work size 170 set twemoji x 500 y 480 or ["woman technologist","woman"] icon_look picture of "woman office worker"
+    icon q_work size 120 set twemoji x 500 y 480 or ["woman technologist","woman"] icon_look picture of "woman office worker"
 
-    quiz "A woman says she has to work: Я ___ рабо́тать. Which word fills the gap?" reveal.text "Я должна́ рабо́тать." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "A woman says she has to work: Я ___ рабо́тать. Which word fills the gap?" above q_work reveal.text "Я должна́ рабо́тать." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Должна́: a woman, so the а.
         wrong: A woman speaking: the а of свобо́дна.
@@ -159,9 +159,9 @@ A: Now the whole conversation. Listen, then practise it.
 
     erase q_work
 
-    icon q_walk size 160 set twemoji x 500 y 480 or ["person walking"] icon_look picture of "man walking"
+    icon q_walk size 120 set twemoji x 500 y 480 or ["person walking"] icon_look picture of "man walking"
 
-    quiz "A man says: Мне на́до идти́. Which says the same?" reveal.text "Я до́лжен идти́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "A man says: Мне на́до идти́. Which says the same?" above q_walk reveal.text "Я до́лжен идти́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Я до́лжен: до́лжен takes я; на́до takes мне.
         wrong: На́до goes with мне; до́лжен goes with я.
         + Я до́лжен идти́.
@@ -170,9 +170,9 @@ A: Now the whole conversation. Listen, then practise it.
 
     erase q_walk
 
-    icon q_sick size 160 set twemoji x 500 y 480 or ["sneezing face"] icon_look picture of "face with thermometer"
+    icon q_sick size 120 set twemoji x 500 y 480 or ["sneezing face"] icon_look picture of "face with thermometer"
 
-    quiz "What does Ты не до́лжен сего́дня рабо́тать mean?" say_answer false reveal.text "You shouldn't work today." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What does Ты не до́лжен сего́дня рабо́тать mean?" above q_sick say_answer false reveal.text "You shouldn't work today." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Не до́лжен: you shouldn't.
         wrong: До́лжен is must; не turns it round.
         * You don't work today.
@@ -192,10 +192,10 @@ A: В воскресе́нье я до́лжен рабо́тать.
 
     erase q_office q_say
 
-    icon q_books size 150 set twemoji x 400 y 480 or ["closed book"] icon_look picture of books
-    icon q_two size 150 set twemoji x 620 y 480 or ["family"] icon_look picture of "people holding hands"
+    icon q_books size 120 set twemoji x 400 y 480 or ["closed book"] icon_look picture of books
+    icon q_two size 120 set twemoji x 620 y 480 or ["family"] icon_look picture of "people holding hands"
 
-    ask "Now build a whole sentence. Type: We must study." answer ["мы должны учиться","должны учиться"] reveal.text "Мы должны́ учи́ться." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: We must study." above ["q_two","q_books"] answer ["мы должны учиться","должны учиться"] reveal.text "Мы должны́ учи́ться." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Мы должны́ учи́ться: мы takes должны́, and учи́ться keeps its ся.
         wrong: Start with мы, then must for more than one, then to study: учи́ться.
@@ -249,14 +249,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: If and would in Russian: е́сли, бы
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:66 title "Commands in Russian: прочита́й!" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:68 title "If and would in Russian: е́сли, бы" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:68 title "If and would in Russian: е́сли, бы" form title size 600 x 500 y 420
 
-    link end_again href lecture:67 title "Watch again" form text open here x 500 y 160
-    text end_count "67 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:67 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "67 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

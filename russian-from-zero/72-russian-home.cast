@@ -59,12 +59,12 @@ heading: false
     text masha2_name "Masha" #8f887c x 850 y 340 font_size 32 hidden true
     icon tom2 size 140 set twemoji x 150 y 450 or ["person"] icon_look picture of man hidden true
     text tom2_name "Tom" #8f887c x 150 y 340 font_size 32 hidden true
-    icon q_cook size 160 set twemoji x 500 y 490 or ["cooking"] icon_look picture of "pot of food" hidden true
-    icon q_book size 150 set twemoji x 500 y 490 or ["books"] icon_look picture of "closed book" hidden true
+    icon q_cook size 120 set twemoji x 500 y 490 or ["cooking"] icon_look picture of "pot of food" hidden true
+    icon q_book size 120 set twemoji x 500 y 490 or ["books"] icon_look picture of "closed book" hidden true
     icon q_shirt size 160 set twemoji x 500 y 500 or ["t-shirt"] icon_look picture of necktie hidden true
     icon q_cat size 140 set twemoji x 380 y 480 or ["cat face"] icon_look picture of cat hidden true
     icon q_bed2 size 140 set twemoji x 620 y 480 icon_look picture of bed hidden true
-    icon q_sofa size 170 set twemoji x 500 y 500 or ["couch"] icon_look picture of "couch and lamp" hidden true
+    icon q_sofa size 120 set twemoji x 500 y 500 or ["couch"] icon_look picture of "couch and lamp" hidden true
     text b1 "в спа́льне · на ку́хне · в ва́нной" say "в спа́льне, на ку́хне, в ва́нной" colors {"е$":"#d0865f","ой$":"#d0865f"} x 500 y 560 font_size 48 hidden true
     text b2 "на крова́ти · в шкафу́" say "на крова́ти, в шкафу́" colors {"и$":"#d0865f","у$":"#d0865f"} x 500 y 460 font_size 48 hidden true
     text b3 "стои́т · лежи́т · виси́т" say "стои́т, лежи́т, виси́т" colors {"стои́т":"#2f6b8f","лежи́т":"#2f6b8f","виси́т":"#2f6b8f"} x 500 y 340 font_size 54 hidden true
@@ -183,7 +183,7 @@ A: Кото́рая, from lesson sixty-nine: a shirt that's lying on the sofa.
 
     draw q_cook
 
-    quiz "Which room goes with на, not в?" reveal.text "на ку́хне" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which room goes with на, not в?" above q_cook reveal.text "на ку́хне" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Ку́хня: Russians say на ку́хне.
         wrong: One room breaks the в rule. Where do you cook?
@@ -195,7 +195,7 @@ A: Кото́рая, from lesson sixty-nine: a shirt that's lying on the sofa.
 
     draw q_book
 
-    quiz "The book is lying on the table: Кни́га ___ на столе́." reveal.text "Кни́га лежи́т на столе́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "The book is lying on the table: Кни́га ___ на столе́." above q_book reveal.text "Кни́га лежи́т на столе́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Лежи́т: a book lies flat.
         wrong: A book on a table is flat, not upright or hanging.
         * стои́т
@@ -222,7 +222,7 @@ A: Кото́рая, from lesson sixty-nine: a shirt that's lying on the sofa.
 
     draw q_sofa
 
-    ask "Now build a whole sentence. Type: The sofa is standing in the room." answer ["диван стоит в комнате","в комнате стоит диван","диван в комнате стоит"] reveal.text "Дива́н стои́т в ко́мнате." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: The sofa is standing in the room." above q_sofa answer ["диван стоит в комнате","в комнате стоит диван","диван в комнате стоит"] reveal.text "Дива́н стои́т в ко́мнате." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Дива́н стои́т в ко́мнате: upright, so стои́т, and ко́мната takes е.
         wrong: Start with Дива́н стои́т, then в and the room with its е.
@@ -278,14 +278,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Cooking in Russian: вари́ть, ре́зать
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:71 title "Clothes in Russian: в кра́сной ку́ртке" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:73 title "Cooking in Russian: вари́ть, ре́зать" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:73 title "Cooking in Russian: вари́ть, ре́зать" form title size 600 x 500 y 420
 
-    link end_again href lecture:72 title "Watch again" form text open here x 500 y 160
-    text end_count "72 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:72 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "72 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

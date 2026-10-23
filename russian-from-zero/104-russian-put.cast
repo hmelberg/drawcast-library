@@ -207,9 +207,9 @@ B: Удо́бный: comfortable. Како́й удо́бный дива́н!
 
     erase n_b1 n_b2 n_sofa n_u n_u2
 
-    icon q_jacket size 160 set twemoji x 500 y 460 or ["t-shirt"] icon_look picture of coat
+    icon q_jacket size 120 set twemoji x 500 y 460 or ["t-shirt"] icon_look picture of coat
 
-    quiz "The jacket goes in the wardrobe, on a hanger: ___ ку́ртку в шкаф." reveal.text "Пове́сь ку́ртку в шкаф." reveal.at.x 500 reveal.at.y 660 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    quiz "The jacket goes in the wardrobe, on a hanger: ___ ку́ртку в шкаф." above q_jacket reveal.text "Пове́сь ку́ртку в шкаф." reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         intro: Six questions now, then your score.
         right: Пове́сь: a jacket hangs in a wardrobe.
         wrong: In a wardrobe, a jacket doesn't stand or lie.
@@ -219,9 +219,9 @@ B: Удо́бный: comfortable. Како́й удо́бный дива́н!
 
     erase q_jacket
 
-    icon q_book size 150 set twemoji x 500 y 460 or ["books"] icon_look picture of "closed book"
+    icon q_book size 120 set twemoji x 500 y 460 or ["books"] icon_look picture of "closed book"
 
-    quiz "The book is lying on the table: Кни́га лежи́т ___." reveal.text "Кни́га лежи́т на столе́." reveal.at.x 500 reveal.at.y 660 reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
+    quiz "The book is lying on the table: Кни́га лежи́т ___." above q_book reveal.text "Кни́га лежи́т на столе́." reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
         right: На столе́: лежи́т says where it is, so где and the place е.
         wrong: Лежи́т answers где, not куда́.
         * на стол
@@ -258,10 +258,10 @@ B: Ключ лежи́т на по́лке.
 
     erase q_flow
 
-    icon q_pic2 size 140 set twemoji x 400 y 470 or ["picture"] icon_look picture of "framed picture"
-    icon q_sofa2 size 150 set twemoji x 600 y 450 or ["couch"] icon_look picture of "couch and lamp"
+    icon q_pic2 size 120 set twemoji x 400 y 470 or ["picture"] icon_look picture of "framed picture"
+    icon q_sofa2 size 120 set twemoji x 600 y 450 or ["couch"] icon_look picture of "couch and lamp"
 
-    ask "Now build the sentence. Type: Hang the picture over the sofa." answer ["повесь картину над диваном","картину повесь над диваном","над диваном повесь картину","повесь над диваном картину"] reveal.text "Пове́сь карти́ну над дива́ном." reveal.at.x 500 reveal.at.y 660 reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
+    ask "Now build the sentence. Type: Hang the picture over the sofa." above ["q_sofa2","q_pic2"] answer ["повесь картину над диваном","картину повесь над диваном","над диваном повесь картину","повесь над диваном картину"] reveal.text "Пове́сь карти́ну над дива́ном." reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пове́сь карти́ну над дива́ном: hang it, карти́ну with its у, and над with ом.
         wrong: Start with Пове́сь карти́ну, then над and the sofa with its with-ending.
@@ -315,14 +315,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Formal Russian: ты, вы and Нина Петровна
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:103 title "Carrying in Russian: несу or ношу?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:105 title "Formal Russian: ты, вы and Нина Петровна" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:105 title "Formal Russian: ты, вы and Нина Петровна" form title size 600 x 500 y 420
 
-    link end_again href lecture:104 title "Watch again" form text open here x 500 y 160
-    text end_count "104 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:104 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "104 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

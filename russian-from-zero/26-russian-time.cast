@@ -240,7 +240,7 @@ A: У́жин is dinner, and в семь часо́в answers когда́: at s
 
     hide tclk
 
-    ask "Ask the time the 'which hour' way. Type it in Russian." answer ["который час","который час?"] store q2 default "который час" reveal.text "Кото́рый час?" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
+    ask "Ask the time the 'which hour' way. Type it in Russian." frame true answer ["который час","который час?"] store q2 default "который час" reveal.text "Кото́рый час?" reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
         right: Кото́рый час: which hour.
         wrong: Two words: which, then hour.
 
@@ -250,7 +250,7 @@ A: У́жин is dinner, and в семь часо́в answers когда́: at s
 
     move tclk_hr rotate 60 pivot.anchor start duration 0.8
 
-    quiz "What time is it now? Pick one." reveal.text "Сейча́с час." reveal.at.x 560 reveal.at.y 420 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What time is it now? Pick one." frame true reveal.text "Сейча́с час." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Just час: for one o'clock, оди́н is dropped.
         wrong: One o'clock needs only one word.
         * оди́н часо́в
@@ -261,7 +261,7 @@ A: У́жин is dinner, and в семь часо́в answers когда́: at s
 
     hide tclk
 
-    quiz "Dinner is at eight. Pick the Russian." reveal.text "у́жин в 8:00" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 90 reveal.color #3d3833 voice a test t1
+    quiz "Dinner is at eight. Pick the Russian." frame true reveal.text "у́жин в 8:00" reveal.style label reveal.size 90 reveal.color #3d3833 voice a test t1
         right: В for at, and часо́в after eight.
         wrong: You need at, and eight is five or more.
         + У́жин в во́семь часо́в.
@@ -270,7 +270,7 @@ A: У́жин is dinner, and в семь часо́в answers когда́: at s
 
     erase question_5_stamp
 
-    quiz "A timetable says 22:00. Pick the Russian." reveal.text "22:00 = два́дцать два часа́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "A timetable says 22:00. Pick the Russian." frame true reveal.text "22:00 = два́дцать два часа́" reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         right: The last word is два, so часа́, even after twenty.
         wrong: Look at the last word of the number.
         * два́дцать два часо́в
@@ -337,14 +337,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Where are you going in Russian: куда?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:25 title "At the market in Russian: хлеб, сыр, рыба" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:27 title "Where are you going in Russian: куда?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:27 title "Where are you going in Russian: куда?" form title size 600 x 500 y 420
 
-    link end_again href lecture:26 title "Watch again" form text open here x 500 y 160
-    text end_count "26 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:26 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "26 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

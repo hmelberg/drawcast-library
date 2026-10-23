@@ -32,7 +32,7 @@ heading: false
     icon open_man size 170 set twemoji x 740 y 470 or ["person"] icon_look picture of man hidden true
     text open_city "Петербу́рг зимо́й" say "Петербу́рг зимо́й" x 500 y 240 font_size 64 hidden true
     text q_title "Six questions" #8f887c x 500 y 640 font_size 44 hidden true
-    icon q_cold size 170 set twemoji x 500 y 470 or ["thermometer"] icon_look picture of snowflake hidden true
+    icon q_cold size 120 set twemoji x 500 y 470 or ["thermometer"] icon_look picture of snowflake hidden true
     icon q_tom size 200 set twemoji x 280 y 460 or ["person"] icon_look picture of man hidden true
     icon q_masha size 200 set twemoji x 720 y 460 or ["person"] icon_look picture of woman hidden true
     text l1 "Том: Ма́ша, како́й прогно́з на за́втра?" say "Ма́ша, како́й прогно́з на за́втра?" x 500 y 640 font_size 38 hidden true
@@ -43,9 +43,9 @@ heading: false
     icon b2 size 90 set twemoji x 600 y 560 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
     icon b3 size 70 set twemoji x 400 y 330 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
     icon b4 size 90 set twemoji x 600 y 300 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
-    icon q_case size 170 set twemoji x 500 y 480 or ["briefcase"] icon_look picture of luggage hidden true
-    icon q_letter size 170 set twemoji x 500 y 480 or ["love letter"] icon_look picture of envelope hidden true
-    icon q_shower size 170 set twemoji x 500 y 480 or ["bathtub"] icon_look picture of shower hidden true
+    icon q_case size 120 set twemoji x 500 y 480 or ["briefcase"] icon_look picture of luggage hidden true
+    icon q_letter size 120 set twemoji x 500 y 480 or ["love letter"] icon_look picture of envelope hidden true
+    icon q_shower size 120 set twemoji x 500 y 480 or ["bathtub"] icon_look picture of shower hidden true
     icon q_plane size 160 set twemoji x 500 y 500 or ["airplane departure"] icon_look picture of airplane hidden true
     icon score_snow size 200 set twemoji x 500 y 440 or ["snowman"] icon_look picture of snowflake hidden true
     box end_card "A hundred lessons · more are coming" x 500 y 430 width 760 height 130 radius 14 font_size 40 hidden true
@@ -156,7 +156,7 @@ B: Now six questions, then your score.
 
     draw q_cold
 
-    quiz "Fifteen degrees below zero: ми́нус пятна́дцать ___." reveal.text "Ми́нус пятна́дцать гра́дусов!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Fifteen degrees below zero: ми́нус пятна́дцать ___." above ["q_cold","q_title"] reveal.text "Ми́нус пятна́дцать гра́дусов!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Гра́дусов: after five to twenty, like пятна́дцать часо́в.
         wrong: After five to twenty, гра́дусов, even eleven to fourteen. Гра́дуса follows два, три, четы́ре; гра́дус follows оди́н.
         * гра́дуса
@@ -196,7 +196,7 @@ B: Here is the whole exchange: днём ми́нус пять, а но́чью �
 
     draw q_case
 
-    quiz "In Masha's story, what was in Tom's suitcase?" reveal.text "Па́спорт был в чемода́не!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
+    quiz "In Masha's story, what was in Tom's suitcase?" above q_case reveal.text "Па́спорт был в чемода́не!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
         right: His passport. So they were late!
         wrong: It was his passport: па́спорт был в чемода́не.
         * the key
@@ -207,7 +207,7 @@ B: Here is the whole exchange: днём ми́нус пять, а но́чью �
 
     draw q_letter
 
-    quiz "Start a card to your mum: Dear Mum!" reveal.text "Дорога́я ма́ма!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Start a card to your mum: Dear Mum!" above q_letter reveal.text "Дорога́я ма́ма!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Дорога́я: ма́ма is a woman, so the а.
         wrong: Дорога́я ма́ма. Дорого́й is for a man, and до́рого means expensive.
         * Дорого́й ма́ма!
@@ -218,7 +218,7 @@ B: Here is the whole exchange: днём ми́нус пять, а но́чью �
 
     draw q_shower
 
-    ask "Now build a sentence. Type: The shower in the room doesn't work." answer ["в номере не работает душ","в номере душ не работает","душ в номере не работает","душ не работает в номере","не работает душ в номере","у меня в номере не работает душ","у меня в номере душ не работает"] reveal.text "В но́мере не рабо́тает душ." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: The shower in the room doesn't work." above q_shower answer ["в номере не работает душ","в номере душ не работает","душ в номере не работает","душ не работает в номере","не работает душ в номере","у меня в номере не работает душ","у меня в номере душ не работает"] reveal.text "В но́мере не рабо́тает душ." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: В но́мере, with the е of place, then не рабо́тает душ.
         wrong: В но́мере не рабо́тает душ: в with the е of place, and не before the verb.
@@ -278,14 +278,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Why and because in Russian: потому что
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:99 title "A whole conversation in Russian" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:101 title "Why and because in Russian: потому что" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:101 title "Why and because in Russian: потому что" form title size 600 x 500 y 420
 
-    link end_again href lecture:100 title "Watch again" form text open here x 500 y 160
-    text end_count "100 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:100 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "100 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

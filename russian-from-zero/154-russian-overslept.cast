@@ -227,7 +227,7 @@ A: Суп не о́чень вку́сный. На́до его́ переде́
 
     ask say_it "Я проспа́л!" also ["Я проспала́!","Проспа́л!","Проспала́!"] gloss "I overslept!" voice a show cue reveal.text "Я проспа́л!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 90 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: I woke up at seven." answer ["я проснулся в семь","я проснулась в семь","проснулся в семь","проснулась в семь","я проснулся в семь часов","я проснулась в семь часов","проснулся в семь часов","проснулась в семь часов","в семь я проснулся","в семь я проснулась","в семь часов я проснулся","в семь часов я проснулась","я в семь проснулся","я в семь проснулась","я проснулся в семь утра","я проснулась в семь утра"] reveal.text "Я просну́лся в семь." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I woke up at seven." frame true answer ["я проснулся в семь","я проснулась в семь","проснулся в семь","проснулась в семь","я проснулся в семь часов","я проснулась в семь часов","проснулся в семь часов","проснулась в семь часов","в семь я проснулся","в семь я проснулась","в семь часов я проснулся","в семь часов я проснулась","я в семь проснулся","я в семь проснулась","я проснулся в семь утра","я проснулась в семь утра"] reveal.text "Я просну́лся в семь." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Просну́лся, or просну́лась.
         wrong: Я просну́лся в семь: to wake up, просну́ться.
@@ -278,14 +278,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Dates in Russian history: в 1703 году, в XVIII веке
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:153 title "A job ad in Russian: требуется повар, умеющий…" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:155 title "Dates in Russian history: в 1703 году, в XVIII веке" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:155 title "Dates in Russian history: в 1703 году, в XVIII веке" form title size 600 x 500 y 420
 
-    link end_again href lecture:154 title "Watch again" form text open here x 500 y 160
-    text end_count "154 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:154 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "154 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -51,16 +51,16 @@ level: basic
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, приве́т! Рад тебя́ ви́деть!","gloss":"Masha, hi! Glad to see you!"},{"by":"b","text":"Я то́же ра́да! А э́то мой брат.","gloss":"I'm glad too! And this is my brother."},{"by":"a","text":"Он похо́ж на тебя́! Он то́же рад?","gloss":"He looks like you! Is he glad too?"},{"by":"b","text":"Нет. По-мо́ему, ему́ ску́чно.","gloss":"No. I think he's bored."},{"by":"a","text":"Пра́вда? А мне тут ве́село!","gloss":"Really? I'm having fun here!"},{"by":"b","text":"Он не лю́бит му́зыку. Он лю́бит футбо́л.","gloss":"He doesn't like music. He likes football."},{"by":"a","text":"Е́сли ему́ ску́чно, дава́й посмо́трим футбо́л!","gloss":"If he's bored, let's watch football!"},{"by":"b","text":"Хорошо́! Смотри́: сейча́с ему́ ве́село.","gloss":"Good! Look: now he's having fun."}] practice true size 1.5 hidden true
     text esli "е́сли ему́ ску́чно…" say "Е́сли ему́ ску́чно…" colors {"о$":"#2f6b8f"} x 500 y 520 font_size 64 hidden true
     text esli2 "е́сли бу́дет тепло́" #8f887c x 500 y 400 font_size 42 hidden true
-    icon q_yawn size 170 set twemoji x 500 y 480 or ["sleepy face"] icon_look picture of "yawning face" hidden true
-    icon q_wom size 150 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman hidden true
+    icon q_yawn size 120 set twemoji x 500 y 480 or ["sleepy face"] icon_look picture of "yawning face" hidden true
+    icon q_wom size 120 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman hidden true
     icon q_sad size 120 set twemoji x 600 y 480 or ["crying face"] icon_look picture of "pensive face" hidden true
-    icon q_w1 size 150 set twemoji x 380 y 480 or ["girl"] icon_look picture of woman hidden true
+    icon q_w1 size 120 set twemoji x 380 y 480 or ["girl"] icon_look picture of woman hidden true
     icon q_wave size 90 set twemoji x 500 y 560 or ["raised hand"] icon_look picture of "waving hand" hidden true
-    icon q_w2 size 150 set twemoji x 620 y 480 or ["woman"] icon_look picture of "woman curly hair" hidden true
+    icon q_w2 size 120 set twemoji x 620 y 480 or ["woman"] icon_look picture of "woman curly hair" hidden true
     icon q_film size 130 set twemoji x 400 y 480 or ["movie camera"] icon_look picture of "clapper board" hidden true
     icon q_yawn2 size 130 set twemoji x 600 y 480 or ["sleepy face"] icon_look picture of "yawning face" hidden true
     text q_say "Мне ску́чно. Дава́й пойдём в кино́!" say "Мне ску́чно. Дава́й пойдём в кино́!" say_voice b x 500 y 290 font_size 54 hidden true
-    icon q_wom3 size 150 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman hidden true
+    icon q_wom3 size 120 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman hidden true
     icon q_yawn3 size 120 set twemoji x 600 y 480 or ["sleepy face"] icon_look picture of "yawning face" hidden true
     text b1 "мне · тебе́ · ему́ · ей  ску́чно" say "Мне, тебе́, ему́, ей ску́чно." colors {"о$":"#2f6b8f"} x 500 y 520 font_size 52 hidden true
     text b2 "я рад · я ра́да" say "Я рад, я ра́да." colors {"а$":"#c0392b"} x 500 y 400 font_size 52 hidden true
@@ -172,7 +172,7 @@ A: Е́сли ему́ ску́чно: he's bored now, so no бу́дет; бу�
 
     draw q_yawn
 
-    quiz "The film is long and dull. Which is right?" reveal.text "Мне ску́чно." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "The film is long and dull. Which is right?" above q_yawn reveal.text "Мне ску́чно." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Мне ску́чно: the feeling comes to you.
         wrong: A dull film, and the feeling comes to you: мне.
@@ -184,7 +184,7 @@ A: Е́сли ему́ ску́чно: he's bored now, so no бу́дет; бу�
 
     draw q_wom q_sad
 
-    quiz "She is sad. Which is right?" reveal.text "Ей гру́стно." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "She is sad. Which is right?" above ["q_wom","q_sad"] reveal.text "Ей гру́стно." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ей: her to-word.
         wrong: Not она́: the feeling comes to her. And ему́ is him.
         + Ей гру́стно.
@@ -195,7 +195,7 @@ A: Е́сли ему́ ску́чно: he's bored now, so no бу́дет; бу�
 
     draw q_w1 q_wave q_w2
 
-    quiz "A woman meets a friend. What does she say?" reveal.text "Ра́да тебя́ ви́деть!" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A woman meets a friend. What does she say?" above ["q_w1","q_wave","q_w2"] reveal.text "Ра́да тебя́ ви́деть!" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Ра́да: рад takes я, and a woman adds а.
         wrong: Рад doesn't take мне, and she is a woman.
         * Рад тебя́ ви́деть!
@@ -217,7 +217,7 @@ B: Мне ску́чно. Дава́й пойдём в кино́!
 
     draw q_wom3 q_yawn3
 
-    ask "Now build a whole sentence. Type: I think she's bored." answer ["по-моему ей скучно","по-моему, ей скучно","по моему ей скучно","я думаю что ей скучно","я думаю, что ей скучно","я думаю ей скучно"] reveal.text "По-мо́ему, ей ску́чно." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I think she's bored." above ["q_wom3","q_yawn3"] answer ["по-моему ей скучно","по-моему, ей скучно","по моему ей скучно","я думаю что ей скучно","я думаю, что ей скучно","я думаю ей скучно"] reveal.text "По-мо́ему, ей ску́чно." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ,-
         right: По-мо́ему, ей ску́чно: her feeling, her to-word.
         wrong: Start with по-мо́ему, then her to-word, then ску́чно.
@@ -275,14 +275,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Time words in Russian: уже́, ещё, че́рез
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:83 title "Opinions in Russian: по-мо́ему" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:85 title "Time words in Russian: уже́, ещё, че́рез" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:85 title "Time words in Russian: уже́, ещё, че́рез" form title size 600 x 500 y 420
 
-    link end_again href lecture:84 title "Watch again" form text open here x 500 y 160
-    text end_count "84 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:84 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "84 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

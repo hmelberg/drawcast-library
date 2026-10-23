@@ -163,7 +163,7 @@ A: On Saturday Tom comes to Masha's. Listen, then practise it.
 
     hide masha masha_name tom tom_name
 
-    quiz "Tom walked to Masha's and got there at seven. Том ___ к Ма́ше в семь часо́в." reveal.text "Том пришёл к Ма́ше." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom walked to Masha's and got there at seven. Том ___ к Ма́ше в семь часо́в." frame true reveal.text "Том пришёл к Ма́ше." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Пришёл: при for arriving, шёл for on foot.
         wrong: He got there: which front means arriving?
@@ -177,7 +177,7 @@ A: On Saturday Tom comes to Masha's. Listen, then practise it.
 
     erase q_home q_walk question_2_stamp
 
-    quiz "Masha drove away. Which is right?" reveal.text "Ма́ша уе́хала." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha drove away. Which is right?" frame true reveal.text "Ма́ша уе́хала." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Уе́хала: у for away, е́хала for wheels, and а for her.
         wrong: Away is у; by car is е́хать.
         + Ма́ша уе́хала.
@@ -190,7 +190,7 @@ A: On Saturday Tom comes to Masha's. Listen, then practise it.
 
     erase q_carhome q_car q_away question_3_stamp
 
-    quiz "He went into the shop. Он ___ в магази́н." reveal.text "Он вошёл в магази́н." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "He went into the shop. Он ___ в магази́н." frame true reveal.text "Он вошёл в магази́н." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Вошёл: в for in, with an о to say it easily.
         wrong: Into is в.
         * вы́шел
@@ -212,7 +212,7 @@ A: Я прие́хал на маши́не.
 
     erase q_carsay q_say
 
-    ask "Now build a sentence. Type: Masha came home." answer ["маша пришла домой","пришла домой","она пришла домой","маша приехала домой","приехала домой","она приехала домой"] reveal.text "Ма́ша пришла́ домо́й." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: Masha came home." frame true answer ["маша пришла домой","пришла домой","она пришла домой","маша приехала домой","приехала домой","она приехала домой"] reveal.text "Ма́ша пришла́ домо́й." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Ма́ша пришла́ домо́й, or прие́хала if she drove: при for arriving, а for her, and домо́й for where to.
         wrong: Start with Ма́ша, then при on шла, then home as the place you go to: домо́й.
@@ -272,14 +272,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I will read or I will finish in Russian: прочита́ю
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:63 title "Travelling in Russian: е́ду or е́зжу?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:65 title "I will read or I will finish in Russian: прочита́ю" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:65 title "I will read or I will finish in Russian: прочита́ю" form title size 600 x 500 y 420
 
-    link end_again href lecture:64 title "Watch again" form text open here x 500 y 160
-    text end_count "64 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:64 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "64 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

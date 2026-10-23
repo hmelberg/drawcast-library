@@ -49,13 +49,13 @@ level: basic
     text dv1 "Дава́й посмо́трим фильм!" say "Дава́й посмо́трим фильм!" say_voice b colors {"^по":"#8a5fa8"} x 500 y 310 font_size 56 hidden true
     text dv2 "Дава́й напи́шем ма́ме!" say "Дава́й напи́шем ма́ме!" say_voice b colors {"^на":"#8a5fa8"} x 500 y 200 font_size 56 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, я иду́ домо́й. Пока́!","gloss":"Masha, I'm going home. Bye!"},{"by":"b","text":"Пока́! Не забу́дь кни́гу!","gloss":"Bye! Don't forget the book!"},{"by":"a","text":"Спаси́бо! Я прочита́ю её за́втра.","gloss":"Thanks! I'll read it tomorrow."},{"by":"b","text":"Прочита́й и напиши мне!","gloss":"Read it and write to me!"},{"by":"a","text":"Напишу́! А ты приходи в суббо́ту. Дава́й посмо́трим фильм!","gloss":"I will! And you come over on Saturday. Let's watch a film!"},{"by":"b","text":"Хорошо́! Позвони мне в пя́тницу.","gloss":"Good! Call me on Friday."}] practice true size 1.5 hidden true
-    icon q_phone size 160 set twemoji x 500 y 470 or ["telephone"] icon_look picture of "mobile phone" hidden true
-    icon q_win size 160 set twemoji x 500 y 470 or ["framed picture"] icon_look picture of window hidden true
-    icon q_film size 150 set twemoji x 500 y 470 or ["movie camera","clapper board"] icon_look picture of "film frames" hidden true
+    icon q_phone size 120 set twemoji x 500 y 470 or ["telephone"] icon_look picture of "mobile phone" hidden true
+    icon q_win size 120 set twemoji x 500 y 470 or ["framed picture"] icon_look picture of window hidden true
+    icon q_film size 120 set twemoji x 500 y 470 or ["movie camera","clapper board"] icon_look picture of "film frames" hidden true
     icon q_book size 150 set twemoji x 500 y 470 or ["green book","blue book"] icon_look picture of "closed book" hidden true
     text q_say "Не забу́дь кни́гу!" say "Не забу́дь кни́гу!" say_voice b x 500 y 300 font_size 64 hidden true
-    icon q_build size 140 set twemoji x 400 y 470 or ["books"] icon_look picture of "open book" hidden true
-    icon q_build2 size 130 set twemoji x 600 y 470 or ["telephone"] icon_look picture of "mobile phone" hidden true
+    icon q_build size 120 set twemoji x 400 y 470 or ["books"] icon_look picture of "open book" hidden true
+    icon q_build2 size 120 set twemoji x 600 y 470 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon score_woman size 170 set twemoji x 500 y 470 or ["girl"] icon_look picture of woman hidden true
     text sum_a "приходи · не открыва́й" #3d3833 say "приходи́, не открыва́й" x 400 y 225 font_size 36 hidden true
 
@@ -176,7 +176,7 @@ A: Приходи́, come over, is a doing verb: asking someone over takes the d
 
     draw q_phone
 
-    quiz "Ask a friend to phone you tonight, once: ___ мне ве́чером! Which fits?" reveal.text "Позвони мне ве́чером!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Ask a friend to phone you tonight, once: ___ мне ве́чером! Which fits?" above q_phone reveal.text "Позвони мне ве́чером!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Позвони́: one call, so the done verb.
         wrong: One call, done: the done verb, with по.
@@ -188,7 +188,7 @@ A: Приходи́, come over, is a doing verb: asking someone over takes the d
 
     draw q_win
 
-    quiz "Tell a friend not to open the window. Pick one." reveal.text "Не открыва́й окно́!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tell a friend not to open the window. Pick one." above q_win reveal.text "Не открыва́й окно́!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Не открыва́й: не, and the doing verb.
         wrong: Don't is не, and a request ending in й.
         * Не открыва́ю окно́.
@@ -199,7 +199,7 @@ A: Приходи́, come over, is a doing verb: asking someone over takes the d
 
     draw q_film
 
-    quiz "Suggest to a friend: let's watch the film. Pick one." reveal.text "Дава́й посмо́трим фильм!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Suggest to a friend: let's watch the film. Pick one." above q_film reveal.text "Дава́й посмо́трим фильм!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Дава́й посмо́трим: дава́й and the done verb's мы form, like пойдём.
         wrong: After дава́й comes the мы form, as in дава́й пойдём.
         + Дава́й посмо́трим фильм!
@@ -219,7 +219,7 @@ B: Не забу́дь кни́гу!
 
     draw q_build q_build2
 
-    ask "Now build a whole sentence. Type, to a friend: Read the book and phone me!" answer ["прочитай книгу и позвони мне"] reveal.text "Прочита́й кни́гу и позвони мне" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type, to a friend: Read the book and phone me!" above ["q_build","q_build2"] answer ["прочитай книгу и позвони мне"] reveal.text "Прочита́й кни́гу и позвони мне" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Прочита́й кни́гу и позвони́ мне: two jobs, each done once, so two done verbs.
         wrong: Two jobs to finish, so two done verbs: Прочита́й кни́гу и позвони́ мне.
@@ -281,14 +281,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I must in Russian: я до́лжен
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:65 title "I will read or I will finish in Russian: прочита́ю" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:67 title "I must in Russian: я до́лжен" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:67 title "I must in Russian: я до́лжен" form title size 600 x 500 y 420
 
-    link end_again href lecture:66 title "Watch again" form text open here x 500 y 160
-    text end_count "66 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:66 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "66 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

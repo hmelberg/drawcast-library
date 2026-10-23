@@ -162,9 +162,9 @@ A: Now Masha is busy, and Tom wants to go out. Listen, then practise it.
 
     hide masha masha_name tom tom_name
 
-    icon q_flag size 160 set twemoji x 500 y 480 or ["closed book"] icon_look picture of books
+    icon q_flag size 120 set twemoji x 500 y 480 or ["closed book"] icon_look picture of books
 
-    quiz "Я ___ ру́сский. Which verb fits?" reveal.text "Я изуча́ю ру́сский." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Я ___ ру́сский. Which verb fits?" above q_flag reveal.text "Я изуча́ю ру́сский." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Изуча́ю: ру́сский is a what.
         wrong: Ру́сский is a what-word; the ся verb takes no у-ending what-word.
@@ -173,9 +173,9 @@ A: Now Masha is busy, and Tom wants to go out. Listen, then practise it.
 
     erase q_flag
 
-    icon q_she size 170 set twemoji x 500 y 480 or ["woman"] icon_look picture of "woman student"
+    icon q_she size 120 set twemoji x 500 y 480 or ["woman"] icon_look picture of "woman student"
 
-    quiz "A woman at the university says: Я …" reveal.text "Я студе́нтка." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "A woman at the university says: Я …" above q_she reveal.text "Я студе́нтка." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Студе́нтка: the ка for a woman.
         wrong: A woman: the word with ка.
         + студе́нтка
@@ -184,9 +184,9 @@ A: Now Masha is busy, and Tom wants to go out. Listen, then practise it.
 
     erase q_she
 
-    icon q_cap size 160 set twemoji x 500 y 480 or ["party popper"] icon_look picture of "graduation cap"
+    icon q_cap size 120 set twemoji x 500 y 480 or ["party popper"] icon_look picture of "graduation cap"
 
-    quiz "What does Я сдала́ экза́мен! mean?" say_answer false reveal.text "I passed the exam!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What does Я сдала́ экза́мен! mean?" above q_cap say_answer false reveal.text "I passed the exam!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Сдала́: passed, with a woman's а.
         wrong: Сдала́ ends like была́: it already happened.
         * I'll pass the exam.
@@ -206,9 +206,9 @@ B: Я должна́ сде́лать дома́шнее зада́ние.
 
     erase q_hw q_say
 
-    icon q_tom size 160 set twemoji x 500 y 480 or ["man"] icon_look picture of "man student"
+    icon q_tom size 120 set twemoji x 500 y 480 or ["man"] icon_look picture of "man student"
 
-    ask "Now build a whole sentence. Type: I study Russian." answer ["я изучаю русский","изучаю русский","я изучаю русский язык","я учу русский","учу русский","я учу русский язык"] reveal.text "Я изуча́ю ру́сский." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Now build a whole sentence. Type: I study Russian." above q_tom answer ["я изучаю русский","изучаю русский","я изучаю русский язык","я учу русский","учу русский","я учу русский язык"] reveal.text "Я изуча́ю ру́сский." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я изуча́ю ру́сский: a what, so изуча́ю.
         wrong: Start with я, then the verb that takes a what-word, then ру́сский.
@@ -264,14 +264,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: On the phone in Russian: алло́, перезвоню́
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:77 title "Jobs in Russian: кем вы рабо́таете?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:79 title "On the phone in Russian: алло́, перезвоню́" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:79 title "On the phone in Russian: алло́, перезвоню́" form title size 600 x 500 y 420
 
-    link end_again href lecture:78 title "Watch again" form text open here x 500 y 160
-    text end_count "78 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:78 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "78 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

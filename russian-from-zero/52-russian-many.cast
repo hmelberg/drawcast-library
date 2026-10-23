@@ -62,14 +62,14 @@ level: basic
     icon q_bk1 size 150 set twemoji x 420 y 470 or ["closed book","green book"] icon_look picture of books hidden true
     icon q_bk2 size 150 set twemoji x 580 y 470 or ["closed book","green book"] icon_look picture of books hidden true
     group q_books members ["q_bk1","q_bk2"] hidden true
-    icon q_glass size 170 set twemoji x 500 y 470 or ["hourglass not done","alarm clock"] icon_look picture of "hourglass done" hidden true
+    icon q_glass size 120 set twemoji x 500 y 470 or ["hourglass not done","alarm clock"] icon_look picture of "hourglass done" hidden true
     icon q_p1 size 120 set twemoji x 380 y 470 or ["person"] icon_look picture of man hidden true
     icon q_p2 size 120 set twemoji x 500 y 470 or ["person"] icon_look picture of woman hidden true
     icon q_p3 size 120 set twemoji x 620 y 470 or ["person"] icon_look picture of boy hidden true
     group q_people members ["q_p1","q_p2","q_p3"] hidden true
     icon q_tom size 170 set twemoji x 500 y 470 or ["person"] icon_look picture of man hidden true
     text q_say "Пять? Э́то мно́го!" say "Пять? Э́то мно́го!" x 500 y 290 font_size 64 hidden true
-    icon q_city size 180 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
+    icon q_city size 120 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
     icon s_books size 120 set twemoji x 330 y 450 or ["closed book","green book"] icon_look picture of books hidden true
     icon s_cat size 120 set twemoji x 500 y 450 or ["cat face"] icon_look picture of cat hidden true
     icon s_glass size 120 set twemoji x 670 y 450 or ["hourglass not done","alarm clock"] icon_look picture of "hourglass done" hidden true
@@ -211,7 +211,7 @@ A: В па́рке мно́го люде́й.
 
     draw q_glass
 
-    quiz "Masha is busy: У меня́ ма́ло ___. Which fills the gap?" reveal.text "ма́ло вре́мени" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha is busy: У меня́ ма́ло ___. Which fills the gap?" above q_glass reveal.text "ма́ло вре́мени" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Вре́мени: вре́мя can't be counted, so it stays one thing.
         wrong: Think of ско́лько вре́мени?
         + вре́мени
@@ -243,7 +243,7 @@ A: Пять? Э́то мно́го!
 
     draw q_city
 
-    ask "Now build a whole sentence. Type: In Moscow there are a lot of people." answer ["В Москве много людей","В Москве очень много людей","Много людей в Москве"] reveal.text "В Москве́ мно́го люде́й." reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: In Moscow there are a lot of people." above q_city answer ["В Москве много людей","В Москве очень много людей","Много людей в Москве"] reveal.text "В Москве́ мно́го люде́й." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: В Москве́ мно́го люде́й: в Москве́ for where, then мно́го and люде́й.
         wrong: Start with в Москве́, then a lot of people.
 
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Years in Russian: в две тысячи двадцать пятом году
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:51 title "Talking about things in Russian: о маме, о работе" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:53 title "Years in Russian: в две тысячи двадцать пятом году" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:53 title "Years in Russian: в две тысячи двадцать пятом году" form title size 600 x 500 y 420
 
-    link end_again href lecture:52 title "Watch again" form text open here x 500 y 160
-    text end_count "52 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:52 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "52 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

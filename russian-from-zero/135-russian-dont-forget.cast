@@ -131,7 +131,7 @@ A: Напиши́те по-ру́сски, на дверь ку́хни.
     text b1_cue "You may not come in here." #3d3833 x 500 y 560 font_size 52
     icon b1_door size 120 set twemoji x 500 y 250 or ["locked"] icon_look picture of door
 
-    ask "Напиши́те: You may not come in here." answer ["сюда нельзя входить","нельзя сюда входить","сюда входить нельзя"] reveal.text "Сюда́ нельзя́ входи́ть." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: You may not come in here." above ["b1_door","b1_cue"] answer ["сюда нельзя входить","нельзя сюда входить","сюда входить нельзя"] reveal.text "Сюда́ нельзя́ входи́ть." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Not allowed: нельзя́ and the doing verb.
         wrong: Not allowed: нельзя́, then the doing verb, входи́ть.
@@ -207,7 +207,7 @@ A: Не забу́дь позвони́ть ма́ме за́втра!
 
     ask say_it "Не начина́й без меня́!" also ["Без меня́ не начина́й!","Не начина́йте без меня́!"] gloss "Don't start without me!" voice a show cue reveal.text "Не начина́й без меня́!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: No need to call every day." answer ["не надо звонить каждый день","не надо каждый день звонить","каждый день звонить не надо","тебе не надо звонить каждый день","вам не надо звонить каждый день","не нужно звонить каждый день","каждый день звонить не нужно"] reveal.text "Не на́до звони́ть ка́ждый день." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: No need to call every day." frame true answer ["не надо звонить каждый день","не надо каждый день звонить","каждый день звонить не надо","тебе не надо звонить каждый день","вам не надо звонить каждый день","не нужно звонить каждый день","каждый день звонить не нужно"] reveal.text "Не на́до звони́ть ка́ждый день." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Не на́до and the doing verb.
         wrong: Не на́до, then the doing verb: звони́ть.
@@ -256,14 +256,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I had to in Russian: пришлось, удалось, не хватает
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:134 title "Coming and going in Russian: ухожу, приезжаю, сходи" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:136 title "I had to in Russian: пришлось, удалось, не хватает" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:136 title "I had to in Russian: пришлось, удалось, не хватает" form title size 600 x 500 y 420
 
-    link end_again href lecture:135 title "Watch again" form text open here x 500 y 160
-    text end_count "135 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:135 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "135 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

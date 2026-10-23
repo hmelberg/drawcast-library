@@ -157,7 +157,7 @@ B: Слу́шать is to listen: я люблю́ слу́шать му́зык�
 
     hide boardD
 
-    quiz "Tom plays the piano: Я игра́ю ___ пиани́но. Which little word?" reveal.text "Я игра́ю на пиани́но." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom plays the piano: Я игра́ю ___ пиани́но. Which little word?" frame true reveal.text "Я игра́ю на пиани́но." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: На: an instrument takes на.
         wrong: Is the piano a game, or an instrument?
@@ -166,14 +166,14 @@ B: Слу́шать is to listen: я люблю́ слу́шать му́зык�
 
     erase question_1_stamp
 
-    ask "Masha plays the guitar. Type the missing word: Я игра́ю на ___." answer ["гитаре"] reveal.text "Я игра́ю на гита́ре." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Masha plays the guitar. Type the missing word: Я игра́ю на ___." frame true answer ["гитаре"] reveal.text "Я игра́ю на гита́ре." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Гита́ре: after на, the а of гита́ра makes way for е.
         wrong: Start from гита́ра; with на, what does its а become?
 
     erase question_2_stamp
 
-    quiz "Mum and dad play tennis: Ма́ма и па́па ___ в те́ннис. Which form fills the gap?" reveal.text "Они́ игра́ют в те́ннис." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Mum and dad play tennis: Ма́ма и па́па ___ в те́ннис. Which form fills the gap?" frame true reveal.text "Они́ игра́ют в те́ннис." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Mum and dad are они́, so the ending is ют.
         wrong: Mum and dad are они́: which ending goes with они́?
         * игра́ет
@@ -182,7 +182,7 @@ B: Слу́шать is to listen: я люблю́ слу́шать му́зык�
 
     erase question_3_stamp
 
-    quiz "Which one says I like reading?" reveal.text "Я люблю́ чита́ть." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which one says I like reading?" frame true reveal.text "Я люблю́ чита́ть." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: After люблю́, the second verb is the dictionary form: чита́ть.
         wrong: After люблю́, which form does the second verb take?
         + Я люблю́ чита́ть.
@@ -191,7 +191,7 @@ B: Слу́шать is to listen: я люблю́ слу́шать му́зык�
 
     erase question_4_stamp
 
-    quiz "Masha's brother plays football: Брат игра́ет ___. Which is right?" reveal.text "Брат игра́ет в футбо́л." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha's brother plays football: Брат игра́ет ___. Which is right?" frame true reveal.text "Брат игра́ет в футбо́л." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: В футбо́л: a game takes в, and a he-word stays as it is.
         wrong: Football is a game, not an instrument; and after в, does a game change?
         * в футбо́ле
@@ -248,14 +248,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Tell me about yourself in Russian
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:47 title "Travel in Russian: поезд, самолёт, билет" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:49 title "Tell me about yourself in Russian" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:49 title "Tell me about yourself in Russian" form title size 600 x 500 y 420
 
-    link end_again href lecture:48 title "Watch again" form text open here x 500 y 160
-    text end_count "48 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:48 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "48 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

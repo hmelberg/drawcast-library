@@ -40,14 +40,14 @@ level: basic
     text k_dom "Э́то го́род, в кото́ром я живу́." say "Э́то го́род, в кото́ром я живу́." say_voice b colors {"^кото́р":"#2f6b8f","ом$":"#d0865f"} x 500 y 580 font_size 52 hidden true
     text novom "в но́вом до́ме" say "в но́вом до́ме" colors {"ом$":"#d0865f"} x 500 y 270 font_size 44 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, кто пришёл?","gloss":"Masha, who's come?"},{"by":"b","text":"Ива́н, мой друг, кото́рый рабо́тает врачо́м.","gloss":"Ivan, my friend who works as a doctor."},{"by":"a","text":"Ива́н, кото́рый игра́ет на гита́ре?","gloss":"Ivan who plays the guitar?"},{"by":"b","text":"Да! Он сказа́л, что бу́дет игра́ть сего́дня ве́чером.","gloss":"Yes! He said he'll play this evening."},{"by":"a","text":"Позвони́ сестре́, кото́рая то́же игра́ет! Е́сли она́ свобо́дна, она́ придёт.","gloss":"Phone your sister, who plays too! If she's free, she'll come."},{"by":"b","text":"Хорошо́. Я ду́маю, что она́ свобо́дна.","gloss":"OK. I think she's free."}] practice true size 1.5 hidden true
-    icon q_sis size 150 set twemoji x 380 y 470 or ["girl"] icon_look picture of woman hidden true
-    icon q_ben size 150 set twemoji x 620 y 470 or ["classical building"] icon_look picture of "clock tower" hidden true
-    icon q_think size 150 set twemoji x 380 y 470 icon_look picture of "thinking face" hidden true
-    icon q_office size 150 set twemoji x 620 y 470 or ["office"] icon_look picture of "office building" hidden true
-    icon q_house size 170 set twemoji x 500 y 470 or ["house with garden"] icon_look picture of house hidden true
+    icon q_sis size 120 set twemoji x 380 y 470 or ["girl"] icon_look picture of woman hidden true
+    icon q_ben size 120 set twemoji x 620 y 470 or ["classical building"] icon_look picture of "clock tower" hidden true
+    icon q_think size 120 set twemoji x 380 y 470 icon_look picture of "thinking face" hidden true
+    icon q_office size 120 set twemoji x 620 y 470 or ["office"] icon_look picture of "office building" hidden true
+    icon q_house size 120 set twemoji x 500 y 470 or ["house with garden"] icon_look picture of house hidden true
     icon q_woman size 170 set twemoji x 500 y 500 or ["girl"] icon_look picture of woman hidden true
-    icon q_tom size 150 set twemoji x 380 y 470 or ["person"] icon_look picture of man hidden true
-    icon q_work size 150 set twemoji x 620 y 470 or ["office"] icon_look picture of "office building" hidden true
+    icon q_tom size 120 set twemoji x 380 y 470 or ["person"] icon_look picture of man hidden true
+    icon q_work size 120 set twemoji x 620 y 470 or ["office"] icon_look picture of "office building" hidden true
     text b1 "Ива́н сказа́л, что идёт домо́й." say "Ива́н сказа́л, что идёт домо́й." colors {"что":"#2f6b8f"} x 500 y 520 font_size 48 hidden true
     text b2 "кото́рый · кото́рая · кото́рое · кото́рые" say "кото́рый, кото́рая, кото́рое, кото́рые" colors {"^кото́р":"#2f6b8f","ый$":"#d0865f","ая$":"#d0865f","ое$":"#d0865f","ые$":"#d0865f"} x 500 y 400 font_size 44 hidden true
 
@@ -166,7 +166,7 @@ A: Now hear both at work: tonight Masha has guests. Listen, then practise it.
 
     draw q_sis q_ben
 
-    quiz "My sister, who lives in London: Моя́ сестра́, ___ живёт в Ло́ндоне. Which word fills the gap?" reveal.text "сестра́, кото́рая…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "My sister, who lives in London: Моя́ сестра́, ___ живёт в Ло́ндоне. Which word fills the gap?" above ["q_sis","q_ben"] reveal.text "сестра́, кото́рая…" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Кото́рая: it stands for сестра́, a she-word.
         wrong: Which word does it stand for? Сестра́ is a she-word.
@@ -178,7 +178,7 @@ A: Now hear both at work: tonight Masha has guests. Listen, then practise it.
 
     draw q_think q_office
 
-    quiz "I think Tom is at work. Which is right?" reveal.text "Я ду́маю, что Том на рабо́те." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "I think Tom is at work. Which is right?" above ["q_think","q_office"] reveal.text "Я ду́маю, что Том на рабо́те." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Что joins a whole sentence to я ду́маю, after a comma.
         wrong: What you think is a whole sentence: which word joins it?
         + Я ду́маю, что Том на рабо́те.
@@ -189,7 +189,7 @@ A: Now hear both at work: tonight Masha has guests. Listen, then practise it.
 
     draw q_house
 
-    quiz "This is the house I live in: Э́то дом, ___ я живу́. Which fits?" reveal.text "Э́то дом, в кото́ром я живу́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "This is the house I live in: Э́то дом, ___ я живу́. Which fits?" above q_house reveal.text "Э́то дом, в кото́ром я живу́." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: В кото́ром: in which, with the ending of в но́вом до́ме.
         wrong: You live in the house: в, and the place-ending.
         * кото́рый
@@ -206,7 +206,7 @@ A: Now hear both at work: tonight Masha has guests. Listen, then practise it.
 
     draw q_tom q_work
 
-    ask "Now build a whole sentence. Type: Tom said that he's at work." answer ["том сказал, что он на работе","том сказал что он на работе","том сказал, что на работе","том сказал что на работе","том сказал,что он на работе","том сказал,что на работе"] reveal.text "Том сказа́л, что он на рабо́те" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: Tom said that he's at work." above ["q_tom","q_work"] answer ["том сказал, что он на работе","том сказал что он на работе","том сказал, что на работе","том сказал что на работе","том сказал,что он на работе","том сказал,что на работе"] reveal.text "Том сказа́л, что он на рабо́те" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ,
         right: Том сказа́л, что он на рабо́те: сказа́л, a comma, then что. Without он is right too.
         wrong: Start with Том сказа́л, then a comma and что, then на рабо́те.
@@ -258,14 +258,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A seventh Russian story: Tom's trip
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:68 title "If and would in Russian: е́сли, бы" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:70 title "A seventh Russian story: Tom's trip" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:70 title "A seventh Russian story: Tom's trip" form title size 600 x 500 y 420
 
-    link end_again href lecture:69 title "Watch again" form text open here x 500 y 160
-    text end_count "69 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:69 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "69 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

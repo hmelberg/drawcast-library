@@ -45,12 +45,12 @@ heading: false
     text v4 "мы говори́м о Москве́" say "Мы говори́м о Москве́." colors {"е$":"#d0865f"} x 690 y 335 font_size 40 hidden true
     text v5 "кни́га о Москве́" say "кни́га о Москве́" colors {"е$":"#d0865f"} x 690 y 255 font_size 40 hidden true
     group qboard members ["q_chto","q_ochom","q_kto","q_okom","q_ar1","q_ar2","v1","v2","v3","v4","v5"] hidden true
-    icon qi_mum size 170 set twemoji x 500 y 470 or ["woman curly hair","woman: curly hair","woman with curly hair"] icon_look picture of "woman curly hair" hidden true
-    icon qi_bro size 170 set twemoji x 500 y 470 or ["man beard","man: beard","person: beard","boy"] icon_look picture of "man beard" hidden true
-    icon qi_book size 170 set twemoji x 500 y 470 or ["books","open book","closed book"] icon_look picture of books hidden true
+    icon qi_mum size 120 set twemoji x 500 y 470 or ["woman curly hair","woman: curly hair","woman with curly hair"] icon_look picture of "woman curly hair" hidden true
+    icon qi_bro size 120 set twemoji x 500 y 470 or ["man beard","man: beard","person: beard","boy"] icon_look picture of "man beard" hidden true
+    icon qi_book size 120 set twemoji x 500 y 470 or ["books","open book","closed book"] icon_look picture of books hidden true
     icon qi_work size 170 set twemoji x 500 y 470 or ["office building","briefcase"] icon_look picture of "office building" hidden true
     text say_line "Я ду́маю о рабо́те." say "Я ду́маю о рабо́те." say_voice b x 500 y 270 font_size 64 hidden true
-    icon qi_talk size 170 set twemoji x 500 y 470 or ["speech balloon"] icon_look picture of "speaking head" hidden true
+    icon qi_talk size 120 set twemoji x 500 y 470 or ["speech balloon"] icon_look picture of "speaking head" hidden true
     icon r1 size 100 set twemoji x 260 y 450 or ["woman curly hair","woman: curly hair","woman with curly hair"] icon_look picture of "woman curly hair" hidden true
     icon r2 size 100 set twemoji x 380 y 450 or ["man beard","man: beard","person: beard","boy"] icon_look picture of "man beard" hidden true
     icon r3 size 100 set twemoji x 500 y 450 or ["books","open book","closed book"] icon_look picture of books hidden true
@@ -139,7 +139,7 @@ B: And о follows your other verbs too: мы говори́м о Москве́.
 
     draw qi_mum
 
-    quiz "Tom is thinking about his mum: Я ду́маю о … Which form?" reveal.text "Я ду́маю о ма́ме." reveal.at.x 500 reveal.at.y 270 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom is thinking about his mum: Я ду́маю о … Which form?" above qi_mum reveal.text "Я ду́маю о ма́ме." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: О ма́ме: after о, the а makes way for е.
         wrong: After о, what does the а of ма́ма become?
@@ -151,7 +151,7 @@ B: And о follows your other verbs too: мы говори́м о Москве́.
 
     draw qi_bro
 
-    quiz "The answer is О бра́те. What was the question?" reveal.text "О ком? О бра́те." reveal.at.x 500 reveal.at.y 270 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "The answer is О бра́те. What was the question?" above qi_bro reveal.text "О ком? О бра́те." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: О ком: a brother is a who.
         wrong: Is a brother a what or a who?
         + О ком ты ду́маешь?
@@ -161,7 +161,7 @@ B: And о follows your other verbs too: мы говори́м о Москве́.
 
     draw qi_book
 
-    ask "A book about Moscow. Type the last word: кни́га о …" answer ["москве"] reveal.text "кни́га о Москве́" reveal.at.x 500 reveal.at.y 270 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "A book about Moscow. Type the last word: кни́га о …" above qi_book answer ["москве"] reveal.text "кни́га о Москве́" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Москве́: the а makes way for е, as in в Москве́.
         wrong: Start from Москва́; after о, what does the а become?
@@ -179,7 +179,7 @@ B: Я ду́маю о рабо́те.
 
     draw qi_talk
 
-    ask "Build the sentence: We're talking about Russia. Type it in Russian." answer ["мы говорим о россии","говорим о россии"] reveal.text "Мы говори́м о Росси́и." reveal.at.x 500 reveal.at.y 270 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Build the sentence: We're talking about Russia. Type it in Russian." above qi_talk answer ["мы говорим о россии","говорим о россии"] reveal.text "Мы говори́м о Росси́и." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Мы говори́м о Росси́и: о, and ия becomes ии.
         wrong: Мы говори́м, then о, then Росси́я with lesson twenty-three's ending.
@@ -235,14 +235,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Many and few in Russian: много книг
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:50 title "A fifth Russian story: read it all yourself" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:52 title "Many and few in Russian: много книг" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:52 title "Many and few in Russian: много книг" form title size 600 x 500 y 420
 
-    link end_again href lecture:51 title "Watch again" form text open here x 500 y 160
-    text end_count "51 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:51 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "51 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

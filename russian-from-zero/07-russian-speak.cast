@@ -142,7 +142,7 @@ A: Ты, so говори́шь; and I answer for myself with я говорю́. 
 
     erase match
 
-    quiz "Masha tells a friend about Tom: Том … по-ру́сски. Which word fills the gap?" reveal.text "Том говори́т по-ру́сски." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "Masha tells a friend about Tom: Том … по-ру́сски. Which word fills the gap?" frame true reveal.text "Том говори́т по-ру́сски." reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         right: Говори́т: Tom is он, and он takes the ending ит.
         wrong: She's talking about him, not to him: which row is он?
         * говорю́
@@ -151,14 +151,14 @@ A: Ты, so говори́шь; and I answer for myself with я говорю́. 
 
     erase reveal_1_stamp
 
-    ask "A Russian asks: Вы говори́те по-ру́сски? Answer a little: type it." answer ["немного"] store a3 default немного translit true reveal.text "Да, немно́го." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    ask "A Russian asks: Вы говори́те по-ру́сски? Answer a little: type it." frame true answer ["немного"] store a3 default немного translit true reveal.text "Да, немно́го." reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЮЯ
         right: Немно́го: a little.
         wrong: It's the word from both dialogues: немно́го.
 
     erase a3_stamp
 
-    quiz "You meet a friend's grandmother. How do you ask if she speaks English?" reveal.text "Вы говори́те…?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "You meet a friend's grandmother. How do you ask if she speaks English?" frame true reveal.text "Вы говори́те…?" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         right: Вы говори́те: you've just met, and she's older, so вы.
         wrong: Would you greet her with привет or здра́вствуйте?
         * Ты говори́шь по-англи́йски?
@@ -166,7 +166,7 @@ A: Ты, so говори́шь; and I answer for myself with я говорю́. 
 
     erase reveal_3_stamp
 
-    ask "Finish the verb for ты: ты говор… Type the ending." answer ["ишь","говоришь"] store a5 default ишь translit true reveal.text "ты говори́шь" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    ask "Finish the verb for ты: ты говор… Type the ending." frame true answer ["ишь","говоришь"] store a5 default ишь translit true reveal.text "ты говори́шь" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЮЯ
         right: Ишь: ты говори́шь, with the silent soft sign at the end.
         wrong: It sounds like ish, and ends with the soft sign.
@@ -232,14 +232,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: My family in Russian: мой, моя, моё
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:6 title "Count to ten in Russian: один, два, три" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:8 title "My family in Russian: мой, моя, моё" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:8 title "My family in Russian: мой, моя, моё" form title size 600 x 500 y 420
 
-    link end_again href lecture:7 title "Watch again" form text open here x 500 y 160
-    text end_count "7 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:7 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "7 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

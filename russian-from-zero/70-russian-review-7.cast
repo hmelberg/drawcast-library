@@ -26,12 +26,12 @@ heading: false
     icon open_man size 190 set twemoji x 340 y 440 or ["person"] icon_look picture of man hidden true
     icon open_train size 180 set twemoji x 650 y 460 or ["train","railway car"] icon_look picture of "high-speed train" hidden true
     text q_title "Five questions" #8f887c x 500 y 640 font_size 44 hidden true
-    icon q_hotel size 170 set twemoji x 500 y 480 or ["house"] icon_look picture of hotel hidden true
+    icon q_hotel size 120 set twemoji x 500 y 480 or ["house"] icon_look picture of hotel hidden true
     icon q_tom size 200 set twemoji x 280 y 460 or ["person"] icon_look picture of man hidden true
     icon q_phone size 130 set twemoji x 500 y 460 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon q_masha size 200 set twemoji x 720 y 460 or ["person"] icon_look picture of woman hidden true
-    icon q_speech size 160 set twemoji x 500 y 480 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
-    icon q_train size 170 set twemoji x 500 y 480 or ["train"] icon_look picture of "high-speed train" hidden true
+    icon q_speech size 120 set twemoji x 500 y 480 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
+    icon q_train size 120 set twemoji x 500 y 480 or ["train"] icon_look picture of "high-speed train" hidden true
     icon q_sun size 160 set twemoji x 500 y 500 or ["sun with face","deciduous tree"] icon_look picture of sun hidden true
     text q_say "Е́сли бу́дет тепло́, я пойду́ в парк." say "Е́сли бу́дет тепло́, я пойду́ в парк." x 500 y 320 font_size 52 hidden true
     icon score_man size 200 set twemoji x 500 y 440 or ["person"] icon_look picture of man hidden true
@@ -155,7 +155,7 @@ B: Now five questions, then your score.
 
     draw q_hotel
 
-    quiz "Ве́чером я ___ в гости́ницу. Which one means I arrived?" reveal.text "Я прие́хал в гости́ницу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Ве́чером я ___ в гости́ницу. Which one means I arrived?" above ["q_hotel","q_title"] reveal.text "Я прие́хал в гости́ницу." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Прие́хал: при- is arriving. Уе́хал is leaving.
         wrong: Arriving takes при-: прие́хал. Уе́хал is the other way.
         * уе́хал
@@ -184,7 +184,7 @@ A: Хорошо́, Ма́ша! Пойдём!
 
     draw q_speech
 
-    quiz "Он сказа́л, ___ Петербу́рг лу́чше, чем Москва́. Pick one." reveal.text "Он сказа́л, что…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Он сказа́л, ___ Петербу́рг лу́чше, чем Москва́. Pick one." above q_speech reveal.text "Он сказа́л, что…" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Что: he said that…
         wrong: He said that: сказа́л, что. Е́сли is if, and кото́рый is which.
         * е́сли
@@ -195,7 +195,7 @@ A: Хорошо́, Ма́ша! Пойдём!
 
     draw q_train
 
-    ask "Now build a sentence. Type: I must be in Moscow." answer ["я должен быть в москве","я должна быть в москве","в субботу я должен быть в москве","в субботу я должна быть в москве","я должен быть в москве в субботу","я должна быть в москве в субботу"] reveal.text "Я до́лжен быть в Москве́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Now build a sentence. Type: I must be in Moscow." above q_train answer ["я должен быть в москве","я должна быть в москве","в субботу я должен быть в москве","в субботу я должна быть в москве","я должен быть в москве в субботу","я должна быть в москве в субботу"] reveal.text "Я до́лжен быть в Москве́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я до́лжен, or я должна́ if you're a woman, then быть в Москве́.
         wrong: Start with я до́лжен or я должна́, then быть, then в Москве́.
@@ -273,14 +273,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Clothes in Russian: в кра́сной ку́ртке
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:69 title "Joining sentences in Russian: что, кото́рый" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:71 title "Clothes in Russian: в кра́сной ку́ртке" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:71 title "Clothes in Russian: в кра́сной ку́ртке" form title size 600 x 500 y 420
 
-    link end_again href lecture:70 title "Watch again" form text open here x 500 y 160
-    text end_count "70 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:70 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "70 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

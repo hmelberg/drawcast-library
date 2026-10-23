@@ -39,14 +39,14 @@ level: basic
     text s_no "Я не согла́сен." say "Я не согла́сен." x 400 y 600 font_size 56 hidden true
     text s_better "Бы́ло бы лу́чше пойти́ в парк." say "Бы́ло бы лу́чше пойти́ в парк." x 450 y 480 font_size 56 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, где мы бу́дем у́жинать сего́дня?","gloss":"Masha, where shall we have dinner tonight?"},{"by":"b","text":"По-мо́ему, «Пу́шкин» — са́мый лу́чший рестора́н в Москве́.","gloss":"In my opinion, Pushkin is the best restaurant in Moscow."},{"by":"a","text":"Пра́вда? Но он са́мый дорого́й!","gloss":"Really? But it's the most expensive!"},{"by":"b","text":"Коне́чно. Но там о́чень хорошо́.","gloss":"Of course. But it's very good there."},{"by":"a","text":"Я не согла́сен. Бы́ло бы лу́чше пойти́ в кафе́.","gloss":"I don't agree. It would be better to go to a café."},{"by":"b","text":"Хорошо́, я согла́сна. Но пото́м — кино́!","gloss":"OK, I agree. But afterwards, the cinema!"},{"by":"a","text":"Коне́чно! Мы должны́ посмотре́ть но́вый фильм.","gloss":"Of course! We must see the new film."},{"by":"b","text":"Ви́дишь? Мы согла́сны!","gloss":"See? We agree!"}] practice true size 1.5 hidden true
-    icon q_city size 160 set twemoji x 500 y 480 or ["city sunset"] icon_look picture of cityscape hidden true
-    icon q_woman size 150 set twemoji x 380 y 480 or ["girl"] icon_look picture of woman hidden true
-    icon q_ok size 130 set twemoji x 620 y 480 or ["ok hand"] icon_look picture of "thumbs up" hidden true
-    icon q_door size 140 set twemoji x 380 y 480 or ["house"] icon_look picture of door hidden true
-    icon q_ph size 130 set twemoji x 620 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
+    icon q_city size 120 set twemoji x 500 y 480 or ["city sunset"] icon_look picture of cityscape hidden true
+    icon q_woman size 120 set twemoji x 380 y 480 or ["girl"] icon_look picture of woman hidden true
+    icon q_ok size 120 set twemoji x 620 y 480 or ["ok hand"] icon_look picture of "thumbs up" hidden true
+    icon q_door size 120 set twemoji x 380 y 480 or ["house"] icon_look picture of door hidden true
+    icon q_ph size 120 set twemoji x 620 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon q_tom size 150 set twemoji x 380 y 480 or ["person"] icon_look picture of man hidden true
     icon q_no size 130 set twemoji x 620 y 480 or ["cross mark"] icon_look picture of "thumbs down" hidden true
-    icon q_film size 150 set twemoji x 500 y 480 or ["clapper board","movie camera"] icon_look picture of "film projector" hidden true
+    icon q_film size 120 set twemoji x 500 y 480 or ["clapper board","movie camera"] icon_look picture of "film projector" hidden true
     text b1 "по-мо́ему  ·  пра́вда?  ·  коне́чно" say "по-мо́ему, пра́вда?, коне́чно" x 500 y 520 font_size 52 hidden true
     text b2 "согла́сен · согла́сна · не согла́сен" say "согла́сен, согла́сна, не согла́сен" colors {"а$":"#b5482e"} x 500 y 400 font_size 48 hidden true
 
@@ -151,7 +151,7 @@ A: Now Tom and Masha choose where (@show tom tom_name masha masha_name@) to eat.
 
     draw q_city
 
-    quiz "По-мо́ему, Москва́ лу́чше, чем Ло́ндон. What does по-мо́ему mean?" reveal.text "по-мо́ему = in my opinion" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "По-мо́ему, Москва́ лу́чше, чем Ло́ндон. What does по-мо́ему mean?" above q_city reveal.text "по-мо́ему = in my opinion" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: In my opinion: по-мо́ему, my way.
         wrong: It's built like по-ру́сски: the по- way, my way.
@@ -163,7 +163,7 @@ A: Now Tom and Masha choose where (@show tom tom_name masha masha_name@) to eat.
 
     draw q_woman q_ok
 
-    quiz "A woman agrees with you. What does she say?" reveal.text "Я согла́сна." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "A woman agrees with you. What does she say?" above ["q_woman","q_ok"] reveal.text "Я согла́сна." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Согла́сна, with a woman's а.
         wrong: She agrees, so no не; and a woman's а at the end.
         + Я согла́сна.
@@ -174,7 +174,7 @@ A: Now Tom and Masha choose where (@show tom tom_name masha masha_name@) to eat.
 
     draw q_door q_ph
 
-    quiz "Ты придёшь? You will come, of course. What do you say?" reveal.text "Коне́чно, приду́!" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Ты придёшь? You will come, of course. What do you say?" above ["q_door","q_ph"] reveal.text "Коне́чно, приду́!" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Коне́чно: of course.
         wrong: Of course is the word with чн in the middle.
         * Пра́вда?
@@ -192,7 +192,7 @@ A: Now Tom and Masha choose where (@show tom tom_name masha masha_name@) to eat.
 
     draw q_film
 
-    ask "Now build a whole sentence. Type: In my opinion, this is the best film." answer ["по-моему, это самый лучший фильм","по-моему, это лучший фильм","по-моему, самый лучший фильм","по-моему это самый лучший фильм","по-моему это лучший фильм","по-моему самый лучший фильм","по-моему,это самый лучший фильм","по-моему,это лучший фильм","по-моему,самый лучший фильм","по моему, это самый лучший фильм","по моему, это лучший фильм","по моему, самый лучший фильм","по моему это самый лучший фильм","по моему это лучший фильм","по моему самый лучший фильм","помоему, это самый лучший фильм","помоему, это лучший фильм","помоему, самый лучший фильм","помоему это самый лучший фильм","помоему это лучший фильм","помоему самый лучший фильм"] voice b test t1
+    ask "Now build a whole sentence. Type: In my opinion, this is the best film." above q_film answer ["по-моему, это самый лучший фильм","по-моему, это лучший фильм","по-моему, самый лучший фильм","по-моему это самый лучший фильм","по-моему это лучший фильм","по-моему самый лучший фильм","по-моему,это самый лучший фильм","по-моему,это лучший фильм","по-моему,самый лучший фильм","по моему, это самый лучший фильм","по моему, это лучший фильм","по моему, самый лучший фильм","по моему это самый лучший фильм","по моему это лучший фильм","по моему самый лучший фильм","помоему, это самый лучший фильм","помоему, это лучший фильм","помоему, самый лучший фильм","помоему это самый лучший фильм","помоему это лучший фильм","помоему самый лучший фильм"] voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ -,
         right: По-мо́ему, then the opinion. Just лу́чший фильм is right too.
         wrong: Start with по-мо́ему, then э́то са́мый лу́чший фильм. The hyphen and comma may be left out.
@@ -247,14 +247,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Feelings in Russian: мне ску́чно
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:82 title "The biggest in Russian: са́мый большо́й" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:84 title "Feelings in Russian: мне ску́чно" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:84 title "Feelings in Russian: мне ску́чно" form title size 600 x 500 y 420
 
-    link end_again href lecture:83 title "Watch again" form text open here x 500 y 160
-    text end_count "83 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:83 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "83 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

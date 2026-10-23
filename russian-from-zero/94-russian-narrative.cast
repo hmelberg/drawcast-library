@@ -185,7 +185,7 @@ A: The next day, Masha asks (@draw p_case@) about my trip. Listen, then tap Prac
 
     hide masha masha_name tom tom_name
 
-    quiz "Which word starts the story? ___ я взял чемода́н, пото́м прие́хал в гости́ницу." reveal.text "Снача́ла… пото́м…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which word starts the story? ___ я взял чемода́н, пото́м прие́хал в гости́ницу." frame true reveal.text "Снача́ла… пото́м…" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Снача́ла: first. Then пото́м takes the story on.
         wrong: The first step takes снача́ла; наконе́ц is for the last, вдруг for a surprise.
@@ -197,7 +197,7 @@ A: The next day, Masha asks (@draw p_case@) about my trip. Listen, then tap Prac
 
     erase q_case reveal_2_stamp
 
-    quiz "The story moves on, and Tom gets there: Пото́м я ___ в гости́ницу." reveal.text "Пото́м я прие́хал" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "The story moves on, and Tom gets there: Пото́м я ___ в гости́ницу." frame true reveal.text "Пото́м я прие́хал" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Прие́хал: done, so the story steps on.
         wrong: A step in the story takes a done verb: прие́хал.
         + прие́хал
@@ -208,7 +208,7 @@ A: The next day, Masha asks (@draw p_case@) about my trip. Listen, then tap Prac
 
     erase q_hotel reveal_3_stamp
 
-    quiz "Tom was still on his way when the phone rang: Когда́ я ___ в гости́ницу, вдруг позвони́ла ма́ма." reveal.text "Когда́ я е́хал…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Tom was still on his way when the phone rang: Когда́ я ___ в гости́ницу, вдруг позвони́ла ма́ма." frame true reveal.text "Когда́ я е́хал…" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Е́хал: the ride is the stretch, and позвони́ла cuts into it.
         wrong: He was still riding: a stretch takes the doing verb, е́хал.
         * прие́хал
@@ -291,14 +291,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Writing in Russian: дорога́я Ма́ша
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:93 title "Getting around in Russian: сле́дующая ста́нция" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:95 title "Writing in Russian: дорога́я Ма́ша" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:95 title "Writing in Russian: дорога́я Ма́ша" form title size 600 x 500 y 420
 
-    link end_again href lecture:94 title "Watch again" form text open here x 500 y 160
-    text end_count "94 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:94 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "94 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

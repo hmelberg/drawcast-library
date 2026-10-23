@@ -159,9 +159,9 @@ A: And in Moscow I'm в гости́нице: the а makes way for е, as шко
 
     hide page_f
 
-    icon q_walk size 170 set twemoji x 500 y 470 or ["man walking","walking"] icon_look picture of "person walking"
+    icon q_walk size 120 set twemoji x 500 y 470 or ["man walking","walking"] icon_look picture of "person walking"
 
-    quiz "Masha walks to work. Which verb? Я ___ на рабо́ту." reveal.text "Я иду́ на рабо́ту." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha walks to work. Which verb? Я ___ на рабо́ту." above q_walk reveal.text "Я иду́ на рабо́ту." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Four questions now, then your score.
         right: On foot, so иду́.
         wrong: Does anything carry her?
@@ -170,18 +170,18 @@ A: And in Moscow I'm в гости́нице: the а makes way for е, as шко
 
     erase q_walk question_1_stamp
 
-    icon q_bus size 170 set twemoji x 500 y 470 or ["oncoming bus","trolleybus"] icon_look picture of bus
+    icon q_bus size 120 set twemoji x 500 y 470 or ["oncoming bus","trolleybus"] icon_look picture of bus
 
-    ask "Tom takes the bus. Type the missing word: Я е́ду на ___." answer ["автобусе"] reveal.text "Я е́ду на авто́бусе." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Tom takes the bus. Type the missing word: Я е́ду на ___." above q_bus answer ["автобусе"] reveal.text "Я е́ду на авто́бусе." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Авто́бусе: на, and the е that says what carries you.
         wrong: Start from авто́бус, and add the е of на по́езде.
 
     erase q_bus question_2_stamp
 
-    icon q_ticket size 170 set twemoji x 500 y 470 or ["admission tickets","tickets"] icon_look picture of ticket
+    icon q_ticket size 120 set twemoji x 500 y 470 or ["admission tickets","tickets"] icon_look picture of ticket
 
-    quiz "A ticket to Moscow, please: Биле́т в ___, пожа́луйста." reveal.text "Биле́т в Москву́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "A ticket to Moscow, please: Биле́т в ___, пожа́луйста." above q_ticket reveal.text "Биле́т в Москву́" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Москву́: where to, so the а becomes у.
         wrong: The ticket takes you there. Where to, or where you are?
         + Москву́
@@ -190,9 +190,9 @@ A: And in Moscow I'm в гости́нице: the а makes way for е, as шко
 
     erase q_ticket question_3_stamp
 
-    icon q_train size 170 set twemoji x 500 y 470 or ["locomotive","high-speed train","railway car"] icon_look picture of train
+    icon q_train size 120 set twemoji x 500 y 470 or ["locomotive","high-speed train","railway car"] icon_look picture of train
 
-    ask "Masha and her brother are going by train. Type the verb: Они́ ___ на по́езде." answer ["едут"] reveal.text "Они́ е́дут на по́езде." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Masha and her brother are going by train. Type the verb: Они́ ___ на по́езде." above q_train answer ["едут"] reveal.text "Они́ е́дут на по́езде." reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Е́дут: the они́ form, ending in ут, like иду́т.
         wrong: Something carries them, so е́хать; and они́ ends like иду́т.
@@ -246,14 +246,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Hobbies in Russian: играю в футбол
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:46 title "Making plans in Russian: давай пойдём в кино" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:48 title "Hobbies in Russian: играю в футбол" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:48 title "Hobbies in Russian: играю в футбол" form title size 600 x 500 y 420
 
-    link end_again href lecture:47 title "Watch again" form text open here x 500 y 160
-    text end_count "47 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:47 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "47 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

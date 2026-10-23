@@ -78,15 +78,15 @@ level: basic
     icon d_papa_f size 56 set twemoji x 205 y 258.52 or ["person beard","older man","man"] icon_look picture of "man beard" hidden true
     group d_papa members ["d_papa_l1","d_papa_l2","d_papa_t","d_papa_f"] hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, кто э́то, в чёрной ку́ртке?","gloss":"Masha, who's that in the black jacket?"},{"by":"b","text":"Э́то мой брат Ива́н.","gloss":"That's my brother Ivan."},{"by":"a","text":"Высо́кий и худо́й! А кто э́то, с бородо́й?","gloss":"Tall and thin! And who's that, with the beard?"},{"by":"b","text":"Э́то па́па. Ива́н о́чень похо́ж на па́пу.","gloss":"That's Dad. Ivan looks a lot like Dad."},{"by":"a","text":"А ты? Ты похо́жа на па́пу?","gloss":"And you? Do you look like Dad?"},{"by":"b","text":"Нет, я похо́жа на ма́му.","gloss":"No, I look like Mum."},{"by":"a","text":"У неё то́же голубы́е глаза́?","gloss":"Does she have blue eyes too?"},{"by":"b","text":"Да, и тёмные во́лосы, как у меня́.","gloss":"Yes, and dark hair, like me."}] practice true size 1.5 hidden true
-    icon q_pair size 170 set twemoji x 400 y 480 or ["person beard","older man","man"] icon_look picture of "man beard" hidden true
-    icon q_pair2 size 170 set twemoji x 600 y 480 or ["person"] icon_look picture of man hidden true
+    icon q_pair size 120 set twemoji x 400 y 480 or ["person beard","older man","man"] icon_look picture of "man beard" hidden true
+    icon q_pair2 size 120 set twemoji x 600 y 480 or ["person"] icon_look picture of man hidden true
     icon q_ear size 240 set twemoji x 500 y 470 or ["headphone"] icon_look picture of ear hidden true
     ellipse q_eye_w thick #3d3833 x 500 y 500 rx 110 ry 52 hidden true
     shape q_eye_i #3d3833 shape circle x 500 y 500 radius 42 style.fill #7fb3e0 style.fill_style wash style.opacity 1 style.stroke_width 2 hidden true
     shape q_eye_p #3d3833 shape circle x 500 y 500 radius 15 style.fill #3d3833 style.fill_style wash style.opacity 1 hidden true
     group q_eye members ["q_eye_w","q_eye_i","q_eye_p"] hidden true
-    icon q_m2 size 170 set twemoji x 400 y 480 or ["woman","girl"] icon_look picture of "woman medium skin tone" hidden true
-    icon q_d2 size 170 set twemoji x 600 y 480 or ["woman","girl"] icon_look picture of "woman medium skin tone" hidden true
+    icon q_m2 size 120 set twemoji x 400 y 480 or ["woman","girl"] icon_look picture of "woman medium skin tone" hidden true
+    icon q_d2 size 120 set twemoji x 600 y 480 or ["woman","girl"] icon_look picture of "woman medium skin tone" hidden true
     text q_full "Она́ высо́кая и похо́жа на ма́му." say "Она́ высо́кая и похо́жа на ма́му." colors {"ая$":"#b5482e","жа$":"#b5482e"} x 500 y 650 font_size 46 hidden true
     text b1 "Ива́н высо́кий, Оле́г ни́зкий." say "Ива́н высо́кий, Оле́г ни́зкий." x 500 y 600 font_size 50 hidden true
     text b2 "У неё голубы́е глаза́." say "У неё голубы́е глаза́." colors {"ые$":"#3f7f4f"} x 500 y 480 font_size 50 hidden true
@@ -222,7 +222,7 @@ A: Now Masha's family party. Listen, then practise it.
 
     draw q_pair q_pair2
 
-    quiz "He looks like his dad: Он похо́ж на ___. Which form?" reveal.text "похо́ж на па́пу" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "He looks like his dad: Он похо́ж на ___. Which form?" above ["q_pair","q_pair2"] reveal.text "похо́ж на па́пу" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: На па́пу: after на, па́па takes the object ending.
         wrong: After на, what does па́па become, as in ви́жу па́пу?
@@ -259,7 +259,7 @@ A: Now Masha's family party. Listen, then practise it.
 
     draw q_m2 q_d2
 
-    ask "Now build a whole sentence. Type: She is tall and looks like her mum." answer ["она высокая и похожа на маму","высокая и похожа на маму","она высокая и похожа на свою маму"] reveal.text "похо́жа на ма́му" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: She is tall and looks like her mum." above ["q_m2","q_d2"] answer ["она высокая и похожа на маму","высокая и похожа на маму","она высокая и похожа на свою маму"] reveal.text "похо́жа на ма́му" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Она́ высо́кая и похо́жа на ма́му: ая and а for her, у for mum.
         wrong: Она́ высо́кая, then и, then похо́жа на and ма́ма with the object ending.
@@ -321,14 +321,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: The biggest in Russian: са́мый большо́й
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:80 title "An eighth Russian story: Masha's day" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:82 title "The biggest in Russian: са́мый большо́й" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:82 title "The biggest in Russian: са́мый большо́й" form title size 600 x 500 y 420
 
-    link end_again href lecture:81 title "Watch again" form text open here x 500 y 160
-    text end_count "81 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:81 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "81 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

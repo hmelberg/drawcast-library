@@ -46,13 +46,13 @@ level: basic
     icon balloon_t size 90 set twemoji x 720 y 600 or ["right anger bubble"] icon_look picture of "speech balloon" hidden true
     icon balloon size 90 set twemoji x 280 y 600 or ["right anger bubble"] icon_look picture of "speech balloon" hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"b","text":"Том, мы на ку́хне. Сего́дня ты сва́ришь карто́шку!","gloss":"Tom, we're in the kitchen. Today you'll cook the potatoes!"},{"by":"a","text":"Хорошо́! Что я до́лжен де́лать?","gloss":"OK! What do I have to do?"},{"by":"b","text":"Наре́жь карто́шку и вари́ два́дцать мину́т.","gloss":"Cut up the potatoes and boil them for twenty minutes."},{"by":"a","text":"А пото́м?","gloss":"And then?"},{"by":"b","text":"Доба́вь ма́сло и соль. Не забу́дь соль!","gloss":"Add butter and salt. Don't forget the salt!"},{"by":"a","text":"Не забу́ду! А ты свари́ я́йца.","gloss":"I won't! And you boil the eggs."}] practice true size 1.25 hidden true
-    icon q_bread size 150 set twemoji x 500 y 470 or ["baguette bread"] icon_look picture of bread hidden true
-    icon q_clock size 150 set twemoji x 500 y 470 or ["alarm clock","stopwatch"] icon_look picture of "timer clock" hidden true
-    icon q_five size 140 set twemoji x 500 y 470 or ["hourglass done"] icon_look picture of "keycap: 5" hidden true
+    icon q_bread size 120 set twemoji x 500 y 470 or ["baguette bread"] icon_look picture of bread hidden true
+    icon q_clock size 120 set twemoji x 500 y 470 or ["alarm clock","stopwatch"] icon_look picture of "timer clock" hidden true
+    icon q_five size 120 set twemoji x 500 y 470 or ["hourglass done"] icon_look picture of "keycap: 5" hidden true
     icon q_but size 130 set twemoji x 420 y 470 or ["cheese wedge"] icon_look picture of butter hidden true
     icon q_salt size 120 set twemoji x 590 y 470 or ["shaker"] icon_look picture of salt hidden true
     text q_say "Доба́вь ма́сло и соль." say "Доба́вь ма́сло и соль." say_voice b x 500 y 300 font_size 64 hidden true
-    icon q_egg size 130 set twemoji x 420 y 470 or ["cooking"] icon_look picture of egg hidden true
+    icon q_egg size 120 set twemoji x 420 y 470 or ["cooking"] icon_look picture of egg hidden true
     icon q_salt2 size 120 set twemoji x 590 y 470 or ["shaker"] icon_look picture of salt hidden true
     icon score_pot size 170 set twemoji x 500 y 470 or ["cooking"] icon_look picture of "pot of food" hidden true
     text sum_h1 "one job, done" #8f887c x 500 y 650 font_size 34 hidden true
@@ -169,7 +169,7 @@ A: Now the whole job, на ку́хне. Listen, then practise it.
 
     draw q_bread
 
-    quiz "Tell a friend to cut up all the bread: ___ хлеб! Which fits?" reveal.text "Наре́жь хлеб!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tell a friend to cut up all the bread: ___ хлеб! Which fits?" above q_bread reveal.text "Наре́жь хлеб!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Наре́жь: one job, done, so the done verb's request.
         wrong: A request, and the whole loaf: the done verb, ending in ь.
@@ -181,7 +181,7 @@ A: Now the whole job, на ку́хне. Listen, then practise it.
 
     draw q_clock
 
-    quiz "Tell a friend: boil it for ten minutes. ___ де́сять мину́т! Which fits?" reveal.text "Вари́ де́сять мину́т!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tell a friend: boil it for ten minutes. ___ де́сять мину́т! Which fits?" above q_clock reveal.text "Вари́ де́сять мину́т!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Вари́: ten minutes of boiling, so the doing verb.
         wrong: How long is keeping at it: the doing verb.
         + Вари́
@@ -191,7 +191,7 @@ A: Now the whole job, на ку́хне. Listen, then practise it.
 
     draw q_five
 
-    quiz "Пять ___. Which word?" reveal.text "пять мину́т" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Пять ___. Which word?" above q_five reveal.text "пять мину́т" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Мину́т: after five, no ending at all.
         wrong: Like час, часа́, часо́в: five takes the third form.
         * мину́та
@@ -211,7 +211,7 @@ B: Доба́вь ма́сло и соль.
 
     draw q_egg q_salt2
 
-    ask "Now build a whole sentence. Type, to a friend: Boil the eggs and add salt!" answer ["свари яйца и добавь соль","свари яйца и добавь соли"] reveal.text "Свари́ я́йца и доба́вь соль!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type, to a friend: Boil the eggs and add salt!" above ["q_egg","q_salt2"] answer ["свари яйца и добавь соль","свари яйца и добавь соли"] reveal.text "Свари́ я́йца и доба́вь соль!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Свари́ я́йца и доба́вь соль: two jobs, each done once, so two done verbs.
         wrong: Two jobs to finish: свари́ я́йца, then и доба́вь соль.
@@ -263,14 +263,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Ordering in a Russian restaurant: принеси́те, пожа́луйста
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:72 title "At home in Russian: на ку́хне" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:74 title "Ordering in a Russian restaurant: принеси́те, пожа́луйста" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:74 title "Ordering in a Russian restaurant: принеси́те, пожа́луйста" form title size 600 x 500 y 420
 
-    link end_again href lecture:73 title "Watch again" form text open here x 500 y 160
-    text end_count "73 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:73 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "73 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

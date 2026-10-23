@@ -54,10 +54,10 @@ level: basic
         stays: окно́
         changes: ко́шка
         stays: мо́ре
-    icon q_sis size 170 set twemoji x 500 y 450 or ["woman"] icon_look picture of girl hidden true
-    icon q_water size 170 set twemoji x 500 y 450 or ["droplet","cup with straw"] icon_look picture of "glass of water" hidden true
-    icon q_book size 170 set twemoji x 500 y 450 or ["green book","books"] icon_look picture of "closed book" hidden true
-    icon q_cat size 170 set twemoji x 500 y 450 or ["cat face"] icon_look picture of cat hidden true
+    icon q_sis size 120 set twemoji x 500 y 450 or ["woman"] icon_look picture of girl hidden true
+    icon q_water size 120 set twemoji x 500 y 450 or ["droplet","cup with straw"] icon_look picture of "glass of water" hidden true
+    icon q_book size 120 set twemoji x 500 y 450 or ["green book","books"] icon_look picture of "closed book" hidden true
+    icon q_cat size 120 set twemoji x 500 y 450 or ["cat face"] icon_look picture of cat hidden true
     icon r1 size 110 set twemoji x 320 y 450 or ["woman-red-hair","woman"] icon_look picture of "woman red hair" hidden true
     icon r2 size 110 set twemoji x 440 y 450 or ["cat face"] icon_look picture of cat hidden true
     icon r3 size 110 set twemoji x 560 y 450 or ["green book","books"] icon_look picture of "closed book" hidden true
@@ -168,7 +168,7 @@ A: One warning: people and animals that are he and end in a consonant, like бр
 
     draw q_sis
 
-    quiz "Masha sees her sister. Я ви́жу ___. Which word fills the gap?" reveal.text "ви́жу сестру́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha sees her sister. Я ви́жу ___. Which word fills the gap?" above q_sis reveal.text "ви́жу сестру́" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Сестру́: after ви́жу, the а of сестра́ becomes у.
         wrong: Сестре́ is the ending after в and на; after ви́жу, а becomes у.
         * сестра́
@@ -179,7 +179,7 @@ A: One warning: people and animals that are he and end in a consonant, like бр
 
     draw q_water
 
-    ask "Masha drinks water. Type the missing word: Я пью ___." answer ["воду"] reveal.text "пью во́ду" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Masha drinks water. Type the missing word: Я пью ___." above q_water answer ["воду"] reveal.text "пью во́ду" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Во́ду: вода́ swaps its а for у, and the stress moves to the front.
         wrong: Start from вода́; what happens to its last letter?
@@ -188,7 +188,7 @@ A: One warning: people and animals that are he and end in a consonant, like бр
 
     draw q_book
 
-    ask "Type I read in Russian: Я ___ кни́гу." answer ["читаю"] reveal.text "я чита́ю кни́гу" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Type I read in Russian: Я ___ кни́гу." above q_book answer ["читаю"] reveal.text "я чита́ю кни́гу" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Чита́ю: I read, ending in ю, like говорю́.
         wrong: It starts with Ч and ends like говорю́.
@@ -197,7 +197,7 @@ A: One warning: people and animals that are he and end in a consonant, like бр
 
     draw q_cat
 
-    quiz "Masha sees her cat. Я ви́жу ___. Which is right?" reveal.text "ви́жу ко́шку" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha sees her cat. Я ви́жу ___. Which is right?" above q_cat reveal.text "ви́жу ко́шку" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ко́шку: seen, the а of ко́шка becomes у.
         wrong: Is the cat on her own here, or being seen?
         * ко́шка
@@ -250,14 +250,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Days of the week in Russian: сегодня, завтра
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:13 title "I want in Russian: хочу, хочешь" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:15 title "Days of the week in Russian: сегодня, завтра" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:15 title "Days of the week in Russian: сегодня, завтра" form title size 600 x 500 y 420
 
-    link end_again href lecture:14 title "Watch again" form text open here x 500 y 160
-    text end_count "14 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:14 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "14 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

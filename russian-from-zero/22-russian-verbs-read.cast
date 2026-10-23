@@ -159,7 +159,7 @@ B: When you're lost: я не понима́ю. Не goes just before the verb, a
 
     erase lost s_nep
 
-    quiz "Tom and Masha say they're both reading: Мы … Which word fills the gap?" reveal.text "Мы чита́ем." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tom and Masha say they're both reading: Мы … Which word fills the gap?" frame true reveal.text "Мы чита́ем." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Мы takes ем: we read.
         wrong: Мы is we, and мы takes ем: мы чита́ем.
@@ -169,14 +169,14 @@ B: When you're lost: я не понима́ю. Не goes just before the verb, a
 
     erase reveal_1_stamp
 
-    ask "You don't understand. Type the missing word: Я не …" answer ["понимаю"] reveal.text "Я не понима́ю." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "You don't understand. Type the missing word: Я не …" frame true answer ["понимаю"] reveal.text "Я не понима́ю." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Я не понима́ю: the most useful sentence in a new language.
         wrong: It's the verb to understand, in the я form, ending in ю.
 
     erase reveal_2_stamp
 
-    quiz "Tom asks Masha what she's doing: Что ты …? Which word fills the gap?" reveal.text "Что ты де́лаешь?" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tom asks Masha what she's doing: Что ты …? Which word fills the gap?" frame true reveal.text "Что ты де́лаешь?" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: He's asking ты, so the ending is ешь.
         wrong: He's talking to Masha, ты, so ешь: де́лаешь.
         * де́лаю
@@ -185,7 +185,7 @@ B: When you're lost: я не понима́ю. Не goes just before the verb, a
 
     erase reveal_3_stamp
 
-    quiz "Mum and dad work in a restaurant: Ма́ма и па́па … в рестора́не. Which word fills the gap?" reveal.text "Ма́ма и па́па рабо́тают." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Mum and dad work in a restaurant: Ма́ма и па́па … в рестора́не. Which word fills the gap?" frame true reveal.text "Ма́ма и па́па рабо́тают." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Mum and dad are они́, so the ending is ют.
         wrong: Mum and dad are они́, so ют: рабо́тают.
         * рабо́тает
@@ -194,7 +194,7 @@ B: When you're lost: я не понима́ю. Не goes just before the verb, a
 
     erase reveal_4_stamp
 
-    ask "Say we know where the cat is: Мы …, где кот. Type the verb." answer ["знаем"] reveal.text "Мы зна́ем, где кот." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Say we know where the cat is: Мы …, где кот. Type the verb." frame true answer ["знаем"] reveal.text "Мы зна́ем, где кот." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Зна́ем: знать without its ть, plus the мы ending ем.
         wrong: Take знать, drop the ть, and add the ending of мы чита́ем.
@@ -246,14 +246,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Where do you live in Russian: я живу в Москве
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:21 title "What's your name in Russian: меня зовут" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:23 title "Where do you live in Russian: я живу в Москве" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:23 title "Where do you live in Russian: я живу в Москве" form title size 600 x 500 y 420
 
-    link end_again href lecture:22 title "Watch again" form text open here x 500 y 160
-    text end_count "22 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:22 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "22 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

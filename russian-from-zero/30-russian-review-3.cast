@@ -136,7 +136,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase s7 s8 s9
 
-    quiz "Как его́ зову́т? What is Masha's brother called? Pick one." reveal.text "Меня́ зову́т Ива́н." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "Как его́ зову́т? What is Masha's brother called? Pick one." frame true reveal.text "Меня́ зову́т Ива́н." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the story, from memory.
         right: Ivan: меня́ зову́т Ива́н, in the very first line.
         wrong: Look back at the first line: меня́ зову́т…
@@ -146,7 +146,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_1_stamp
 
-    quiz "How old is Ivan? Pick one." reveal.text "Мне два́дцать два го́да." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "How old is Ivan? Pick one." frame true reveal.text "Мне два́дцать два го́да." reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Twenty-two, and after two comes го́да.
         wrong: Line two: мне два́дцать… how many?
         * два го́да
@@ -155,7 +155,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_2_stamp
 
-    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Я живу́ в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." frame true reveal.text "Я живу́ в О́сло." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         right: In Oslo; it is Masha who lives in Moscow.
         wrong: Masha lives in Moscow. Where does her brother live?
         + в О́сло
@@ -164,7 +164,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_3_stamp
 
-    quiz "What has Ivan run out of? Pick one: у меня́ нет…" reveal.text "У меня́ нет молока́!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "What has Ivan run out of? Pick one: у меня́ нет…" frame true reveal.text "У меня́ нет молока́!" reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Milk, for the cat, with the а after нет.
         wrong: He has a cat and a job. What does the cat love?
         * ко́шки
@@ -173,7 +173,7 @@ B: Last, а как тебя́ зову́т? And what's your name? Ivan is asking
 
     erase question_4_stamp
 
-    ask "At what time is Ivan going to work today? Type the number in Russian." answer ["семь","в семь","семь часов","в семь часов"] reveal.text "в семь часо́в" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    ask "At what time is Ivan going to work today? Type the number in Russian." frame true answer ["семь","в семь","семь часов","в семь часов"] reveal.text "в семь часо́в" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Seven: в семь часо́в.
         wrong: Four letters, and one more than шесть.
@@ -228,14 +228,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: What did you do yesterday in Russian: читал, читала
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:29 title "How old are you in Russian: мне двадцать лет" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:31 title "What did you do yesterday in Russian: читал, читала" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:31 title "What did you do yesterday in Russian: читал, читала" form title size 600 x 500 y 420
 
-    link end_again href lecture:30 title "Watch again" form text open here x 500 y 160
-    text end_count "30 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:30 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "30 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

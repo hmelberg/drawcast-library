@@ -40,7 +40,7 @@ heading: false
     text f_imp "Пришли́те ма́стера!" say "Пришли́те ма́стера!" new true x 500 y 180 font_size 54 hidden true
     table shape say true new ["Зара́нее","Уважа́емые","господа́","Прошу́","присла́ть"] row_headers true x 500 y 400 font_size 40 rows [["to whom","В управля́ющую компа́нию"],["greeting","Уважа́емые господа́!"],["request","Прошу́ вас присла́ть…"],["reason","так как…"],["thanks","Зара́нее спаси́бо!"],["signature","С уваже́нием, Том"]] hidden true
     table greet say true new ["Уважа́емый","Уважа́емая","Уважа́емые","господа́"] columns ["","formal","friends"] colors {"ый$":"#2f6b8f","ой$":"#2f6b8f","ая$":"#b5482e","ые$":"#3f7f4f","ие$":"#3f7f4f"} x 500 y 420 font_size 34 rows [["он","Уважа́емый Серге́й Ива́нович!","Дорого́й Том!"],["она́","Уважа́емая Ни́на Петро́вна!","Дорога́я Ма́ша!"],["они́","Уважа́емые господа́!","Дороги́е роди́тели!"]] hidden true
-    icon b_chef size 150 set twemoji x 500 y 480 or ["cook","woman"] icon_look picture of "woman cook" hidden true
+    icon b_chef size 120 set twemoji x 500 y 480 or ["cook","woman"] icon_look picture of "woman cook" hidden true
     text b_full "Уважа́емая О́льга Серге́евна!" say "Уважа́емая О́льга Серге́евна!" colors {"ая$":"#b5482e"} x 500 y 300 font_size 54 hidden true
     icon lift size 110 set twemoji x 120 y 600 or ["door"] icon_look picture of elevator hidden true
     glossed gl2 "Уважа́ем[ый] Серге́й Ива́нович! Прош[у́] вас присла́ть ма́стера, [так как|потому́ что] у нас не рабо́тает лифт. [Зара́нее|Большо́е] спаси́бо!" say_voice a gloss ["","","","","","","","","","","","","","",""] show_gloss after gloss_size 22 colors {"ый$":"#2f6b8f"} x 520 y 400 width 860 font_size 44 hidden true
@@ -179,7 +179,7 @@ B: Уважа́емые господа́! Дороги́е роди́тели!
 A: Напиши́те. To my boss, formally.
     draw b_chef
 
-    ask "Напиши́те: Dear Olga Sergeyevna! (formal)" answer ["уважаемая ольга сергеевна"]
+    ask "Напиши́те: Dear Olga Sergeyevna! (formal)" above b_chef answer ["уважаемая ольга сергеевна"]
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Она́, so уважа́емая.
         wrong: Она́, so уважа́емая: Уважа́емая О́льга Серге́евна!
@@ -344,14 +344,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Word families in Russian: вход, выход, переход
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:120 title "A twelfth Russian story: white nights" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:122 title "Word families in Russian: вход, выход, переход" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:122 title "Word families in Russian: вход, выход, переход" form title size 600 x 500 y 420
 
-    link end_again href lecture:121 title "Watch again" form text open here x 500 y 160
-    text end_count "121 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:121 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "121 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

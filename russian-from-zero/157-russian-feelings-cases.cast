@@ -204,7 +204,7 @@ A: Ма́ма волну́ется за меня́.
 
     ask say_it "Я горжу́сь тобо́й!" also ["Я тобо́й горжу́сь!","Горжу́сь тобо́й!","Я горжу́сь ва́ми!","Я ва́ми горжу́сь!"] gloss "I'm proud of you!" voice a show cue reveal.text "Я горжу́сь тобо́й!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 64 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: Masha is angry with Tom." answer ["маша сердится на тома","маша на тома сердится","на тома маша сердится","маша сердится на тома сейчас"] reveal.text "Ма́ша се́рдится на То́ма." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Masha is angry with Tom." frame true answer ["маша сердится на тома","маша на тома сердится","на тома маша сердится","маша сердится на тома сейчас"] reveal.text "Ма́ша се́рдится на То́ма." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Ма́ша се́рдится на То́ма.
         wrong: Ма́ша се́рдится на То́ма: на, and the object form.
@@ -255,14 +255,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Walking on the beach in Russian: гуляя, прилетев
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:156 title "A Russian radio interview: have you ever cooked borscht?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:158 title "Walking on the beach in Russian: гуляя, прилетев" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:158 title "Walking on the beach in Russian: гуляя, прилетев" form title size 600 x 500 y 420
 
-    link end_again href lecture:157 title "Watch again" form text open here x 500 y 160
-    text end_count "157 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:157 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "157 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

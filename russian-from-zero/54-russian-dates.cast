@@ -182,7 +182,7 @@ A: А когда́ у твоего́ па́пы день рожде́ния?
 
     hide grid
 
-    quiz "In May, in Russian: в …? Pick one." store q1 reveal.text "в ма́е" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 110 reveal.color #d0865f voice b test t1
+    quiz "In May, in Russian: в …? Pick one." frame true store q1 reveal.text "в ма́е" reveal.style label reveal.size 110 reveal.color #d0865f voice b test t1
         intro: Five questions now, then your score.
         right: В ма́е: the й gives way to the place ending е.
         wrong: Ма́я means of May, for a date; in a month takes the place ending.
@@ -192,7 +192,7 @@ A: А когда́ у твоего́ па́пы день рожде́ния?
 
     erase q1_stamp
 
-    quiz "The twentieth of June? Pick one." store q2 reveal.text "20 · двадца́тое ию́ня" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "The twentieth of June? Pick one." frame true store q2 reveal.text "20 · двадца́тое ию́ня" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Двадца́тое ию́ня: the number as an ое word, the month in the of-ending.
         wrong: Two words change: the number and the month.
         + двадца́тое ию́ня
@@ -201,7 +201,7 @@ A: А когда́ у твоего́ па́пы день рожде́ния?
 
     erase q2_stamp
 
-    quiz "Сего́дня тридца́тое апре́ля. What is за́втра? Pick one." store q3 reveal.text "За́втра пе́рвое ма́я." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Сего́дня тридца́тое апре́ля. What is за́втра? Pick one." frame true store q3 reveal.text "За́втра пе́рвое ма́я." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Пе́рвое ма́я: April has thirty days, so after the thirtieth comes the first of May.
         wrong: How many days are there in April?
         * три́дцать пе́рвое апре́ля
@@ -210,7 +210,7 @@ A: А когда́ у твоего́ па́пы день рожде́ния?
 
     erase q3_stamp
 
-    ask "Type the date in Russian: the first of May." answer ["первое мая"] store q4 default "первое мая" reveal.text "пе́рвое ма́я" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
+    ask "Type the date in Russian: the first of May." frame true answer ["первое мая"] store q4 default "первое мая" reveal.text "пе́рвое ма́я" reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Пе́рвое ма́я: first as пе́рвое, and May in the of-ending.
         wrong: The word for first, then May in the of-ending.
@@ -273,14 +273,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I see my brother in Russian: ви́жу бра́та
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:53 title "Years in Russian: в две тысячи двадцать пятом году" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:55 title "I see my brother in Russian: ви́жу бра́та" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:55 title "I see my brother in Russian: ви́жу бра́та" form title size 600 x 500 y 420
 
-    link end_again href lecture:54 title "Watch again" form text open here x 500 y 160
-    text end_count "54 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:54 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "54 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

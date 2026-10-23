@@ -155,9 +155,9 @@ B: And брат is an он, so Tom asked ско́лько ему́ лет.
 
     hide speakers
 
-    icon t_cake size 130 set twemoji x 500 y 560 or ["shortcake","cake"] icon_look picture of "birthday cake"
+    icon t_cake size 120 set twemoji x 500 y 560 or ["shortcake","cake"] icon_look picture of "birthday cake"
 
-    quiz "Ask a friend how old they are. Pick one." store q1 reveal.text "Ско́лько тебе́ лет?" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Ask a friend how old they are. Pick one." above t_cake store q1 reveal.text "Ско́лько тебе́ лет?" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: The years go to your friend, so it's the to-word.
         wrong: Age is given to someone: you need the to-word for ты.
@@ -169,9 +169,9 @@ B: And брат is an он, so Tom asked ско́лько ему́ лет.
 
     erase t_cake q1_stamp
 
-    icon t_girl size 130 set twemoji x 500 y 560 or ["woman"] icon_look picture of girl
+    icon t_girl size 120 set twemoji x 500 y 560 or ["woman"] icon_look picture of girl
 
-    quiz "What does Ей три го́да mean? Pick one." store q2 reveal.text "Ей три го́да." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What does Ей три го́да mean? Pick one." above t_girl store q2 reveal.text "Ей три го́да." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Ей is the to-word for она́: three years to her.
         wrong: Ей belongs to она́; for он it would be ему́.
         + She is three.
@@ -182,9 +182,9 @@ B: And брат is an он, so Tom asked ско́лько ему́ лет.
 
     erase t_girl q2_stamp
 
-    icon t_boy size 130 set twemoji x 500 y 560 or ["child"] icon_look picture of boy
+    icon t_boy size 120 set twemoji x 500 y 560 or ["child"] icon_look picture of boy
 
-    quiz "A boy is four: Ему́ четы́ре … Which word fills the gap?" store q3 reveal.text "Ему́ четы́ре го́да." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "A boy is four: Ему́ четы́ре … Which word fills the gap?" above t_boy store q3 reveal.text "Ему́ четы́ре го́да." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Two, three and four take the same word.
         wrong: Four is in the middle group, with two and three.
         * год
@@ -195,9 +195,9 @@ B: And брат is an он, so Tom asked ско́лько ему́ лет.
 
     erase t_boy q3_stamp
 
-    icon t_man size 130 set twemoji x 500 y 560 or ["person"] icon_look picture of man
+    icon t_man size 120 set twemoji x 500 y 560 or ["person"] icon_look picture of man
 
-    quiz "Tom is thirty-one: Мне три́дцать оди́н … Which word fills the gap?" store q4 reveal.text "Мне три́дцать оди́н год." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tom is thirty-one: Мне три́дцать оди́н … Which word fills the gap?" above t_man store q4 reveal.text "Мне три́дцать оди́н год." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: The last word is оди́н, so the one-word.
         wrong: Only the last word counts, and here it's оди́н.
         + год
@@ -208,9 +208,9 @@ B: And брат is an он, so Tom asked ско́лько ему́ лет.
 
     erase t_man q4_stamp
 
-    icon t_girl2 size 130 set twemoji x 500 y 560 or ["woman"] icon_look picture of girl
+    icon t_girl2 size 120 set twemoji x 500 y 560 or ["woman"] icon_look picture of girl
 
-    ask "A girl is twelve: Ей двена́дцать … Type the missing word." answer ["лет"] store q5 default лет reveal.text "Ей двена́дцать лет." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "A girl is twelve: Ей двена́дцать … Type the missing word." above t_girl2 answer ["лет"] store q5 default лет reveal.text "Ей двена́дцать лет." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Eleven to fourteen always take лет, whatever their last digit.
         wrong: Twelve is a teen, one word, not два: so not го́да.
@@ -262,14 +262,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A third Russian story: read it all yourself
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:28 title "I have in Russian: у меня есть" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:30 title "A third Russian story: read it all yourself" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:30 title "A third Russian story: read it all yourself" form title size 600 x 500 y 420
 
-    link end_again href lecture:29 title "Watch again" form text open here x 500 y 160
-    text end_count "29 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:29 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "29 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

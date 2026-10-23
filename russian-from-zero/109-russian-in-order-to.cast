@@ -53,7 +53,7 @@ heading: false
     text p2_l "I want · she comes" #8f887c x 500 y 405 font_size 30 hidden true
     text p3 "…что́бы ты прие́хал." say "…что́бы ты прие́хал." say_voice b colors {"что́бы":"#b0417a","^Что́бы":"#b0417a"} x 500 y 310 font_size 44 hidden true
     text p3_l "Masha to Tom" #8f887c x 500 y 260 font_size 28 hidden true
-    icon b_book size 150 set twemoji x 500 y 470 or ["open book"] icon_look picture of books hidden true
+    icon b_book size 120 set twemoji x 500 y 470 or ["open book"] icon_look picture of books hidden true
     text b_full "Я учу́ ру́сский, что́бы рабо́тать в Петербу́рге." say "Я учу́ ру́сский, что́бы рабо́тать в Петербу́рге." colors {"что́бы":"#b0417a","^Что́бы":"#b0417a"} x 500 y 280 font_size 36 hidden true
     icon t_pass size 150 set twemoji x 400 y 470 or ["closed book","notebook"] icon_look picture of "blue book" hidden true
     icon t_card size 150 set twemoji x 600 y 470 or ["identification card"] icon_look picture of "credit card" hidden true
@@ -201,7 +201,7 @@ A: Writing to me, Masha would say что́бы ты прие́хал, with no а
 A: Now you build one. Напиши́те.
     draw b_book
 
-    ask "Напиши́те: I'm learning Russian in order to work in Petersburg." answer ["я учу русский чтобы работать в петербурге","я изучаю русский чтобы работать в петербурге","чтобы работать в петербурге я учу русский","чтобы работать в петербурге я изучаю русский","я учу русский язык чтобы работать в петербурге","я изучаю русский язык чтобы работать в петербурге","чтобы работать в петербурге я учу русский язык","чтобы работать в петербурге я изучаю русский язык"]
+    ask "Напиши́те: I'm learning Russian in order to work in Petersburg." above b_book answer ["я учу русский чтобы работать в петербурге","я изучаю русский чтобы работать в петербурге","чтобы работать в петербурге я учу русский","чтобы работать в петербурге я изучаю русский","я учу русский язык чтобы работать в петербурге","я изучаю русский язык чтобы работать в петербурге","чтобы работать в петербурге я учу русский язык","чтобы работать в петербурге я изучаю русский язык"]
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Молоде́ц! Что́бы, then the to-form: рабо́тать.
         wrong: Я учу́ ру́сский, then что́бы, then the to-form: рабо́тать в Петербу́рге.
@@ -220,7 +220,7 @@ A: Я учу́ ру́сский, что́бы рабо́тать в Петерб
 
     erase question_5_stamp
 
-    quiz "At the bank you hear: Подпиши́те здесь. What do you do?" reveal.text "Подпиши́те здесь." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "At the bank you hear: Подпиши́те здесь. What do you do?" frame true reveal.text "Подпиши́те здесь." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Подпиши́те: sign. Запо́лните анке́ту would be the form.
         wrong: Подпиши́те здесь: sign here.
         + you sign the form
@@ -229,7 +229,7 @@ A: Я учу́ ру́сский, что́бы рабо́тать в Петерб
 
     erase question_6_stamp
 
-    quiz "Masha writes: I want to come. Вы́берите." reveal.text "Я хочу́ прие́хать." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Masha writes: I want to come. Вы́берите." frame true reveal.text "Я хочу́ прие́хать." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: One person wants and comes: the to-form, прие́хать.
         wrong: She wants, she comes: one person, so я хочу́ прие́хать.
         + Я хочу́ прие́хать.
@@ -306,14 +306,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: An eleventh Russian story: Tom's first week in Petersburg
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:108 title "Two new chairs in Russian: два новых стула" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:110 title "An eleventh Russian story: Tom's first week in Petersburg" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:110 title "An eleventh Russian story: Tom's first week in Petersburg" form title size 600 x 500 y 420
 
-    link end_again href lecture:109 title "Watch again" form text open here x 500 y 160
-    text end_count "109 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:109 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "109 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -44,7 +44,7 @@ heading: false
     box nw3 "крем · cream (on a cake)" say крем new true x 500 y 340 width 560 height 84 radius 12 font_size 34 hidden true
     text r_head "Tom's story, for О́льга · three pages" #8f887c x 500 y 705 font_size 22 hidden true
     icon al_fish size 160 set twemoji x 330 y 480 or ["tropical fish"] icon_look picture of fish hidden true
-    icon al_wed size 160 set twemoji x 500 y 480 or ["wedding cake"] icon_look picture of wedding hidden true
+    icon al_wed size 120 set twemoji x 500 y 480 or ["wedding cake"] icon_look picture of wedding hidden true
     icon al_clock size 150 set twemoji x 670 y 480 or ["hourglass done"] icon_look picture of "alarm clock" hidden true
     text al_late "+ полтора́ часа́" #3d3833 say "полтора́ часа́" x 670 y 340 font_size 44 hidden true
 
@@ -159,7 +159,7 @@ A: Почти́, потому́ что поставщи́к опя́ть опо�
 A: Вы́берите.
     draw al_wed
 
-    quiz "So what was the «почти́»? What went wrong?" shuffle false voice a pool false
+    quiz "So what was the «почти́»? What went wrong?" above al_wed shuffle false voice a pool false
         right: Пра́вильно! Поставщи́к опя́ть опозда́л.
         wrong: Поставщи́к опя́ть опозда́л: the supplier, late again.
         * the cake fell
@@ -224,9 +224,9 @@ A: Пото́м о́ба отца́ пришли́ на ку́хню.
 
     erase t_dads
 
-    icon t_boxes size 160 set twemoji x 500 y 480 or ["card file box"] icon_look picture of package
+    icon t_boxes size 120 set twemoji x 500 y 480 or ["card file box"] icon_look picture of package
 
-    ask "Напиши́те, with пришло́сь: I had to carry the boxes upstairs." answer ["мне пришлось отнести коробки наверх","мне пришлось отнести наверх коробки","мне пришлось отнести все коробки наверх","мне пришлось отнести их наверх","мне пришлось нести коробки наверх","мне пришлось нести наверх коробки","мне пришлось нести все коробки наверх","мне пришлось нести их наверх","мне надо было отнести коробки наверх","мне надо было отнести наверх коробки","мне надо было отнести все коробки наверх","мне надо было отнести их наверх","мне надо было нести коробки наверх","мне надо было нести наверх коробки","мне надо было нести все коробки наверх","мне надо было нести их наверх","мне нужно было отнести коробки наверх","мне нужно было отнести наверх коробки","мне нужно было отнести все коробки наверх","мне нужно было отнести их наверх","мне нужно было нести коробки наверх","мне нужно было нести наверх коробки","мне нужно было нести все коробки наверх","мне нужно было нести их наверх","пришлось отнести коробки наверх","пришлось отнести наверх коробки","пришлось отнести все коробки наверх","пришлось отнести их наверх","пришлось нести коробки наверх","пришлось нести наверх коробки","пришлось нести все коробки наверх","пришлось нести их наверх","наверх мне пришлось отнести коробки","коробки мне пришлось отнести наверх"] voice a test t1
+    ask "Напиши́те, with пришло́сь: I had to carry the boxes upstairs." above t_boxes answer ["мне пришлось отнести коробки наверх","мне пришлось отнести наверх коробки","мне пришлось отнести все коробки наверх","мне пришлось отнести их наверх","мне пришлось нести коробки наверх","мне пришлось нести наверх коробки","мне пришлось нести все коробки наверх","мне пришлось нести их наверх","мне надо было отнести коробки наверх","мне надо было отнести наверх коробки","мне надо было отнести все коробки наверх","мне надо было отнести их наверх","мне надо было нести коробки наверх","мне надо было нести наверх коробки","мне надо было нести все коробки наверх","мне надо было нести их наверх","мне нужно было отнести коробки наверх","мне нужно было отнести наверх коробки","мне нужно было отнести все коробки наверх","мне нужно было отнести их наверх","мне нужно было нести коробки наверх","мне нужно было нести наверх коробки","мне нужно было нести все коробки наверх","мне нужно было нести их наверх","пришлось отнести коробки наверх","пришлось отнести наверх коробки","пришлось отнести все коробки наверх","пришлось отнести их наверх","пришлось нести коробки наверх","пришлось нести наверх коробки","пришлось нести все коробки наверх","пришлось нести их наверх","наверх мне пришлось отнести коробки","коробки мне пришлось отнести наверх"] voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Мне пришло́сь, and отнести́ наве́рх.
         wrong: Мне пришло́сь отнести́ коро́бки наве́рх: мне, then пришло́сь.
@@ -281,14 +281,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Each other in Russian: друг друга
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:139 title "Cheaper and better in Russian: дешевле, гораздо лучше" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:141 title "Each other in Russian: друг друга" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:141 title "Each other in Russian: друг друга" form title size 600 x 500 y 420
 
-    link end_again href lecture:140 title "Watch again" form text open here x 500 y 160
-    text end_count "140 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:140 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "140 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

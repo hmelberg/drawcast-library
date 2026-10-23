@@ -49,12 +49,12 @@ heading: false
     box nw2 "ра́да за него́ · glad for him" say "ра́да за него́" new true x 500 y 400 width 560 height 84 radius 12 font_size 34 hidden true
     icon nw_note size 110 set twemoji x 500 y 640 or ["notebook","memo"] icon_look picture of "spiral notepad" hidden true
     text r_head "Дневни́к Маши · Masha's diary, three pages" #8f887c new true x 500 y 716 font_size 22 hidden true
-    icon q_clock size 170 set twemoji x 500 y 470 or ["twelve o’clock","alarm clock"] icon_look picture of "mantelpiece clock" hidden true
-    icon q_train size 160 set twemoji x 380 y 470 or ["train","locomotive"] icon_look picture of "high-speed train" hidden true
-    icon q_church size 170 set twemoji x 620 y 470 or ["classical building"] icon_look picture of church hidden true
+    icon q_clock size 120 set twemoji x 500 y 470 or ["twelve o’clock","alarm clock"] icon_look picture of "mantelpiece clock" hidden true
+    icon q_train size 120 set twemoji x 380 y 470 or ["train","locomotive"] icon_look picture of "high-speed train" hidden true
+    icon q_church size 120 set twemoji x 620 y 470 or ["classical building"] icon_look picture of church hidden true
     icon q_cook size 170 set twemoji x 500 y 470 or ["cook","man"] icon_look picture of "man cook" hidden true
-    icon q_swim size 150 set twemoji x 500 y 470 or ["snowman"] icon_look picture of snowflake hidden true
-    icon q_note size 170 set twemoji x 500 y 470 or ["notebook","memo"] icon_look picture of "spiral notepad" hidden true
+    icon q_swim size 120 set twemoji x 500 y 470 or ["snowman"] icon_look picture of snowflake hidden true
+    icon q_note size 120 set twemoji x 500 y 470 or ["notebook","memo"] icon_look picture of "spiral notepad" hidden true
     text q_yes "«Да!»" #3d3833 say Да! x 500 y 300 font_size 60 hidden true
     icon t_olga size 160 set twemoji x 140 y 450 or ["cook","woman"] icon_look picture of "woman cook" hidden true
     text t_olga_n "О́льга" #8f887c x 140 y 330 font_size 30 hidden true
@@ -129,7 +129,7 @@ A: Друг дру́га: each other, lesson 141.
 A: Вы́берите.
     draw q_clock
 
-    quiz "Masha writes: «Пока́ би́ли ку́ранты, все загада́ли жела́ние.» When did they make a wish?" shuffle false voice a
+    quiz "Masha writes: «Пока́ би́ли ку́ранты, все загада́ли жела́ние.» When did they make a wish?" above q_clock shuffle false voice a
         right: Пра́вильно! Пока́: while.
         wrong: Пока́ би́ли ку́ранты: while the chimes were striking.
         * after the chimes had struck
@@ -176,7 +176,7 @@ A: Хоть и: lesson 146. Ми́нус два́дцать, and still a walk.
 A: Вы́берите: моржи́.
     draw q_swim
 
-    quiz "Masha writes: «В па́рке моржи́ пла́вали в реке́, хотя́ там был лёд.» What were the моржи doing?" shuffle false voice a
+    quiz "Masha writes: «В па́рке моржи́ пла́вали в реке́, хотя́ там был лёд.» What were the моржи doing?" above q_swim shuffle false voice a
         right: Пра́вильно! Пла́вали в реке́.
         wrong: Моржи́ пла́вали в реке́: they were swimming.
         * skating on the ice
@@ -220,7 +220,7 @@ B: Я ра́да за него́.
 A: Вы́берите.
     draw q_note
 
-    quiz "Masha writes: «Тепе́рь он — шеф!» What has Tom agreed to become?" shuffle false voice a
+    quiz "Masha writes: «Тепе́рь он — шеф!» What has Tom agreed to become?" above q_note shuffle false voice a
         right: Пра́вильно! Шеф.
         wrong: Тепе́рь он — шеф: head chef.
         + head chef
@@ -252,7 +252,7 @@ A: Шесть вопро́сов. Пя́тница, у́тро: I phone О́ль
 A: Вы́берите: Су́здаль.
     draw q_train q_church
 
-    quiz "In Masha's diary of a winter in Moscow, why did she and Tom go to Суздаль?" shuffle false voice a test t1
+    quiz "In Masha's diary of a winter in Moscow, why did she and Tom go to Суздаль?" above ["q_train","q_church"] shuffle false voice a test t1
         right: Пра́вильно! Ива́н посове́товал.
         wrong: Ива́н посове́товал нам пое́хать в Су́здаль.
         * Masha's boss sent her
@@ -292,9 +292,9 @@ A: Хоть и бы́ло ми́нус два́дцать, мы гуля́ли �
 
     erase t_masha
 
-    icon t_two size 170 set twemoji x 500 y 470 or ["handshake","two hearts"] icon_look picture of "people hugging"
+    icon t_two size 120 set twemoji x 500 y 470 or ["handshake","two hearts"] icon_look picture of "people hugging"
 
-    ask "Напиши́те: Tom and Masha understand each other." answer ["том и маша понимают друг друга","том и маша друг друга понимают","маша и том понимают друг друга","маша и том друг друга понимают"] voice a test t1
+    ask "Напиши́те: Tom and Masha understand each other." above t_two answer ["том и маша понимают друг друга","том и маша друг друга понимают","маша и том понимают друг друга","маша и том друг друга понимают"] voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Друг дру́га.
         wrong: Том и Ма́ша понима́ют друг дру́га.
@@ -350,14 +350,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Russian food idioms: первый блин комом
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:149 title "Arguing in Russian: с одной стороны, с другой стороны" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:151 title "Russian food idioms: первый блин комом" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:151 title "Russian food idioms: первый блин комом" form title size 600 x 500 y 420
 
-    link end_again href lecture:150 title "Watch again" form text open here x 500 y 160
-    text end_count "150 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:150 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "150 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

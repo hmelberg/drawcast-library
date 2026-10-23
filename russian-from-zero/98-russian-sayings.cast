@@ -52,11 +52,11 @@ level: basic
     text n2 "иду́ спать" say "иду́ спать" x 500 y 340 font_size 60 hidden true
     text n2g "I'm off to bed" #8f887c x 500 y 260 font_size 40 hidden true
     icon n_bed size 120 set twemoji x 800 y 300 or ["sleeping face"] icon_look picture of bed hidden true
-    icon q_clock size 200 set twemoji x 500 y 470 or ["mantelpiece clock"] icon_look picture of "alarm clock" hidden true
-    icon q_moon size 200 set twemoji x 500 y 470 or ["first quarter moon face"] icon_look picture of "crescent moon" hidden true
-    icon q_rod size 200 set twemoji x 500 y 470 or ["fish"] icon_look picture of "fishing pole" hidden true
+    icon q_clock size 120 set twemoji x 500 y 470 or ["mantelpiece clock"] icon_look picture of "alarm clock" hidden true
+    icon q_moon size 120 set twemoji x 500 y 470 or ["first quarter moon face"] icon_look picture of "crescent moon" hidden true
+    icon q_rod size 120 set twemoji x 500 y 470 or ["fish"] icon_look picture of "fishing pole" hidden true
     icon q_friends size 200 set twemoji x 500 y 470 or ["handshake"] icon_look picture of "people hugging" hidden true
-    icon q_turtle size 200 set twemoji x 500 y 470 or ["snail"] icon_look picture of turtle hidden true
+    icon q_turtle size 120 set twemoji x 500 y 470 or ["snail"] icon_look picture of turtle hidden true
     text b1 "Без труда́…  work" say "Без труда́ не вы́тащишь и ры́бку из пруда́." x 500 y 640 font_size 44 hidden true
     text b2 "Лу́чше по́здно…  late" say "Лу́чше по́здно, чем никогда́." x 500 y 530 font_size 44 hidden true
     text b3 "У́тро ве́чера…  sleep on it" say "У́тро ве́чера мудрене́е." x 500 y 420 font_size 44 hidden true
@@ -178,7 +178,7 @@ A: New there: за час, in an hour, and (@draw n2 n2g n_bed@) иду́ спа
 
     draw q_clock
 
-    quiz "Лу́чше по́здно, чем ___." reveal.text "Лу́чше по́здно, чем никогда́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "Лу́чше по́здно, чем ___." above q_clock reveal.text "Лу́чше по́здно, чем никогда́." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Никогда́: better late than never.
         wrong: Better late than never: никогда́.
@@ -190,7 +190,7 @@ A: New there: за час, in an hour, and (@draw n2 n2g n_bed@) иду́ спа
 
     draw q_moon
 
-    quiz "It's midnight, and your friend wants to decide something big right now. What do you say?" reveal.text "У́тро ве́чера мудрене́е." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 58 reveal.color #3d3833 voice b test t1
+    quiz "It's midnight, and your friend wants to decide something big right now. What do you say?" above q_moon reveal.text "У́тро ве́чера мудрене́е." reveal.style label reveal.size 58 reveal.color #3d3833 voice b test t1
         right: У́тро ве́чера мудрене́е: sleep on it.
         wrong: Decide in the morning: у́тро ве́чера мудрене́е.
         * Ти́ше е́дешь — да́льше бу́дешь.
@@ -201,7 +201,7 @@ A: New there: за час, in an hour, and (@draw n2 n2g n_bed@) иду́ спа
 
     draw q_rod
 
-    quiz "Без труда́ не вы́тащишь и ры́бку из пруда́. What does it mean?" say_answer false reveal.text "без труда́" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "Без труда́ не вы́тащишь и ры́бку из пруда́. What does it mean?" above q_rod say_answer false reveal.text "без труда́" reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: Without work, not even a little fish.
         wrong: Без труда́: without work, you won't pull out even a little fish.
         + Nothing good comes without effort.
@@ -218,7 +218,7 @@ A: New there: за час, in an hour, and (@draw n2 n2g n_bed@) иду́ спа
 
     draw q_turtle
 
-    ask "Finish the saying. Type the last word: Ти́ше е́дешь — да́льше ___." answer ["будешь"] reveal.text "да́льше бу́дешь" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 58 reveal.color #3d3833 voice b test t1
+    ask "Finish the saying. Type the last word: Ти́ше е́дешь — да́льше ___." above q_turtle answer ["будешь"] reveal.text "да́льше бу́дешь" reveal.style label reveal.size 58 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Бу́дешь: go slower, and you'll get further.
         wrong: It's бу́дешь, you will be: да́льше бу́дешь.
@@ -274,14 +274,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A whole conversation in Russian
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:97 title "A Russian life: Gagarin" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:99 title "A whole conversation in Russian" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:99 title "A whole conversation in Russian" form title size 600 x 500 y 420
 
-    link end_again href lecture:98 title "Watch again" form text open here x 500 y 160
-    text end_count "98 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:98 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "98 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

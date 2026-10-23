@@ -193,7 +193,7 @@ A: After a number ending in one to four, like два́дцать оди́н, it 
 
     erase match
 
-    quiz "Which one is 13? Pick one." store q2 reveal.text "13 = трина́дцать" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "Which one is 13? Pick one." frame true store q2 reveal.text "13 = трина́дцать" reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
         right: Three on ten: на in the middle makes it a teen.
         wrong: Thirteen is three ON ten: look for на.
         + трина́дцать
@@ -202,19 +202,19 @@ A: After a number ending in one to four, like два́дцать оди́н, it 
 
     erase q2_stamp
 
-    ask "Молоко́ — три́дцать пять рубле́й. How much is the milk? Type it in digits." answer ["35"] store q3 default "35" reveal.text "молоко́: 35" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 90 reveal.color #3d3833 voice b test t1
+    ask "Молоко́ — три́дцать пять рубле́й. How much is the milk? Type it in digits." frame true answer ["35"] store q3 default "35" reveal.text "молоко́: 35" reveal.style label reveal.size 90 reveal.color #3d3833 voice b test t1
         right: Thirty-five: три́дцать, three tens, then пять.
         wrong: Three tens, then five.
 
     erase q3_stamp
 
-    ask "Type forty in Russian." answer ["сорок"] store q4 default сорок reveal.text "40 = со́рок" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
+    ask "Type forty in Russian." frame true answer ["сорок"] store q4 default сорок reveal.text "40 = со́рок" reveal.style label reveal.size 80 reveal.color #3d3833 voice a test t1
         right: Со́рок: forty is the one with a word all of its own.
         wrong: Forty breaks the pattern: it has no дцать at all.
 
     erase q4_stamp
 
-    ask "Type twenty-five in Russian." answer ["двадцать пять","двадцатьпять"] store q5 default "двадцать пять" reveal.text "25 = два́дцать пять" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "Type twenty-five in Russian." frame true answer ["двадцать пять","двадцатьпять"] store q5 default "двадцать пять" reveal.text "25 = два́дцать пять" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         right: Два́дцать пять: the tens, then the units, with no and.
         wrong: Twenty, then five, as two words.
 
@@ -259,14 +259,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Who, what, when in Russian: кто, что, когда
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:15 title "Days of the week in Russian: сегодня, завтра" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:17 title "Who, what, when in Russian: кто, что, когда" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:17 title "Who, what, when in Russian: кто, что, когда" form title size 600 x 500 y 420
 
-    link end_again href lecture:16 title "Watch again" form text open here x 500 y 160
-    text end_count "16 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:16 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "16 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -185,7 +185,7 @@ B: Э́то для Ни́ны Петро́вны от ма́мы.
 
     erase g1
 
-    quiz "___ рабо́ты я иду́ в кафе́. Вы́берите." reveal.text "По́сле рабо́ты" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "___ рабо́ты я иду́ в кафе́. Вы́берите." frame true reveal.text "По́сле рабо́ты" reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: По́сле рабо́ты: after work, with the of-ending. О and к would want рабо́те.
         wrong: Рабо́ты is the of-ending, so it needs по́сле: по́сле рабо́ты.
         + По́сле
@@ -200,7 +200,7 @@ B: Э́то для Ни́ны Петро́вны от ма́мы.
 
     erase t_door question_9_stamp
 
-    ask "Напиши́те: I bought sweets for Нина Петровна." answer ["я купил конфеты для нины петровны","я купила конфеты для нины петровны","я купил для нины петровны конфеты","я купила для нины петровны конфеты","конфеты для нины петровны я купил","конфеты для нины петровны я купила","купил конфеты для нины петровны","купила конфеты для нины петровны"] reveal.text "для Ни́ны Петро́вны" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I bought sweets for Нина Петровна." frame true answer ["я купил конфеты для нины петровны","я купила конфеты для нины петровны","я купил для нины петровны конфеты","я купила для нины петровны конфеты","конфеты для нины петровны я купил","конфеты для нины петровны я купила","купил конфеты для нины петровны","купила конфеты для нины петровны"] reveal.text "для Ни́ны Петро́вны" reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Купи́ла or купи́л, then для and the of-ending: для Ни́ны Петро́вны.
         wrong: Я купи́л конфе́ты для Ни́ны Петро́вны: для, then the of-ending.
@@ -265,14 +265,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Plural cases in Russian: дети, детей, детьми
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:110 title "An eleventh Russian story: Tom's first week in Petersburg" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:112 title "Plural cases in Russian: дети, детей, детьми" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:112 title "Plural cases in Russian: дети, детей, детьми" form title size 600 x 500 y 420
 
-    link end_again href lecture:111 title "Watch again" form text open here x 500 y 160
-    text end_count "111 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:111 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "111 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

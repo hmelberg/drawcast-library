@@ -171,9 +171,9 @@ A: Now Tom and Masha talk about work and free time. Listen; then practise it.
 
     hide masha masha_name tom tom_name
 
-    icon q_cook size 170 set twemoji x 500 y 470 or ["cook"] icon_look picture of "man cook"
+    icon q_cook size 120 set twemoji x 500 y 470 or ["cook"] icon_look picture of "man cook"
 
-    quiz "Tom is a cook. He says: Я рабо́таю ___. Which word fills the gap?" reveal.text "Я рабо́таю по́варом." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom is a cook. He says: Я рабо́таю ___. Which word fills the gap?" above q_cook reveal.text "Я рабо́таю по́варом." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: По́варом: the job you work as takes ом.
         wrong: After рабо́таю, the job takes the with-ending, as in рабо́таю врачо́м.
@@ -183,9 +183,9 @@ A: Now Tom and Masha talk about work and free time. Listen; then practise it.
 
     erase q_cook
 
-    icon q_notes size 170 set twemoji x 500 y 470 or ["musical note"] icon_look picture of "musical notes"
+    icon q_notes size 120 set twemoji x 500 y 470 or ["musical note"] icon_look picture of "musical notes"
 
-    quiz "Masha does music. Я занима́юсь ___. Which is right?" reveal.text "Я занима́юсь му́зыкой." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha does music. Я занима́юсь ___. Which is right?" above q_notes reveal.text "Я занима́юсь му́зыкой." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Му́зыкой: after занима́юсь, the а becomes ой.
         wrong: Занима́юсь takes the with-ending: му́зыка → му́зыкой, the а becomes ой, as after с.
         + му́зыкой
@@ -194,9 +194,9 @@ A: Now Tom and Masha talk about work and free time. Listen; then practise it.
 
     erase q_notes
 
-    icon q_pen size 170 set twemoji x 500 y 470 or ["fountain pen","writing hand"] icon_look picture of pen
+    icon q_pen size 120 set twemoji x 500 y 470 or ["fountain pen","writing hand"] icon_look picture of pen
 
-    quiz "Say: I write with a pen. Which is right?" reveal.text "Я пишу́ ру́чкой." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Say: I write with a pen. Which is right?" above q_pen reveal.text "Я пишу́ ру́чкой." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: A tool takes the with-ending, and no с.
         wrong: С ру́чкой is a pen you carry along. What you write with needs no с.
         * Я пишу́ с ру́чкой.
@@ -215,9 +215,9 @@ B: Врачо́м! Я рабо́таю врачо́м.
 
     erase q_masha q_say
 
-    icon q_dad size 170 set twemoji x 500 y 470 or ["teacher","man"] icon_look picture of "man teacher"
+    icon q_dad size 120 set twemoji x 500 y 470 or ["teacher","man"] icon_look picture of "man teacher"
 
-    ask "Now build a whole sentence. Type: My dad was a teacher." answer ["мой папа был учителем","папа был учителем"] reveal.text "Мой па́па был учи́телем." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: My dad was a teacher." above q_dad answer ["мой папа был учителем","папа был учителем"] reveal.text "Мой па́па был учи́телем." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Мой па́па был учи́телем: after был, учи́тель takes ем.
         wrong: Start with мой па́па был, then учи́тель with the with-ending.
@@ -272,14 +272,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Phoning mum in Russian: звоню́ ма́ме
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:55 title "I see my brother in Russian: ви́жу бра́та" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:57 title "Phoning mum in Russian: звоню́ ма́ме" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:57 title "Phoning mum in Russian: звоню́ ма́ме" form title size 600 x 500 y 420
 
-    link end_again href lecture:56 title "Watch again" form text open here x 500 y 160
-    text end_count "56 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:56 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "56 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

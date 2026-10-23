@@ -188,7 +188,7 @@ A: О́льга спроси́ла, приду́ ли я. Она́ попрос�
 
     erase t_gaps
 
-    quiz "Your new boss, aged fifty, calls you вы. Who offers ты first?" reveal.text "Дава́й на ты!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Your new boss, aged fifty, calls you вы. Who offers ты first?" frame true reveal.text "Дава́й на ты!" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Usually the senior one: the boss says дава́й на ты.
         wrong: Usually the senior one offers it: the boss, or the older person.
         + the boss
@@ -203,7 +203,7 @@ A: Да́льше: the last one, and this time you write it.
 
     erase question_8_stamp reveal_2_stamp
 
-    ask "Напиши́те: She asked me to come." answer ["она попросила чтобы я пришёл","она попросила чтобы я пришла","она попросила меня прийти","попросила чтобы я пришёл","попросила чтобы я пришла","попросила меня прийти","ольга попросила чтобы я пришёл","ольга попросила чтобы я пришла","ольга попросила меня прийти"] reveal.text "попроси́ла, что́бы я пришёл" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: She asked me to come." frame true answer ["она попросила чтобы я пришёл","она попросила чтобы я пришла","она попросила меня прийти","попросила чтобы я пришёл","попросила чтобы я пришла","попросила меня прийти","ольга попросила чтобы я пришёл","ольга попросила чтобы я пришла","ольга попросила меня прийти"] reveal.text "попроси́ла, что́бы я пришёл" reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Попроси́ла, что́бы, then the past: я пришёл, or я пришла́.
         wrong: Она́ попроси́ла, что́бы я пришёл: a request takes что́бы and the past.
@@ -256,14 +256,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Reading participles in Russian: работающий, бывший
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:123 title "Reading the news in Russian: a headline" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:125 title "Reading participles in Russian: работающий, бывший" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:125 title "Reading participles in Russian: работающий, бывший" form title size 600 x 500 y 420
 
-    link end_again href lecture:124 title "Watch again" form text open here x 500 y 160
-    text end_count "124 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:124 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "124 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

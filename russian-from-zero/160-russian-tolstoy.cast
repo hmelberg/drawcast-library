@@ -59,7 +59,7 @@ heading: false
     text t_gaps1 "Че́рез год соба́чк[а] заболе́л[а] и умерл[а́]." say "Че́рез год соба́чка заболе́ла и умерла́." x 500 y 650 font_size 42 hidden true
     text t_gaps2 "На шест[о́й] день лев у́мер." say "На шесто́й день лев у́мер." x 500 y 575 font_size 42 hidden true
     icon t_lion size 160 set twemoji x 500 y 470 or ["lion face"] icon_look picture of lion hidden true
-    icon t_dog size 160 set twemoji x 500 y 470 or ["dog face","poodle"] icon_look picture of dog hidden true
+    icon t_dog size 120 set twemoji x 500 y 470 or ["dog face","poodle"] icon_look picture of dog hidden true
     text t_since "… соба́чка жила́ в одно́й кле́тке со львом." #3d3833 x 500 y 520 font_size 42 hidden true
     icon score_book size 170 set twemoji x 500 y 470 or ["books","closed book"] icon_look picture of "open book" hidden true
     box end_card "160 уроков" x 500 y 500 width 560 height 150 radius 14 font_size 56 hidden true
@@ -259,7 +259,7 @@ A: Че́рез год соба́чка заболе́ла и умерла́. Н
 A: Вы́берите.
     draw t_dog
 
-    quiz "In Tolstoy's «Лев и собачка», which of these happened first?" voice a test t1
+    quiz "In Tolstoy's «Лев и собачка», which of these happened first?" above t_dog voice a test t1
         right: Пра́вильно! Снача́ла лев поню́хал соба́чку.
         wrong: Снача́ла лев поню́хал соба́чку.
         + Лев поню́хал соба́чку.
@@ -270,7 +270,7 @@ A: Вы́берите.
 
     draw t_since
 
-    quiz "Tolstoy, «Лев и собачка»: after the first night beside the lion… Which words begin the line?" voice a test t1
+    quiz "Tolstoy, «Лев и собачка»: after the first night beside the lion… Which words begin the line?" above t_since voice a test t1
         right: С тех пор!
         wrong: С тех пор: from then on.
         + С тех пор
@@ -326,11 +326,8 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:159 title "Nobody to ask in Russian: некого, некогда, нечего" size 320 x 500 y 395
-
-    link end_again href lecture:160 title "Watch again" form text open here x 500 y 160
-    text end_count "160 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:160 title "Watch again" form text mark replay open here x 500 y 400 font_size 28
+    text end_count "160 of 160" x 500 y 330 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

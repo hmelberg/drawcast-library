@@ -51,8 +51,8 @@ heading: false
     text g1 "Я беру́ все тёпл[ые] ве́щ[и]." colors {"ве́щ[и]$":"#3f7f4f"} x 500 y 560 font_size 60 hidden true
     text g2 "Я оставля́ю кни́г[и] и друз[е́й]." colors {"кни́г[и]$":"#3f7f4f","ей$":"#1a8a8a"} x 500 y 560 font_size 60 hidden true
     icon q_case size 170 set twemoji x 500 y 470 or ["briefcase"] icon_look picture of luggage hidden true
-    icon q_friends size 170 set twemoji x 500 y 470 or ["handshake","two men holding hands"] icon_look picture of "people holding hands" hidden true
-    icon q_docs size 170 set twemoji x 500 y 470 or ["memo","clipboard"] icon_look picture of "page facing up" hidden true
+    icon q_friends size 120 set twemoji x 500 y 470 or ["handshake","two men holding hands"] icon_look picture of "people holding hands" hidden true
+    icon q_docs size 120 set twemoji x 500 y 470 or ["memo","clipboard"] icon_look picture of "page facing up" hidden true
     text q4 "Я люблю́ кот[о́в] и кни́г[и]." colors {"ов$":"#1a8a8a","кни́г[и]$":"#3f7f4f"} x 500 y 580 font_size 60 hidden true
 
 A: Ско́ро я переезжа́ю в Петербу́рг, so tonight in (@draw s_tom@) London I'm packing.
@@ -217,7 +217,7 @@ A: Я оставля́ю кни́ги и друзе́й: кни́ги, things; �
 
     draw q_friends
 
-    quiz "Вы́берите. I see my friends: Я ви́жу ___." reveal.text "Я ви́жу друзе́й." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите. I see my friends: Я ви́жу ___." above q_friends reveal.text "Я ви́жу друзе́й." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Six questions now, then your score.
         right: Friends are people, so the of-plural: друзе́й.
         wrong: Many people take the of-plural: я ви́жу друзе́й.
@@ -229,7 +229,7 @@ A: Я оставля́ю кни́ги и друзе́й: кни́ги, things; �
 
     draw q_docs
 
-    quiz "Вы́берите. I'm taking the documents: Я беру́ ___." reveal.text "Я беру́ докуме́нты." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите. I'm taking the documents: Я беру́ ___." above q_docs reveal.text "Я беру́ докуме́нты." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Documents are things: the plain plural, докуме́нты.
         wrong: Things keep the plain plural: я беру́ докуме́нты.
         * докуме́нтов
@@ -238,9 +238,9 @@ A: Я оставля́ю кни́ги и друзе́й: кни́ги, things; �
 
     erase question_7_stamp q_docs
 
-    icon q_bags size 150 set twemoji x 500 y 520 or ["shopping bags","purse"] icon_look picture of handbag
+    icon q_bags size 120 set twemoji x 500 y 520 or ["shopping bags","purse"] icon_look picture of handbag
 
-    quiz "Вы́берите. Not these bags, those: Не э́ти су́мки, а ___." reveal.text "а те су́мки" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Вы́берите. Not these bags, those: Не э́ти су́мки, а ___." above q_bags reveal.text "а те су́мки" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Су́мки is plural, so те.
         wrong: Тот and та are for one; for many, те.
         * тот
@@ -266,7 +266,7 @@ A: Я люблю́ кото́в и кни́ги: cats are alive, books are thing
 
     erase q_case question_10_stamp
 
-    ask "Напиши́те: I'm taking all these things." answer ["я беру все эти вещи","беру все эти вещи","все эти вещи я беру","я возьму все эти вещи","возьму все эти вещи","все эти вещи я возьму"] reveal.text "Я беру́ все э́ти ве́щи." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I'm taking all these things." frame true answer ["я беру все эти вещи","беру все эти вещи","все эти вещи я беру","я возьму все эти вещи","возьму все эти вещи","все эти вещи я возьму"] reveal.text "Я беру́ все э́ти ве́щи." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Все э́ти ве́щи: things, so the plain plural.
         wrong: Я беру́, then все э́ти ве́щи: я беру́ все э́ти ве́щи.
@@ -318,14 +318,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Carrying in Russian: несу or ношу?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:101 title "Why and because in Russian: потому что" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:103 title "Carrying in Russian: несу or ношу?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:103 title "Carrying in Russian: несу or ношу?" form title size 600 x 500 y 420
 
-    link end_again href lecture:102 title "Watch again" form text open here x 500 y 160
-    text end_count "102 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:102 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "102 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -189,9 +189,9 @@ B: Here is all of it. В апре́ле, в ма́е: в with a month, as in les
 
     erase l_1n l_1 l_2n l_2 l_3n l_3 l_4n l_4 l_4b
 
-    icon q_plane size 180 set twemoji x 500 y 480 or ["small airplane"] icon_look picture of airplane
+    icon q_plane size 120 set twemoji x 500 y 480 or ["small airplane"] icon_look picture of airplane
 
-    quiz "He became a pilot: Он стал ___." reveal.text "Он стал лётчиком." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "He became a pilot: Он стал ___." above q_plane reveal.text "Он стал лётчиком." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Лётчиком: after стал, the with-ending.
         wrong: After стал comes the with-ending: лётчиком, like был врачо́м.
         * лётчик
@@ -200,9 +200,9 @@ B: Here is all of it. В апре́ле, в ма́е: в with a month, as in les
 
     erase q_plane
 
-    icon q_cal size 170 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "spiral calendar"
+    icon q_cal size 120 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "spiral calendar"
 
-    quiz "What does Он у́мер в 1968 году́ mean?" reveal.text "Он у́мер в 1968 году́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "What does Он у́мер в 1968 году́ mean?" above q_cal reveal.text "Он у́мер в 1968 году́." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: У́мер: died. Born is роди́лся.
         wrong: У́мер means died. He was born is он роди́лся.
         + He died in 1968.
@@ -220,9 +220,9 @@ B: Here is all of it. В апре́ле, в ма́е: в with a month, as in les
 
     erase q_rocket
 
-    icon q_teacher size 170 set twemoji x 500 y 500 or ["teacher","woman"] icon_look picture of "woman teacher"
+    icon q_teacher size 120 set twemoji x 500 y 500 or ["teacher","woman"] icon_look picture of "woman teacher"
 
-    ask "Now build a sentence. Type: She became a teacher." answer ["она стала учителем","стала учителем","она стала учительницей","стала учительницей"] reveal.text "Она́ ста́ла учи́телем." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: She became a teacher." above q_teacher answer ["она стала учителем","стала учителем","она стала учительницей","стала учительницей"] reveal.text "Она́ ста́ла учи́телем." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Ста́ла, with a woman's а, then учи́телем, with the with-ending.
         wrong: Она́ ста́ла: a woman's а. Then учи́тель takes ем: учи́телем.
@@ -266,14 +266,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Russian sayings: без труда́…
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:96 title "The weather forecast in Russian: ми́нус де́сять" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:98 title "Russian sayings: без труда́…" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:98 title "Russian sayings: без труда́…" form title size 600 x 500 y 420
 
-    link end_again href lecture:97 title "Watch again" form text open here x 500 y 160
-    text end_count "97 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:97 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "97 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

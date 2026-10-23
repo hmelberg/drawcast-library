@@ -246,9 +246,9 @@ A: Я захожу́ в кафе́, пото́м перехожу́ че́рез
 
     erase q_bank question_6_stamp
 
-    icon q_door size 170 set twemoji x 500 y 470 icon_look picture of door
+    icon q_door size 120 set twemoji x 500 y 470 icon_look picture of door
 
-    quiz "Подойти́ к две́ри means…" reveal.text "подойти́ к две́ри" reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Подойти́ к две́ри means…" above q_door reveal.text "подойти́ к две́ри" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Под with к: up close.
         wrong: Под with к is up close: you walk up to the door.
         + to walk up to the door
@@ -320,14 +320,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Two new chairs in Russian: два новых стула
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:106 title "Three plural endings in Russian: -ам, -ами, -ах" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:108 title "Two new chairs in Russian: два новых стула" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:108 title "Two new chairs in Russian: два новых стула" form title size 600 x 500 y 420
 
-    link end_again href lecture:107 title "Watch again" form text open here x 500 y 160
-    text end_count "107 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:107 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "107 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

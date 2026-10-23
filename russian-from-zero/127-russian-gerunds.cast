@@ -160,7 +160,7 @@ B: You'll read these more than you say them: in speech, когда́ is fine.
 A: А в письме́ она́ пи́шет: Прочита́в письмо́, позвони́ мне.
     draw q_call
 
-    quiz "Прочита́в письмо́, позвони́ мне. When should Tom call?"
+    quiz "Прочита́в письмо́, позвони́ мне. When should Tom call?" above q_call
         right: Пра́вильно! Прочита́в: first read, then call.
         wrong: Прочита́в ends in в: first he reads, then he calls.
         + after reading the letter
@@ -249,7 +249,7 @@ A: Прочита́в письмо́, он сра́зу позвони́л.
 A: Вы́берите.
     text t3q "Верну́вшись домо́й, она́ позвони́ла ма́ме." say "Верну́вшись домо́й, она́ позвони́ла ма́ме." colors {"верну́[вшись]":"#8a5fa8"} x 500 y 450 font_size 40
 
-    quiz "Верну́вшись домо́й, она́ позвони́ла ма́ме. What happened first?" test t1
+    quiz "Верну́вшись домо́й, она́ позвони́ла ма́ме. What happened first?" above t3q test t1
         right: Пра́вильно! Снача́ла домо́й, пото́м ма́ме.
         wrong: Верну́вшись: first home, then the phone call.
         + She came home.
@@ -273,7 +273,7 @@ A: Чита́я твоё письмо́, я улыба́юсь.
 A: И после́дний: напиши́те э́то с когда́.
     text t5q "Чита́я письмо́, Том улыба́лся." say "Чита́я письмо́, Том улыба́лся." colors {"чита́[я]":"#2a7f86"} x 500 y 530 font_size 48
 
-    ask "Напиши́те с когда́: Чита́я письмо́, Том улыба́лся." answer ["когда том читал письмо он улыбался","том улыбался когда читал письмо","когда том читал письмо том улыбался","том улыбался когда он читал письмо","когда он читал письмо том улыбался","когда читал письмо том улыбался"] test t1
+    ask "Напиши́те с когда́: Чита́я письмо́, Том улыба́лся." above t5q answer ["когда том читал письмо он улыбался","том улыбался когда читал письмо","когда том читал письмо том улыбался","том улыбался когда он читал письмо","когда он читал письмо том улыбался","когда читал письмо том улыбался"] test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Чита́я: когда́ он чита́л.
         wrong: Чита́я means когда́ он чита́л: Когда́ Том чита́л письмо́, он улыба́лся.
@@ -338,14 +338,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: If only in Russian: если бы
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:126 title "Closed and sold out in Russian: закрыто, продано" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:128 title "If only in Russian: если бы" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:128 title "If only in Russian: если бы" form title size 600 x 500 y 420
 
-    link end_again href lecture:127 title "Watch again" form text open here x 500 y 160
-    text end_count "127 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:127 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "127 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

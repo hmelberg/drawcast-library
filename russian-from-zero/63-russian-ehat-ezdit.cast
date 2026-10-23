@@ -47,15 +47,15 @@ heading: false
     icon p_gran size 100 set twemoji x 260 y 220 or ["woman"] icon_look picture of "old woman" hidden true
     text p_s2 "Я е́здила к ба́бушке." say "Я е́здила к ба́бушке." say_voice b x 560 y 220 font_size 50 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Приве́т, Ма́ша! Где ты была́ в суббо́ту?","gloss":"Hi, Masha! Where were you on Saturday?"},{"by":"b","text":"Я е́здила к ба́бушке.","gloss":"I went to see my grandma."},{"by":"a","text":"На по́езде?","gloss":"By train?"},{"by":"b","text":"Нет, на маши́не. А куда́ ты е́дешь сейча́с?","gloss":"No, by car. And where are you going now?"},{"by":"a","text":"На рабо́ту. Я ка́ждый день е́зжу на метро́.","gloss":"To work. I go by metro every day."},{"by":"b","text":"А я хожу́ в университе́т. Я там учу́сь.","gloss":"And I walk to the university. I study there."}] show_gloss false practice true size 1.8 hidden true
-    icon q1_car size 150 set twemoji x 400 y 540 or ["oncoming automobile","taxi"] icon_look picture of automobile hidden true
-    icon q1_cal size 130 set twemoji x 620 y 540 or ["clockwise vertical arrows"] icon_look picture of "repeat button" hidden true
+    icon q1_car size 120 set twemoji x 400 y 540 or ["oncoming automobile","taxi"] icon_look picture of automobile hidden true
+    icon q1_cal size 120 set twemoji x 620 y 540 or ["clockwise vertical arrows"] icon_look picture of "repeat button" hidden true
     text q1_line "Я ка́ждый день е́зжу на рабо́ту на маши́не." say "Я ка́ждый день е́зжу на рабо́ту на маши́не." x 500 y 250 font_size 44 hidden true
     icon q2_ear size 150 set twemoji x 500 y 470 or ["ear"] icon_look picture of headphone hidden true
-    icon q3_car size 160 set twemoji x 500 y 470 or ["oncoming automobile","taxi"] icon_look picture of automobile hidden true
+    icon q3_car size 120 set twemoji x 500 y 470 or ["oncoming automobile","taxi"] icon_look picture of automobile hidden true
     icon q4_metro size 150 set twemoji x 500 y 540 or ["station"] icon_look picture of metro hidden true
     text q4_line "Я ка́ждый день е́зжу на метро́." say "Я ка́ждый день е́зжу на метро́." say_voice b x 500 y 250 font_size 50 hidden true
-    icon q5_bus size 150 set twemoji x 400 y 540 or ["oncoming bus"] icon_look picture of bus hidden true
-    icon q5_work size 140 set twemoji x 620 y 540 or ["briefcase"] icon_look picture of "office building" hidden true
+    icon q5_bus size 120 set twemoji x 400 y 540 or ["oncoming bus"] icon_look picture of bus hidden true
+    icon q5_work size 120 set twemoji x 620 y 540 or ["briefcase"] icon_look picture of "office building" hidden true
     text q5_line "Обы́чно я е́зжу на рабо́ту на авто́бусе." say "Обы́чно я е́зжу на рабо́ту на авто́бусе." say_voice b x 500 y 250 font_size 46 hidden true
     icon end_masha size 160 set twemoji x 500 y 500 or ["girl"] icon_look picture of woman hidden true
     text end_say "А ты? Как ты е́здишь на рабо́ту?" say "А ты? Как ты е́здишь на рабо́ту?" say_voice b x 500 y 330 font_size 52 hidden true
@@ -179,7 +179,7 @@ A: В понеде́льник у́тром. Listen, then practise it.
 
     draw q1_car q1_cal
 
-    quiz "Tom says he drives to work every day: Я ка́ждый день ___ на рабо́ту на маши́не." reveal.text е́зжу reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Tom says he drives to work every day: Я ка́ждый день ___ на рабо́ту на маши́не." above ["q1_car","q1_cal"] reveal.text е́зжу reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Е́зжу: every day is a habit, and the car carries you.
         wrong: Every day is a habit, and a car carries you: е́зжу.
@@ -204,7 +204,7 @@ A: Я ка́ждый день е́зжу на рабо́ту на маши́не
 
     draw q3_car
 
-    ask "By car. Type the missing word: Я е́зжу на ___." answer ["машине"] reveal.text "Я е́зжу на маши́не." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "By car. Type the missing word: Я е́зжу на ___." above q3_car answer ["машине"] reveal.text "Я е́зжу на маши́не." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Маши́не: на, and the а becomes е.
         wrong: Start from маши́на; after на, the а becomes е: маши́не.
@@ -223,7 +223,7 @@ B: Я ка́ждый день е́зжу на метро́.
 
     draw q5_bus q5_work
 
-    ask "Now build a whole sentence. Type: Usually I go to work by bus." answer ["обычно я езжу на работу на автобусе","я обычно езжу на работу на автобусе","обычно я езжу на автобусе на работу","я обычно езжу на автобусе на работу","обычно езжу на работу на автобусе","обычно езжу на автобусе на работу"] reveal.text "е́зжу на рабо́ту" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: Usually I go to work by bus." above ["q5_bus","q5_work"] answer ["обычно я езжу на работу на автобусе","я обычно езжу на работу на автобусе","обычно я езжу на автобусе на работу","я обычно езжу на автобусе на работу","обычно езжу на работу на автобусе","обычно езжу на автобусе на работу"] reveal.text "е́зжу на рабо́ту" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Обы́чно я е́зжу на рабо́ту на авто́бусе: a habit, so е́зжу.
         wrong: Обы́чно is a habit, so е́зжу; then на рабо́ту, and на авто́бусе.
@@ -280,14 +280,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Came and went in Russian: пришёл, ушёл
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:62 title "Going in Russian: иду or хожу?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:64 title "Came and went in Russian: пришёл, ушёл" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:64 title "Came and went in Russian: пришёл, ушёл" form title size 600 x 500 y 420
 
-    link end_again href lecture:63 title "Watch again" form text open here x 500 y 160
-    text end_count "63 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:63 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "63 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

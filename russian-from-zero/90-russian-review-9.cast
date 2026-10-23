@@ -30,14 +30,14 @@ heading: false
     icon open_family size 170 set twemoji x 770 y 470 or ["family: man, woman, girl, boy","people hugging"] icon_look picture of family hidden true
     text open_hny "С Но́вым го́дом!" say "С Но́вым го́дом!" x 500 y 230 font_size 64 hidden true
     text q_title "Six questions" #8f887c x 500 y 640 font_size 44 hidden true
-    icon q_girl size 170 set twemoji x 380 y 470 or ["person"] icon_look picture of woman hidden true
-    icon q_dad size 170 set twemoji x 620 y 470 or ["older man","man beard"] icon_look picture of "old man" hidden true
+    icon q_girl size 120 set twemoji x 380 y 470 or ["person"] icon_look picture of woman hidden true
+    icon q_dad size 120 set twemoji x 620 y 470 or ["older man","man beard"] icon_look picture of "old man" hidden true
     icon q_tom size 200 set twemoji x 280 y 460 or ["person"] icon_look picture of man hidden true
     icon q_pot size 130 set twemoji x 500 y 470 or ["left speech bubble"] icon_look picture of "speech balloon" hidden true
     icon q_woman size 200 set twemoji x 720 y 460 or ["person"] icon_look picture of woman hidden true
-    icon q_bread size 170 set twemoji x 500 y 480 or ["baguette bread"] icon_look picture of bread hidden true
-    icon q_sleep size 170 set twemoji x 500 y 480 or ["zzz"] icon_look picture of "sleeping face" hidden true
-    icon q_gift size 160 set twemoji x 500 y 480 or ["christmas tree"] icon_look picture of "wrapped gift" hidden true
+    icon q_bread size 120 set twemoji x 500 y 480 or ["baguette bread"] icon_look picture of bread hidden true
+    icon q_sleep size 120 set twemoji x 500 y 480 or ["zzz"] icon_look picture of "sleeping face" hidden true
+    icon q_gift size 120 set twemoji x 500 y 480 or ["christmas tree"] icon_look picture of "wrapped gift" hidden true
     icon q_soup size 160 set twemoji x 500 y 500 or ["pot of food"] icon_look picture of "bowl with spoon" hidden true
     text q_say "По-мо́ему, э́то лу́чший суп в ми́ре!" say "По-мо́ему, э́то лу́чший суп в ми́ре!" x 500 y 320 font_size 52 hidden true
     text q_typed "Жела́ю вам сча́стья и здоро́вья!" say "Жела́ю вам сча́стья и здоро́вья!" x 500 y 200 font_size 50 hidden true
@@ -154,7 +154,7 @@ B: Now six questions, then your score.
 
     draw q_girl q_dad
 
-    quiz "She looks like her dad: Ма́ша ___ на па́пу." reveal.text "Ма́ша похо́жа на па́пу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "She looks like her dad: Ма́ша ___ на па́пу." above ["q_girl","q_dad","q_title"] reveal.text "Ма́ша похо́жа на па́пу." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Похо́жа: Masha is a woman, so the а.
         wrong: For a woman, похо́жа. Похо́ж is for a man, похо́жи for more than one.
         + похо́жа
@@ -183,7 +183,7 @@ B: Ещё не гото́ва! Я ещё на ку́хне.
 
     draw q_bread
 
-    quiz "In Tom's story, who never makes soup?" reveal.text "Суп никогда́ не варю́!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
+    quiz "In Tom's story, who never makes soup?" above q_bread reveal.text "Суп никогда́ не варю́!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
         right: Ivan: он иногда́ ре́жет хлеб, but never makes soup.
         wrong: It's Ivan: «Суп никогда́ не варю́!» Dad loved the soup.
         * па́па
@@ -194,7 +194,7 @@ B: Ещё не гото́ва! Я ещё на ку́хне.
 
     draw q_sleep
 
-    quiz "Nobody slept: ___ не спал. Pick one." reveal.text "Никто́ не спал." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Nobody slept: ___ не спал. Pick one." above q_sleep reveal.text "Никто́ не спал." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Никто́ не: nobody. And the не stays.
         wrong: Nobody is никто́. Ничего́ is nothing, никогда́ is never.
         * ничего́
@@ -205,7 +205,7 @@ B: Ещё не гото́ва! Я ещё на ку́хне.
 
     draw q_gift
 
-    ask "Now build a sentence. Type: I wish you happiness and health." answer ["желаю вам счастья и здоровья","желаю тебе счастья и здоровья","я желаю вам счастья и здоровья","я желаю тебе счастья и здоровья","желаю вам здоровья и счастья","желаю тебе здоровья и счастья","я желаю вам здоровья и счастья","я желаю тебе здоровья и счастья","желаю счастья и здоровья","желаю здоровья и счастья"] reveal.text "Жела́ю вам сча́стья!" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: I wish you happiness and health." above q_gift answer ["желаю вам счастья и здоровья","желаю тебе счастья и здоровья","я желаю вам счастья и здоровья","я желаю тебе счастья и здоровья","желаю вам здоровья и счастья","желаю тебе здоровья и счастья","я желаю вам здоровья и счастья","я желаю тебе здоровья и счастья","желаю счастья и здоровья","желаю здоровья и счастья"] reveal.text "Жела́ю вам сча́стья!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Жела́ю, then вам or тебе́, then the of-ending: сча́стья и здоро́вья.
         wrong: Жела́ю вам, then сча́стья и здоро́вья, both with the of-ending.
@@ -281,14 +281,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: At the airport in Russian: паспорт, рейс
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:89 title "Holidays in Russian: с Но́вым го́дом!" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:91 title "At the airport in Russian: паспорт, рейс" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:91 title "At the airport in Russian: паспорт, рейс" form title size 600 x 500 y 420
 
-    link end_again href lecture:90 title "Watch again" form text open here x 500 y 160
-    text end_count "90 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:90 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "90 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

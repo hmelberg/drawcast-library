@@ -160,9 +160,9 @@ B: Careful: ма́мы can also mean mums. After a thing, it means mum's.
 
     hide boardC
 
-    icon q1i size 160 set twemoji x 500 y 520 or ["framed picture"] icon_look picture of window
+    icon q1i size 120 set twemoji x 500 y 520 or ["framed picture"] icon_look picture of window
 
-    quiz "Ask whose window it is: ___ э́то окно́? Which word fills the gap?" reveal.text "Чьё э́то окно́?" reveal.at.x 500 reveal.at.y 310 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Ask whose window it is: ___ э́то окно́? Which word fills the gap?" above q1i reveal.text "Чьё э́то окно́?" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Чьё: окно́ is an оно́ word, so whose ends in ё, like моё.
         wrong: Look at the thing: окно́ ends in о.
@@ -172,11 +172,11 @@ B: Careful: ма́мы can also mean mums. After a thing, it means mum's.
 
     erase q1i question_2_stamp
 
-    icon q2a size 150 set twemoji x 410 y 520 or ["woman"] icon_look picture of woman
-    icon q2b size 130 set twemoji x 590 y 520 or ["green book","book"] icon_look picture of "closed book"
+    icon q2a size 120 set twemoji x 410 y 520 or ["woman"] icon_look picture of woman
+    icon q2b size 120 set twemoji x 590 y 520 or ["green book","book"] icon_look picture of "closed book"
     parallel true
 
-    quiz "Mum's book: кни́га ___. Which word fills the gap?" reveal.text "кни́га ма́мы" reveal.at.x 500 reveal.at.y 310 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Mum's book: кни́га ___. Which word fills the gap?" above ["q2a","q2b"] reveal.text "кни́га ма́мы" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Ма́мы: the owner takes the of-ending, а swapped for ы.
         wrong: The owner takes the of-ending: ма́ма becomes ма́мы.
         * ма́ма
@@ -185,20 +185,20 @@ B: Careful: ма́мы can also mean mums. After a thing, it means mum's.
 
     erase q2a q2b question_3_stamp
 
-    icon q3a size 150 set twemoji x 410 y 520 or ["man"] icon_look picture of boy
-    icon q3b size 130 set twemoji x 590 y 520 or ["cat face"] icon_look picture of cat
+    icon q3a size 120 set twemoji x 410 y 520 or ["man"] icon_look picture of boy
+    icon q3b size 120 set twemoji x 590 y 520 or ["cat face"] icon_look picture of cat
     parallel true
 
-    ask "It's the brother's cat. Type the missing word: Э́то кот ___." answer ["брата"] reveal.text "кот бра́та" reveal.at.x 500 reveal.at.y 310 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "It's the brother's cat. Type the missing word: Э́то кот ___." above ["q3a","q3b"] answer ["брата"] reveal.text "кот бра́та" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Бра́та: a he-word in a consonant adds а.
         wrong: Start from брат, and add the of-ending.
 
     erase q3a q3b question_4_stamp
 
-    icon q4i size 160 set twemoji x 500 y 520 or ["green book","book"] icon_look picture of "closed book"
+    icon q4i size 120 set twemoji x 500 y 520 or ["green book","book"] icon_look picture of "closed book"
 
-    quiz "Tom points at a book: is it yours, Masha? Э́то ___ кни́га?" reveal.text "твоя́ кни́га" reveal.at.x 500 reveal.at.y 310 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom points at a book: is it yours, Masha? Э́то ___ кни́га?" above q4i reveal.text "твоя́ кни́га" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Твоя́: кни́га is a she-word, so yours ends in я, like моя́.
         wrong: Which ending does моя́ кни́га have?
         * твой
@@ -207,11 +207,11 @@ B: Careful: ма́мы can also mean mums. After a thing, it means mum's.
 
     erase q4i question_5_stamp
 
-    icon q5a size 150 set twemoji x 410 y 520 or ["girl"] icon_look picture of woman
-    icon q5b size 130 set twemoji x 590 y 520 or ["cat face"] icon_look picture of cat
+    icon q5a size 120 set twemoji x 410 y 520 or ["girl"] icon_look picture of woman
+    icon q5b size 120 set twemoji x 590 y 520 or ["cat face"] icon_look picture of cat
     parallel true
 
-    quiz "Whose cat? Masha's: Э́то кот ___. Which is right?" reveal.text "кот Ма́ши" reveal.at.x 500 reveal.at.y 310 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Whose cat? Masha's: Э́то кот ___. Which is right?" above ["q5a","q5b"] reveal.text "кот Ма́ши" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Ма́ши: after ш, Russian writes и, never ы, as in the plurals.
         wrong: Which letter does Russian never write after ш?
         * Ма́ша
@@ -271,14 +271,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A fourth Russian story: read it all yourself
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:38 title "I feel ill in Russian: у меня болит голова" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:40 title "A fourth Russian story: read it all yourself" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:40 title "A fourth Russian story: read it all yourself" form title size 600 x 500 y 420
 
-    link end_again href lecture:39 title "Watch again" form text open here x 500 y 160
-    text end_count "39 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:39 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "39 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

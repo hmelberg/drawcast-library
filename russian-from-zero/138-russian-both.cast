@@ -147,7 +147,7 @@ A: Торт мы гото́вим полтора́ дня. Молоде́ц!
 A: Напиши́те по-ру́сски: there will be two of us.
     draw b1_cue
 
-    ask "Напиши́те: There will be two of us." answer ["нас будет двое","будет нас двое","нас двое будет"] reveal.text "Нас бу́дет дво́е." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: There will be two of us." above b1_cue answer ["нас будет двое","будет нас двое","нас двое будет"] reveal.text "Нас бу́дет дво́е." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Нас бу́дет дво́е.
         wrong: Нас бу́дет дво́е: нас, then дво́е.
@@ -225,7 +225,7 @@ A: Напиши́те.
         gloss: Both our fathers are cooks!
         say_it: О́ба на́ших отца́ — повара́!
 
-    ask "Напиши́те: Both grandmothers are here." answer ["обе бабушки здесь","обе бабушки тут","здесь обе бабушки","тут обе бабушки"] reveal.text "О́бе ба́бушки здесь." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Both grandmothers are here." frame true answer ["обе бабушки здесь","обе бабушки тут","здесь обе бабушки","тут обе бабушки"] reveal.text "О́бе ба́бушки здесь." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! О́бе for a she-word, and ба́бушки.
         wrong: Ба́бушка is a she-word, so о́бе: о́бе ба́бушки здесь.
@@ -272,14 +272,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Cheaper and better in Russian: дешевле, гораздо лучше
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:137 title "A business call in Russian: не могли бы вы…" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:139 title "Cheaper and better in Russian: дешевле, гораздо лучше" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:139 title "Cheaper and better in Russian: дешевле, гораздо лучше" form title size 600 x 500 y 420
 
-    link end_again href lecture:138 title "Watch again" form text open here x 500 y 160
-    text end_count "138 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:138 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "138 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -41,7 +41,7 @@ heading: false
     text o_neva "Нева́" say Нева́ say_voice b new true x 140 y 330 font_size 48 hidden true
     text o_razv "мосты́ разво́дят" say "мосты́ разво́дят" say_voice b new true x 560 y 200 font_size 52 hidden true
     text q_title "Шесть вопро́сов" #8f887c x 500 y 640 font_size 44 hidden true
-    icon q_moon size 170 set twemoji x 500 y 470 or ["sunrise"] icon_look picture of sunset hidden true
+    icon q_moon size 120 set twemoji x 500 y 470 or ["sunrise"] icon_look picture of sunset hidden true
     icon q_taxi size 170 set twemoji x 500 y 470 or ["oncoming taxi","automobile"] icon_look picture of taxi hidden true
     icon q_masha size 160 set twemoji x 220 y 460 or ["girl"] icon_look picture of woman hidden true
     text q_masha_n "Ма́ша" #8f887c x 220 y 345 font_size 32 hidden true
@@ -166,7 +166,7 @@ B: До́ма она́ сказа́ла: «Э́то была́ лу́чшая н
 A: Шесть вопро́сов, then your score.
     draw q_title q_moon
 
-    quiz "Рабо́ты мно́го, ___ здесь бе́лые но́чи!" reveal.text "зато́ здесь бе́лые но́чи" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Рабо́ты мно́го, ___ здесь бе́лые но́чи!" above ["q_title","q_moon"] reveal.text "зато́ здесь бе́лые но́чи" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Lots of work, but on the other hand: white nights.
         wrong: Lots of work, but on the other hand, white nights: зато́.
         + зато́
@@ -212,9 +212,9 @@ B: Води́тель вёз их че́рез мост.
 
     erase gp1 gp2 gp3 gp4
 
-    icon q_people size 150 set twemoji x 500 y 490 or ["people hugging"] icon_look picture of "busts in silhouette"
+    icon q_people size 120 set twemoji x 500 y 490 or ["people hugging"] icon_look picture of "busts in silhouette"
 
-    ask "Напиши́те: Although it was late, there were lots of people." answer ["хотя было поздно было много людей","хотя было уже поздно было много людей","хотя было поздно на улице было много людей","хотя было уже поздно на улице было много людей","хотя было поздно там было много людей","хотя было уже поздно там было много людей","хотя было поздно людей было много","хотя было уже поздно людей было много","было много людей хотя было поздно","было много людей хотя было уже поздно","на улице было много людей хотя было поздно","на улице было много людей хотя было уже поздно","там было много людей хотя было поздно","там было много людей хотя было уже поздно","хотя было поздно было много народу","хотя было поздно людей было очень много"] reveal.text "хотя́ бы́ло по́здно" reveal.at.x 500 reveal.at.y 660 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Напиши́те: Although it was late, there were lots of people." above q_people answer ["хотя было поздно было много людей","хотя было уже поздно было много людей","хотя было поздно на улице было много людей","хотя было уже поздно на улице было много людей","хотя было поздно там было много людей","хотя было уже поздно там было много людей","хотя было поздно людей было много","хотя было уже поздно людей было много","было много людей хотя было поздно","было много людей хотя было уже поздно","на улице было много людей хотя было поздно","на улице было много людей хотя было уже поздно","там было много людей хотя было поздно","там было много людей хотя было уже поздно","хотя было поздно было много народу","хотя было поздно людей было очень много"] reveal.text "хотя́ бы́ло по́здно" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Хотя́ first, then the rest.
         wrong: Хотя́ бы́ло по́здно, бы́ло мно́го люде́й: хотя́, then the clause.
@@ -269,14 +269,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A formal letter in Russian: уважаемый…
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:119 title "Although and despite in Russian: хотя, несмотря на" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:121 title "A formal letter in Russian: уважаемый…" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:121 title "A formal letter in Russian: уважаемый…" form title size 600 x 500 y 420
 
-    link end_again href lecture:120 title "Watch again" form text open here x 500 y 160
-    text end_count "120 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:120 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "120 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

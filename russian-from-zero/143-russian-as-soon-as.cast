@@ -215,7 +215,7 @@ A: Позвони́ ма́ме, пе́ред тем как е́хать домо
         gloss: I'll call as soon as I arrive.
         say_it: Позвоню́, как то́лько прие́ду.
 
-    ask "Напиши́те: Wait until Masha calls." answer ["подожди пока маша не позвонит","подожди пока не позвонит маша","подождите пока маша не позвонит","подождите пока не позвонит маша"] reveal.text "Подожди́, пока́ Ма́ша не позвони́т." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Wait until Masha calls." frame true answer ["подожди пока маша не позвонит","подожди пока не позвонит маша","подождите пока маша не позвонит","подождите пока не позвонит маша"] reveal.text "Подожди́, пока́ Ма́ша не позвони́т." reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Пока́ … не: until.
         wrong: Until is пока́ … не: подожди́, пока́ Ма́ша не позвони́т.
@@ -262,14 +262,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Running and swimming in Russian: бегу or бегаю?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:142 title "Passive in Russian: билеты продаются, каток открывается" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:144 title "Running and swimming in Russian: бегу or бегаю?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:144 title "Running and swimming in Russian: бегу or бегаю?" form title size 600 x 500 y 420
 
-    link end_again href lecture:143 title "Watch again" form text open here x 500 y 160
-    text end_count "143 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:143 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "143 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -184,9 +184,9 @@ A: On Saturday Tom meets Masha in the street. Listen, then practise it.
 
     hide masha masha_name tom tom_name
 
-    icon q_ded size 170 set twemoji x 500 y 470 or ["man"] icon_look picture of "old man"
+    icon q_ded size 120 set twemoji x 500 y 470 or ["man"] icon_look picture of "old man"
 
-    quiz "Tom helps his grandad. Я помога́ю ___. Which word fills the gap?" reveal.text "Я помога́ю де́душке." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom helps his grandad. Я помога́ю ___. Which word fills the gap?" above q_ded reveal.text "Я помога́ю де́душке." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Де́душке: help goes to him, and де́душка ends in а, so е.
         wrong: In Russian the help goes to him, so the to-ending; де́душка ends in а.
@@ -196,11 +196,11 @@ A: On Saturday Tom meets Masha in the street. Listen, then practise it.
 
     erase q_ded
 
-    icon q_walk size 150 set twemoji x 400 y 470 or ["person walking"] icon_look picture of "woman walking"
-    icon q_bro size 150 set twemoji x 620 y 470 or ["boy","person"] icon_look picture of "person: blond hair"
+    icon q_walk size 120 set twemoji x 400 y 470 or ["person walking"] icon_look picture of "woman walking"
+    icon q_bro size 120 set twemoji x 620 y 470 or ["boy","person"] icon_look picture of "person: blond hair"
     text q_bro_l "брат" #8f887c x 620 y 360 font_size 34
 
-    quiz "Masha is going to see her brother. Я иду́ ___ бра́ту. Which word fills the gap?" reveal.text "Я иду́ к бра́ту." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha is going to see her brother. Я иду́ ___ бра́ту. Which word fills the gap?" above ["q_bro_l","q_walk","q_bro"] reveal.text "Я иду́ к бра́ту." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: К: to a person, к; to a place, в or на.
         wrong: Her brother is a person, not a place.
         * в
@@ -209,10 +209,10 @@ A: On Saturday Tom meets Masha in the street. Listen, then practise it.
 
     erase q_walk q_bro q_bro_l
 
-    icon q_gran size 160 set twemoji x 380 y 470 or ["woman"] icon_look picture of "old woman"
-    icon q_cat size 150 set twemoji x 620 y 470 or ["cat face"] icon_look picture of cat
+    icon q_gran size 120 set twemoji x 380 y 470 or ["woman"] icon_look picture of "old woman"
+    icon q_cat size 120 set twemoji x 620 y 470 or ["cat face"] icon_look picture of cat
 
-    quiz "Grandma likes cats. Which is right?" reveal.text "Ба́бушке нра́вятся коты́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Grandma likes cats. Which is right?" above ["q_cat","q_gran"] reveal.text "Ба́бушке нра́вятся коты́." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Ба́бушке: whoever is pleased takes the to-ending.
         wrong: Think of мне нра́вится: who is pleased?
         + Ба́бушке нра́вятся коты́.
@@ -230,10 +230,10 @@ A: Спаси́бо! Пока́!
 
     erase q_phone q_say
 
-    icon q_teach size 160 set twemoji x 380 y 470 or ["teacher","man"] icon_look picture of "man teacher"
-    icon q_env size 140 set twemoji x 620 y 470 or ["love letter","e-mail"] icon_look picture of envelope
+    icon q_teach size 120 set twemoji x 380 y 470 or ["teacher","man"] icon_look picture of "man teacher"
+    icon q_env size 120 set twemoji x 620 y 470 or ["love letter","e-mail"] icon_look picture of envelope
 
-    ask "Now build a whole sentence. Type: I'm writing to the teacher." answer ["я пишу учителю","пишу учителю"] reveal.text "Я пишу́ учи́телю." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I'm writing to the teacher." above ["q_env","q_teach"] answer ["я пишу учителю","пишу учителю"] reveal.text "Я пишу́ учи́телю." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я пишу́ учи́телю: the ь of учи́тель becomes ю.
         wrong: Start with я пишу́, then учи́тель: the letter goes to him, and ь becomes ю.
@@ -285,14 +285,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: In a big house in Russian: в большо́м до́ме
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:56 title "I work as a doctor in Russian: рабо́таю врачо́м" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:58 title "In a big house in Russian: в большо́м до́ме" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:58 title "In a big house in Russian: в большо́м до́ме" form title size 600 x 500 y 420
 
-    link end_again href lecture:57 title "Watch again" form text open here x 500 y 160
-    text end_count "57 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:57 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "57 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -209,9 +209,9 @@ B: First коту́, then ему́: the to-ending and the to-words do the same j
 
     erase t2_pic t2_pic2 q2_stamp
 
-    icon t3_pic size 130 set twemoji x 500 y 560 or ["bouquet","tulip"] icon_look picture of bouquet
+    icon t3_pic size 120 set twemoji x 500 y 560 or ["bouquet","tulip"] icon_look picture of bouquet
 
-    ask "I give my sister flowers: Я дарю́ … цветы́. Type the missing word." answer ["сестре"] store q3 default сестре́ reveal.text "Я дарю́ сестре́ цветы́." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "I give my sister flowers: Я дарю́ … цветы́. Type the missing word." above t3_pic answer ["сестре"] store q3 default сестре́ reveal.text "Я дарю́ сестре́ цветы́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Сестра́ ends in а, so the а turns into е: сестре́.
         wrong: Start from сестра́, and swap its last letter.
@@ -220,9 +220,9 @@ B: First коту́, then ему́: the to-ending and the to-words do the same j
 
     erase t3_pic q3_stamp
 
-    icon t4_pic size 130 set twemoji x 500 y 560 or ["gift","present"] icon_look picture of "wrapped gift"
+    icon t4_pic size 120 set twemoji x 500 y 560 or ["gift","present"] icon_look picture of "wrapped gift"
 
-    quiz "What does Кому́ пода́рок? mean? Pick one." store q4 say_answer false reveal.text "Кому́ пода́рок?" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "What does Кому́ пода́рок? mean? Pick one." above t4_pic store q4 say_answer false reveal.text "Кому́ пода́рок?" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Кому́ is to whom: it asks who gets the present.
         wrong: Whose would be чей; кому́ has the to-ending.
         + Who is the present for?
@@ -290,14 +290,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Making plans in Russian: давай пойдём в кино
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:44 title "Done or doing in Russian: читал or прочитал?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:46 title "Making plans in Russian: давай пойдём в кино" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:46 title "Making plans in Russian: давай пойдём в кино" form title size 600 x 500 y 420
 
-    link end_again href lecture:45 title "Watch again" form text open here x 500 y 160
-    text end_count "45 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:45 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "45 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

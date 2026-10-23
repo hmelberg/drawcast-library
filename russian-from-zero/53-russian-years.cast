@@ -155,9 +155,9 @@ B: …and a woman, я родила́сь. That ся, or сь after a vowel, gets
 
     hide speakers
 
-    text t_500 "500" #3d3833 x 500 y 560 font_size 120
+    text t_500 "500" #3d3833 x 500 y 560 font_size 110
 
-    quiz "Which one is 500? Pick one." store q1 reveal.text "500 = пятьсо́т" reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Which one is 500? Pick one." above t_500 store q1 reveal.text "500 = пятьсо́т" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Five, then сот.
         wrong: Five hundred ends in сот.
@@ -185,9 +185,9 @@ A: А твоя́ ма́ма? В како́м году́ она́ родила́�
 
     erase t_mum t_mumq t_mumn question_3_stamp
 
-    icon t_woman size 140 set twemoji x 500 y 560 or ["girl"] icon_look picture of woman
+    icon t_woman size 120 set twemoji x 500 y 560 or ["girl"] icon_look picture of woman
 
-    quiz "A woman says where she was born: Я ___ в Москве́. Which fits?" store q3 reveal.text "Я родила́сь в Москве́." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "A woman says where she was born: Я ___ в Москве́. Which fits?" above t_woman store q3 reveal.text "Я родила́сь в Москве́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: A woman takes ла, and ся becomes сь after the vowel.
         wrong: A woman's past ends in ла.
         * роди́лся
@@ -276,14 +276,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Dates in Russian: первое мая
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:52 title "Many and few in Russian: много книг" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:54 title "Dates in Russian: первое мая" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:54 title "Dates in Russian: первое мая" form title size 600 x 500 y 420
 
-    link end_again href lecture:53 title "Watch again" form text open here x 500 y 160
-    text end_count "53 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:53 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "53 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -166,9 +166,9 @@ A: Now a phone call on a Saturday. Listen, then practise it.
 
     hide masha masha_name tom tom_name
 
-    icon q1 size 170 set twemoji x 500 y 480 or ["bust in silhouette"] icon_look picture of "busts in silhouette"
+    icon q1 size 120 set twemoji x 500 y 480 or ["bust in silhouette"] icon_look picture of "busts in silhouette"
 
-    quiz "Nobody knows. Which is right?" reveal.text "Никто́ не зна́ет." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Nobody knows. Which is right?" above q1 reveal.text "Никто́ не зна́ет." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Никто́ не зна́ет: the ни-word, and не before the verb.
         wrong: Russian keeps both: никто́, and не before the verb.
@@ -178,9 +178,9 @@ A: Now a phone call on a Saturday. Listen, then practise it.
 
     erase q1
 
-    icon q2 size 170 set twemoji x 500 y 480 or ["house with garden"] icon_look picture of house
+    icon q2 size 120 set twemoji x 500 y 480 or ["house with garden"] icon_look picture of house
 
-    quiz "Где ты был вчера́? Я … не был." reveal.text "Я нигде́ не был." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Где ты был вчера́? Я … не был." above q2 reveal.text "Я нигде́ не был." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Нигде́: где asks where, so nowhere is нигде́.
         wrong: The question was где, where: ни in front.
         * ничего́
@@ -189,9 +189,9 @@ A: Now a phone call on a Saturday. Listen, then practise it.
 
     erase q2
 
-    icon q3 size 160 set twemoji x 500 y 480 or ["pensive face"] icon_look picture of "person bowing"
+    icon q3 size 120 set twemoji x 500 y 480 or ["pensive face"] icon_look picture of "person bowing"
 
-    quiz "Someone bumps into you and says Извини́те! You answer Ничего́! What do you mean?" say_answer false reveal.text "Ничего́! It's OK." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Someone bumps into you and says Извини́те! You answer Ничего́! What do you mean?" above q3 say_answer false reveal.text "Ничего́! It's OK." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: It's OK: ничего́ on its own means never mind.
         wrong: After Извини́те, ничего́ means it's fine.
         + It's OK.
@@ -210,9 +210,9 @@ A: Я сего́дня никуда́ не иду́.
 
     erase q4 question_6_stamp
 
-    icon q5 size 170 set twemoji x 500 y 480 or ["thinking face"] icon_look picture of "person shrugging"
+    icon q5 size 120 set twemoji x 500 y 480 or ["thinking face"] icon_look picture of "person shrugging"
 
-    ask "Now build a whole sentence. Type: I don't know anything." answer ["я ничего не знаю","ничего не знаю","Ничего́ не зна́ю.","Я ничего́ не зна́ю."] reveal.text "Я ничего́ не зна́ю." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I don't know anything." above q5 answer ["я ничего не знаю","ничего не знаю","Ничего́ не зна́ю.","Я ничего́ не зна́ю."] reveal.text "Я ничего́ не зна́ю." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я ничего́ не зна́ю: ничего́, then не before the verb.
         wrong: Start with я, then nothing, then не and know: зна́ю.
@@ -262,14 +262,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Busy and free in Russian: я за́нят
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:86 title "How often in Russian: иногда́, никогда́" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:88 title "Busy and free in Russian: я за́нят" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:88 title "Busy and free in Russian: я за́нят" form title size 600 x 500 y 420
 
-    link end_again href lecture:87 title "Watch again" form text open here x 500 y 160
-    text end_count "87 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:87 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "87 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

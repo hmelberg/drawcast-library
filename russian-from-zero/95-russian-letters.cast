@@ -160,7 +160,7 @@ A: Here's what we said. Then on Saturday I'm back, and Masha and (@erase x1 x2 x
 
     hide masha masha_name tom tom_name
 
-    quiz "A message to your friend Masha. How does it start?" reveal.text "Дорога́я Ма́ша!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A message to your friend Masha. How does it start?" frame true reveal.text "Дорога́я Ма́ша!" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Дорога́я: Masha is a she, so the а.
         wrong: Dear is дорого́й for a man and дорога́я for a woman. С уваже́нием goes at the end.
@@ -170,7 +170,7 @@ A: Here's what we said. Then on Saturday I'm back, and Masha and (@erase x1 x2 x
 
     erase question_2_stamp
 
-    quiz "An email to your teacher. How do you end it?" reveal.text "С уваже́нием, Том" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "An email to your teacher. How do you end it?" frame true reveal.text "С уваже́нием, Том" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: С уваже́нием: with respect, for someone you call вы.
         wrong: Hugs and kisses are for friends and family. To a teacher: с уваже́нием.
         * Целу́ю, Том
@@ -179,7 +179,7 @@ A: Here's what we said. Then on Saturday I'm back, and Masha and (@erase x1 x2 x
 
     erase question_3_stamp
 
-    quiz "A friend's message ends: До встре́чи! What does it mean?" reveal.text "До встре́чи! · see you" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A friend's message ends: До встре́чи! What does it mean?" frame true reveal.text "До встре́чи! · see you" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: See you: until we meet.
         wrong: Write back is пиши́. До встре́чи is until we meet: see you.
         + See you!
@@ -192,7 +192,7 @@ A: Here's what we said. Then on Saturday I'm back, and Masha and (@erase x1 x2 x
 
     erase question_5_stamp
 
-    ask "Now build a sentence. As Masha, write to Tom: I'm glad that you wrote to me." answer ["я рада, что ты мне написал","я рада, что ты написал мне","я рада что ты мне написал","я рада что ты написал мне","рада, что ты мне написал","рада, что ты написал мне","рада что ты мне написал","рада что ты написал мне","я рад, что ты мне написал","я рад, что ты написал мне","я рад что ты мне написал","я рад что ты написал мне","рад, что ты мне написал","рад, что ты написал мне","рад что ты мне написал","рад что ты написал мне"] reveal.text "Я ра́да, что ты мне написа́л." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. As Masha, write to Tom: I'm glad that you wrote to me." frame true answer ["я рада, что ты мне написал","я рада, что ты написал мне","я рада что ты мне написал","я рада что ты написал мне","рада, что ты мне написал","рада, что ты написал мне","рада что ты мне написал","рада что ты написал мне","я рад, что ты мне написал","я рад, что ты написал мне","я рад что ты мне написал","я рад что ты написал мне","рад, что ты мне написал","рад, что ты написал мне","рад что ты мне написал","рад что ты написал мне"] reveal.text "Я ра́да, что ты мне написа́л." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я ра́да, что ты мне написа́л: ра́да for Masha, написа́л for Tom.
         wrong: Я ра́да, then что, then ты мне написа́л: Tom wrote, so написа́л.
@@ -247,14 +247,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: The weather forecast in Russian: ми́нус де́сять
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:94 title "Telling a story in Russian: снача́ла, пото́м" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:96 title "The weather forecast in Russian: ми́нус де́сять" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:96 title "The weather forecast in Russian: ми́нус де́сять" form title size 600 x 500 y 420
 
-    link end_again href lecture:95 title "Watch again" form text open here x 500 y 160
-    text end_count "95 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:95 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "95 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

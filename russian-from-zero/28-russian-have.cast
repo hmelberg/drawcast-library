@@ -59,7 +59,7 @@ level: basic
     mark x_water around q_water #8f887c kind cross hidden true
     icon q_book size 170 set twemoji x 500 y 460 or ["green book","books"] icon_look picture of "closed book" hidden true
     mark x_book around q_book #8f887c kind cross hidden true
-    icon q_cat size 170 set twemoji x 500 y 460 or ["cat face"] icon_look picture of cat hidden true
+    icon q_cat size 120 set twemoji x 500 y 460 or ["cat face"] icon_look picture of cat hidden true
     icon q_coffee size 170 set twemoji x 500 y 460 or ["teacup without handle"] icon_look picture of "hot beverage" hidden true
     mark x_coffee around q_coffee #8f887c kind cross hidden true
     icon r_bread size 110 set twemoji x 290 y 450 or ["baguette bread"] icon_look picture of bread hidden true
@@ -199,7 +199,7 @@ B: And an оно́ word swaps its о for а: молоко́, нет молока
 
     draw q_cat
 
-    quiz "Which one says I have a cat?" reveal.text "у меня́ есть кот" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which one says I have a cat?" above q_cat reveal.text "у меня́ есть кот" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: After есть, the cat keeps its plain form: кот.
         wrong: Есть or нет? And after есть, does the word change?
         + У меня́ есть кот.
@@ -270,14 +270,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: How old are you in Russian: мне двадцать лет
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:27 title "Where are you going in Russian: куда?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:29 title "How old are you in Russian: мне двадцать лет" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:29 title "How old are you in Russian: мне двадцать лет" form title size 600 x 500 y 420
 
-    link end_again href lecture:28 title "Watch again" form text open here x 500 y 160
-    text end_count "28 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:28 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "28 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

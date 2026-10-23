@@ -174,7 +174,7 @@ A: Послу́шайте и напиши́те.
 A: Напиши́те по-ру́сски: Ivan told us to buy tickets.
     draw b1_cue
 
-    ask "Напиши́те: Ivan told us to buy tickets." answer ["иван сказал чтобы мы купили билеты","иван сказал чтобы мы билеты купили","иван сказал нам купить билеты","иван нам сказал купить билеты","он сказал нам купить билеты","он сказал чтобы мы купили билеты","иван нам сказал чтобы мы купили билеты","иван сказал нам чтобы мы купили билеты"] reveal.text "Ива́н сказа́л, что́бы мы купи́ли биле́ты." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 44 reveal.color #3d3833 voice a
+    ask "Напиши́те: Ivan told us to buy tickets." above b1_cue answer ["иван сказал чтобы мы купили билеты","иван сказал чтобы мы билеты купили","иван сказал нам купить билеты","иван нам сказал купить билеты","он сказал нам купить билеты","он сказал чтобы мы купили билеты","иван нам сказал чтобы мы купили билеты","иван сказал нам чтобы мы купили билеты"] reveal.text "Ива́н сказа́л, что́бы мы купи́ли биле́ты." reveal.style label reveal.size 44 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Сказа́л, что́бы, and the past.
         wrong: An order: сказа́л, что́бы мы купи́ли биле́ты.
@@ -238,7 +238,7 @@ A: Ива́н посове́товал нам пое́хать. Ма́ма по�
 
     ask say_it "Переда́й Ива́ну спаси́бо!" also ["Переда́йте Ива́ну спаси́бо!","Переда́й спаси́бо Ива́ну!","Переда́йте спаси́бо Ива́ну!","Спаси́бо, переда́й Ива́ну!"] gloss "Pass my thanks on to Ivan!" voice a show cue reveal.text "Переда́й Ива́ну спаси́бо!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 50 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: He advised me to take warm clothes." answer ["он посоветовал мне взять тёплые вещи","он мне посоветовал взять тёплые вещи","посоветовал мне взять тёплые вещи","мне посоветовал взять тёплые вещи","он посоветовал мне взять теплые вещи","он мне посоветовал взять теплые вещи","посоветовал мне взять теплые вещи","он посоветовал мне взять с собой тёплые вещи","он посоветовал мне взять тёплые вещи с собой"] reveal.text "Он посове́товал мне взять тёплые ве́щи." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 42 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: He advised me to take warm clothes." frame true answer ["он посоветовал мне взять тёплые вещи","он мне посоветовал взять тёплые вещи","посоветовал мне взять тёплые вещи","мне посоветовал взять тёплые вещи","он посоветовал мне взять теплые вещи","он мне посоветовал взять теплые вещи","посоветовал мне взять теплые вещи","он посоветовал мне взять с собой тёплые вещи","он посоветовал мне взять тёплые вещи с собой"] reveal.text "Он посове́товал мне взять тёплые ве́щи." reveal.style label reveal.size 42 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Посове́товал мне, then взять.
         wrong: Посове́товал, to whom, then the infinitive: мне взять.
@@ -283,14 +283,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Even if in Russian: даже если, всё-таки, что бы ни
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:144 title "Running and swimming in Russian: бегу or бегаю?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:146 title "Even if in Russian: даже если, всё-таки, что бы ни" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:146 title "Even if in Russian: даже если, всё-таки, что бы ни" form title size 600 x 500 y 420
 
-    link end_again href lecture:145 title "Watch again" form text open here x 500 y 160
-    text end_count "145 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:145 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "145 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -67,8 +67,8 @@ level: basic
         кни́га: больша́я
         окно́: но́вое
         дом: но́вый
-    icon q_cat size 180 set twemoji x 500 y 450 or ["cat face"] icon_look picture of cat hidden true
-    icon q_win size 180 set twemoji x 500 y 450 or ["frame with picture"] icon_look picture of window hidden true
+    icon q_cat size 120 set twemoji x 500 y 450 or ["cat face"] icon_look picture of cat hidden true
+    icon q_win size 120 set twemoji x 500 y 450 or ["frame with picture"] icon_look picture of window hidden true
     icon q_book size 60 set twemoji x 170 y 375 or ["closed book","book"] icon_look picture of "blue book" hidden true
     text o4_1 "ма́ленький" say true x 440 y 470 font_size 52 hidden true
     text o4_2 "ма́ленькая" say true x 440 y 375 font_size 52 hidden true
@@ -180,7 +180,7 @@ B: Э́то большо́й дом. This is a big house.
 
     draw q_cat
 
-    quiz "Masha's cat is old. Э́то ___ кот. Which word fills the gap?" reveal.text "ста́рый кот" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha's cat is old. Э́то ___ кот. Which word fills the gap?" above q_cat reveal.text "ста́рый кот" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Кот ends in a consonant, so it is он, and old ends in -ый.
         wrong: Look at the last letter of кот.
         + ста́рый
@@ -191,7 +191,7 @@ B: Э́то большо́й дом. This is a big house.
 
     draw q_win
 
-    ask "Type red for the window: ___ окно́." answer ["кра́сное","красное"] reveal.text "кра́сное окно́" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Type red for the window: ___ окно́." above q_win answer ["кра́сное","красное"] reveal.text "кра́сное окно́" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЭЯ
         right: Окно́ is оно́, so red ends in -ое: кра́сное окно́.
         wrong: Окно́ is оно́: which ending matches it?
@@ -206,9 +206,9 @@ B: Э́то большо́й дом. This is a big house.
 
     erase q_book o4 o4_noun
 
-    icon q_coffee size 180 set twemoji x 500 y 450 or ["coffee"] icon_look picture of "hot beverage"
+    icon q_coffee size 120 set twemoji x 500 y 450 or ["coffee"] icon_look picture of "hot beverage"
 
-    quiz "At the café you want a big coffee: ___ ко́фе." reveal.text "большо́й ко́фе" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "At the café you want a big coffee: ___ ко́фе." above q_coffee reveal.text "большо́й ко́фе" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Ко́фе is он, as in lesson four, so it's большо́й ко́фе, whatever its ending.
         wrong: Careful: ко́фе is the café's exception. Think of мой ко́фе.
         + большо́й
@@ -265,14 +265,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I want in Russian: хочу, хочешь
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:11 title "Plurals in Russian: коты, книги, окна" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:13 title "I want in Russian: хочу, хочешь" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:13 title "I want in Russian: хочу, хочешь" form title size 600 x 500 y 420
 
-    link end_again href lecture:12 title "Watch again" form text open here x 500 y 160
-    text end_count "12 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:12 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "12 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

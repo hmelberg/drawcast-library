@@ -195,7 +195,7 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
 
     hide speakers
 
-    quiz "Masha lives in Moscow: Я живу́ в … Which form fills the gap?" store q1 reveal.text "Я живу́ в Москве́." reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Masha lives in Moscow: Я живу́ в … Which form fills the gap?" frame true store q1 reveal.text "Я живу́ в Москве́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: After в, Москва́ swaps its а for е.
         wrong: Москву́ is the form after ви́жу; after в, the place takes lesson nine's ending.
@@ -209,7 +209,7 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
 
     erase q_city q1_stamp
 
-    ask "Ask Tom where he lives: Где ты …? Type the verb." answer ["живёшь","живешь"] reveal.text "Где ты живёшь?" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Ask Tom where he lives: Где ты …? Type the verb." frame true answer ["живёшь","живешь"] reveal.text "Где ты живёшь?" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Где ты живёшь? Where do you live?
         wrong: The ты form: it ends like чита́ешь, with ё.
@@ -220,7 +220,7 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
 
     erase q_tom question_2_stamp
 
-    quiz "Ivan lives in Norway: Ива́н живёт в … Which form?" store q3 reveal.text "Ива́н живёт в Норве́гии." reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Ivan lives in Norway: Ива́н живёт в … Which form?" frame true store q3 reveal.text "Ива́н живёт в Норве́гии." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: A country in ия ends in ии after в.
         wrong: Норве́гия ends in ия, so not е.
         * Норве́гия
@@ -233,7 +233,7 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
 
     erase q_nor q3_stamp
 
-    quiz "Mum and dad live in Berlin: Ма́ма и па́па … в Берли́не. Which form?" store q4 reveal.text "живу́т в Берли́не" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Mum and dad live in Berlin: Ма́ма и па́па … в Берли́не. Which form?" frame true store q4 reveal.text "живу́т в Берли́не" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Mum and dad are они́, so живу́т: ма́ма и па́па живу́т в Берли́не.
         wrong: Two people: who are they, он, мы or они́?
         + живу́т
@@ -248,7 +248,7 @@ A: Ива́н lives in О́сло, but Norway takes its ии: в Норве́г�
 
     erase q_fam1 q_fam2 q4_stamp
 
-    ask "A new city: Rome is Рим. Type in Rome." answer ["в Риме"] reveal.text "в Ри́ме" reveal.at.x 500 reveal.at.y 380 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "A new city: Rome is Рим. Type in Rome." frame true answer ["в Риме"] reveal.text "в Ри́ме" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Рим ends in a consonant, so it adds е, like Берли́н: в Ри́ме.
         wrong: Two words: в, then Рим with lesson nine's ending.
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I love it in Russian: люблю
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:22 title "I read, I know in Russian: читаю, знаю" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:24 title "I love it in Russian: люблю" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:24 title "I love it in Russian: люблю" form title size 600 x 500 y 420
 
-    link end_again href lecture:23 title "Watch again" form text open here x 500 y 160
-    text end_count "23 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:23 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "23 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

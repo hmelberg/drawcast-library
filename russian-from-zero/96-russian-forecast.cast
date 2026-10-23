@@ -71,11 +71,11 @@ level: basic
     icon park size 150 set twemoji x 500 y 560 or ["evergreen tree"] icon_look picture of "deciduous tree" hidden true
     text note_tepl "тёплый · warm" #8f887c say тёплый x 500 y 70 font_size 36 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Ма́ша, како́й прогно́з на за́втра?","gloss":"Masha, what's the forecast for tomorrow?"},{"by":"b","text":"Хо́лодно! Но́чью бу́дет моро́з.","gloss":"Cold! Frost at night."},{"by":"a","text":"Ско́лько гра́дусов?","gloss":"How many degrees?"},{"by":"b","text":"Ми́нус де́сять. А днём ми́нус пять и со́лнце.","gloss":"Minus ten. And minus five in the day, and sun."},{"by":"a","text":"Е́сли бу́дет со́лнце, пойдём в парк?","gloss":"If it's sunny, shall we go to the park?"},{"by":"b","text":"Дава́й! Но бу́дет ве́тер.","gloss":"Let's! But it'll be windy."},{"by":"a","text":"Хорошо́, я бу́ду в тёплой ку́ртке.","gloss":"Fine, I'll wear a warm jacket."},{"by":"b","text":"А че́рез два дня бу́дет плюс два. Весна́!","gloss":"And in two days it'll be plus two. Spring!"}] show_gloss false practice true size 2 hidden true
-    icon q_therm size 150 set twemoji x 500 y 480 or ["snowman without snow"] icon_look picture of thermometer hidden true
-    icon q_snowman size 150 set twemoji x 500 y 480 or ["snowman without snow"] icon_look picture of snowman hidden true
-    icon q_moon size 150 set twemoji x 500 y 480 or ["night with stars"] icon_look picture of "crescent moon" hidden true
+    icon q_therm size 120 set twemoji x 500 y 480 or ["snowman without snow"] icon_look picture of thermometer hidden true
+    icon q_snowman size 120 set twemoji x 500 y 480 or ["snowman without snow"] icon_look picture of snowman hidden true
+    icon q_moon size 120 set twemoji x 500 y 480 or ["night with stars"] icon_look picture of "crescent moon" hidden true
     icon q_snow size 150 set twemoji x 500 y 480 or ["cloud with snow"] icon_look picture of snowflake hidden true
-    icon q_radio size 150 set twemoji x 500 y 480 or ["studio microphone"] icon_look picture of radio hidden true
+    icon q_radio size 120 set twemoji x 500 y 480 or ["studio microphone"] icon_look picture of radio hidden true
     icon r_therm size 170 set twemoji x 500 y 450 or ["snowman without snow"] icon_look picture of thermometer hidden true
     text b_g "гра́дус · гра́дуса · гра́дусов" say "оди́н гра́дус, два гра́дуса, пять гра́дусов" colors {"а$":"#c9871a","ов$":"#2a7f7f"} x 500 y 560 font_size 54 hidden true
     text b_pm "ми́нус · плюс" say "ми́нус, плюс" x 500 y 450 font_size 50 hidden true
@@ -199,7 +199,7 @@ A: Masha has heard the forecast too, and we plan (@draw tom tom_name masha masha
 
     draw q_therm
 
-    quiz "Two degrees: два ___" reveal.text "два гра́дуса" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Two degrees: два ___" above q_therm reveal.text "два гра́дуса" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Два гра́дуса: after two, three and four, an а.
         wrong: Think of два часа́.
@@ -211,7 +211,7 @@ A: Masha has heard the forecast too, and we plan (@draw tom tom_name masha masha
 
     draw q_snowman
 
-    quiz "Which one is minus ten degrees?" reveal.text "ми́нус де́сять гра́дусов" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which one is minus ten degrees?" above q_snowman reveal.text "ми́нус де́сять гра́дусов" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Ми́нус де́сять гра́дусов: below zero, and ов after ten.
         wrong: Below zero is ми́нус; ten is де́сять.
         * плюс де́сять гра́дусов
@@ -222,7 +222,7 @@ A: Masha has heard the forecast too, and we plan (@draw tom tom_name masha masha
 
     draw q_moon
 
-    quiz "Днём бу́дет со́лнце, но́чью моро́з. When will it be freezing?" reveal.text "но́чью моро́з" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Днём бу́дет со́лнце, но́чью моро́з. When will it be freezing?" above q_moon reveal.text "но́чью моро́з" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: At night: но́чью моро́з.
         wrong: Днём is in the daytime, но́чью at night. Which one has моро́з?
         + At night.
@@ -240,7 +240,7 @@ A: Masha has heard the forecast too, and we plan (@draw tom tom_name masha masha
 
     draw q_radio
 
-    ask "Now build a whole forecast. Type: At night it will be minus ten degrees." answer ["ночью будет минус десять градусов","ночью минус десять градусов","ночью будет минус десять","ночью минус десять","ночью будет минус 10 градусов","ночью минус 10 градусов","ночью будет минус 10","ночью минус 10","минус десять градусов будет ночью"] reveal.text "ми́нус де́сять гра́дусов" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole forecast. Type: At night it will be minus ten degrees." above q_radio answer ["ночью будет минус десять градусов","ночью минус десять градусов","ночью будет минус десять","ночью минус десять","ночью будет минус 10 градусов","ночью минус 10 градусов","ночью будет минус 10","ночью минус 10","минус десять градусов будет ночью"] reveal.text "ми́нус де́сять гра́дусов" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Но́чью бу́дет ми́нус де́сять гра́дусов: бу́дет for will, ов after ten.
         wrong: Но́чью бу́дет, then ми́нус де́сять, then гра́дусов.
@@ -295,14 +295,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A Russian life: Gagarin
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:95 title "Writing in Russian: дорога́я Ма́ша" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:97 title "A Russian life: Gagarin" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:97 title "A Russian life: Gagarin" form title size 600 x 500 y 420
 
-    link end_again href lecture:96 title "Watch again" form text open here x 500 y 160
-    text end_count "96 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:96 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "96 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

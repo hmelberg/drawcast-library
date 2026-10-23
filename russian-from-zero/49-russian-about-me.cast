@@ -38,16 +38,16 @@ level: basic
     text r7 "Я говорю́ немно́го по-ру́сски." right ri7 gap 28 anchor left say "Я говорю́ немно́го по-ру́сски." font_size 40 hidden true
     group tomcol members ["b_tom","b_tom_name","ri1","r1","ri2","r2","ri3","r3","ri4","r4","ri5","r5","ri6","r6","ri7","r7","rc1","rc2","rc3","rc4","rc5","rc6"] hidden true
     text s1_lbl "1 · your name" #8f887c x 500 y 610 font_size 36 hidden true
-    icon s1_icon size 160 set twemoji x 500 y 450 or ["name badge","label"] icon_look picture of "name badge" hidden true
+    icon s1_icon size 120 set twemoji x 500 y 450 or ["name badge","label"] icon_look picture of "name badge" hidden true
     text s1_frame "Меня́ зову́т ___." say "Меня́ зову́т." colors.___ #7a4f9a x 500 y 250 font_size 60 hidden true
     text s2_lbl "2 · your age" #8f887c x 500 y 610 font_size 36 hidden true
-    icon s2_icon size 160 set twemoji x 500 y 450 or ["birthday cake","cake"] icon_look picture of "birthday cake" hidden true
+    icon s2_icon size 120 set twemoji x 500 y 450 or ["birthday cake","cake"] icon_look picture of "birthday cake" hidden true
     text s2_frame "Мне два́дцать четы́ре го́да." say "Мне два́дцать четы́ре го́да." x 500 y 250 font_size 60 hidden true
     text s3_lbl "3 · where you live" #8f887c x 500 y 610 font_size 36 hidden true
-    icon s3_icon size 160 set twemoji x 500 y 450 or ["cityscape","city","houses"] icon_look picture of cityscape hidden true
+    icon s3_icon size 120 set twemoji x 500 y 450 or ["cityscape","city","houses"] icon_look picture of cityscape hidden true
     text s3_frame "Я живу́ в Пари́же." say "Я живу́ в Пари́же." x 500 y 250 font_size 60 hidden true
     text s4_lbl "4 · your work" #8f887c x 500 y 610 font_size 36 hidden true
-    icon s4_icon size 160 set twemoji x 500 y 450 or ["office building","school","bank"] icon_look picture of school hidden true
+    icon s4_icon size 120 set twemoji x 500 y 450 or ["office building","school","bank"] icon_look picture of school hidden true
     text s4_frame "Я рабо́таю в шко́ле." say "Я рабо́таю в шко́ле." x 500 y 250 font_size 60 hidden true
     text s5_lbl "5 · what you love" #8f887c x 500 y 610 font_size 36 hidden true
     icon s5_icon size 160 set twemoji x 500 y 450 or ["red heart","heart"] icon_look picture of "red heart" hidden true
@@ -144,7 +144,7 @@ B: Only the purple ends are his. Swap in yours, line by line, and each end still
 B: Line one: your name.
     draw s1_lbl s1_icon
 
-    quiz "Which one starts it?" reveal.text "Меня́ зову́т ___." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1 pool false
+    quiz "Which one starts it?" above ["s1_lbl","s1_icon"] reveal.text "Меня́ зову́т ___." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1 pool false
         intro: Five questions as you build it, then your score.
         right: Меня́ зову́т: me, they call, and зову́т never changes.
         wrong: Word for word it's they call me: which word is me?
@@ -166,7 +166,7 @@ A: Now say yours out loud: меня́ зову́т, and your name.
 B: Line two: your age. Мне, the number, and its last word decides: оди́н год, два го́да, пять лет.
     draw s2_lbl s2_icon s2_hint
 
-    quiz "Say you're twenty-four: Мне два́дцать четы́ре ___. Which word?" reveal.text "Мне два́дцать четы́ре го́да." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Say you're twenty-four: Мне два́дцать четы́ре ___. Which word?" above ["s2_lbl","s2_icon","s2_hint"] reveal.text "Мне два́дцать четы́ре го́да." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Четы́ре goes with два and три, so го́да.
         wrong: Only the last word counts, and here it's четы́ре.
         * год
@@ -182,7 +182,7 @@ B: Line two: your age. Мне, the number, and its last word decides: оди́н
 B: Line three: where you live. Я живу́ в, then your city with the place ending.
     draw s3_lbl s3_icon
 
-    ask "Say you live in Paris, Пари́ж. Type the last word: Я живу́ в ___." answer ["париже"] reveal.text "Я живу́ в Пари́же." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Say you live in Paris, Пари́ж. Type the last word: Я живу́ в ___." above ["s3_lbl","s3_icon"] answer ["париже"] reveal.text "Я живу́ в Пари́же." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Пари́же: Пари́ж ends in a consonant, so it adds е, like в Ло́ндоне.
         wrong: Start from Пари́ж; after в, what does a city add?
@@ -208,7 +208,7 @@ B: Now yours, out loud: я живу́ в, and your city.
 B: Line four: your work. Я рабо́таю в, and the place, with that same е.
     draw s4_lbl s4_icon
 
-    quiz "Say you work at a school, шко́ла: Я рабо́таю ___. Which is right?" reveal.text "Я рабо́таю в шко́ле." reveal.at.x 500 reveal.at.y 250 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Say you work at a school, шко́ла: Я рабо́таю ___. Which is right?" above ["s4_lbl","s4_icon"] reveal.text "Я рабо́таю в шко́ле." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: В шко́ле: you're there, so the а makes way for е.
         wrong: Are you on your way there, or working there?
         + в шко́ле
@@ -332,14 +332,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A fifth Russian story: read it all yourself
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:48 title "Hobbies in Russian: играю в футбол" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:50 title "A fifth Russian story: read it all yourself" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:50 title "A fifth Russian story: read it all yourself" form title size 600 x 500 y 420
 
-    link end_again href lecture:49 title "Watch again" form text open here x 500 y 160
-    text end_count "49 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:49 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "49 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

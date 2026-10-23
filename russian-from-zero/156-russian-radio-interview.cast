@@ -201,7 +201,7 @@ A: Тепе́рь вы в эфи́ре. Веду́щая спра́шивает:
 
     ask say_it "Да, гото́вил! Мно́го раз." also ["Да, гото́вила! Мно́го раз.","Гото́вил! Мно́го раз.","Гото́вила! Мно́го раз.","Коне́чно, гото́вил! Мно́го раз.","Коне́чно, гото́вила! Мно́го раз.","Да, мно́го раз гото́вил.","Да, мно́го раз гото́вила."] gloss "Yes, I have! Many times." voice a show cue reveal.text "Да, гото́вил! Мно́го раз." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
 
-    ask "Напиши́те, with вы: Have you ever cooked porridge (ка́ша)?" answer ["вы когда-нибудь готовили кашу","вы готовили когда-нибудь кашу","когда-нибудь вы готовили кашу","вы когда-нибудь кашу готовили","вы кашу когда-нибудь готовили","вы когда нибудь готовили кашу","вы когданибудь готовили кашу","а вы когда-нибудь готовили кашу","когда-нибудь готовили кашу","готовили когда-нибудь кашу"] reveal.text "Вы когда́-нибудь гото́вили ка́шу?" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те, with вы: Have you ever cooked porridge (ка́ша)?" frame true answer ["вы когда-нибудь готовили кашу","вы готовили когда-нибудь кашу","когда-нибудь вы готовили кашу","вы когда-нибудь кашу готовили","вы кашу когда-нибудь готовили","вы когда нибудь готовили кашу","вы когданибудь готовили кашу","а вы когда-нибудь готовили кашу","когда-нибудь готовили кашу","готовили когда-нибудь кашу"] reveal.text "Вы когда́-нибудь гото́вили ка́шу?" reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ -
         right: Пра́вильно! Вы когда́-нибудь гото́вили ка́шу?
         wrong: Вы когда́-нибудь гото́вили ка́шу? Ever: the imperfective.
@@ -254,14 +254,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Proud and worried in Russian: гордиться, волноваться
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:155 title "Dates in Russian history: в 1703 году, в XVIII веке" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:157 title "Proud and worried in Russian: гордиться, волноваться" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:157 title "Proud and worried in Russian: гордиться, волноваться" form title size 600 x 500 y 420
 
-    link end_again href lecture:156 title "Watch again" form text open here x 500 y 160
-    text end_count "156 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:156 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "156 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

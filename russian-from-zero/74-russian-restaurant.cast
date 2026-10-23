@@ -159,9 +159,9 @@ A: Lunch is over. Masha calls me.
 
     hide masha masha_name tom tom_name
 
-    icon q_water size 150 set twemoji x 500 y 500 or ["potable water"] icon_look picture of droplet
+    icon q_water size 120 set twemoji x 500 y 500 or ["potable water"] icon_look picture of droplet
 
-    quiz "Ask for water: Принеси́те, пожа́луйста, ___. Which word fills the gap?" reveal.text "Принеси́те во́ду." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Ask for water: Принеси́те, пожа́луйста, ___. Which word fills the gap?" above q_water reveal.text "Принеси́те во́ду." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Во́ду: what you ask for takes the у ending.
         wrong: Like ры́бу and кни́гу: во́да becomes во́ду.
@@ -171,10 +171,10 @@ A: Lunch is over. Masha calls me.
 
     erase q_water
 
-    icon q_woman size 160 set twemoji x 380 y 500 or ["girl"] icon_look picture of woman
-    icon q_soup size 130 set twemoji x 620 y 500 or ["bowl with spoon"] icon_look picture of "pot of food"
+    icon q_woman size 120 set twemoji x 380 y 500 or ["girl"] icon_look picture of woman
+    icon q_soup size 120 set twemoji x 620 y 500 or ["bowl with spoon"] icon_look picture of "pot of food"
 
-    quiz "A woman orders soup politely. Which is right?" reveal.text "Я хоте́ла бы суп." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A woman orders soup politely. Which is right?" above ["q_soup","q_woman"] reveal.text "Я хоте́ла бы суп." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Хоте́ла бы: the past with a woman's а, and бы.
         wrong: Бы takes the past, and a woman says хоте́ла.
         * Я хоте́л бы суп.
@@ -183,9 +183,9 @@ A: Lunch is over. Masha calls me.
 
     erase q_woman q_soup
 
-    icon q_bill size 150 set twemoji x 500 y 500 or ["page facing up"] icon_look picture of receipt
+    icon q_bill size 120 set twemoji x 500 y 500 or ["page facing up"] icon_look picture of receipt
 
-    quiz "Lunch is over and you want to pay. What do you say?" reveal.text "Мо́жно счёт?" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Lunch is over and you want to pay. What do you say?" above q_bill reveal.text "Мо́жно счёт?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Мо́жно счёт? The bill, please.
         wrong: The bill is счёт: мо́жно счёт?
         * Мо́жно меню́?
@@ -260,14 +260,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Shopping in Russian: можно примерить?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:73 title "Cooking in Russian: вари́ть, ре́зать" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:75 title "Shopping in Russian: можно примерить?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:75 title "Shopping in Russian: можно примерить?" form title size 600 x 500 y 420
 
-    link end_again href lecture:74 title "Watch again" form text open here x 500 y 160
-    text end_count "74 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:74 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "74 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -133,7 +133,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase s10 s11 s12
 
-    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." reveal.text "Ива́н живёт в О́сло." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
+    quiz "Где живёт Ива́н? Where does Ivan live? Pick one." frame true reveal.text "Ива́н живёт в О́сло." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1 pool false
         intro: Now five questions on the note, from memory.
         right: In Oslo: Masha is flying there to see him.
         wrong: Masha is flying to see him. Where to?
@@ -143,7 +143,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase question_1_stamp
 
-    quiz "How old will Ivan be tomorrow? Pick one." reveal.text "Два́дцать три го́да!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "How old will Ivan be tomorrow? Pick one." frame true reveal.text "Два́дцать три го́да!" reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Twenty-three: tomorrow is his birthday.
         wrong: Thirty-one is Tom, and twenty-two was last year.
         + Два́дцать три го́да.
@@ -152,14 +152,14 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase question_2_stamp
 
-    ask "In Oslo, Masha takes the train. Type the missing word: Я е́ду на …" answer ["поезде"] reveal.text "Я е́ду на по́езде." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "In Oslo, Masha takes the train. Type the missing word: Я е́ду на …" frame true answer ["поезде"] reveal.text "Я е́ду на по́езде." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: По́езде: на, and the е that says what carries you.
         wrong: Start from по́езд, and add the е of на вокза́ле.
 
     erase question_3_stamp
 
-    quiz "How does Masha get from the station to the hotel? Pick one." reveal.text "Пря́мо, пото́м нале́во." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
+    quiz "How does Masha get from the station to the hotel? Pick one." frame true reveal.text "Пря́мо, пото́м нале́во." reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1 pool false
         right: Straight on, then left.
         wrong: First straight on. Then look at the middle of the word: ле is left.
         * Нале́во, пото́м пря́мо.
@@ -168,7 +168,7 @@ A: And last: куда́ ты е́дешь ле́том? Where are you going in s
 
     erase question_4_stamp
 
-    quiz "Masha gives her brother a book: Я дарю́ … кни́гу. Which word fills the gap?" reveal.text "Я дарю́ бра́ту кни́гу." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Masha gives her brother a book: Я дарю́ … кни́гу. Which word fills the gap?" frame true reveal.text "Я дарю́ бра́ту кни́гу." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         right: Бра́ту: the one who gets the present takes у.
         wrong: Брат gets the present: which ending says to?
         * брат
@@ -232,14 +232,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Talking about things in Russian: о маме, о работе
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:49 title "Tell me about yourself in Russian" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:51 title "Talking about things in Russian: о маме, о работе" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:51 title "Talking about things in Russian: о маме, о работе" form title size 600 x 500 y 420
 
-    link end_again href lecture:50 title "Watch again" form text open here x 500 y 160
-    text end_count "50 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:50 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "50 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

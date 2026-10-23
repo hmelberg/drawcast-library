@@ -137,9 +137,9 @@ A: And нет большо́го стола́, with ого.
 
     hide masha masha_name tom tom_name
 
-    icon q_house size 180 set twemoji x 500 y 470 or ["house","house with garden"] icon_look picture of "office building"
+    icon q_house size 120 set twemoji x 500 y 470 or ["house","house with garden"] icon_look picture of "office building"
 
-    quiz "Ivan lives in a big house. Ива́н живёт в ___ до́ме. Which word fills the gap?" reveal.text "Ива́н живёт в большо́м до́ме." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Ivan lives in a big house. Ива́н живёт в ___ до́ме. Which word fills the gap?" above q_house reveal.text "Ива́н живёт в большо́м до́ме." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Большо́м: a he-word, and a place, so ом.
         wrong: Where is he? With a he-word, the place ending is ом.
@@ -149,9 +149,9 @@ A: And нет большо́го стола́, with ого.
 
     erase q_house
 
-    icon q_book size 170 set twemoji x 500 y 470 or ["book","books"] icon_look picture of "closed book"
+    icon q_book size 120 set twemoji x 500 y 470 or ["book","books"] icon_look picture of "closed book"
 
-    quiz "Masha says she's with a new book. Я с ___ кни́гой. Which is right?" reveal.text "Я с но́вой кни́гой." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha says she's with a new book. Я с ___ кни́гой. Which is right?" above q_book reveal.text "Я с но́вой кни́гой." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Но́вой: кни́га is a she-word, so ой, like кни́гой.
         wrong: Кни́га is a she-word. What did the she side say every time?
         + но́вой
@@ -160,9 +160,9 @@ A: And нет большо́го стола́, with ого.
 
     erase q_book
 
-    icon q_room size 170 set twemoji x 500 y 470 or ["couch and lamp","house"] icon_look picture of bed
+    icon q_room size 120 set twemoji x 500 y 470 or ["couch and lamp","house"] icon_look picture of bed
 
-    quiz "Masha's flat has one small room. There's no big room: which is right?" reveal.text "Нет большо́й ко́мнаты." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Masha's flat has one small room. There's no big room: which is right?" above q_room reveal.text "Нет большо́й ко́мнаты." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: After нет both words change: big says ой, and the room says ы.
         wrong: After нет, both words change. What does big say next to a she-word?
         * Нет большо́го ко́мнаты.
@@ -185,9 +185,9 @@ B: Нет большо́го стола́. Есть ма́ленький.
 
     erase q_masha q_say
 
-    icon q_key size 160 set twemoji x 500 y 470 or ["old key","house"] icon_look picture of key
+    icon q_key size 120 set twemoji x 500 y 470 or ["old key","house"] icon_look picture of key
 
-    ask "Now build a whole sentence. Type: I live in a new flat." answer ["я живу в новой квартире","живу в новой квартире"] reveal.text "Я живу́ в но́вой кварти́ре." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I live in a new flat." above q_key answer ["я живу в новой квартире","живу в новой квартире"] reveal.text "Я живу́ в но́вой кварти́ре." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я живу́ в но́вой кварти́ре: ой on new, and е on the flat.
         wrong: Start with я живу́ в, then new and flat, both in the place form.
@@ -243,14 +243,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: To my brother in Russian: моему́ бра́ту
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:57 title "Phoning mum in Russian: звоню́ ма́ме" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:59 title "To my brother in Russian: моему́ бра́ту" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:59 title "To my brother in Russian: моему́ бра́ту" form title size 600 x 500 y 420
 
-    link end_again href lecture:58 title "Watch again" form text open here x 500 y 160
-    text end_count "58 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:58 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "58 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

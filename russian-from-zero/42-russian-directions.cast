@@ -142,9 +142,9 @@ A: So one question, как пройти́ plus the plac (@draw dirs@)e, and thre
 
     erase arr_l arr_u arr_r question_1_stamp
 
-    icon qi_tom size 170 set twemoji x 500 y 470 or ["person"] icon_look picture of man
+    icon qi_tom size 120 set twemoji x 500 y 470 or ["person"] icon_look picture of man
 
-    quiz "Tom needs the way, so he stops a stranger. What does he say first?" reveal.text Извини́те! reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom needs the way, so he stops a stranger. What does he say first?" above qi_tom reveal.text Извини́те! reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Polite, with ите, for someone you don't know.
         wrong: One of these is goodbye and one is thanks. Which one opens?
         * Пока́!
@@ -153,18 +153,18 @@ A: So one question, как пройти́ plus the plac (@draw dirs@)e, and thre
 
     erase qi_tom question_2_stamp
 
-    icon qi_station size 170 set twemoji x 500 y 470 or ["train","railway car"] icon_look picture of station
+    icon qi_station size 120 set twemoji x 500 y 470 or ["train","railway car"] icon_look picture of station
 
-    ask "Finish Tom's question for the station: Как пройти́ на ___?" answer ["вокзал"] reveal.text "Как пройти́ на вокза́л?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
+    ask "Finish Tom's question for the station: Как пройти́ на ___?" above qi_station answer ["вокзал"] reveal.text "Как пройти́ на вокза́л?" reveal.style label reveal.size 54 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Вокза́л: on the way there, it stays as it is.
         wrong: The station, from lesson thirty-four. You're on the way, so no ending.
 
     erase qi_station question_3_stamp
 
-    icon qi_school size 170 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school
+    icon qi_school size 120 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school
 
-    quiz "Now you want the school, шко́ла. Как пройти́ в ___?" reveal.text "Как пройти́ в шко́лу?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    quiz "Now you want the school, шко́ла. Как пройти́ в ___?" above qi_school reveal.text "Как пройти́ в шко́лу?" reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         right: On the way, the а of шко́ла becomes у.
         wrong: You're not there yet. What does an а-word do on the way?
         * шко́ла
@@ -173,9 +173,9 @@ A: So one question, как пройти́ plus the plac (@draw dirs@)e, and thre
 
     erase qi_school question_4_stamp
 
-    icon qi_metro size 170 set twemoji x 500 y 470 or ["station","train"] icon_look picture of metro
+    icon qi_metro size 120 set twemoji x 500 y 470 or ["station","train"] icon_look picture of metro
 
-    ask "The metro is just round the corner. Type the word for near: Метро́ ___." answer ["близко"] reveal.text "Метро́ бли́зко." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "The metro is just round the corner. Type the word for near: Метро́ ___." above qi_metro answer ["близко"] reveal.text "Метро́ бли́зко." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Бли́зко: near. Far is далеко́.
         wrong: Not далеко́, which is far; the other one, starting with б.
@@ -228,14 +228,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Bigger and better in Russian: больше, лучше
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:41 title "Please say it again in Russian: повторите" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:43 title "Bigger and better in Russian: больше, лучше" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:43 title "Bigger and better in Russian: больше, лучше" form title size 600 x 500 y 420
 
-    link end_again href lecture:42 title "Watch again" form text open here x 500 y 160
-    text end_count "42 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:42 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "42 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

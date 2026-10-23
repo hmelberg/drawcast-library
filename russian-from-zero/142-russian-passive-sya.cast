@@ -179,7 +179,7 @@ A: Здесь продаётся ёлка. Ёлка, not ёлку: the subject, 
 A: Напиши́те по-ру́сски: How is it spelled?
     draw b1_cue
 
-    ask "Напиши́те: How is it spelled?" answer ["как это пишется","как пишется","как пишется это","это как пишется","как это пишут","как это слово пишется","как пишется это слово"] reveal.text "Как э́то пи́шется?" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: How is it spelled?" above b1_cue answer ["как это пишется","как пишется","как пишется это","это как пишется","как это пишут","как это слово пишется","как пишется это слово"] reveal.text "Как э́то пи́шется?" reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Пи́шется: the thing, and -ся.
         wrong: Писа́ть, and -ся: Как э́то пи́шется?
@@ -244,7 +244,7 @@ A: Как называ́ется э́та пло́щадь?
 
     erase t_gaps
 
-    quiz "The rink opens at ten. Вы́берите." store q_open reveal.text "Като́к открыва́ется в де́сять." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "The rink opens at ten. Вы́берите." frame true store q_open reveal.text "Като́к открыва́ется в де́сять." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: The thing, and -ся.
         wrong: The rink opens: като́к открыва́ется.
         + Като́к открыва́ется в де́сять.
@@ -257,7 +257,7 @@ A: Как называ́ется э́та пло́щадь?
 
     erase reveal_3_stamp
 
-    ask "Напиши́те: The ticket office closes at eleven." answer ["касса закрывается в одиннадцать","в одиннадцать касса закрывается","касса закрывается в 11","в 11 касса закрывается","кассу закрывают в одиннадцать","в одиннадцать кассу закрывают","в одиннадцать закрывают кассу","кассу закрывают в 11","закрывают кассу в одиннадцать"] reveal.text "Ка́сса закрыва́ется в оди́ннадцать." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: The ticket office closes at eleven." frame true answer ["касса закрывается в одиннадцать","в одиннадцать касса закрывается","касса закрывается в 11","в 11 касса закрывается","кассу закрывают в одиннадцать","в одиннадцать кассу закрывают","в одиннадцать закрывают кассу","кассу закрывают в 11","закрывают кассу в одиннадцать"] reveal.text "Ка́сса закрыва́ется в оди́ннадцать." reveal.style label reveal.size 52 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ 1
         right: Пра́вильно! Ка́сса закрыва́ется.
         wrong: The thing, and -ся: Ка́сса закрыва́ется в оди́ннадцать.
@@ -304,14 +304,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: As soon as and until in Russian: как только, пока не
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:141 title "Each other in Russian: друг друга" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:143 title "As soon as and until in Russian: как только, пока не" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:143 title "As soon as and until in Russian: как только, пока не" form title size 600 x 500 y 420
 
-    link end_again href lecture:142 title "Watch again" form text open here x 500 y 160
-    text end_count "142 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:142 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "142 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

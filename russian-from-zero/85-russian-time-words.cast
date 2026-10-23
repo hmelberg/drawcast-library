@@ -49,11 +49,11 @@ level: basic
     icon ph_t size 70 set twemoji x 760 y 470 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon balloon_t size 90 set twemoji x 710 y 600 or ["right anger bubble"] icon_look picture of "speech balloon" hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"b","text":"Том, приве́т! Ты в Москве́?","gloss":"Tom, hi! Are you in Moscow?"},{"by":"a","text":"Да! Я прие́хал два дня наза́д.","gloss":"Yes! I came two days ago."},{"by":"b","text":"Ты уже́ прочита́л кни́гу?","gloss":"Have you finished the book yet?"},{"by":"a","text":"Ещё нет. Прочита́ю че́рез неде́лю.","gloss":"Not yet. I'll finish it in a week."},{"by":"b","text":"Ра́ньше ты мно́го чита́л!","gloss":"You used to read a lot!"},{"by":"a","text":"Да, а сейча́с я мно́го рабо́таю.","gloss":"Yes, but now I work a lot."},{"by":"b","text":"Пойдём в кафе́? Че́рез час я бу́ду свобо́дна.","gloss":"Café? I'll be free in an hour."},{"by":"a","text":"Дава́й! Я приду́ че́рез час.","gloss":"Let's! I'll come in an hour."}] practice true size 1.5 hidden true
-    icon q_cal size 150 set twemoji x 500 y 480 or ["calendar","tear-off calendar"] icon_look picture of "spiral calendar" hidden true
-    icon q_cal2 size 150 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "tear-off calendar" hidden true
-    icon q_env size 150 set twemoji x 500 y 480 or ["memo"] icon_look picture of envelope hidden true
+    icon q_cal size 120 set twemoji x 500 y 480 or ["calendar","tear-off calendar"] icon_look picture of "spiral calendar" hidden true
+    icon q_cal2 size 120 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "tear-off calendar" hidden true
+    icon q_env size 120 set twemoji x 500 y 480 or ["memo"] icon_look picture of envelope hidden true
     icon q_train size 150 set twemoji x 500 y 480 or ["train","railway car"] icon_look picture of station hidden true
-    icon q_clock size 150 set twemoji x 500 y 480 or ["mantelpiece clock"] icon_look picture of "alarm clock" hidden true
+    icon q_clock size 120 set twemoji x 500 y 480 or ["mantelpiece clock"] icon_look picture of "alarm clock" hidden true
     text b_uzhe "уже́ · ещё не" say "уже́, ещё не" x 500 y 545 font_size 44 hidden true
     text b_rn "ра́ньше" say ра́ньше x 130 y 330 font_size 44 hidden true
 
@@ -166,7 +166,7 @@ A: Tom is in Moscow, and Masha phones him. Listen, then practise it.
 
     draw q_cal
 
-    quiz "He arrived on Monday, and today is Wednesday. Он прие́хал ___." reveal.text "Он прие́хал два дня наза́д." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "He arrived on Monday, and today is Wednesday. Он прие́хал ___." above q_cal reveal.text "Он прие́хал два дня наза́д." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Два дня наза́д: two days back, so наза́д, after the time.
         wrong: It has already happened: look back with наза́д.
@@ -178,7 +178,7 @@ A: Tom is in Moscow, and Masha phones him. Listen, then practise it.
 
     draw q_cal2
 
-    quiz "Which one means in a week?" reveal.text "че́рез неде́лю" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which one means in a week?" above q_cal2 reveal.text "че́рез неде́лю" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Че́рез неде́лю: че́рез first, then the time.
         wrong: In, from now, is че́рез, and it comes first.
         * неде́лю наза́д
@@ -189,7 +189,7 @@ A: Tom is in Moscow, and Masha phones him. Listen, then practise it.
 
     draw q_env
 
-    quiz "The letter isn't finished yet. Он ___ написа́л письмо́." reveal.text "Он ещё не написа́л письмо́." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "The letter isn't finished yet. Он ___ написа́л письмо́." above q_env reveal.text "Он ещё не написа́л письмо́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ещё не: not yet.
         wrong: Уже́ would mean it's done. Not yet is ещё не.
         + ещё не
@@ -207,7 +207,7 @@ A: Tom is in Moscow, and Masha phones him. Listen, then practise it.
 
     draw q_clock
 
-    ask "Now build a whole sentence. Type: I'll come in an hour." answer ["я приду через час","приду через час","через час я приду","через час приду"] reveal.text "Я приду́ че́рез час." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I'll come in an hour." above q_clock answer ["я приду через час","приду через час","через час я приду","через час приду"] reveal.text "Я приду́ че́рез час." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я приду́ че́рез час: the done verb for will, че́рез before the time.
         wrong: Приду́ is I'll come; then че́рез час.
@@ -262,14 +262,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: How often in Russian: иногда́, никогда́
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:84 title "Feelings in Russian: мне ску́чно" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:86 title "How often in Russian: иногда́, никогда́" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:86 title "How often in Russian: иногда́, никогда́" form title size 600 x 500 y 420
 
-    link end_again href lecture:85 title "Watch again" form text open here x 500 y 160
-    text end_count "85 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:85 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "85 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

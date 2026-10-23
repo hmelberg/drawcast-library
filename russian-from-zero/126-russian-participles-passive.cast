@@ -209,7 +209,7 @@ A: Музе́й закры́т на ремо́нт.
 
     erase t3
 
-    quiz "Письмо́ напи́сано по-ру́сски." reveal.text "Письмо́ напи́сано по-ру́сски." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 48 reveal.color #3d3833 voice b test t1
+    quiz "Письмо́ напи́сано по-ру́сски." frame true reveal.text "Письмо́ напи́сано по-ру́сски." reveal.style label reveal.size 48 reveal.color #3d3833 voice b test t1
         right: Пра́вильно! Напи́сано: written. It's done.
         wrong: Напи́сано is a done form: the letter is written.
         + The letter is written in Russian.
@@ -225,9 +225,9 @@ A: Сего́дня музе́й закры́т.
 
     erase question_9_stamp
 
-    icon q_cafe size 140 set twemoji x 500 y 470 or ["teacup without handle"] icon_look picture of "hot beverage"
+    icon q_cafe size 120 set twemoji x 500 y 470 or ["teacup without handle"] icon_look picture of "hot beverage"
 
-    ask "Напиши́те: The café is open." answer ["кафе открыто","открыто кафе"] reveal.text "Кафе́ откры́то." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    ask "Напиши́те: The café is open." above q_cafe answer ["кафе открыто","открыто кафе"] reveal.text "Кафе́ откры́то." reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Кафе́ is оно́, so откры́то.
         wrong: Кафе́ is оно́, so откры́то: кафе́ откры́то.
@@ -292,14 +292,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Doing two things at once in Russian: читая, прочитав
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:125 title "Reading participles in Russian: работающий, бывший" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:127 title "Doing two things at once in Russian: читая, прочитав" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:127 title "Doing two things at once in Russian: читая, прочитав" form title size 600 x 500 y 420
 
-    link end_again href lecture:126 title "Watch again" form text open here x 500 y 160
-    text end_count "126 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:126 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "126 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

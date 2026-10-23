@@ -54,10 +54,10 @@ level: basic
         моё: мо́ре
         моя́: вода́
         мой: стол, ко́фе
-    icon q_sis size 170 set twemoji x 500 y 450 or ["woman"] icon_look picture of girl hidden true
-    icon q_dad size 170 set twemoji x 500 y 450 or ["man-beard","person beard"] icon_look picture of "man beard" hidden true
-    icon q_win size 170 set twemoji x 500 y 450 or ["frame with picture"] icon_look picture of window hidden true
-    icon q_bro size 170 set twemoji x 500 y 450 or ["child"] icon_look picture of boy hidden true
+    icon q_sis size 120 set twemoji x 500 y 450 or ["woman"] icon_look picture of girl hidden true
+    icon q_dad size 120 set twemoji x 500 y 450 or ["man-beard","person beard"] icon_look picture of "man beard" hidden true
+    icon q_win size 120 set twemoji x 500 y 450 or ["frame with picture"] icon_look picture of window hidden true
+    icon q_bro size 120 set twemoji x 500 y 450 or ["child"] icon_look picture of boy hidden true
     text q_bro_ru "Э́то мой брат" colors {"й$":"#2f6b8f"} x 500 y 600 font_size 60 hidden true
     icon f1 size 110 set twemoji x 320 y 450 or ["woman-red-hair","woman"] icon_look picture of "woman red hair" hidden true
     icon f2 size 110 set twemoji x 440 y 450 or ["man-beard","person beard"] icon_look picture of "man beard" hidden true
@@ -181,7 +181,7 @@ A: Put э́то in front, and you can introduce anyone: э́то моя́ ма́
 
     draw q_sis
 
-    quiz "Masha points at her sister. Э́то ___ сестра́. Which word fills the gap?" reveal.text "моя́ сестра́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "Masha points at her sister. Э́то ___ сестра́. Which word fills the gap?" above q_sis reveal.text "моя́ сестра́" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         right: Моя́: сестра́ ends in а, so моя́ сестра́.
         wrong: Look at the last letter of сестра́.
         * мой
@@ -192,7 +192,7 @@ A: Put э́то in front, and you can introduce anyone: э́то моя́ ма́
 
     draw q_dad
 
-    quiz "And her dad: Э́то ___ па́па." reveal.text "мой па́па" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    quiz "And her dad: Э́то ___ па́па." above q_dad reveal.text "мой па́па" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         right: Мой: па́па ends in а, but a dad is он, so мой па́па.
         wrong: Forget the last letter this time: is a dad a he or a she?
         + мой
@@ -203,7 +203,7 @@ A: Put э́то in front, and you can introduce anyone: э́то моя́ ма́
 
     draw q_win
 
-    ask "Type my for a window: ___ окно́." answer ["моё","мое"] translit true reveal.text "моё окно́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 test t1
+    ask "Type my for a window: ___ окно́." above q_win answer ["моё","мое"] translit true reveal.text "моё окно́" reveal.style label reveal.size 60 reveal.color #3d3833 test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧЫЬЭЯ
         right: Моё: окно́ ends in о, so моё окно́.
         wrong: Окно́ is оно́: which my ends like it?
@@ -212,7 +212,7 @@ A: Put э́то in front, and you can introduce anyone: э́то моя́ ма́
 
     draw q_bro q_bro_ru
 
-    quiz "What does Э́то мой брат mean?" reveal.text "= this is my brother" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 50 reveal.color #3d3833 test t1
+    quiz "What does Э́то мой брат mean?" above ["q_bro","q_bro_ru"] reveal.text "= this is my brother" reveal.style label reveal.size 50 reveal.color #3d3833 test t1
         right: This is my brother: э́то, this is; мой брат, my brother.
         wrong: Брат starts with the new letter Б.
         + This is my brother
@@ -274,14 +274,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Where is it? где, в and на in Russian
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:7 title "I speak Russian: я говорю, ты говоришь" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:9 title "Where is it? где, в and на in Russian" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:9 title "Where is it? где, в and на in Russian" form title size 600 x 500 y 420
 
-    link end_again href lecture:8 title "Watch again" form text open here x 500 y 160
-    text end_count "8 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:8 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "8 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

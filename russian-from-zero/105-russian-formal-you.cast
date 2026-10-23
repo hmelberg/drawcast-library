@@ -51,9 +51,9 @@ heading: false
     text q_gap "Поста́в[ьте] э́ти кни́ги на по́лку." colors {"те$":"#3d8a5a"} x 500 y 640 font_size 54 hidden true
     icon q_nina size 160 set twemoji x 500 y 470 or ["woman"] icon_look picture of "old woman" hidden true
     text q_nina_name "Ни́на Петро́вна" #8f887c x 500 y 360 font_size 34 hidden true
-    icon q1_friend size 130 set twemoji x 230 y 450 or ["two people"] icon_look picture of "people hugging" hidden true
-    icon q1_old size 130 set twemoji x 500 y 450 or ["woman"] icon_look picture of "old woman" hidden true
-    icon q1_boss size 130 set twemoji x 770 y 450 or ["briefcase"] icon_look picture of "office building" hidden true
+    icon q1_friend size 120 set twemoji x 230 y 450 or ["two people"] icon_look picture of "people hugging" hidden true
+    icon q1_old size 120 set twemoji x 500 y 450 or ["woman"] icon_look picture of "old woman" hidden true
+    icon q1_boss size 120 set twemoji x 770 y 450 or ["briefcase"] icon_look picture of "office building" hidden true
     text q1_ty "ты" #2f6b8f x 230 y 300 font_size 64 hidden true
     text q1_vy1 "вы" #3d8a5a x 500 y 300 font_size 64 hidden true
     text q1_vy2 "вы" #3d8a5a x 770 y 300 font_size 64 hidden true
@@ -202,7 +202,7 @@ A: Ни́на Петро́вна, бу́дьте добры́, скажи́те,
 
     draw q1_friend q1_old q1_boss
 
-    quiz "Which of them do you call ты?" reveal.text ты reveal.at.x 230 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #2f6b8f voice a test t1
+    quiz "Which of them do you call ты?" above ["q1_friend","q1_old","q1_boss"] reveal.text ты reveal.style label reveal.size 64 reveal.color #2f6b8f voice a test t1
         intro: Six questions now, then your score.
         right: Ты for friends, family and children.
         wrong: Strangers, older people and the boss get вы. A friend gets ты.
@@ -217,7 +217,7 @@ A: Ты for the friend; вы for the neighbour and the boss.
 
     erase q1_friend q1_old q1_boss q1_ty q1_vy1 q1_vy2
 
-    quiz "Her father is Серге́й. What is her о́тчество?" reveal.text "О́льга Серге́евна" reveal.at.x 500 reveal.at.y 560 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Her father is Серге́й. What is her о́тчество?" frame true reveal.text "О́льга Серге́евна" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: A daughter takes -евна: Серге́евна.
         wrong: Серге́евич is a son's. A daughter's is Серге́евна.
         * Серге́евич
@@ -301,14 +301,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Three plural endings in Russian: -ам, -ами, -ах
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:104 title "Putting things in Russian: поставь, положи, повесь" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:106 title "Three plural endings in Russian: -ам, -ами, -ах" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:106 title "Three plural endings in Russian: -ам, -ами, -ах" form title size 600 x 500 y 420
 
-    link end_again href lecture:105 title "Watch again" form text open here x 500 y 160
-    text end_count "105 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:105 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "105 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

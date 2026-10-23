@@ -23,12 +23,12 @@ heading: false
     glossed s12 "А в а́вгусте мой день рожде́ния! Пока́!" say_voice b gloss ["","","August","","","of birth",""] show_gloss after x 500 y 250 width 990 font_size 46 hidden true
     icon open_woman size 190 set twemoji x 360 y 430 or ["person"] icon_look picture of woman hidden true
     icon open_cake size 170 set twemoji x 640 y 450 or ["shortcake","wrapped gift"] icon_look picture of "birthday cake" hidden true
-    icon q_cal size 160 set twemoji x 500 y 480 or ["party popper"] icon_look picture of balloon hidden true
+    icon q_cal size 120 set twemoji x 500 y 480 or ["party popper"] icon_look picture of balloon hidden true
     icon q_tom size 200 set twemoji x 280 y 460 or ["person"] icon_look picture of man hidden true
     icon q_phone size 130 set twemoji x 500 y 460 or ["telephone"] icon_look picture of "mobile phone" hidden true
     icon q_masha size 200 set twemoji x 720 y 460 or ["person"] icon_look picture of woman hidden true
-    icon q_doc size 170 set twemoji x 500 y 480 or ["man health worker","stethoscope"] icon_look picture of "health worker" hidden true
-    icon q_gift size 160 set twemoji x 500 y 480 or ["gift"] icon_look picture of "wrapped gift" hidden true
+    icon q_doc size 120 set twemoji x 500 y 480 or ["man health worker","stethoscope"] icon_look picture of "health worker" hidden true
+    icon q_gift size 120 set twemoji x 500 y 480 or ["gift"] icon_look picture of "wrapped gift" hidden true
     icon q_cake size 160 set twemoji x 500 y 500 or ["shortcake"] icon_look picture of "birthday cake" hidden true
     text q_say "У моего́ бра́та день рожде́ния!" say "У моего́ бра́та день рожде́ния!" x 500 y 320 font_size 56 hidden true
     icon score_woman size 200 set twemoji x 500 y 440 or ["person"] icon_look picture of woman hidden true
@@ -160,7 +160,7 @@ B: В а́вгусте: my birthday is in August, in summer.
 
     draw q_cal
 
-    quiz "Како́е сего́дня число́ in Masha's note? Pick one." reveal.text "Сего́дня двадца́тое января́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
+    quiz "Како́е сего́дня число́ in Masha's note? Pick one." above q_cal reveal.text "Сего́дня двадца́тое января́." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
         intro: Now five questions on the note, then your score.
         right: Двадца́тое января́: Ivan's birthday.
         wrong: It's Ivan's birthday, in the month Tom was born.
@@ -190,7 +190,7 @@ B: Спаси́бо, Том! Пока́!
 
     draw q_doc
 
-    quiz "Кем рабо́тает друг Ива́на? Pick one." reveal.text "Друг рабо́тает врачо́м." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
+    quiz "Кем рабо́тает друг Ива́на? Pick one." above q_doc reveal.text "Друг рабо́тает врачо́м." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1 pool false
         right: Врачо́м: the friend is a doctor, and the neighbour was a teacher.
         wrong: The friend works as a doctor: врачо́м. The neighbour was the teacher.
         + врачо́м
@@ -201,7 +201,7 @@ B: Спаси́бо, Том! Пока́!
 
     draw q_gift
 
-    ask "Now build a sentence. Type: I'm giving my brother a book." answer ["я дарю моему брату книгу","дарю моему брату книгу","я дарю книгу моему брату","дарю книгу моему брату","я дарю брату книгу","дарю брату книгу","я дарю книгу брату","дарю книгу брату"] reveal.text "Я дарю́ моему́ бра́ту кни́гу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Now build a sentence. Type: I'm giving my brother a book." above q_gift answer ["я дарю моему брату книгу","дарю моему брату книгу","я дарю книгу моему брату","дарю книгу моему брату","я дарю брату книгу","дарю брату книгу","я дарю книгу брату","дарю книгу брату"] reveal.text "Я дарю́ моему́ бра́ту кни́гу." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я дарю́ моему́ бра́ту кни́гу: the to-ending on brother, and on моему́ if you said my; the object у on the book.
         wrong: Start with я дарю́, then my brother in the to-form, then the book.
@@ -276,14 +276,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Verbs in -ся in Russian: учу́сь, занима́юсь
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:59 title "To my brother in Russian: моему́ бра́ту" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:61 title "Verbs in -ся in Russian: учу́сь, занима́юсь" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:61 title "Verbs in -ся in Russian: учу́сь, занима́юсь" form title size 600 x 500 y 420
 
-    link end_again href lecture:60 title "Watch again" form text open here x 500 y 160
-    text end_count "60 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:60 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "60 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

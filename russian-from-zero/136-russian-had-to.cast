@@ -249,7 +249,7 @@ A: Ему́ удало́сь купи́ть ры́бу.
 
     erase t_gaps
 
-    quiz "There isn't enough time. Вы́берите." shuffle false store q_time reveal.text "Не хвата́ет вре́мени." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "There isn't enough time. Вы́берите." frame true shuffle false store q_time reveal.text "Не хвата́ет вре́мени." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: Не хвата́ет, then the of-form.
         wrong: Не хвата́ет, then the of-form: вре́мени.
         * Не хвата́ет вре́мя.
@@ -260,7 +260,7 @@ A: Ему́ удало́сь купи́ть ры́бу.
 
     ask say_it "Мне удало́сь купи́ть ры́бу на ры́нке." also ["На ры́нке мне удало́сь купи́ть ры́бу.","Мне удало́сь купи́ть ры́бу."] gloss "I managed to buy fish at the market." voice a show cue reveal.text "Мне удало́сь купи́ть ры́бу на ры́нке." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 54 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: Masha can't sleep." answer ["маше не спится","не спится маше","маша не может спать"] reveal.text "Ма́ше не спи́тся." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Masha can't sleep." frame true answer ["маше не спится","не спится маше","маша не может спать"] reveal.text "Ма́ше не спи́тся." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Ма́ше, the to-form, and не спи́тся.
         wrong: Ма́ше, the to-form, then не спи́тся.
@@ -311,14 +311,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A business call in Russian: не могли бы вы…
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:135 title "Don't forget in Russian: aspect after не" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:137 title "A business call in Russian: не могли бы вы…" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:137 title "A business call in Russian: не могли бы вы…" form title size 600 x 500 y 420
 
-    link end_again href lecture:136 title "Watch again" form text open here x 500 y 160
-    text end_count "136 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:136 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "136 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

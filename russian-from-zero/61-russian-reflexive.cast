@@ -182,7 +182,7 @@ A: Чем here is что with the with-ending, as in lesson fifty-six: зани�
 
     erase chem
 
-    quiz "I study at the university. Я ___ в университе́те. Which form?" reveal.text "Я учу́сь в университе́те." reveal.at.x 500 reveal.at.y 320 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "I study at the university. Я ___ в университе́те. Which form?" frame true reveal.text "Я учу́сь в университе́те." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Учу́сь: я, then сь after the vowel у.
         wrong: Which form goes with я? It ends in a vowel, then сь.
@@ -198,7 +198,7 @@ A: Чем here is что with the with-ending, as in lesson fifty-six: зани�
 
     erase q_uni a1
 
-    quiz "Вы у́чите… — сь or ся at the end?" reveal.text сь reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 96 reveal.color #b0476b voice b test t1
+    quiz "Вы у́чите… — сь or ся at the end?" frame true reveal.text сь reveal.style label reveal.size 96 reveal.color #b0476b voice b test t1
         right: У́читесь: after the vowel е, сь.
         wrong: The word ends in е, a vowel.
         * ся
@@ -212,7 +212,7 @@ A: Чем here is что with the with-ending, as in lesson fifty-six: зани�
 
     erase a2
 
-    quiz "You point at something and want its Russian name. What do you ask?" reveal.text "Как э́то называ́ется?" reveal.at.x 500 reveal.at.y 320 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "You point at something and want its Russian name. What do you ask?" frame true reveal.text "Как э́то называ́ется?" reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Как э́то называ́ется? Things take называ́ется; people, зову́т.
         wrong: Зову́т is for people. For a thing?
         + Как э́то называ́ется по-ру́сски?
@@ -240,7 +240,7 @@ B: Я учу́сь в университе́те.
 
     erase q_uni2 q_say
 
-    ask "Now build a sentence. Type: When does the film start?" answer ["когда начинается фильм","когда фильм начинается"] reveal.text "Когда́ начина́ется фильм?" reveal.at.x 500 reveal.at.y 320 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a sentence. Type: When does the film start?" frame true answer ["когда начинается фильм","когда фильм начинается"] reveal.text "Когда́ начина́ется фильм?" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Когда́ начина́ется фильм? The film begins by itself: ся.
         wrong: Start with когда́, then начина́ется, then фильм.
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Going in Russian: иду or хожу?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:60 title "A sixth Russian story: Ivan's birthday" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:62 title "Going in Russian: иду or хожу?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:62 title "Going in Russian: иду or хожу?" form title size 600 x 500 y 420
 
-    link end_again href lecture:61 title "Watch again" form text open here x 500 y 160
-    text end_count "61 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:61 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "61 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

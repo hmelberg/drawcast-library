@@ -253,7 +253,7 @@ A: Переры́в ме́жду двумя́ и тремя́.
 
     erase q_clock q_say_full
 
-    ask "Напиши́те по-ру́сски: I work from ten till five." answer ["я работаю с десяти до пяти","с десяти до пяти я работаю"] reveal.text "Я рабо́таю с десяти́ до пяти́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те по-ру́сски: I work from ten till five." frame true answer ["я работаю с десяти до пяти","с десяти до пяти я работаю"] reveal.text "Я рабо́таю с десяти́ до пяти́." reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я рабо́таю с десяти́ до пяти́: teal after с and до.
         wrong: С and до take the of-case: с десяти́ до пяти́.
@@ -307,14 +307,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Although and despite in Russian: хотя, несмотря на
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:117 title "Someone and anything in Russian: кто-то, что-нибудь" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:119 title "Although and despite in Russian: хотя, несмотря на" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:119 title "Although and despite in Russian: хотя, несмотря на" form title size 600 x 500 y 420
 
-    link end_again href lecture:118 title "Watch again" form text open here x 500 y 160
-    text end_count "118 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:118 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "118 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

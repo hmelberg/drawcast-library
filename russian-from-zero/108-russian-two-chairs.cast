@@ -47,7 +47,7 @@ heading: false
     box w_tag "5 000 ₽" #b5482e x 300 y 195 width 170 height 66 radius 10 font_size 34 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"b","text":"Том, вы́бери ла́мпу. Тебе́ нра́вится така́я?","gloss":"Tom, choose a lamp. Do you like this one?"},{"by":"a","text":"Нет, она́ сли́шком больша́я. Мне нужна́ ма́ленькая.","gloss":"No, it's too big. I need a small one."},{"by":"b","text":"Вот две ма́ленькие ла́мпы. Бе́лая и́ли чёрная?","gloss":"Here are two small lamps. White or black?"},{"by":"a","text":"Бе́лая. Я куплю́ бе́лую.","gloss":"White. I'll buy the white one."},{"by":"b","text":"А сту́лья? Тебе́ нужны́ четы́ре сту́ла?","gloss":"And chairs? Do you need four chairs?"},{"by":"a","text":"Нет, то́лько два: два удо́бных сту́ла.","gloss":"No, only two: two comfortable chairs."},{"by":"b","text":"Хорошо́. Ка́сса там. Ты покупа́ешь, а я несу́ ла́мпу!","gloss":"Good. The till is over there. You pay, and I'll carry the lamp!"},{"by":"a","text":"Спаси́бо, Ма́ша! Мы почти́ всё вы́брали.","gloss":"Thanks, Masha! We've chosen almost everything."}] show_gloss false practice true size 1.5 hidden true
     text g1 "Три бе́л[ых] сту́л[а], пять бе́л[ых] сту́л[ьев]." colors {"ых$":"#1a8a8a","сту́л[а]$":"#1a8a8a","сту́л[ьев]$":"#1a8a8a"} x 500 y 420 font_size 44 hidden true
-    icon b_lamp size 190 set twemoji x 500 y 500 or ["chair"] icon_look picture of "couch and lamp" hidden true
+    icon b_lamp size 120 set twemoji x 500 y 500 or ["chair"] icon_look picture of "couch and lamp" hidden true
     group q1_chairs members ["q1_ch1","q1_ch2","q1_ch3","q1_ch4","q1_ch5"] hidden true
     text q3_gap "В магази́не четы́ре удо́бн[ых] дива́н[а]." colors {"ых$":"#1a8a8a","дива́н[а]$":"#1a8a8a"} x 500 y 420 font_size 44 hidden true
     icon q5_ch1 size 150 set twemoji x 420 y 520 or ["seat"] icon_look picture of chair hidden true
@@ -195,7 +195,7 @@ B: Три бе́лых сту́ла, пять бе́лых сту́льев.
 A: Now build a sentence. In the shop you point at a lamp you like.
     draw b_lamp
 
-    ask "Напиши́те: I need a lamp like this." answer ["мне нужна такая лампа","такая лампа мне нужна","мне нужна вот такая лампа","вот такая лампа мне нужна"] reveal.text "Мне нужна́ така́я ла́мпа." reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 60 reveal.color #3d3833
+    ask "Напиши́те: I need a lamp like this." above b_lamp answer ["мне нужна такая лампа","такая лампа мне нужна","мне нужна вот такая лампа","вот такая лампа мне нужна"] reveal.text "Мне нужна́ така́я ла́мпа." reveal.style label reveal.size 60 reveal.color #3d3833
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Мне нужна́ така́я ла́мпа: ла́мпа is a she-word, so нужна́ and така́я both end in а.
         wrong: Ла́мпа is a she-word: нужна́, така́я.
@@ -214,7 +214,7 @@ A: Now build a sentence. In the shop you point at a lamp you like.
 
     erase q1_chairs question_5_stamp
 
-    quiz "I need a shelf: мне ___ по́лка." reveal.text "Мне нужна́ по́лка." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "I need a shelf: мне ___ по́лка." frame true reveal.text "Мне нужна́ по́лка." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Нужна́: по́лка is a she-word, so needed ends in а.
         wrong: Needed agrees with the shelf, and по́лка is a she-word.
         * ну́жен
@@ -243,7 +243,7 @@ B: В магази́не четы́ре удо́бных дива́на.
 
     erase q5_ch1 q5_ch2 question_9_stamp
 
-    ask "Напиши́те: I'll buy five new chairs." answer ["я куплю пять новых стульев","куплю пять новых стульев","пять новых стульев я куплю","я куплю пять стульев новых"] reveal.text "Я куплю́ пять но́вых сту́льев." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I'll buy five new chairs." frame true answer ["я куплю пять новых стульев","куплю пять новых стульев","пять новых стульев я куплю","я куплю пять стульев новых"] reveal.text "Я куплю́ пять но́вых сту́льев." reveal.style label reveal.size 54 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я куплю́ пять но́вых сту́льев: after пять, both words count as many.
         wrong: Куплю́, then пять, and after пять both words count as many.
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: In order to in Russian: чтобы
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:107 title "Across and past in Russian: перейти через, пройти мимо" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:109 title "In order to in Russian: чтобы" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:109 title "In order to in Russian: чтобы" form title size 600 x 500 y 420
 
-    link end_again href lecture:108 title "Watch again" form text open here x 500 y 160
-    text end_count "108 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:108 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "108 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

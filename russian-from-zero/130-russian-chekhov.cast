@@ -194,7 +194,7 @@ A: Все тро́е: the thin one, his wife, his son. The same words as at the 
 B: Посмотри́те: first ты, then вы, to the same old friend.
     draw sw_ty sw_arrow sw_vy
 
-    quiz "Why does the thin one suddenly say вы?" voice a pool false
+    quiz "Why does the thin one suddenly say вы?" above ["sw_ty","sw_arrow","sw_vy"] voice a pool false
         right: Пра́вильно! The rank, та́йный сове́тник.
         wrong: It's the rank: та́йный сове́тник.
         + he hears his friend's high rank
@@ -245,9 +245,9 @@ A: Два прия́теля вме́сте учи́лись в гимна́зи
 
     erase t_g
 
-    icon t_school size 160 set twemoji x 500 y 480 or ["books"] icon_look picture of school
+    icon t_school size 120 set twemoji x 500 y 480 or ["books"] icon_look picture of school
 
-    quiz "Your school friend now has a very high rank. He says: «Мы с тобо́й друзья́ де́тства!» You say…" reveal.text "Приве́т! Как ты?" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "Your school friend now has a very high rank. He says: «Мы с тобо́й друзья́ де́тства!» You say…" above t_school reveal.text "Приве́т! Как ты?" reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         right: Пра́вильно! Friends stay on ты.
         wrong: Friends stay on ты: the fat one says so himself.
         + Приве́т! Как ты?
@@ -265,9 +265,9 @@ A: Мы с тобо́й друзья́ де́тства!
 
     erase question_8_stamp
 
-    icon t_bow size 160 set twemoji x 500 y 480 or ["man"] icon_look picture of "person bowing"
+    icon t_bow size 120 set twemoji x 500 y 480 or ["man"] icon_look picture of "person bowing"
 
-    ask "Напиши́те it with вы, as to a general: «Как ты живёшь?»" answer ["как вы живёте","как живёте","как живёте вы"] reveal.text "Как вы живёте?" reveal.at.x 500 reveal.at.y 640 reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те it with вы, as to a general: «Как ты живёшь?»" above t_bow answer ["как вы живёте","как живёте","как живёте вы"] reveal.text "Как вы живёте?" reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Вы and the те ending.
         wrong: With вы, the verb ends in те: как вы живёте?
@@ -334,14 +334,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: The flat that I rented in Russian: который in every case
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:129 title "Used to it in Russian: я привык к…" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:131 title "The flat that I rented in Russian: который in every case" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:131 title "The flat that I rented in Russian: который in every case" form title size 600 x 500 y 420
 
-    link end_again href lecture:130 title "Watch again" form text open here x 500 y 160
-    text end_count "130 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:130 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "130 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

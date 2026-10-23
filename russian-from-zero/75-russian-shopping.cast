@@ -51,10 +51,10 @@ level: basic
     text v_f "Я бы взяла́." say "Я бы взяла́." say_voice b colors {"а$":"#b5482e"} x 700 y 380 font_size 60 hidden true
     text ty_vy "у тебя́ · у вас" say "у тебя́, у вас" x 500 y 450 font_size 56 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Приве́т, Ма́ша! Мо́жно приме́рить ку́ртку?","gloss":"Hi, Masha! Can I try on a jacket?"},{"by":"b","text":"Мо́жно. Како́й у тебя́ разме́р?","gloss":"Sure. What size are you?"},{"by":"a","text":"Пятьдеся́т. Ой, а есть побо́льше?","gloss":"Fifty. Oh, is there a bigger one?"},{"by":"b","text":"Есть. Си́ний тебе́ о́чень идёт!","gloss":"There is. Blue really suits you!"},{"by":"a","text":"Спаси́бо! А ско́лько она́ сто́ит?","gloss":"Thanks! And how much is it?"},{"by":"b","text":"Две ты́сячи рубле́й. Это дёшево!","gloss":"Two thousand roubles. That's cheap!"},{"by":"a","text":"Хорошо́! Я бы взял.","gloss":"Good! I'd take it."}] practice true size 1.4 hidden true
-    icon q_coat size 170 set twemoji x 420 y 480 or ["womans clothes"] icon_look picture of coat hidden true
+    icon q_coat size 120 set twemoji x 420 y 480 or ["womans clothes"] icon_look picture of coat hidden true
     text q_tag "500 ₽" x 640 y 480 font_size 56 hidden true
-    icon q_mirror size 170 set twemoji x 500 y 480 or ["woman"] icon_look picture of mirror hidden true
-    icon q_jeans size 160 set twemoji x 500 y 480 or ["trousers"] icon_look picture of jeans hidden true
+    icon q_mirror size 120 set twemoji x 500 y 480 or ["woman"] icon_look picture of mirror hidden true
+    icon q_jeans size 120 set twemoji x 500 y 480 or ["trousers"] icon_look picture of jeans hidden true
     icon q_man size 150 set twemoji x 400 y 480 or ["person"] icon_look picture of man hidden true
     icon q_coat2 size 130 set twemoji x 600 y 480 or ["womans clothes"] icon_look picture of coat hidden true
     icon q_dress size 150 set twemoji x 500 y 500 or ["shopping bag"] icon_look picture of "shopping bags" hidden true
@@ -188,7 +188,7 @@ A: Masha works in a clothes shop, and Tom comes in. She (@draw ty_vy@) knows him
 
     draw q_coat q_tag
 
-    quiz "A warm jacket for пятьсо́т рубле́й. Это ___!" reveal.text "Это дёшево!" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "A warm jacket for пятьсо́т рубле́й. Это ___!" above ["q_coat","q_tag"] reveal.text "Это дёшево!" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Дёшево: five hundred roubles is cheap.
         wrong: Five hundred roubles is little money: дёшево. До́рого is the dear one.
@@ -200,7 +200,7 @@ A: Masha works in a clothes shop, and Tom comes in. She (@draw ty_vy@) knows him
 
     draw q_mirror
 
-    quiz "What does Тебе́ идёт си́ний mean?" say_answer false reveal.text "Blue suits you." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "What does Тебе́ идёт си́ний mean?" above q_mirror say_answer false reveal.text "Blue suits you." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Идёт here is suits: blue suits you.
         wrong: In a shop, идёт means suits. Тебе́: it suits you.
         + Blue suits you.
@@ -211,7 +211,7 @@ A: Masha works in a clothes shop, and Tom comes in. She (@draw ty_vy@) knows him
 
     draw q_jeans
 
-    quiz "A man's trousers are too tight. Он до́лжен приме́рить разме́р ___." reveal.text "разме́р побо́льше" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "A man's trousers are too tight. Он до́лжен приме́рить разме́р ___." above q_jeans reveal.text "разме́р побо́льше" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Побо́льше: a size up.
         wrong: Too tight means a bigger one: побо́льше. Поме́ньше is a size down.
         * поме́ньше
@@ -284,14 +284,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: At the doctor in Russian: что у вас боли́т?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:74 title "Ordering in a Russian restaurant: принеси́те, пожа́луйста" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:76 title "At the doctor in Russian: что у вас боли́т?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:76 title "At the doctor in Russian: что у вас боли́т?" form title size 600 x 500 y 420
 
-    link end_again href lecture:75 title "Watch again" form text open here x 500 y 160
-    text end_count "75 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:75 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "75 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

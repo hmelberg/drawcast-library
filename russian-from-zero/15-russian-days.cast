@@ -159,7 +159,7 @@ B: Да! За́втра суббо́та!
 
     erase match
 
-    quiz "Which day has five inside its name? Pick one." store q2 reveal.text "пя́тница · пять · 5" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    quiz "Which day has five inside its name? Pick one." frame true store q2 reveal.text "пя́тница · пять · 5" reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
         right: Friday: пять, five, is right at the start.
         wrong: Look for пять at the start of a name.
         + пя́тница
@@ -168,14 +168,14 @@ B: Да! За́втра суббо́та!
 
     erase q2_stamp
 
-    ask "Сего́дня понеде́льник. What is за́втра? Type the day." answer ["вторник"] store q3 default вторник reveal.text "За́втра вто́рник." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "Сего́дня понеде́льник. What is за́втра? Type the day." frame true answer ["вторник"] store q3 default вторник reveal.text "За́втра вто́рник." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Вто́рник, Tuesday: the second day, from второ́й.
         wrong: Tomorrow is day two: think of второ́й, second.
 
     erase q3_stamp
 
-    quiz "Суббо́та: он, она́ or оно́? Pick one." store q4 reveal.text "суббо́та: она́" reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 80 reveal.color #b5482e voice b test t1
+    quiz "Суббо́та: он, она́ or оно́? Pick one." frame true store q4 reveal.text "суббо́та: она́" reveal.style label reveal.size 80 reveal.color #b5482e voice b test t1
         right: Она́: суббо́та ends in а, like ма́ма.
         wrong: Look at its very last letter.
         * он
@@ -184,7 +184,7 @@ B: Да! За́втра суббо́та!
 
     erase q4_stamp
 
-    quiz "Сего́дня суббо́та. What is за́втра? Pick one." store q5 reveal.text "За́втра воскресе́нье." reveal.at.x 500 reveal.at.y 400 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    quiz "Сего́дня суббо́та. What is за́втра? Pick one." frame true store q5 reveal.text "За́втра воскресе́нье." reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         right: Sunday: after суббо́та comes воскресе́нье, the last day of the week.
         wrong: Saturday, then the last day of the week.
         + воскресе́нье
@@ -226,14 +226,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Numbers to 100 in Russian: how much is it?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:14 title "I see mum in Russian: the -у ending" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:16 title "Numbers to 100 in Russian: how much is it?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:16 title "Numbers to 100 in Russian: how much is it?" form title size 600 x 500 y 420
 
-    link end_again href lecture:15 title "Watch again" form text open here x 500 y 160
-    text end_count "15 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:15 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "15 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

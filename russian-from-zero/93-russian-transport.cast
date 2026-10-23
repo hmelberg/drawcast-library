@@ -183,7 +183,7 @@ A: Now the whole call, with the words. Tap Practise after the dialogue.
 
     hide tom tom_name masha masha_name
 
-    quiz "You're on a full bus, and your stop is next. What do you ask the person in front of you?" reveal.text "Вы выхо́дите?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "You're on a full bus, and your stop is next. What do you ask the person in front of you?" frame true reveal.text "Вы выхо́дите?" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Вы выхо́дите? Are you getting off?
         wrong: You want to get to the door: ask if they're getting off.
@@ -193,7 +193,7 @@ A: Now the whole call, with the words. Tap Practise after the dialogue.
 
     erase question_3_stamp
 
-    quiz "Where's the metro? Где … метро́?" reveal.text "Где ста́нция метро́?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Where's the metro? Где … метро́?" frame true reveal.text "Где ста́нция метро́?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ста́нция метро́: the metro has stations.
         wrong: Остано́вка is for buses, and a переса́дка is a change. The metro stops at a …
         + ста́нция
@@ -202,7 +202,7 @@ A: Now the whole call, with the words. Tap Practise after the dialogue.
 
     erase question_4_stamp
 
-    quiz "Say you're getting off at the next stop: Я … на сле́дующей." reveal.text "Я выхожу́ на сле́дующей." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Say you're getting off at the next stop: Я … на сле́дующей." frame true reveal.text "Я выхожу́ на сле́дующей." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Выхожу́: я, now, like хожу́.
         wrong: It's now, not done, and it's я: like хожу́.
         * вы́шел
@@ -216,7 +216,7 @@ A: Now the whole call, with the words. Tap Practise after the dialogue.
 
     erase question_6_stamp
 
-    ask "Now build a whole sentence. Type: Where is the bus stop?" answer ["где остановка автобуса","где автобусная остановка","где остановка"] reveal.text "Где остано́вка авто́буса?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: Where is the bus stop?" frame true answer ["где остановка автобуса","где автобусная остановка","где остановка"] reveal.text "Где остано́вка авто́буса?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Где остано́вка авто́буса? Остано́вка, then авто́буса, of the bus.
         wrong: Где, then остано́вка, then авто́буса: of the bus.
@@ -270,14 +270,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Telling a story in Russian: снача́ла, пото́м
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:92 title "At the hotel in Russian: у меня́ не рабо́тает душ" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:94 title "Telling a story in Russian: снача́ла, пото́м" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:94 title "Telling a story in Russian: снача́ла, пото́м" form title size 600 x 500 y 420
 
-    link end_again href lecture:93 title "Watch again" form text open here x 500 y 160
-    text end_count "93 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:93 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "93 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

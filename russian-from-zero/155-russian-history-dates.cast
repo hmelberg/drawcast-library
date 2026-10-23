@@ -196,7 +196,7 @@ A: Эрмита́ж — зда́ние восемна́дцатого ве́ка
 A: А сего́дня? Напиши́те.
     draw b_who b_cue
 
-    ask "Напиши́те: Today is the 27th of May." answer ["27 е мая","27 мая","27е мая","двадцать седьмое мая","сегодня 27 е мая","сегодня 27 мая","сегодня 27е мая","сегодня двадцать седьмое мая"] reveal.text "Сего́дня два́дцать седьмо́е ма́я." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 50 reveal.color #3d3833 voice a
+    ask "Напиши́те: Today is the 27th of May." above ["b_who","b_cue"] answer ["27 е мая","27 мая","27е мая","двадцать седьмое мая","сегодня 27 е мая","сегодня 27 мая","сегодня 27е мая","сегодня двадцать седьмое мая"] reveal.text "Сего́дня два́дцать седьмо́е ма́я." reveal.style label reveal.size 50 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Како́е число́? → -ое. Когда́? → -ого.
         wrong: Сего́дня два́дцать седьмо́е ма́я. Како́е число́? → -ое; когда́? → -ого.
@@ -257,7 +257,7 @@ A: Москва́ ста́ла столи́цей двена́дцатого м�
 
     draw t_cue
 
-    ask "Напиши́те: The city was founded in the 18th century." answer ["в 18 веке основали город","в 18 веке основали петербург","в xviii веке основали город","в xviii веке основали петербург","в восемнадцатом веке основали город","в восемнадцатом веке основали петербург","город основали в 18 веке","город основали в 18м веке","город основали в xviii веке","город основали в восемнадцатом веке","петербург основали в 18 веке","петербург основали в 18м веке","петербург основали в xviii веке","петербург основали в восемнадцатом веке"] reveal.text "Го́род основа́ли в восемна́дцатом ве́ке." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 48 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: The city was founded in the 18th century." above t_cue answer ["в 18 веке основали город","в 18 веке основали петербург","в xviii веке основали город","в xviii веке основали петербург","в восемнадцатом веке основали город","в восемнадцатом веке основали петербург","город основали в 18 веке","город основали в 18м веке","город основали в xviii веке","город основали в восемнадцатом веке","петербург основали в 18 веке","петербург основали в 18м веке","петербург основали в xviii веке","петербург основали в восемнадцатом веке"] reveal.text "Го́род основа́ли в восемна́дцатом ве́ке." reveal.style label reveal.size 48 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! В восемна́дцатом ве́ке.
         wrong: Го́род основа́ли в восемна́дцатом ве́ке.
@@ -300,14 +300,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A Russian radio interview: have you ever cooked borscht?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:154 title "Overslept in Russian: проспал, заснул, дочитал" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:156 title "A Russian radio interview: have you ever cooked borscht?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:156 title "A Russian radio interview: have you ever cooked borscht?" form title size 600 x 500 y 420
 
-    link end_again href lecture:155 title "Watch again" form text open here x 500 y 160
-    text end_count "155 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:155 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "155 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

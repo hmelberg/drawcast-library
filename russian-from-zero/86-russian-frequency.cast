@@ -138,13 +138,13 @@ level: basic
     icon bal_t size 90 set twemoji x 710 y 560 or ["right anger bubble"] icon_look picture of "speech balloon" hidden true
     icon bal_m size 90 set twemoji x 290 y 560 or ["right anger bubble"] icon_look picture of "speech balloon" hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"b","text":"Том, ты ча́сто хо́дишь в кино́?","gloss":"Tom, do you often go to the cinema?"},{"by":"a","text":"Ра́ньше ча́сто ходи́л, а сейча́с ре́дко.","gloss":"I used to go often, but now rarely."},{"by":"b","text":"А в теа́тр?","gloss":"And to the theatre?"},{"by":"a","text":"Я никогда́ не хожу́. Мне там ску́чно.","gloss":"I never go. I'm bored there."},{"by":"b","text":"А мне в теа́тре интере́сно, но я хожу́ ре́дко.","gloss":"I find the theatre interesting, but I go rarely."},{"by":"a","text":"А в кино́ ты хо́дишь?","gloss":"And do you go to the cinema?"},{"by":"b","text":"Да, два ра́за в неде́лю. Иногда́ с бра́том.","gloss":"Yes, twice a week. Sometimes with my brother."},{"by":"a","text":"Дава́й пойдём в кино́ в суббо́ту!","gloss":"Let's go to the cinema on Saturday!"}] show_gloss false practice true size 1.4 hidden true
-    icon q_cin size 170 set twemoji x 500 y 480 or ["clapper board"] icon_look picture of cinema hidden true
-    icon q_bars size 170 set twemoji x 500 y 480 or ["chart increasing"] icon_look picture of "bar chart" hidden true
-    icon q_cal size 170 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "spiral calendar" hidden true
+    icon q_cin size 120 set twemoji x 500 y 480 or ["clapper board"] icon_look picture of cinema hidden true
+    icon q_bars size 120 set twemoji x 500 y 480 or ["chart increasing"] icon_look picture of "bar chart" hidden true
+    icon q_cal size 120 set twemoji x 500 y 480 or ["calendar"] icon_look picture of "spiral calendar" hidden true
     icon q_park size 170 set twemoji x 500 y 480 or ["evergreen tree"] icon_look picture of "deciduous tree" hidden true
     text q_say "Я ча́сто хожу́ в парк." say "Я ча́сто хожу́ в парк." x 500 y 300 font_size 56 hidden true
-    icon q_no size 150 set twemoji x 420 y 480 or ["prohibited"] icon_look picture of "no entry" hidden true
-    icon q_cin2 size 150 set twemoji x 600 y 480 or ["clapper board"] icon_look picture of cinema hidden true
+    icon q_no size 120 set twemoji x 420 y 480 or ["prohibited"] icon_look picture of "no entry" hidden true
+    icon q_cin2 size 120 set twemoji x 600 y 480 or ["clapper board"] icon_look picture of cinema hidden true
     text s1w "всегда́ · ча́сто · иногда́ · ре́дко" say "всегда́ · ча́сто · иногда́ · ре́дко" x 500 y 560 font_size 50 hidden true
     text s2w "никогда́ не хожу́" say "никогда́ не хожу́" colors {"^не$":"#8a5fa8"} x 500 y 450 font_size 54 hidden true
     text s3w "два ра́за в неде́лю" say "два ра́за в неде́лю" x 500 y 340 font_size 54 hidden true
@@ -276,7 +276,7 @@ A: Now the whole conversation. Listen, then practise it.
 
     draw q_cin
 
-    quiz "Ра́ньше я ча́сто ходи́л в кино́. What does it mean?" say_answer false reveal.text "used to go often" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Ра́ньше я ча́сто ходи́л в кино́. What does it mean?" above q_cin say_answer false reveal.text "used to go often" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: I used to go often: ра́ньше and the past ходи́л.
         wrong: Ра́ньше looks back.
@@ -288,7 +288,7 @@ A: Now the whole conversation. Listen, then practise it.
 
     draw q_bars
 
-    quiz "Which one means the most times?" reveal.text ча́сто reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Which one means the most times?" above q_bars reveal.text ча́сто reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Ча́сто is often; иногда́ is sometimes, and ре́дко is rarely.
         wrong: One of them means often.
         + ча́сто
@@ -299,7 +299,7 @@ A: Now the whole conversation. Listen, then practise it.
 
     draw q_cal
 
-    quiz "Twice a week?" reveal.text "два ра́за в неде́лю" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Twice a week?" above q_cal reveal.text "два ра́за в неде́лю" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Два ра́за, with the а after два, and в неде́лю, like в суббо́ту.
         wrong: Two things: the а after два, and неде́лю after в.
         * два раз в неде́лю
@@ -319,7 +319,7 @@ A: Я ча́сто хожу́ в парк.
 
     draw q_no q_cin2
 
-    ask "Now build a whole sentence. Type: I never go to the cinema." answer ["я никогда не хожу в кино","никогда не хожу в кино","в кино я никогда не хожу","я в кино никогда не хожу"] reveal.text "Я никогда́ не хожу́ в кино́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I never go to the cinema." above ["q_no","q_cin2"] answer ["я никогда не хожу в кино","никогда не хожу в кино","в кино я никогда не хожу","я в кино никогда не хожу"] reveal.text "Я никогда́ не хожу́ в кино́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я никогда́ не хожу́ в кино́: никогда́, then не, then the habit verb.
         wrong: Never takes не too, and the verb is the habit one.
@@ -382,14 +382,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Nothing and nobody in Russian: ничего́ не зна́ю
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:85 title "Time words in Russian: уже́, ещё, че́рез" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:87 title "Nothing and nobody in Russian: ничего́ не зна́ю" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:87 title "Nothing and nobody in Russian: ничего́ не зна́ю" form title size 600 x 500 y 420
 
-    link end_again href lecture:86 title "Watch again" form text open here x 500 y 160
-    text end_count "86 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:86 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "86 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

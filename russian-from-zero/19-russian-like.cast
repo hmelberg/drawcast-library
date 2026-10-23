@@ -152,7 +152,7 @@ A: Milk again, and cats: more than one, so Masha said нра́вятся.
 
     erase match
 
-    quiz "Masha loves cats: Мне о́чень … коты́. Which word fills the gap?" store q2 reveal.text "Мне о́чень нра́вятся коты́." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha loves cats: Мне о́чень … коты́. Which word fills the gap?" frame true store q2 reveal.text "Мне о́чень нра́вятся коты́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Коты́ are more than one, so the verb counts them.
         wrong: How many cats are pleasing her?
         * нра́вится
@@ -168,7 +168,7 @@ A: Milk again, and cats: more than one, so Masha said нра́вятся.
 
     erase tc1 tc2 tc3 q2_stamp
 
-    quiz "Say you like the book: Мне нра́вится … Which form fills the gap?" store q3 reveal.text "Мне нра́вится кни́га." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Say you like the book: Мне нра́вится … Which form fills the gap?" frame true store q3 reveal.text "Мне нра́вится кни́га." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: The book does the pleasing, so it keeps its plain form.
         wrong: Кни́гу was for a book being read. Who does the pleasing here?
         + кни́га
@@ -192,7 +192,7 @@ A: Milk again, and cats: more than one, so Masha said нра́вятся.
 
     erase i_city q4_stamp
 
-    quiz "What does Мне не нра́вится суп mean?" store q5 reveal.text "Мне не нра́вится суп." reveal.at.x 500 reveal.at.y 330 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "What does Мне не нра́вится суп mean?" frame true store q5 reveal.text "Мне не нра́вится суп." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: The soup doesn't please me: I don't like soup.
         wrong: Хочу́ would be want. And мне is the one pleased, not the soup.
         + I don't like soup.
@@ -247,14 +247,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A second Russian story: read it all yourself
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:18 title "Was in Russian: был, была, было" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:20 title "A second Russian story: read it all yourself" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:20 title "A second Russian story: read it all yourself" form title size 600 x 500 y 420
 
-    link end_again href lecture:19 title "Watch again" form text open here x 500 y 160
-    text end_count "19 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:19 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "19 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

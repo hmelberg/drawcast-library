@@ -168,7 +168,7 @@ A: Где Ди́ма? Не зна́ю. Наве́рное, до́ма.
 A: Напиши́те по-ру́сски, for Tom: you're the best cook, after all!
     text b1_cue "You're the best cook, after all!" #3d3833 x 500 y 560 font_size 52
 
-    ask "Напиши́те: You're the best cook, after all!" answer ["ведь вы лучший повар","ведь вы лучший повар в неве","ведь ты лучший повар","ведь ты лучший повар в неве","вы ведь лучший повар","вы ведь лучший повар в неве","вы же лучший повар","вы же лучший повар в неве","ты ведь лучший повар","ты ведь лучший повар в неве","ты же лучший повар","ты же лучший повар в неве"] reveal.text "Ты ведь лу́чший по́вар!" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: You're the best cook, after all!" above b1_cue answer ["ведь вы лучший повар","ведь вы лучший повар в неве","ведь ты лучший повар","ведь ты лучший повар в неве","вы ведь лучший повар","вы ведь лучший повар в неве","вы же лучший повар","вы же лучший повар в неве","ты ведь лучший повар","ты ведь лучший повар в неве","ты же лучший повар","ты же лучший повар в неве"] reveal.text "Ты ведь лу́чший по́вар!" reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Ведь: after all.
         wrong: Ты ведь лу́чший по́вар: ведь after ты.
@@ -292,14 +292,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Arguing in Russian: с одной стороны, с другой стороны
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:147 title "Building Russian words: решение, радость, помощник" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:149 title "Arguing in Russian: с одной стороны, с другой стороны" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:149 title "Arguing in Russian: с одной стороны, с другой стороны" form title size 600 x 500 y 420
 
-    link end_again href lecture:148 title "Watch again" form text open here x 500 y 160
-    text end_count "148 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:148 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "148 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

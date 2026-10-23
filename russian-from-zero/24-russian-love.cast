@@ -174,7 +174,7 @@ A: Tea only pleases me, so мне нра́вится; coffee and Moscow I love.
     icon q_coffee size 120 set twemoji x 600 y 560 or ["coffee"] icon_look picture of "hot beverage"
     parallel true
 
-    quiz "Masha tells you about Tom: Том … ко́фе. Which form fills the gap?" store q1 reveal.text "Том лю́бит ко́фе." reveal.at.x 500 reveal.at.y 360 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha tells you about Tom: Том … ко́фе. Which form fills the gap?" above ["q_tom","q_coffee"] store q1 reveal.text "Том лю́бит ко́фе." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Tom is a he, so it takes the он ending, ит.
         wrong: Tom is он: take the он row, the ending ит.
@@ -184,18 +184,18 @@ A: Tea only pleases me, so мне нра́вится; coffee and Moscow I love.
 
     erase q_tom q_coffee q1_stamp
 
-    icon q_mum size 130 set twemoji x 500 y 560 or ["old woman","grandma"] icon_look picture of "older woman"
+    icon q_mum size 120 set twemoji x 500 y 560 or ["old woman","grandma"] icon_look picture of "older woman"
 
-    ask "Say I love mum: Я люблю́ … Type ма́ма with the object ending." answer ["ма́му","маму"] store q2 default маму reveal.text "Я люблю́ ма́му." reveal.at.x 500 reveal.at.y 360 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    ask "Say I love mum: Я люблю́ … Type ма́ма with the object ending." above q_mum answer ["ма́му","маму"] store q2 default маму reveal.text "Я люблю́ ма́му." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Mum is loved, so ма́ма takes the object ending: ма́му.
         wrong: As in я ви́жу ма́му: the а at the end turns into у.
 
     erase q_mum q2_stamp
 
-    icon q_tv size 130 set twemoji x 500 y 560 or ["clapper board","film frames"] icon_look picture of television
+    icon q_tv size 120 set twemoji x 500 y 560 or ["clapper board","film frames"] icon_look picture of television
 
-    quiz "Tom and Masha say it together: Мы … фильм. Which form fills the gap?" store q3 reveal.text "Мы смо́трим фильм." reveal.at.x 500 reveal.at.y 360 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Tom and Masha say it together: Мы … фильм. Which form fills the gap?" above q_tv store q3 reveal.text "Мы смо́трим фильм." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: For мы the ending is им, as in мы лю́бим.
         wrong: Мы takes им, as in мы лю́бим.
         * смо́трят
@@ -204,9 +204,9 @@ A: Tea only pleases me, so мне нра́вится; coffee and Moscow I love.
 
     erase q_tv q3_stamp
 
-    icon q_tea size 130 set twemoji x 500 y 560 or ["hot beverage"] icon_look picture of "teacup without handle"
+    icon q_tea size 120 set twemoji x 500 y 560 or ["hot beverage"] icon_look picture of "teacup without handle"
 
-    quiz "Which one says I love tea?" store q4 reveal.text "Я люблю́ чай." reveal.at.x 500 reveal.at.y 360 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Which one says I love tea?" above q_tea store q4 reveal.text "Я люблю́ чай." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: With люблю́ I do the loving, and it's stronger than нра́вится.
         wrong: Хочу́ is want, and нра́вится only pleases.
         * Я хочу́ чай.
@@ -217,7 +217,7 @@ A: Tea only pleases me, so мне нра́вится; coffee and Moscow I love.
 
     icon q_heart size 120 set twemoji x 500 y 560 or ["heart"] icon_look picture of "red heart"
 
-    ask "For они́: они́ лю́б… Type the two letters of the ending." answer ["ят","любят","лю́бят"] store q5 default ят reveal.text "они́ лю́бят" reveal.at.x 500 reveal.at.y 360 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "For они́: они́ лю́б… Type the two letters of the ending." above q_heart answer ["ят","любят","лю́бят"] store q5 default ят reveal.text "они́ лю́бят" reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯ
         right: Они́ лю́бят: ят, as in они́ говоря́т.
         wrong: This family has ят for они́, not lesson twenty-two's ют.
@@ -269,14 +269,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: At the market in Russian: хлеб, сыр, рыба
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:23 title "Where do you live in Russian: я живу в Москве" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:25 title "At the market in Russian: хлеб, сыр, рыба" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:25 title "At the market in Russian: хлеб, сыр, рыба" form title size 600 x 500 y 420
 
-    link end_again href lecture:24 title "Watch again" form text open here x 500 y 160
-    text end_count "24 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:24 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "24 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

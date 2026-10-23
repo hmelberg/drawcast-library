@@ -145,9 +145,9 @@ B: Сто три́дцать три ends in три, so it takes рубля́.
 
     hide people
 
-    icon q_fish size 180 set twemoji x 500 y 470 or ["tropical fish"] icon_look picture of fish
+    icon q_fish size 120 set twemoji x 500 y 470 or ["tropical fish"] icon_look picture of fish
 
-    quiz "Да́йте, пожа́луйста, ___. Which word fills the gap?" reveal.text "Да́йте ры́бу." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Да́йте, пожа́луйста, ___. Which word fills the gap?" above q_fish reveal.text "Да́йте ры́бу." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, from memory, then your score.
         right: After да́йте, the а of ры́ба turns into у.
         wrong: Think of lesson fourteen: after да́йте, what happens to the а of ры́ба?
@@ -157,9 +157,9 @@ B: Сто три́дцать три ends in три, so it takes рубля́.
 
     erase q_fish question_2_stamp
 
-    text q_22 "22 ₽" #3d3833 x 500 y 470 font_size 130
+    text q_22 "22 ₽" #3d3833 x 500 y 470 font_size 110
 
-    quiz "Два́дцать два ___. Which word for roubles?" reveal.text "два́дцать два рубля́" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Два́дцать два ___. Which word for roubles?" above q_22 reveal.text "два́дцать два рубля́" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: The last word is два, so рубля́.
         wrong: Listen to the last word of the number.
         * рубль
@@ -168,9 +168,9 @@ B: Сто три́дцать три ends in три, so it takes рубля́.
 
     erase q_22 question_3_stamp
 
-    text q_12 "12 ₽" #3d3833 x 500 y 470 font_size 130
+    text q_12 "12 ₽" #3d3833 x 500 y 470 font_size 110
 
-    quiz "Двена́дцать ___. Which word for roubles?" reveal.text "двена́дцать рубле́й" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Двена́дцать ___. Which word for roubles?" above q_12 reveal.text "двена́дцать рубле́й" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Twelve is one word, not два, so it takes рубле́й, like every teen.
         wrong: Двена́дцать is a teen: one word, not два.
         * рубль
@@ -179,17 +179,17 @@ B: Сто три́дцать три ends in три, so it takes рубля́.
 
     erase q_12 question_4_stamp
 
-    icon q_bread size 180 set twemoji x 500 y 470 or ["baguette bread"] icon_look picture of bread
+    icon q_bread size 120 set twemoji x 500 y 470 or ["baguette bread"] icon_look picture of bread
 
-    ask "Type the Russian for bread." answer ["хлеб"] reveal.text хлеб reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
+    ask "Type the Russian for bread." above q_bread answer ["хлеб"] reveal.text хлеб reveal.style label reveal.size 72 reveal.color #3d3833 voice b test t1
         right: Хлеб: and after да́йте it stays хлеб.
         wrong: Four letters, starting with х.
 
     erase q_bread question_5_stamp
 
-    text q_1 "1 ₽" #3d3833 x 500 y 470 font_size 130
+    text q_1 "1 ₽" #3d3833 x 500 y 470 font_size 110
 
-    ask "Type one rouble in Russian, in two words." answer ["один рубль","1 рубль","рубль"] reveal.text "оди́н рубль" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
+    ask "Type one rouble in Russian, in two words." above q_1 answer ["один рубль","1 рубль","рубль"] reveal.text "оди́н рубль" reveal.style label reveal.size 72 reveal.color #3d3833 voice a test t1
         right: Оди́н рубль: after оди́н, the plain word.
         wrong: Two words: one, then the plain word for rouble.
 
@@ -240,14 +240,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: What time is it in Russian: который час?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:24 title "I love it in Russian: люблю" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:26 title "What time is it in Russian: который час?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:26 title "What time is it in Russian: который час?" form title size 600 x 500 y 420
 
-    link end_again href lecture:25 title "Watch again" form text open here x 500 y 160
-    text end_count "25 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:25 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "25 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

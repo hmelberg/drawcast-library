@@ -49,16 +49,16 @@ heading: false
     text g3 "Сего́дня хо́лодно, [поэ́тому] я до́ма." colors {"поэтому":"#9c7a16"} x 500 y 500 font_size 42 hidden true
     text g4 "Я до́ма, [потому́ что] сего́дня хо́лодно." colors {"потому что":"#2f6b8f"} x 500 y 420 font_size 42 hidden true
     group gaps members ["g1","g2","g3","g4"] hidden true
-    icon q_ill size 150 set twemoji x 500 y 520 or ["sneezing face"] icon_look picture of "face with thermometer" hidden true
+    icon q_ill size 120 set twemoji x 500 y 520 or ["sneezing face"] icon_look picture of "face with thermometer" hidden true
     text q2a "Мне предложи́ли рабо́ту в Петербу́рге," x 500 y 560 font_size 46 hidden true
     text q2b "[поэ́тому]{потому́ что,поэ́тому} я [переезжа́ю]{переезжа́ешь,переезжа́ю,переезжа́ет}." colors {"поэтому":"#9c7a16"} x 500 y 480 font_size 46 hidden true
-    icon q_offer size 150 set twemoji x 500 y 520 or ["briefcase"] icon_look picture of handshake hidden true
+    icon q_offer size 120 set twemoji x 500 y 520 or ["briefcase"] icon_look picture of handshake hidden true
     icon q_lena size 130 set twemoji x 150 y 450 or ["girl"] icon_look picture of woman hidden true
     text q_lena_name "Ле́на" #8f887c x 150 y 345 font_size 32 hidden true
     icon q_bag size 150 set twemoji x 500 y 540 or ["package"] icon_look picture of luggage hidden true
     text q5_full "Я переезжа́ю в Петербу́рг," say "Я переезжа́ю в Петербу́рг, потому́ что там но́вая рабо́та." x 500 y 380 font_size 46 hidden true
     text q5_full2 "потому́ что там но́вая рабо́та." say "Я переезжа́ю в Петербу́рг, потому́ что там но́вая рабо́та." colors {"потому что":"#2f6b8f"} x 500 y 310 font_size 46 hidden true
-    icon q_book size 150 set twemoji x 500 y 540 or ["open book"] icon_look picture of books hidden true
+    icon q_book size 120 set twemoji x 500 y 540 or ["open book"] icon_look picture of books hidden true
     text q6_full "Я учу́ ру́сский," say "Я учу́ ру́сский, потому́ что я переезжа́ю в Петербу́рг." x 500 y 390 font_size 50 hidden true
     text q6_full2 "потому́ что я переезжа́ю в Петербу́рг." say "Я учу́ ру́сский, потому́ что я переезжа́ю в Петербу́рг." colors {"потому что":"#2f6b8f"} x 500 y 315 font_size 46 hidden true
     text b1 "Почему́?  →  Потому́ что…" say "Почему́? Потому́ что…" colors {"почему":"#2f6b8f","потому что":"#2f6b8f"} x 500 y 520 font_size 54 hidden true
@@ -191,7 +191,7 @@ B: Я до́ма, потому́ что сего́дня хо́лодно.
 
     draw q_ill
 
-    quiz "Someone asks: Почему́ ты не на рабо́те? Вы́берите the answer." reveal.text "Потому́ что я бо́лен." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "Someone asks: Почему́ ты не на рабо́те? Вы́берите the answer." above q_ill reveal.text "Потому́ что я бо́лен." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         intro: Six questions now, then your score.
         right: Пра́вильно! Потому́ что answers почему́.
         wrong: Почему́ asks why; потому́ что answers it.
@@ -211,7 +211,7 @@ A: Мне предложи́ли рабо́ту в Петербу́рге, по�
 
     draw q_offer
 
-    quiz "Вы́берите: which means They offered me a job?" reveal.text "Мне предложи́ли рабо́ту." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    quiz "Вы́берите: which means They offered me a job?" above q_offer reveal.text "Мне предложи́ли рабо́ту." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         right: Мне предложи́ли: to me, they offered.
         wrong: Мне, to me, and the они́ form: предложи́ли.
         * Я предложи́л рабо́ту.
@@ -245,7 +245,7 @@ A: Я переезжа́ю в Петербу́рг, потому́ что там
 
     draw q_book
 
-    ask "Напиши́те: I'm learning Russian because I'm moving to Petersburg." answer ["я учу русский потому что я переезжаю в петербург","я учу русский потому что переезжаю в петербург","я учу русский потому что я переезжаю в санкт-петербург","я изучаю русский потому что я переезжаю в петербург","я изучаю русский потому что переезжаю в петербург","я изучаю русский потому что я переезжаю в санкт-петербург","учу русский потому что я переезжаю в петербург","учу русский потому что переезжаю в петербург","учу русский потому что я переезжаю в санкт-петербург","изучаю русский потому что я переезжаю в петербург","изучаю русский потому что переезжаю в петербург","изучаю русский потому что я переезжаю в санкт-петербург","я учу русский язык потому что я переезжаю в петербург","я учу русский язык потому что переезжаю в петербург","я учу русский язык потому что я переезжаю в санкт-петербург","я изучаю русский язык потому что я переезжаю в петербург","я изучаю русский язык потому что переезжаю в петербург","я изучаю русский язык потому что я переезжаю в санкт-петербург","я переезжаю в петербург поэтому я учу русский","переезжаю в петербург поэтому я учу русский","я переезжаю в санкт-петербург поэтому я учу русский","я переезжаю в петербург поэтому я изучаю русский","переезжаю в петербург поэтому я изучаю русский","я переезжаю в санкт-петербург поэтому я изучаю русский","я переезжаю в петербург поэтому учу русский","переезжаю в петербург поэтому учу русский","я переезжаю в санкт-петербург поэтому учу русский","я переезжаю в петербург поэтому изучаю русский","переезжаю в петербург поэтому изучаю русский","я переезжаю в санкт-петербург поэтому изучаю русский","я переезжаю в петербург поэтому я учу русский язык","переезжаю в петербург поэтому я учу русский язык","я переезжаю в санкт-петербург поэтому я учу русский язык","я переезжаю в петербург поэтому я изучаю русский язык","переезжаю в петербург поэтому я изучаю русский язык","я переезжаю в санкт-петербург поэтому я изучаю русский язык"] reveal.text "Я учу́ ру́сский, потому́ что…" reveal.at.x 500 reveal.at.y 340 reveal.style label reveal.size 50 reveal.color #3d3833 voice b test t1
+    ask "Напиши́те: I'm learning Russian because I'm moving to Petersburg." above q_book answer ["я учу русский потому что я переезжаю в петербург","я учу русский потому что переезжаю в петербург","я учу русский потому что я переезжаю в санкт-петербург","я изучаю русский потому что я переезжаю в петербург","я изучаю русский потому что переезжаю в петербург","я изучаю русский потому что я переезжаю в санкт-петербург","учу русский потому что я переезжаю в петербург","учу русский потому что переезжаю в петербург","учу русский потому что я переезжаю в санкт-петербург","изучаю русский потому что я переезжаю в петербург","изучаю русский потому что переезжаю в петербург","изучаю русский потому что я переезжаю в санкт-петербург","я учу русский язык потому что я переезжаю в петербург","я учу русский язык потому что переезжаю в петербург","я учу русский язык потому что я переезжаю в санкт-петербург","я изучаю русский язык потому что я переезжаю в петербург","я изучаю русский язык потому что переезжаю в петербург","я изучаю русский язык потому что я переезжаю в санкт-петербург","я переезжаю в петербург поэтому я учу русский","переезжаю в петербург поэтому я учу русский","я переезжаю в санкт-петербург поэтому я учу русский","я переезжаю в петербург поэтому я изучаю русский","переезжаю в петербург поэтому я изучаю русский","я переезжаю в санкт-петербург поэтому я изучаю русский","я переезжаю в петербург поэтому учу русский","переезжаю в петербург поэтому учу русский","я переезжаю в санкт-петербург поэтому учу русский","я переезжаю в петербург поэтому изучаю русский","переезжаю в петербург поэтому изучаю русский","я переезжаю в санкт-петербург поэтому изучаю русский","я переезжаю в петербург поэтому я учу русский язык","переезжаю в петербург поэтому я учу русский язык","я переезжаю в санкт-петербург поэтому я учу русский язык","я переезжаю в петербург поэтому я изучаю русский язык","переезжаю в петербург поэтому я изучаю русский язык","я переезжаю в санкт-петербург поэтому я изучаю русский язык"] reveal.text "Я учу́ ру́сский, потому́ что…" reveal.style label reveal.size 50 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Молоде́ц! The result, then потому́ что and the cause.
         wrong: Я учу́ ру́сский, then потому́ что, then я переезжа́ю в Петербу́рг.
@@ -309,14 +309,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Packing in Russian: все эти вещи
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:100 title "Lesson 100: a Russian story" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:102 title "Packing in Russian: все эти вещи" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:102 title "Packing in Russian: все эти вещи" form title size 600 x 500 y 420
 
-    link end_again href lecture:101 title "Watch again" form text open here x 500 y 160
-    text end_count "101 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:101 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "101 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -59,11 +59,11 @@ level: basic
     text g6 "на вокза́ле" say "на вокза́ле" colors {"е$":"#d0865f"} x 300 y 215 font_size 40 hidden true
     text k6 "на вокза́л" say "на вокза́л" x 700 y 215 font_size 40 hidden true
     group board members ["h_gde","h_kuda","h_gde_s","h_kuda_s","g1","g2","g3","g4","g5","g6","k1","k2","k3","k4","k5","k6"] hidden true
-    icon qi_bank size 170 set twemoji x 500 y 470 or ["money bag","classical building"] icon_look picture of bank hidden true
-    icon qi_school size 170 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school hidden true
-    icon qi_stat size 170 set twemoji x 500 y 470 or ["train","railway car"] icon_look picture of station hidden true
-    icon qi_park size 170 set twemoji x 500 y 470 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
-    icon qi_city size 170 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
+    icon qi_bank size 120 set twemoji x 500 y 470 or ["money bag","classical building"] icon_look picture of bank hidden true
+    icon qi_school size 120 set twemoji x 500 y 470 or ["school building","classical building"] icon_look picture of school hidden true
+    icon qi_stat size 120 set twemoji x 500 y 470 or ["train","railway car"] icon_look picture of station hidden true
+    icon qi_park size 120 set twemoji x 500 y 470 or ["evergreen tree","national park"] icon_look picture of "deciduous tree" hidden true
+    icon qi_city size 120 set twemoji x 500 y 470 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
     icon r0 size 100 set twemoji x 260 y 450 or ["city sunset","classical building"] icon_look picture of cityscape hidden true
     icon r1 size 100 set twemoji x 380 y 450 or ["department store","shopping bags"] icon_look picture of "convenience store" hidden true
     icon r2 size 100 set twemoji x 500 y 450 or ["money bag","classical building"] icon_look picture of bank hidden true
@@ -153,7 +153,7 @@ A: So once you're there, nearly every place takes е. On the way, only the а-wo
 
     draw qi_bank
 
-    quiz "Tom was at the bank: Я был ___." reveal.text "Я был в ба́нке." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Tom was at the bank: Я был ___." above qi_bank reveal.text "Я был в ба́нке." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: He was there, so в and е.
         wrong: Was he there, or on his way? And is a bank like the station?
@@ -165,7 +165,7 @@ A: So once you're there, nearly every place takes е. On the way, only the а-wo
 
     draw qi_school
 
-    ask "Masha's brother was at school yesterday. Type the missing word: Вчера́ брат был в ___." answer ["школе"] reveal.text "в шко́ле" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Masha's brother was at school yesterday. Type the missing word: Вчера́ брат был в ___." above qi_school answer ["школе"] reveal.text "в шко́ле" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Шко́ле: the а of шко́ла makes way for е.
         wrong: Start from шко́ла; he was there, so what does the а become?
@@ -174,7 +174,7 @@ A: So once you're there, nearly every place takes е. On the way, only the а-wo
 
     draw qi_stat
 
-    quiz "Dad was at the station: Па́па был ___ вокза́ле. Which little word?" reveal.text "на вокза́ле" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Dad was at the station: Па́па был ___ вокза́ле. Which little word?" above qi_stat reveal.text "на вокза́ле" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: The station takes на, like рабо́та.
         wrong: The station is the odd one, like work.
         * в
@@ -184,7 +184,7 @@ A: So once you're there, nearly every place takes е. On the way, only the а-wo
 
     draw qi_park
 
-    quiz "Now Masha is on her way to the park: Ма́ша идёт ___." reveal.text "Ма́ша идёт в парк." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Now Masha is on her way to the park: Ма́ша идёт ___." above qi_park reveal.text "Ма́ша идёт в парк." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: В парк: on the way, a he-word stays as it is. В па́рке is for once she's there.
         wrong: Is she there yet, or on her way?
         + в парк
@@ -195,7 +195,7 @@ A: So once you're there, nearly every place takes е. On the way, only the а-wo
 
     draw qi_city
 
-    ask "Tom was in town. Type the missing word: Я был в ___." answer ["городе"] reveal.text "Я был в го́роде." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    ask "Tom was in town. Type the missing word: Я был в ___." above qi_city answer ["городе"] reveal.text "Я был в го́роде." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Го́роде: го́род just adds е.
         wrong: Start from го́род; he was there, so add the place ending.
@@ -242,14 +242,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: I can in Russian: могу, можно, нужно
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:33 title "Weather in Russian: холодно, тепло, идёт снег" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:35 title "I can in Russian: могу, можно, нужно" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:35 title "I can in Russian: могу, можно, нужно" form title size 600 x 500 y 420
 
-    link end_again href lecture:34 title "Watch again" form text open here x 500 y 160
-    text end_count "34 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:34 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "34 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

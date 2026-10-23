@@ -145,9 +145,9 @@ B: Ве́чером Том звони́т Ма́ше.
 
     hide masha masha_name tom tom_name phone phone_m
 
-    icon q_bro size 170 set twemoji x 500 y 470 or ["child"] icon_look picture of boy
+    icon q_bro size 120 set twemoji x 500 y 470 or ["child"] icon_look picture of boy
 
-    quiz "Masha phones her brother. Я звоню́ ___ бра́ту. Which word fills the gap?" reveal.text "Я звоню́ моему́ бра́ту." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Masha phones her brother. Я звоню́ ___ бра́ту. Which word fills the gap?" above q_bro reveal.text "Я звоню́ моему́ бра́ту." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         intro: Five questions now, then your score.
         right: Моему́: you phone to someone, so the to-ending, on my and on бра́ту.
         wrong: Звоню́ takes the to-ending, on my too: моему́.
@@ -157,9 +157,9 @@ B: Ве́чером Том звони́т Ма́ше.
 
     erase q_bro
 
-    icon q_cafe size 170 set twemoji x 500 y 470 or ["teacup without handle"] icon_look picture of "hot beverage"
+    icon q_cafe size 120 set twemoji x 500 y 470 or ["teacup without handle"] icon_look picture of "hot beverage"
 
-    quiz "Tom says: I'm at the café with my mum. Я в кафе́ с ___ ма́мой. Which is right?" reveal.text "Я в кафе́ с мое́й ма́мой." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Tom says: I'm at the café with my mum. Я в кафе́ с ___ ма́мой. Which is right?" above q_cafe reveal.text "Я в кафе́ с мое́й ма́мой." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Мое́й: ма́ма is a she-word, and with her it's мое́й.
         wrong: Ма́ма is a she-word, and the she side says мое́й every time.
         + мое́й
@@ -168,9 +168,9 @@ B: Ве́чером Том звони́т Ма́ше.
 
     erase q_cafe
 
-    icon q_cat size 170 set twemoji x 500 y 470 or ["man","person"] icon_look picture of "man raising hand"
+    icon q_cat size 120 set twemoji x 500 y 470 or ["man","person"] icon_look picture of "man raising hand"
 
-    quiz "Ivan's friend is at grandma's too. Grandma is with his friend: Ба́бушка с ___ дру́гом." reveal.text "Ба́бушка с его́ дру́гом." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "Ivan's friend is at grandma's too. Grandma is with his friend: Ба́бушка с ___ дру́гом." above q_cat reveal.text "Ба́бушка с его́ дру́гом." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Его́: his never changes, whatever the case.
         wrong: His and her never change: it stays его́.
         * ему́
@@ -192,9 +192,9 @@ A: Приве́т твоему́ бра́ту!
 
     erase q_tom q_say
 
-    icon q_walk size 160 set twemoji x 500 y 470 or ["person walking"] icon_look picture of footprints
+    icon q_walk size 120 set twemoji x 500 y 470 or ["person walking"] icon_look picture of footprints
 
-    ask "Now build a whole sentence. Type: I'm going to my brother's." answer ["я иду к моему брату","иду к моему брату"] reveal.text "Я иду́ к моему́ бра́ту." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I'm going to my brother's." above q_walk answer ["я иду к моему брату","иду к моему брату"] reveal.text "Я иду́ к моему́ бра́ту." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я иду́ к моему́ бра́ту: к, and the to-ending on my and on brother.
         wrong: Start with я иду́ к, then my and brother, both in the to-form.
@@ -250,14 +250,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A sixth Russian story: Ivan's birthday
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:58 title "In a big house in Russian: в большо́м до́ме" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:60 title "A sixth Russian story: Ivan's birthday" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:60 title "A sixth Russian story: Ivan's birthday" form title size 600 x 500 y 420
 
-    link end_again href lecture:59 title "Watch again" form text open here x 500 y 160
-    text end_count "59 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:59 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "59 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

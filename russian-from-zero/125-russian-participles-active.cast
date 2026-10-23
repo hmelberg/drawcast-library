@@ -242,7 +242,7 @@ A: Ива́н — наш бы́вший сосе́д: он жил здесь р�
 A: Вы́берите.
     text t4 "жильцы́, рабо́тающие до́ма" say "жильцы́, рабо́тающие до́ма" new true colors {"ющ":"#b8860b"} x 500 y 560 font_size 54
 
-    quiz "Жильцы́, рабо́тающие до́ма: what does it mean?" shuffle true voice a test t1
+    quiz "Жильцы́, рабо́тающие до́ма: what does it mean?" above t4 shuffle true voice a test t1
         right: Щ is the present: кото́рые рабо́тают до́ма.
         wrong: Щ is the present: кото́рые рабо́тают до́ма, who work at home.
         + residents who work at home
@@ -262,7 +262,7 @@ B: Ива́н — наш бы́вший сосе́д.
 A: Да́льше.
     text t6 "по́вар, рабо́тающий в «Неве́»" say "по́вар, рабо́тающий в «Неве́»" new true colors {"ющ":"#b8860b"} x 500 y 560 font_size 54
 
-    ask "Напиши́те with кото́рый: по́вар, рабо́тающий в «Неве́»." answer ["повар который работает в неве","который работает в неве"] test t1
+    ask "Напиши́те with кото́рый: по́вар, рабо́тающий в «Неве́»." above t6 answer ["повар который работает в неве","который работает в неве"] test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Щ is the present: кото́рый рабо́тает.
         wrong: Щ is the present: по́вар, кото́рый рабо́тает в «Неве́».
@@ -329,14 +329,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Closed and sold out in Russian: закрыто, продано
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:124 title "Saying ты at work in Russian: давай на ты" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:126 title "Closed and sold out in Russian: закрыто, продано" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:126 title "Closed and sold out in Russian: закрыто, продано" form title size 600 x 500 y 420
 
-    link end_again href lecture:125 title "Watch again" form text open here x 500 y 160
-    text end_count "125 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:125 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "125 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

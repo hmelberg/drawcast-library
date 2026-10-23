@@ -111,7 +111,7 @@ A: Прав (@draw w_pravda@) is related to пра́вда, the truth: ты пр
 
     hide tom tom_name masha masha_name
 
-    quiz "Бо́лен means ill: a man says я бо́лен. Now guess: what does a woman say? Я …" store chk reveal.text больна́ reveal.at.x 500 reveal.at.y 460 reveal.style label reveal.size 64 reveal.color #3d3833 voice a
+    quiz "Бо́лен means ill: a man says я бо́лен. Now guess: what does a woman say? Я …" frame true store chk reveal.text больна́ reveal.style label reveal.size 64 reveal.color #3d3833 voice a
         right: Больна́: the а comes, and the е drops out.
         wrong: Think of свобо́ден and свобо́дна: the е drops out.
         * бо́лена
@@ -166,7 +166,7 @@ A: Now Masha and I, on the phone. Listen, then practise it.
 
     hide tom tom_name masha masha_name
 
-    quiz "A man has too much work tonight. Which word finishes his sentence: Я …?" reveal.text "Я за́нят." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A man has too much work tonight. Which word finishes his sentence: Я …?" frame true reveal.text "Я за́нят." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: За́нят: a man, so no ending.
         wrong: A man: no ending at all, like был.
@@ -176,7 +176,7 @@ A: Now Masha and I, on the phone. Listen, then practise it.
 
     erase question_3_stamp
 
-    quiz "A woman makes a good point. Tell her she's right." reveal.text "Ты права́." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "A woman makes a good point. Tell her she's right." frame true reveal.text "Ты права́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Ты права́: the а, for a woman.
         wrong: To a woman: the а, like была́.
         + Ты права́.
@@ -185,7 +185,7 @@ A: Now Masha and I, on the phone. Listen, then practise it.
 
     erase question_4_stamp
 
-    quiz "Time to go. Ask your friends if they're ready. Вы…?" reveal.text "Вы гото́вы?" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Time to go. Ask your friends if they're ready. Вы…?" frame true reveal.text "Вы гото́вы?" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Вы гото́вы: вы takes the ы.
         wrong: More than one, and вы: the ы, as in за́няты.
         * гото́в
@@ -198,7 +198,7 @@ A: Now Masha and I, on the phone. Listen, then practise it.
 
     erase question_6_stamp
 
-    ask "Now build a whole sentence. As a man, type: Yesterday I was busy." answer ["вчера я был занят","я был занят вчера","я вчера был занят","вчера был занят","был занят вчера","вчера я была занята","я была занята вчера","я вчера была занята","вчера была занята"] reveal.text "Вчера́ я был за́нят." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. As a man, type: Yesterday I was busy." frame true answer ["вчера я был занят","я был занят вчера","я вчера был занят","вчера был занят","был занят вчера","вчера я была занята","я была занята вчера","я вчера была занята","вчера была занята"] reveal.text "Вчера́ я был за́нят." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Вчера́ я был за́нят: был, then за́нят, both with no ending.
         wrong: Вчера́, я, был for was, then за́нят.
@@ -250,14 +250,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Holidays in Russian: с Но́вым го́дом!
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:87 title "Nothing and nobody in Russian: ничего́ не зна́ю" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:89 title "Holidays in Russian: с Но́вым го́дом!" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:89 title "Holidays in Russian: с Но́вым го́дом!" form title size 600 x 500 y 420
 
-    link end_again href lecture:88 title "Watch again" form text open here x 500 y 160
-    text end_count "88 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:88 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "88 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

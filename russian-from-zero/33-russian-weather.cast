@@ -63,9 +63,9 @@ level: basic
     group speakers members ["tom","tom_name","masha","masha_name"] hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Приве́т! В Москве́ хо́лодно?","gloss":"Hi! Is it cold in Moscow?"},{"by":"b","text":"О́чень хо́лодно! Идёт снег.","gloss":"Very cold! It's snowing."},{"by":"a","text":"А в Ло́ндоне идёт дождь.","gloss":"And in London it's raining."},{"by":"b","text":"Зимо́й тут хо́лодно.","gloss":"It's cold here in winter."}] size 1.3 x 500 width 660 hidden true
     dialogue talk2 speakers.a tom speakers.b masha turns [{"by":"a","text":"А ле́том?","gloss":"And in summer?"},{"by":"b","text":"Ле́том жа́рко!","gloss":"In summer it's hot!"},{"by":"b","text":"Мне нра́вится ле́то.","gloss":"I like summer."}] size 1.3 x 500 width 660 hidden true
-    icon t_snow size 130 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of "cloud with snow" hidden true
-    icon t_sun size 130 set twemoji x 500 y 470 or ["sun"] icon_look picture of "sun behind small cloud" hidden true
-    icon t_snowman size 130 set twemoji x 500 y 470 or ["snowman"] icon_look picture of snowflake hidden true
+    icon t_snow size 120 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of "cloud with snow" hidden true
+    icon t_sun size 120 set twemoji x 500 y 470 or ["sun"] icon_look picture of "sun behind small cloud" hidden true
+    icon t_snowman size 120 set twemoji x 500 y 470 or ["snowman"] icon_look picture of snowflake hidden true
 
     card title Weather
 
@@ -130,9 +130,9 @@ A: Ле́то becomes ле́том, and о́сень, о́сенью.
 
     hide e_i1 e_n1 e_g1 e_w1 e_i2 e_n2 e_g2 e_w2 e_i3 e_n3 e_g3 e_w3 e_i4 e_n4 e_g4 e_w4
 
-    icon k_snowman size 130 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of snowman
+    icon k_snowman size 120 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of snowman
 
-    quiz "In winter it snows. Which is right? Pick one." reveal.text "Зимо́й идёт снег." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 voice b
+    quiz "In winter it snows. Which is right? Pick one." above k_snowman reveal.text "Зимо́й идёт снег." reveal.style label reveal.size 64 reveal.color #3d3833 voice b
         right: Зимо́й already means in winter: no в needed.
         wrong: Look for the one-word in winter.
         * В зима́ идёт снег.
@@ -171,7 +171,7 @@ A: Ле́том жа́рко: one word for in summer, one for hot, and no is any
 
     draw t_snow
 
-    quiz "Which one says it's snowing? Pick one." reveal.text "Идёт снег." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 store q1 voice a test t1
+    quiz "Which one says it's snowing? Pick one." above t_snow reveal.text "Идёт снег." reveal.style label reveal.size 64 reveal.color #3d3833 store q1 voice a test t1
         intro: Five questions now, then your score.
         right: Снег is snow, and it goes: идёт снег.
         wrong: Дождь is rain; you want the snow.
@@ -185,7 +185,7 @@ A: Ле́том жа́рко: one word for in summer, one for hot, and no is any
 
     draw t_sun
 
-    quiz "Yesterday it was warm: Вчера́ … тепло́. Which word fills the gap?" reveal.text "Вчера́ бы́ло тепло́." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 store q2 voice b test t1
+    quiz "Yesterday it was warm: Вчера́ … тепло́. Which word fills the gap?" above t_sun reveal.text "Вчера́ бы́ло тепло́." reveal.style label reveal.size 64 reveal.color #3d3833 store q2 voice b test t1
         right: With no he and no she in the weather, was is бы́ло, the оно́ form.
         wrong: No he and no she here: think of оно́.
         + бы́ло
@@ -198,7 +198,7 @@ A: Ле́том жа́рко: one word for in summer, one for hot, and no is any
 
     draw t_snowman
 
-    ask "Type the Russian for in winter." answer ["зимо́й","зимой"] default зимой reveal.text зимо́й reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 store q3 voice a test t1
+    ask "Type the Russian for in winter." above t_snowman answer ["зимо́й","зимой"] default зимой reveal.text зимо́й reveal.style label reveal.size 64 reveal.color #3d3833 store q3 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
         right: Зима́ swaps its а for ой, with no в.
         wrong: Start from зима́ and change its end.
@@ -207,9 +207,9 @@ A: Ле́том жа́рко: one word for in summer, one for hot, and no is any
 
     erase t_snowman q3_stamp
 
-    icon t_cold size 130 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of "cold face"
+    icon t_cold size 120 set twemoji x 500 y 470 or ["snowflake"] icon_look picture of "cold face"
 
-    quiz "You feel cold. How do you say so? Pick one." reveal.text "Мне хо́лодно." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 store q4 voice b test t1
+    quiz "You feel cold. How do you say so? Pick one." above t_cold reveal.text "Мне хо́лодно." reveal.style label reveal.size 64 reveal.color #3d3833 store q4 voice b test t1
         right: The cold goes to you, so it's мне.
         wrong: It's like your age: given to you.
         * Я хо́лодно.
@@ -220,9 +220,9 @@ A: Ле́том жа́рко: one word for in summer, one for hot, and no is any
 
     erase t_cold q4_stamp
 
-    icon t_leaf size 130 set twemoji x 500 y 470 or ["maple leaf"] icon_look picture of "fallen leaf"
+    icon t_leaf size 120 set twemoji x 500 y 470 or ["maple leaf"] icon_look picture of "fallen leaf"
 
-    quiz "What does О́сенью идёт дождь mean? Pick one." reveal.text "О́сенью идёт дождь." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 64 reveal.color #3d3833 store q5 voice a test t1
+    quiz "What does О́сенью идёт дождь mean? Pick one." above t_leaf reveal.text "О́сенью идёт дождь." reveal.style label reveal.size 64 reveal.color #3d3833 store q5 voice a test t1
         right: О́сенью is in autumn, and дождь is the rain.
         wrong: Check two words: the season, and what is going, дождь or снег.
         * In spring it rains.
@@ -294,14 +294,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Around town in Russian: в магазине, на работе
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:32 title "Tomorrow I will in Russian: я буду" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:34 title "Around town in Russian: в магазине, на работе" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:34 title "Around town in Russian: в магазине, на работе" form title size 600 x 500 y 420
 
-    link end_again href lecture:33 title "Watch again" form text open here x 500 y 160
-    text end_count "33 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:33 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "33 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

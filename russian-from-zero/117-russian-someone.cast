@@ -190,9 +190,9 @@ B: Купи́ что́-нибудь на у́жин! A request, so -нибудь
     erase g2
 
 A: Now you. Masha looks hungry. Ask her if she wants anything.
-    icon b_tea size 140 set twemoji x 500 y 470 or ["hot beverage","coffee"] icon_look picture of "teacup without handle"
+    icon b_tea size 120 set twemoji x 500 y 470 or ["hot beverage","coffee"] icon_look picture of "teacup without handle"
 
-    ask "Напиши́те, to Masha: Do you want anything?" answer ["ты что-нибудь хочешь","ты хочешь что-нибудь","что-нибудь хочешь","хочешь что-нибудь"] reveal.text "Ты что́-нибудь хо́чешь?" reveal.at.x 500 reveal.at.y 280 reveal.style label reveal.size 56 reveal.color #3d3833 voice b
+    ask "Напиши́те, to Masha: Do you want anything?" above b_tea answer ["ты что-нибудь хочешь","ты хочешь что-нибудь","что-нибудь хочешь","хочешь что-нибудь"] reveal.text "Ты что́-нибудь хо́чешь?" reveal.style label reveal.size 56 reveal.color #3d3833 voice b
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! A question, so что́-нибудь.
         wrong: A question, so что́-нибудь: ты что́-нибудь хо́чешь?
@@ -228,7 +228,7 @@ A: Вчера́ кто́-то взял мою́ ку́ртку.
 
     erase t3
 
-    quiz "Someone called you. You don't know who." reveal.text "Тебе́ кто́-то звони́л." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
+    quiz "Someone called you. You don't know who." frame true reveal.text "Тебе́ кто́-то звони́л." reveal.style label reveal.size 56 reveal.color #3d3833 voice b test t1
         right: Пра́вильно! It happened, so -то.
         wrong: It really happened, so -то.
         + Тебе́ кто́-то звони́л.
@@ -313,14 +313,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: From two till five in Russian: с двух до пяти
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:116 title "Flying in Russian: лечу or летаю?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:118 title "From two till five in Russian: с двух до пяти" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:118 title "From two till five in Russian: с двух до пяти" form title size 600 x 500 y 420
 
-    link end_again href lecture:117 title "Watch again" form text open here x 500 y 160
-    text end_count "117 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:117 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "117 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

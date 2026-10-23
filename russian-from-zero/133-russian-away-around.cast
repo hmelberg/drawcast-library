@@ -199,7 +199,7 @@ A: Послу́шайте и напиши́те.
 A: Напиши́те по-ру́сски: walk round the house.
     draw b1_cue
 
-    ask "Напиши́те: Walk round the house." answer ["обойди дом","обойди дом вокруг","обойдите дом","обойдите дом вокруг","обойди вокруг дома","обойдите вокруг дома"] reveal.text "Обойди́ дом вокру́г." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: Walk round the house." above b1_cue answer ["обойди дом","обойди дом вокруг","обойдите дом","обойдите дом вокруг","обойди вокруг дома","обойдите вокруг дома"] reveal.text "Обойди́ дом вокру́г." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Об-, round the house.
         wrong: Об- for round: обойди́ дом.
@@ -269,7 +269,7 @@ A: Ма́ша подошла́ к две́ри.
 
     ask say_it "Отнеси́ коро́бку наве́рх, пожа́луйста." also ["Отнеси́, пожа́луйста, коро́бку наве́рх.","Пожа́луйста, отнеси́ коро́бку наве́рх.","Отнеси́ э́ту коро́бку наве́рх, пожа́луйста.","Отнеси́ коро́бку наве́рх.","Отнеси́ наве́рх коро́бку, пожа́луйста.","Отнеси́те коро́бку наве́рх, пожа́луйста.","Отнеси́те, пожа́луйста, коро́бку наве́рх."] gloss "Take the box upstairs, please." voice a show cue reveal.text "Отнеси́ коро́бку наве́рх, пожа́луйста." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 50 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: I'll go up to the third floor." answer ["я поднимусь на третий этаж","поднимусь на третий этаж","я поднимусь по лестнице на третий этаж","поднимусь по лестнице на третий этаж","я поднимусь на третий этаж по лестнице","поднимусь на третий этаж по лестнице"] reveal.text "Я подниму́сь на тре́тий эта́ж." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: I'll go up to the third floor." frame true answer ["я поднимусь на третий этаж","поднимусь на третий этаж","я поднимусь по лестнице на третий этаж","поднимусь по лестнице на третий этаж","я поднимусь на третий этаж по лестнице","поднимусь на третий этаж по лестнице"] reveal.text "Я подниму́сь на тре́тий эта́ж." reveal.style label reveal.size 56 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Подня́ться: я подниму́сь.
         wrong: Подня́ться: я подниму́сь на тре́тий эта́ж.
@@ -329,14 +329,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Coming and going in Russian: ухожу, приезжаю, сходи
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:132 title "All of it in Russian: весь день, всё, что…" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:134 title "Coming and going in Russian: ухожу, приезжаю, сходи" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:134 title "Coming and going in Russian: ухожу, приезжаю, сходи" form title size 600 x 500 y 420
 
-    link end_again href lecture:133 title "Watch again" form text open here x 500 y 160
-    text end_count "133 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:133 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "133 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

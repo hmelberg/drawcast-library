@@ -149,11 +149,11 @@ B: Весь ве́чер for the time, прочита́ю for the book that gets
 
     hide tom tom_name masha masha_name
 
-    icon q1_t size 150 set twemoji x 380 y 480 or ["person"] icon_look picture of man
+    icon q1_t size 120 set twemoji x 380 y 480 or ["person"] icon_look picture of man
     icon q1_b size 110 set twemoji x 540 y 480 or ["books"] icon_look picture of "open book"
     icon q1_h size 90 set twemoji x 670 y 480 or ["hourglass done","stopwatch"] icon_look picture of "hourglass not done"
 
-    quiz "Tom will spend the whole evening with his book: Весь ве́чер я ___ кни́гу. Which fits?" reveal.text "бу́ду чита́ть весь ве́чер" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Tom will spend the whole evening with his book: Весь ве́чер я ___ кни́гу. Which fits?" above ["q1_h","q1_t","q1_b"] reveal.text "бу́ду чита́ть весь ве́чер" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Весь ве́чер says how long, and how long goes with бу́ду and the doing verb.
         wrong: Is it the time it fills, or a book that gets finished?
@@ -162,10 +162,10 @@ B: Весь ве́чер for the time, прочита́ю for the book that gets
 
     erase q1_t q1_b q1_h
 
-    icon q2_m size 150 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman
+    icon q2_m size 120 set twemoji x 400 y 480 or ["girl"] icon_look picture of woman
     icon q2_l size 120 set twemoji x 600 y 480 or ["love letter","memo"] icon_look picture of envelope
 
-    quiz "Masha promises the letter will be finished tomorrow: За́втра я ___ письмо́. Which fits?" reveal.text "За́втра я напишу́ письмо́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Masha promises the letter will be finished tomorrow: За́втра я ___ письмо́. Which fits?" above ["q2_l","q2_m"] reveal.text "За́втра я напишу́ письмо́." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Напишу́: пишу́ with на in front, the done verb, so it's the future.
         wrong: Пишу́ is now, and бу́ду never goes with a done verb.
         + напишу́
@@ -176,7 +176,7 @@ B: Весь ве́чер for the time, прочита́ю for the book that gets
 
     icon q3_f size 110 set twemoji x 500 y 560 or ["television"] icon_look picture of "clapper board"
 
-    quiz "Which one is NOT Russian?" reveal.text "бу́ду + done: ✗" reveal.at.x 500 reveal.at.y 220 reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
+    quiz "Which one is NOT Russian?" above q3_f reveal.text "бу́ду + done: ✗" reveal.style label reveal.size 50 reveal.color #3d3833 voice a test t1
         right: Бу́ду посмотре́ть: бу́ду never goes with a done verb. Say я посмотрю́.
         wrong: Look for бу́ду next to a verb with a piece in front.
         * Я посмотрю́ фильм.
@@ -199,9 +199,9 @@ A: Not бу́ду посмотре́ть, but я посмотрю́ фильм.
 
     erase q4_h q4_c
 
-    icon q5_b size 140 set twemoji x 500 y 480 or ["green book","books"] icon_look picture of "closed book"
+    icon q5_b size 120 set twemoji x 500 y 480 or ["green book","books"] icon_look picture of "closed book"
 
-    ask "Now build the sentence. Type: Tomorrow I'll finish the book." answer ["завтра я прочитаю книгу","я прочитаю книгу завтра","завтра прочитаю книгу","я завтра прочитаю книгу"] reveal.text "За́втра я прочита́ю кни́гу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build the sentence. Type: Tomorrow I'll finish the book." above q5_b answer ["завтра я прочитаю книгу","я прочитаю книгу завтра","завтра прочитаю книгу","я завтра прочитаю книгу"] reveal.text "За́втра я прочита́ю кни́гу." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: За́втра я прочита́ю кни́гу: про in front, and the endings of чита́ю.
         wrong: Start from я чита́ю, put про in front for done, and no бу́ду.
@@ -258,14 +258,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Commands in Russian: прочита́й!
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:64 title "Came and went in Russian: пришёл, ушёл" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:66 title "Commands in Russian: прочита́й!" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:66 title "Commands in Russian: прочита́й!" form title size 600 x 500 y 420
 
-    link end_again href lecture:65 title "Watch again" form text open here x 500 y 160
-    text end_count "65 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:65 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "65 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

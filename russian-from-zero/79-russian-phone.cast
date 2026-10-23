@@ -38,13 +38,13 @@ level: basic
     text w_cold "тебя́ = you (can't be heard)" #8f887c x 500 y 360 font_size 40 hidden true
     dialogue talk speakers.a tom speakers.b masha turns [{"by":"a","text":"Алло́, Ма́ша? Э́то Том.","gloss":"Hello, Masha? It's Tom."},{"by":"b","text":"Том, тебя́ не слы́шно!","gloss":"Tom, I can't hear you!"},{"by":"a","text":"А сейча́с? Я звони́л, но бы́ло за́нято.","gloss":"And now? I called, but it was busy."},{"by":"b","text":"Сейча́с слы́шно. Я звони́ла ма́ме.","gloss":"Now I can hear you. I was phoning Mum."},{"by":"a","text":"Хорошо́. Ты свобо́дна в суббо́ту?","gloss":"Good. Are you free on Saturday?"},{"by":"b","text":"Не зна́ю. Я должна́ идти́. Я перезвоню́ за́втра!","gloss":"I don't know. I have to go. I'll call back tomorrow!"},{"by":"a","text":"И́ли напиши́ мне сообще́ние. Пока́!","gloss":"Or send me a message. Bye!"}] practice true size 1.5 hidden true
     text bylo "бы́ло за́нято  ·  бы́ло тепло́" say "бы́ло за́нято, бы́ло тепло́" x 500 y 640 font_size 46 hidden true
-    icon q_ring size 160 set twemoji x 500 y 480 or ["mobile phone"] icon_look picture of telephone hidden true
-    icon q_ph size 150 set twemoji x 500 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
-    icon q_nurse size 150 set twemoji x 380 y 480 or ["health worker"] icon_look picture of "woman health worker" hidden true
-    icon q_hosp size 150 set twemoji x 620 y 480 or ["building"] icon_look picture of hospital hidden true
+    icon q_ring size 120 set twemoji x 500 y 480 or ["mobile phone"] icon_look picture of telephone hidden true
+    icon q_ph size 120 set twemoji x 500 y 480 or ["telephone"] icon_look picture of "mobile phone" hidden true
+    icon q_nurse size 120 set twemoji x 380 y 480 or ["health worker"] icon_look picture of "woman health worker" hidden true
+    icon q_hosp size 120 set twemoji x 620 y 480 or ["building"] icon_look picture of hospital hidden true
     icon q_mute size 150 set twemoji x 500 y 480 or ["ear"] icon_look picture of "muted speaker" hidden true
-    icon q_tom size 150 set twemoji x 380 y 480 or ["person"] icon_look picture of man hidden true
-    icon q_cal size 140 set twemoji x 620 y 480 or ["sun"] icon_look picture of sunrise hidden true
+    icon q_tom size 120 set twemoji x 380 y 480 or ["person"] icon_look picture of man hidden true
+    icon q_cal size 120 set twemoji x 620 y 480 or ["sun"] icon_look picture of sunrise hidden true
     text b1 "алло́  ·  за́нято  ·  не слы́шно" say "алло́, за́нято, не слы́шно" x 500 y 520 font_size 52 hidden true
     text b2 "перезвоню́  ·  сообще́ние" say "перезвоню́, сообще́ние" colors {"^пере":"#8a5fa8"} x 500 y 400 font_size 52 hidden true
 
@@ -145,7 +145,7 @@ A: Бы́ло за́нято, it was busy: бы́ло, as in бы́ло тепл
 
     draw q_ring
 
-    quiz "The phone rings and you pick it up. What do you say first?" reveal.text Алло́! reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "The phone rings and you pick it up. What do you say first?" above q_ring reveal.text Алло́! reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Алло́: hello, on the phone.
         wrong: The phone's own hello.
@@ -157,7 +157,7 @@ A: Бы́ло за́нято, it was busy: бы́ло, as in бы́ло тепл
 
     draw q_ph
 
-    quiz "You call, and hear beep, beep, beep: the line is busy. Which word is that?" reveal.text За́нято. reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "You call, and hear beep, beep, beep: the line is busy. Which word is that?" above q_ph reveal.text За́нято. reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: За́нято: busy, taken.
         wrong: The word on a locked toilet door too.
         * Не слы́шно.
@@ -168,7 +168,7 @@ A: Бы́ло за́нято, it was busy: бы́ло, as in бы́ло тепл
 
     draw q_nurse q_hosp
 
-    quiz "A nurse at work answers: Я медсестра́, я в больни́це. She'll call you back this evening. What does she say?" reveal.text "Перезвоню́ ве́чером." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A nurse at work answers: Я медсестра́, я в больни́це. She'll call you back this evening. What does she say?" above ["q_nurse","q_hosp"] reveal.text "Перезвоню́ ве́чером." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Перезвоню́: I'll call back, a done verb.
         wrong: She will call back: пере, and the я form.
         + Перезвоню́ ве́чером.
@@ -185,7 +185,7 @@ A: Бы́ло за́нято, it was busy: бы́ло, as in бы́ло тепл
 
     draw q_tom q_cal
 
-    ask "Now build a whole sentence. Type: I'll call back tomorrow." answer ["я перезвоню завтра","перезвоню завтра","завтра я перезвоню","завтра перезвоню"] reveal.text "Я перезвоню́ за́втра." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I'll call back tomorrow." above ["q_tom","q_cal"] answer ["я перезвоню завтра","перезвоню завтра","завтра я перезвоню","завтра перезвоню"] reveal.text "Я перезвоню́ за́втра." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я перезвоню́ за́втра: the done verb already means will.
         wrong: Пере in front of звоню́, then за́втра.
@@ -237,14 +237,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: An eighth Russian story: Masha's day
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:78 title "Studying in Russian: я изуча́ю ру́сский" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:80 title "An eighth Russian story: Masha's day" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:80 title "An eighth Russian story: Masha's day" form title size 600 x 500 y 420
 
-    link end_again href lecture:79 title "Watch again" form text open here x 500 y 160
-    text end_count "79 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:79 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "79 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -147,7 +147,7 @@ A: Но́мер телефо́на: the number of the phone, so телефо́н
 
     erase n_phone n_num
 
-    quiz "Someone asks: Кем вы рабо́таете? Which answer fits?" reveal.text "Я рабо́таю по́варом." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "Someone asks: Кем вы рабо́таете? Which answer fits?" frame true reveal.text "Я рабо́таю по́варом." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Кем: as what. So the job, with the with-ending: по́варом.
         wrong: Кем вы рабо́таете asks for your job: я рабо́таю по́варом.
@@ -157,7 +157,7 @@ A: Но́мер телефо́на: the number of the phone, so телефо́н
 
     erase question_2_stamp
 
-    quiz "Finish the plan: Е́сли ___ тепло́, пойдём игра́ть." reveal.text "Е́сли бу́дет тепло́…" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "Finish the plan: Е́сли ___ тепло́, пойдём игра́ть." frame true reveal.text "Е́сли бу́дет тепло́…" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Бу́дет: after е́сли, a plan looks ahead, so the future.
         wrong: A plan for Saturday looks ahead: е́сли бу́дет тепло́.
         + бу́дет
@@ -166,7 +166,7 @@ A: Но́мер телефо́на: the number of the phone, so телефо́н
 
     erase question_3_stamp
 
-    quiz "On a train, you'd like the empty seat beside someone. What do you ask?" reveal.text "Тут свобо́дно?" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "On a train, you'd like the empty seat beside someone. What do you ask?" frame true reveal.text "Тут свобо́дно?" reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Извини́те, тут свобо́дно? Is it free here?
         wrong: Ask if it's free: тут свобо́дно?
         * Ско́лько сто́ит?
@@ -184,7 +184,7 @@ A: Я изуча́ю ру́сский уже́ два го́да.
 
     erase q_book q4_full question_5_stamp
 
-    ask "Now build a question. Type: What do you like doing? (to someone you call вы)" answer ["что вы любите делать","а что вы любите делать","что ты любишь делать","а что ты любишь делать"] reveal.text "Что вы лю́бите де́лать?" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a question. Type: What do you like doing? (to someone you call вы)" frame true answer ["что вы любите делать","а что вы любите делать","что ты любишь делать","а что ты любишь делать"] reveal.text "Что вы лю́бите де́лать?" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Что вы лю́бите де́лать: лю́бите for вы, then the doing word.
         wrong: Что, then вы лю́бите, then де́лать: что вы лю́бите де́лать?
@@ -245,14 +245,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Lesson 100: a Russian story
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:98 title "Russian sayings: без труда́…" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:100 title "Lesson 100: a Russian story" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:100 title "Lesson 100: a Russian story" form title size 600 x 500 y 420
 
-    link end_again href lecture:99 title "Watch again" form text open here x 500 y 160
-    text end_count "99 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:99 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "99 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -159,10 +159,10 @@ A: On Saturday I meet Masha in the street. Listen, then practise it.
 
     hide masha masha_name tom2 tom_name
 
-    icon q_walk size 150 set twemoji x 380 y 470 or ["man walking"] icon_look picture of "person walking"
-    icon q_shop size 150 set twemoji x 620 y 470 or ["department store"] icon_look picture of "convenience store"
+    icon q_walk size 120 set twemoji x 380 y 470 or ["man walking"] icon_look picture of "person walking"
+    icon q_shop size 120 set twemoji x 620 y 470 or ["department store"] icon_look picture of "convenience store"
 
-    quiz "On the way to the shop right now: Сейча́с я ___ в магази́н. Which verb?" reveal.text "Сейча́с я иду́ в магази́н." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "On the way to the shop right now: Сейча́с я ___ в магази́н. Which verb?" above ["q_shop","q_walk"] reveal.text "Сейча́с я иду́ в магази́н." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: Иду́: one trip, under way now.
         wrong: Сейча́с: is it a habit, or one trip right now?
@@ -172,9 +172,9 @@ A: On Saturday I meet Masha in the street. Listen, then practise it.
 
     erase q_walk q_shop
 
-    icon q_park size 160 set twemoji x 500 y 470 or ["evergreen tree"] icon_look picture of "deciduous tree"
+    icon q_park size 120 set twemoji x 500 y 470 or ["evergreen tree"] icon_look picture of "deciduous tree"
 
-    quiz "A habit: Мы ___ в парк ка́ждый день. Which verb?" reveal.text "Мы хо́дим в парк ка́ждый день." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    quiz "A habit: Мы ___ в парк ка́ждый день. Which verb?" above q_park reveal.text "Мы хо́дим в парк ка́ждый день." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         right: Хо́дим: every day is a habit, and мы takes хо́дим.
         wrong: Ка́ждый день is a habit; then find the мы form.
         * идём
@@ -183,10 +183,10 @@ A: On Saturday I meet Masha in the street. Listen, then practise it.
 
     erase q_park
 
-    icon q_cin size 150 set twemoji x 400 y 470 or ["clapper board"] icon_look picture of cinema
-    icon q_home size 150 set twemoji x 620 y 470 or ["house with garden"] icon_look picture of house
+    icon q_cin size 120 set twemoji x 400 y 470 or ["clapper board"] icon_look picture of cinema
+    icon q_home size 120 set twemoji x 620 y 470 or ["house with garden"] icon_look picture of house
 
-    quiz "Yesterday she went to the cinema, and now she's back home. Вчера́ она́ ___ в кино́." reveal.text "Вчера́ она́ ходи́ла в кино́." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
+    quiz "Yesterday she went to the cinema, and now she's back home. Вчера́ она́ ___ в кино́." above ["q_home","q_cin"] reveal.text "Вчера́ она́ ходи́ла в кино́." reveal.style label reveal.size 64 reveal.color #3d3833 voice a test t1
         right: Ходи́ла: there and back, and the trip is over.
         wrong: She went and came back: the round-trip verb, in the past.
         * шла
@@ -206,9 +206,9 @@ B: Я хожу́ в парк ка́ждый день.
 
     erase q_sayp q_say
 
-    icon q_school size 160 set twemoji x 500 y 470 or ["classical building"] icon_look picture of school
+    icon q_school size 120 set twemoji x 500 y 470 or ["classical building"] icon_look picture of school
 
-    ask "Now build a whole sentence. Type: I usually go to school." answer ["я обычно хожу в школу","обычно я хожу в школу","обычно хожу в школу"] reveal.text "Обы́чно я хожу́ в шко́лу." reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. Type: I usually go to school." above q_school answer ["я обычно хожу в школу","обычно я хожу в школу","обычно хожу в школу"] reveal.text "Обы́чно я хожу́ в шко́лу." reveal.style label reveal.size 64 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Обы́чно я хожу́ в шко́лу: usually means a habit, so хожу́.
         wrong: Обы́чно, then я хожу́, then в шко́лу, with the у of going there.
@@ -261,14 +261,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Travelling in Russian: е́ду or е́зжу?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:61 title "Verbs in -ся in Russian: учу́сь, занима́юсь" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:63 title "Travelling in Russian: е́ду or е́зжу?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:63 title "Travelling in Russian: е́ду or е́зжу?" form title size 600 x 500 y 420
 
-    link end_again href lecture:62 title "Watch again" form text open here x 500 y 160
-    text end_count "62 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:62 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "62 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

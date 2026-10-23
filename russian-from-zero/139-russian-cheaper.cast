@@ -168,7 +168,7 @@ A: Послу́шайте и напиши́те.
 A: Напиши́те по-ру́сски.
     draw b1_cue
 
-    ask "Напиши́те: Meat is much cheaper than fish." answer ["мясо гораздо дешевле рыбы","мясо намного дешевле рыбы","мясо гораздо дешевле чем рыба","мясо намного дешевле чем рыба"] reveal.text "Мя́со гора́здо деше́вле ры́бы." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a
+    ask "Напиши́те: Meat is much cheaper than fish." above b1_cue answer ["мясо гораздо дешевле рыбы","мясо намного дешевле рыбы","мясо гораздо дешевле чем рыба","мясо намного дешевле чем рыба"] reveal.text "Мя́со гора́здо деше́вле ры́бы." reveal.style label reveal.size 58 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Ры́бы with no чем, or чем ры́ба.
         wrong: Гора́здо деше́вле, then ры́бы, or чем ры́ба.
@@ -234,7 +234,7 @@ A: Позвони́ как мо́жно скоре́е!
 
     erase t_gaps
 
-    quiz "Which one means much cheaper?" store q_much reveal.text "гора́здо деше́вле" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    quiz "Which one means much cheaper?" frame true store q_much reveal.text "гора́здо деше́вле" reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         right: Гора́здо: much. Всё is more and more; как мо́жно, as … as possible.
         wrong: Гора́здо деше́вле: much cheaper.
         + гора́здо деше́вле
@@ -245,7 +245,7 @@ A: Позвони́ как мо́жно скоре́е!
 
     ask say_it "Э́то гора́здо деше́вле." also ["Э́то намно́го деше́вле.","Гора́здо деше́вле.","Намно́го деше́вле."] gloss "This is much cheaper." voice a show cue reveal.text "Э́то гора́здо деше́вле." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 test t1
 
-    ask "Напиши́те: Fish is getting more and more expensive." answer ["рыба всё дороже","рыба все дороже"] reveal.text "Ры́ба всё доро́же." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те: Fish is getting more and more expensive." frame true answer ["рыба всё дороже","рыба все дороже"] reveal.text "Ры́ба всё доро́же." reveal.style label reveal.size 58 reveal.color #3d3833 voice a test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Всё доро́же: more and more expensive.
         wrong: Всё and the comparative: ры́ба всё доро́же.
@@ -296,14 +296,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: A fourteenth Russian story: the wedding banquet
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:138 title "Both and the two of us in Russian: оба, двое, полтора" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:140 title "A fourteenth Russian story: the wedding banquet" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:140 title "A fourteenth Russian story: the wedding banquet" form title size 600 x 500 y 420
 
-    link end_again href lecture:139 title "Watch again" form text open here x 500 y 160
-    text end_count "139 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:139 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "139 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

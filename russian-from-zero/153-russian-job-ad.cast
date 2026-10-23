@@ -179,7 +179,7 @@ A: Сосе́дка, рабо́тавшая в музе́е. Молоде́ц!
 A: Напиши́те по-ру́сски, with a participle: a cook who knows Russian cuisine.
     draw b1_cue
 
-    ask "Напиши́те, with a participle: a cook who knows Russian cuisine." answer ["повар знающий русскую кухню","требуется повар знающий русскую кухню","нужен повар знающий русскую кухню","повар хорошо знающий русскую кухню","повар знающий кухню русскую"] reveal.text "По́вар, зна́ющий ру́сскую ку́хню." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 46 reveal.color #3d3833 voice a
+    ask "Напиши́те, with a participle: a cook who knows Russian cuisine." above b1_cue answer ["повар знающий русскую кухню","требуется повар знающий русскую кухню","нужен повар знающий русскую кухню","повар хорошо знающий русскую кухню","повар знающий кухню русскую"] reveal.text "По́вар, зна́ющий ру́сскую ку́хню." reveal.style label reveal.size 46 reveal.color #3d3833 voice a
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Пра́вильно! Зна́ют, зна́ющий.
         wrong: Они́ зна́ют: зна́ющий. По́вар, зна́ющий ру́сскую ку́хню.
@@ -244,7 +244,7 @@ A: Тре́буются официа́нты, говоря́щие по-англ
 
     ask say_it "Я звоню́ по объявле́нию." also ["Звоню́ по объявле́нию.","Я звоню́ по ва́шему объявле́нию."] gloss "I'm calling about the ad." voice a show cue reveal.text "Я звоню́ по объявле́нию." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 48 reveal.color #3d3833 test t1
 
-    ask "Напиши́те, with a participle: Wanted: a cook who speaks English." answer ["требуется повар говорящий по-английски","требуется повар знающий английский","требуется повар говорящий по английски","требуется повар знающий английский язык","требуется повар хорошо говорящий по-английски","повар говорящий по-английски","повар знающий английский","нужен повар говорящий по-английски","нужен повар знающий английский","требуется повар говорящий на английском","повар говорящий на английском","нужен повар говорящий на английском","требуется повар знающий английский язык","повар знающий английский язык"] reveal.text "Тре́буется по́вар, говоря́щий по-англи́йски." reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 40 reveal.color #3d3833 voice a test t1
+    ask "Напиши́те, with a participle: Wanted: a cook who speaks English." frame true answer ["требуется повар говорящий по-английски","требуется повар знающий английский","требуется повар говорящий по английски","требуется повар знающий английский язык","требуется повар хорошо говорящий по-английски","повар говорящий по-английски","повар знающий английский","нужен повар говорящий по-английски","нужен повар знающий английский","требуется повар говорящий на английском","повар говорящий на английском","нужен повар говорящий на английском","требуется повар знающий английский язык","повар знающий английский язык"] reveal.text "Тре́буется по́вар, говоря́щий по-англи́йски." reveal.style label reveal.size 40 reveal.color #3d3833 voice a test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ -
         right: Пра́вильно! Говоря́т, говоря́щий.
         wrong: Они́ говоря́т: говоря́щий. Тре́буется по́вар, говоря́щий по-англи́йски.
@@ -288,14 +288,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Overslept in Russian: проспал, заснул, дочитал
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:152 title "It's done in Russian: заказ принят, столы накрыты" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:154 title "Overslept in Russian: проспал, заснул, дочитал" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:154 title "Overslept in Russian: проспал, заснул, дочитал" form title size 600 x 500 y 420
 
-    link end_again href lecture:153 title "Watch again" form text open here x 500 y 160
-    text end_count "153 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:153 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "153 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

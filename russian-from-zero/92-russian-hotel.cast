@@ -178,7 +178,7 @@ A: Ничего́ twice, (@draw w_n1 w_n1g@) both from lesson 87: first nothing 
 
     hide tom tom_name masha masha_name
 
-    quiz "You're travelling alone. Which room do you ask for?" reveal.text "Но́мер на одного́." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "You're travelling alone. Which room do you ask for?" frame true reveal.text "Но́мер на одного́." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         intro: Five questions now, then your score.
         right: На одного́: for one.
         wrong: Alone means for one: на одного́.
@@ -188,7 +188,7 @@ A: Ничего́ twice, (@draw w_n1 w_n1g@) both from lesson 87: first nothing 
 
     erase question_2_stamp
 
-    quiz "The shower in your room is broken. What do you tell the desk?" reveal.text "У меня́ не рабо́тает душ." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    quiz "The shower in your room is broken. What do you tell the desk?" frame true reveal.text "У меня́ не рабо́тает душ." reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         right: Не рабо́тает: it doesn't work.
         wrong: A thing that's broken не рабо́тает.
         * Душ свобо́ден.
@@ -197,7 +197,7 @@ A: Ничего́ twice, (@draw w_n1 w_n1g@) both from lesson 87: first nothing 
 
     erase question_3_stamp
 
-    quiz "A woman checks in. What does she say?" reveal.text "Я заброни́ровала но́мер." reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
+    quiz "A woman checks in. What does she say?" frame true reveal.text "Я заброни́ровала но́мер." reveal.style label reveal.size 60 reveal.color #3d3833 voice a test t1
         right: Заброни́ровала: a woman, so the а.
         wrong: A woman's past ends in ла, like чита́ла.
         + Я заброни́ровала но́мер.
@@ -210,7 +210,7 @@ A: Ничего́ twice, (@draw w_n1 w_n1g@) both from lesson 87: first nothing 
 
     erase question_5_stamp
 
-    ask "Now build a whole sentence. As a man, type: I booked a room for two." answer ["я забронировал номер на двоих","забронировал номер на двоих","я забронировала номер на двоих","забронировала номер на двоих","я забронировал на двоих номер","я забронировала на двоих номер"] reveal.text "но́мер на двои́х" reveal.at.x 500 reveal.at.y 290 reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
+    ask "Now build a whole sentence. As a man, type: I booked a room for two." frame true answer ["я забронировал номер на двоих","забронировал номер на двоих","я забронировала номер на двоих","забронировала номер на двоих","я забронировал на двоих номер","я забронировала на двоих номер"] reveal.text "но́мер на двои́х" reveal.style label reveal.size 60 reveal.color #3d3833 voice b test t1
         keys "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ "
         right: Я заброни́ровал, then но́мер на двои́х.
         wrong: Заброни́ровал, I booked; then но́мер на двои́х.
@@ -262,14 +262,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-Next: Getting around in Russian: сле́дующая ста́нция
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:91 title "At the airport in Russian: паспорт, рейс" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:93 title "Getting around in Russian: сле́дующая ста́нция" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:93 title "Getting around in Russian: сле́дующая ста́нция" form title size 600 x 500 y 420
 
-    link end_again href lecture:92 title "Watch again" form text open here x 500 y 160
-    text end_count "92 of 160" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:92 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "92 of 160" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
