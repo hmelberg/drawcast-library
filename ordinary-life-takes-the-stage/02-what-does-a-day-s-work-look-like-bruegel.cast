@@ -1,7 +1,7 @@
 # What does a day's work look like? Bruegel's The Harvesters
 tags: ["bruegel","renaissance art","labor and work","daily life painting","social history"]
-thumb: "band \"Lunch break, 1565\" picture \"File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/genre-painting","visual-analysis/composition","history/peasant-life","methods/visual-storytelling"]
+thumb: "band \"Lunch break, 1565\" picture \"File:Pieter Bruegel the Elder- The Harvesters - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is each group doing at this hour? Why paint peasants as the whole subject?"
 next: {"title":"Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast"}
@@ -143,14 +143,11 @@ Next time you take a lunch break with the people you work with, look around: tha
 ## Where next
 end_page: true
 
-Next: Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:1 title "Why is the ploughman bigger than the hero? Bruegel's Fall of Icarus" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:3 title "Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:3 title "Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew" form title size 600 x 500 y 420
 
-    link end_again href lecture:2 title "Watch again" form text open here x 500 y 160
-    text end_count "2 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:2 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "2 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

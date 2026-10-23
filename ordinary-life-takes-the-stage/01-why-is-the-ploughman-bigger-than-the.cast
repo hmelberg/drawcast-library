@@ -1,7 +1,7 @@
 # Why is the ploughman bigger than the hero? Bruegel's Fall of Icarus
 tags: ["renaissance painting","bruegel","composition and meaning","art history","perspective and scale","ordinary life in art"]
-thumb: "band \"Why is he bigger than Icarus?\" picture \"File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_&_Culture.jpg\" colour"
 teaches: ["art-history/composition-analysis","concepts/visual-hierarchy","history/renaissance-values","methods/close-looking"]
+thumb: "band \"Why is he bigger than Icarus?\" picture \"File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Brussels, Royal Museums of Fine Arts of Belgium - Google Arts & Culture.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What does Bruegel put in front, and what in the corner? What does that say about whose life matters?"
 next: {"title":"What does a day's work look like? Bruegel's The Harvesters","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/02-what-does-a-day-s-work-look-like-bruegel.cast"}
@@ -127,12 +127,11 @@ In this course, ordinary  (@highlight art:ploughman lift true@)life keeps walkin
 ## Where next
 end_page: true
 
-Next: What does a day's work look like? Bruegel's The Harvesters
-    text end_next_kicker "Next" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:2 title "What does a day's work look like? Bruegel's The Harvesters" size 320 x 500 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:2 title "What does a day's work look like? Bruegel's The Harvesters" form title size 600 x 500 y 420
 
-    link end_again href lecture:1 title "Watch again" form text open here x 500 y 160
-    text end_count "1 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:1 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "1 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -1,7 +1,7 @@
 # Who gets a day off? Seurat's A Sunday on La Grande Jatte
 tags: ["art history","impressionism","paris 1880s","labor rights","sunday rest","social class"]
-thumb: "band \"Who gets a day off?\" picture \"File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/frieze-composition","concepts/leisure-and-labor","vocabulary/pointillism","history/working-rights"]
+thumb: "band \"Who gets a day off?\" picture \"File:Georges Seurat - A Sunday on La Grande Jatte -- 1884 - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is in the park, and what is each doing? Why paint leisure with such strict order?"
 
@@ -146,11 +146,8 @@ So who gets a day off? Not yet everyone. But who gets painted? By 1886, anyone i
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:9 title "Who is the barmaid? Manet's A Bar at the Folies-Bergère" size 320 x 500 y 395
-
-    link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:10 title "Watch again" form text mark replay open here x 500 y 400 font_size 28
+    text end_count "10 of 10" x 500 y 330 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

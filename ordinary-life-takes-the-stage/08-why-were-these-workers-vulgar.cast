@@ -1,7 +1,7 @@
 # Why were these workers 'vulgar'? Caillebotte's The Floor Scrapers
 tags: ["art history","realism","caillebotte","salon rejection","19th century paris","working class subjects"]
-thumb: "band \"Too vulgar for Paris?\" picture \"File:Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg\" colour"
 teaches: ["history/academic-salon-system","concepts/vulgarity-in-art","analysis/composition-and-perspective","history/impressionism"]
+thumb: "band \"Too vulgar for Paris?\" picture \"File:Gustave Caillebotte - The Floor Planers - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What are the men doing, and how do we see them? Why did the Salon turn it away?"
 next: {"title":"Who is the barmaid? Manet's A Bar at the Folies-Bergère","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast"}
@@ -139,14 +139,11 @@ His family gave it to the French state in 1894, the year he died, and it now han
 ## Where next
 end_page: true
 
-Next: Who is the barmaid? Manet's A Bar at the Folies-Bergère
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:7 title "What is gleaning? Millet's The Gleaners" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:9 title "Who is the barmaid? Manet's A Bar at the Folies-Bergère" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:9 title "Who is the barmaid? Manet's A Bar at the Folies-Bergère" form title size 600 x 500 y 420
 
-    link end_again href lecture:8 title "Watch again" form text open here x 500 y 160
-    text end_count "8 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:8 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "8 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

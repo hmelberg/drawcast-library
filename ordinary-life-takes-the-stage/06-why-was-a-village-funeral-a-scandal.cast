@@ -1,7 +1,7 @@
 # Why was a village funeral a scandal? Courbet's A Burial at Ornans
 tags: ["art history","realism","courbet","painting scandals","19th century france","social class in art"]
-thumb: "band \"Why was this a scandal?\" picture \"File:Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/realism-movement","concepts/hierarchy-of-genres","art-analysis/composition-and-scale","history/19th-century-social-politics"]
+thumb: "band \"Why was this a scandal?\" picture \"File:Gustave Courbet - A Burial at Ornans - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who are these people, and how big is the canvas? Why did Paris critics hate it?"
 next: {"title":"What is gleaning? Millet's The Gleaners","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast"}
@@ -161,14 +161,11 @@ Ordinary life no longer had to stand in a corner; it could fill the biggest wall
 ## Where next
 end_page: true
 
-Next: What is gleaning? Millet's The Gleaners
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:5 title "Why paint a child's game? Chardin's The House of Cards" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:7 title "What is gleaning? Millet's The Gleaners" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:7 title "What is gleaning? Millet's The Gleaners" form title size 600 x 500 y 420
 
-    link end_again href lecture:6 title "Watch again" form text open here x 500 y 160
-    text end_count "6 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:6 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "6 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

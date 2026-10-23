@@ -86,27 +86,6 @@
       "updated": "2026-10-15"
     },
     {
-      "slug": "ordinary-life-takes-the-stage",
-      "title": "Ordinary Life Takes the Stage",
-      "files": [
-        "ordinary-life-takes-the-stage/01-why-is-the-ploughman-bigger-than-the.cast",
-        "ordinary-life-takes-the-stage/02-what-does-a-day-s-work-look-like-bruegel.cast",
-        "ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast",
-        "ordinary-life-takes-the-stage/04-how-can-pouring-milk-be-monumental.cast",
-        "ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast",
-        "ordinary-life-takes-the-stage/06-why-was-a-village-funeral-a-scandal.cast",
-        "ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast",
-        "ordinary-life-takes-the-stage/08-why-were-these-workers-vulgar.cast",
-        "ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast",
-        "ordinary-life-takes-the-stage/10-who-gets-a-day-off-seurat-s-a-sunday-on.cast",
-        "ordinary-life-takes-the-stage/course.md",
-        "ordinary-life-takes-the-stage/pool.json",
-        "ordinary-life-takes-the-stage/index.html",
-        "ordinary-life-takes-the-stage/README.md"
-      ],
-      "updated": "2026-10-15"
-    },
-    {
       "slug": "russian-from-zero",
       "title": "Russian from zero",
       "files": [
@@ -1512,6 +1491,37 @@
         "the-painting-knows-youre-there/pool.json",
         "the-painting-knows-youre-there/index.html",
         "the-painting-knows-youre-there/README.md"
+      ],
+      "updated": "2026-10-23"
+    },
+    {
+      "slug": "ordinary-life-takes-the-stage",
+      "title": "Ordinary Life Takes the Stage",
+      "files": [
+        "ordinary-life-takes-the-stage/01-why-is-the-ploughman-bigger-than-the.cast",
+        "ordinary-life-takes-the-stage/02-what-does-a-day-s-work-look-like-bruegel.cast",
+        "ordinary-life-takes-the-stage/03-why-set-a-holy-story-in-a-tax-office.cast",
+        "ordinary-life-takes-the-stage/04-how-can-pouring-milk-be-monumental.cast",
+        "ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast",
+        "ordinary-life-takes-the-stage/06-why-was-a-village-funeral-a-scandal.cast",
+        "ordinary-life-takes-the-stage/07-what-is-gleaning-millet-s-the-gleaners.cast",
+        "ordinary-life-takes-the-stage/08-why-were-these-workers-vulgar.cast",
+        "ordinary-life-takes-the-stage/09-who-is-the-barmaid-manet-s-a-bar-at-the.cast",
+        "ordinary-life-takes-the-stage/10-who-gets-a-day-off-seurat-s-a-sunday-on.cast",
+        "ordinary-life-takes-the-stage/course.md",
+        "ordinary-life-takes-the-stage/pool-audio/5517fc9ea4d62c64.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/64b1f52c4b50127a.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/7879f05e8d48eb78.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/918c9a9ac5eeba14.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/ac5a2e0b6ce6f420.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/b986ad7b4d7bee1c.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/c6ef11703d001e37.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/cad0702e03f4e327.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/d3f332c2c4c08335.mp3",
+        "ordinary-life-takes-the-stage/pool-audio/ef7ff1de1a7b1a62.mp3",
+        "ordinary-life-takes-the-stage/pool.json",
+        "ordinary-life-takes-the-stage/index.html",
+        "ordinary-life-takes-the-stage/README.md"
       ],
       "updated": "2026-10-23"
     }

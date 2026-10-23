@@ -1,7 +1,7 @@
 # How can pouring milk be monumental? Vermeer's The Milkmaid
 tags: ["art history","vermeer","dutch golden age","painting composition","dignity in labor","still life"]
-thumb: "question \"How can pouring milk be monumental?\" picture \"File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/compositional-techniques","concepts/how-artists-convey-dignity","analysis/visual-symbolism","methods/close-looking"]
+thumb: "question \"How can pouring milk be monumental?\" picture \"File:Johannes Vermeer - Het melkmeisje - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What makes one kitchen task look so important? What do the bread, the jug and the foot warmer tell us?"
 next: {"title":"Why paint a child's game? Chardin's The House of Cards","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/ordinary-life-takes-the-stage/05-why-paint-a-child-s-game-chardin-s-the.cast"}
@@ -139,14 +139,11 @@ And at its centre, a thin line of milk that never finishes falling.
 ## Where next
 end_page: true
 
-Next: Why paint a child's game? Chardin's The House of Cards
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:3 title "Why set a holy story in a tax office? Caravaggio's Calling of Saint Matthew" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:5 title "Why paint a child's game? Chardin's The House of Cards" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:5 title "Why paint a child's game? Chardin's The House of Cards" form title size 600 x 500 y 420
 
-    link end_again href lecture:4 title "Watch again" form text open here x 500 y 160
-    text end_count "4 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:4 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "4 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
