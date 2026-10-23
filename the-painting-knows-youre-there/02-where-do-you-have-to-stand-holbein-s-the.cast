@@ -1,7 +1,7 @@
 # Where do you have to stand? Holbein's The Ambassadors
 tags: ["renaissance art","hans holbein","anamorphosis","memento mori","perspective tricks","symbolism in painting"]
-thumb: "question \"What's on the floor?\" picture \"File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg\" colour bottom"
 teaches: ["art-history/renaissance-portraiture","visual-analysis/anamorphosis","concepts/memento-mori","methods/reading-hidden-symbolism"]
+thumb: "question \"What's on the floor?\" picture \"File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg\" colour bottom"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What is the grey smear across the floor? Why hide death where only a step to the side reveals it?"
 next: {"title":"Where is the hero? Bruegel's Fall of Icarus","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast"}
@@ -152,14 +152,11 @@ So next time you stand in front of a painting, take a step to the side. Holbein 
 ## Where next
 end_page: true
 
-Next: Where is the hero? Bruegel's Fall of Icarus
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:1 title "Who else is in the room? Van Eyck's Arnolfini Portrait" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:3 title "Where is the hero? Bruegel's Fall of Icarus" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:3 title "Where is the hero? Bruegel's Fall of Icarus" form title size 600 x 500 y 420
 
-    link end_again href lecture:2 title "Watch again" form text open here x 500 y 160
-    text end_count "2 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:2 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "2 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

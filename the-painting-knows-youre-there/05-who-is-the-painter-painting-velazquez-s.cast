@@ -1,7 +1,7 @@
 # Who is the painter painting? Velázquez's Las Meninas
 tags: ["art history","velazquez","las meninas","perspective","royal portraiture","baroque painting"]
-thumb: "band \"Who is he painting?\" picture \"File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg\" colour bottom"
 teaches: ["art-history/compositional-perspective","concepts/viewer-positioning","art-analysis/symbolism-and-iconography","history/spanish-golden-age-court"]
+thumb: "band \"Who is he painting?\" picture \"File:Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg\" colour bottom"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is everyone in the room looking at? Whose place are we standing in?"
 next: {"title":"Why pull back a curtain? Vermeer's The Art of Painting","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast"}
@@ -115,14 +115,11 @@ So who is the painter painting? Whoever stands where you are standing now.
 ## Where next
 end_page: true
 
-Next: Why pull back a curtain? Vermeer's The Art of Painting
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:4 title "Which one is Matthew? Caravaggio's Calling of Saint Matthew" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:6 title "Why pull back a curtain? Vermeer's The Art of Painting" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:6 title "Why pull back a curtain? Vermeer's The Art of Painting" form title size 600 x 500 y 420
 
-    link end_again href lecture:5 title "Watch again" form text open here x 500 y 160
-    text end_count "5 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:5 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "5 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

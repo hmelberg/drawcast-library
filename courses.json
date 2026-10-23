@@ -107,27 +107,6 @@
       "updated": "2026-10-15"
     },
     {
-      "slug": "the-painting-knows-youre-there",
-      "title": "The Painting Knows You're There",
-      "files": [
-        "the-painting-knows-youre-there/01-who-else-is-in-the-room-van-eyck-s.cast",
-        "the-painting-knows-youre-there/02-where-do-you-have-to-stand-holbein-s-the.cast",
-        "the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast",
-        "the-painting-knows-youre-there/04-which-one-is-matthew-caravaggio-s.cast",
-        "the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast",
-        "the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast",
-        "the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast",
-        "the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast",
-        "the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast",
-        "the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast",
-        "the-painting-knows-youre-there/course.md",
-        "the-painting-knows-youre-there/pool.json",
-        "the-painting-knows-youre-there/index.html",
-        "the-painting-knows-youre-there/README.md"
-      ],
-      "updated": "2026-10-15"
-    },
-    {
       "slug": "russian-from-zero",
       "title": "Russian from zero",
       "files": [
@@ -1502,6 +1481,37 @@
         "russian-from-zero/pool-extra.cast",
         "russian-from-zero/index.html",
         "russian-from-zero/README.md"
+      ],
+      "updated": "2026-10-23"
+    },
+    {
+      "slug": "the-painting-knows-youre-there",
+      "title": "The Painting Knows You're There",
+      "files": [
+        "the-painting-knows-youre-there/01-who-else-is-in-the-room-van-eyck-s.cast",
+        "the-painting-knows-youre-there/02-where-do-you-have-to-stand-holbein-s-the.cast",
+        "the-painting-knows-youre-there/03-where-is-the-hero-bruegel-s-fall-of.cast",
+        "the-painting-knows-youre-there/04-which-one-is-matthew-caravaggio-s.cast",
+        "the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast",
+        "the-painting-knows-youre-there/06-why-pull-back-a-curtain-vermeer-s-the.cast",
+        "the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast",
+        "the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast",
+        "the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast",
+        "the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast",
+        "the-painting-knows-youre-there/course.md",
+        "the-painting-knows-youre-there/pool-audio/001d3ff01eb675a4.mp3",
+        "the-painting-knows-youre-there/pool-audio/164e7e517c2e9c07.mp3",
+        "the-painting-knows-youre-there/pool-audio/2988ce935ec49fbb.mp3",
+        "the-painting-knows-youre-there/pool-audio/462b3ab0bac6147a.mp3",
+        "the-painting-knows-youre-there/pool-audio/4e2250b3df4a3da6.mp3",
+        "the-painting-knows-youre-there/pool-audio/76f0110eed02c085.mp3",
+        "the-painting-knows-youre-there/pool-audio/7e06c0075a77052a.mp3",
+        "the-painting-knows-youre-there/pool-audio/8d2aa0517bdaaec7.mp3",
+        "the-painting-knows-youre-there/pool-audio/b81043ffae7a16bb.mp3",
+        "the-painting-knows-youre-there/pool-audio/d61f4d1329c67485.mp3",
+        "the-painting-knows-youre-there/pool.json",
+        "the-painting-knows-youre-there/index.html",
+        "the-painting-knows-youre-there/README.md"
       ],
       "updated": "2026-10-23"
     }

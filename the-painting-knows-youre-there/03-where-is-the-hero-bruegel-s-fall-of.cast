@@ -1,7 +1,7 @@
 # Where is the hero? Bruegel's Fall of Icarus
 tags: ["bruegel","icarus myth","renaissance art","composition","visual storytelling","perspective"]
-thumb: "band \"Where's Icarus?\" picture \"File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels,_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_&_Culture.jpg\" colour"
 teaches: ["art-history/renaissance-painting","concepts/visual-hierarchy","interpretation/symbolism","analysis/composition"]
+thumb: "band \"Where's Icarus?\" picture \"File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Brussels, Royal Museums of Fine Arts of Belgium - Google Arts & Culture.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Where is Icarus? Why does nobody in the picture look?"
 next: {"title":"Which one is Matthew? Caravaggio's Calling of Saint Matthew","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/04-which-one-is-matthew-caravaggio-s.cast"}
@@ -115,14 +115,11 @@ And you did what nobody in the painting did: you went looking for him.
 ## Where next
 end_page: true
 
-Next: Which one is Matthew? Caravaggio's Calling of Saint Matthew
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:2 title "Where do you have to stand? Holbein's The Ambassadors" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:4 title "Which one is Matthew? Caravaggio's Calling of Saint Matthew" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:4 title "Which one is Matthew? Caravaggio's Calling of Saint Matthew" form title size 600 x 500 y 420
 
-    link end_again href lecture:3 title "Watch again" form text open here x 500 y 160
-    text end_count "3 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:3 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "3 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

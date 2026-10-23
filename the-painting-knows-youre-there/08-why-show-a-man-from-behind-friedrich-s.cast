@@ -1,7 +1,7 @@
 # Why show a man from behind? Friedrich's Wanderer above the Sea of Fog
 tags: ["romantic painting","caspar david friedrich","composition techniques","german art","perspective symbolism"]
-thumb: "none picture \"File:Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg\" colour"
 teaches: ["art-history/romantic-era-painting","composition/rückenfigur-back-figure","visual-analysis/viewer-perspective","art-techniques/composition-and-emotion"]
+thumb: "none picture \"File:Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "What changes when we see a figure only from the back? Where does the painting put us?"
 next: {"title":"Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/09-why-does-the-street-walk-toward-us.cast"}
@@ -146,14 +146,11 @@ Next time a painting turns its back on you, ask whose place you have just been o
 ## Where next
 end_page: true
 
-Next: Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:7 title "Who is watching whom? Fragonard's The Swing" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:9 title "Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:9 title "Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day" form title size 600 x 500 y 420
 
-    link end_again href lecture:8 title "Watch again" form text open here x 500 y 160
-    text end_count "8 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:8 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "8 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

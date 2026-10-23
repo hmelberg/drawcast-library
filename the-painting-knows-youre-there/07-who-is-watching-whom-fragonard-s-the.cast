@@ -1,7 +1,7 @@
 # Who is watching whom? Fragonard's The Swing
 tags: ["art history","rococo painting","visual perspective","fragonard","social commentary","voyeurism"]
-thumb: "band \"Who is watching whom?\" picture \"File:Fragonard,_The_Swing.jpg\" colour"
 teaches: ["art-history/perspective-and-viewpoint","concepts/visual-storytelling","analysis/composition-and-symbolism","vocabulary/rococo-painting"]
+thumb: "band \"Who is watching whom?\" picture \"File:Fragonard, The Swing.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who can see what from where? What makes us part of the joke?"
 next: {"title":"Why show a man from behind? Friedrich's Wanderer above the Sea of Fog","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/08-why-show-a-man-from-behind-friedrich-s.cast"}
@@ -130,14 +130,11 @@ So keep the secret. The Cupid is still asking you to.
 ## Where next
 end_page: true
 
-Next: Why show a man from behind? Friedrich's Wanderer above the Sea of Fog
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:6 title "Why pull back a curtain? Vermeer's The Art of Painting" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:8 title "Why show a man from behind? Friedrich's Wanderer above the Sea of Fog" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:8 title "Why show a man from behind? Friedrich's Wanderer above the Sea of Fog" form title size 600 x 500 y 420
 
-    link end_again href lecture:7 title "Watch again" form text open here x 500 y 160
-    text end_count "7 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:7 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "7 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

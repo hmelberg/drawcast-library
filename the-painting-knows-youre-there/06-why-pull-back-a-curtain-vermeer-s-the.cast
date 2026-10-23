@@ -1,7 +1,7 @@
 # Why pull back a curtain? Vermeer's The Art of Painting
 tags: ["art history","vermeer","painting technique","dutch golden age","composition","viewer perspective"]
-thumb: "none picture \"File:Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/symbolism","visual-analysis/composition","concepts/artistic-convention","methods/close-looking"]
+thumb: "none picture \"File:Jan Vermeer - The Art of Painting - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Who is the curtain pulled back for? Why paint the painter from behind?"
 next: {"title":"Who is watching whom? Fragonard's The Swing","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/07-who-is-watching-whom-fragonard-s-the.cast"}
@@ -143,14 +143,11 @@ Come in; he won't turn round.
 ## Where next
 end_page: true
 
-Next: Who is watching whom? Fragonard's The Swing
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:5 title "Who is the painter painting? Velázquez's Las Meninas" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:7 title "Who is watching whom? Fragonard's The Swing" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:7 title "Who is watching whom? Fragonard's The Swing" form title size 600 x 500 y 420
 
-    link end_again href lecture:6 title "Watch again" form text open here x 500 y 160
-    text end_count "6 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:6 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "6 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

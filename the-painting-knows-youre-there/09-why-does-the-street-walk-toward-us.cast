@@ -1,7 +1,7 @@
 # Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day
 tags: ["caillebotte paris","perspective composition","impressionist painting","photography influence","urban scenes"]
-thumb: "band \"Why does the street walk at us?\" picture \"File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/perspective","concepts/viewer-positioning","methods/compositional-framing","vocabulary/horizon-line"]
+thumb: "band \"Why does the street walk at us?\" picture \"File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Why are the figures cut off by the frame? Where would we have to be standing?"
 next: {"title":"Can this mirror be right? Manet's A Bar at the Folies-Bergère","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/10-can-this-mirror-be-right-manet-s-a-bar.cast"}
@@ -125,14 +125,11 @@ Next time a picture cuts someone off at the edge, ask where the photographer's f
 ## Where next
 end_page: true
 
-Next: Can this mirror be right? Manet's A Bar at the Folies-Bergère
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:8 title "Why show a man from behind? Friedrich's Wanderer above the Sea of Fog" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:10 title "Can this mirror be right? Manet's A Bar at the Folies-Bergère" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:10 title "Can this mirror be right? Manet's A Bar at the Folies-Bergère" form title size 600 x 500 y 420
 
-    link end_again href lecture:9 title "Watch again" form text open here x 500 y 160
-    text end_count "9 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:9 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "9 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

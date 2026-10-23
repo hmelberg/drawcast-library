@@ -1,7 +1,7 @@
 # Can this mirror be right? Manet's A Bar at the Folies-Bergère
 tags: ["manet","painting composition","perspective and reflection","viewer positioning","19th century art","realism and illusion"]
-thumb: "question \"Can this mirror be right?\" picture \"File:Edouard_Manet,_A_Bar_at_the_Folies-Bergère.jpg\" colour"
 teaches: ["art-history/manet-techniques","concepts/perspective-distortion","concepts/viewer-manipulation","methods/visual-narrative"]
+thumb: "question \"Can this mirror be right?\" picture \"File:Edouard Manet, A Bar at the Folies-Bergère.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Why doesn't the reflection match the barmaid? Who is the man in the mirror, and where are we?"
 
@@ -115,11 +115,8 @@ Can this mirror be right? Not quite, and that is exactly how it pulls you up to 
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:9 title "Why does the street walk toward us? Caillebotte's Paris Street; Rainy Day" size 320 x 500 y 395
-
-    link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:10 title "Watch again" form text mark replay open here x 500 y 400 font_size 28
+    text end_count "10 of 10" x 500 y 330 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

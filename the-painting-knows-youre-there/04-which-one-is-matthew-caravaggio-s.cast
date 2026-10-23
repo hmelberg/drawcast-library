@@ -1,7 +1,7 @@
 # Which one is Matthew? Caravaggio's Calling of Saint Matthew
 tags: ["caravaggio","renaissance art","painting interpretation","religious art","baroque","visual analysis"]
-thumb: "question \"Which one is Matthew?\" picture \"File:Michelangelo_Caravaggio_040.jpg\" colour"
 teaches: ["art-history/baroque-painting","interpretation/ambiguity-in-art","concepts/visual-composition","viewer-engagement/personal-meaning"]
+thumb: "question \"Which one is Matthew?\" picture \"File:Michelangelo Caravaggio 040.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
 prompt: "Where does the light point, and where does Christ's hand point? Is Matthew the bearded man or the young man counting coins?"
 next: {"title":"Who is the painter painting? Velázquez's Las Meninas","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/the-painting-knows-youre-there/05-who-is-the-painter-painting-velazquez-s.cast"}
@@ -126,14 +126,11 @@ Which one is Matthew? Caravaggio's finger stops short, and leaves the last few i
 ## Where next
 end_page: true
 
-Next: Who is the painter painting? Velázquez's Las Meninas
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:3 title "Where is the hero? Bruegel's Fall of Icarus" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:5 title "Who is the painter painting? Velázquez's Las Meninas" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:5 title "Who is the painter painting? Velázquez's Las Meninas" form title size 600 x 500 y 420
 
-    link end_again href lecture:4 title "Watch again" form text open here x 500 y 160
-    text end_count "4 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:4 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "4 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
