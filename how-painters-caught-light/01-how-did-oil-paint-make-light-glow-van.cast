@@ -1,7 +1,7 @@
 # How did oil paint make light glow? Van Eyck's Arnolfini Portrait
 tags: ["oil paint techniques","renaissance art","light in painting","van eyck","glazing technique","color theory"]
-thumb: "band \"Why does it glow?\" picture \"File:Van_Eyck_-_Arnolfini_Portrait.jpg\" colour"
 teaches: ["art-history/northern-renaissance","techniques/oil-paint-glazing","concepts/light-reflection","methods/observing-paintings"]
+thumb: "band \"Why does it glow?\" picture \"File:Van Eyck - Arnolfini Portrait.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the light come from in this room? What could oil glazes do that earlier paint couldn't?"
 next: {"title":"Can one beam tell a story? Caravaggio's Calling of Saint Matthew","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast"}
@@ -144,12 +144,11 @@ B: So that's answer one to our question: paint you can see into, with the light 
 ## Where next
 end_page: true
 
-Next: Can one beam tell a story? Caravaggio's Calling of Saint Matthew
-    text end_next_kicker "Next" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:2 title "Can one beam tell a story? Caravaggio's Calling of Saint Matthew" size 320 x 500 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:2 title "Can one beam tell a story? Caravaggio's Calling of Saint Matthew" form title size 600 x 500 y 420
 
-    link end_again href lecture:1 title "Watch again" form text open here x 500 y 160
-    text end_count "1 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:1 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "1 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

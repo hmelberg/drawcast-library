@@ -1,7 +1,7 @@
 # Why paint the same church thirty times? Monet's Rouen Cathedral
 tags: ["monet","impressionism","light and color","series paintings","rouen cathedral"]
-thumb: "band \"Thirty times. Why?\" picture \"File:Claude_Monet,_Rouen_Cathedral,_West_Façade,_Sunlight,_1894,_NGA_46654.jpg\" colour"
 teaches: ["art-history/impressionism","concepts/light-as-subject","methods/serial-observation"]
+thumb: "band \"Thirty times. Why?\" picture \"File:Claude Monet, Rouen Cathedral, West Façade, Sunlight, 1894, NGA 46654.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What changes between two of the paintings? What was Monet really painting?"
 next: {"title":"Can dots make light? Seurat's A Sunday on La Grande Jatte","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast"}
@@ -137,14 +137,11 @@ B: Same church, thirty pictures, and not one of them is really of the church.
 ## Where next
 end_page: true
 
-Next: Can dots make light? Seurat's A Sunday on La Grande Jatte
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:7 title "What if you paint the light, not the thing? Monet's Impression, Sunrise" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:9 title "Can dots make light? Seurat's A Sunday on La Grande Jatte" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:9 title "Can dots make light? Seurat's A Sunday on La Grande Jatte" form title size 600 x 500 y 420
 
-    link end_again href lecture:8 title "Watch again" form text open here x 500 y 160
-    text end_count "8 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:8 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "8 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

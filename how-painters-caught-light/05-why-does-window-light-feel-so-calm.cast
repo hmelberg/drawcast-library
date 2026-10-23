@@ -1,7 +1,7 @@
 # Why does window light feel so calm? Vermeer's The Milkmaid
 tags: ["vermeer","window light","painting technique","dutch golden age","composition","light in art"]
-thumb: "band \"Why so calm?\" picture \"File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/vermeer","concepts/light-in-composition","methods/observing-light","techniques/edge-contrast"]
+thumb: "band \"Why so calm?\" picture \"File:Johannes Vermeer - Het melkmeisje - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the light fall, and where doesn't it? How do the little dots of light on the bread work?"
 next: {"title":"Can a sunset say goodbye? Turner's The Fighting Temeraire","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast"}
@@ -138,14 +138,11 @@ B: Next time a room feels peaceful, look for the window.
 ## Where next
 end_page: true
 
-Next: Can a sunset say goodbye? Turner's The Fighting Temeraire
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:4 title "What can one candle do? La Tour's Magdalen with the Smoking Flame" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:6 title "Can a sunset say goodbye? Turner's The Fighting Temeraire" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:6 title "Can a sunset say goodbye? Turner's The Fighting Temeraire" form title size 600 x 500 y 420
 
-    link end_again href lecture:5 title "Watch again" form text open here x 500 y 160
-    text end_count "5 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:5 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "5 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

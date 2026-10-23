@@ -1,7 +1,7 @@
 # What can one candle do? La Tour's Magdalen with the Smoking Flame
 tags: ["art history","caravaggio lighting","renaissance painting","symbolism","memento mori","baroque"]
-thumb: "none picture \"File:Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/baroque-light-techniques","interpretation/religious-symbolism","visual-analysis/composition","concepts/memento-mori"]
+thumb: "none picture \"File:Georges de La Tour - The Magdalen with the Smoking Flame - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is lit, and what is hidden? Why a candle and a skull?"
 next: {"title":"Why does window light feel so calm? Vermeer's The Milkmaid","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/05-why-does-window-light-feel-so-calm.cast"}
@@ -131,14 +131,11 @@ B: Every light so far came in from outside. This one sits on the table with her,
 ## Where next
 end_page: true
 
-Next: Why does window light feel so calm? Vermeer's The Milkmaid
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:3 title "How does light pick out a hero? Rembrandt's The Night Watch" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:5 title "Why does window light feel so calm? Vermeer's The Milkmaid" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:5 title "Why does window light feel so calm? Vermeer's The Milkmaid" form title size 600 x 500 y 420
 
-    link end_again href lecture:4 title "Watch again" form text open here x 500 y 160
-    text end_count "4 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:4 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "4 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

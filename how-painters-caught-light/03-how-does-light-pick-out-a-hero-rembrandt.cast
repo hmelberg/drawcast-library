@@ -1,7 +1,7 @@
 # How does light pick out a hero? Rembrandt's The Night Watch
 tags: ["art history","light and shadow","rembrandt","composition","dutch golden age","visual hierarchy"]
-thumb: "band \"Who's the hero?\" picture \"File:The_Night_Watch_-_HD.jpg\" colour"
 teaches: ["art-history/rembrandt-technique","methods/compositional-lighting","concepts/visual-storytelling","history/dutch-portraiture"]
+thumb: "band \"Who's the hero?\" picture \"File:The Night Watch - HD.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Who is lit, and who is left in shadow? Who is the glowing girl?"
 next: {"title":"What can one candle do? La Tour's Magdalen with the Smoking Flame","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/04-what-can-one-candle-do-la-tour-s.cast"}
@@ -125,14 +125,11 @@ B: Eighteen men paid for a portrait, and Rembrandt gave them a play instead.
 ## Where next
 end_page: true
 
-Next: What can one candle do? La Tour's Magdalen with the Smoking Flame
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:2 title "Can one beam tell a story? Caravaggio's Calling of Saint Matthew" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:4 title "What can one candle do? La Tour's Magdalen with the Smoking Flame" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:4 title "What can one candle do? La Tour's Magdalen with the Smoking Flame" form title size 600 x 500 y 420
 
-    link end_again href lecture:3 title "Watch again" form text open here x 500 y 160
-    text end_count "3 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:3 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "3 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

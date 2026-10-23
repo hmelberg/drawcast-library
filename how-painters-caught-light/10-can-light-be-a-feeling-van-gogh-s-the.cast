@@ -1,7 +1,7 @@
 # Can light be a feeling? Van Gogh's The Starry Night
 tags: ["art history","van gogh","starry night","light in painting","emotion and color","impressionism"]
-thumb: "none picture \"File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/symbolism-in-painting","concepts/emotional-light","visual-analysis/composition","art-appreciation/expressionism"]
+thumb: "none picture \"File:Van Gogh - Starry Night - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What is real in this sky, and what isn't? Where does the light come from now?"
 
@@ -138,11 +138,8 @@ B: Ten paintings on, and the light has moved from the window into the painter.
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:9 title "Can dots make light? Seurat's A Sunday on La Grande Jatte" size 320 x 500 y 395
-
-    link end_again href lecture:10 title "Watch again" form text open here x 500 y 160
-    text end_count "10 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:10 title "Watch again" form text mark replay open here x 500 y 400 font_size 28
+    text end_count "10 of 10" x 500 y 330 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

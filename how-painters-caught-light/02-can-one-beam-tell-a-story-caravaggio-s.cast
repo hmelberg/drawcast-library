@@ -1,7 +1,7 @@
 # Can one beam tell a story? Caravaggio's Calling of Saint Matthew
 tags: ["caravaggio","light in painting","narrative composition","renaissance art","baroque technique"]
-thumb: "question \"Where is the light pointing?\" picture \"File:Michelangelo_Caravaggio_040.jpg\" colour"
 teaches: ["art-history/baroque-painting","visual-analysis/light-as-storytelling","composition/directional-emphasis"]
+thumb: "question \"Where is the light pointing?\" picture \"File:Michelangelo Caravaggio 040.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "Where does the beam enter, and what does it hit? What does the darkness do?"
 next: {"title":"How does light pick out a hero? Rembrandt's The Night Watch","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/03-how-does-light-pick-out-a-hero-rembrandt.cast"}
@@ -116,14 +116,11 @@ B: Van Eyck's light showed us everything in the room. This one chooses.
 ## Where next
 end_page: true
 
-Next: How does light pick out a hero? Rembrandt's The Night Watch
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:1 title "How did oil paint make light glow? Van Eyck's Arnolfini Portrait" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:3 title "How does light pick out a hero? Rembrandt's The Night Watch" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:3 title "How does light pick out a hero? Rembrandt's The Night Watch" form title size 600 x 500 y 420
 
-    link end_again href lecture:2 title "Watch again" form text open here x 500 y 160
-    text end_count "2 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:2 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "2 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

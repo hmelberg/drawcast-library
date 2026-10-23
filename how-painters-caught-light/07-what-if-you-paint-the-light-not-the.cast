@@ -1,7 +1,7 @@
 # What if you paint the light, not the thing? Monet's Impression, Sunrise
 tags: ["impressionism","monet","light-and-color","painting-technique","art-history"]
-thumb: "band \"Paint the light, not the thing\" picture \"File:Monet_-_Impression,_Sunrise.jpg\" colour"
 teaches: ["art-history/impressionism-movement","concepts/light-as-subject","techniques/color-over-form","art-analysis/how-paintings-create-perception"]
+thumb: "band \"Paint the light, not the thing\" picture \"File:Monet - Impression, Sunrise.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "How little is actually drawn? How did this painting give a movement its name?"
 next: {"title":"Why paint the same church thirty times? Monet's Rouen Cathedral","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast"}
@@ -170,14 +170,11 @@ B: Turner's sunset told a story about a ship. Monet's sunrise is the story.
 ## Where next
 end_page: true
 
-Next: Why paint the same church thirty times? Monet's Rouen Cathedral
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:6 title "Can a sunset say goodbye? Turner's The Fighting Temeraire" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:8 title "Why paint the same church thirty times? Monet's Rouen Cathedral" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:8 title "Why paint the same church thirty times? Monet's Rouen Cathedral" form title size 600 x 500 y 420
 
-    link end_again href lecture:7 title "Watch again" form text open here x 500 y 160
-    text end_count "7 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:7 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "7 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

@@ -65,27 +65,6 @@
       "updated": "2026-10-15"
     },
     {
-      "slug": "how-painters-caught-light",
-      "title": "How Painters Caught Light",
-      "files": [
-        "how-painters-caught-light/01-how-did-oil-paint-make-light-glow-van.cast",
-        "how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast",
-        "how-painters-caught-light/03-how-does-light-pick-out-a-hero-rembrandt.cast",
-        "how-painters-caught-light/04-what-can-one-candle-do-la-tour-s.cast",
-        "how-painters-caught-light/05-why-does-window-light-feel-so-calm.cast",
-        "how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast",
-        "how-painters-caught-light/07-what-if-you-paint-the-light-not-the.cast",
-        "how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast",
-        "how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast",
-        "how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast",
-        "how-painters-caught-light/course.md",
-        "how-painters-caught-light/pool.json",
-        "how-painters-caught-light/index.html",
-        "how-painters-caught-light/README.md"
-      ],
-      "updated": "2026-10-15"
-    },
-    {
       "slug": "russian-from-zero",
       "title": "Russian from zero",
       "files": [
@@ -1522,6 +1501,37 @@
         "ordinary-life-takes-the-stage/pool.json",
         "ordinary-life-takes-the-stage/index.html",
         "ordinary-life-takes-the-stage/README.md"
+      ],
+      "updated": "2026-10-23"
+    },
+    {
+      "slug": "how-painters-caught-light",
+      "title": "How Painters Caught Light",
+      "files": [
+        "how-painters-caught-light/01-how-did-oil-paint-make-light-glow-van.cast",
+        "how-painters-caught-light/02-can-one-beam-tell-a-story-caravaggio-s.cast",
+        "how-painters-caught-light/03-how-does-light-pick-out-a-hero-rembrandt.cast",
+        "how-painters-caught-light/04-what-can-one-candle-do-la-tour-s.cast",
+        "how-painters-caught-light/05-why-does-window-light-feel-so-calm.cast",
+        "how-painters-caught-light/06-can-a-sunset-say-goodbye-turner-s-the.cast",
+        "how-painters-caught-light/07-what-if-you-paint-the-light-not-the.cast",
+        "how-painters-caught-light/08-why-paint-the-same-church-thirty-times.cast",
+        "how-painters-caught-light/09-can-dots-make-light-seurat-s-a-sunday-on.cast",
+        "how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast",
+        "how-painters-caught-light/course.md",
+        "how-painters-caught-light/pool-audio/3434169d592283d6.mp3",
+        "how-painters-caught-light/pool-audio/3985d9c7b828eaa5.mp3",
+        "how-painters-caught-light/pool-audio/479b303d1cb819fb.mp3",
+        "how-painters-caught-light/pool-audio/5856496f11b14082.mp3",
+        "how-painters-caught-light/pool-audio/93e047b1bee48207.mp3",
+        "how-painters-caught-light/pool-audio/9e79cc67885c1d52.mp3",
+        "how-painters-caught-light/pool-audio/afe5eb7473e9af0d.mp3",
+        "how-painters-caught-light/pool-audio/b9c91845a1060dd8.mp3",
+        "how-painters-caught-light/pool-audio/bb3c9cac7ec51577.mp3",
+        "how-painters-caught-light/pool-audio/f0bf8f03be622cce.mp3",
+        "how-painters-caught-light/pool.json",
+        "how-painters-caught-light/index.html",
+        "how-painters-caught-light/README.md"
       ],
       "updated": "2026-10-23"
     }

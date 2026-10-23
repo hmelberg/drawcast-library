@@ -1,7 +1,7 @@
 # Can dots make light? Seurat's A Sunday on La Grande Jatte
 tags: ["art history","pointillism","seurat","color theory","optical mixing","renaissance painting"]
-thumb: "question \"Can dots make light?\" picture \"File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg\" colour"
 teaches: ["art-history/pointillism-technique","concepts/optical-color-mixing","concepts/color-relationships","methods/scientific-painting"]
+thumb: "question \"Can dots make light?\" picture \"File:Georges Seurat - A Sunday on La Grande Jatte -- 1884 - Google Art Project.jpg\" colour"
 voices: {"a":"gemini:Charon | a warm, knowledgeable gallery guide, quietly amused","b":"gemini:Puck | a relaxed, good-humoured visitor with a dry, understated wit; curious, never exaggerated"}
 prompt: "What happens to the dots when you step back? Why did Seurat think this would make colours brighter?"
 next: {"title":"Can light be a feeling? Van Gogh's The Starry Night","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/how-painters-caught-light/10-can-light-be-a-feeling-van-gogh-s-the.cast"}
@@ -155,14 +155,11 @@ A: Next time a screen looks smooth, lean in: it's tiny dots too, and your eye is
 ## Where next
 end_page: true
 
-Next: Can light be a feeling? Van Gogh's The Starry Night
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:8 title "Why paint the same church thirty times? Monet's Rouen Cathedral" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:10 title "Can light be a feeling? Van Gogh's The Starry Night" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:10 title "Can light be a feeling? Van Gogh's The Starry Night" form title size 600 x 500 y 420
 
-    link end_again href lecture:9 title "Watch again" form text open here x 500 y 160
-    text end_count "9 of 10" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:9 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "9 of 10" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
