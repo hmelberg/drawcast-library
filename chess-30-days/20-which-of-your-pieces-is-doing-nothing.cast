@@ -311,14 +311,11 @@ A: Homework: one slow game today, fifteen plus ten or slower. Then find its firs
 ## Where next
 end_page: true
 
-Next: How do you make a plan in the middlegame?
-    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:19 title "What do the pawns tell you?" size 320 x 265 y 395
-    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
-    link end_next href lecture:21 title "How do you make a plan in the middlegame?" size 320 x 735 y 395
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:21 title "How do you make a plan in the middlegame?" form title size 600 x 500 y 420
 
-    link end_again href lecture:20 title "Watch again" form text open here x 500 y 160
-    text end_count "20 of 30" x 500 y 95 font_size 22 style.opacity 0.6
+    link end_again href lecture:20 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "20 of 30" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
