@@ -1,6 +1,6 @@
 # Russian from zero
 
-Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story.
+Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story. And a third year, towards B1+: который in every case, the passive, reported speech, word building, idioms, a radio interview, and Tolstoy's «Лев и собачка».
 
 1. [Read Russian in 14 letters](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/01-read-russian.cast)
    - Which Cyrillic letters look like English ones but sound different?
@@ -266,6 +266,66 @@ Learn to read, hear and say Russian, one short lesson at a time. Each lesson bui
    - Which case comes after a Russian verb like привыкнуть, скучать or бояться?
 130. [Reading Chekhov in Russian: Fat and Thin](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/130-russian-chekhov.cast)
    - Can you read Chekhov in Russian, and why does the thin one switch from ты to вы?
+131. [The flat that I rented in Russian: который in every case](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/131-russian-which-flat.cast)
+   - How does который change: квартира, которую…, парк, о котором…?
+132. [All of it in Russian: весь день, всё, что…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/132-russian-all-of-it.cast)
+   - How do весь, этот and тот change, and how do you say everything that…?
+133. [Away and around in Russian: отнести, обойти, сойти](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/133-russian-away-around.cast)
+   - What do от-, об- and с- add to a verb of motion?
+134. [Coming and going in Russian: ухожу, приезжаю, сходи](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/134-russian-come-and-go.cast)
+   - Ушёл or ухожу, and what does сходи в магазин mean?
+135. [Don't forget in Russian: aspect after не](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/135-russian-dont-forget.cast)
+   - Не звони or не позвони: which aspect after не, нельзя and начать?
+136. [I had to in Russian: пришлось, удалось, не хватает](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/136-russian-had-to.cast)
+   - How do you say I had to, I managed to and there isn't enough in Russian?
+137. [A business call in Russian: не могли бы вы…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/137-russian-business-call.cast)
+   - How do you ask politely on the phone in Russian, and report what was said?
+138. [Both and the two of us in Russian: оба, двое, полтора](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/138-russian-both.cast)
+   - When do you say двое, оба and полтора, and what comes after them?
+139. [Cheaper and better in Russian: дешевле, гораздо лучше](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/139-russian-cheaper.cast)
+   - How do you compare in Russian: дешевле, чем… or дешевле мяса?
+140. [A fourteenth Russian story: the wedding banquet](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/140-russian-review-14.cast)
+   - Can you read Tom's story of a wedding night in the kitchen?
+141. [Each other in Russian: друг друга](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/141-russian-each-other.cast)
+   - How do you say each other, and where does the preposition go?
+142. [Passive in Russian: билеты продаются, каток открывается](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/142-russian-passive-sya.cast)
+   - How does -ся make a passive: билеты продаются, как это пишется?
+143. [As soon as and until in Russian: как только, пока не](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/143-russian-as-soon-as.cast)
+   - How do you join two events in time: пока, как только, перед тем как?
+144. [Running and swimming in Russian: бегу or бегаю?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/144-russian-run-swim.cast)
+   - Бежать or бегать, плыть or плавать: and how do all eight pairs work?
+145. [Reported speech in Russian: he advised us to go](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/145-russian-advised.cast)
+   - How do you report what someone said, asked, told you to do or advised?
+146. [Even if in Russian: даже если, всё-таки, что бы ни](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/146-russian-even-if.cast)
+   - How do you say even if, still and whatever happens?
+147. [Building Russian words: решение, радость, помощник](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/147-russian-word-building.cast)
+   - How do -ние, -ость and -ник make new words from ones you know?
+148. [Really? in Russian: же, ведь, разве, неужели](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/148-russian-particles.cast)
+   - What do же, ведь, разве and неужели add to a sentence?
+149. [Arguing in Russian: с одной стороны, с другой стороны](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/149-russian-pros-cons.cast)
+   - How do you weigh pros and cons and argue a point in Russian?
+150. [A fifteenth Russian story: a winter diary](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/150-russian-review-15.cast)
+   - Can you read Masha's diary of New Year in Moscow and a frosty Suzdal?
+151. [Russian food idioms: первый блин комом](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/151-russian-food-idioms.cast)
+   - What does первый блин комом mean, and which other food idioms do Russians use?
+152. [It's done in Russian: заказ принят, столы накрыты](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/152-russian-it-is-done.cast)
+   - How do you say it's been done: принят, накрыт, проверено?
+153. [A job ad in Russian: требуется повар, умеющий…](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/153-russian-job-ad.cast)
+   - How do you make a participle yourself: умеющий, работавший?
+154. [Overslept in Russian: проспал, заснул, дочитал](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/154-russian-overslept.cast)
+   - What do про-, за-, до-, по- and пере- do to a verb that isn't about motion?
+155. [Dates in Russian history: в 1703 году, в XVIII веке](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/155-russian-history-dates.cast)
+   - How do you say dates, years and centuries in Russian history?
+156. [A Russian radio interview: have you ever cooked borscht?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/156-russian-radio-interview.cast)
+   - How do you ask have you ever…? and answer an interview in Russian?
+157. [Proud and worried in Russian: гордиться, волноваться](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/157-russian-feelings-cases.cast)
+   - Which case follows a feeling: гордиться кем, радоваться чему, волноваться за кого?
+158. [Walking on the beach in Russian: гуляя, прилетев](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/158-russian-gerunds-use.cast)
+   - How do you make a gerund yourself: гуляя, прилетев, не зная?
+159. [Nobody to ask in Russian: некого, некогда, нечего](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/159-russian-nothing-to-do.cast)
+   - How do некого, нечего and некогда differ from никто and ничего?
+160. [Reading Tolstoy in Russian: The Lion and the Little Dog](https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/160-russian-tolstoy.cast)
+   - Can you read a whole Tolstoy story for children in Russian?
 
 ---
 

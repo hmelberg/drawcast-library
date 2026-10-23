@@ -351,7 +351,7 @@ Next: Word families in Russian: вход, выход, переход
     link end_next href lecture:122 title "Word families in Russian: вход, выход, переход" size 320 x 735 y 395
 
     link end_again href lecture:121 title "Watch again" form text open here x 500 y 160
-    text end_count "121 of 130" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "121 of 160" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

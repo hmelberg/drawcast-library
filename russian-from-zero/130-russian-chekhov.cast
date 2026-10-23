@@ -4,6 +4,7 @@ tags: ["russian","chekhov","russian literature","russian reading","толсты�
 teaches: ["reading/reading-literature","phrases/formal-register"]
 thumb: "band \"Read Chekhov in Russian\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"The flat that I rented in Russian: который in every case","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/131-russian-which-flat.cast"}
 
 ## Reading Chekhov in Russian: Fat and Thin
 stress: new
@@ -333,11 +334,14 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    text end_prev_kicker "Previous" x 500 y 545 font_size 24 style.opacity 0.6
-    link end_prev href lecture:129 title "Used to it in Russian: я привык к…" size 320 x 500 y 395
+Next: The flat that I rented in Russian: который in every case
+    text end_prev_kicker "Previous" x 265 y 545 font_size 24 style.opacity 0.6
+    link end_prev href lecture:129 title "Used to it in Russian: я привык к…" size 320 x 265 y 395
+    text end_next_kicker "Next" x 735 y 545 font_size 24 style.opacity 0.6
+    link end_next href lecture:131 title "The flat that I rented in Russian: который in every case" size 320 x 735 y 395
 
     link end_again href lecture:130 title "Watch again" form text open here x 500 y 160
-    text end_count "130 of 130" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "130 of 160" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

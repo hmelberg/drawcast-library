@@ -3,13 +3,13 @@ slug: russian-from-zero
 test: test-your-russian-by-hmelberg
 level: Complete beginners who speak English; no Cyrillic needed to start
 language: English narration, Russian words in Cyrillic with stress marks; Tom and Masha speak the Russian
-skills/reading: cyrillic-letters, reading-stories, reading-literature, reading-news, reading-signs
-skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays, sayings, money-and-documents, moving-house, the-city
-skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency, narrative-words, case-tables, gerunds, indefinite-pronouns, indirect-questions, linking-words, number-cases, participles, placing-verbs, plural-cases, prepositions, purpose-clauses, reflexive-pronoun, verb-cases, word-families
-skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes, travel-phrases, writing-messages, formal-letters, formal-register
+skills/reading: cyrillic-letters, reading-stories, reading-literature, reading-news, reading-signs, reading-diaries
+skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays, sayings, money-and-documents, moving-house, the-city, history, nature, renting, work
+skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency, narrative-words, case-tables, gerunds, indefinite-pronouns, indirect-questions, linking-words, number-cases, participles, placing-verbs, plural-cases, prepositions, purpose-clauses, reflexive-pronoun, verb-cases, word-families, concession, determiners, impersonal, particles, passive, reciprocal, reported-speech, time-clauses, verb-prefixes
+skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes, travel-phrases, writing-messages, formal-letters, formal-register, arguing, colloquial-speech, idioms, interviews
 #basic
 
-Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story.
+Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story. And a third year, towards B1+: который in every case, the passive, reported speech, word building, idioms, a radio interview, and Tolstoy's «Лев и собачка».
 
 ---
 ## Read Russian in 14 letters
@@ -536,3 +536,123 @@ status: done · id: 09189373-60cd-4e4f-9bbc-a02e232a496b · file: 129-russian-ve
 ## Reading Chekhov in Russian: Fat and Thin
 Can you read Chekhov in Russian, and why does the thin one switch from ты to вы?
 status: done · id: 013793a9-4925-4325-be19-4dbed968bb36 · file: 130-russian-chekhov.cast · 2026-10-23
+---
+## The flat that I rented in Russian: который in every case
+How does который change: квартира, которую…, парк, о котором…?
+status: done · id: af819328-df31-4918-997e-e4e331d57b42 · file: 131-russian-which-flat.cast · 2026-10-23
+---
+## All of it in Russian: весь день, всё, что…
+How do весь, этот and тот change, and how do you say everything that…?
+status: done · id: 10ab1cda-02c6-4081-9268-882b21c38b67 · file: 132-russian-all-of-it.cast · 2026-10-23
+---
+## Away and around in Russian: отнести, обойти, сойти
+What do от-, об- and с- add to a verb of motion?
+status: done · id: 359afe50-511a-4ab1-9b9c-260a277d8f61 · file: 133-russian-away-around.cast · 2026-10-23
+---
+## Coming and going in Russian: ухожу, приезжаю, сходи
+Ушёл or ухожу, and what does сходи в магазин mean?
+status: done · id: 84788e55-cf8c-4149-abf1-680a3064fbfe · file: 134-russian-come-and-go.cast · 2026-10-23
+---
+## Don't forget in Russian: aspect after не
+Не звони or не позвони: which aspect after не, нельзя and начать?
+status: done · id: 302ced87-f6e4-41d8-b965-ae332cf0c014 · file: 135-russian-dont-forget.cast · 2026-10-23
+---
+## I had to in Russian: пришлось, удалось, не хватает
+How do you say I had to, I managed to and there isn't enough in Russian?
+status: done · id: 75ad27ff-ba85-4edc-a7b9-5871a8d11c67 · file: 136-russian-had-to.cast · 2026-10-23
+---
+## A business call in Russian: не могли бы вы…
+How do you ask politely on the phone in Russian, and report what was said?
+status: done · id: e86e7ff0-8bb2-4e34-8450-1daf9fb8ed30 · file: 137-russian-business-call.cast · 2026-10-23
+---
+## Both and the two of us in Russian: оба, двое, полтора
+When do you say двое, оба and полтора, and what comes after them?
+status: done · id: 3ed96d3f-cfa0-49da-bbe2-f5401b987f94 · file: 138-russian-both.cast · 2026-10-23
+---
+## Cheaper and better in Russian: дешевле, гораздо лучше
+How do you compare in Russian: дешевле, чем… or дешевле мяса?
+status: done · id: 3bfe5e8a-04f3-490a-8ae7-6a9080089d49 · file: 139-russian-cheaper.cast · 2026-10-23
+---
+## A fourteenth Russian story: the wedding banquet
+Can you read Tom's story of a wedding night in the kitchen?
+status: done · id: 5381313a-377c-4dcd-b505-5e2c1939776b · file: 140-russian-review-14.cast · 2026-10-23
+---
+## Each other in Russian: друг друга
+How do you say each other, and where does the preposition go?
+status: done · id: 9b5a0674-92fe-49fd-a943-e33ab5b67405 · file: 141-russian-each-other.cast · 2026-10-23
+---
+## Passive in Russian: билеты продаются, каток открывается
+How does -ся make a passive: билеты продаются, как это пишется?
+status: done · id: c7b4c6e1-ed05-43ec-be0e-13d6b88c070a · file: 142-russian-passive-sya.cast · 2026-10-23
+---
+## As soon as and until in Russian: как только, пока не
+How do you join two events in time: пока, как только, перед тем как?
+status: done · id: c5fdc764-3e14-4668-bf0d-805106e6173a · file: 143-russian-as-soon-as.cast · 2026-10-23
+---
+## Running and swimming in Russian: бегу or бегаю?
+Бежать or бегать, плыть or плавать: and how do all eight pairs work?
+status: done · id: 736aca2a-73bc-44ad-9aa9-772b5541bd9f · file: 144-russian-run-swim.cast · 2026-10-23
+---
+## Reported speech in Russian: he advised us to go
+How do you report what someone said, asked, told you to do or advised?
+status: done · id: 538ba770-d68b-4ee2-bfb8-da677d31b0ef · file: 145-russian-advised.cast · 2026-10-23
+---
+## Even if in Russian: даже если, всё-таки, что бы ни
+How do you say even if, still and whatever happens?
+status: done · id: fae1fafd-cfa7-46b7-9300-1c4ad4c33ed9 · file: 146-russian-even-if.cast · 2026-10-23
+---
+## Building Russian words: решение, радость, помощник
+How do -ние, -ость and -ник make new words from ones you know?
+status: done · id: ff63faa1-bd91-4ecc-8291-bb3f5cd70e7a · file: 147-russian-word-building.cast · 2026-10-23
+---
+## Really? in Russian: же, ведь, разве, неужели
+What do же, ведь, разве and неужели add to a sentence?
+status: done · id: ec61fb33-0ecf-4abd-a067-e1093e00fc70 · file: 148-russian-particles.cast · 2026-10-23
+---
+## Arguing in Russian: с одной стороны, с другой стороны
+How do you weigh pros and cons and argue a point in Russian?
+status: done · id: 4444e7ae-5d1a-4c78-89e2-0ba2668290ba · file: 149-russian-pros-cons.cast · 2026-10-23
+---
+## A fifteenth Russian story: a winter diary
+Can you read Masha's diary of New Year in Moscow and a frosty Suzdal?
+status: done · id: 8c940087-a844-4dd0-9af7-51f14c204f2c · file: 150-russian-review-15.cast · 2026-10-23
+---
+## Russian food idioms: первый блин комом
+What does первый блин комом mean, and which other food idioms do Russians use?
+status: done · id: 658a8d0b-0655-4d59-96d3-201fb7cbadf2 · file: 151-russian-food-idioms.cast · 2026-10-23
+---
+## It's done in Russian: заказ принят, столы накрыты
+How do you say it's been done: принят, накрыт, проверено?
+status: done · id: 478ab0fd-1a09-4676-9138-789eec00f0c2 · file: 152-russian-it-is-done.cast · 2026-10-23
+---
+## A job ad in Russian: требуется повар, умеющий…
+How do you make a participle yourself: умеющий, работавший?
+status: done · id: 98f4b64d-fbae-4dec-8326-fad8612cc69f · file: 153-russian-job-ad.cast · 2026-10-23
+---
+## Overslept in Russian: проспал, заснул, дочитал
+What do про-, за-, до-, по- and пере- do to a verb that isn't about motion?
+status: done · id: c4f3d36c-7670-4f63-b047-fb4715804c2d · file: 154-russian-overslept.cast · 2026-10-23
+---
+## Dates in Russian history: в 1703 году, в XVIII веке
+How do you say dates, years and centuries in Russian history?
+status: done · id: 5805e5e8-3d6f-4d7b-8e51-c8e2158081bc · file: 155-russian-history-dates.cast · 2026-10-23
+---
+## A Russian radio interview: have you ever cooked borscht?
+How do you ask have you ever…? and answer an interview in Russian?
+status: done · id: 3665e2d8-af00-48ac-a32a-bf9da7c8d558 · file: 156-russian-radio-interview.cast · 2026-10-23
+---
+## Proud and worried in Russian: гордиться, волноваться
+Which case follows a feeling: гордиться кем, радоваться чему, волноваться за кого?
+status: done · id: 80a1b8ca-69fa-4bdd-90c4-aec36aac99aa · file: 157-russian-feelings-cases.cast · 2026-10-23
+---
+## Walking on the beach in Russian: гуляя, прилетев
+How do you make a gerund yourself: гуляя, прилетев, не зная?
+status: done · id: 80d94f63-baf7-46be-a154-6670bcf4f67f · file: 158-russian-gerunds-use.cast · 2026-10-23
+---
+## Nobody to ask in Russian: некого, некогда, нечего
+How do некого, нечего and некогда differ from никто and ничего?
+status: done · id: ca376769-bfe7-4d2e-8f9b-4b9d70943480 · file: 159-russian-nothing-to-do.cast · 2026-10-23
+---
+## Reading Tolstoy in Russian: The Lion and the Little Dog
+Can you read a whole Tolstoy story for children in Russian?
+status: done · id: b52d4bb6-31e5-4eec-b449-e8e8aa2df8a4 · file: 160-russian-tolstoy.cast · 2026-10-23

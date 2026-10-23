@@ -272,7 +272,7 @@ Next: Plural cases in Russian: дети, детей, детьми
     link end_next href lecture:112 title "Plural cases in Russian: дети, детей, детьми" size 320 x 735 y 395
 
     link end_again href lecture:111 title "Watch again" form text open here x 500 y 160
-    text end_count "111 of 130" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "111 of 160" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

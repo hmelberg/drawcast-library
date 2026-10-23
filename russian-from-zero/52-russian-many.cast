@@ -307,7 +307,7 @@ Next: Years in Russian: в две тысячи двадцать пятом го�
     link end_next href lecture:53 title "Years in Russian: в две тысячи двадцать пятом году" size 320 x 735 y 395
 
     link end_again href lecture:52 title "Watch again" form text open here x 500 y 160
-    text end_count "52 of 130" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "52 of 160" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

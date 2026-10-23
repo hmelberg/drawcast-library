@@ -221,7 +221,7 @@ Next: Please say it again in Russian: повторите
     link end_next href lecture:41 title "Please say it again in Russian: повторите" size 320 x 735 y 395
 
     link end_again href lecture:40 title "Watch again" form text open here x 500 y 160
-    text end_count "40 of 130" x 500 y 95 font_size 22 style.opacity 0.6
+    text end_count "40 of 160" x 500 y 95 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
