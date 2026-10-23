@@ -50,7 +50,6 @@ level: basic
     text split_a "здра́вствуй" #8a5fa8 x 440 y 235 font_size 48 hidden true
     text split_b "+ те" #b5482e x 640 y 235 font_size 48 hidden true
     group split members ["split_a","split_b"] hidden true
-    box ask_q "?" #2f6b8f x 420 y 330 width 300 height 110 radius 24 font_size 56 hidden true
     box bye_a "Пока́, Ма́ша!" #2f6b8f say "Пока, Маша!" say_voice a x 420 y 330 width 360 height 96 radius 24 font_size 46 hidden true
     box bye_b "Пока́!" #2f6b8f say Пока! say_voice b x 600 y 215 width 220 height 96 radius 24 font_size 46 hidden true
 
@@ -160,13 +159,9 @@ B: Пока to a friend; до свидания, until we meet again, to everyone
 
     show speakers
 
-    draw ask_q
-
-    ask "Type how you greet me, your friend Masha." answer ["привет"] translit true reveal Приве́т! reveal_at ask_q keys АБВГДЕЗИЙКЛМНОПРСТУХЫЯ
+    ask "Type how you greet me, your friend Masha." answer ["привет"] translit true reveal Приве́т! frame true keys АБВГДЕЗИЙКЛМНОПРСТУХЫЯ
         right: Привет: I'm a friend, so it's ты, and the short hello.
         wrong: I'm a friend: the short one, six letters.
-
-    erase ask_q
 
     show board
 

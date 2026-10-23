@@ -157,9 +157,9 @@ A: So ten short words, several with cousins in English, and a letter you see in 
 
     erase match
 
-    text q3 "3" #3d3833 x 500 y 470 font_size 160
+    text q3 "3" #3d3833 x 500 y 470 font_size 110
 
-    ask "Type three in Russian." answer ["три"] translit true store a3 default три reveal.text три reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 80 reveal.color #2f6b8f test t1
+    ask "Type three in Russian." answer ["три"] translit true store a3 default три reveal.text три reveal.style label reveal.size 80 reveal.color #2f6b8f above q3 test t1
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЫЬЯ
         right: Три: three, like trio.
         wrong: Think of trio: three letters.
@@ -168,23 +168,23 @@ A: So ten short words, several with cousins in English, and a letter you see in 
 
     text q8 "во́семь" #2f6b8f say true colors {"ь$":"#4f8a4a"} x 500 y 560 font_size 110
 
-    ask "What number is во́семь? Type it in digits." answer ["8"] store a8 default "8" reveal.text "8" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 90 reveal.color #3d3833 test t1
+    ask "What number is во́семь? Type it in digits." answer ["8"] store a8 default "8" reveal.text "8" reveal.style label reveal.size 90 reveal.color #3d3833 above q8 test t1
         right: Во́семь is eight: семь, seven, hides inside it.
         wrong: Find the smaller number hiding inside it, then add one.
 
     erase q8 a8_stamp
 
-    icon qphone size 150 set twemoji x 500 y 500 or ["telephone"] icon_look picture of "mobile phone"
+    icon qphone size 120 set twemoji x 500 y 500 or ["telephone"] icon_look picture of "mobile phone"
 
-    ask "My number starts пять, три, де́вять. Type those three digits." answer ["539","5 3 9","5-3-9"] store aph default "539" reveal.text "539" reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 90 reveal.color #3d3833 test t1
+    ask "My number starts пять, три, де́вять. Type those three digits." answer ["539","5 3 9","5-3-9"] store aph default "539" reveal.text "539" reveal.style label reveal.size 90 reveal.color #3d3833 above qphone test t1
         right: Пять, три, де́вять: five, three, nine, the start of my number.
         wrong: One word, one digit: start with пять, five.
 
     erase qphone aph_stamp
 
-    text q10 "10" #3d3833 x 500 y 470 font_size 160
+    text q10 "10" #3d3833 x 500 y 470 font_size 110
 
-    quiz "Which one is 10?" reveal.text де́сять reveal.at.x 500 reveal.at.y 300 reveal.style label reveal.size 80 reveal.color #2f6b8f test t1
+    quiz "Which one is 10?" reveal.text де́сять reveal.style label reveal.size 80 reveal.color #2f6b8f above q10 test t1
         right: Де́сять: ten has с in the middle; де́вять, with в, is nine.
         wrong: Nine and ten differ by one letter in the middle.
         * де́вять

@@ -37,13 +37,13 @@ level: basic
     mark ono_x around ono_3 kind strike hidden true
     group menu members ["m_sup","m_chai","m_kofe","i_sup","i_chai","i_kofe","g_sup","g_chai","g_kofe","on_1","on_2","on_3"] hidden true
     cards match size 1.6 y 470 hidden true
-        * "суп" match soup
-        * "чай" match tea
-        * "ко́фе" match coffee
-        * "вода́" match water
-    icon q_tea size 150 set twemoji x 500 y 450 or ["hot beverage"] icon_look picture of "teacup without handle" hidden true
-    icon q_soup size 150 set twemoji x 500 y 450 or ["bowl with spoon"] icon_look picture of "pot of food" hidden true
-    icon q_coffee size 150 set twemoji x 500 y 450 or ["coffee"] icon_look picture of "hot beverage" hidden true
+        * "суп" match soup match_icon.of "pot of food" match_icon.set twemoji
+        * "чай" match tea match_icon.of "teacup without handle" match_icon.set twemoji
+        * "ко́фе" match coffee match_icon.of "hot beverage" match_icon.set twemoji
+        * "вода́" match water match_icon.of droplet match_icon.set twemoji
+    icon q_tea size 120 set twemoji x 500 y 450 or ["hot beverage"] icon_look picture of "teacup without handle" hidden true
+    icon q_soup size 120 set twemoji x 500 y 450 or ["bowl with spoon"] icon_look picture of "pot of food" hidden true
+    icon q_coffee size 120 set twemoji x 500 y 450 or ["coffee"] icon_look picture of "hot beverage" hidden true
     dialogue bye speakers.a tom speakers.b masha turns [{"by":"a","text":"Спаси́бо! До свида́ния!","gloss":"Thanks! Goodbye!"},{"by":"b","text":"До свида́ния!","gloss":"Goodbye!"}] size 1.4 hidden true
     text q_kofe "ко́фе" #2f6b8f x 500 y 430 font_size 90 hidden true
     icon f1 size 110 set twemoji x 380 y 450 or ["bowl with spoon"] icon_look picture of "pot of food" hidden true
@@ -156,43 +156,27 @@ B: In relaxed talk you'll hear оно as well, but он is always right.
 
     erase match
 
-    draw q_tea
-
-    ask "Masha asks: чай или кофе? You want tea. Type it." answer ["чай"] translit true keys АБВДЕЖЗИЙКЛМНОПРСТУФХЧ reveal Чай! reveal_at q_tea test t1
+    ask "Masha asks: чай или кофе? You want tea. Type it." answer ["чай"] translit true keys АБВДЕЖЗИЙКЛМНОПРСТУФХЧ above q_tea reveal Чай! test t1
         right: Чай: Ч, then а, then the short Й.
         wrong: It starts with the new letter that says ch.
 
-    erase q_tea
-
-    draw q_soup
-
-    quiz "Masha puts your soup down and says пожалуйста. What does she mean?" test t1
+    quiz "Masha puts your soup down and says пожалуйста. What does she mean?" above q_soup reveal true test t1
         right: Here you are: handing something over, пожалуйста means here you are.
         wrong: She isn't asking for anything, and you haven't thanked her yet.
         * Please
         + Here you are
         * You're welcome
 
-    erase q_soup
-
-    draw q_kofe
-
-    quiz "Is кофе он, она or оно?" reveal он reveal_at q_kofe test t1
+    quiz "Is кофе он, она or оно?" above q_kofe reveal он test t1
         right: Он: кофе ends in е, but careful speakers call it он.
         wrong: Don't trust the last letter this time.
         + он
         * она
         * оно
 
-    erase q_kofe
-
-    draw q_coffee
-
-    ask "Masha brings your coffee. Type what you say to her." answer ["спасибо"] translit true keys АБВДЕЖЗИЙКЛМНОПРСТУФХЧ reveal Спаси́бо! reveal_at.x 500 reveal_at.y 290 test t1
+    ask "Masha brings your coffee. Type what you say to her." answer ["спасибо"] translit true keys АБВДЕЖЗИЙКЛМНОПРСТУФХЧ above q_coffee reveal Спаси́бо! test t1
         right: Спасибо: thank you. And she'll answer пожалуйста.
         wrong: You're thanking her: спасибо, from the hello lesson.
-
-    erase q_coffee
 
     show speakers
 

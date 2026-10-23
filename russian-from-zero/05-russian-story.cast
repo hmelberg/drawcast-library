@@ -98,7 +98,7 @@ A: The colours are lesson two's endings: a red а on мама, a violet о on м
 
     hide story s1_g_1 s1_g_2 s1_g_3 s1_g_4 s1_g_5 s2_g_1 s2_g_2 s2_g_3 s2_g_4 s2_g_5 s2_g_6 s3_g_1 s3_g_2 s3_g_3 s3_g_4 s3_g_5 s4_g_1 s4_g_2 s4_g_3 s5_g_1 s5_g_2 s5_g_3
 
-    quiz "Where are mum and dad? Pick one." reveal.text "в рестора́не" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "Where are mum and dad? Pick one." reveal.text "в рестора́не" reveal.style label reveal.size 60 reveal.color #3d3833 frame true test t1 pool false
         intro: Now four questions on the story, from memory.
         right: In a restaurant: ма́ма и па́па в рестора́не.
         wrong: Remember the first sentence: ма́ма и па́па в… what?
@@ -106,31 +106,23 @@ A: The colours are lesson two's endings: a red а on мама, a violet о on м
         + In a restaurant
         * At the sea
 
-    erase reveal_1_stamp
-
-    quiz "True or false: па́па пьёт ко́фе." reveal.text "па́па пьёт чай" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "True or false: па́па пьёт ко́фе." reveal.text "па́па пьёт чай" reveal.style label reveal.size 60 reveal.color #3d3833 frame true test t1 pool false
         right: False: па́па пьёт чай; it's mum who drinks the coffee.
         wrong: Mum and dad drink different things: which one is the coffee?
         * True
         + False
 
-    erase reveal_2_stamp
-
-    ask "What is on the table? Type it in Russian." answer ["молоко"] translit true reveal.text "на столе́ молоко́" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    ask "What is on the table? Type it in Russian." answer ["молоко"] translit true reveal.text "на столе́ молоко́" reveal.style label reveal.size 60 reveal.color #3d3833 frame true test t1 pool false
         keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧЫЬЯ
         right: Молоко́: на столе́ молоко́, there's milk on the table.
         wrong: It's white, and a cat likes it: six letters.
 
-    erase reveal_3_stamp
-
-    quiz "Who drinks the milk, do you think? Pick one." reveal.text "кот то́же пьёт" reveal.at.x 500 reveal.at.y 420 reveal.style label reveal.size 60 reveal.color #3d3833 test t1 pool false
+    quiz "Who drinks the milk, do you think? Pick one." reveal.text "кот то́же пьёт" reveal.style label reveal.size 60 reveal.color #3d3833 frame true test t1 pool false
         right: The cat: кот то́же пьёт, and the milk is right there on his table.
         wrong: Who is up on the table with the milk?
         * Ма́ма
         * Па́па
         + Кот
-
-    erase reveal_4_stamp
 
     draw score_cat score_milk parallel true
 
