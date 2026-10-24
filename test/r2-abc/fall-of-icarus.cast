@@ -1,0 +1,320 @@
+# The Fall of Icarus: where is he?
+subtitle: "Bruegel's Fall of Icarus makes the myth's hero the smallest thing in the picture, and nobody in it looks up. Here is why."
+tags: ["greek mythology","bruegel painting","perspective and composition","classical literature","art interpretation"]
+teaches: ["art-history/bruegel-technique","literature/ovid-mythology","concepts/visual-irony","analysis/composition-and-focus"]
+thumb: "band \"Where's Icarus?\" picture \"File:Pieter Bruegel the Elder - Landscape with the Fall of Icarus - Brussels, Royal Museums of Fine Arts of Belgium - Google Arts & Culture.jpg\" colour"
+voices: {"a":"gemini:Charon | a warm, unhurried gallery guide, quietly amused"}
+
+## The Fall of Icarus: where is he?
+sources:
+    - id: rmfab
+      title: Landscape with the Fall of Icarus
+      authors: Royal Museums of Fine Arts of Belgium, Brussels
+      year: 2024
+      finding: Probably a copy of a lost Bruegel original; the composition is certainly his
+    - id: ovid
+      title: Metamorphoses, Book VIII
+      authors: Ovid
+      year: 8
+      finding: Daedalus and Icarus; the angler, shepherd and ploughman take them for gods; Perdix turned into a partridge
+
+    card title "Landscape with the Fall of Icarus"
+
+This is Landscape with the Fall of Icarus, based on a design by Pieter Bruegel from the late fifteen-fifties.
+    image art cites ["rmfab"] credit "After Bruegel, c. 1560. Brussels. Public domain." x 500 y 335 width 900 url https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg/1920px-Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg look screen regions.angler [0.84,0.89,0.045,0.085] regions.bird [0.802,0.835,0.034,0.045] regions.corner [0.76,0.7,0.14,0.3] regions.legs [0.835,0.722,0.042,0.052] regions.plough_team [0.08,0.51,0.41,0.36] regions.ploughman [0.36,0.51,0.13,0.36] regions.shepherd [0.49,0.5,0.04,0.17] regions.ship [0.672,0.3,0.21,0.39] regions.sky [0,0,1,0.25] regions.sun [0.64,0.24,0.032,0.035]
+
+Bruegel was a Flemish painter, best known for crowded scenes of country people at work.
+    portrait bruegel of "Pieter Bruegel the Elder" cameo true
+
+    erase bruegel
+
+In the Greek myth, Icarus escapes from Crete on wings his father Daedalus made of feathers and wax.
+    highlight art:sky strength soft
+
+He flies too close to the sun, the wax melts, and he falls into the sea.
+    highlight art:sun
+
+    ask "Where is Icarus? Tap him." spot legs on art
+        intro: So the title promises a dramatic fall. But where is it?
+        right: There he is: two legs, kicking in the water.
+        wrong: Look at the sea, just below and to the right of the big ship.
+
+    camera on ["art@[0.66,0.42,0.28,0.4]"]
+
+That's the hero of the title: two legs by the big ship, already going under.
+    highlight art:legs strength spotlight rest grey lift true
+
+    camera reset true
+
+Meanwhile, the biggest figure in the whole picture is a ploughman.
+    highlight art:ploughman lift true
+
+He comes from Ovid, the Roman poet whose telling of the myth names three people wh (@highlight art:ploughman art:shepherd art:angler@)o saw them fly: a ploughman, a shepherd and an angler.
+
+In Ovid, all three look up in astonishment, taking the flyers for gods.
+    highlight art:sky strength soft
+
+    camera on ["art:plough_team"]
+
+Bruegel keeps all three, but changes what they do. The ploughman keeps his eyes down on his furrow.
+    highlight art:ploughman
+
+    camera on ["art@[0.36,0.12,0.3,0.55]"]
+
+The shepherd does look up, but at the empty sky, turned away from the sea.
+    highlight art:shepherd
+
+    camera on ["art:corner"]
+
+And the angler, closest of all, watches only his line.
+    highlight art:angler
+
+    camera reset true
+
+Even the great ship sails on past the splash.
+    highlight art:ship
+
+    camera on ["art:corner"]
+
+One creature does seem to look: a bird on a branch, often read as a partridge.
+    highlight art:bird strength strong rest blur lift true
+
+In Ovid, Daedalus once tried to kill his gifted nephew, and the goddess Minerva saved the boy by turning him into a partridge.
+    highlight art:bird lift true
+
+So some read the bird as that nephew, watching his old attacker lose a son.
+    highlight art:bird art:legs
+
+One more twist: this canvas in Brussels is probably a copy of a lost original, though the design is Bruegel's.
+    camera reset true
+
+Make the hero tiny and the ploughman huge, and the myth turns around.
+    highlight art:ploughman art:legs lift true
+
+    camera on ["art:corner"]
+
+A boy's death becomes a splash at the edge of an ordinary working day.
+    highlight art:legs rest paper lift true
+
+    camera reset true
+
+The tragedy is not only that I (@highlight art:ploughman art:shepherd art:angler lift true@)carus falls. It's that nobody looks.
+
+    quiz "A painter wants to show the cost of a war the way Bruegel shows Icarus. Which picture follows his method?"
+        right: The family at supper: everyday life in front, the disaster small and far off, and nobody looking.
+        wrong: Two things at once: the disaster is small and far off, and the people in front do not look.
+        * A tiny burning village alone in an empty landscape
+        + A family at supper while, far off, a village burns
+        * Villagers at supper, all turning to stare at a distant fire
+        * A weeping general, close up
+
+And you did what nobody in the painting did: you went looking for him.
+    highlight art:legs lift true
+---
+audio:
+  lang: en
+  lines:
+    '|a||The Fall of Icarus: where is he?':
+      mp3: voice/b49343793e6a841640a5be5068be9dd9.mp3
+      ms: 3640
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Bruegel''s Fall of Icarus makes the myth''s hero the smallest thing in the picture, and nobody in it looks up. Here is why.':
+      mp3: voice/4a9c351150fce0235c22ffddcb813c2f.mp3
+      ms: 11160
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:eh5t09'
+    '|a||This is Landscape with the Fall of Icarus, based on a design by Pieter Bruegel from the late fifteen-fifties.':
+      mp3: voice/768e495316dacf927e6a71885857a625.mp3
+      ms: 8320
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Bruegel was a Flemish painter, best known for crowded scenes of country people at work.':
+      mp3: voice/dde02e920974dfc11d80381a147959e4.mp3
+      ms: 6760
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:gib3jx'
+    '|a||In the Greek myth, Icarus escapes from Crete on wings his father Daedalus made of feathers and wax.':
+      mp3: voice/48172f633776fcf17858ee3235bfd1d8.mp3
+      ms: 8000
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:a7b01i'
+    '|a||He flies too close to the sun, the wax melts, and he falls into the sea.':
+      mp3: voice/b7eff3ef773a111e28f9afb982c1e1de.mp3
+      ms: 7160
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1vdb2i1'
+    '|a||So the title promises a dramatic fall. But where is it? Where is Icarus? Tap him.':
+      mp3: voice/086b653e3eca854e1aee3729779541fc.mp3
+      ms: 10360
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1yjhv1g'
+    '|a||That''s the hero of the title: two legs by the big ship, already going under.':
+      mp3: voice/4b073c4a5b0d5cad0c41876f33490865.mp3
+      ms: 6160
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Meanwhile, the biggest figure in the whole picture is a ploughman.':
+      mp3: voice/aeaee984c8903cbd6a5675ed6235b929.mp3
+      ms: 5840
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1qnimcn'
+    '|a||He comes from Ovid, the Roman poet whose telling of the myth names three people who saw them fly: a ploughman, a shepherd and an angler.':
+      mp3: voice/1d93812f904aac8d7e151f9c5280d2be.mp3
+      ms: 11520
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1jxl17f'
+    '|a||In Ovid, all three look up in astonishment, taking the flyers for gods.':
+      mp3: voice/1cf3b93bb43a48af35037c2fccdf5623.mp3
+      ms: 6880
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1i314sn'
+    '|a||Bruegel keeps all three, but changes what they do. The ploughman keeps his eyes down on his furrow.':
+      mp3: voice/3c7cec3e234e30f2d2b2b8982f8f4ed7.mp3
+      ms: 7640
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:7aeq06'
+    '|a||The shepherd does look up, but at the empty sky, turned away from the sea.':
+      mp3: voice/c286dd95185495565ec03188854f59d6.mp3
+      ms: 6080
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:vdmpls'
+    '|a||And the angler, closest of all, watches only his line.':
+      mp3: voice/f0a5cb7aceae6abbcf6b8a1845a7b471.mp3
+      ms: 5160
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:m05e7s'
+    '|a||Even the great ship sails on past the splash.':
+      mp3: voice/41d866ac11fc286b5e66334697cf821f.mp3
+      ms: 4240
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:12phh1f'
+    '|a||One creature does seem to look: a bird on a branch, often read as a partridge.':
+      mp3: voice/206253931e6f6b2104c422bbe0f281df.mp3
+      ms: 6840
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1gbesqr'
+    '|a||In Ovid, Daedalus once tried to kill his gifted nephew, and the goddess Minerva saved the boy by turning him into a partridge.':
+      mp3: voice/f2724e32b21ee6d49a0ac3abbfb28589.mp3
+      ms: 10680
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:pf6skn'
+    '|a||So some read the bird as that nephew, watching his old attacker lose a son.':
+      mp3: voice/88f539c20e73398ed5dfd2cb11c90694.mp3
+      ms: 6200
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:19130ay'
+    '|a||One more twist: this canvas in Brussels is probably a copy of a lost original, though the design is Bruegel''s.':
+      mp3: voice/97bc4bc74c69f91b242b602c7b96f420.mp3
+      ms: 10360
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:4y3wqb'
+    '|a||Make the hero tiny and the ploughman huge, and the myth turns around.':
+      mp3: voice/0d8df33918e9dbd58d29e12f2b26984b.mp3
+      ms: 6640
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1nhnlqa'
+    '|a||A boy''s death becomes a splash at the edge of an ordinary working day.':
+      mp3: voice/28a6eabc4ccf35171031bda8c556b7b6.mp3
+      ms: 5800
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1h5gc1s'
+    '|a||The tragedy is not only that Icarus falls. It''s that nobody looks.':
+      mp3: voice/e826eb75d477b5be9ee51cc4f984d4ff.mp3
+      ms: 6480
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1px4zv5'
+    '|a||A painter wants to show the cost of a war the way Bruegel shows Icarus. Which picture follows his method?':
+      mp3: voice/e21c287ee9dd59bd09ed58f87ddb563b.mp3
+      ms: 8280
+      voice: 'gemini:Charon | a warm, unhurried gallery guide, quietly amused #ctx:1c6qte1'
+    '|a||The family at supper: everyday life in front, the disaster small and far off, and nobody looking.':
+      mp3: voice/04511ff405ef876e0e9a1ee08977726f.mp3
+      ms: 9120
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||And you did what nobody in the painting did: you went looking for him.':
+      mp3: voice/598cc944f6ba02536a236d2fe3de0a24.mp3
+      ms: 5280
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||There he is: two legs, kicking in the water.':
+      mp3: voice/bcfa7a211f5e2bf004efbeaccb44ed93.mp3
+      ms: 3960
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Look at the sea, just below and to the right of the big ship.':
+      mp3: voice/7892727d97ff7a4db8f92dba91e10d3e.mp3
+      ms: 4560
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Two things at once: the disaster is small and far off, and the people in front do not look.':
+      mp3: voice/dcb2fd3b4286288e855efb6f81d86aae.mp3
+      ms: 8760
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Yes.':
+      mp3: voice/8defe0b218667edb8497a9f30e894053.mp3
+      ms: 1160
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Right.':
+      mp3: voice/996fb94a0a772a59e7d78a0f93a1521f.mp3
+      ms: 1240
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||That''s it.':
+      mp3: voice/e3bc3e8759df701f01ec764267177ea9.mp3
+      ms: 1240
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Exactly.':
+      mp3: voice/0579efcc7662a72a5ddd922092d27756.mp3
+      ms: 1360
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Spot on.':
+      mp3: voice/0cc3c0ba77f113a6904affcc2e32f8ec.mp3
+      ms: 1240
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||You got it.':
+      mp3: voice/cab1c5d5c91c66821a460f281f31cd0d.mp3
+      ms: 1480
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Quite right.':
+      mp3: voice/ea277f1f14d4d6412367384b436a0b92.mp3
+      ms: 1240
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Bang on.':
+      mp3: voice/fcc4c83ed03079575c749fdbb177365e.mp3
+      ms: 1280
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||That''s the one.':
+      mp3: voice/ff2c7c179c321b17f221cf81116cdd9c.mp3
+      ms: 1440
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Indeed.':
+      mp3: voice/4ae61467262193b4c1f993087f33e3de.mp3
+      ms: 1120
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Yes — well done.':
+      mp3: voice/67e1a2e3956bb78145884af00fc18a2b.mp3
+      ms: 2080
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Nicely done.':
+      mp3: voice/0a495a6a6082e61076a0eb6ea24a2e34.mp3
+      ms: 1920
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Well done.':
+      mp3: voice/93ead6d0af3be194396f76f722029cb8.mp3
+      ms: 1480
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Lovely.':
+      mp3: voice/4c7208158260eb5b762600ef0c4fe445.mp3
+      ms: 1200
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Two in a row.':
+      mp3: voice/f17f3be53990f052779e9f6b617d5e26.mp3
+      ms: 1720
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Three in a row.':
+      mp3: voice/af24590ff1b29c0a0f940b8329cc448f.mp3
+      ms: 1880
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Three for three.':
+      mp3: voice/4120191aaa3f74ff42003316a011ab59.mp3
+      ms: 1840
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Four in a row.':
+      mp3: voice/f7c03a083a5d2701e114e6e98f19d706.mp3
+      ms: 1880
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Five in a row.':
+      mp3: voice/ea28002cf18c4731805f1120e0e0d556.mp3
+      ms: 2160
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||On a roll.':
+      mp3: voice/3727fb0ce47d82b92bd4e3a6a0037c45.mp3
+      ms: 1320
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Back on track.':
+      mp3: voice/96fbf94e15573b3a76143939270ffcbc.mp3
+      ms: 2080
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||A clean sweep.':
+      mp3: voice/5a1a271dcd7fa44e53f69a9357b51861.mp3
+      ms: 2000
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
+    '|a||Full marks.':
+      mp3: voice/948c98b9df751c47c7f242fefec427d3.mp3
+      ms: 1560
+      voice: gemini:Charon | a warm, unhurried gallery guide, quietly amused
