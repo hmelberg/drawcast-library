@@ -3,13 +3,14 @@ slug: russian-from-zero
 test: test-your-russian-by-hmelberg
 level: Complete beginners who speak English; no Cyrillic needed to start
 language: English narration, Russian words in Cyrillic with stress marks; Tom and Masha speak the Russian
-skills/reading: cyrillic-letters, reading-stories, reading-literature, reading-news, reading-signs, reading-diaries
-skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays, sayings, money-and-documents, moving-house, the-city, history, nature, renting, work
-skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency, narrative-words, case-tables, gerunds, indefinite-pronouns, indirect-questions, linking-words, number-cases, participles, placing-verbs, plural-cases, prepositions, purpose-clauses, reflexive-pronoun, verb-cases, word-families, concession, determiners, impersonal, particles, passive, reciprocal, reported-speech, time-clauses, verb-prefixes
-skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes, travel-phrases, writing-messages, formal-letters, formal-register, arguing, colloquial-speech, idioms, interviews
+skills/reading: cyrillic-letters, reading-stories, reading-literature, reading-news, reading-signs, reading-diaries, reading-letters, poetry
+skills/vocabulary: numbers-1-10, numbers-to-100, big-numbers, family, food-and-drink, days-of-week, months, times-of-day, weather, places-in-town, health, travel, hobbies, clothes-and-colours, home, cooking, jobs, studying, looks, feelings, holidays, sayings, money-and-documents, moving-house, the-city, history, nature, renting, work, body, kitchen, culture, museum, money, competitions, business
+skills/grammar: gender, plurals, adjectives, possessives, present-tense, past-tense, future-tense, aspect, verbs-of-motion, question-words, requests, comparatives, place-ending, object-ending, of-ending, to-ending, with-ending, case-agreement, counting-nouns, reflexive-verbs, motion-prefixes, imperatives, conditional, relative-clauses, superlatives, negatives, short-adjectives, time-words, frequency, narrative-words, case-tables, gerunds, indefinite-pronouns, indirect-questions, linking-words, number-cases, participles, placing-verbs, plural-cases, prepositions, purpose-clauses, reflexive-pronoun, verb-cases, word-families, concession, determiners, impersonal, particles, passive, reciprocal, reported-speech, time-clauses, verb-prefixes, verbs-of-position, numerals-in-cases, conditional-past, fractions, possessive-svoi, verb-classes, discourse-words, correlatives, word-building, concessive, conditionals
+skills/phrases: greetings, ordering, speaking-languages, where-is-it, wanting, likes-and-loves, my-name, where-i-live, having, telling-age, telling-time, prices, can-and-must, asking-to-repeat, asking-directions, making-plans, dates, about-me, restaurant, shopping, at-the-doctor, on-the-phone, opinions, wishes, travel-phrases, writing-messages, formal-letters, formal-register, arguing, colloquial-speech, idioms, interviews, intonation, complaints-apologies, debating, proverbs, registers
+skills/writing: forms, essays, cv, presentations, formal-letters, summaries
 #basic
 
-Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story. And a third year, towards B1+: который in every case, the passive, reported speech, word building, idioms, a radio interview, and Tolstoy's «Лев и собачка».
+Learn to read, hear and say Russian, one short lesson at a time. Each lesson builds on the ones before: the Cyrillic letters, gender, greetings, the café, numbers, verbs and where things are; then the cases one by one, the past and the future, plans, travel and talking about yourself; then verbs of motion, aspect, must, if and would, and joining sentences; everyday life at home, in the kitchen, the restaurant, the shop, at the doctor's and on the phone; and describing people, opinions, feelings and holidays — with a longer story to read yourself every tenth lesson. Tap any Russian word to hear it again. Then two years in Petersburg with Tom, towards B1: every case in the plural, numbers in cases, more verbs of motion, linking words, formal Russian, the news, and a Chekhov story. And a third year, towards B1+: который in every case, the passive, reported speech, word building, idioms, a radio interview, and Tolstoy's «Лев и собачка». Then a fourth and fifth year, towards B2: verbs of position, numbers and participles in every case, как будто, intonation, the ТРКИ-1 exam, a Lermontov poem and Kuprin's «Слон»; then Tom opens his own restaurant, «Кухонька» — proverbs, word building, style registers, a CV, a formal letter, a presentation, summarising — with Pushkin's «Метель», Tyutchev and Bunin, and Gogol's «Ночь перед Рождеством» at the end of the year.
 
 ---
 ## Read Russian in 14 letters
@@ -656,3 +657,303 @@ status: done · id: ca376769-bfe7-4d2e-8f9b-4b9d70943480 · file: 159-russian-no
 ## Reading Tolstoy in Russian: The Lion and the Little Dog
 Can you read a whole Tolstoy story for children in Russian?
 status: done · id: b52d4bb6-31e5-4eec-b449-e8e8aa2df8a4 · file: 160-russian-tolstoy.cast · 2026-10-23
+
+---
+## Sit down, lie down in Russian: сесть, лечь, встать
+Сидеть or сесть, лежать or лечь: which verb for the position, which for the move?
+status: done · id: fde39ea9-e794-442e-ae99-584b604596d3 · file: 161-russian-sit-lie-stand.cast · 2026-10-24
+
+---
+## The city where I was born in Russian: город, где…
+How do you say the village where I grew up, the garden we went to?
+status: done · id: 9168ae68-9337-4ad9-a9d5-91c611242021 · file: 162-russian-where-i-was-born.cast · 2026-10-24
+
+---
+## Something for you in Russian: кое-что, что-то, что-нибудь
+Кое-что, что-то or что-нибудь: which one, and how do they change?
+status: done · id: d57adf86-2e97-4a12-b2c6-93eab5c55929 · file: 163-russian-someone-something.cast · 2026-10-24
+
+---
+## With fifty-two guests in Russian: numbers in every case
+How do numbers change: с пятью гостями, для двадцати человек, о трёх салатах?
+status: done · id: 1df0d7db-3f44-4d51-a6c7-6e38b4a1b04f · file: 164-russian-numerals-cases.cast · 2026-10-24
+
+---
+## We all got together in Russian: собрались, разошлись
+What do с-…-ся and раз-…-ся do: собраться, съехаться, разойтись, разъехаться?
+status: done · id: 8c6201b5-edc9-41a5-b9d1-75763cbc52b2 · file: 165-russian-gathered.cast · 2026-10-24
+
+---
+## Filling in a form in Russian: заявление, фамилия, подпись
+How do you fill in an official Russian form: фамилия, гражданство, подпись?
+status: done · id: 1ad577ec-5a9a-4a5c-88c0-9d89c7b6df32 · file: 166-russian-filling-a-form.cast · 2026-10-24
+
+---
+## You look as if… in Russian: как будто, словно
+How do you say you look as if you haven't slept: выглядишь, как будто…?
+status: done · id: 7b18bce3-1856-4dfd-a831-ab47ab6f79f3 · file: 167-russian-as-if.cast · 2026-10-24
+
+---
+## I'm afraid I'll forget in Russian: боюсь, что; сомневаюсь
+How do you say I'm afraid that… and I doubt that…?
+status: done · id: 0c70739b-3328-47a3-af43-49d1c7ff35aa · file: 168-russian-afraid-doubt.cast · 2026-10-24
+
+---
+## Russian intonation: statement, question, А ты?
+How does your voice show a question in Russian when the words stay the same?
+status: done · id: ac4c18c6-97b3-4383-b1d5-2eadab71d118 · file: 169-russian-intonation.cast · 2026-10-24
+
+---
+## A seventeenth Russian story: the exam
+Can you read Tom's letter about the day he sat the Russian exam?
+status: done · id: 608a9f6d-d12f-43b2-a740-da11a8013c28 · file: 170-russian-review-17.cast · 2026-10-24
+
+---
+## Translating for my parents in Russian: she asks whether…
+How do you pass on what someone said and asked: она спрашивает, давно ли…?
+status: done · id: ab6efabb-0970-4081-ae08-5463da30f96d · file: 171-russian-translating.cast · 2026-10-24
+
+---
+## A night at the ballet in Russian: понравился ли спектакль?
+How do you say you liked the ballet: мне понравился, понравилась, понравились?
+status: done · id: 2472fb6e-31d9-4da1-ba83-d580994b1aa3 · file: 172-russian-at-the-ballet.cast · 2026-10-24
+
+---
+## If I had known in Russian: если бы я знал, я бы…
+How do you say if I had known, I would have come — and whether … or not?
+status: done · id: dfe70abe-d6ed-4cd5-88b3-171f729e34de · file: 173-russian-if-i-had-known.cast · 2026-10-24
+
+---
+## Two thirds and a million in Russian: fractions and per cent
+How do you say two thirds, 0.5, twenty per cent and a million in Russian?
+status: done · id: 165c3994-c14a-4db9-9d85-1ff58b0cbeb3 · file: 176-russian-two-thirds.cast · 2026-10-24
+
+---
+## Her own books in Russian: свой, своя, своих
+Свою or её: when do you say свой, and how does it change?
+status: done · id: 0b3b3fe1-0975-4c3f-b012-ea315e873f12 · file: 177-russian-their-own.cast · 2026-10-24
+
+---
+## Getting married in Russian: выйти замуж, жениться
+Who выходит замуж and who женится — and what's пожениться?
+status: done · id: 6f8d7624-fc79-4107-abb0-eff43a42c15b · file: 178-russian-getting-married.cast · 2026-10-24
+
+---
+## A complaint and an apology in Russian: жалоба, извините
+How do you complain politely, apologise and ask to be forgiven in Russian?
+status: done · id: 44ef23f3-fc23-48e2-a11a-3efd61879ccc · file: 179-russian-complaint.cast · 2026-10-24
+
+---
+## Hardly and almost in Russian: вряд ли, едва, чуть не
+How do you say I hardly think so, I can barely stand, I almost cut my finger?
+status: done · id: de7005ea-58a8-4f02-943a-3cd6cf8274aa · file: 183-russian-hardly.cast · 2026-10-24
+
+---
+## Telling a story in Russian: was cooking, cooked, suddenly
+Which aspect sets the scene and which moves the story on in a long Russian story?
+status: done · id: 233fc99b-c184-4aa2-8b26-e841567b040d · file: 184-russian-the-competition.cast · 2026-10-24
+
+---
+## Having washed up in Russian: вымыв, переодевшись
+How do you say having washed, having changed: вымыв, переодевшись?
+status: done · id: 3a540cc0-aa0a-4f18-b0a1-9791851d554a · file: 174-russian-having-washed.cast · 2026-10-24
+
+---
+## Lost and found in Russian: исчезла, нашлась, оказалось
+How do you say it disappeared, it turned up, and it turned out that…?
+status: done · id: 11da7a67-dfe2-4197-904b-f5c4e4e5cb1b · file: 185-russian-lost-and-found.cast · 2026-10-24
+
+---
+## Instead of taking the tram in Russian: вместо того чтобы…
+How do you say instead of doing and in order to do in Russian?
+status: done · id: 1c709097-cde0-4185-9aac-a7202aa5d045 · file: 186-russian-instead-of.cast · 2026-10-24
+
+---
+## A Russian TV cooking interview: итак, впрочем, короче
+Can you follow a one-minute TV interview and the little words that hold it together?
+status: done · id: dd493c1b-157c-4b6f-97fc-f82bf13391bf · file: 182-russian-tv-interview.cast · 2026-10-24
+
+---
+## Reading a Russian poem: Lermontov's «Парус»
+Can you read, hear and understand Lermontov's poem «Парус»?
+status: done · id: 8e3608cd-03ab-494c-91b3-8599aa65f6ce · file: 180-russian-lermontov-sail.cast · 2026-10-24
+
+---
+## Reading Russian news: headlines, participles, verbal nouns
+Can you read a short Russian news item: шеф, работающий в Петербурге, получил…?
+status: done · id: 296f60dd-4bb0-478b-9aa1-55d62ff6b982 · file: 189-russian-news-headlines.cast · 2026-10-24
+
+---
+## For and against in Russian: против, ради, среди
+How do you argue for and against in Russian: я против, ради детей, среди нас?
+status: done · id: 2ef0df21-8356-4868-908a-ce7b12b1c16a · file: 187-russian-for-and-against.cast · 2026-10-24
+
+---
+## Reading Kuprin in Russian: The Elephant
+Can you read Kuprin's story about a sick girl and an elephant called Tommy?
+status: done · id: 943e3eed-59bd-4748-8733-8135142acac0 · file: 190-russian-kuprin-elephant.cast · 2026-10-24
+
+---
+## Russian -овать verbs: участвую, рискую, чувствую
+Why does участвовать become участвую, and which other verbs work the same way?
+status: done · id: cf4c3e14-7399-4804-a688-690a7204048e · file: 181-russian-ovat-verbs.cast · 2026-10-24
+
+---
+## An opinion paragraph in Russian: во-первых, также, таким образом
+How do you build a paragraph of opinion in Russian, from the first point to the conclusion?
+status: done · id: 8c925e50-0f31-4e54-94ed-f2e61b83fe60 · file: 188-russian-opinion-paragraph.cast · 2026-10-24
+
+---
+## Museum labels in Russian: хранимый, изучаемый, любимый
+How do you read and write a label: портрет, хранимый в музее с 1900 года?
+status: done · id: c39576a6-10fe-48f1-aec3-f6047409e568 · file: 175-russian-museum-labels.cast · 2026-10-24
+
+---
+## Whatever happens in Russian: что бы ни, как ни, где бы ни
+How do you say whatever happens, however hard it is, wherever you work?
+status: done · id: d9ff2bf5-a251-4d27-8cb7-6d672c780fde · file: 197-russian-whatever-happens.cast · 2026-10-24
+
+---
+## The thing is… in Russian: дело в том, что; о том, чтобы
+How do you say I'm thinking about opening, it depends on where, the thing is that…?
+status: done · id: 57a8bf65-0532-4615-a086-3c4fe3c2e34f · file: 192-russian-the-thing-is.cast · 2026-10-24
+
+---
+## In spite of the fact that in Russian: несмотря на то что, в связи с тем что
+How do you join a whole clause to несмотря на, благодаря, из-за and в связи с?
+status: done · id: 2d11821d-7541-4411-b9e2-b1ab576d83e5 · file: 198-russian-in-spite-of.cast · 2026-10-24
+
+---
+## Russian proverbs: без труда, тише едешь
+What do Russian proverbs like тише едешь — дальше будешь really say?
+status: done · id: 83dddab6-b619-4911-9cc4-7eb97203d019 · file: 193-russian-proverbs.cast · 2026-10-24
+
+---
+## Owner and manager in Russian: владелец, руководитель
+How do Russian suffixes make people and things: -тель, -ец, -ство?
+status: done · id: 39b9faa4-4aef-4387-b4ee-6c8fbe18756d · file: 196-russian-owner-manager.cast · 2026-10-24
+
+---
+## A Russian CV and cover letter: резюме, опыт, знания
+How do you write a Russian CV and a short cover letter for a new post?
+status: done · id: 8b3fb978-2c8a-40cd-b597-8d447ffd3a33 · file: 199-russian-cv-cover-letter.cast · 2026-10-24
+
+---
+## At a Russian wedding: the man standing by the window
+How do participles change by case: мужчину, стоящего у окна; о девушке, сидящей рядом?
+status: done · id: 21104db8-72db-450f-b35b-6bf5b29f94a0 · file: 191-russian-wedding-participles.cast · 2026-10-24
+
+---
+## It's getting dark in Russian: темнеет, мне повезло
+How do you say it's getting dark, I was lucky, I can't sit still — with no subject?
+status: done · id: 4b207b87-52d4-4f20-9f0a-c222acb505d7 · file: 194-russian-impersonal.cast · 2026-10-24
+
+---
+## Reach a goal, avoid a risk in Russian: достичь цели, следовать плану
+Which verbs take the genitive and which the dative: достичь цели, следовать плану?
+status: done · id: 3224d1e7-9ba0-47cf-9fcb-79246b9574b2 · file: 202-russian-reach-the-goal.cast · 2026-10-24
+
+---
+## Time flies in Russian: идёт дождь, тебе идёт
+What do идти, носить and вести mean when nobody is walking anywhere?
+status: done · id: de710719-1960-489e-9802-a7347c74cb5b · file: 195-russian-time-flies.cast · 2026-10-24
+
+---
+## Reading Pushkin in Russian: The Blizzard
+Can you read Pushkin's story of a secret wedding lost in a snowstorm?
+status: done · id: effd2ba0-3101-4444-86f8-ca61a7b9da7e · file: 200-russian-pushkin-blizzard.cast · 2026-10-24
+
+---
+## Premises for rent in Russian: located, renovated, built
+How do you read, and turn round, phrases like помещение, расположенное возле метро?
+status: done · id: 987e1f27-7ab0-4710-92e7-b58f2a0b95be · file: 203-russian-premises-for-rent.cast · 2026-10-24
+
+---
+## Telling what was said in Russian: he admitted, she asked
+How do you tell a conversation as a story: he admitted that, she asked when, he reminded me to…?
+status: done · id: ef82b300-c162-4bb6-aefb-c0b050e4d0f1 · file: 206-russian-dima-admitted.cast · 2026-10-24
+
+---
+## Summarising in Russian: в тексте говорится о…, кратко
+How do you summarise a Russian text in a few sentences, as in the ТРКИ-2 writing test?
+status: done · id: cec7a4bb-8502-4bb9-a9f8-eacc488cbd1b · file: 217-russian-in-short.cast · 2026-10-24
+
+---
+## She runs the department in Russian: руководить, управлять + instrumental
+Which Russian verbs take the instrumental: руководить отделом, увлекаться историей?
+status: done · id: 89490ff0-2cec-48dc-ad21-58f3b3cb763d · file: 201-russian-runs-a-department.cast · 2026-10-24
+
+---
+## A presentation in Russian: Позвольте представить, в заключение
+How do you present a plan in Russian and argue for it, as in the ТРКИ-2 speaking test?
+status: done · id: fa336843-f8df-4228-80fe-813867dc3183 · file: 204-russian-presentation.cast · 2026-10-24
+
+---
+## Don't touch! in Russian: aspect in commands
+Why is it не трогай but не урони, крась дальше but покрась — which aspect in a command?
+status: done · id: e0ee1f6e-cc56-4647-a8a5-c9b4011a9fcb · file: 207-russian-dont-touch.cast · 2026-10-24
+
+---
+## A formal Russian letter: Обращаюсь к Вам с просьбой
+How do you write a formal request in Russian, with participles and gerunds as in writing?
+status: done · id: 914da552-8cdb-4100-9ba2-86b54c59ebbe · file: 205-russian-formal-request.cast · 2026-10-24
+
+---
+## Little kitchen in Russian: diminutives -ик, -очка, -онька
+What do -ик, -очка and -онька do to a Russian word: кухонька, столик, чашечка?
+status: done · id: a4002a44-c94b-43ec-b2be-6ee0cf937f85 · file: 208-russian-little-kitchen.cast · 2026-10-24
+
+---
+## The simpler, the better in Russian: чем проще, тем лучше
+How do you say the simpler the better, twice as cheap, not so much the price as the taste?
+status: done · id: 82b29242-7835-488a-947e-15609d007c1f · file: 211-russian-the-simpler-the-better.cast · 2026-10-24
+
+---
+## Russian style registers: spoken, scientific, official
+How does the same fact sound in spoken, scientific and official Russian?
+status: done · id: 154dc383-b03a-4d05-9458-d1f0d12f6bb9 · file: 209-russian-three-registers.cast · 2026-10-24
+
+---
+## A children's book in Russian: детский, книжный, дождливый
+How do Russian adjectives grow from nouns and prefixes: детский, книжный, дождливый, неизвестный?
+status: done · id: 53da6ee4-5dc5-4354-9e4f-536a407b96f1 · file: 218-russian-childrens-book.cast · 2026-10-24
+
+---
+## Nobody's things in Russian: ничей, ничто, кто-либо
+How do you say nobody's, nothing as a subject, and anyone at all in official Russian?
+status: done · id: dc8dac57-c499-4259-85e8-48c6bad591df · file: 212-russian-nobodys-things.cast · 2026-10-24
+
+---
+## Made by the chef in Russian: составлено, печётся, открыли
+Three Russian passives — открыли, открывается, открыт: which one when, and how do you say by whom?
+status: done · id: 5480a175-444d-4c7b-9813-1d104e9ad526 · file: 213-russian-passive-in-full.cast · 2026-10-24
+
+---
+## Stop working at night in Russian: aspect after перестать, успеть
+Why is it перестать работать but успеть сделать — which aspect after which verb?
+status: done · id: 98ac2f4a-a2b5-4b38-a8c0-d61706ecc96d · file: 219-russian-stop-working.cast · 2026-10-24
+
+---
+## Two Russian autumn poems: Tyutchev and Bunin
+Can you read and hear two short Russian poems about autumn, by Tyutchev and by Bunin?
+status: done · id: 5ab61b26-73e0-404b-b5bc-69efbce167ff · file: 210-russian-autumn-poems.cast · 2026-10-24
+
+---
+## The opening day in Russian: проснувшись, улыбаясь, открыв дверь
+How does written Russian use gerunds to tell a day: проснувшись, улыбаясь, открыв дверь?
+status: done · id: 63891fc4-303a-4309-a72e-947466f78dc3 · file: 216-russian-opening-day.cast · 2026-10-24
+
+---
+## Reading Gogol in Russian: Christmas Eve
+Can you read Gogol's story of the devil who stole the moon and a smith who flew to Petersburg?
+status: done · id: 78f5830e-d5d2-45da-8ef9-4461a2ff5512 · file: 220-russian-gogol-christmas-eve.cast · 2026-10-24
+
+---
+## A table for five in Russian: нас пятеро, пятого декабря
+How do you say there are five of us, a table for four, on the fifth of December, from the first to the tenth?
+status: done · id: a5ffa0e6-63dd-418c-b632-ddc0f588ae3a · file: 215-russian-table-for-five.cast · 2026-10-24
+
+---
+## If it weren't for you in Russian: если бы не, без вас, а то
+How do you say if it weren't for you, without you I'd…, otherwise?
+status: done · id: 0cbf36b8-7194-4f53-a15f-2d6e05af5f67 · file: 214-russian-if-not-for-you.cast · 2026-10-24

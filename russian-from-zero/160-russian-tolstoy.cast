@@ -4,6 +4,7 @@ tags: ["russian","tolstoy","russian literature","russian reading","лев и с�
 teaches: ["reading/reading-literature"]
 thumb: "band \"Read Tolstoy in Russian\""
 voices: {"a":"gemini:Achird | Tom, a warm, easy-going English speaker who knows Russian well; friendly with Masha, clear and unhurried; says Russian words the way a native Russian speaker would","b":"gemini:Leda | a friendly young Russian woman from Moscow, natural and lively, speaks English with a light Russian accent and says Russian words natively; never exaggerated"}
+next: {"title":"Sit down, lie down in Russian: сесть, лечь, встать","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/russian-from-zero/161-russian-sit-lie-stand.cast"}
 
 ## Reading Tolstoy in Russian: The Lion and the Little Dog
 stress: new
@@ -326,8 +327,11 @@ role: thumbnail
 ## Where next
 end_page: true
 
-    link end_again href lecture:160 title "Watch again" form text mark replay open here x 500 y 400 font_size 28
-    text end_count "160 of 160" x 500 y 330 font_size 22 style.opacity 0.6
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:161 title "Sit down, lie down in Russian: сесть, лечь, встать" form title size 600 x 500 y 420
+
+    link end_again href lecture:160 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "160 of 220" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en

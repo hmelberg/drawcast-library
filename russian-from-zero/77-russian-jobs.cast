@@ -306,7 +306,7 @@ end_page: true
     link end_next href lecture:78 title "Studying in Russian: я изуча́ю ру́сский" form title size 600 x 500 y 420
 
     link end_again href lecture:77 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
-    text end_count "77 of 160" x 500 y 180 font_size 22 style.opacity 0.6
+    text end_count "77 of 220" x 500 y 180 font_size 22 style.opacity 0.6
 ---
 audio:
   lang: en
