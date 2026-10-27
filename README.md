@@ -5,7 +5,6 @@
 - [How Painters Caught Light](how-painters-caught-light/) — updated 2026-10-23
 - [Chess in 30 Days: Break the Plateau](chess-30-days/) — updated 2026-10-23
 - [Twelve Paradoxes That Broke the Rules](paradoxes/) — updated 2026-10-23
-- [Russian from zero](russian-from-zero/) — updated 2026-10-24
 
 ---
 
