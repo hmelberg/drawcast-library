@@ -1,0 +1,313 @@
+# Is economics a topic or a method?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What do the price of bread, Becker's theory of crime and the tip you leave a waiter have in common? Four quick answers to what economics is — and why this course starts with questions instead"
+next: {"title":"Why use models that are obviously false?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/04-why-use-models-that-are-obviously-false.cast"}
+
+## Bread, a burglar and a tip
+use: venn_diagram
+with:
+    mode: containment
+    universe_box: false
+    sets:
+      - {label: The economy, only_label: The economy}
+      - {label: 'Method: scarce choices'}
+sources:
+    - id: marshall1890
+      title: Principles of Economics
+      authors: Alfred Marshall
+      year: 1890
+      finding: Economics is 'a study of mankind in the ordinary business of life'.
+    - id: robbins1932
+      title: An Essay on the Nature and Significance of Economic Science
+      authors: Lionel Robbins
+      year: 1932
+      finding: Economics studies human behaviour as a relationship between ends and scarce means which have alternative uses (p. 15).
+
+    card title "Is economics a topic or a method?"
+
+    hide set_label_0
+
+What do the price of bread, a burglar's choice and the tip you leave a waiter have in common?
+    icon bread size 80 x 500 y 520 icon_look picture of bread
+    icon burglar size 100 x 230 y 520 or ["detective","money bag"] icon_look picture of ninja
+    icon tip size 100 x 770 y 520 or ["money"] icon_look picture of coin
+    parallel true
+
+In Harbourtown, Mia sells a loaf at a price, a burglar eyes the little bank, and a diner leaves c (@highlight tip@)oins on a saucer.
+    highlight bread
+
+B: Only the bread is economics, surely. The other two belong to criminologists and etiquette columns.
+    highlight bread effect circle
+
+    quiz "Which of these is economics?"
+        right: By one famous answer, all three are. By an older one, only the bread.
+        wrong: Look at what the burglar and the diner are doing: each weighs one thing against another.
+        * Only the bread
+        * Bread and the tip: money changes hands
+        + All three
+
+That depends on what economics is. And it matters: it decides which questions economists claim to answer, from prison sentences to pensions.
+    highlight burglar tip effect pulse
+
+One old answer: in 1890 Alfred Marshall called it a study of mankind in the ordinary business of life.
+    draw set_0 region_label_a
+
+B: So it's a topic, like geology: markets, money, jobs. My loaf goes in; the burglar stays out.
+    move bread to.x 500 to.y 360 duration 1.2
+
+In 1932 Lionel Robbins drew a bigger circle: human behaviour as a relationship between ends and scarce means.
+    portrait robbins cites ["robbins1932"] of "Lionel Robbins" cameo true
+
+    erase robbins
+
+That makes economics a method. Wherever someone gives up one thing to get another, it applies.
+    draw set_1 set_label_1
+
+B: Then the burglar is in: loot against prison. And the diner to (@move tip to.x 620 to.y 480 duration 1.2@)o: a few coins against a waiter's frown.
+    move burglar to.x 380 to.y 480 duration 1.2
+
+That's the common thread: all three are choices where something has to be given up.
+    highlight bread burglar tip
+
+    pause 0.4
+
+By topic, only the bread is economics. By meth (@highlight set_1@)od, all three are, and economists have studied every one.
+    highlight set_0
+
+## Becker's parking ticket
+use: equation_plot
+with:
+    equation: E(p) = F*p
+    variable: p
+    params:
+      F: {value: 50, min: 20, max: 150, step: 5, label: fine F ($)}
+      g: {value: 10, fixed: true, label: gain g ($)}
+    x_range:
+      - 0
+      - 1
+    y_range:
+      - 0
+      - 60
+    x_label: chance of a ticket
+    y_label: expected fine ($)
+    editable:
+      - F
+    marks:
+      - {kind: hline, at: g, label: gain $10, id: gain}
+      - {kind: point, at: g/F, x_label: break-even, id: be}
+    box:
+      x: 10
+      'y': 150
+      w: 700
+      h: 470
+sources:
+    - id: becker1992
+      title: The Economic Way of Looking at Life (Nobel lecture)
+      authors: Gary S. Becker
+      year: 1992
+      finding: Late for an oral exam, Becker weighed the chance and size of a parking fine against a paid lot, parked on the street, and got no ticket; this started his thinking on crime.
+    - id: becker1968
+      title: 'Crime and Punishment: An Economic Approach'
+      authors: Gary S. Becker
+      year: 1968
+      finding: Offenders respond to the probability and size of punishment; optimal policy can trade fines against costly enforcement. Journal of Political Economy 76(2).
+    - id: becker1973
+      title: 'A Theory of Marriage: Part I'
+      authors: Gary S. Becker
+      year: 1973
+      finding: Marriage analysed as a market. Journal of Political Economy 81(4).
+    - id: hamermesh1974
+      title: An Economic Theory of Suicide
+      authors: Daniel S. Hamermesh, Neal M. Soss
+      year: 1974
+      finding: Suicide modelled as a choice depending on expected lifetime utility. Journal of Political Economy 82(1).
+    - id: nobel1992
+      title: The Prize in Economic Sciences 1992
+      authors: Royal Swedish Academy of Sciences
+      year: 1992
+      finding: Becker, 'for having extended the domain of microeconomic analysis to a wide range of human behaviour and interaction, including nonmarket behaviour'.
+
+    portrait becker cites ["becker1992"] of "Gary Becker" cameo true hidden true
+    cards mathcards options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after_math"}] then after_math hidden true
+        * Show me the math
+        * Skip it
+    scratch mb work [{"tex":"g > p\\cdot F"},{"tex":"p^* = g/F = 10/50 = 0.2"},{"tex":"2F:\\ p^* = 10/100 = 0.1"}] x 850 y 470 font_size 24 hidden true
+    scratch emp cites ["becker1968","becker1973","hamermesh1974","nobel1992"] work ["crime · 1968","marriage · 1973","suicide · 1974","Nobel · 1992"] x 850 y 470 font_size 24 hidden true
+
+    card title "Becker's parking ticket"
+
+B: The boldest user of that method was Gary Becker, and it began with a parking space.
+    draw becker
+
+B: Late for a student's oral exam, he had to choose: a paid lot, or the street and the risk of a ticket.
+    draw axes
+
+What did he weigh?
+    erase becker
+
+B: Say the lot costs ten dollars and a ticket fifty: illustrative numbers. The street saves him ten.
+    draw gain gain_label
+
+    pause 0.3
+
+B: The expected fine is the chance of a ticket times the fine, so it climbs along this line.
+    draw curve_0 eq
+
+So where the line crosses ten, at one chance in five, the street stops paying.
+    draw be be_x_label
+
+    pause 0.5
+
+B: He judged the chance was lower, took the street, and got no ticket. Then he wondered whether criminals weigh things the same way.
+    point at.ref be gesture circle
+
+Try it: raise the fine, and watch the break-even chance slide left.
+    explore
+
+B: Double the fine, and one chance in ten deters like one in five did. His 1968 paper argued that big fines can stand in for costly police.
+    animate params.F 100 duration 3 ghost ["curve_0","be"]
+
+    draw mathcards
+
+    ask "Want the two-line algebra behind the break-even point?" on mathcards stage own after clear
+
+@math
+
+    hide mathcards_1 mathcards_2
+
+Park illegally when the gain beats the chance times the fine.
+    draw mb_box mb_line_1
+
+So the break-even chance is the gain over the fine: ten over fifty, a fifth.
+    draw mb_line_2
+
+Double the fine and it halves, to a tenth.
+    draw mb_line_3
+
+    erase mb
+
+@after_math
+
+    hide mathcards_1 mathcards_2
+
+The method has a second half: equilibrium. Police respond to (@highlight curve_0@) crime, offenders respond to polic (@highlight gain@)e, and the crime rate settles where those p (@point at.ref be gesture circle@)lans fit, just like a bread price.
+
+B: Then Becker took it into marriag (@draw emp_line_2@)e and children, and Hamermesh and Soss even mod (@draw emp_line_3@)elled suicide as a choice.
+    draw emp_box emp_line_1
+
+His 1992 Nobel prize cited nonmarket behaviour. Fans and critics alike call it economic imperialism.
+    draw emp_line_4
+
+## The tip
+sources:
+    - id: lynn1990
+      title: 'Restaurant tipping: an examination of three ''rational'' explanations'
+      authors: Michael Lynn, Andrea Grassman
+      year: 1990
+      finding: 'Interviews with departing diners: tips fit buying social approval and equity, not buying future service. Journal of Economic Psychology 11(2).'
+    - id: lynn1993
+      title: 'Consumer tipping: a cross-country study'
+      authors: Michael Lynn, George M. Zinkhan, Judy Harris
+      year: 1993
+      finding: 'Using a tipping guide covering about 30 countries, the US had the most tipped service professions: 31 of 33. Journal of Consumer Research 20.'
+    - id: nagin2013
+      title: Deterrence in the Twenty-First Century
+      authors: Daniel S. Nagin
+      year: 2013
+      finding: Certainty of apprehension, not severity of punishment, is the more effective deterrent. Crime and Justice 42.
+    - id: gneezy2000
+      title: A Fine is a Price
+      authors: Uri Gneezy, Aldo Rustichini
+      year: 2000
+      finding: Haifa day-care centres that fined late parents saw late pickups rise, and stay high after the fine was removed. Journal of Legal Studies 29(1).
+    - id: madrian2001
+      title: 'The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior'
+      authors: Brigitte C. Madrian, Dennis F. Shea
+      year: 2001
+      finding: Automatic enrolment sharply raised pension plan participation. Quarterly Journal of Economics 116(4).
+
+    icon coin size 120 x 160 y 430 icon_look picture of coin hidden true
+    box n_topic "Topic: the economy" radius 12 in answers hidden true
+    box n_rc "Rational choice: tip $0" radius 12 in answers hidden true
+    box n_beh "Behavioural: guilt, fairness" radius 12 in answers hidden true
+    box n_inst "Institutional: local rules" radius 12 in answers hidden true
+    grid answers walk true fit.h 480 fit.w 650 fit.x 320 fit.y 160 hidden true
+    text readout "US: 31 of 33 jobs" cites ["lynn1993"] x 165 y 280 font_size 24 hidden true
+    text nagin "certainty > severity" cites ["nagin2013"] x 165 y 280 font_size 24 hidden true
+    text stamp "CONTESTED" x 165 y 590 font_size 32 hidden true
+    mark stamp_box around stamp kind box hidden true
+
+    card title "The tip"
+
+B: If choice explains a burglar, try the tip. You eat once in a town you'll never see agai (@highlight coin effect circle@)n. Why leave anything?
+    draw coin
+
+Pure self-interest says you shouldn't: the waiter can't punish you, and the meal is already served.
+    draw n_rc
+
+B: Yet people tip anyway. And when researchers asked diners leaving restaurants, buying better service next time didn't explain the tips.
+    fade n_rc to 0.35
+
+Behavioural economists keep the choice but change the chooser: we feel guilt, want approval, care about fair shares.
+    draw n_beh
+
+B: But the guilt isn't the same everywhere. One study of thirty countries found tips expected in thirty-one of thirty-three American service jobs, the most of any.
+    draw readout
+
+That's the institutional answer: a tip is a rule of the place, built up over history, and choices are made inside it. In Tokyo, a restaurant tip (@highlight n_inst@) is usually not expected.
+    draw n_inst
+
+    erase readout
+
+B: Couldn't a rational-choice economist just call guilt a cost?
+    highlight n_beh
+
+Yes, but a theory that can absorb any behaviour risks predicting none. How far the  (@draw stamp stamp_box ends@)method reaches is contested.
+
+Incentives do matter: the chance of being caught deters crime far more rel (@draw nagin@)iably than the size of the punishment. So do norms and rules.
+
+B: So which is it, a topic or a method?
+    erase nagin
+
+    fade n_rc to 1
+
+Four answers, then: a topic, a method of choice an (@highlight n_topic n_rc n_beh n_inst@)d equilibrium, a chooser with feelings, and rules that shape the choice. Each lights up some things and misses others.
+    draw n_topic
+
+    quiz "A city doubles its parking fine but halves its patrols, so a ticket is half as likely. In Becker's simplest model, what happens to illegal parking?"
+        right: Half the chance times twice the fine is the same expected fine. Real drivers may still react more to the patrols.
+        wrong: Multiply the chance by the fine, before and after.
+        * It falls
+        * It rises
+        + It stays about the same
+
+    quiz "Day-care centres in Haifa started fining parents who came late. Late pickups rose, and stayed up after the fine was dropped. What fits best?" voice b
+        right: Guilt kept parents on time; a small fine bought it off, and the old norm didn't come back.
+        wrong: Before the fine, what made parents hurry?
+        * Parents didn't notice the fine
+        + The fine turned a duty into a price
+        * Fines never change behaviour
+
+    hide coin answers stamp stamp_box
+
+    cards sortq
+        Rational choice: Speed cameras
+        Behavioural: Pension default
+        Rational choice: Cigarette tax
+        Institutional: Sunday trading law
+
+    ask "Which answer explains each finding most simply? Sort the cards." on sortq store srt stage own
+        right: All {srt.total} sorted.
+        wrong: You got {srt} of {srt.total}. Prices and penalties point to rational choice; defaults to behaviour; laws to institutions.
+
+That's why this course starts with questions, not a method: th (@highlight n_topic n_rc n_beh n_inst@)e question decides which tool to pick up.
+    show coin answers stamp stamp_box
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:4 title "Why use models that are obviously false?" form title size 600 x 500 y 420
+
+    link end_again href lecture:3 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "3 of 365" x 500 y 180 font_size 22 style.opacity 0.6

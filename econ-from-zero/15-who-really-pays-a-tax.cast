@@ -1,0 +1,288 @@
+# Who really pays a tax?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Does it matter whether the buyer or the seller hands the tax to the state? Why does the less flexible side end up paying more?"
+next: {"title":"How much do buyers and sellers gain from a market?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/16-how-much-do-buyers-and-sellers-gain-from.cast"}
+
+## Who hands it over
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price of a loaf (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: true
+      guides: true
+    tax:
+      amount: 1
+      side: seller
+      label: S + tax
+    regions:
+      - government_revenue
+    units:
+      price: [0, 8]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+    readout:
+      - price_buyers
+      - price_sellers
+    readout_at: inside
+sources:
+    - id: irs751
+      title: Topic no. 751, Social Security and Medicare withholding rates
+      authors: Internal Revenue Service
+      year: 2025
+      finding: Social Security tax is 6.2% of wages for the employer and 6.2% for the employee (12.4% in all); Medicare 1.45% each
+      url: https://www.irs.gov/taxtopics/tc751
+
+    scratch fica center cites ["irs751"] work ["US payroll tax","worker 6.2%","employer 6.2%"] font_size 44 hidden true
+
+    card title "Who really pays a tax?"
+
+Who really pays a tax? Take America's payroll tax  (@draw fica_box fica_line_1 fica_line_2@)for pensions: by law, the worker pays six point two percent of the wage, and the employer pa (@draw fica_line_3@)ys another six point two.
+
+B: So Congress split it down the middle. Isn't that the answer, then?
+    highlight fica_line_2 fica_line_3
+
+Economists say the law only decides who writes the chequ (@draw axes@)e. Let's test that on a smaller case.
+    erase fica
+
+Mia's bakery in Harbourtown, with illustrative numbers: a loaf sell (@draw equilibrium_point label_E guide_lines label_Pstar label_Qstar@)s for four dollars, and about five hundred sell a week.
+    draw demand_curve label_D supply_curve label_S
+
+B: Now the harbour council puts a tax of one dollar on every loaf, and Mia has to hand it over.
+    highlight supply_curve label_S
+
+    ask "What will a loaf cost, in dollars, with the $1 tax? Set your guess." estimate.min 4 estimate.max 5 estimate.value 4.5 store g stage own
+        intro: Before anything moves: what will a loaf cost once the tax is in?
+        right: Close: you said {g}, and it settles at {g.true}.
+        wrong: You said {g}; it settles at {g.true}.
+
+    erase estimate_1
+
+To keep baking each loaf, Mia now needs a dollar more  (@animate tax.amount 12.5 duration 2.5@)for it, so her supply curve lifts by the whole dollar.
+    draw tax_supply_curve label_S_tax
+
+B: So the price jumps a dollar, to five?
+    point at.data [50,62.5] gesture circle
+
+No. At five dollars shoppers b (@erase label_Pstar@)uy fewer loaves, so the price settles in between: (@draw readout_price_buyers@) four dollars fifty.
+    draw tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb
+
+Shoppers pay fifty cents more. Mia h (@draw wedge_region label_wedge@)ands the council a (@draw price_sellers_point label_Ps readout_price_sellers@) dollar and keeps three fifty, so she's fifty cents worse off too.
+
+B: Half and half, then, even though the law put the whole dollar on Mia.
+    highlight label_Pb label_Ps
+
+That split is what economists call the tax's incidence: who ends up poorer, not who hands over the money.
+    highlight readout effect box
+
+    pause 0.5
+
+## Who can walk away
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price of a loaf (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: true
+      guides: true
+    tax:
+      amount: 0
+      side: buyer
+      label: D − tax
+    units:
+      price: [0, 8]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+    readout:
+      - price_buyers
+      - price_sellers
+    readout_at: inside
+
+    card title "Who can walk away"
+
+Mia hands over the dollar, yet shoppers pay half of it. What if the council  (@draw equilibrium_point label_E guide_lines label_Pstar label_Qstar@)sent the bill to the shoppers instead, at the till?
+    draw axes demand_curve label_D supply_curve label_S
+
+    ask "The $1 is now collected from shoppers. Where does demand go, as Mia sees it? Move it, then press Done." on demand_curve predict true store t check size voice b
+        intro: Then I'd predict the shoppers' curve moves. Try it yourself first.
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+B: Seen from Mia's side, e (@animate tax.amount 12.5 duration 2.5@)very shopper will now pay her a dollar less than before, so demand drops by the whole dollar.
+    draw tax_demand_curve label_D_tax
+
+B: Shoppers pay four (@erase label_Pstar@) fifty in all, and Mia keeps three fifty.
+    draw tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps readout
+
+Exactly the numbers we had when Mia paid. So who hands it over really doesn't matter?
+    highlight readout effect box
+
+B: Not in this model. The law picks who writes the cheque, not who bears the cost.
+    highlight tax_demand_curve label_D_tax
+
+Then what does pick it?
+    highlight demand_curve supply_curve
+
+B: Who can walk away more easily. Here buyers and Mia are equally flexible, so they split it.
+    highlight price_buyers_point price_sellers_point effect pulse
+
+B: But bread is a staple. Say shoppers bar (@animate demand.elasticity 0.312 duration 3 ghost true@)ely cut back when its price goes up: their demand is much less elastic.
+
+Now shoppers pay about eighty cents of the dollar, and Mia loses only about twenty.
+    highlight readout effect box
+
+B: The side that can't walk away gets stuck with the bill.
+    highlight demand_curve label_D
+
+B: Pause and turn Mia's supply curve steep, as if she had nowhere else to sell, and watch the bill move to her.
+    explore
+
+So the dollar lands on whoever has fewer ways out.
+    highlight label_Pb label_Ps
+
+    pause 0.5
+
+## Does the law ever matter?
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price of a loaf (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: false
+    tax:
+      amount: 12.5
+      side: seller
+      label: S + tax
+    units:
+      price: [0, 8]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+sources:
+    - id: chetty2009
+      title: 'Salience and Taxation: Theory and Evidence'
+      authors: Chetty, R., Looney, A. & Kroft, K.
+      year: 2009
+      finding: In a grocery-store experiment, posting tax-inclusive prices on shelf tags cut demand for the treated products by about 8 percent, though the tax itself was unchanged
+      doi: 10.1257/aer.99.4.1145
+    - id: saez2019
+      title: 'Payroll Taxes, Firm Behavior, and Rent Sharing: Evidence from a Young Workers'' Tax Cut in Sweden'
+      authors: Saez, E., Schoefer, B. & Seim, D.
+      year: 2019
+      finding: A large cut in employer payroll taxes for young workers (2007–2009) had no effect on their net wages relative to slightly older workers, even in the medium run; youth employment rose 2–3 points
+      doi: 10.1257/aer.20171937
+    - id: gruber1997
+      title: 'The Incidence of Payroll Taxation: Evidence from Chile'
+      authors: Gruber, J.
+      year: 1997
+      finding: After Chile's 1981 pension privatisation sharply cut employers' payroll taxes, the cut was fully passed on to workers as higher wages, with no effect on employment
+      url: https://www.nber.org/papers/w5053
+
+    portrait chetty of "Raj Chetty" cameo true hidden true
+    scratch tag center cites ["chetty2009"] work ["same tax,","now on the shelf tag:","sales −8%"] font_size 36 hidden true
+    scratch cases center cites ["saez2019","gruber1997"] work ["employer tax cut","Sweden: wages flat","Chile: wages up"] font_size 36 hidden true
+    scratch sure center work ["less elastic side pays more:","consensus","who hands it over:","mostly agreed long run","contested short run"] font_size 36 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    scratch math center work [{"tex":"\\text{buyers' share} = \\frac{\\varepsilon_S}{\\varepsilon_S + \\varepsilon_D}"},"both = 1:  1 ÷ 2 = 0.5","demand = 0.25:  1 ÷ 1.25 = 0.8"] font_size 38 hidden true
+
+    card title "Does the law ever matter?"
+
+B: Here's my doubt. The model says it never matters who  (@draw tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps@)hands the tax over. Does that survive real shoppers?
+    draw axes demand_curve label_D supply_curve label_S tax_supply_curve label_S_tax
+
+Not al (@fade axes demand_curve label_D supply_curve label_S tax_supply_curve label_S_tax tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps to 0.25@)ways. In 2009 Raj Chetty and (@draw chetty@) two colleagues put tax-inclusive prices on the shelf tags in a grocery store.
+
+    erase chetty
+
+The tax was  (@draw tag_box tag_line_1@)the same as ever; it had always been (@draw tag_line_2@) added at the till. Yet sales of those goods fell by about eight pe (@draw tag_line_3 ends@)rcent.
+
+B: So a tax people don't see bites less. Where it shows up can matter, even when who pays it shouldn't.
+    highlight tag_line_3
+
+    erase tag
+
+And wages can be slow to adjust. When Swede (@draw cases_box cases_line_1@)n cut employers' payroll tax for young workers, the young workers' pay didn't r (@draw cases_line_2 ends@)ise, even years later.
+
+B: Whereas in Chile, a b (@draw cases_line_3@)ig cut in employers' payroll tax ended up in higher wages, just as the model says.
+
+    erase cases
+
+How sure are we? That the less fl (@draw sure_box sure_line_1 sure_line_2@)exible side bears more: consensus. That who hands it over  (@draw sure_line_3 sure_line_4 sure_line_5@)doesn't matter: mostly agreed in the long run, contested in the short run.
+
+    erase sure
+
+    draw mathq
+
+    ask "Show the formula behind the split, or skip it?" on mathq stage own voice b
+        intro: Want the formula behind the split?
+
+@math
+
+    erase mathq
+
+Buyers' share of the tax is the supply elasticity divided by both elasticities added together.
+    draw math_box math_line_1
+
+Both at one gives bu (@draw math_line_2@)yers a half. Demand at a quarter gives one ov (@draw math_line_3@)er one and a quarter: four fifths, the eighty cents of the bread.
+
+    erase math
+
+@test
+
+    erase mathq
+
+    quiz "Smokers barely cut back when cigarettes cost more; tobacco firms can easily sell elsewhere. Who bears most of a cigarette tax?" intro "Three new cases."
+        right: Smokers: they have fewer ways out, so the price they pay rises by most of the tax.
+        wrong: Which side has fewer ways out?
+        + Smokers
+        * Tobacco firms
+        * Split evenly
+
+    cards rank ends ["buyers bear most","buyers bear least"]
+        * Insulin
+        * Petrol, this week
+        * One brand of cola
+
+    ask "Rank these taxes by how much of each the buyers bear." on rank stage own store k voice b
+        intro: Sellers are equally flexible in all three.
+        right: You got {k}. Insulin users can't do without it; cola drinkers just switch brands.
+        wrong: You got {k}. How easily can a buyer switch away from each?
+
+    erase rank
+
+    fade axes demand_curve label_D supply_curve label_S tax_supply_curve label_S_tax tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps to 1
+
+    quiz "Parliament moves the whole payroll tax from employers to workers' payslips. Once wages adjust, what does the simple model predict for take-home pay?"
+        right: Unchanged: the gap between what the firm pays and what the worker keeps is the same size.
+        wrong: Has the gap between what the firm pays and what the worker keeps changed size?
+        * Falls by the tax
+        + Unchanged
+        * Rises
+
+So who really pays a tax? Not whoever the law names, but whoever has fewer ways out. And a tax also takes something from both sides that the council never collects.
+    highlight label_Pb label_Ps
+
+    pause 0.8
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:16 title "How much do buyers and sellers gain from a market?" form title size 600 x 500 y 420
+
+    link end_again href lecture:15 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "15 of 365" x 500 y 180 font_size 22 style.opacity 0.6

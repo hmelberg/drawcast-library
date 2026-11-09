@@ -1,0 +1,355 @@
+# How does a price coordinate millions who never meet?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What did Hayek mean by prices as a system of information? Why does nobody know how to make a pencil?"
+
+## A message without a reason
+sources:
+    - id: hayek1945
+      title: The Use of Knowledge in Society
+      authors: Friedrich A. Hayek
+      year: 1945
+      finding: 'Whether tin becomes scarcer through a new use or a lost source does not matter to its users; the rising price alone makes tens of thousands of people economize on it, without an order being issued (American Economic Review 35(4): 519-530).'
+      url: https://www.econlib.org/library/Essays/hykKnw.html
+
+    icon can size 220 set twemoji x 830 y 400 icon_look picture of "canned food" hidden true
+    text can_lbl "Cannery" x 830 y 255 font_size 32 hidden true
+    icon globe size 120 set twemoji x 170 y 580 icon_look picture of "globe showing americas" hidden true
+    text globe_lbl "far away" #8f887c x 330 y 630 font_size 30 hidden true
+    arrow route dashed #8f887c from.anchor right from.ref globe to.anchor top to.ref can hidden true
+    box c1 "Mine floods" x 180 y 405 width 290 height 150 radius 10 icon "water wave" font_size 32 style.stroke #b5482e hidden true
+    box c2 "New use" x 180 y 225 width 290 height 150 radius 10 icon factory font_size 32 style.stroke #b5482e hidden true
+    portrait hayek of "Friedrich Hayek" cameo true hidden true
+    box tag "Tin: P ↑" cites ["hayek1945"] x 520 y 315 width 260 height 160 radius 12 icon label font_size 36 style.stroke #2f6b8f hidden true
+    arrow a1 #8f887c from.anchor right from.ref c1 to.anchor left to.ref tag hidden true
+    arrow a2 #8f887c from.anchor right from.ref c2 to.anchor left to.ref tag hidden true
+    arrow use #2f6b8f from.anchor right from.ref tag to.anchor left to.ref can hidden true
+    label use_lbl "use less" above #2f6b8f attach_to use font_size 30 hidden true
+    text noorder "no order given" #8f887c x 720 y 190 font_size 30 hidden true
+    text many "× tens of thousands" #2f6b8f cites ["hayek1945"] x 830 y 580 font_size 30 hidden true
+
+    card title "A message without a reason"
+
+How does a price coordinate millions of people who never meet, and n (@draw globe@)ever even hear of each other?
+    draw can
+
+Take a tin can in Harbourtown's fish cannery: the t (@draw route@)in in it was mined half a (@draw globe_lbl@) world away, by people the cannery will never meet.
+    draw can_lbl
+
+B: Now say tin gets scarcer. Maybe  (@draw c1@)a mine floods, or maybe a new factory  (@draw c2@)somewhere suddenly wants a lot of tin.
+
+In 1945 Friedrich Hayek, an Austr (@draw hayek@)ian-born economist at the London School of Economics, built a famous essay around exactly this case.
+
+    erase hayek
+
+    quiz "What does the cannery need to know before it uses less tin?"
+        right: Only the price: whichever cause it was, dearer tin means use less.
+        wrong: Think about what the cannery can actually see from its own desk.
+        * Which of the two causes it was
+        * Where the tin is needed most
+        + Only that tin now costs more
+
+Hayek's answer: only the price. Which cause made tin scarcer doesn't matter, and he stressed that it doesn't matter.
+    draw a1 a2 tag
+
+B: So the manager doesn't need the story behind it, just the number.
+    fade c1 c2 a1 a2 route globe globe_lbl to 0.3
+
+Right: dearer tin tells her to economize, with thinner cans or some glass jars, and nobody ha (@draw noorder@)d to give her an order.
+    draw use use_lbl
+
+Hayek called it a marvel: tens of thou (@draw many@)sands of people, whose names nobody could even find out, all move in the right direction.
+
+B: So a price is a message: tin is scarcer, use less of it, and never mind why.
+    highlight tag effect box
+
+## Two causes, one signal
+use: supply_demand
+with:
+    x_label: Tin (Q)
+    y_label: Price of tin (P)
+    demand:
+      curvature: linear
+    supply:
+      curvature: linear
+    equilibrium:
+      show: true
+      guides: true
+    demand_shift:
+      amount: 0
+    supply_shift:
+      amount: 0
+sources:
+    - id: hayek1945
+      title: The Use of Knowledge in Society
+      authors: Friedrich A. Hayek
+      year: 1945
+      finding: 'The price system works with an economy of knowledge: users of a scarcer material need not know whether a new use or a lost source caused it; they watch prices ''as an engineer might watch the hands of a few dials'' (American Economic Review 35(4): 519-530).'
+      url: https://www.econlib.org/library/Essays/hykKnw.html
+
+    dot eS at.intersection_of ["demand_curve","supply_shift_curve"] guides.x Q₁ guides.y P′ hidden true
+    text eS_lbl "flood" #b5482e x 436 y 422 font_size 28 hidden true
+    dot eD at.intersection_of ["demand_shift_curve","supply_curve"] guides.x Q₂ guides.y P′ hidden true
+    text eD_lbl "new use" #2f6b8f x 598 y 422 font_size 28 hidden true
+    mark same around eS eD #b5482e kind box hidden true
+    text dials "economy of knowledge" #2f6b8f cites ["hayek1945"] x 740 y 630 font_size 34 hidden true
+
+    card title "Two causes, one signal"
+
+B: A message without its reason sounds like magic, so here is the tin market, to see how it's done.
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+Start with the mine. If it floods, which curve moves?
+    draw supply_shift_curve
+
+    ask "Move the curve a flooded mine shifts, then press Done." on supply_curve predict true store t
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+B: Supply: at every price less tin is offered, so the supply curve shift (@draw label_S_shift eS@)s left, and the price climbs.
+    animate supply_shift.amount -20 duration 2.5
+
+B: Buyers take less tin at t (@point at.ref eS gesture circle@)hat higher price: that's the cannery with its thinner cans.
+    draw eS_lbl
+
+Now take the flood back, and try the other cause: a new factory that wants tin.
+    fade supply_shift_curve label_S_shift to 0.3
+
+    draw demand_shift_curve
+
+B: That's demand shifting right: at every price more tin i (@draw label_D_shift eD eD_lbl@)s wanted, and the price climbs again.
+    animate demand_shift.amount 20 duration 2.5
+
+So the market as a whole sells less tin in one case and more in the other.
+    highlight eS eD effect circle
+
+B: But the cannery gets the same message both times: tin costs more, use less.
+    draw same
+
+That's what Hayek called the economy  (@draw dials@)of knowledge: each person watches a few prices, like an engineer watching a few dials.
+
+    erase eS eS_lbl eD eD_lbl same supply_shift_curve label_S_shift demand_shift_curve label_D_shift dials
+
+Pause and try it: drag supply left, put it back, then drag demand right, and watch the one number the cannery sees.
+    explore
+
+B: A whole world of causes squeezed into one number, and that number tells each person what to do.
+    highlight label_Pstar effect circle
+
+## Nobody knows how to make a pencil
+sources:
+    - id: read1958
+      title: 'I, Pencil: My Family Tree as told to Leonard E. Read'
+      authors: Leonard E. Read
+      year: 1958
+      finding: 'No single person knows how to make a pencil: cedar from Northern California and Oregon, graphite mined in Ceylon, an eraser of factice made from rapeseed oil from the Dutch East Indies, a brass ferrule; millions of people had a hand in it (The Freeman, December 1958).'
+      url: https://fee.org/resources/i-pencil/
+    - id: simon1991
+      title: Organizations and Markets
+      authors: Herbert A. Simon
+      year: 1991
+      finding: 'A Martian observer would see firms as large green areas joined by thin red lines of market transactions; organizations, not markets, dominate the landscape (Journal of Economic Perspectives 5(2): 25-44).'
+
+    polygon eraser #3d3833 points [[110,374],[185,374],[185,466],[110,466]] style.fill #e8a0a0 hidden true
+    polygon ferrule #3d3833 points [[185,374],[255,374],[255,466],[185,466]] style.fill #d9b45a hidden true
+    polygon body #3d3833 points [[255,374],[720,374],[720,466],[255,466]] style.fill #f2c14e hidden true
+    polygon wood #3d3833 points [[720,374],[840,404],[840,436],[720,466]] style.fill #e6c9a0 hidden true
+    polygon lead #3d3833 points [[840,404],[890,420],[840,436]] style.fill #3d3833 hidden true
+    group pencil members ["eraser","ferrule","body","wood","lead"] hidden true
+    text read_src "“…not a single person on the face of this earth knows how to make me.”  Read, 1958" #b5482e cites ["read1958"] x 500 y 250 width 640 font_size 30 hidden true
+    box k_cedar "Cedar: Oregon, California" cites ["read1958"] x 790 y 590 width 270 height 120 radius 10 icon "evergreen tree" font_size 26 style.stroke #2f6b8f hidden true
+    box k_lead "Graphite: Sri Lanka" x 790 y 245 width 270 height 120 radius 10 icon rock font_size 26 style.stroke #2f6b8f hidden true
+    box k_oil "Rapeseed oil: Indonesia" x 210 y 590 width 270 height 120 radius 10 icon blossom font_size 26 style.stroke #2f6b8f hidden true
+    box k_brass "Brass: copper + zinc" x 210 y 245 width 270 height 120 radius 10 icon gear font_size 26 style.stroke #2f6b8f hidden true
+    arrow l_cedar #8f887c from.anchor bottom from.ref k_cedar to.anchor top to.ref wood hidden true
+    arrow l_lead #8f887c from.anchor top from.ref k_lead to.anchor bottom to.ref lead hidden true
+    arrow l_oil #8f887c from.anchor bottom from.ref k_oil to.anchor top to.ref eraser hidden true
+    arrow l_brass #8f887c from.anchor top from.ref k_brass to.anchor bottom to.ref ferrule hidden true
+    icon axe size 70 set twemoji x 420 y 250 icon_look picture of axe hidden true
+    icon pick size 70 set twemoji x 500 y 250 icon_look picture of pick hidden true
+    icon ship size 70 set twemoji x 580 y 250 icon_look picture of ship hidden true
+    text millions "millions · nobody in charge" #b5482e cites ["read1958"] x 500 y 175 font_size 32 hidden true
+    icon boss size 150 set twemoji x 500 y 430 icon_look picture of factory hidden true
+    text orders "orders, not prices" #b5482e x 500 y 300 font_size 34 hidden true
+    portrait simon of "Herbert A. Simon" cameo true hidden true
+    ellipse f1 #5f7f52 cites ["simon1991"] x 230 y 470 rx 150 ry 95 style.fill #87a878 hidden true
+    ellipse f2 #5f7f52 x 770 y 500 rx 170 ry 105 style.fill #87a878 hidden true
+    ellipse f3 #5f7f52 x 510 y 250 rx 140 ry 85 style.fill #87a878 hidden true
+    path m12 thick #b5482e points [[380,475],[600,495]] hidden true
+    path m13 thick #b5482e points [[300,385],[420,300]] hidden true
+    path m23 thick #b5482e points [[690,405],[600,305]] hidden true
+    text t1 "firm" x 230 y 470 font_size 32 hidden true
+    text t2 "firm" x 770 y 500 font_size 32 hidden true
+    text t3 "firm" x 510 y 250 font_size 32 hidden true
+    text t_m "market" #b5482e x 490 y 520 font_size 28 hidden true
+
+    card title "Nobody knows how to make a pencil"
+
+One message passed along is neat. Chain thousands of them (@draw ferrule eraser@) together, and you get something as ordinary as a pencil.
+    draw body wood lead
+
+B: In 1958 Leonard Read wrote an essay in a pencil's own voice, 'I, Pe (@draw read_src@)ncil', with a startling claim: not a single person on earth knows how to make one.
+
+That sounds absurd. A pencil factory makes pencils.
+    highlight pencil effect box
+
+    erase read_src
+
+B: It puts them together. Read's ced (@draw k_cedar l_cedar@)ar came from Oregon an (@draw k_lead l_lead@)d northern California, and the graphite from Sri Lanka.
+
+The eraser came fr (@draw k_oil l_oil@)om rapeseed oil grown in Indonesia, a (@draw k_brass l_brass@)nd the little metal band is brass, made from mined copper and zinc.
+
+B: And behind each part, more people: loggers, miners, the sailors on the ships, the people who made their saws and trucks.
+    draw axe pick ship parallel false
+
+Read put it at millions of peopl (@draw millions@)e, hardly any of whom know each other, and nobody in charge of the whole.
+
+    erase axe pick ship millions
+
+B: What holds it together is prices: each of them sees only what their bit sells for and what their inputs cost.
+    flow l_cedar l_lead l_oil l_brass
+
+B: But here's my doubt. Walk into the pencil  (@draw boss@)factory, and nobody there steers by prices: a ma (@draw orders@)nager tells people what to do.
+    fade eraser ferrule body wood lead k_cedar k_lead k_oil k_brass l_cedar l_lead l_oil l_brass to 0.15
+
+That's a fair hit. Herbert  (@draw simon@)Simon asked what a visitor from Mars would see: firms as green areas, markets as thin red lines between them.
+
+    erase simon
+
+    hide eraser ferrule body wood lead k_cedar k_lead k_oil k_brass l_cedar l_lead l_oil l_brass boss orders
+
+And to Simon's Martian,  (@draw m12 m13 m23 t_m@)the green areas, not the red lines, were what dominated the landscape.
+    draw f1 t1 f2 t2 f3 t3
+
+B: So prices coordinate between firms, and inside them orders do; why the line falls where it does is a question of its own.
+    highlight m12 m13 m23
+
+## How far does the message reach?
+feedback:
+    style: dry
+    perfect: Hayek would hand you a pencil.
+    good: You read the dials well.
+    poor: Watch what the price can and cannot see.
+    none: The tin market will still be there tomorrow.
+use: supply_demand
+with:
+    x_label: Tin (Q)
+    y_label: Price of tin (P)
+    demand:
+      curvature: linear
+    supply:
+      curvature: linear
+    equilibrium:
+      show: true
+      guides: true
+    box:
+      x: 30
+      'y': 130
+      w: 500
+      h: 520
+sources:
+    - id: lange1936
+      title: On the Economic Theory of Socialism
+      authors: Oskar Lange
+      year: 1936
+      finding: A central planning board could reach equilibrium prices by trial and error, raising prices where shortages appear and lowering them where surpluses appear (Review of Economic Studies 4(1-2), 1936-37).
+    - id: hayek1945
+      title: The Use of Knowledge in Society
+      authors: Friedrich A. Hayek
+      year: 1945
+      finding: 'The knowledge that matters for economic decisions is largely knowledge of the particular circumstances of time and place, dispersed among many people and never given to any single mind (American Economic Review 35(4): 519-530).'
+      url: https://www.econlib.org/library/Essays/hykKnw.html
+
+    scratch sure cites ["hayek1945","lange1936"] work ["Prices inform: consensus","Prices alone: contested"] x 765 y 450 font_size 26 hidden true
+    portrait lange of "Oskar Lange" cameo true hidden true
+    box dirty "River pollution: not in P" x 765 y 450 width 320 height 140 radius 10 icon factory font_size 28 style.stroke #b5482e hidden true
+    scratch math work ["Say S falls 10% at every P:",{"tex":"\\%\\Delta P \\approx 10\\% \\div (\\varepsilon_D + \\varepsilon_S)"},{"tex":"= 10\\% \\div (0.5 + 0.5) = 10\\%"}] x 765 y 450 font_size 28 hidden true
+
+    card title "How far does the message reach?"
+
+How sure are we? That prices carry knowledge no single person holds is (@draw sure_box sure_line_1@) about as close to consensus as economics gets.
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+B: That they can do the whole job, with  (@draw sure_line_2@)no planner at all, is another matter: that's contested.
+
+In the 1930s Oskar Lan (@draw lange@)ge argued that a planning board could find the right prices too, by trial and error, raising them wherever shortages appeared.
+
+    erase lange
+
+B: Hayek's reply was that what matters is knowledge of time and place, a flooded mine today, and it changes faster than any board can hear of it.
+    highlight sure_line_2 effect underline
+
+    erase sure
+
+And a price can carry the wrong message (@draw dirty@): if a mine pollutes a river for free, the price of tin never tells anyone about the river.
+
+    pause 0.4
+
+    erase dirty
+
+    cards mathq options [{"text":"Show me the math","goto":"math_box"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Show the math, or skip it?" on mathq store m default "Skip it" stage own voice b
+
+@math_box
+
+    hide mathq
+
+Say a flooded mine cuts the supply of tin by ten percent at every price.
+    draw math_box math_line_1
+
+B: The price rises by roughly that shift divided by the two elasticities added together.
+    draw math_line_2
+
+With elasticities of a half each, that's ten divided by one: the price climbs about ten percent.
+    draw math_line_3
+
+    pause 0.5
+
+    erase math
+
+@test
+
+    hide mathq
+
+    quiz "Copper suddenly gets dearer, and an electrician switches some jobs to aluminium wire without knowing why. Which fits Hayek?"
+        intro: Three new cases to finish.
+        right: Right: the dearer copper already says it is wanted more elsewhere; why is not her problem.
+        wrong: Does the right move depend on why copper got scarce?
+        + She is doing the right thing without knowing the cause
+        * She should wait until she knows the cause
+        * Only a planner could tell her to switch
+
+    hide axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+    cards cases check each
+        Prices: A mill buying cedar logs
+        Orders: A foreman assigning shifts
+        Prices: Graphite sold to the top bidder
+        Orders: An army moving its supplies
+
+    ask "Coordinated by prices or by orders? Sort each case." on cases store f stage own voice b
+        right: All four. Between firms, prices steer; inside a firm or an army, someone gives orders.
+        wrong: {f} of {f.total} on the first try. Ask: does anyone inside give the order?
+
+    erase cases
+
+    show axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+    quiz "A factory dumps its waste into a river for free. What is wrong with the price of what it makes?" voice b
+        right: Right: the river's cost never enters the price, so buyers get a message that is too cheap.
+        wrong: Who pays for the river, and does the price know?
+        + It says the product is cheaper to make than it really is
+        * Nothing: a price always carries the full cost
+        * It is too high
+
+So millions coordinate without meeting because each listens to a few prices, an (@highlight equilibrium_point label_Pstar effect pulse@)d every price is a message written by everyone else.
+    animate box full duration 2.5
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:21 title "What happens when prices are not allowed to move?" form title size 600 x 500 y 420
+
+    link end_again href lecture:20 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "20 of 365" x 500 y 180 font_size 22 style.opacity 0.6

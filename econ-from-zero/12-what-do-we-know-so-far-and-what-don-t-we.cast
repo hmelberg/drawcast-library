@@ -1,0 +1,242 @@
+# What do we know so far, and what don't we?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Which big questions does the rest of the course chase? Test: scarcity, trade, prices and measuring wealth"
+next: {"title":"Do markets work — and what would that even mean?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/13-do-markets-work-and-what-would-that-even.cast"}
+
+## Four tools
+sources:
+    - id: alston1992
+      title: Is There a Consensus Among Economists in the 1990's?
+      authors: Alston, R. M., Kearl, J. R. & Vaughan, M. B.
+      year: 1992
+      finding: 'In a 1990 survey of economists employed in the United States, more than 90% agreed (with or without provisos) that tariffs and import quotas usually reduce general economic welfare. American Economic Review 82(2): 203–209.'
+
+    box t_scar "Scarcity\nopportunity\ncost" width 225 height 250 radius 10 icon hourglass font_size 27 in map hidden true
+    box t_trade "Trade\ncomparative\nadvantage" width 225 height 250 radius 10 icon handshake font_size 27 in map hidden true
+    box t_price "Prices\nsupply &\ndemand" width 225 height 250 radius 10 icon "balance scale" font_size 27 in map hidden true
+    box t_wealth "Wealth\nGDP per person\nat PPP" width 225 height 250 radius 10 icon "bar chart" font_size 27 in map hidden true
+    row map gap 30 fit.h 320 fit.w 960 fit.x 20 fit.y 310 hidden true
+    text survey "Tariffs usually hurt:\n9 in 10 economists agree (1990)" #2f6b8f at.percent [50,22] cites ["alston1992"] font_size 34 hidden true
+    cards claims hidden true
+        Mostly agreed: Free tickets cost, Trade can help both
+        * "Less supply, dearer" bin "Mostly agreed"
+        Still argued: Why nations got rich, GDP = wellbeing?, Who gains from trade
+    text sure_logic "The logic: consensus" #2f6b8f at.percent [50,26] font_size 34 hidden true
+    text sure_gaps "What it leaves out: contested / open" #b5482e at.percent [50,12] font_size 34 hidden true
+
+    card title "What we know so far"
+
+What do we actually know about the economy so far, and what don' (@draw t_scar@)t we? Here are the four tools on one page.
+
+B: The first is scarcity. Every choice costs the best thing you gave up for it: its opportunity cost.
+    highlight t_scar
+
+Second, trade. Two people both gain when each does what costs the (@highlight t_trade@)m least to give up, even if one of them is better at everything.
+    draw t_trade
+
+B: Third, prices. Nobody sets them; they settle where supply meets d (@highlight t_price@)emand, and they follow the last unit bought, not the total value.
+    draw t_price
+
+And fourth, wealth. We count it as GDP per person, compared at l (@highlight t_wealth@)ocal prices so a haircut in Delhi counts like a haircut in Oslo.
+    draw t_wealth
+
+B: Fine tools. But does anyone actually agree on what they say?
+    highlight map effect box
+
+On some things, remarkably so. In a 1990 survey,  (@draw survey@)more than nine in ten economists working in America agreed, at least with provisos, that tariffs and import quotas usually make a country worse off.
+
+B: And on other things they have argued for two centuries. Try sorting a few claims yourself.
+    erase survey
+
+    fade map to 0
+
+    draw claims
+
+    ask "Do economists mostly agree on each claim, or still argue about it? Sort every card, then press Done." on claims stage own store srt voice b
+        right: {srt} of {srt.total}: the tools' own logic is agreed; the big why-questions are not.
+        wrong: {srt} of {srt.total}. The tools' own logic is agreed; who gains, why countries got rich and what GDP misses are still argued.
+
+    erase claims
+
+    fade map to 1
+
+The tool (@draw sure_logic@)s' logic is close to consensus. What they leave out, who (@draw sure_gaps@) gains, why some countries got rich, what GDP misses, is contested, and some of it is still open.
+
+B: Which is no reason to drop them. So let's see whether they work on cases we haven't met.
+    highlight map
+
+## A new loaf
+use: supply_demand
+with:
+    x_label: Loaves (Q)
+    y_label: Price (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+    supply_shift:
+      amount: 0
+      label: S′
+    demand_shift:
+      amount: 0
+      label: D′
+
+    card title "Test: a new loaf"
+
+    hide supply_shift_arrow demand_shift_arrow
+
+B: First test, on prices. A new case: the bread a (@draw equilibrium_point label_E guide_lines label_Pstar label_Qstar@)t Mia's bakery in Harbourtown.
+    draw axes demand_curve label_D supply_curve label_S
+
+B: Say the price of flour jumps, so every loaf costs Mia more to bake. Which curve moves, and which way?
+    highlight supply_curve demand_curve
+
+    ask "Where does Mia's supply go? Move it, then press Done." on supply_curve predict true store t voice b
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+B: Supply shif (@animate supply_shift.amount -25 duration 3@)ts left: at every price, Mia now offers fewer loaves. Bread gets dearer, and less of it is sold.
+    draw supply_shift_curve label_S_shift
+
+    fade supply_curve label_S to 0.3
+
+So her customers just shrug and pay the new price?
+    dot cross #3d3833 at.intersection_of ["demand_shift_curve","supply_shift_curve"]
+
+B: Some do; some buy less. They slide up their demand curve, but what they want at each price hasn't changed.
+    highlight demand_curve
+
+Then, the same month, a cheap rival bakery o (@animate demand_shift.amount -12 duration 3@)pens on the quay, and fewer people want Mia's bread at any price.
+    draw demand_shift_curve label_D_shift
+
+    fade demand_curve label_D to 0.3
+
+    quiz "Flour got dearer and a cheap rival opened, both in the same month. What can we say for sure about Mia's bread?"
+        right: Fewer loaves: both shifts cut the quantity, while they push the price in opposite directions.
+        wrong: Do the two changes push the price the same way? Do they push the quantity the same way?
+        + Fewer loaves sold
+        * A higher price
+        * A lower price
+
+B: Both changes cut the loaves Mia sells. On the price, they pull in opposite directions, so it depends on which shift is bigger.
+    highlight cross label_Qstar
+
+B: Pause and drag the curves: find a mix where Mia's price ends up below where it started.
+    explore
+
+So the tool gives a sure answer on one side and a 'depends' on the other, and it tells us exactly what the 'depends' depends on.
+    highlight cross effect circle
+
+## Inside the frontier
+domain: {"x":[0,520],"y":[0,140]}
+sources:
+    - id: lebergott1957
+      title: Annual Estimates of Unemployment in the United States, 1900–1954
+      authors: Lebergott, S.
+      year: 1957
+      finding: 'US unemployment in 1933: 24.9% of the civilian labour force (12.8 million), the standard estimate, counting people on work relief as unemployed (Darby''s series, counting them as employed, is lower). NBER, The Measurement and Behavior of Unemployment.'
+      url: https://www.nber.org/chapters/c2644.pdf
+
+    axes ax x_label "Bread (loaves)" y_label "Fish (crates)" ticks.x [100,200,300,400] ticks.y [25,50,75,100] hidden true
+    curve frontier #b5482e expr 100*sqrt(1-(x/400)^2) x_from 0 x_to 400 hidden true
+    label lab_frontier "frontier" right attach_to frontier hidden true
+    dot pA at.data [110,45] radius 9 hidden true
+    label lab_A "A" below attach_to pA hidden true
+    dot pB at.data [240,80] radius 9 hidden true
+    label lab_B "B" above-right attach_to pB hidden true
+    dot pC at.data [340,95] radius 9 hidden true
+    label lab_C "C" above attach_to pC hidden true
+    label lab_unreach "out of reach" right attach_to pC hidden true
+    dot idle #8f887c at.data [130,35] radius 10 style.fill #8f887c hidden true
+    label lab_idle "half the boatyard idle" below-right attach_to idle hidden true
+    text stat "1933: about 1 US worker in 4 jobless" #2f6b8f at.data [230,128] cites ["lebergott1957"] font_size 28 hidden true
+    portrait keynes x 860 y 470 width 170 of "John Maynard Keynes" cameo true hidden true
+    arrow q_unemp #2f6b8f from.data [140,42] to.data [205,82] hidden true
+    label lab_q_unemp "Why unemployment?" left #2f6b8f attach_to q_unemp hidden true
+    arrow q_mkt #8a5fa8 from.data [150,95] to.data [310,66] hidden true
+    label lab_q_mkt "Do markets work?" below #8a5fa8 attach_to q_mkt hidden true
+    curve outer dashed #d0865f expr 125*sqrt(1-(x/500)^2) x_from 0 x_to 500 hidden true
+    arrow q_grow #d0865f from.data [370,40] to.data [455,52] hidden true
+    text lab_q_grow "How do we grow?" #d0865f at.data [488,88] font_size 26 hidden true
+    text sure "All three: contested" #b5482e at.data [430,122] font_size 34 hidden true
+
+    card title "Inside the frontier"
+
+The price tool gave a 'depends'. Scarcity gives a sharper test: Ha (@draw frontier lab_frontier@)rbourtown's frontier of fish and bread, with illustrative numbers.
+    draw ax
+
+B: Under the curve is everything the town can make this year; on it, ever (@draw pA lab_A pB lab_B pC lab_C parallel true@)yone is working flat out. Which of these three points can't it reach?
+
+    ask "Which point can't the town reach? Tap it." choose ["pA","pB","pC"] answer pC voice b
+        right: C: it lies beyond the frontier, more fish and more bread than the town's people can make.
+        wrong: Which point lies outside the curve of the most the town can make?
+
+Beyond the frontier is the one place scarcity forbids: no plan and no price gets the town there this year.
+    draw lab_unreach
+
+B: Now my objection. Everything we've built assumes the town sits on its frontier. What if the boatyard lays off half its workers?
+    erase pA lab_A pC lab_C lab_unreach lab_B
+
+Then the town sits deep inside: less fish and less bread, and nobody gains from the waste.
+    move pB to.data [130,35] ghost true duration 2
+
+    erase pB
+
+    draw idle lab_idle
+
+B: And scarcity alone says that shouldn't last: idle hands and unmet wants should find each other. Yet it does last.
+    highlight idle
+
+In 1933, on the st (@draw stat@)andard estimate, about one American worker in four had no job. John Maynard Ke (@draw keynes@)ynes wrote his General Theory to explain how an economy could stay stuck there.
+
+    erase keynes stat
+
+B: So one frontier gives us three questions, not (@draw q_unemp lab_q_unemp@) one. First: why do economies sit inside it?
+
+Second: do markets get us onto it, and to a good point on it?
+    draw q_mkt lab_q_mkt
+
+B: And third: what pushes the whole frontier out, decade after decade?
+    draw outer q_grow lab_q_grow
+
+How sure are we on any of the three? Conte (@draw sure@)sted, all of them. That's why they fill the rest of the course.
+
+    quiz "A new harbour crane lets the same crews land twice the fish. What happens on the picture?"
+        intro: Three last questions, on new cases.
+        right: The frontier moves out, mostly up the fish axis: the same people can now make more than before.
+        wrong: With the crane, can the same people make more than before?
+        + The frontier moves out
+        * The town slides along the frontier
+        * The town moves inside the frontier
+
+    quiz "Ola can make 4 nets or 2 oars in a day; Sara 1 net or 1 oar. Who should make the oars?" voice b
+        right: Sara: an oar costs her one net, but costs Ola two. Ola is better at both and still gains by making nets.
+        wrong: Count what each gives up, in nets, to make one oar.
+        * Ola
+        + Sara
+        * Nobody gains from splitting the work
+
+    fade ax frontier lab_frontier idle lab_idle q_unemp lab_q_unemp q_mkt lab_q_mkt outer q_grow lab_q_grow sure to 0.08
+
+    scale ppp label "income per person at PPP" unit $ min 0 max 10000 value 8000
+
+    ask "A country earns $2,000 per person at market exchange rates, and its prices are about a quarter of US prices. Click its income per person at PPP." on ppp store g relative true default "2000"
+        right: Close: you said {g}; it is about {g.true}. Each dollar buys four times as much there.
+        wrong: You said {g}; it is about {g.true}. If everything costs a quarter as much, each dollar buys four times as much.
+
+    erase ppp
+
+    fade ax frontier lab_frontier idle lab_idle q_unemp lab_q_unemp q_mkt lab_q_mkt outer q_grow lab_q_grow sure to 1
+
+So what we know is how to use four tools; what we don't yet know is when an economy fails to use them all, and the first question we chase is whether markets work at all.
+    highlight frontier idle
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:13 title "Do markets work — and what would that even mean?" form title size 600 x 500 y 420
+
+    link end_again href lecture:12 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "12 of 365" x 500 y 180 font_size 22 style.opacity 0.6

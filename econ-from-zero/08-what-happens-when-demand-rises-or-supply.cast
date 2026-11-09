@@ -1,0 +1,315 @@
+# What happens when demand rises or supply falls?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "How do we tell a shift of the curve from a move along it? Why do price and quantity sometimes move together and sometimes apart?"
+next: {"title":"Why did the price of oil quadruple in 1973?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/09-why-did-the-price-of-oil-quadruple-in.cast"}
+
+## Eggs and roses
+use: line_chart
+with:
+    x:
+      - Jan 2021
+      - Feb 2021
+      - Mar 2021
+      - Apr 2021
+      - May 2021
+      - Jun 2021
+      - Jul 2021
+      - Aug 2021
+      - Sep 2021
+      - Oct 2021
+      - Nov 2021
+      - Dec 2021
+      - Jan 2022
+      - Feb 2022
+      - Mar 2022
+      - Apr 2022
+      - May 2022
+      - Jun 2022
+      - Jul 2022
+      - Aug 2022
+      - Sep 2022
+      - Oct 2022
+      - Nov 2022
+      - Dec 2022
+      - Jan 2023
+      - Feb 2023
+      - Mar 2023
+      - Apr 2023
+      - May 2023
+      - Jun 2023
+      - Jul 2023
+      - Aug 2023
+      - Sep 2023
+      - Oct 2023
+      - Nov 2023
+      - Dec 2023
+    values:
+      - [1.47, 1.6, 1.62, 1.62, 1.62, 1.64, 1.64, 1.71, 1.83, 1.82, 1.72, 1.79]
+      - [1.47, 1.6, 1.62, 1.62, 1.62, 1.64, 1.64, 1.71, 1.83, 1.82, 1.72, 1.79, 1.93, 2, 2.05, 2.52, 2.86, 2.71, 2.94, 3.12, 2.9, 3.42, 3.59, 4.25, 4.82]
+      - [1.47, 1.6, 1.62, 1.62, 1.62, 1.64, 1.64, 1.71, 1.83, 1.82, 1.72, 1.79, 1.93, 2, 2.05, 2.52, 2.86, 2.71, 2.94, 3.12, 2.9, 3.42, 3.59, 4.25, 4.82, 4.21, 3.45, 3.27, 2.67, 2.22, 2.09, 2.04, 2.06, 2.07, 2.14, 2.51]
+    stage: 0
+    ylim:
+      - 0
+      - 5.5
+    x_label: ''
+    y_label: Price of a dozen eggs ($)
+    box:
+      x: 80
+      'y': 170
+      w: 620
+      h: 460
+sources:
+    - id: bls_eggs
+      title: 'Average Price: Eggs, Grade A, Large (Cost per Dozen) in U.S. City Average (APU0000708111)'
+      authors: U.S. Bureau of Labor Statistics, via FRED
+      year: 2024
+      finding: Dec 2021 $1.79; Jan 2023 $4.82; Aug 2023 $2.04 per dozen.
+      url: https://fred.stlouisfed.org/series/APU0000708111
+    - id: ers_hpai
+      title: 'Charts of Note: egg markets and highly pathogenic avian influenza, 2022'
+      authors: USDA Economic Research Service
+      year: 2023
+      finding: More than 43 million egg-laying hens lost to HPAI from February to December 2022; December 2022 table egg production about 6% below a year earlier (USDA NASS).
+
+    dot pt_low at.data [11,1.79] cites ["bls_eggs"] hidden true
+    label lab_low "$1.79" above attach_to pt_low hidden true
+    dot pt_peak at.data [24,4.82] cites ["bls_eggs"] hidden true
+    label lab_peak "$4.82" right attach_to pt_peak hidden true
+    text flu_tag "Bird flu" #b5482e cites ["ers_hpai"] x 400 y 560 font_size 24 hidden true
+    scratch card work ["Eggs:  P ↑   Q ↓","Roses:  P ↑   Q ↑"] x 850 y 530 font_size 30 hidden true
+    text two_ways "Move along, or shift?" #2f6b8f x 850 y 400 font_size 30 hidden true
+
+    card title "Eggs and roses"
+
+What happens to a market when buyers suddenly want more, or sellers suddenly can offer less? Start with a price everyone noticed: American eggs.
+    draw axes
+
+This is the average price of a dozen large eggs in US cities, month by month.
+    draw line_1
+
+Through 2021 it sat around a dollar seventy.
+    draw pt_low lab_low
+
+Then, in Februa (@draw flu_tag@)ry 2022, bird flu reached American farms. By the end of that year, more than forty-three million laying hens had died or been culled.
+    animate stage 1 duration 4
+
+The price climbed, and in January 2023 it hit about four dollars eighty: almost three times the old level.
+    draw pt_peak lab_peak
+
+    pause 0.4
+
+B: And people got fewer eggs for it, I assume?
+    point at.data [2022.9,4.6] gesture circle
+
+Yes: prod (@draw card_box card_line_1@)uction at the end of 2022 was about six percent below a year earlier. As the flocks w (@animate stage 2 duration 3@)ere rebuilt, the price fell back to about two dollars by the summer of 2023.
+
+Price up, quantity down. That fits the rule everyone knows: dearer things sell less.
+    highlight card_line_1
+
+B: Then explain roses. The week before Valentine's Day they cost more than in any ordinary week, and florists sell far more of them.
+    draw card_line_2
+
+B: Price up, quantity up. Did the rule just break?
+    highlight card_line_1 card_line_2
+
+No. The two price rises have different causes. To see them, we need to tell apart two things that sound alike: a move along (@draw two_ways@) a curve, and a shift of the whole curve.
+    erase flu_tag
+
+## Shift or slide
+vars: {"qa":50}
+use: supply_demand
+with:
+    x_label: Quantity of eggs (Q)
+    y_label: Price (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+    supply_shift:
+      amount: 0
+      label: S′
+    change_arrows: true
+
+    card title "Shift or slide"
+
+B: Two price rises with opposite quantities. Let's draw the egg market and find out why.
+    draw axes
+
+B: The demand curve, D, shows how many eggs buyers want at each price (@draw supply_curve label_S@). The supply curve, S, how many farms offer.
+    draw demand_curve label_D
+
+B: Where they cross sits the market price, P star, and the quantity sold, Q star.
+    draw equilibrium_point label_E guide_lines label_Pstar label_Qstar
+
+So if the price of eggs goes up, the demand curve moves?
+    highlight demand_curve
+
+B: No, and that's the trap. When the egg's own  (@animate qa 32 duration 2.5@)price changes, buyers move along their curve. The curve stays put.
+    dot slide #b5482e at.on demand_curve at.x 50 bind {"at.x":"qa"}
+
+B: Anything else that changes what people want, or what f (@highlight supply_curve effect pulse@)arms can offer at every price, shifts the whole curve.
+    erase slide
+
+B: So: bird flu kills millions of hens. Which curve moves, and which way?
+    highlight supply_curve demand_curve
+
+    ask "Where does supply go? Move it, then press Done." on supply_curve predict true store t voice b
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+B: Supply  (@animate supply_shift.amount -25 duration 3@)shifts left: at every price, farms can now offer fewer eggs.
+    draw supply_shift_curve label_S_shift
+
+    fade supply_curve label_S to 0.35
+
+B: At the old price, buyers still want as many eggs as before, but there are far fewer to sell, so the price is bid up.
+    point at.data [40,50] gesture circle
+
+B: As it rises, buyers slide u (@highlight demand_curve@)p along their unchanged demand curve, and some buy fewer eggs.
+    draw shift_equilibrium_point label_E_shift
+
+So the new crossing has a higher price and a smaller quantity: suppl (@draw change_arrows@)y shifting pushes them in opposite directions.
+    draw shift_guide_lines label_P_shift label_Q_shift
+
+B: And the buyers' demand curve n (@highlight demand_curve label_D@)ever moved. Only where they stood on it did.
+    erase change_arrows
+
+B: Now try the roses yourself: drag the demand curve to the right, and watch where price and quantity go.
+    explore
+
+## When both move
+use: supply_demand
+with:
+    x_label: Quantity of roses (Q)
+    y_label: Price (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+    demand_shift:
+      amount: 0
+      label: D′
+    supply_shift:
+      amount: 0
+      label: S′
+sources:
+    - id: working1927
+      title: What Do Statistical "Demand Curves" Show?
+      authors: E. J. Working
+      year: 1927
+      finding: 'Observed price–quantity points come from shifts of both supply and demand, so a line fitted through them need be neither a demand nor a supply curve: the identification problem. (Quarterly Journal of Economics 41(2): 212–235.)'
+
+    dot cross #3d3833 at.intersection_of ["demand_shift_curve","supply_shift_curve"] hidden true
+    label label_cross "E′" above attach_to cross hidden true
+    scratch rule top-right work ["D shifts: P, Q together","S shifts: P, Q apart"] font_size 26 hidden true
+    dot obs_1 #8a5fa8 at.data [38,47] hidden true
+    dot obs_2 #8a5fa8 at.data [46,58] hidden true
+    dot obs_3 #8a5fa8 at.data [57,55] hidden true
+    dot obs_4 #8a5fa8 at.data [64,66] hidden true
+    path obs_line dashed #8a5fa8 points [[30,44],[72,68]] data true hidden true
+    text obs_tag "Data: points, not curves" #8a5fa8 cites ["working1927"] x 740 y 615 font_size 30 hidden true
+    text sure "Logic: consensus" #2f6b8f x 740 y 615 font_size 36 hidden true
+    scratch math top-right work [{"tex":"Q_d = a - bP \\quad Q_s = c + dP"},{"tex":"P^* = \\frac{a-c}{b+d} \\qquad Q^* = \\frac{ad+bc}{b+d}"},"a ↑ :  P* ↑  Q* ↑","c ↓ :  P* ↑  Q* ↓"] font_size 30 hidden true
+
+    card title "When both move"
+
+A supply shift pushes price and quantity apart. The roses need the other curve.
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar
+
+In Valentine's week, deman (@animate demand_shift.amount 25 duration 3@)d for roses shifts right: at every price, people want more.
+    draw demand_shift_curve label_D_shift
+
+The new crossing is higher and further right. A demand (@fade demand_curve label_D to 0.35@) shift moves price and quantity in the same direction.
+    draw cross label_cross
+
+So the direction is a clue: moving together points to d (@draw rule_line_2@)emand, moving apart points to supply.
+    draw rule_box rule_line_1
+
+B: But real markets rarely move one curve at a time. What if both shift at once?
+    erase rule
+
+Say demand for roses rises while  (@animate supply_shift.amount -20 duration 3@)a cold spell on the flower farms also cuts supply.
+    draw supply_shift_curve label_S_shift
+
+    fade supply_curve label_S to 0.35
+
+The price surely rises. The quantity could go either way (@highlight cross label_Qstar@): it depends on which shift is bigger.
+    animate supply_shift.amount -38 duration 3
+
+B: And in the data, nobody ever sees a curve. On (@draw obs_1 obs_2 obs_3 obs_4@)ly the crossing points, one per week or year.
+    fade demand_curve label_D supply_curve label_S demand_shift_curve label_D_shift supply_shift_curve label_S_shift cross label_cross guide_lines label_Pstar label_Qstar equilibrium_point label_E to 0.12
+
+B: It is an old trap: in 1927 the economist Elmer Working showed that a line through such points can be neither a dem (@draw obs_tag@)and curve nor a supply curve. Economists call it the identification problem.
+    draw obs_line
+
+How sure are we? About the lo (@draw sure@)gic of shifts, there is consensus. Measuring which curve moved, and by how much, is harder: it needs an outside event, like the weather, that moves only one of them.
+    erase obs_tag obs_line
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Want the algebra behind the rule?" on mathq stage own
+
+@math
+
+    erase obs_1 obs_2 obs_3 obs_4 sure mathq
+
+Write demand and supply as straight lines: quantity demanded falls with the price, quantity supplied rises with it.
+    draw math_box math_line_1
+
+Set them equal and solve, and you get the price and the quantity where they cross.
+    draw math_line_2
+
+B: Raise a, more demand at every price, and both go up.
+    draw math_line_3
+
+Cut c, less supply at every price, and the price rises while the quantity falls.
+    draw math_line_4
+
+    erase math
+
+@test
+
+    erase mathq obs_1 obs_2 obs_3 obs_4 sure
+
+    quiz "A storm keeps Harbourtown's fishing boats in port for a week. What happens to the price of fish and the amount sold?"
+        right: Supply of fish falls, so price and amount move apart.
+        wrong: Did the storm change what buyers want, or what sellers can offer?
+        + Price up, amount down
+        * Price up, amount up
+        * Price down, amount down
+
+    quiz "A summer festival fills Harbourtown with mainland visitors. What happens at Mia's bakery?" voice b
+        right: Demand for bread shifts right, so price and quantity rise together.
+        wrong: The visitors change how much bread is wanted at every price.
+        + Price up, more bread sold
+        * Price up, less bread sold
+        * Price down, more bread sold
+
+    quiz "Bread gets dearer, and Harbourtown families buy less bread. What is that, for the families?"
+        right: Only bread's own price changed, so the families slide along an unchanged demand curve.
+        wrong: Did anything change for the families except bread's own price?
+        * Their demand curve shifts left
+        + A move along their demand curve
+        * Their supply curve shifts right
+
+    quiz "A cheaper oven cuts Mia's costs just as a sourdough craze sweeps the town. What can we say for sure?" voice b
+        right: Both shifts raise the quantity; the cheaper oven pushes the price down while the craze pushes it up.
+        wrong: Both changes push the quantity the same way. Do they push the price the same way?
+        * The price rises
+        + The amount sold rises
+        * Both rise
+        * Neither changes
+
+So when a price jumps, ask first what moved: what buyers want, or what sellers can offer. The answer tells you whether the quantity rises or falls.
+    fade demand_curve label_D supply_curve label_S demand_shift_curve label_D_shift supply_shift_curve label_S_shift cross label_cross guide_lines label_Pstar label_Qstar equilibrium_point label_E to 1
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:9 title "Why did the price of oil quadruple in 1973?" form title size 600 x 500 y 420
+
+    link end_again href lecture:8 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "8 of 365" x 500 y 180 font_size 22 style.opacity 0.6

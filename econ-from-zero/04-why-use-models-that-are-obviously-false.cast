@@ -1,0 +1,274 @@
+# Why use models that are obviously false?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Is a map wrong because it leaves out the trees? What did Friedman mean by judging a model by its predictions, and why do critics disagree?"
+next: {"title":"Why do people trade at all?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/05-why-do-people-trade-at-all.cast"}
+
+## The map and the trees
+    figure maps aspect 3:2 box full members ["st_frame","st_river","st_s1","st_s2","st_s3","st_s4","st_s5","st_label","tb_frame","tb_red","tb_green","tb_blue","tb_st0","tb_st1","tb_st2","tb_st3","tb_st4","tb_st5","tb_ring","tb_ring2","tb_label","tb_ghost","lf_frame","lf_s1","lf_s2","lf_s3","lf_ratio","lf_label","street","tube","life","cue_kept","cue_dropped","lf_strike","cue_useless","tree","cue_shade","cue_model"] hidden true
+    shape st_frame #3d3833 shape rect x 197 y 500 width 320 height 420 radius 12 hidden true
+    path st_river smooth #2f6b8f points [[39,390],[124,450],[214,410],[292,480],[354,460]] style.stroke_width 5 hidden true
+    path st_s1 #8f887c points [[56,660],[135,580],[169,520],[259,490],[338,440]] style.stroke_width 2 hidden true
+    path st_s2 #8f887c points [[68,340],[112,510],[101,620],[180,670]] style.stroke_width 2 hidden true
+    path st_s3 #8f887c points [[202,670],[225,560],[292,530],[349,620]] style.stroke_width 2 hidden true
+    path st_s4 #8f887c points [[135,330],[191,390],[270,360],[338,360]] style.stroke_width 2 hidden true
+    path st_s5 #8f887c points [[45,560],[158,600],[248,620],[349,660]] style.stroke_width 2 hidden true
+    text st_label "Streets" #3d3833 x 197 y 245 font_size 46 hidden true
+    shape tb_frame #3d3833 shape rect x 562 y 500 width 320 height 420 radius 12 hidden true
+    path tb_red #b5482e points [[416,530],[709,530]] style.stroke_width 6 hidden true
+    path tb_green #5f8a4f points [[529,350],[529,670]] style.stroke_width 6 hidden true
+    path tb_blue #2f6b8f points [[439,390],[686,610]] style.stroke_width 6 hidden true
+    shape tb_st0 #3d3833 shape circle x 450 y 530 radius 8 style.fill #ffffff hidden true
+    shape tb_st1 #3d3833 shape circle x 652 y 530 radius 8 style.fill #ffffff hidden true
+    shape tb_st2 #3d3833 shape circle x 529 y 410 radius 8 style.fill #ffffff hidden true
+    shape tb_st3 #3d3833 shape circle x 529 y 620 radius 8 style.fill #ffffff hidden true
+    shape tb_st4 #3d3833 shape circle x 472 y 420 radius 8 style.fill #ffffff hidden true
+    shape tb_st5 #3d3833 shape circle x 664 y 590 radius 8 style.fill #ffffff hidden true
+    shape tb_ring #3d3833 shape circle x 529 y 530 radius 14 style.fill #ffffff style.stroke_width 4 hidden true
+    shape tb_ring2 #3d3833 shape circle x 619 y 550 radius 12 style.fill #ffffff style.stroke_width 4 hidden true
+    text tb_label "Tube" #3d3833 x 562 y 245 font_size 46 hidden true
+    path tb_ghost smooth dashed thick #b5482e points [[418,490],[472,570],[540,500],[613,580],[675,505],[709,560]] style.opacity 0.45 hidden true
+    shape lf_frame #3d3833 shape rect x 928 y 500 width 320 height 420 radius 12 hidden true
+    polygon lf_s1 #8f887c points [[788,360],[1046,340],[1069,620],[810,650]] hidden true
+    polygon lf_s2 #8f887c points [[804,380],[1029,360],[1052,605],[827,630]] hidden true
+    polygon lf_s3 #3d3833 points [[821,400],[1012,385],[1029,585],[844,605]] style.fill #f4efe4 style.fill_style wash hidden true
+    text lf_ratio "1 : 1" #3d3833 x 928 y 500 font_size 48 hidden true
+    text lf_label "Life size" #3d3833 x 928 y 245 font_size 46 hidden true
+    group street members ["st_frame","st_river","st_s1","st_s2","st_s3","st_s4","st_s5","st_label"] hidden true
+    group tube members ["tb_frame","tb_red","tb_green","tb_blue","tb_st0","tb_st1","tb_st2","tb_st3","tb_st4","tb_st5","tb_ring","tb_ring2","tb_label"] hidden true
+    group life members ["lf_frame","lf_s1","lf_s2","lf_s3","lf_ratio","lf_label"] hidden true
+    text cue_kept "connections kept" #5f8a4f x 562 y 170 font_size 40 hidden true
+    text cue_dropped "distances dropped" #b5482e x 562 y 115 font_size 40 hidden true
+    mark lf_strike around life kind cross hidden true
+    text cue_useless "useless" #b5482e x 928 y 170 font_size 44 hidden true
+    icon tree size 110 x 135 y 150 icon_look picture of tree hidden true
+    text cue_shade "shade?" #3d3833 x 276 y 150 font_size 42 hidden true
+    text cue_model "a model = a map of a mechanism" #3d3833 x 562 y 40 font_size 46 hidden true
+
+    card title "Is a map wrong?"
+
+Economists' models are obviously false. So why would anyone trust one?
+    draw street
+
+Start with something that is false on purpose: a map.
+    draw tube
+
+B: Here are three maps of London: the streets, the Tube, and a map as big as London itself.
+    draw life
+
+You're on a train and need to know where to change lines. Which one do you take?
+    highlight street tube life effect box
+
+B: The street map, surely. It's the most accurate.
+    highlight street
+
+    ask "Tap the map you would take to change lines." choose ["street","tube","life"] judge false
+
+It is, and it would get you lost underground. The Tube map is the one you want, and it's the most false of the three.
+    highlight tube effect circle
+
+    pause 0.4
+
+    camera on ["tube","cue_kept","cue_dropped"] duration 1.2
+
+That's on purpose. Harry Beck drew it  (@draw tb_ghost@)in 1933: straight lines, neat angles, stations evenl (@highlight tb_st0 tb_st1 tb_st2 tb_st3 tb_st4 tb_st5 effect pulse@)y spaced, whatever the real distances.
+
+It keeps the one thing (@draw cue_kept@) a rider needs, what connects to what, and throws a (@draw cue_dropped@)way the rest.
+
+    camera reset true duration 1
+
+B: And the life-size map keeps  (@draw lf_strike@)everything, which is exactly why n (@draw cue_useless@)obody can use it. Borges wrote a story abo (@highlight life@)ut one, left to rot in the desert.
+
+So a map isn't wrong because it l (@draw tree@)eaves out the trees. It's wrong if you came (@draw cue_shade@) looking for shade.
+
+    pause 0.4
+
+An economi (@draw cue_model@)c model is a map of a mechanism: it keeps a few (@highlight tube effect box@) causes and drops the rest on purpose.
+
+B: Fine, but then how do you tell a useful simplification from a misleading one?
+    fade life lf_strike cue_useless tb_ghost to 0.3
+
+## Friedman's test
+use: supply_demand
+with:
+    x_label: Fish (Q)
+    y_label: Price (P)
+    demand:
+      curvature: linear
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+      p_label: P
+      q_label: Q
+      shift_p_label: P′
+      shift_q_label: Q′
+    supply_shift:
+      amount: 0
+      arrow: horizontal
+      label: S after storm
+sources:
+    - id: friedman1953
+      title: The Methodology of Positive Economics (in Essays in Positive Economics)
+      authors: Milton Friedman
+      year: 1953
+      finding: A hypothesis is to be judged by its predictions, not by the realism of its assumptions; "the more significant the theory, the more unrealistic the assumptions" (p. 14); the expert billiard player shoots as if he knew the physics.
+    - id: graddy2006
+      title: 'Markets: The Fulton Fish Market'
+      authors: Kathryn Graddy
+      year: 2006
+      finding: 'At New York''s Fulton Fish Market, stormy weather at sea cut the fish landed and raised prices; weather serves as a shifter of supply to estimate demand (Journal of Economic Perspectives 20(2): 207-220).'
+    - id: agi2000
+      title: The Interpretation of Instrumental Variables Estimators in Simultaneous Equations Models with an Application to the Demand for Fish
+      authors: Joshua Angrist, Kathryn Graddy, Guido Imbens
+      year: 2000
+      finding: Weather conditions at sea used as instruments for supply to estimate the demand for whiting at the Fulton Fish Market (Review of Economic Studies 67(3)).
+
+    portrait fr x 330 y 430 of "Milton Friedman" cameo true hidden true
+    icon ball size 110 x 680 y 300 or ["billiards","8ball"] icon_look picture of "pool 8 ball" hidden true
+    text motto "predictions,\nnot assumptions" #2f6b8f x 680 y 500 font_size 36 hidden true
+    source src cites ["friedman1953"] x 300 y 420 of "Essays in Positive Economics" hidden true
+    text quote "“the more significant the theory, the more unrealistic the assumptions”" #3d3833 cites ["friedman1953"] x 680 y 420 width 380 font_size 32 style.italic true hidden true
+    scratch asm bottom-right work ["Assumes:","identical fish","everyone knows every price"] font_size 24 hidden true
+    text fulton "Fulton Fish Market:\nstorm → less fish, higher P" cites ["graddy2006","agi2000"] x 790 y 400 width 300 font_size 26 hidden true
+
+    card title "Friedman's test"
+
+(@draw fr@) One famous answer came from Milton Friedman in 1953: stop checking the assump (@draw motto@)tions, and check the predictions.
+
+An expert billiard player, he said, (@draw ball@) shoots as if he had solved the physics, though he has never seen the equations.
+
+    erase fr ball motto
+
+B: (@draw src@) He even wrote that the more sig (@draw quote@)nificant the theory, the more unrealistic its assumptions.
+
+    erase src quote
+
+Let's try it on Harbourtown's fish market, drawn (@draw axes demand_curve label_D@) as the simplest model in economics (@draw supply_curve label_S@): a demand curve and a supply curve.
+
+Where they cross is the market price, P, and the quantity sold, Q.
+    draw equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+B: And the assumptions a (@draw asm_box asm_line_1 asm_line_2@)re plainly false: every fish identical, ev (@draw asm_line_3@)ery buyer knowing every price on the quay.
+
+All true. Now a storm keeps half (@erase asm@) the boats in harbour. Before the model answers, move the curve yourself.
+
+    draw supply_shift_curve
+
+    ask "Where does the supply curve go after the storm? Move it, then press Done." on supply_curve predict true store t
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+Supply shifts left: fewer fish at every price, so the price rises and fewer fish are sold.
+    animate supply_shift.amount -25 duration 2.5
+
+    draw supply_shift_arrow label_S_shift shift_equilibrium_point shift_guide_lines label_E_shift label_P_shift label_Q_shift
+
+That's a prediction the world can check, and it did (@draw fulton@): at New York's Fulton Fish Market, rough days at sea meant fewer fish lan (@highlight label_P_shift@)ded and higher prices.
+
+Your turn: drag the supply curve back and forth and watch the price follow.
+    explore
+
+    erase fulton
+
+B: So the assumptions never got any truer, and the prediction was right anyway.
+    highlight shift_equilibrium_point label_E_shift
+
+That's Friedman's whole point: a model earns trust by what it predicts.
+    highlight supply_shift_curve label_P_shift label_Q_shift
+
+## But which trees?
+sources:
+    - id: samuelson1963
+      title: 'Problems of Methodology: Discussion'
+      authors: Paul A. Samuelson
+      year: 1963
+      finding: 'Names Friedman''s position the "F-Twist" and argues that unrealistic assumptions are a demerit of a theory, not a virtue (American Economic Review 53(2): 231-236).'
+    - id: lucas1976
+      title: 'Econometric Policy Evaluation: A Critique'
+      authors: Robert E. Lucas Jr.
+      year: 1976
+      finding: 'Relationships estimated under one policy regime need not hold when policy changes, because people change their decisions in response (Carnegie-Rochester Conference Series on Public Policy 1: 19-46).'
+    - id: rodrik2015
+      title: 'Economics Rules: The Rights and Wrongs of the Dismal Science'
+      authors: Dani Rodrik
+      year: 2015
+      finding: Economics is a collection of models, each true to some settings; the skill lies in choosing the model whose critical assumptions fit the case at hand.
+
+    box conclusion_box "Judge a model by its predictions" x 500 y 570 width 440 height 100 radius 10 font_size 32 hidden true
+    box premise_0 "Billiard\nplayer" x 110 y 300 width 175 height 110 radius 8 font_size 26 style.stroke #3d3833 hidden true
+    arrow link_0 #3d3833 from.anchor top from.ref premise_0 to.anchor bottom to.ref conclusion_box style.dash false hidden true
+    box premise_1 "Storm →\nprice" x 305 y 300 width 175 height 110 radius 8 font_size 26 style.stroke #3d3833 hidden true
+    arrow link_1 #3d3833 from.anchor top from.ref premise_1 to.anchor bottom to.ref conclusion_box style.dash false hidden true
+    box premise_2 "F-twist" x 500 y 300 width 175 height 110 radius 8 font_size 26 style.stroke #b5482e hidden true
+    arrow link_2 dashed #b5482e from.anchor top from.ref premise_2 to.anchor bottom to.ref conclusion_box hidden true
+    box premise_3 "Breaks if\nthe world\nchanges" x 695 y 300 width 175 height 110 radius 8 font_size 26 style.stroke #b5482e hidden true
+    arrow link_3 dashed #b5482e from.anchor top from.ref premise_3 to.anchor bottom to.ref conclusion_box hidden true
+    box premise_4 "Hard\nto test" x 890 y 300 width 175 height 110 radius 8 font_size 26 style.stroke #b5482e hidden true
+    arrow link_4 dashed #b5482e from.anchor top from.ref premise_4 to.anchor bottom to.ref conclusion_box hidden true
+    portrait sam x 860 y 540 of "Paul Samuelson" cameo true hidden true
+    text mid_t "Harmless or critical?" #8a5fa8 cites ["rodrik2015"] x 120 y 600 width 200 font_size 34 hidden true
+    text mid_h "harmless: answer stays" #8a5fa8 x 130 y 500 font_size 24 hidden true
+    text mid_c "critical: answer flips" #8a5fa8 x 130 y 460 font_size 24 hidden true
+    text contested "contested" #b5482e x 870 y 570 font_size 40 hidden true
+    mark contested_box around contested kind box hidden true
+
+    card title "But which trees?"
+
+B: (@draw conclusion_box@) Not everyone bought Frie (@draw premise_0 link_0@)dman's test, and  (@draw premise_1 link_1@)the objections are serious.
+
+B: (@draw sam@) Paul Samuelson, for one, called it the  (@draw premise_2 link_2@)F-twist: an unrealistic assumption is a flaw, not a virtue.
+
+Isn't a good prediction enough, though?
+    highlight premise_1
+
+B: (@erase sam@) Not if it's right for the wrong reason. T (@draw premise_3 link_3@)hen it breaks the day the world changes.
+
+B: Robert Lucas made that shar (@highlight premise_3 effect pulse@)p in 1976: a pattern that held under one policy can vanish when the (@highlight premise_3 link_3@) policy changes the behaviour behind it.
+
+And in economics a predic (@draw premise_4 link_4@)tion is hard to test anyway: no lab, many causes at once, so a  (@highlight premise_1@)failed forecast rarely kills a theory.
+
+B: Most economist (@fade premise_0 premise_1 link_0 link_1 to 0.4@)s now take a middle road. In Dani Rodrik's version, econom (@draw mid_t@)ics is many models, and the skill is picking the right one for the case.
+
+An assumption is ha (@draw mid_h@)rmless if dropping it wouldn't change the  (@draw mid_c@)answer, and critical if it would.
+
+How sure are we? On how much assumptions matter, the field is still split: contes (@draw contested contested_box ends@)ted.
+
+    pause 0.5
+
+    fade premise_0 premise_1 link_0 link_1 to 1
+
+So a false model can be the right tool, as long as the trees it leaves out aren't the ones your question is about.
+    highlight conclusion_box mid_t
+
+    quiz "A traffic model treats every driver as identical and perfectly informed, and has predicted rush-hour jams well for ten years. What would Friedman say?"
+        right: Keep it: for Friedman the test is the predictions, and ten years of good forecasts pass it.
+        wrong: Did Friedman tell us to check the inputs or the outputs?
+        + Keep using it: it predicts well
+        * Throw it out: drivers differ
+        * First make the assumptions realistic
+
+    quiz "The city now brings in a congestion toll. Why might the same traffic model start to fail?" voice b
+        right: Right: the toll changes the very behaviour the model took as fixed, so a once-harmless assumption becomes critical.
+        wrong: Which assumption was harmless before the toll, and is it still?
+        + Drivers change routes and times in ways it ignored
+        * Tolls make every model false
+        * It was never tested
+
+    quiz "A model of Harbourtown's fishing grounds assumes every fisher catches the same amount. Which question does that assumption most endanger?"
+        right: Who gets richest: the answer depends on exactly the differences the model assumed away.
+        wrong: An assumption is critical when the answer depends on the very thing it ignores.
+        * How the fish price moves after a storm
+        + Who in town gets richest from fishing
+        * Whether a storm cuts the total catch
+
+Every model in this course leaves out trees. At each one, ask what job it's for, and which trees it dropped.
+    highlight conclusion_box
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:5 title "Why do people trade at all?" form title size 600 x 500 y 420
+
+    link end_again href lecture:4 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "4 of 365" x 500 y 180 font_size 22 style.opacity 0.6

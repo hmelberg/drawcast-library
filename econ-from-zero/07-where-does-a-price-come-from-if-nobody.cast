@@ -1,0 +1,370 @@
+# Where does a price come from if nobody sets it?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "How do buyers and sellers who never meet end up at one price? Why do shortages and surpluses push the price back?"
+next: {"title":"What happens when demand rises or supply falls?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/08-what-happens-when-demand-rises-or-supply.cast"}
+
+## Cards in a classroom
+sources:
+    - id: smith1962
+      title: An Experimental Study of Competitive Market Behavior
+      authors: Vernon L. Smith
+      year: 1962
+      finding: In classroom double auctions begun at Purdue in January 1956, traders with secret buyer and seller values converged quickly toward the competitive equilibrium price.
+
+    icon cod at.percent [45,60] size 200 set twemoji icon_look picture of fish hidden true
+    text naive "cost + a bit?" #8f887c x 700 y 470 font_size 30 hidden true
+    portrait smith of "Vernon L. Smith" cameo true hidden true
+    box b1 "$8" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
+    box b2 "$7" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
+    box b3 "$6" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
+    box b4 "$5" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
+    box b5 "$4" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
+    box s1 "$2" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    box s2 "$3" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    box s3 "$4" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    box s4 "$5" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    box s5 "$6" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    text buyers_h "Buyers" #b5482e x 95 y 557 font_size 26 hidden true
+    text sellers_h "Fishers" #2f6b8f x 95 y 372 font_size 26 hidden true
+    row buyers gap 24 fit.h 165 fit.w 780 fit.x 180 fit.y 475 hidden true
+    row sellers gap 24 fit.h 165 fit.w 780 fit.x 180 fit.y 290 hidden true
+
+    card title "Where does a price come from?"
+
+Where does a price come from, if nobody sets it?
+    draw cod
+
+On Harbourtown's quay, cod sells for much the same price at every stall each morning, and no council or boss ever wrote that number down.
+    scale price bottom cites ["smith1962"] label "$ a crate" min 0 max 10 value 5 ticks 10
+
+B: Easy. The sellers pick it: their cost, plus a bit.
+    draw naive
+
+    erase cod naive
+
+That's most people's first answer. In January 1956  (@draw smith@)a young economist at Purdue, Vernon Smith, put it to a test in his classroom.
+
+    erase smith
+
+He gave each student a secret card: a buyer's card said the most they could (@draw sellers_h s1@) pay, a seller's card the least they could accept.
+    draw buyers_h b1
+
+Here is a small version on the quay: say, five buyers who would pay at most eight, seven, six, five or four dollars a crate.
+    draw b2 b3 b4 b5
+
+B: And five fishers who won't sell below two, three, four, five or six.
+    draw s2 s3 s4 s5
+
+Nobody sees anyone else's card: people shout bids and offers, and anyone may take one.
+    highlight buyers sellers effect pulse
+
+    ask "Where will the trading price settle? Click the price line." on price store g
+        right: Close: you said {g} dollars, and it settles at {g.true}.
+        wrong: You said {g} dollars; it settles at {g.true}. A guess is a fine place to start.
+
+In Smith's markets, the prices drifted toward one number within a few rounds of trading.
+    highlight price_answer effect pulse
+
+B: So a price nobody chose still lands somewhere precise, and the cards decide where.
+    highlight b4 s4 effect box
+
+## Two lines that cross
+use: supply_demand
+with:
+    x_label: Crates a morning (Q)
+    y_label: Price, $ a crate (P)
+    demand:
+      curvature: linear
+    supply:
+      curvature: linear
+    equilibrium:
+      show: true
+      guides: true
+      p_label: P* = $5
+      q_label: Q* = 50
+    regions:
+      - consumer_surplus
+      - producer_surplus
+    units:
+      price: [0, 10]
+      quantity: [0, 100]
+      price_unit: $
+      quantity_unit: crates
+
+    card title "Two lines that cross"
+
+B: The answer to that guess is hidden in the cards, once you sort them.
+    draw axes
+
+Sort them how?
+    point at.data [0,80] gesture tap
+
+B: Line the buyers up, the most eager first; each card shows the price that buyer would still pay.
+    draw demand_curve
+
+B: With a whole quay of buyers, the steps blur into a line sloping down: the demand curve.
+    draw label_D
+
+So at each price, it says how many crates buyers would take.
+    point at.data [30,70] gesture circle
+
+B: Now the fishers, cheapest first: each card is the lowest price that fisher will accept.
+    draw supply_curve
+
+B: Their line slopes up, the supply curve: at each price, how many crates are offered.
+    draw label_S
+
+And where the two lines cross, both sides want the same amount: say, fifty crates at five dollars.
+    draw equilibrium_point guide_lines label_Pstar label_Qstar
+
+    pause 0.5
+
+B: Economists call that point the equilibrium: a place where nothing pushes the price to change.
+    draw label_E
+
+B: Every buyer left of the crossing values a crate above five dollars,  (@draw ps_region@)an (@hide label_CS label_PS@)d every fisher there can land one for less.
+    draw cs_region
+
+So five dollars is no one's choice: it's the one price where every willing buyer meets a willing seller.
+    highlight equilibrium_point effect pulse
+
+## The push back
+use: supply_demand
+with:
+    x_label: Crates a morning (Q)
+    y_label: Price, $ a crate (P)
+    demand:
+      curvature: linear
+      elasticity: 0.896
+    supply:
+      curvature: linear
+      elasticity: 0.958
+    equilibrium:
+      show: true
+      guides: false
+      p_label: $5
+      q_label: '50'
+    price_floor:
+      level: 70
+      label: Price
+      show_surplus: true
+    units:
+      price: [0, 10]
+      quantity: [0, 100]
+      price_unit: $
+      quantity_unit: crates
+    price_ceiling:
+      level: 96
+      label: Price
+      show_shortage: true
+
+    text n30 "30" at.data [25,6] font_size 24 hidden true
+    text n70 "70" at.data [75,6] font_size 24 hidden true
+
+    card title "The push back"
+
+B: A crossing only matters if the market can find it. What if the price starts somewhere wrong?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E
+
+Let's try. Say the fishers open at seven dollars a crate.
+    draw floor_line label_floor
+
+At seven, fishers bring seventy crates, but buyers want only thirty.
+    draw surplus_guide_qd label_Qd surplus_guide_qs label_Qs n30 n70
+
+B: So crates are still on the quay at noon. A surplus, and fish doesn't keep.
+    draw surplus_arrow label_surplus
+
+    quiz "Crates are left over at $7. Which way will the price move?" voice b
+        right: Down: a fisher stuck with cod would rather sell cheaper than not at all.
+        wrong: Picture a fisher at noon with unsold fish. What would she do?
+        + Down
+        * Up
+        * It stays at $7
+
+    erase n30 n70
+
+Right: a fisher with unsold cod undercuts, and each cut sells a few more crates and lands a few fewer.
+    animate price_floor.level 58 duration 4
+
+The surplus shrinks until, at five dollars, it's gone.
+    animate price_floor.level 50 duration 2.5
+
+    erase surplus_guide_qd surplus_guide_qs label_Qd label_Qs surplus_arrow label_surplus label_floor
+
+    erase floor_line
+
+B: Then the other wa (@draw ceiling_line label_ceiling@)y: say the price starts at three dollars.
+    animate price_ceiling.level 30 duration 2
+
+Buyers want about seventy crates and fishers bring about thirty: a shortage, and some buyers go home empty-handed.
+    draw n30 n70
+
+B: And they don't just give up, they bid mor (@erase n30 n70@)e, so the price climbs back toward five.
+    animate price_ceiling.level 50 duration 4
+
+    show floor_line
+
+Pause here and drag the price line yourself: put it anywhere but five, and see which gap opens to push it back.
+    explore
+
+B: A surplus pushes the price down, a shortage pushes it up, so it keeps getting shoved toward the crossing.
+    highlight equilibrium_point effect pulse
+
+## Does every market find it?
+feedback:
+    style: dry
+    perfect: Smith would hand you a buyer's card.
+    good: You read a gap like a fishmonger.
+    poor: Watch which side is left waiting.
+    none: The quay will still be there tomorrow.
+use: supply_demand
+with:
+    x_label: Crates (Q)
+    y_label: Price (P)
+    demand:
+      curvature: linear
+      elasticity: 0.896
+    supply:
+      curvature: linear
+      elasticity: 0.958
+    equilibrium:
+      show: true
+      guides: true
+      p_label: $5
+      q_label: '50'
+    units:
+      price: [0, 10]
+      quantity: [0, 100]
+      price_unit: $
+      quantity_unit: crates
+    box:
+      x: 30
+      'y': 130
+      w: 500
+      h: 520
+sources:
+    - id: chamberlin1948
+      title: An Experimental Imperfect Market
+      authors: Edward H. Chamberlin
+      year: 1948
+      finding: In a Harvard classroom market where students haggled privately in pairs, prices did not settle at the competitive equilibrium and more units were traded than it predicts.
+    - id: smith1962
+      title: An Experimental Study of Competitive Market Behavior
+      authors: Vernon L. Smith
+      year: 1962
+      finding: With every bid and offer called out publicly (a double auction), inexperienced traders converged quickly to the competitive equilibrium.
+
+    portrait chamberlin of "Edward Hastings Chamberlin" cameo true hidden true
+    box ch "Haggling in pairs, 1948" width 340 height 150 radius 10 icon handshake style.stroke #b5482e in pair hidden true
+    box sm "Open shouting, 1956" width 340 height 150 radius 10 icon megaphone style.stroke #2f6b8f in pair hidden true
+    column pair gap 90 fit.h 440 fit.w 400 fit.x 560 fit.y 200 hidden true
+    text ch_v "missed the crossing" below ch gap 14 #b5482e cites ["chamberlin1948"] font_size 26 hidden true
+    text sm_v "found it" below sm gap 14 #2f6b8f cites ["smith1962"] font_size 26 hidden true
+    scratch sure work ["Lab auctions: consensus","Real markets, how fast: contested"] x 760 y 450 font_size 26 hidden true
+    scratch math work [{"tex":"Q_d = 100 - 10P"},{"tex":"Q_s = 10P"},{"tex":"100 - 10P = 10P"},{"tex":"P = 5,\\ Q = 50"}] x 760 y 440 font_size 28 hidden true
+    cards cases bins ["Shortage","Surplus"] check each hidden true
+        Surplus: Winter coats unsold in March
+        Shortage: Queue round the block for a new phone
+        Surplus: Strawberries left at closing
+        Shortage: Long waiting list for flats
+
+    card title "Does every market find it?"
+
+B: But hold on. Does every market find the crossing, or only Smith's classroom?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+Smith wondered that too: as a Harv (@draw chamberlin@)ard student he had sat in Edward Chamberlin's classroom market.
+
+    fade axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar to 0.35
+
+    erase chamberlin
+
+There, buyers and sellers wandered the room and haggled in pairs, each deal private.
+    draw ch
+
+Prices never settled at the crossing, and more was traded than the curves predict.
+    draw ch_v
+
+B: So what did Smith change?
+    draw sm
+
+One thing: every bid and offer was shouted fo (@draw sm_v@)r all to hear, and then the market found it.
+
+B: So the cards decide where the price is, but the market's rules decide whether it's found.
+    highlight ch sm effect box
+
+    erase pair ch_v sm_v
+
+That open auctions find the crossing has been repeated in lab after lab since: consensus.
+    draw sure_box sure_line_1
+
+B: How fast real markets get there, with printed menus and long contracts, is still contested.
+    draw sure_line_2
+
+    pause 0.5
+
+    erase sure
+
+    cards mathq options [{"text":"Show me the math","goto":"math_box"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Find the crossing with algebra: open the math, or skip it?" on mathq store m default "Skip it" stage own voice b
+
+@math_box
+
+    erase mathq
+
+Say buyers want a hundred crates minus ten for every dollar of price, and fishers offer ten crates per dollar.
+    draw math_box math_line_1 math_line_2
+
+B: The crossing is where the two are equal: twenty P is a hundred, so the price is five and fifty crates change hands.
+    draw math_line_3 math_line_4
+
+    pause 0.5
+
+    erase math
+
+@test
+
+    erase mathq
+
+    quiz "Concert tickets sell out in minutes and are resold for three times the price. What does that tell you about the original price?"
+        intro: Three new cases to finish.
+        right: Below: at that price far more people wanted tickets than there were seats, a shortage, and resellers charge what the gap will bear.
+        wrong: Sold out in minutes means more wanted than offered. Which gap is that?
+        + It was below the equilibrium
+        * It was above the equilibrium
+        * It was at the equilibrium
+
+    hide axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+    draw cases
+
+    ask "Shortage or surplus? Sort each case." on cases store f stage own voice b
+        right: All four. Things left over mean the price is too high; people left waiting mean it is too low.
+        wrong: {f} of {f.total} on the first try. Left over is a surplus; left waiting is a shortage.
+
+    erase cases
+
+    show axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+
+    quiz "Where would you expect the price of the same old lamp to vary more from one sale to the next?"
+        right: The flea market: private haggling is Chamberlin's market, where prices never settle on one number.
+        wrong: Think about who hears the other offers.
+        + A flea market where each buyer haggles alone
+        * An auction room where everyone hears every bid
+        * No difference
+
+    fade axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar to 1
+
+Nobody sets the price: everyone's cards set it together, and a mar (@highlight equilibrium_point effect pulse@)ket that lets them hear each other finds it.
+    animate box full duration 2.5
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:8 title "What happens when demand rises or supply falls?" form title size 600 x 500 y 420
+
+    link end_again href lecture:7 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "7 of 365" x 500 y 180 font_size 22 style.opacity 0.6

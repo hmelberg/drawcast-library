@@ -1,0 +1,384 @@
+# Why do people trade at all?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "How can both sides of a trade gain? Why does specialising make everyone richer, even someone who is better at everything?"
+next: {"title":"Why is water cheap and diamonds expensive?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/06-why-is-water-cheap-and-diamonds.cast"}
+
+## Better at everything
+sources:
+    - id: ricardo1817
+      title: On the Principles of Political Economy and Taxation, chapter 7
+      authors: David Ricardo
+      year: 1817
+      finding: Portugal needs fewer workers than England for both wine (80 vs 120) and cloth (90 vs 100), yet both gain by trading.
+
+    icon mia size 120 or ["baker","woman"] icon_look picture of "woman cook" hidden true
+    text mia_name "Mia" below mia gap 8 #2f6b8f hidden true
+    icon bread right mia gap 14 size 80 icon_look picture of bread hidden true
+    group mia_grp members ["mia","mia_name","bread"] in scene hidden true
+    icon jon size 120 or ["man","person"] icon_look picture of fisherman hidden true
+    text jon_name "Jon" below jon gap 8 #b5482e hidden true
+    icon fish left jon gap 14 size 80 icon_look picture of fish hidden true
+    group jon_grp members ["jon","jon_name","fish"] in scene hidden true
+    row scene gap 150 fit.h 230 fit.w 880 fit.x 60 fit.y 420 hidden true
+    text mia_plus "+" above mia gap 6 #87a878 font_size 54 hidden true
+    text jon_minus "−" above jon gap 6 #c96567 font_size 54 hidden true
+    text jon_plus "+" above jon gap 6 #87a878 font_size 54 hidden true
+    text per_hour "in one hour" #8f887c at.percent [50,38] font_size 34 hidden true
+    text m_l "4 loaves" below mia_name gap 40 #2f6b8f font_size 40 hidden true
+    text m_f "or 4 fish" below m_l gap 16 #2f6b8f font_size 40 hidden true
+    text j_l "1 loaf" below jon_name gap 40 #b5482e font_size 40 hidden true
+    text j_f "or 2 fish" below j_l gap 16 #b5482e font_size 40 hidden true
+    text abs_adv "better at both" below m_f gap 24 #2f6b8f font_size 34 hidden true
+
+    card title "Why trade at all?"
+
+Why do people trade at all? Take Harbourtown, where  (@draw jon jon_name fish@)Jon the fisher swaps fish for bread at Mia's bakery.
+    draw mia mia_name bread parallel true
+
+B: Easy. Someone gets the better deal. If Mia w (@draw jon_minus@)ins, Jon loses.
+    draw mia_plus
+
+    pause 0.3
+
+That's most people's first guess. But nobody forces Jon to swap.
+    fade mia_plus jon_minus to 0.3
+
+He hands over fish he values less than the bread, and (@move bread by [337,0] duration 2@) Mia hands over bread she values less than the fish.
+    move fish by [-337,0] duration 2
+
+    erase jon_minus
+
+So both walk away better  (@draw jon_plus@)off, without one new fish or loaf. The gain is in what each of them wants.
+    fade mia_plus to 1
+
+    pause 0.3
+
+B: Fine, but that only shuffles things around. Where does more stuff come from?
+    fade mia_plus jon_plus to 0.25
+
+From making things. Here is what each can make in an hour, in illustrative numbers.
+    draw per_hour
+
+Mia: four loaves, or four fish.
+    draw m_l m_f parallel true
+
+Jon: one loaf, or two fish.
+    draw j_l j_f parallel true
+
+Mia is better at both: economists call that an (@draw abs_adv@) absolute advantage.
+    highlight m_l m_f
+
+B: In 1817 David Ricardo asked the same about countries: Portugal could make both wine and cloth with less labour than England.
+    portrait ricardo cites ["ricardo1817"] of "David Ricardo" cameo true
+
+    erase ricardo
+
+    quiz "Mia is better at both jobs. Can trading with Jon still make her better off?" store guess1
+        right: Yes: both can gain, and the reason is what each gives up, not what each can make.
+        wrong: Ask what an hour of fishing costs Mia, and what it costs Jon.
+        * No, he has nothing she needs
+        * Only if Jon loses
+        + Yes, both can gain
+
+Hold on to your guess. The trick is not what each can make, but what each must give up.
+    highlight m_f j_f effect circle
+
+## What a fish really costs
+domain:
+    x:
+      - 0
+      - 36
+    'y':
+      - 0
+      - 36
+    box:
+      x: 50
+      'y': 110
+      w: 560
+      h: 540
+
+    axes ax x_label "Loaves a day" y_label "Fish a day" ticks.x [8,16,24] ticks.y [8,16,24,32] hidden true
+    curve mia_line #2f6b8f expr "32 - x" x_from 0 x_to 32 hidden true
+    label lab_mia "Mia" above-right #2f6b8f attach_to mia_line hidden true
+    curve jon_line #b5482e expr "16 - 2*x" x_from 0 x_to 8 hidden true
+    label lab_jon "Jon" above-right #b5482e attach_to jon_line hidden true
+    dot mia_pt #2f6b8f at.x 16 at.y 16 hidden true
+    label lab_mia_pt "16, 16" above-right #2f6b8f attach_to mia_pt hidden true
+    dot jon_pt #b5482e at.x 4 at.y 8 hidden true
+    label lab_jon_pt "4, 8" left #b5482e attach_to jon_pt hidden true
+    text cost_mia "Mia: 1 fish = 1 loaf" #2f6b8f at.percent [80,78] font_size 30 hidden true
+    text cost_jon "Jon: 1 fish = ½ loaf" #b5482e at.percent [80,68] font_size 30 hidden true
+    scale total at.percent [80,42] width 380 label "loaves in total" min 0 max 40 value 24 markers [{"value":20,"label":"alone"}] hidden true
+    scratch sum top-right work ["Alone: 20 loaves, 24 fish","Specialised: 24 loaves, 24 fish"] hidden true
+
+    card title "What a fish really costs"
+
+    draw ax
+
+B: Give each of them a full day, eight hours. Mia's line runs from thirty-two loaves to thirty-two fish.
+    draw mia_line lab_mia
+
+B: Jon's line is much smaller: eight loaves, or sixteen fish.
+    draw jon_line lab_jon
+
+    pause 0.3
+
+And living alone, each splits the day in half?
+    highlight mia_line jon_line
+
+B: Right. Mia gets sixteen loaves and sixteen fish (@draw jon_pt lab_jon_pt@); Jon gets four loaves and eight fish.
+    draw mia_pt lab_mia_pt
+
+So what does a fish cost Mia?
+    point at.ref mia_line gesture underline
+
+B: One loaf: the loaf she could have baked in that time. Fo (@draw cost_jon@)r Jon, a fish costs only half a loaf.
+    draw cost_mia
+
+    pause 0.3
+
+So slow Jon is the cheap fisher. What you give up is the real cost: the opportunity cost.
+    highlight cost_jon effect underline
+
+    erase lab_mia_pt lab_jon_pt
+
+B: And the lower cost is a comparative advantage. Jon's is fish, Mia's is bread. So let Jon fis (@move mia_pt by [8,-8] ghost true duration 1.5@)h all day, and Mia fish just two hours.
+    move jon_pt by [-4,8] ghost true duration 1.5
+
+    erase cost_mia cost_jon
+
+    draw total
+
+    ask "How many loaves do the two of them make in total now?" on total store g default "10" voice b
+        right: Close: you said {g}, and it is {g.true}.
+        wrong: You said {g}; it is {g.true}. Mia bakes six hours at four loaves an hour.
+
+B: Twenty-four loaves, (@draw sum_line_2@) up from twenty, and still twenty-four fish.
+    draw sum_box sum_line_1
+
+Four extra loaves, from the same two people and the same hours. That is the whole trick.
+    highlight sum_line_2
+
+    erase total sum
+
+B: Asked for one idea in social science that is both true and not obvious, Paul Samuelson named this one.
+    portrait samuelson of "Paul Samuelson" cameo true
+
+## Splitting the gain
+domain:
+    x:
+      - 0
+      - 36
+    'y':
+      - 0
+      - 36
+    box:
+      x: 50
+      'y': 110
+      w: 560
+      h: 540
+vars:
+    p:
+      value: 0.75
+      min: 0.3
+      max: 1.2
+    gm:
+      expr: 8 - 8*p
+    gj:
+      expr: 8*p - 4
+
+    axes ax x_label "Loaves a day" y_label "Fish a day" ticks.x [8,16,24] ticks.y [8,16,24,32] hidden true
+    curve mia_line #2f6b8f expr "32 - x" x_from 0 x_to 32 hidden true
+    label lab_mia "Mia" above-right #2f6b8f attach_to mia_line hidden true
+    curve jon_line #b5482e expr "16 - 2*x" x_from 0 x_to 8 hidden true
+    label lab_jon "Jon" above-right #b5482e attach_to jon_line hidden true
+    dot mia_alone #8f887c at.x 16 at.y 16 hidden true
+    dot jon_alone #8f887c at.x 4 at.y 8 hidden true
+    label lab_alone "alone" below-left #8f887c attach_to mia_alone hidden true
+    dot jon_tr #b5482e at.x 6 at.y 8 bind {"at.x":"8*p"} hidden true
+    label lab_jon_tr "Jon gains {gj:1}" below-right #b5482e attach_to jon_tr hidden true
+    dot mia_tr #2f6b8f at.x 18 at.y 16 bind {"at.x":"24 - 8*p"} hidden true
+    label lab_mia_tr "Mia gains {gm:1}" above-right #2f6b8f attach_to mia_tr hidden true
+    text price "1 fish = {p:2} loaf" at.percent [80,80] font_size 34 hidden true
+    text deal "8 fish → 6 loaves" #8f887c at.percent [80,70] font_size 30 hidden true
+    text band "½  <  price  <  1" #3d3833 at.percent [80,64] font_size 34 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after"}] then after hidden true
+    scratch mth work [{"tex":"\\text{Mia: } 8 - 8p > 0 \\Rightarrow p < 1"},{"tex":"\\text{Jon: } 8p - 4 > 0 \\Rightarrow p > \\tfrac12"},{"tex":"\\text{Together: } (8-8p)+(8p-4) = 4"}] x 790 y 330 hidden true
+
+    card title "Splitting the gain"
+
+    draw ax mia_line lab_mia jon_line lab_jon
+
+But those four loaves only exist if they swap. Who gets them?
+    draw mia_alone jon_alone lab_alone
+
+B: That depends on the price. Say (@draw deal@) Jon trades eight fish for six loaves: three quarters of a loaf a fish.
+    draw price
+
+Then Jon ends with six loaves and eight fish: two loaves better than alone.
+    draw jon_tr lab_jon_tr
+
+B: And Mia ends with eighteen loaves and sixteen fish. Two better, too.
+    draw mia_tr lab_mia_tr
+
+Both points sit outside their own lines. Each has more than they could ever make alone.
+    highlight jon_tr mia_tr effect circle
+
+    erase deal
+
+B: What if Jon drives a harder bargain: a whole loaf per fish?
+    highlight price
+
+Then  (@animate p 1 duration 2@)Jon takes all four extra loaves, and Mia gains nothing. At half a  (@animate p 0.5 duration 2.5@)loaf a fish, it's the reverse.
+    blocking false
+
+B: Pause and drag the price yourself. Push it past one loaf per fish, and watch Mia's point.
+    explore params ["p"]
+
+    animate p 1.15 duration 2
+
+Past one loaf, Mia would rather catch her own fish; below a half, Jon would rather bake. So the price land (@draw band@)s between their two costs.
+    animate p 0.75 duration 2
+
+    draw mathq
+
+    ask "Why must the price sit between a half and one? Open the math, or skip it." on mathq store m default "Skip it" stage own voice b
+
+@math
+
+    erase mathq
+
+B: Mia's gain is eight minus eight times the price, positive while the price is under one.
+    draw mth_box mth_line_1
+
+Jon's is eight times the price minus four, positive above a half.
+    draw mth_line_2
+
+Together, always four.
+    draw mth_line_3
+
+    erase mth
+
+@after
+
+    erase mathq
+
+So being better at everything doesn't stop Mia gaining. Her time is just too valuable to spend on fish.
+    highlight mia_tr lab_mia_tr
+
+## Who gains, and how sure?
+feedback:
+    style: dry
+    perfect: Ricardo would hire you.
+    good: Opportunity cost is doing its work.
+    poor: Price each thing in what is given up, and try again.
+    none: Even Samuelson said it is not obvious.
+sources:
+    - id: bernhofen_brown_2004
+      title: 'A Direct Test of the Theory of Comparative Advantage: The Case of Japan'
+      authors: Daniel M. Bernhofen and John C. Brown
+      year: 2004
+      finding: 'After Japan opened to trade in 1859, its trade pattern followed comparative advantage: it exported goods that had been cheap at home in autarky.'
+    - id: bernhofen_brown_2005
+      title: 'An Empirical Assessment of the Comparative Advantage Gains from Trade: Evidence from Japan'
+      authors: Daniel M. Bernhofen and John C. Brown
+      year: 2005
+      finding: The gains from opening to trade were at most about 8 to 9 per cent of Japan's GDP (an upper bound).
+    - id: autor_dorn_hanson_2013
+      title: 'The China Syndrome: Local Labor Market Effects of Import Competition in the United States'
+      authors: David H. Autor, David Dorn and Gordon H. Hanson
+      year: 2013
+      finding: Rising Chinese import competition (1990–2007) raised unemployment, lowered participation and reduced wages in US local labour markets with import-competing manufacturing.
+
+    text clean_note "Mia +2 · Jon +2" #8f887c at.percent [50,92] font_size 28 hidden true
+    icon town_i size 110 icon_look picture of sailboat hidden true
+    text town_t "Town" below town_i gap 14 #4f7a43 font_size 36 hidden true
+    text town_s "cheaper boats" below town_t gap 10 font_size 30 hidden true
+    group town members ["town_i","town_t","town_s"] in split hidden true
+    icon yard_i size 110 or ["worker"] icon_look picture of "construction worker" hidden true
+    text yard_t "Boatyard" below yard_i gap 14 #b5482e font_size 36 hidden true
+    text yard_s "jobs lost" below yard_t gap 10 font_size 30 hidden true
+    group yard members ["yard_i","yard_t","yard_s"] in split hidden true
+    row split gap 160 fit.h 330 fit.w 840 fit.x 80 fit.y 300 hidden true
+    text total "total ↑   but shares?" below split gap 24 font_size 34 hidden true
+    icon japan_i size 110 or ["japan"] icon_look picture of "flag: Japan" hidden true
+    text japan_t "Japan, 1859" below japan_i gap 14 #2f6b8f cites ["bernhofen_brown_2004","bernhofen_brown_2005"] font_size 36 hidden true
+    text japan_s "gain ≤ 8–9% of GDP" below japan_t gap 10 cites ["bernhofen_brown_2004","bernhofen_brown_2005"] font_size 30 hidden true
+    group japan members ["japan_i","japan_t","japan_s"] in evid hidden true
+    icon china_i size 110 or ["factory"] icon_look picture of "flag: United States" hidden true
+    text china_t "US, 1990–2007" below china_i gap 14 #b5482e cites ["autor_dorn_hanson_2013"] font_size 36 hidden true
+    text china_s "China shock: jobs, wages fell" below china_t gap 10 cites ["autor_dorn_hanson_2013"] font_size 30 hidden true
+    group china members ["china_i","china_t","china_s"] in evid hidden true
+    row evid gap 120 fit.h 330 fit.w 880 fit.x 60 fit.y 300 hidden true
+    text sure1 "Total gains: consensus" #4f7a43 at.percent [27,22] font_size 32 hidden true
+    text sure2 "Who loses: contested" #b5482e at.percent [73,22] font_size 32 hidden true
+    mark box1 around sure1 kind box hidden true
+    mark box2 around sure2 kind box hidden true
+
+    card title "Who gains, and how sure?"
+
+B: Here's my problem. Two people choosing freely, fine. But a country doesn't trade as one person.
+    draw clean_note
+
+Fair. Say Harbourtown starts buying cheap boats from the mainland. The town gains: boats cost less.
+    draw town
+
+B: And the boatyard workers lose their jobs.
+    draw yard
+
+Yes. Trade raises the total; it doesn't promise that everyone's share grows.
+    draw total
+
+    pause 0.3
+
+B: Then is there evidence it raises the total at all?
+    erase town yard total
+
+A rare test: Japan, almost closed for two centuries, opened to trade in 1859, and began exporting what had been cheap at home, like silk and tea.
+    draw japan
+
+Bernhofen and Brown put the gain at most at about eight or nine per cent of national income.
+    highlight japan
+
+B: And the losers: when Chinese imports surged into the US after 1990, towns with competing factories saw more unemployment and lower wages.
+    draw china
+
+So how sure are we? That trade raises the total: consensus.
+    draw sure1 box1
+
+Who loses, how much, and whether they are made whole: contested.
+    draw sure2 box2
+
+    quiz "A surgeon types faster than her assistant. Who should type her letters?"
+        intro: Three new cases to finish.
+        right: The assistant: an hour of the surgeon's typing costs an hour of surgery, and an hour of his costs far less.
+        wrong: Price an hour of typing in what each of them gives up.
+        * The surgeon: she is faster
+        + The assistant
+        * Whoever is free
+
+    quiz "In a day Ana makes 6 shirts or 3 tables; Ben makes 2 shirts or 2 tables. Who should make the tables?" voice b
+        right: Ben: a table costs him one shirt, but it costs Ana two.
+        wrong: Count each table in shirts given up.
+        * Ana: she is better at both
+        + Ben
+        * Neither
+
+    quiz "Making a car costs Freeland 3 tons of wheat, and Agraria 5 tons. At which price can both gain when Freeland sells cars for wheat?"
+        right: Four tons: more than the 3 a car costs Freeland, less than the 5 it costs Agraria.
+        wrong: Each side must get a better rate than it could make for itself.
+        * 2 tons per car
+        + 4 tons per car
+        * 6 tons per car
+
+So people trade not because one outwits the other, but because they give up different things to make the same goods. That is one clue to why rich economies are full of specialists.
+    highlight sure1
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:6 title "Why is water cheap and diamonds expensive?" form title size 600 x 500 y 420
+
+    link end_again href lecture:5 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "5 of 365" x 500 y 180 font_size 22 style.opacity 0.6

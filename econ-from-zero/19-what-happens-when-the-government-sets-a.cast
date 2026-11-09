@@ -1,0 +1,292 @@
+# What happens when the government sets a minimum price?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Why do price floors create surpluses, from butter mountains to unsold labour? Who gains and who loses?"
+next: {"title":"How does a price coordinate millions who never meet?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/20-how-does-a-price-coordinate-millions-who.cast"}
+
+## The butter mountain
+sources:
+    - id: hansard1988
+      title: Milk Quotas and Butter Mountains, HL Deb 12 December 1988 vol 502 cc757-8
+      authors: UK House of Lords (Baroness Trumpington, MAFF)
+      year: 1988
+      finding: EC intervention stocks of butter fell from 1,323,000 tonnes in August 1986 to about 146,000 tonnes in December 1988, thanks to milk quotas (from 1984) and stock disposal.
+      url: https://api.parliament.uk/historic-hansard/lords/1988/dec/12/milk-quotas-and-butter-mountains
+    - id: cvce1986
+      title: '''As of yesterday the EEC has a population of 321 million'', Luxemburger Wort, 1 January 1986'
+      authors: CVCE
+      year: 1986
+      finding: With Spain and Portugal, the twelve-member Community had about 321 million inhabitants (1.32 million tonnes ≈ 4 kg each).
+      url: https://www.cvce.eu/en/obj/as_of_yesterday_the_eec_has_a_population_of_321_million_from_the_luxemburger_wort_1_january_1986-en-0fce8985-e6ce-4d38-9855-7aa96bfcc4cb.html
+
+    icon butter size 150 set twemoji x 300 y 610 or ["cheese","milk"] icon_look picture of butter hidden true
+    icon cold size 70 set twemoji x 420 y 590 or ["ice"] icon_look picture of snowflake hidden true
+    text cue_floor "guaranteed\nminimum price" x 650 y 610 font_size 40 hidden true
+    scale stores cites ["hansard1988"] y 320 font_size 30 label "EC butter stocks, Aug 1986" unit "m tonnes" min 0 max 2 value 1.32 ticks 5 markers [{"value":0.15,"label":"Dec 1988: 0.15"}] hidden true
+    text cue_kg "≈ 4 kg per person" cites ["cvce1986"] x 790 y 480 font_size 36 hidden true
+    text cue_quota "1984: milk quotas" cites ["hansard1988"] x 790 y 480 font_size 36 hidden true
+
+    card title "The butter mountain"
+
+What happens when a government promises that a price will never fall below a certain level? Europe tried it with butter.
+    draw butter
+
+B: From the 1960s, the European Com (@draw cue_floor@)munity guaranteed dairy farmers a minimum price. Butter that shoppers would not buy at that pri (@draw cold@)ce, the Community bought itself.
+
+B: And put it in cold stores. So here's the question: at the peak, in 1986, how much butter was sitting in those stores?
+    draw stores
+
+    ask "Click where you think the stock stood in August 1986." on stores store g default "0.3" tolerance 0.2
+        intro: Click your guess on the line.
+        right: Close: you said {g}; it was {g.true}.
+        wrong: You said {g}; it was {g.true}.
+
+About one point three million tonnes, in August 1986.
+    highlight stores
+
+B: That's around four kilos for every person in the Community. The papers called it the butter mountain.
+    draw cue_kg
+
+    pause 0.3
+
+Nobody planned a mountain. It grew out of one rule: a price that is not allowed to fall.
+    highlight cue_floor effect underline
+
+B: So how did they get rid of it? Cut the price?
+    erase cue_kg
+
+Not mainly. From 1984 t (@draw cue_quota@)hey capped how much milk each farmer could sell. By December 1988 the stores were down (@draw stores_marker_1@) to about a hundred and fifty thousand tonnes.
+
+    pause 0.5
+
+Why would capping production melt a mountain made by a price? To see it, we need to draw the floor.
+    highlight cue_floor effect box
+
+    pause 0.3
+
+## Who gains, who loses
+use: supply_demand
+with:
+    x_label: Fish, kg a week (Q)
+    y_label: Price, $ a kg (P)
+    demand:
+      curvature: linear
+      elasticity: 0.896
+    supply:
+      curvature: linear
+      elasticity: 0.958
+    equilibrium:
+      show: true
+      guides: true
+      p_label: $5
+      q_label: '500'
+    price_floor:
+      level: 70
+      label: Minimum price
+      show_surplus: true
+    regions:
+      - transfer
+      - deadweight_loss
+    units:
+      price: [0, 10]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: kg
+    readout:
+      - qd
+      - qs
+    readout_at: inside
+
+    curve zero expr "0" hidden true
+    region taxpayer #c96567 x_from 30 x_to 70 between ["floor_line","zero"] style.fill #c96567 hidden true
+    text label_tax "taxpayers" at.data [61,22] font_size 28 hidden true
+
+    card title "Who gains, who loses"
+
+A floor like that is easiest to see in a market we can draw. Say Harbourtown's fish, with illustrative prices.
+    draw axes demand_curve label_D supply_curve label_S
+
+B: Left alone, buyers and fishers settle at five dollars a kilo and five hundred kilos a week.
+    draw equilibrium_point label_E guide_lines label_Pstar label_Qstar
+
+Then the harbour council promises fishers at least seven dollars a kilo.
+    draw floor_line label_floor
+
+B: At seven, buyers want less: say three hundred kilos.
+    draw surplus_guide_qd label_Qd readout_qd
+
+And fishers, paid more, bring in more: seven hundred.
+    draw surplus_guide_qs label_Qs readout_qs
+
+B: So four hundred kilos a week that nobody buys at that price. That's the surplus: Europe's butter, in fish.
+    draw surplus_arrow label_surplus
+
+    pause 0.3
+
+Who gains? The fishers who still sell get two dollars more on every kilo, taken straight from buyers.
+    draw transfer_region label_transfer
+
+B: And buyers lose more than that: the fish they no longer buy at all.  (@draw dwl_region@)Trades that would have helped both sides simply vanish.
+
+That lost part go (@highlight dwl_region@)es to nobody. It's the deadweight loss.
+    draw label_DWL
+
+B: And if the council buys up the surp (@draw taxpayer label_tax@)lus to keep its promise, taxpayers pay seven dollars a kilo for fish nobody wanted.
+
+So fishers gain, while buyers and ta (@highlight dwl_region taxpayer@)xpayers lose more than fishers gain.
+    highlight transfer_region
+
+    erase taxpayer label_tax
+
+Pause and drag the floor yourself. Push it below five dollars, then raise it slowly.
+    explore
+
+B: Below the market price it does nothing at all. Abov (@animate price_floor.level 80 duration 2.5@)e it, every dollar makes the pile bigger.
+    animate price_floor.level 40 duration 2
+
+    pause 0.4
+
+## A floor under wages
+use: supply_demand
+with:
+    x_label: Workers (L)
+    y_label: Wage (w)
+    demand:
+      curvature: linear
+      elasticity: 0.896
+      label: D (firms)
+    supply:
+      curvature: linear
+      elasticity: 0.958
+      label: S (workers)
+    equilibrium:
+      show: true
+      guides: false
+      p_label: w*
+      q_label: L*
+    price_floor:
+      level: 70
+      label: Minimum wage
+      show_surplus: true
+    box:
+      x: 10
+      'y': 150
+      w: 640
+      h: 510
+sources:
+    - id: ck1994
+      title: 'Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania'
+      authors: David Card and Alan B. Krueger
+      year: 1994
+      finding: After New Jersey raised its minimum wage from $4.25 to $5.05 on 1 April 1992, a survey of about 400 fast-food restaurants in New Jersey and eastern Pennsylvania found no fall in New Jersey employment relative to Pennsylvania.
+      doi: 10.3386/w4509
+    - id: nw2000
+      title: 'Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania: Comment'
+      authors: David Neumark and William Wascher
+      year: 2000
+      finding: Re-estimated with restaurants' payroll records, the New Jersey increase was associated with lower employment.
+    - id: econlib
+      title: Airline Deregulation
+      authors: Fred L. Smith Jr. and Braden Cox, The Concise Encyclopedia of Economics (Econlib)
+      year: 2008
+      finding: 'Under Civil Aeronautics Board fare regulation, fares and flight frequency were high and load factors low: in the early 1970s only about 50 percent; airlines competed on service.'
+      url: https://www.econlib.org/library/Enc/AirlineDeregulation.html
+
+    text cue_unemp "= unemployed" at.data [50,90] font_size 26 hidden true
+    scratch nj cites ["ck1994"] work ["New Jersey, 1992","$4.25 → $5.05","fast-food jobs: no fall"] x 815 y 330 font_size 24 hidden true
+    portrait card x 850 y 560 width 120 of "David Card" cameo true hidden true
+    scratch mono work ["one big employer","sets w too low","floor: more pay, more jobs"] x 815 y 330 font_size 24 hidden true
+    scratch sure cites ["nw2000"] work ["goods floors → surplus:","consensus","minimum wage → jobs:","contested"] x 815 y 330 font_size 24 hidden true
+    scratch math work ["D: Q = 1000 − 100P","S: Q = 100P","→ P = $5, Q = 500","P = $7: Qd = 300, Qs = 700","400 kg × $7 = $2,800 a week"] x 815 y 320 font_size 24 hidden true
+
+    card title "A floor under wages"
+
+B: Here's where it gets political. Put the same floor under the price of labour, and what do you get?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E
+
+A mini (@draw floor_line label_floor@)mum wage. The simple picture says firms hir (@draw surplus_guide_qd label_Qd surplus_guide_qs label_Qs@)e fewer workers than want jobs at that wage, and the ga (@draw surplus_arrow label_surplus cue_unemp@)p is unemployment.
+
+B: But is that what happens? In 1992 New Jersey (@draw nj_box nj_line_1@) raised its minimum wage from four twenty-fi (@draw nj_line_2@)ve to five oh five an hour. Pennsylvania next door didn't.
+
+David Card and Alan Krueger surveyed fast-food restaurants on both sides of the border. They found no f (@draw nj_line_3@)all in jobs in New Jersey.
+    draw card
+
+B: So the picture is wrong?
+    highlight surplus_arrow cue_unemp
+
+    erase nj card
+
+Maybe the market in it is. If one big employer, like (@draw mono_box mono_line_1 mono_line_2@) Harbourtown's boatyard, sets wages itself, it pays below the competitive wage, and a floor ca (@draw mono_line_3@)n raise both pay and jobs.
+
+B: Others re-ran the study with payroll records and found job losses.
+    erase mono
+
+B: So how sure are we? That flo (@draw sure_box sure_line_1 sure_line_2@)ors on goods pile up surpluses: consensus.
+
+B: What a moderate minimum wage does to jobs: contested.
+    draw sure_line_3 sure_line_4
+
+    pause 0.4
+
+    erase sure
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Show the surplus worked out, or skip it?" on mathq stage own voice b
+        intro: Want to see the fish surplus worked out?
+
+@math
+
+    hide mathq
+
+Say demand is Q equals a thousand minus a hundred P, and supply is Q equals a hundred P. They meet at five dollars and five hundred kilos.
+    draw math_box math_line_1 math_line_2 math_line_3
+
+At seven dollars, buyers take three hundred kilos and fishers bring seven hundred.
+    draw math_line_4
+
+Four hundred kilos left over; bought up at seven dollars, that's two thousand eight hundred dollars of public money every week.
+    draw math_line_5
+
+    erase math
+
+@test
+
+    hide mathq
+
+    quiz "A country sets a minimum price for wheat below what wheat sells for anyway. What happens?" intro "Three new cases."
+        right: Nothing: a floor below the market price binds nobody.
+        wrong: Does a floor bind anyone if the market price is already above it?
+        + Nothing changes
+        * A wheat surplus
+        * A wheat shortage
+
+    quiz "Before 1978, US regulators kept air fares high and airlines could not undercut them. What would you expect to see?" voice b
+        right: Empty seats: the surplus. In the early 1970s planes flew about half full, and airlines competed with meals and service instead of price.
+        wrong: At a price held above the market, who wants less?
+        + Many empty seats
+        * Planes always full
+        * Fares falling anyway
+
+    quiz "A minimum price for milk, and nobody buys up what is left over. Which farmers gain?"
+        right: Those who still sell: the higher price is paid only on milk somebody buys; the rest is left unsold.
+        wrong: The higher price is only paid on milk somebody buys.
+        + Those who still sell
+        * Every dairy farmer
+        * None of them
+
+So a minimum price never just raises a price. It decides who still sells, who stops buying, and who pays for the pile.
+    highlight floor_line surplus_arrow
+
+And whether a floor under wages works like one under butter depends on how competitive the market was to begin with.
+    highlight demand_curve
+
+    pause 0.8
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:20 title "How does a price coordinate millions who never meet?" form title size 600 x 500 y 420
+
+    link end_again href lecture:19 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "19 of 365" x 500 y 180 font_size 22 style.opacity 0.6

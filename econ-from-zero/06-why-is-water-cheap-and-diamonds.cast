@@ -1,0 +1,316 @@
+# Why is water cheap and diamonds expensive?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Why is something essential so cheap and something useless so dear? How did thinking at the margin solve the paradox that puzzled Adam Smith?"
+next: {"title":"Where does a price come from if nobody sets it?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/07-where-does-a-price-come-from-if-nobody.cast"}
+
+## Smith's puzzle
+use: bar_chart
+with:
+    labels:
+      - value in use
+      - value in exchange
+    series:
+      - {name: diamond, values: [1.5, 9]}
+      - {name: water, values: [10, 0.4]}
+    y_ticks: false
+    y_label: how much
+    ylim:
+      - 0
+      - 11
+    box:
+      x: 70
+      'y': 150
+      w: 600
+      h: 480
+    label_size: 24
+sources:
+    - id: smith1776
+      title: An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, ch. IV–V
+      authors: Adam Smith
+      year: 1776
+      url: https://www.econlib.org/library/Smith/smWN.html
+      finding: 'Value in use vs value in exchange: ''Nothing is more useful than water: but it will purchase scarce any thing''; the real price of every thing is ''the toil and trouble of acquiring it'''
+
+    icon water_icon size 110 x 780 y 470 or ["droplet"] icon_look picture of "glass of water" hidden true
+    icon gem_icon size 110 x 910 y 470 or ["diamond"] icon_look picture of "gem stone" hidden true
+
+    card title "Why is water cheap and diamonds expensive?"
+
+Why is water, which keeps you alive, nearly free — while a di (@draw gem_icon@)amond, which keeps nobody alive, costs a fortune?
+    draw water_icon
+
+Score them on two things: how useful each is, and what it sells for.
+    draw axes legend
+
+On use, water wins by miles.
+    draw bar_1
+
+On price, the diamond wins by miles.
+    draw bar_2
+
+    pause 0.4
+
+B: Isn't that just vanity? Diamonds are a status thing.
+    highlight gem_icon
+
+Some of it, maybe. But bread is cheaper than perfume and salt cheaper than silk — vanity can't explain every flip.
+    highlight bar_2
+
+    erase water_icon gem_icon
+
+The puzzle is old: Adam Smith set it out in 1776, in The Wealth of Nations.
+    portrait smith of "Adam Smith" cameo true
+
+    erase smith
+
+'Nothing is more useful than water,' he wrote, 'but it will purchase scarce any thing.'
+    source wn cites ["smith1776"] x 840 y 420 of "The Wealth of Nations"
+
+He split value in two: value in use and value in exchange — and they seemed to point in opposite directions.
+    highlight bar_1 bar_2
+
+    erase wn
+
+Smith's own answer was labour: the real price of a thing is the toil and trouble of getting it.
+    text labour "price = toil and trouble?" cites ["smith1776"] x 830 y 330 font_size 30
+
+B: So diamonds are dear because digging them out is hard work?
+    highlight labour
+
+That is part of it. But a diamond found by luck in a riverbed sells for no less than one dug out of a mine.
+    fade labour to 0.35
+
+So the puzzle stands: why does price follow the rare thing, not the useful one?
+    highlight bar_2
+
+    quiz "Why does a diamond cost more than a glass of water?"
+        right: How much of each we already have decides what one more is worth — and that is what the price follows.
+        wrong: Think about the tenth glass of water you drink today, not the first.
+        * Diamonds take more work to dig out
+        * People are vain about diamonds
+        + It depends on how much of each we already have
+
+## The last glass
+domain: {"x":[0,20],"y":[0,105]}
+vars:
+    Q:
+      value: 16
+      min: 1
+      max: 20
+    mv:
+      expr: 100/(1+0.5*Q)
+sources:
+    - id: marginal1871
+      title: The Theory of Political Economy (Jevons, 1871); Grundsätze der Volkswirthschaftslehre (Menger, 1871); Éléments d'économie politique pure (Walras, 1874)
+      authors: W. S. Jevons; C. Menger; L. Walras
+      year: 1871
+      finding: 'Independently founded marginal utility theory: value depends on the utility of the last unit, resolving the water–diamond paradox'
+
+    axes ax x_label "units you have (Q)" y_label "value of one more" cross corner hidden true
+    curve base expr "0" style.opacity 0 hidden true
+    curve water thick #2f6b8f expr 100/(1+0.5*x) x_from 0 x_to 20 hidden true
+    dot p1 #2f6b8f at.on water at.x 0.15 hidden true
+    label l_p1 "first glass" right #2f6b8f attach_to p1 hidden true
+    label l_mv "water: marginal value" above-right #2f6b8f attach_to water hidden true
+    region total x_from 0 x_to.ref pw between ["water","base"] style.fill #87a878 style.opacity 0.45 hidden true
+    text l_total "total value" at.data [6,10] font_size 30 hidden true
+    dot pw #2f6b8f at.on water at.x 16 bind {"at.x":"Q"} hidden true
+    label l_pw "last glass: {mv:0}" above #2f6b8f attach_to pw hidden true
+    curve diamond thick #b5482e expr 50*exp(-x/1.2) x_from 0 x_to 6 hidden true
+    dot pd #b5482e at.on diamond at.x 0.3 hidden true
+    label l_pd "diamond: your first" right #b5482e attach_to pd hidden true
+    portrait jevons of "William Stanley Jevons" cameo true hidden true
+    scratch mathcard top-right work [{"tex":"MU = \\frac{\\Delta U}{\\Delta Q}"},{"tex":"\\text{buy until } MU = P"},{"tex":"\\frac{P_{water}}{P_{diamond}} = \\frac{MU_{water}}{MU_{diamond}}"}] font_size 30 hidden true
+
+    card title "The last glass"
+
+B: So which is it — is water worth a lot, or almost nothing?
+    draw ax base
+
+Both — and a drawing shows how. Across, the glasses of water you have today; up, what one more glass is worth to you.
+    highlight ax
+
+The first glass, when you are parched, is worth almost anything.
+    draw p1 l_p1
+
+The second a bit less; the tenth is for washing; the twentieth waters the plants.
+    draw water
+
+    erase l_p1
+
+B: So water loses its value the more you drink?
+    highlight water
+
+Not water — one more glass. Economists call that marginal value: marginal just means the next one.
+    draw l_mv
+
+All the glasses together, this whole area, are worth an enormous amount to you.
+    draw total l_total
+
+But you never buy all of them at once. You buy the  (@draw l_pw@)next one, and with plenty on tap the next one is worth almost nothing.
+    draw pw
+
+    pause 0.5
+
+B: And diamonds? I'd guess their curve is simply higher.
+    highlight water
+
+    fade total l_total to 0.3
+
+Lower, in fact: diamonds add little to anyone's life in total.
+    draw diamond
+
+But most of us own none, so we sit at the very start of the curve, where one more is worth a lot.
+    draw pd l_pd
+
+Three economists — Jevons and Menger in 1871, Walras in 1874 — reached this separately: price follows the value of the last unit, not of all of them.
+    draw jevons
+
+    erase jevons
+
+Try it: drag the glasses Harbourtown has down, as in a drought, and watch the last glass climb.
+    animate Q 6 duration 3
+
+    explore params ["Q"]
+
+    animate Q 16 duration 1.5
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after"}] then after
+
+    ask "Want the math behind the last glass?" on mathq store m default "Skip it" stage own
+
+@math
+
+    erase mathq
+
+In symbols: marginal utility, MU, is the extra utility U from one more unit.
+    draw mathcard_box mathcard_line_1
+
+You keep buying until the last unit is worth just its price — MU equals P, with utility counted in money.
+    draw mathcard_line_2
+
+So prices line up with the value of the last units: water's price over a diamond's is a tiny MU over a large one.
+    draw mathcard_line_3
+
+    erase mathcard
+
+@after
+
+    erase mathq
+
+    fade total l_total to 1
+
+B: So water is cheap because we have so much of it — not because it's useless.
+    highlight total pw
+
+## Two blades
+use: supply_demand
+with:
+    x_label: Quantity (Q)
+    y_label: Price (P)
+    demand:
+      curvature: linear
+      label: marginal value
+    supply:
+      label: S
+    equilibrium:
+      show: true
+      guides: true
+      shift_label: ''
+      shift_p_label: P
+      shift_q_label: Q
+    supply_shift:
+      amount: 35
+      label: marginal cost
+      arrow: horizontal
+sources:
+    - id: marshall1890
+      title: Principles of Economics, Book V, ch. III
+      authors: Alfred Marshall
+      year: 1890
+      url: https://www.econlib.org/library/Marshall/marP30.html
+      finding: '''We might as reasonably dispute whether it is the upper or the under blade of a pair of scissors that cuts a piece of paper, as whether value is governed by utility or cost of production.'''
+    - id: epstein1982
+      title: Have You Ever Tried to Sell a Diamond?
+      authors: Edward Jay Epstein, The Atlantic
+      year: 1982
+      finding: De Beers controlled most of the world's rough-diamond supply for much of the twentieth century and stockpiled stones to hold prices up
+
+    portrait marshall of "Alfred Marshall" cameo true hidden true
+    text sure "consensus" #87a878 at.percent [84,88] cites ["marshall1890"] font_size 36 hidden true
+    mark sure_box around sure kind box hidden true
+    label debeers "held back" left #b5482e attach_to supply_shift_curve cites ["epstein1982"] hidden true
+
+    card title "Two blades"
+
+    hide supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar supply_shift_arrow
+
+B: The last glass solved half the puzzle. It left out the other half.
+    draw axes demand_curve label_D
+
+Which half? Surely value is just what people want.
+    highlight demand_curve
+
+B: Smith's labour story never went away. Cost decides how much gets supplied — and so how far down the curve we end up.
+    draw supply_shift_curve label_S_shift
+
+B: Water is cheap to pump, so a lot is supplied, and we end up far down, where the last glass is worth little.
+    draw shift_equilibrium_point shift_guide_lines label_P_shift label_Q_shift
+
+B: So both matter, as Alfred Marshall put it in 1890: asking whether utility or cost sets value is like asking which blade of the scissors cuts the paper.
+    draw marshall
+
+    erase marshall
+
+So diamonds sit where cost is high: few are dug, and the last one is still worth a lot.
+    animate supply_shift.amount -28 duration 3 ghost true
+
+But isn't some of that scarcity made?
+    highlight supply_shift_curve
+
+B: Some of it. For most of the twentieth century one firm, De Beers, controlled most of the world's rough dia (@draw debeers@)monds and held stones back.
+    animate supply_shift.amount -38 duration 2.5
+
+So the margin explains how the price works — not whether the scarcity behind it is natural.
+    highlight shift_equilibrium_point label_P_shift
+
+    erase debeers
+
+B: How sure are we? That price tracks the value of the last unit, not the total, is about as close to consensus as economics gets.
+    draw sure sure_box
+
+B: What changed is the utility part: the marginalists hoped to measure it like weight; today's theory only needs people to rank their options.
+    highlight label_D
+
+    quiz "Harbourtown's reservoir runs low and water is rationed. What happens to what people would pay for one more litre?"
+        right: It rises: with less water, the last litre goes to drinking, not the plants, so it is worth far more.
+        wrong: Ask which litre you would give up: the one for the plants, or one you drink.
+        + It rises sharply
+        * It stays the same: water is just as useful
+        * It falls
+
+    quiz "Labs learn to grow diamonds identical to mined ones, cheaply and in any number. What happens to the price of a diamond?" voice b
+        right: It falls: supply moves out, buyers move down the marginal-value curve, and the last stone is worth little more than it costs to grow.
+        wrong: Think about how much the last buyer would pay once stones are plentiful.
+        + It falls toward the cost of growing one
+        * It stays high: diamonds are still beautiful
+        * It rises: more people can now get one
+
+    quiz "Air is more useful than water or diamonds, yet it is free. Why?"
+        right: All the air is worth everything to us; one more breath, with air all around, is worth nothing — and price follows the last breath.
+        wrong: Compare the value of all the air with the value of one more breath.
+        * Air isn't very useful
+        + One more breath is worth nothing when air is everywhere
+        * The government sets its price at zero
+
+So water is cheap not because it is worth little, but because we have so much that the last glass is worth (@highlight shift_equilibrium_point label_P_shift@) little — and how a market finds that price with nobody setting it is the next puzzle.
+    animate supply_shift.amount 35 duration 3
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:7 title "Where does a price come from if nobody sets it?" form title size 600 x 500 y 420
+
+    link end_again href lecture:6 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "6 of 365" x 500 y 180 font_size 22 style.opacity 0.6

@@ -1,0 +1,309 @@
+# Is GDP the right measure of how well we live?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What does GDP leave out — housework, leisure, nature, inequality? Should we replace it, or add to it?"
+next: {"title":"What do we know so far, and what don't we?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/12-what-do-we-know-so-far-and-what-don-t-we.cast"}
+
+## Income or welfare?
+use: bar_chart
+with:
+    labels:
+      - United States
+      - France
+      - Russia
+      - Brazil
+    values:
+      - [100, 67, 37, 17]
+      - [100, 92, 21, 11]
+    stage: 0
+    value_labels: true
+    bar_colors: same
+    y_label: US = 100
+    ylim:
+      - 0
+      - 110
+    box: full
+sources:
+    - id: jk2016
+      title: Beyond GDP? Welfare across Countries and Time
+      authors: Charles I. Jones and Peter J. Klenow
+      year: 2016
+      finding: 'Table 2 (household-survey data; France 2005): GDP per person vs consumption-equivalent welfare, US = 100 — France 67.2 vs 91.8, Russia 37.0 vs 20.7, Brazil 17.2 vs 11.1. France: life expectancy 80.1 vs 77.4, hours worked per person 535 vs 877, lower consumption inequality.'
+      url: https://web.stanford.edu/~chadj/rawls.pdf
+
+    text cue_gdp "GDP per person" at.percent [55,92] cites ["jk2016"] hidden true
+    text cue_wel "welfare" at.percent [55,92] cites ["jk2016"] hidden true
+    scratch parts top-right work ["consumption","+ life","+ leisure","+ equality"] font_size 26 hidden true
+
+    card title "Income or welfare?"
+
+Is GDP the right measure of how well we live? Take a test case: France against the United States.
+    draw axes cue_gdp bar_1
+
+In 2005, France's GDP  (@draw bar_2@)per person was only about two-thirds of America's: sixty-seven, if America is a hundred.
+
+B: And Russia at thirty-seven, Brazil at seventeen.
+    draw bar_3 bar_4 parallel true
+
+B: So the average French person lives a third worse than the average American?
+    highlight bar_1 bar_2
+
+    pause 0.3
+
+That's what the bars seem to say. The economists Charles Jones and Peter Klenow asked a sharper question: in which country would you rather live a life, drawn at random?
+    highlight bar_2 effect circle
+
+Their measure s (@draw parts_box parts_line_1@)tarts from what people consume, then (@draw parts_line_2@) adds how long they live, how much of (@draw parts_line_3@) their time is their own, and how eq (@draw parts_line_4@)ually it's all shared.
+
+    erase parts cue_gdp
+
+    animate box bottom duration 1.2
+
+    scale guess cites ["jk2016"] y 500 label "France's welfare (US = 100)" min 0 max 100 value 92 ticks 5
+
+    ask "Click your guess on the line." on guess store g default "50" tolerance 0.06 stage own voice b
+        intro: So where does France land on that scale?
+        right: Close: you said {g}, and it is {g.true}.
+        wrong: You said {g}; it is {g.true}.
+
+    erase guess
+
+    animate box full duration 1.2
+
+    draw cue_wel
+
+Here are the bars, measured as welfare. France jumps to ninety-two: nearly level with America.
+    animate stage 1 duration 3 ghost true
+
+B: From sixty-seven to ninety-two? What buys twenty-five points?
+    highlight bar_2
+
+The French lived almost three years longer, worked far fewer hours, and shared what they consumed more equally. Each of the three lifts France.
+    highlight bar_2 effect box
+
+B: And Russia and Brazil go the other way: twenty-one and eleven.
+    highlight bar_3 bar_4
+
+Shorter lives in both, and in Brazil deep inequality.
+    highlight bar_3 bar_4 effect underline
+
+Pause and slide between GDP and welfare yourself: watch who rises and who falls.
+    explore params ["stage"]
+
+So GDP per person is blind to three things we care about: time, health, and how the pie is shared.
+    highlight bar_1 bar_2 bar_3 bar_4
+
+    pause 0.6
+
+## Work it cannot see
+use: bar_chart
+with:
+    labels:
+      - '1965'
+      - '2010'
+    series:
+      - {name: measured GDP, values: [100, 100]}
+      - {name: + housework, values: [[0, 0], [39, 0], [39, 26]]}
+    stacked: true
+    stage: 0
+    value_labels: true
+    y_label: US GDP = 100
+    ylim:
+      - 0
+      - 175
+    box:
+      x: 60
+      'y': 110
+      w: 880
+      h: 540
+sources:
+    - id: bea2012
+      title: Accounting for Household Production in the National Accounts, 1965–2010
+      authors: Benjamin Bridgman, Andrew Dugan, Mikhael Lal, Matthew Osborne and Shaunda Villones (BEA, Survey of Current Business)
+      year: 2012
+      finding: Including nonmarket household production raises nominal US GDP by 39% in 1965 and 26% in 2010; women's home production fell from 40 to 26 hours a week.
+      url: https://apps.bea.gov/scb/pdf/2012/05%20May/0512_household.pdf
+    - id: pigou1920
+      title: The Economics of Welfare
+      authors: A. C. Pigou
+      year: 1920
+      finding: '"Thus, if a man marries his housekeeper or his cook, the national dividend is diminished." (Part I, ch. III)'
+      url: https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html?chapter_num=5
+
+    portrait pigou cites ["pigou1920"] of "Arthur Cecil Pigou" cameo true hidden true
+    scratch hours cites ["bea2012"] work ["women's housework","40 → 26 h a week"] x 800 y 430 font_size 26 hidden true
+    scratch fish work ["catch 120 t","regrowth 100 t","GDP counts: 120 t","stock −20 t"] x 800 y 430 font_size 26 hidden true
+
+    card title "Work it cannot see"
+
+So GDP misses time, health and fairness. But surely it counts all the work we do?
+    draw axes bar_1 bar_2
+
+B: Not the work done at home. Cooking, cleaning, looking after children: unpaid, so uncounted.
+    highlight bar_1 bar_2
+
+B: Arthur Pigou saw the paradox in 1920: if a man marries his housekeeper, and she keeps doing the same work (@highlight bar_1 bar_2@) unpaid, the national income falls.
+    draw pigou
+
+    erase pigou
+
+Same meals, same clean house. What could all that home work be worth? Five percent of GDP?
+    point at.ref bar_1 at.anchor top gesture tap
+
+    pause 0.3
+
+    draw legend
+
+B: Far more. American statisticians (@animate stage 1 duration 2.5@) put a value on it: in 1965 it would have added thirty-nine percent to GDP.
+
+B: In 2010, twenty-six percent.
+    animate stage 2 duration 2
+
+Why would it shrink?
+    animate box.x 70 box.y 110 box.w 560 box.h 530 duration 1.5
+
+B: (@draw hours_box hours_line_1@) Women's housework fell from a (@draw hours_line_2@)bout forty hours a week to twenty-six, as more of them took paid jobs. Some of that work just moved onto the books.
+
+    erase hours
+
+So part of the growth we measured was dinner moving from the kitchen to the restaurant.
+    highlight bar_2
+
+    pause 0.3
+
+And nature? Say, with illustrative numbers, Harbourtown' (@draw fish_box fish_line_1@)s fishers land a hundred and twenty tonnes, while the s (@draw fish_line_2@)tock only regrows a hundred.
+
+B: GDP counts all hundred and twenty tonnes as output. Nowhere does it subtract the twenty  (@draw fish_line_4@)tonnes of fish that are gone for good.
+    draw fish_line_3
+
+That's the G in GDP: gross. A country can run down its forests and its fish and look richer while it does.
+    highlight fish_line_4 effect circle
+
+    pause 0.6
+
+## Replace it, or add to it?
+sources:
+    - id: jk2016
+      title: Beyond GDP? Welfare across Countries and Time
+      authors: Charles I. Jones and Peter J. Klenow
+      year: 2016
+      finding: Across countries, consumption-equivalent welfare and GDP per person have a correlation of 0.98; the standard deviation of log consumption is 0.538 in the US and 0.422 in France, and with lognormal consumption lower inequality adds .5(.538² − .422²) = 5.6% to French welfare. Norway's welfare (81) is far below its income (113) because of its very low consumption share.
+      url: https://web.stanford.edu/~chadj/rawls.pdf
+    - id: ssf2009
+      title: Report by the Commission on the Measurement of Economic Performance and Social Progress
+      authors: Joseph E. Stiglitz, Amartya Sen and Jean-Paul Fitoussi
+      year: 2009
+      finding: Recommends looking at household income and consumption rather than production, giving more prominence to their distribution, broadening income measures to non-market activities, and assessing sustainability with a separate dashboard of indicators.
+    - id: kuznets1934
+      title: National Income, 1929–1932 (73rd Congress, Senate Document 124)
+      authors: Simon Kuznets
+      year: 1934
+      finding: '"The welfare of a nation can scarcely be inferred from a measurement of national income."'
+
+    scratch rep work ["REPLACE","one number:","welfare index","HDI","weights?"] x 265 y 410 font_size 38 hidden true
+    scratch add work ["ADD","GDP + a dashboard:","income & its spread","unpaid work","sustainability"] x 730 y 410 font_size 38 hidden true
+    text corr "welfare vs GDP: r = 0.98" cites ["jk2016"] x 500 y 175 font_size 28 hidden true
+    portrait kuznets cites ["kuznets1934"] of "Simon Kuznets" cameo true hidden true
+    text sure1 "GDP ≠ welfare: consensus" x 500 y 165 font_size 28 hidden true
+    text sure2 "contested" #8a5fa8 x 500 y 640 font_size 30 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    scratch math cites ["jk2016"] work [{"tex":"\\text{welfare} \\approx \\log \\bar{c} - \\tfrac{1}{2}\\sigma^2"},"spread σ:  US 0.54,  France 0.42",{"tex":"\\tfrac{1}{2}(0.54^2 - 0.42^2) \\approx 0.056"},"≈ +5.6 % for France"] x 500 y 420 font_size 28 hidden true
+
+    card title "Replace it, or add to it?"
+
+So GDP misses time, health, fairness, housework and nature. Should we throw it out?
+    draw rep_box rep_line_1 add_box add_line_1 parallel true
+
+B: I'm tempted. Politicians chase the head (@draw rep_line_2 rep_line_3@)line number, so give them a better one.
+
+There are candidates: the welfare measure we just saw, or the UN's  (@draw rep_line_4@)Human Development Index, which mixes income, health and schooling.
+
+B: But any single index has to weigh health against income ag (@draw rep_line_5@)ainst schooling. Who picks the weights?
+
+Which is the case for adding instead. In 2009 a commission led by Joseph Stiglitz and Amartya Sen urged looking beyo (@draw add_line_2 add_line_3@)nd GDP: at household income, its distribut (@draw add_line_4@)ion, unpaid work, and a dashboar (@draw add_line_5@)d for sustainability.
+
+B: And GDP still does its own job well: it tracks production, jobs and tax revenue through booms and busts.
+    highlight add_line_2
+
+    pause 0.3
+
+B: Here's the twist, though. Across countries, Jones and Klenow's welfare and GDP per person go to (@draw corr@)gether almost perfectly: a correlation of zero point nine eight.
+
+So between rich and poor, GDP gets the order right. It misleads in the finer comparisons, like France against America.
+    highlight corr effect underline
+
+    erase corr
+
+How sure are we? T (@draw sure1@)hat GDP is not welfare: consensus. Simon Kuzne (@draw kuznets@)ts, who built the first American national accounts, warned of it in 1934. Whether to replace (@draw sure2@) it or add to it: contested.
+
+    erase kuznets
+
+    draw mathq
+
+    ask "Show the math, or skip it?" on mathq stage own voice b
+        intro: Want to see how inequality enters the welfare measure?
+
+@math
+
+    erase mathq
+
+    fade rep add sure1 sure2 to 0.12
+
+B: If consumption is spread in the usual lopsided way, average well-being is the log of average consumption, minus half the variance of its log.
+    draw math_box math_line_1
+
+B: That spread is zero point five four in America and zero point four two in France. Half the difference of their square (@draw math_line_3@)s: about five and a half percent more welfare for (@draw math_line_4@) France, from equality alone.
+    draw math_line_2
+
+    erase math
+
+@test
+
+    erase mathq
+
+    fade rep add sure1 sure2 to 1
+
+    hide rep add sure1 sure2
+
+    cards gdpsort
+        Counted in GDP: Restaurant meal
+        Left out: Cooking at home
+        Counted in GDP: Rebuilding after a storm
+        Left out: A day off
+        Counted in GDP: Fish the stock can't replace
+        Left out: Living longer
+
+    ask "Which of these does GDP count? Sort the cards." intro "Now some new cases." on gdpsort store srt stage own voice b
+        right: All {srt.total} sorted: GDP counts what is paid for, even when it only repairs a loss.
+        wrong: You got {srt} of {srt.total}. GDP counts what is sold, not whether it makes life better.
+
+    erase gdpsort
+
+    quiz "Norway puts most of its oil income into a fund instead of spending it. On Jones and Klenow's welfare measure, Norway looks…"
+        right: Poorer: its people consume a small share of what the country earns, so its welfare is about 81 against an income of 113 (US = 100).
+        wrong: The measure counts what people consume, not what the country earns.
+        * richer than its GDP
+        * about as rich as its GDP
+        + poorer than its GDP
+
+    quiz "After a hurricane, a town spends a year rebuilding the houses it lost. What happens to its GDP that year?" voice b
+        right: It rises: rebuilding is paid work, though the town is only getting back what it had.
+        wrong: Rebuilding is paid work, whether or not anyone is better off than before the storm.
+        + It rises
+        * It falls
+        * It can't be told
+
+    show rep add sure1 sure2
+
+So GDP measures what an economy produces, and roughly how well its people live. For the rest, one number is not enough.
+    highlight rep_line_1 add_line_1
+
+    pause 0.8
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:12 title "What do we know so far, and what don't we?" form title size 600 x 500 y 420
+
+    link end_again href lecture:11 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "11 of 365" x 500 y 180 font_size 22 style.opacity 0.6

@@ -1,0 +1,332 @@
+# What happens when the government caps rents?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What does the supply and demand model predict for a price ceiling? What did San Francisco's rent control actually do to tenants and to supply?"
+next: {"title":"What happens when the government sets a minimum price?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/19-what-happens-when-the-government-sets-a.cast"}
+
+## A cap that raised rents
+sources:
+    - id: dmq2019
+      title: 'The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco'
+      authors: Rebecca Diamond, Tim McQuade, Franklin Qian
+      year: 2019
+      finding: 'San Francisco''s November 1994 ballot measure brought small multifamily buildings built before 1980 under rent control. Relative to buildings built 1980-1990, the number of renters living in treated buildings fell 15% (landlords converted to condos/TICs, sold to owner-occupiers or redeveloped); the authors estimate the supply cut raised city-wide rents by 5.1%. American Economic Review 109(9): 3365-3394; NBER WP 24181.'
+      doi: 10.1257/aer.20181289
+
+    icon old size 230 set twemoji x 290 y 480 icon_look picture of house hidden true
+    icon new size 230 set twemoji x 710 y 480 icon_look picture of house hidden true
+    text old_l "built 1979" x 290 y 345 font_size 32 hidden true
+    text new_l "built 1981" x 710 y 345 font_size 32 hidden true
+    path divide dashed #8f887c points [[500,350],[500,590]] hidden true
+    text vote "Nov 1994: cap on rent rises" #b5482e x 500 y 625 font_size 32 hidden true
+    icon lock size 80 set twemoji x 390 y 560 icon_look picture of locked hidden true
+
+    card title "A cap that raised rents"
+
+What happens when the government caps rents? Most people's first answer is simple: tenants pay less, landlords earn less, and that's it.
+    draw old new
+
+B: That's my answer too. It's a transfer: money moves from landlords to tenants.
+    text naive "landlords → tenants ?" #8f887c x 500 y 250 font_size 36
+
+Let's test it o (@erase naive@)n a real case. San Francisco has limited yearly rent rises since 1979, but small buildings, with four flats or fewer, were left out.
+    draw old_l new_l
+
+Then, in November 1994, the voters closed t (@draw vote@)hat gap: small buildings built before 1980 came un (@draw lock@)der the cap. Those built from 1980 on stayed free.
+    draw divide
+
+B: So two near-identical buildings, a few years apart in age, and only one gets capped. That's almost an experiment.
+    highlight old new effect pulse
+
+It is, and three Stanford economists, Rebecca Diamond, Tim McQuade and Franklin Qian, followed thousands of those tenants for years.
+    scale renters bottom cites ["dmq2019"] label "Change in renters living there" unit % min -30 max 30 value -15 ticks 6
+
+    erase vote
+
+    ask "How did the number of renters in the capped buildings change, against their uncapped twins? Click the line." intro "Your turn, then." on renters store g voice b
+        right: Close: you said {g}, and it was {g.true}.
+        wrong: You said {g}; it was {g.true}. A guess is a fine place to start.
+
+It fell by fifteen percent. Landlords sold flats to owners, turned them into condominiums, or tore the building down and built new, and new buildings were exempt.
+    highlight renters_answer effect pulse
+
+B: Fewer flats to rent, in a city already short of them.
+    fade old old_l lock to 0.4
+
+And the authors estimate that this pushed rents across the whole city up by about five percent. A cap on rents that raised rents.
+    text rents "City-wide rents: +5.1%" #b5482e cites ["dmq2019"] x 710 y 642 font_size 36
+
+To see how that can happen, we need the market diagram, with a lid on it.
+    highlight rents effect underline
+
+## A lid on the market
+use: supply_demand
+with:
+    x_label: Flats (Q)
+    y_label: Rent per month (P)
+    demand: {}
+    supply:
+      elasticity: 0.5
+    equilibrium:
+      show: true
+      guides: true
+      p_label: $1000
+      q_label: '500'
+    price_ceiling:
+      level: 32
+      label: Rent cap $640
+    regions:
+      - transfer
+      - deadweight_loss
+    units:
+      price: [0, 2000]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: flats
+    readout:
+      - shortage
+    readout_at: inside
+
+    card title "A lid on the market"
+
+B: A cap that raises rents sounds like a paradox. On the diagram it is almost the first thing you see.
+    draw axes
+
+B: Take Harbourtown's rental flats, with illustrative numbers. Tenants' demand, landlords' supply, and t (@draw equilibrium_point label_E guide_lines label_Pstar label_Qstar@)he market rent where they cross: about a thousand a month, for five hundred flats.
+    draw demand_curve label_D supply_curve label_S
+
+Now the harbour council says no flat may cost more than, say, si (@fade guide_lines label_Pstar label_Qstar to 0.35@)x hundred and forty a month.
+    draw ceiling_line label_ceiling
+
+B: At that rent, more people want a flat of their own: that's Qd.
+    draw shortage_guide_qd label_Qd
+
+B: But landlords offer fewer: that's Qs. The gap (@draw shortage_arrow label_shortage readout@) between them is the shortage.
+    draw shortage_guide_qs label_Qs
+
+So the tenants who do have a flat pay less. That part of the first answer was right.
+    highlight ceiling_line
+
+B: It was. This rectangle moves from landlords to sitting tenants.
+    draw transfer_region label_transfer
+
+B: But this triangle is simply gone: flats someone would gladly rent, and someone would gladly let, now never get let.
+    draw dwl_region label_DWL
+
+And the flats that remain go to whoever got there first, or never moves, not to whoever needs them most.
+    highlight shortage_guide_qs label_Qs
+
+B: Now give it time. A landlord can't remove a building overnight, but over years they sell, convert or build something else, so supply grows more responsive.
+    highlight supply_curve
+
+The same cap, and the shortage grows: the lid bites har (@highlight shortage_arrow label_shortage@)der the longer it stays.
+    animate supply.elasticity 1 duration 3
+
+B: Try it yourself: drag the rent cap down, then up past the market rent, and watch the shortage open and vanish.
+    explore
+
+## Who paid in San Francisco
+use: bar_chart
+with:
+    labels:
+      - 'Gain: capped tenants'
+      - 'Cost: higher rents for all'
+    values:
+      - 2.9
+      - 2.9
+    value_labels: true
+    colors:
+      - green
+      - red
+    y_label: $ billion (present value)
+    ylim:
+      - 0
+      - 5
+    title: San Francisco, 1995–2012
+    box: left
+    label_size: 30
+sources:
+    - id: dmq2019
+      title: 'The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco'
+      authors: Rebecca Diamond, Tim McQuade, Franklin Qian
+      year: 2019
+      finding: 'Tenants in buildings brought under San Francisco rent control in 1994 were 10-20% more likely to stay at their 1994 address, more so for older and long-tenure households; their gains over 1995-2012 total about $2.9 billion in present value. Landlords'' supply cuts raised city-wide rents 5.1%, a present-value cost to renters of about $2.9 billion, 42% of it borne by people who did not yet live in San Francisco. American Economic Review 109(9): 3365-3394.'
+      doi: 10.1257/aer.20181289
+
+    scratch stay right work ["Capped tenants:","10–20% more","likely to stay"] font_size 30 hidden true
+    scratch later right cites ["dmq2019"] work ["42% of the cost:","people who came","later"] font_size 30 hidden true
+
+    card title "Who paid in San Francisco"
+
+The diagram says a cap helps the tenants who have a flat, and hurts those still looking. San Francisco lets us count both.
+    draw axes title
+
+B: Start with the winners. Tenants in the newly capped buildings were ten to twenty percent more likely to still live at their address years later.
+    draw stay_box stay_line_1 stay_line_2 stay_line_3
+
+And older tenants, and those who had lived there longest, gained the most: they could stay near their friends, their doctor, their work.
+    highlight stay_line_2 stay_line_3
+
+    erase stay
+
+B: Added up over 1995 to 2012, the authors put the gain to those tenants at about two point nine billion dollars, in present value.
+    draw bar_1
+
+    ask "How big was the cost to all renters of the higher rents? Drag the bar to your guess." on bar_2 store c relative true
+        intro: Now the losers: everyone who paid the higher city-wide rents that the shrinking supply caused.
+        right: Close: you said {c} billion, and it was {c.true}.
+        wrong: You said {c} billion; it was {c.true}.
+
+B: About two point nine billion as well. The same size as the gain.
+    highlight bar_1 bar_2
+
+So by their estimate, the cap mostly moved money between renters: from everyone else to the ones lucky enough to sit in a capped flat in 1994.
+    highlight bar_2
+
+B: And forty-two percent of that cost fell on people who didn't live in San Francisco yet. They never got a vote.
+    draw later_box later_line_1 later_line_2 later_line_3
+
+The textbook shortage was there, just not as a queue outside one door: it showed up as fewer flats to rent and higher rents everywhere else.
+    highlight bar_2 effect box
+
+## A lid, or insurance?
+use: supply_demand
+with:
+    x_label: Flats (Q)
+    y_label: Rent per month (P)
+    demand: {}
+    supply:
+      elasticity: 0.5
+    equilibrium:
+      show: true
+      guides: true
+      p_label: $1000
+      q_label: '500'
+    price_ceiling:
+      level: 32
+      label: Rent cap $640
+    regions: []
+    units:
+      price: [0, 2000]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: flats
+sources:
+    - id: dmq2019
+      title: 'The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco'
+      authors: Rebecca Diamond, Tim McQuade, Franklin Qian
+      year: 2019
+      finding: 'Under San Francisco''s rent control the landlord may reset the rent when a tenant leaves, and newer buildings are exempt; landlords responded by converting and redeveloping, cutting rental supply. The authors suggest that insurance against large rent increases provided as government social insurance, rather than as a mandate on landlords, could avoid much of the welfare loss. AER 109(9): 3365-3394.'
+      doi: 10.1257/aer.20181289
+    - id: igm2012
+      title: Rent Control (US Economic Experts Panel poll)
+      authors: IGM Forum / Clark Center, University of Chicago Booth
+      year: 2012
+      finding: '7 February 2012: on the statement that local rent-control ordinances in cities such as New York and San Francisco had a positive effect on the amount and quality of broadly affordable rental housing, 1 of 37 responding panelists agreed, 3 were uncertain and 33 disagreed.'
+      url: https://www.kentclarkcenter.org/surveys/rent-control/
+
+    scratch design top-right cites ["dmq2019"] work ["Rent resets when","a tenant leaves","New buildings exempt","= insurance against","rent jumps"] font_size 34 hidden true
+    scratch sure top-right cites ["igm2012"] work ["Supply shrinks:","mostly agreed","Better design:","open"] font_size 36 hidden true
+    scratch math top-right work [{"tex":"Q_d = a - bP \\quad Q_s = c + dP"},{"tex":"\\text{Shortage} = Q_d(P_c) - Q_s(P_c)"},{"tex":"= (b+d)\\,(P^* - P_c)"},"Long run: d ↑ → shortage ↑"] font_size 30 hidden true
+
+    card title "A lid, or insurance?"
+
+B: So far the cap is a lid on the whole market. Is th (@fade axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar ceiling_line label_ceiling shortage_guides label_Qd label_Qs shortage_arrow label_shortage to 0.3@)at really what San Francisco has?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar ceiling_line label_ceiling shortage_guides label_Qd label_Qs shortage_arrow label_shortage
+
+Not quite. It limits how fast a sitting tenant's rent can rise.
+    draw design_box
+
+When the tenant moves out, the landlord can reset the rent, and new buildings are exempt.
+    draw design_line_1 design_line_2 design_line_3
+
+B: Then it's less a lid than an insurance policy: if rents in the city soar, you aren't priced out of your home.
+    draw design_line_4 design_line_5
+
+And that insurance is worth something real: staying near your friends, your school, your job. The simple diagram has no place for it.
+    highlight design_line_4 design_line_5
+
+B: Then why do economists dislike it so much?
+    highlight shortage_arrow
+
+Because the landlord pays for the insurance, so the landlord has a reason to get out of renting. Diamond and her co-authors suggest the government could provide that insurance instead.
+    highlight supply_curve
+
+B: How sure are we, then?
+    erase design
+
+That caps shrink rental supply is mostly agreed: in a 2012 poll, of thirty-seven leading US economists who answered, only one agreed that rent control had helped affordable housing.
+    draw sure_box sure_line_1 sure_line_2
+
+Whether a softer design can keep the stability without the shrinkage is still open.
+    draw sure_line_3 sure_line_4
+
+    erase sure
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Show the math, or skip it?" on mathq stage own
+
+@math
+
+    hide mathq
+
+Write demand and supply as straight lines.
+    draw math_box math_line_1
+
+At the capped rent, the shortage is the quantity demanded minus the quantity supplied.
+    draw math_line_2
+
+That works out to b plus d, times how far the cap sits below the market rent.
+    draw math_line_3
+
+As supply grows more responsive over the years, d grows, and so does the shortage.
+    draw math_line_4
+
+    erase math
+
+@test
+
+    hide mathq
+
+    quiz "Harbourtown's council caps the fee for a harbour mooring at half the market fee. What follows?" voice b
+        right: At half the fee more boat owners want a mooring and fewer are offered, so a queue forms.
+        wrong: At half the fee, do more boat owners want a mooring, and do more owners offer one?
+        + A waiting list for moorings
+        * More moorings offered
+        * No change at all
+
+    quiz "A city caps rents at $3,000 a month where the market rent is $2,000. What happens?"
+        right: A cap above the market rent does not bind: rents stay where supply and demand put them.
+        wrong: Does a lid above the market rent stop anyone doing what they would do anyway?
+        * A shortage of flats
+        + Very little
+        * Rents fall to $2,000
+
+    quiz "A hard rent cap stays in place for ten years. Compared with year one, the shortage is…" voice b
+        right: Over ten years landlords sell, convert or never build, so supply responds more and the shortage grows.
+        wrong: A landlord can't change a building overnight. What about in ten years?
+        + Larger
+        * Smaller
+        * The same
+
+    quiz "Which design protects sitting tenants while giving landlords the least reason to stop renting?"
+        right: If the government carries the insurance, renting out a flat pays as before, so landlords have no new reason to leave.
+        wrong: In each design, who pays for the protection, and does that payer then want out?
+        + Government pays part of a sitting tenant's large rent rise
+        * A hard cap on every rent
+        * The cap extended to new buildings
+
+So a rent cap does help the tenants who stay, and it pays for that with flats that are never let.
+    fade axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar ceiling_line label_ceiling shortage_guides label_Qd label_Qs shortage_arrow label_shortage to 1
+
+Ask that of any price set by law: who gets the good now, and who will find there is none left?
+    highlight shortage_arrow label_shortage
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:19 title "What happens when the government sets a minimum price?" form title size 600 x 500 y 420
+
+    link end_again href lecture:18 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "18 of 365" x 500 y 180 font_size 22 style.opacity 0.6

@@ -1,0 +1,251 @@
+# Do markets work — and what would that even mean?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Does \"work\" mean efficient, fair, innovative, or stable? Why do economists who agree on the facts disagree on the answer?"
+next: {"title":"How sensitive are buyers to price?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/14-how-sensitive-are-buyers-to-price.cast"}
+
+## Four people on the quay
+    icon market size 290 x 250 y 410 or ["tropical fish"] icon_look picture of fish hidden true
+    text sold "sold by noon" below market gap 20 font_size 30 hidden true
+    portrait pareto of "Vilfredo Pareto" cameo true hidden true
+    icon ic_eff size 95 x 560 y 575 icon_look picture of "fishing pole" hidden true
+    text t_eff "Efficient" x 709.5 y 575 font_size 52 hidden true
+    icon ic_fair size 95 x 560 y 458 icon_look picture of bread hidden true
+    text t_fair "Fair" x 666 y 458 font_size 52 hidden true
+    icon ic_inn size 95 x 560 y 341 icon_look picture of sailboat hidden true
+    text t_inn "Innovative" x 728.5 y 341 font_size 52 hidden true
+    icon ic_stab size 95 x 560 y 224 icon_look picture of bank hidden true
+    text t_stab "Stable" x 699 y 224 font_size 52 hidden true
+    mark eff_box around ic_eff t_eff kind box hidden true
+
+    card title "Four people on the quay"
+
+Do markets work? Before anyone answers, we should ask what 'work' would even mean.
+    draw market
+
+B: Take Harbourtown's fish market. The boats land at dawn, and by noo (@draw sold@)n every fish is sold, at a price nobody set.
+
+Ask four people on the quay whether that market works, and you get four answers.
+    point at.ref market gesture circle
+
+B: The fisher says yes: every fish found a buyer (@draw t_eff@), and nobody who'd pay the price went home without one.
+    draw ic_eff
+
+Mia the baker says no: the fami (@draw t_fair@)ly next door can't afford fish at all.
+    draw ic_fair
+
+B: The boatyard says the real test takes dec (@draw t_inn@)ades: does the market reward the next, better boat?
+    draw ic_inn
+
+And the bank worries about the bad weeks, when a sto (@draw t_stab@)rm halves the catch, prices jump, and loans to fishers go sour.
+    draw ic_stab
+
+Every fight over rent caps, carbon taxes or breaking up big tech hides the same question: which test counts?
+    highlight t_eff t_fair t_inn t_stab
+
+    quiz "When economists say a market 'works', which test do they usually mean first?" voice b
+        intro: Four tests, then. Guess which one an economist usually means first.
+        right: Efficient: no deal is left untaken that would help someone without hurting anyone. The other three are separate tests.
+        wrong: Think of the fisher: nobody who would pay the price went home without fish.
+        + Efficient
+        * Fair
+        * Innovative
+        * Stable
+
+The first: efficiency, in a narrow sense named after Vilfredo Pareto. No swap is left that makes someone better (@draw eff_box@) off without making anyone worse off.
+    draw pareto
+
+B: That's a modest test. A market could pass it with flying colours and still leave the f (@highlight t_fair effect circle@)amily next door without fish.
+    erase pareto
+
+Right: a market can pass one test and fail another. 'Do markets work?' is really four questions, and their answers needn't agree.
+    highlight t_eff t_fair t_inn t_stab
+
+## Same facts, opposite verdicts
+use: equation_plot
+with:
+    equation: lead = E*(1 - w) - F*w
+    variable: w
+    params:
+      E: {value: 3, fixed: true, label: efficiency edge E}
+      F: {value: 3, min: 0.5, max: 5, step: 0.5, label: fairness edge F}
+      v: {value: 0.35, min: 0, max: 1, step: 0.05, label: your weight}
+    editable:
+      - v
+    drag: false
+    x_range:
+      - 0
+      - 1
+    y_range:
+      - -4
+      - 4
+    x_label: w
+    y_label: market's lead
+    marks:
+      - {kind: point, at: 0, id: e_end, label: '+3', guides: false}
+      - {kind: point, at: 1, id: f_end, guides: false}
+      - {kind: point, at: 0.2, id: her}
+      - {kind: point, at: 0.7, id: his}
+      - {kind: point, at: v, id: you, label: true}
+      - {kind: roots, label: flip}
+
+    text wnote "w = weight on fairness" at.data [0.72,-3.4] font_size 26 hidden true
+    label her_tag "her: +1.8" above-right attach_to her hidden true
+    label his_tag "his: −1.2" below-left attach_to his hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"skipmath"}] then skipmath hidden true
+    scratch mcard work [{"tex":"\\text{lead} = 3(1-w) - F\\,w"},{"tex":"\\text{flip: } w^* = 3/(3+F)"},{"tex":"F=3 \\rightarrow w^*=0.5"},{"tex":"F=1 \\rightarrow w^*=0.75"}] x 790 y 412 font_size 24 hidden true
+
+    card title "Same facts, opposite verdicts"
+
+Four tests, and a market rarely aces all four. That's how two economists can agree on every fact and still reach opposite verdicts.
+    draw axes wnote
+
+B: Let's be those two. Say the harbour council proposes to take over the fish market and share out the catch by need.
+    highlight y_label
+
+We both accept the same facts, illustrative ones: the m (@draw e_end@)arket beats the council by three points on efficiency.
+
+B: And the council beats the market  (@draw f_end@)by three on fairness. Neither of us disputes t (@draw curve_0 ends@)hat.
+
+So the market's lead slides down this line as the weight on fairness rises. The facts fix the line (@highlight curve_0@); they don't say where to stand.
+    draw eq
+
+B: I put most weight on efficiency, say 0.2 on  (@draw her her_tag@)fairness. For me the market wins by almost two points.
+
+I put 0.7 on fairnes (@draw his his_tag@)s, and for me the council wins by more than one.
+
+B: Same facts, same line. We just stand in different places on it.
+    highlight her his
+
+    draw you
+
+Try it: drag the weight along the line and find where the verdict flips.
+    explore
+
+B: But hold on. Why trust that the council would (@highlight eq_param_F@) be that fair? Councils have favourites too.
+    erase you her his her_tag his_tag
+
+That's a dispute about facts: compared with what? I (@draw root_1@)f the council's fairness edge is o (@animate params.F.value 1 duration 3 ghost true@)nly one point, the right end rises, and the flip moves from a half to three quarters.
+
+B: And over decades, a market's (@highlight e_end@) knack for better boats might outweigh both. So a verdict is facts, plus weights, plus what you compare it with.
+
+    draw mathq
+
+    ask "Show the math, or skip it?" on mathq stage own voice b
+        intro: A short detour, if you like.
+
+@math
+
+    erase mathq
+
+The market's lead is three times one minus w, minus F times w.
+    draw mcard_box mcard_line_1
+
+B: It hits zero at w star, three over three plus F.
+    draw mcard_line_2
+
+So a fairness edge of three puts the flip at (@draw mcard_line_4@) a half; an edge of one, at three quarters.
+    draw mcard_line_3
+
+    erase mcard
+
+@skipmath
+
+    erase mathq
+
+## A map of the block
+sources:
+    - id: friedman1953
+      title: The Methodology of Positive Economics
+      authors: Milton Friedman
+      year: 1953
+      finding: 'In Essays in Positive Economics: differences about economic policy among disinterested citizens derive predominantly from different predictions about consequences, rather than from fundamental differences in basic values.'
+    - id: fkp1998
+      title: 'Economists'' Views about Parameters, Values, and Policies: Survey Results in Labor and Public Economics'
+      authors: Victor R. Fuchs, Alan B. Krueger, James M. Poterba
+      year: 1998
+      finding: 'Survey of labour and public economists at 40 leading US universities: wide dispersion in parameter estimates, considerable disagreement on policy, and policy positions more closely related to values than to parameter estimates. Journal of Economic Literature 36(3): 1387-1425.'
+
+    portrait friedman cites ["friedman1953"] of "Milton Friedman" cameo true hidden true
+    box n_facts "facts" x 300 y 420 width 300 height 140 radius 12 icon "magnifying glass" font_size 40 hidden true
+    box n_values "values" x 700 y 420 width 300 height 140 radius 12 icon "red heart" font_size 40 hidden true
+    group fv members ["n_facts","n_values"] hidden true
+    text readout "survey: 40 US universities" cites ["fkp1998"] x 500 y 260 font_size 30 hidden true
+    text stamp "CONTESTED" x 500 y 580 font_size 40 hidden true
+    mark stamp_box around stamp kind box hidden true
+    box m1 "Efficient?" x 185 y 455 width 280 height 140 radius 12 icon handshake font_size 34 hidden true
+    box m2 "Fair?" x 500 y 455 width 280 height 140 radius 12 icon "balance scale" font_size 34 hidden true
+    box m3 "Innovative?" x 815 y 455 width 280 height 140 radius 12 icon "light bulb" font_size 34 hidden true
+    box m4 "Markets fail" x 185 y 275 width 280 height 140 radius 12 icon factory font_size 34 hidden true
+    box m5 "Governments fail" x 500 y 275 width 280 height 140 radius 12 icon "classical building" font_size 34 hidden true
+    box m6 "Stable? later" x 815 y 275 width 280 height 140 radius 12 icon anchor font_size 34 hidden true
+    group map members ["m1","m2","m3","m4","m5","m6"] walk true hidden true
+
+    card title "A map of the block"
+
+B: Facts, weights and a comparison. Milton Friedman thought the facts did most of the work.
+    draw friedman
+
+B: In 1953 he argued that policy disputes among disinterested people come mos (@draw n_facts@) (@erase friedman@)tly from different predicti (@draw n_values@)ons of consequences, not from different values.
+
+So if economists settled the facts, the disagree (@fade n_values to 0.3@)ment would melt away?
+
+B: That's testable. In the 1990s Victor Fuchs, Alan Krueger a (@draw readout@)nd James Poterba surveyed labour and public economists at forty leading US universities.
+
+And what did they find?
+    highlight n_facts n_values
+
+B: They disagreed about the numbers, too. But their policy vi (@fade n_values to 1@)ews lined up more c (@move n_values scale 1.3 duration 1@)losely with their values than with their estimates.
+
+So facts matter, and they don't settle it. How much each weighs is (@draw stamp stamp_box ends@) still contested.
+    erase readout
+
+B: Which gives the whole question its  (@draw m1 ends@)map.
+    erase n_facts n_values stamp stamp_box
+
+First: when is a market efficient, and what does that p (@draw m2@)roof quietly assume? Then: is efficient fair?
+
+B: Then mono (@draw m3@)poly and innovation; then pollution,  (@draw m4@)lighthouses and used cars, where markets fail.
+
+And la (@draw m5@)st the comparison: governments fail too, so every verdict weighs two imperfect thing (@draw m6@)s. Stability waits for booms and busts.
+
+    hide map
+
+    cards sortq width 900 bins ["Efficient","Fair","Innovative","Stable"] deck true
+        Fair: Nurses priced out
+        Stable: Banks crash
+        Efficient: Flats sit empty
+        Innovative: 1950s methods
+
+    ask "A city's housing market draws four complaints. Which test does each one say the market fails? Sort the cards." on sortq store srt stage own
+        right: All {srt.total} sorted: one market, failing four different tests.
+        wrong: You got {srt} of {srt.total}. Ask what each complaint says is missing: a deal, a fair share, a new idea, or calm.
+
+    erase sortq
+
+    quiz "Two economists agree that a congestion charge would cut city traffic by a fifth and hit poorer drivers hardest. One backs it, the other opposes it. What is the most likely reason?" voice b
+        right: Same facts, different weights: one counts the faster traffic more, the other the burden on poorer drivers.
+        wrong: They agreed on both facts. What is left to differ on?
+        * One of them has the facts wrong
+        + They weigh efficiency and fairness differently
+        * One of them doesn't understand markets
+
+    quiz "A city's taxi market is congested and overpriced. Is that enough to justify the city running the taxis itself?"
+        right: A market failure is half the case. The other half is whether the alternative would do better.
+        wrong: Before you answer, ask: compared with what?
+        * Yes: a failing market justifies stepping in
+        + Not by itself: how well the city would run them must be compared too
+        * No: markets always fix themselves
+
+    show map
+
+So, do markets work? First ask: at what, for whom, compared with what, and over how long.
+    highlight m1 m2 m3 m4 m5 m6
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:14 title "How sensitive are buyers to price?" form title size 600 x 500 y 420
+
+    link end_again href lecture:13 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "13 of 365" x 500 y 180 font_size 22 style.opacity 0.6

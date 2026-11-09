@@ -1,0 +1,298 @@
+# How much do buyers and sellers gain from a market?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What are consumer and producer surplus? Why is the gain from a market a triangle, not a rectangle?"
+next: {"title":"What does a tax destroy?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/17-what-does-a-tax-destroy.cast"}
+
+## Price zero, value huge
+use: bar_chart
+with:
+    labels:
+      - Maps
+      - Email
+      - Search
+    values:
+      - 3.6
+      - 8.4
+      - 17.5
+    value_labels: true
+    bar_colors: same
+    ylim:
+      - 0
+      - 25
+    icons:
+      - map
+      - envelope
+      - magnifying glass
+    y_label: $ thousand to give it up for a year
+    box:
+      x: 90
+      'y': 170
+      w: 560
+      h: 460
+sources:
+    - id: brynjolfsson2019
+      title: Using massive online choice experiments to measure changes in well-being
+      authors: E. Brynjolfsson, A. Collis, F. Eggers
+      year: 2019
+      finding: 'Median US respondent would need $17,530 to give up search engines for a year, $8,414 for email, $3,648 for digital maps (willingness to accept). PNAS 116(15): 7250–7255.'
+      doi: 10.1073/pnas.1815663116
+
+    text zero "Price paid: $0" #b5482e cites ["brynjolfsson2019"] x 840 y 600 font_size 34 hidden true
+    scratch note work ["Worth − price","= consumer surplus","Price − minimum","= producer surplus"] x 820 y 400 font_size 24 hidden true
+
+    card title "Price zero, value huge"
+
+How much do buyers and sellers really gain from a market? Start with things you pay nothing for.
+    draw zero
+
+B: In a large online experiment, economists asked Americans one question: how much would we have to pay you to give up a service for a whole year?
+    draw axes
+
+    pause 0.3
+
+Digital maps: t (@draw bar_1@)he median answer was about three thousand six hundred dollars.
+
+B: Email: about eight thousand four hundred.
+    draw bar_2
+
+    ask "Drag the Search bar to your guess, in thousands of dollars a year." on bar_3 store g default "6"
+        intro: Now search engines. What would you guess?
+        right: Close: you said {g} thousand, and the median was {g.true}.
+        wrong: Higher: the median was {g.true} thousand. Most people guess far lower.
+
+The median answer: seventeen and a half thousand dollars a year. For somet (@highlight zero effect underline@)hing whose price is zero.
+    highlight bar_3
+
+B: So if we added up what people spend on search, we'd get exactly nothing.
+    highlight zero effect circle
+
+Right, and that's the puzzle. The price is what changes hands. What you gain is th (@draw note_box note_line_1@)e gap between what a thing is worth to you and what you pay for it.
+
+B: That gap has a name, I take it.
+    highlight note_line_1
+
+Consumer surplus. And selle (@draw note_line_3 note_line_4@)rs have a mirror image: the gap between the price and the least they'd have taken.
+    draw note_line_2
+
+B: Then the gain from a whole market is just all those gaps added up?
+    highlight bar_1 bar_2 bar_3
+
+Yes, and to add them up we line the buyers up one by one. Spending tell (@highlight note@)s you what changes hands, not what anyone gains.
+    fade bar_1 bar_2 bar_3 axes to 0.3
+
+## Steps into a triangle
+use: supply_demand
+with:
+    x_label: Loaves a day (Q)
+    y_label: Price (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+      p_label: P* = $5
+      q_label: Q* = 100
+    regions:
+      - consumer_surplus
+      - producer_surplus
+    units:
+      price: [0, 10]
+      quantity: [0, 200]
+      price_unit: $
+      quantity_unit: loaves
+
+    path rect closed #8f887c points [[0,0],[50,0],[50,50],[0,50]] data true style.fill #8f887c style.fill_style wash hidden true
+    path tri closed dashed #2f6b8f points [[2,50],[2,92],[50,50]] data true hidden true
+    arrow gap1 #b5482e from.data [10,50] to.data [10,84.5] hidden true
+    arrow gap2 #b5482e from.data [30,50] to.data [30,66.5] hidden true
+    portrait marshall x 500 y 580 width 150 of "Alfred Marshall" cameo true hidden true
+    text cs_tag "Consumer surplus" #a87a14 at.data [15,61] font_size 26 hidden true
+
+    card title "Steps into a triangle"
+
+B: Price isn't value. So let's line up the buyers at Mia's bakery, most eager first. The numbers are illustrative.
+    draw axes demand_curve label_D
+
+B: The keenest would pay about nine dollars for a loaf; each one after would pay a little less. That  (@highlight demand_curve@)falling line is the demand curve.
+    point at.data [4,90] gesture tap
+
+B: Mia's costs give the supply curve. They cross at five dollars a loaf and a hundred loaves a day.
+    draw supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar
+
+So the buyers' gain is five dollars times a hundred loaves, that rectangle?
+    draw rect
+
+    draw tri
+
+    ask "Which shape is the buyers' gain from this market? Tap it." choose ["rect","tri"] answer tri stage own voice b
+        intro: Pick the shape you think is the buyers' gain.
+        right: Yes, the triangle: each buyer gains only what the loaf is worth above the price.
+        wrong: Not the rectangle: that is the money buyers pay.
+
+B: That rectangle is the money buyers hand to Mia. They lose it, she gets it: a transf (@fade rect to 0.15@)er, not a gain.
+    highlight rect
+
+B: Each buyer's gain is how far their value sits above the price. (@draw gap1@) The first gains almost five dollars, the nex (@draw gap2@)t a bit less, and the hundredth gains nothin (@point at.data [50,50] gesture tap@)g: they'd pay exactly five.
+
+Gaps that shrink steadily to zero. Stack them side by side  (@draw cs_region cs_tag@)an (@hide label_CS@)d you get a triangle, not a rectangle.
+    erase gap1 gap2 tri rect
+
+B: Alfred Marshall made this idea famous in his 1890 textbook: consumer's surplus. Sellers get th (@erase marshall@)e mirror image: b (@draw ps_region label_PS@)elow the price and above their costs, the producer surplus.
+    draw marshall
+
+So the market's gain is both triangles together, and it stops at the last loaf sold. P (@highlight equilibrium_point@)ast that, a loaf costs more to bake than anyone would pay.
+    focus cs_region ps_region cs_tag label_PS equilibrium_point
+
+Try it: drag the demand curve to the right, more eager buyers, and watch both triangles grow.
+    explore
+
+## How far to trust the triangle
+feedback:
+    style: dry
+    perfect: Marshall would sign that.
+    good: You see past the price tag.
+    poor: 'Easy to mix up spending and gain: most people do.'
+    none: The triangle will wait for you.
+use: supply_demand
+with:
+    x_label: Loaves a day (Q)
+    y_label: Price (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+      p_label: P* = $5
+      q_label: Q* = 100
+    regions:
+      - consumer_surplus
+      - producer_surplus
+    units:
+      price: [0, 10]
+      quantity: [0, 200]
+      price_unit: $
+      quantity_unit: loaves
+sources:
+    - id: kkt1990
+      title: Experimental Tests of the Endowment Effect and the Coase Theorem
+      authors: D. Kahneman, J. L. Knetsch, R. H. Thaler
+      year: 1990
+      finding: 'Students given Cornell coffee mugs asked a median selling price roughly twice the median price others offered to buy them; willingness to accept far exceeds willingness to pay. Journal of Political Economy 98(6): 1325–1348.'
+      doi: 10.1086/261737
+    - id: kkt1991
+      title: 'Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias'
+      authors: D. Kahneman, J. L. Knetsch, R. H. Thaler
+      year: 1991
+      finding: 'Summarises the mug markets: median selling prices about twice median buying prices; trading volume less than half of what was expected. Journal of Economic Perspectives 5(1): 193–206.'
+    - id: willig1976
+      title: Consumer's Surplus Without Apology
+      authors: R. D. Willig
+      year: 1976
+      finding: 'For goods with small income effects, the area under the ordinary demand curve closely approximates the exact welfare measures. American Economic Review 66(4): 589–597.'
+
+    scratch mug cites ["kkt1990","kkt1991"] work ["Mug, Cornell 1990:","sell ≈ 2 × buy"] x 860 y 400 font_size 26 hidden true
+    text sure1 "Measure: mostly agreed" #2f6b8f cites ["willig1976"] x 760 y 640 font_size 30 hidden true
+    text sure2 "Adding people up: contested" #b5482e x 760 y 595 font_size 26 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    scratch math work [{"tex":"P = a - bQ"},{"tex":"CS = \\tfrac{1}{2}\\, Q^* (a - P^*)"},{"tex":"\\text{spending} = P^* Q^*"}] x 820 y 400 font_size 28 hidden true
+    scale fish label "Her producer surplus, $" min 0 max 40 value 12 hidden true
+    path wta dashed #d0865f points [[2,99.1],[90,20.5]] data true hidden true
+    text wta_tag "WTA" #d0865f at.data [93,26] font_size 24 hidden true
+    path wta_area closed #d0865f points [[2,92],[2,99.1],[50,56.3],[50,49.1]] data true style.fill #f2c14e style.fill_style wash style.opacity 0.45 hidden true
+
+    card title "How far to trust the triangle"
+
+So the gain from a market is the triangle between the curves, not the money that changes hands.
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar cs_region label_CS ps_region label_PS parallel true
+
+B: But a triangle is only as good as the curve on top of it. And that search-engine number answered an odd question: what would you accept to give it up?
+    highlight demand_curve
+
+    pause 0.3
+
+Fair. People often ask more to give a thing up than they'd pay to get it.
+    draw mug_box mug_line_1
+
+B: In a classic 1990 experiment, students handed a coffee mug asked roug (@draw mug_line_2@)hly twice as much to sell it as others offered to buy it.
+
+Ask that question (@draw wta wta_tag@) about bread, and the curve sits higher and the (@draw wta_area@) triangle grows. So which triangle is the real gain?
+
+    erase mug
+
+B: And there's a quieter assumption: a dollar counts the same whoever holds it. A rich buyer's eagerness weighs as much as a poor buyer's need.
+    point at.data [6,92] gesture circle
+
+How sure are we? For everyday goods that take a small slice of income, the triangle is a good  (@draw sure1@)measure: mostly agreed.
+    erase wta wta_tag wta_area
+
+B: Adding those dollars up across rich and poor as if they were the sa (@draw sure2@)me is another matter: that part is contested.
+
+    draw mathq
+
+    ask "Want the algebra behind the triangle?" on mathq stage own
+
+@math
+
+    hide mathq
+
+    erase sure1 sure2
+
+Write demand as a straight line: from a, the price buyers will pay falls by b for every extra loaf.
+    draw math_box math_line_1
+
+B: The surplus is a triangle: half the base, Q star, times the height, a minus P star.
+    draw math_line_2
+
+Spending is the whole rectangle, P star times Q star, and it isn't surplus at all: it just moves from buyer to seller.
+    draw math_line_3
+
+    erase math
+
+@test
+
+    hide mathq
+
+    hide sure1 sure2
+
+    erase axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar cs_region label_CS ps_region label_PS
+
+    draw fish
+
+    ask "A fisher would sell a crate of cod for at least $20, and gets $32. What is her producer surplus?" on fish store f
+        right: Yes: {f.true}, the price minus the least she'd have taken.
+        wrong: It's {f.true}: thirty-two minus the twenty she'd have taken anyway.
+
+    erase fish
+
+    quiz "Wikipedia is free to read. What does its zero price tell us about what readers gain from it?" voice b
+        right: Right: a zero price only says nothing changes hands; the gain is all surplus.
+        wrong: Think of the search engines: the price is what changes hands, not what you gain.
+        + Nothing: the gain is its worth above a zero price
+        * Readers gain nothing, since they pay nothing
+        * The gain equals the donations it receives
+
+    quiz "A concert sells out at $60 a ticket. Which buyer gains least?"
+        right: Yes: the fan at $60 is the last buyer, with a gap of zero.
+        wrong: Surplus is the gap between what it's worth to you and the price.
+        * The fan who would have paid $200
+        + The fan who would have paid just $60
+        * Every buyer gains the same
+
+    quiz "The harbour council asks what a new ferry is worth to Harbourtown. Which number comes closest?" voice b
+        right: Yes: both surpluses. The fares just move money from riders to the operator.
+        wrong: Revenue is what changes hands. What is left over on each side?
+        * The ticket revenue
+        + Riders' value above the fare, plus the operator's margin over cost
+        * The cost of building it
+
+So do markets work? Part of the answer is this triangle: every trade where something is worth more to the buyer than it costs to make, and a gain that never shows up in the price.
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar cs_region label_CS ps_region label_PS parallel true
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:17 title "What does a tax destroy?" form title size 600 x 500 y 420
+
+    link end_again href lecture:16 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "16 of 365" x 500 y 180 font_size 22 style.opacity 0.6

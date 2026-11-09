@@ -1,0 +1,350 @@
+# How sensitive are buyers to price?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Why does a fuel price rise barely dent driving this week but change cars bought in five years? What is elasticity, and why does it decide almost everything that follows?"
+next: {"title":"Who really pays a tax?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/15-who-really-pays-a-tax.cast"}
+
+## Dearer fuel, same driving
+use: line_chart
+with:
+    x:
+      - Jan 2007
+      - Feb 2007
+      - Mar 2007
+      - Apr 2007
+      - May 2007
+      - Jun 2007
+      - Jul 2007
+      - Aug 2007
+      - Sep 2007
+      - Oct 2007
+      - Nov 2007
+      - Dec 2007
+      - Jan 2008
+      - Feb 2008
+      - Mar 2008
+      - Apr 2008
+      - May 2008
+      - Jun 2008
+      - Jul 2008
+    series:
+      - {name: Pump price, values: [100, 100, 114, 126, 138, 134, 130, 122, 123, 123, 135, 133, 134, 133, 143, 151, 166, 179, 180]}
+      - {name: Miles driven, values: [100, 98, 99.9, 98.8, 99.8, 99.5, 99.1, 99.9, 99.5, 99.7, 99.1, 97.2, 99.5, 98.4, 97.8, 97.9, 97.6, 96.9, 96.5]}
+    ylim:
+      - 0
+      - 200
+    y_label: Index, Jan 2007 = 100
+    x_label: ''
+sources:
+    - id: bls_gas
+      title: 'Average Price: Gasoline, Unleaded Regular (Cost per Gallon) in U.S. City Average (APU000074714)'
+      authors: U.S. Bureau of Labor Statistics, via FRED
+      year: 2024
+      finding: $2.27 in January 2007, $4.09 in July 2008 (index 180).
+      url: https://fred.stlouisfed.org/series/APU000074714
+    - id: fhwa_vmt
+      title: Vehicle Miles Traveled, seasonally adjusted (TRFVOLUSM227SFWA)
+      authors: U.S. Federal Highway Administration, via FRED
+      year: 2024
+      finding: Monthly miles travelled in July 2008 were 3.5% below January 2007 (seasonally adjusted).
+      url: https://fred.stlouisfed.org/series/TRFVOLUSM227SFWA
+    - id: gdh2004
+      title: 'Elasticities of road traffic and fuel consumption with respect to price and income: a review'
+      authors: Goodwin, P., Dargay, J. and Hanly, M.
+      year: 2004
+      finding: A lasting 10% rise in the real fuel price cuts fuel consumption by about 2.5% within a year and about 6% in the longer run (vehicle travel about 1% and 3%).
+      doi: 10.1080/0144164042000181725
+
+    dot pt_peak at.data [18,180] cites ["bls_gas"] hidden true
+    label lab_peak "180" left attach_to pt_peak hidden true
+    dot pt_miles at.data [18,96.5] cites ["fhwa_vmt"] hidden true
+    label lab_miles "96.5" below attach_to pt_miles hidden true
+    scratch card cites ["gdh2004"] work ["Fuel price +10%","Fuel use, 1 year: −2.5%","Fuel use, long run: −6%"] x 560 y 222 font_size 24 hidden true
+
+    card title "Dearer fuel, same driving"
+
+When petrol gets dearer, how much less do people drive? America ran the test in 2007 and 2008.
+    draw axes
+
+This is the average pump price, set to 100 in January 2007. By July 2008 i (@draw pt_peak lab_peak@)t stood at 180: up four-fifths.
+    draw line_1
+
+B: Nearly double. People must have left their cars at home.
+    highlight line_1
+
+Let's see if you agree. On the same scale, draw how far Americans drove over those months.
+    point at.data [9,8] gesture underline duration 3
+
+    ask "How far did Americans drive, month by month? Draw the miles line from January 2007." on line_2 from 0 store g
+        right: Good eye: you kept it nearly flat, and so did America.
+        wrong: Most people draw a clear drop. The real line barely dips.
+
+Here it is. At the price peak, miles driven were down about three and a half percent.
+    draw pt_miles lab_miles
+
+B: Three and a half percent, for an eighty percent jump? And a  (@point at.data [11,97.2] gesture circle@)recession had already begun that winter.
+    highlight line_2
+
+So even that small dip is not all price.
+    fade pt_peak lab_peak to 0.3
+
+Within weeks, driving barely responds: the commute is as long as before, and the car in the drive burns what it burns.
+    highlight line_2
+
+B: And five years later?
+    point at.data [18,96.5] gesture arrow
+
+Then people can change the car, or where they live.
+    fade line_1 pt_peak lab_peak to 0.35
+
+A review of many s (@draw card_box card_line_1@)tudies found that a lasting ten percent rise in fuel prices cuts fuel  (@draw card_line_2@)use about two and a half percent within a year, and a (@draw card_line_3@)bout six percent in the longer run.
+
+B: Same price rise, two very different answers. So 'how sensitive are buyers?' needs a 'given how long?' attached.
+    highlight card_line_2 card_line_3
+
+And it needs a number we can compare. That number comes next.
+    highlight card_line_1
+
+## One number for sensitivity
+use: supply_demand
+with:
+    x_label: Quantity of fuel (Q)
+    y_label: Price (P)
+    demand:
+      elasticity: 0.25
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+    supply_shift:
+      amount: 0
+      label: S′
+    change_arrows: true
+sources:
+    - id: marshall1890
+      title: 'Principles of Economics, Book III, chapter IV: The elasticity of wants'
+      authors: Marshall, A.
+      year: 1890
+      finding: Introduces the elasticity of demand as the measure of how much the amount demanded responds to a change in price.
+    - id: gdh2004
+      title: 'Elasticities of road traffic and fuel consumption with respect to price and income: a review'
+      authors: Goodwin, P., Dargay, J. and Hanly, M.
+      year: 2004
+      finding: A lasting 10% fuel price rise cuts fuel use about 2.5% within a year and about 6% in the longer run.
+      doi: 10.1080/0144164042000181725
+
+    portrait marshall cites ["marshall1890"] of "Alfred Marshall" cameo true hidden true
+    path ghost_D dashed #b5482e points [[441.2,540.5],[592.6,133.7]] style.opacity 0.3 hidden true
+    scratch card cites ["gdh2004"] work ["ε = %ΔQ ÷ %ΔP","fuel, 1 year: −2.5% ÷ 10% ≈ −0.25","|ε| < 1 inelastic,  > 1 elastic"] x 700 y 560 font_size 30 hidden true
+
+    card title "One number for sensitivity"
+
+B: Fuel use barely moves in a year, and more than twice as mu (@draw marshall@)ch given time. Alfred Marshall gave that kind of sensitivity a name in 1890: the price elasticity of demand.
+    draw axes
+
+B: It's the percent change in quantity divided by  (@erase marshall@)the percent change in price. For fuel within a  (@draw card_line_2@)year: minus two and a half over ten, so about minus a quarter.
+    draw card_box card_line_1
+
+Minus a quarter. So a small number means insensitive buyers?
+    highlight card_line_2
+
+B: Yes. Ignore the sign: below one, demand is inelastic; above one, elastic. Short-run fuel demand is inel (@draw demand_curve label_D@)astic, and on this diagram that is a steep demand curve.
+    draw card_line_3
+
+Now say a war (@draw supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar@) cuts the oil supply. Where does the supply curve go?
+    erase card
+
+    ask "Where does the supply curve go? Move it, then press Done." on supply_curve predict true store t
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+B: Left:  (@animate supply_shift.amount -25 duration 2.5@)at every price, less fuel is offered. W (@fade supply_curve label_S to 0.3@)ith steep demand, (@draw shift_equilibrium_point label_E_shift change_arrows@) the price shoots up and the quantity hardly falls.
+    draw supply_shift_curve label_S_shift
+
+Because nobody can stop driving to work this week. The price has to climb a long way before enough drivers give up enough fuel.
+    highlight price_change_arrow label_dP
+
+B: Now give buyers five years. The same su (@animate demand.elasticity 1.5 duration 3@)pply cut, but demand has flattened: the price rises far less, and the quantity falls more.
+    draw ghost_D
+
+So elasticity decides how a shock splits: into a higher price, or into less bought.
+    highlight change_arrows
+
+B: And it decides the bill. W (@animate demand.elasticity 0.25 duration 2.5@)ith inelastic demand, a dearer good means more spent (@highlight label_P_shift price_change_arrow@) on it: people pay much more and buy almost as much.
+    erase ghost_D
+
+Try it yourself: pause, and turn the demand curve by dragging near its end. Watch the same supply cut move the price less as demand flattens.
+    explore
+
+## Is elasticity a constant?
+use: bar_chart
+with:
+    labels:
+      - Short run, review
+      - Short run, corrected
+      - Long run, review
+      - Long run, corrected
+    values:
+      - 0.25
+      - 0.09
+      - 0.6
+      - 0.31
+    value_labels: true
+    colors:
+      - grey
+      - red
+      - grey
+      - red
+    label_size: 22
+    ylim:
+      - 0
+      - 0.7
+    y_label: Elasticity, sign dropped
+    box:
+      x: 90
+      'y': 170
+      w: 570
+      h: 470
+sources:
+    - id: gdh2004
+      title: 'Elasticities of road traffic and fuel consumption with respect to price and income: a review'
+      authors: Goodwin, P., Dargay, J. and Hanly, M.
+      year: 2004
+      finding: 'Fuel consumption: about −0.25 within a year, about −0.6 in the longer run.'
+      doi: 10.1080/0144164042000181725
+    - id: hij2012
+      title: Demand for gasoline is more price-inelastic than commonly thought
+      authors: Havranek, T., Irsova, Z. and Janda, K.
+      year: 2012
+      finding: 'Meta-analysis of 202 estimates from 41 studies: publication bias roughly doubles published averages; corrected mean elasticities are −0.09 short run and −0.31 long run.'
+      doi: 10.1016/j.eneco.2011.09.003
+    - id: hks2008
+      title: Evidence of a shift in the short-run price elasticity of gasoline demand
+      authors: Hughes, J. E., Knittel, C. R. and Sperling, D.
+      year: 2008
+      finding: US short-run price elasticity −0.21 to −0.34 in 1975–1980, −0.034 to −0.077 in 2001–2006; land use, fewer non-car options and income among the suspected causes.
+
+    scratch card cites ["hks2008"] work ["US, short run","1975–80: 0.21 to 0.34","2001–06: 0.03 to 0.08"] x 805 y 470 font_size 26 hidden true
+    text conf1 "More response with time:" x 830 y 520 font_size 28 hidden true
+    text conf1b "consensus" #2f7d4f x 830 y 480 font_size 40 hidden true
+    text conf2 "How much, here and now:" x 830 y 400 font_size 28 hidden true
+    text conf2b "contested" #b5482e x 830 y 360 font_size 40 hidden true
+
+    card title "Is elasticity a constant?"
+
+B: One thing nags me about that diagram. It treats fuel's elasticity as a fixed fact of nature.
+    draw axes
+
+The reviews do give fairly steady numbe (@draw bar_1@)rs. Drop the minus sign: about a  (@draw bar_3@)quarter in the short run, about point six in the long run.
+
+B: Reviews of published studies. And a clear, sizeable effect is easier to publish than a small, noisy one.
+    highlight bar_1 bar_3
+
+That is exactly what Tomas Havranek and two co-authors tested in 2012, on two hundred and two estimates. Guess: once they corrected for it, how big was the long-run number?
+    point at.data [3,0.05] gesture tap duration 4
+
+    ask "How big is the long-run elasticity once publication bias is corrected? Drag the bar." on bar_4 store g
+        right: Close: you said {g}, the corrected figure is {g.true}.
+        wrong: You said {g}; the corrected figure is {g.true}.
+
+B: About point three: ha (@draw bar_2@)lf. And the short-run number fell below a tenth.
+
+It moves over time, too. For American drivers, s (@draw card_box card_line_1 card_line_2@)hort-run estimates for the late 1970s ran from about point two to point (@draw card_line_3@) three; for 2001 to 2006, under a tenth.
+
+B: Why would drivers become less responsive? Analysts point to more spread-out suburbs, fewer alternatives to the car, and higher incomes.
+    highlight card_line_3
+
+So how sure are we? That buyers respo (@draw conf1 conf1b@)nd more when given time: consensus. How much, in (@draw conf2 conf2b@) a given place and decade: contested.
+    erase card
+
+B: Which is why an elasticity should always come with a when and a where.
+    highlight bar_2 bar_4
+
+## Math and new cases
+feedback:
+    style: dry
+    perfect: You could set fuel taxes for a living.
+    good: Ask what buyers can switch to, and you are most of the way there.
+    poor: Elasticity takes a while to sink in. Like fuel prices.
+    none: Some answers only show up in the long run.
+domain: {"x":[0,17],"y":[0,13]}
+
+    axes ax x_label "Quantity (Q)" y_label "Price (P)" hidden true
+    curve d_steep #b5482e expr "9.5 - 2.4*x" x_from 0.5 x_to 3.6 hidden true
+    label lab_steep "this week" right attach_to d_steep hidden true
+    curve d_flat #2f6b8f expr "6.2 - 0.45*x" x_from 0.3 x_to 9.5 hidden true
+    label lab_flat "years later" above attach_to d_flat hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    scratch math top-right work ["ε = %ΔQ ÷ %ΔP","spending P × Q:  %Δ ≈ %ΔP + %ΔQ","fuel: +10% − 2.5% = +7.5%","ε = −2: +10% − 20% = −10%"] font_size 34 hidden true
+    cards sortc bins ["Barely","A lot"] check each hidden true
+        * "Table salt" icon salt bin Barely
+        * "Petrol this week" icon "fuel pump" bin Barely
+        * "Croissants, rival café" icon croissant bin "A lot"
+        * "One of three airlines" icon airplane bin "A lot"
+    text w_alt "alternatives" #2f6b8f x 780 y 470 font_size 40 hidden true
+    text w_time "+ time" #2f6b8f x 780 y 400 font_size 40 hidden true
+
+    card title "Math and new cases"
+
+Before the test: the arithmetic behind it, if you want it.
+    draw ax d_steep lab_steep d_flat lab_flat
+
+    draw mathq
+
+    ask "Show the math, or skip it?" on mathq stage own voice b
+
+@math
+
+    erase mathq
+
+The elasticity is the percent change in quantity over the percent change in price.
+    draw math_box math_line_1
+
+Spending is price times quantity, so its percent change is roughly the two percent changes added.
+    draw math_line_2
+
+Fuel: pl (@draw math_line_3@)us ten, minus two and a half, so the bill rises seven and a half percent. With an ela (@draw math_line_4@)sticity of minus two: plus ten, minus twenty, so spending falls ten percent.
+
+    erase math
+
+@test
+
+    erase mathq
+
+    quiz "Harbourtown's ferry raises its fares by 10%, and trips fall by 4%. What happens to the ferry's fare takings?" voice b
+        intro: Three new cases to try it on.
+        right: They rise, by about 6%: the price rose more than the trips fell.
+        wrong: Compare the two percentages: which is bigger, the change in price or the change in trips?
+        + They rise
+        * They fall
+        * They stay the same
+
+    hide ax d_steep lab_steep d_flat lab_flat
+
+    draw sortc
+
+    ask "A 10% price rise: do buyers cut back barely, or a lot? Drop each card in its box." on sortc stage own store f
+        right: All {f.total} right: substitutes and time decide it.
+        wrong: {f} of {f.total} on the first try. Ask what else buyers could switch to, and how fast.
+
+    erase sortc
+
+    show ax d_steep lab_steep d_flat lab_flat
+
+    quiz "A city doubles its downtown parking fees. When is the drop in car trips biggest?" voice b
+        right: After a few years: people change jobs, homes and habits only slowly.
+        wrong: What can people change in a week, and what only in a few years?
+        * In the first week
+        + After a few years
+        * It is the same throughout
+
+So how sensitive are buyers? As sensitive as their al (@draw w_alt@)ternatives and their t (@draw w_time@)ime allow. Whenever a market takes a shock, that is the first thing to ask.
+    highlight d_steep d_flat
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:15 title "Who really pays a tax?" form title size 600 x 500 y 420
+
+    link end_again href lecture:14 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "14 of 365" x 500 y 180 font_size 22 style.opacity 0.6

@@ -1,0 +1,373 @@
+# What does a tax destroy?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Why does a tax cost more than the money it raises? Why does doubling a tax roughly quadruple the waste?"
+next: {"title":"What happens when the government caps rents?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/18-what-happens-when-the-government-caps.cast"}
+
+## Nine windows
+use: bar_chart
+with:
+    labels:
+      - 8 windows
+      - 9 windows
+      - 10 windows
+    values:
+      - 3.9
+      - 18.4
+      - 4.6
+    value_labels: true
+    bar_colors: same
+    icons:
+      - house
+      - house
+      - house
+    ylim:
+      - 0
+      - 25
+    y_label: Share of houses (%)
+    x_label: Ludlow, 1747–57
+    gap: 0.5
+    label_size: 24
+sources:
+    - id: oates_schwab
+      title: 'The Window Tax: A Case Study in Excess Burden'
+      authors: Oates, W. E. & Schwab, R. M.
+      year: 2015
+      finding: In 493 Ludlow dwellings (1747–57 tax records), 18.4% had exactly 9 windows against 3.9% with 8 and 4.6% with 10; spikes also at 14 and 19 windows, just under the tax's notches. For a household at a notch the excess burden was about 62% of tax paid; a 9-window household paid no tax, so all its burden was excess.
+      doi: 10.1257/jep.29.1.163
+    - id: lincoln
+      title: The Window Tax
+      authors: Lincoln Institute of Land Policy (Land Lines)
+      year: 2015
+      finding: 'Summary of Oates & Schwab: Ludlow window counts by tax notch and the excess-burden simulation.'
+      url: https://www.lincolninst.edu/publications/articles/window-tax
+
+    text taxcue "Taxed from 10" #b5482e at.data [2,10] font_size 30 hidden true
+    text records "493 houses' tax records" at.data [1,22] cites ["oates_schwab"] font_size 28 hidden true
+    text nopay "Pays no tax" at.data [1,22.5] font_size 30 hidden true
+    text burden "Excess burden" #b5482e at.data [2.05,14] font_size 36 hidden true
+
+    card title "Nine windows"
+
+Why does a tax cost more than the money it raises? Start with the houses of Ludlow, a market town in England, around 1750.
+    draw axes
+
+B: Back then Britain taxed windows. From ten w (@draw taxcue@)indows up, a house paid tax by the window.
+
+Two economists, Wallace Oates and Robert S (@draw records@)chwab, went through the old tax records for nearly five hundred Ludlow houses.
+
+Abo (@draw bar_1@)ut four percent had eight windows. About five percent had t (@draw bar_3 ends@)en.
+
+    erase records
+
+    ask "Drag the nine-window bar to your guess." on bar_2 store g default "6" voice b
+        intro: Your turn: what share do you think had exactly nine?
+        right: Well judged: you said {g}, the records say {g.true} percent.
+        wrong: You said {g}; the records say {g.true} percent.
+
+Eighteen percent. Four times as many as either neighbour.
+    highlight bar_2 effect box
+
+B: Because nine was the last number that paid nothing. The same spikes sit just under the tax's higher steps, at fourteen and nineteen windows.
+    highlight bar_2 effect pulse
+
+    erase taxcue
+
+So here's the puzzle. A nine-windo (@draw nopay@)w house pays no window tax at all.
+
+B: Then for that family the tax costs nothing?
+    highlight nopay
+
+It does cost something: a dark room they'd have happily paid a window for. The state collects nothing, and the family is still worse off.
+    highlight bar_2
+
+That loss that nobody coll (@draw burden@)ects is the excess burden of a tax, or its deadweight loss.
+
+    pause 0.5
+
+## The missing loaves
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price of a loaf (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: true
+      guides: true
+    tax:
+      amount: 2
+      side: seller
+    units:
+      price: [0, 4]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+    regions:
+      - government_revenue
+      - deadweight_loss
+    readout:
+      - revenue
+      - dwl
+    readout_at: inside
+
+    card title "The missing loaves"
+
+B: Windows are an odd case. Does an ordinary tax do the same? Take bread in Harbourtown, at Mia's bakery, with illustrative numbers.
+    draw axes demand_curve label_D supply_curve label_S
+
+Without any tax (@draw equilibrium_point label_E guide_lines label_Pstar label_Qstar@), say five hundred loaves a week sell at two dollars each.
+
+    ask "A $1 tax per loaf, paid by Mia. Move her supply curve, then press Done." on supply_curve predict true check size store t voice b
+        intro: Now the harbour council wants a dollar on every loaf, collected from Mia. Where does her supply curve go?
+        right: Yes. {t.why}
+        wrong: Not quite. {t.why}
+
+Straight up by (@animate tax.amount 25 duration 2.5@) the dollar: to bake the same loaf, Mia now needs a dollar more than before.
+    draw tax_supply_curve label_S_tax
+
+Buyers pay more, Mia keeps less, and fewer loaves are sold.
+    draw tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps
+
+B: And the council gets th (@draw wedge_region readout_revenue@)e dollar times every loaf still sold. That rectangle.
+
+    hide label_wedge
+
+That money isn't lost. It moves from buyers and Mia to the council, and pays for the harbour lights.
+    highlight wedge_region
+
+The loss is here: the loaves that are no longer sold.
+    point at.ref tax_equilibrium_point gesture underline
+
+Each of them w (@draw dwl_region readout_dwl@)as worth more to some buyer than it cost Mia to bake. Now nobody bakes it, nobody eats it, and nobody collects tax on it.
+
+    hide label_DWL
+
+B: Like the ninth window. A loaf that isn't sold pays no tax.
+    highlight dwl_region effect pulse
+
+Exactly. That triangle, about seventy dollars a week here, is what buyers and Mia lose on top of the council's three hundred and fifty. That's why a tax costs more than it raises.
+    highlight readout effect box
+
+    pause 0.5
+
+## Double the tax
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price of a loaf (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: true
+      guides: true
+    tax:
+      amount: 25
+      side: seller
+    units:
+      price: [0, 4]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+    regions:
+      - government_revenue
+      - deadweight_loss
+    readout:
+      - revenue
+      - dwl
+    readout_at: inside
+
+    scratch math top-right work [{"tex":"\\text{DWL} = \\tfrac12 \\times t \\times \\Delta Q"},{"tex":"\\Delta Q \\propto t"},{"tex":"\\text{DWL} \\propto t^2"}] font_size 28 hidden true
+
+    card title "Double the tax"
+
+So a dollar tax leaves a small triangle. What if the council doubles it to two dollars?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar tax_supply_curve label_S_tax tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps
+
+    draw wedge_region dwl_region readout
+
+    hide label_wedge label_DWL
+
+    ask "Double the tax: how many times bigger is the deadweight loss?" estimate.min 1 estimate.max 8 estimate.value 4 estimate.unit times store g stage own voice b
+        intro: Guess first: how many times bigger does the waste get? My own guess would be twice.
+        right: Yes: you said {g}, and it's about {g.true}.
+        wrong: You said {g}; it's about {g.true}.
+
+    erase estimate_1
+
+Four times. Twice the tax makes the triangle twice as tall.
+    animate tax.amount 50 duration 3 ghost true
+
+    hide label_wedge label_DWL
+
+And twice as wide, because twice as many loaves go unsold. Twice the height times twice the width: four times the area.
+    highlight dwl_region effect pulse
+
+B: And the revenue? Did that double too?
+    highlight readout_revenue effect box
+
+Less than double: the tax per loaf doubled, but fewer loaves are left to tax.
+    highlight wedge_region
+
+B: So the waste grows with the square of the tax, and the money doesn't keep up.
+    highlight readout_dwl effect box
+
+That's why economists like low rates on broad bases: many small triangles waste far less than one big one.
+    animate tax.amount 25 duration 2
+
+Try it: drag the taxed curve up, and watch the waste outrun the revenue.
+    explore
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after"}] then after
+
+    ask "Show the math, or skip it?" on mathq stage own voice b
+        intro: Want to see why it squares?
+
+@math
+
+    hide mathq
+
+The triangle's ar (@draw math_box math_line_1@)ea is half its height, the tax t, times its width, the lost loaves.
+
+With straight curve (@draw math_line_2@)s, the lost loaves grow in step with the tax.
+
+So the area g (@draw math_line_3@)rows with t times t: t squared.
+
+    erase math
+
+@after
+
+    hide mathq
+
+    pause 0.3
+
+## Is every tax wasteful?
+feedback:
+    style: dry
+    perfect: The council should hire you before the next budget.
+    good: You'd keep most of the triangles small.
+    poor: Even Henry George needed a few tries.
+    none: Taxes are slippery; the triangle is worth another look.
+use: supply_demand
+with:
+    x_label: Quantity (Q)
+    y_label: Price (P)
+    demand:
+      elasticity: 1
+    supply:
+      elasticity: 1
+    equilibrium:
+      show: true
+      guides: true
+    tax:
+      amount: 25
+      side: seller
+    regions:
+      - government_revenue
+      - deadweight_loss
+sources:
+    - id: george1879
+      title: Progress and Poverty
+      authors: George, H.
+      year: 1879
+      finding: Argued for a single tax on the value of land, which cannot be reduced in supply by taxing it.
+    - id: feldstein1999
+      title: Tax Avoidance and the Deadweight Loss of the Income Tax
+      authors: Feldstein, M.
+      year: 1999
+      finding: Counting all the ways taxable income responds, the deadweight loss of the US personal income tax may be as much as 30% of revenue, more than ten times Harberger's classic estimate.
+      doi: 10.1162/003465399558391
+    - id: ssg2012
+      title: 'The Elasticity of Taxable Income with Respect to Marginal Tax Rates: A Critical Review'
+      authors: Saez, E., Slemrod, J. & Giertz, S. H.
+      year: 2012
+      finding: The best estimates of the elasticity of taxable income are well below those Feldstein used, implying a smaller deadweight loss.
+    - id: r109
+      title: 'Rundskriv R-109/14: Prinsipper og krav ved utarbeidelse av samfunnsøkonomiske analyser mv.'
+      authors: Finansdepartementet (Norway)
+      year: 2014
+      finding: 'For measures financed over public budgets, a tax-financing cost is included: ''Skattekostnaden settes til 20 øre per krone.'' (also in R-14/99 and R-109/2005)'
+      url: https://www.regjeringen.no/globalassets/upload/fin/vedlegg/okstyring/rundskriv/faste/r_109_2014.pdf
+
+    portrait george cites ["george1879"] of "Henry George" cameo true hidden true
+    scratch evid top-right work ["US income tax, 1999: up to 30¢ per $","later studies: less","Norway: +20 øre per krone"] font_size 30 hidden true
+    scratch sure top-right work ["Waste grows with the tax: consensus","How big: contested"] font_size 30 hidden true
+
+    card title "Is every tax wasteful?"
+
+B: Is every tax this wasteful, though?
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar tax_supply_curve label_S_tax tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps
+
+    draw wedge_region dwl_region
+
+    hide label_wedge label_DWL
+
+Not every one. The triangle comes from loaves that stop being made. So a tax on something whose amount can't shrink...
+    highlight dwl_region
+
+B: Like land. Nobody makes less land because it's taxed. Henr (@draw george@)y George's 1879 book built a whole movement on that idea.
+
+    erase george
+
+Then the supply curve stands upright. The tax can't change the quantity, and the triangle shrinks to nothing: the owners pay it all.
+    animate supply.elasticity 0.06 duration 3 ghost true
+
+    hide label_wedge label_DWL
+
+B: And for real taxes, on work and on spending? How big is the waste?
+    animate supply.elasticity 1 duration 2
+
+    hide label_wedge label_DWL
+
+There we disagree. In 1999 Martin Feldstein put th (@draw evid_box evid_line_1@)e waste of the US income tax at as much as thirty cents per dollar raised.
+
+B: Later studies found peop (@draw evid_line_2@)le respond less than he assumed, so the waste is smaller.
+
+B: Norway's finance ministry tel (@draw evid_line_3@)ls planners to count twenty øre of extra cost for every krone of tax.
+
+    erase evid
+
+That a tax costs more than (@draw sure_box sure_line_1@) it raises, and the more so the bigger it gets, is consensus.
+
+Ho (@draw sure_line_2@)w much is contested.
+
+    erase sure
+
+    quiz "A city doubles its hotel tax from $5 to $10 a night. Roughly what happens to the deadweight loss?" intro "Three new cases." voice b
+        right: Roughly four times: the triangle grows twice as tall and about twice as wide.
+        wrong: Both the height and the width of the triangle grow.
+        * It doubles
+        + It roughly quadruples
+        * It stays the same
+        * It halves
+
+    quiz "Which tax wastes least?"
+        right: Land: its amount can't shrink when it is taxed, so no trades are lost.
+        wrong: Which of these can't shrink when it is taxed?
+        * A tax on one brand of cola
+        + A tax on land
+        * A tax on restaurant meals
+
+    quiz "A country taxes imported bananas so heavily that nobody imports any. The tax raises nothing. What does it cost?" voice b
+        right: The lost bananas: all of it is deadweight loss, and none of it is revenue.
+        wrong: Count what buyers and sellers lose, not what the state gets.
+        * Nothing, since nothing is collected
+        + The bananas people no longer get to eat
+        * Exactly what it would have raised
+
+So what does a tax destroy? Not the money it raises; that only changes hands. It destroys the trades that no longer happen, like the ninth window, and the loss grows with the square of the tax.
+    highlight dwl_region effect pulse
+
+    pause 0.6
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:18 title "What happens when the government caps rents?" form title size 600 x 500 y 420
+
+    link end_again href lecture:17 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "17 of 365" x 500 y 180 font_size 22 style.opacity 0.6

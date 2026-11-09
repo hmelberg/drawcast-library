@@ -1,0 +1,305 @@
+# How do we measure how rich a country is?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "What does GDP count, and why per person? Why compare countries at local prices (PPP) rather than exchange rates?"
+next: {"title":"Is GDP the right measure of how well we live?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/11-is-gdp-the-right-measure-of-how-well-we.cast"}
+
+## A year's output
+use: bar_chart
+with:
+    labels:
+      - United States
+      - China
+      - India
+      - Norway
+    values:
+      - 27.8
+      - 18.3
+      - 3.5
+      - 0.5
+    value_labels: true
+    bar_colors: same
+    y_label: GDP, $ trillion (2023)
+sources:
+    - id: wdi_gdp
+      title: 'World Development Indicators: GDP (current US$), NY.GDP.MKTP.CD'
+      authors: World Bank
+      year: 2025
+      finding: 'GDP in 2023 at market exchange rates: United States $27.8 trillion, China $18.3 trillion, India $3.5 trillion, Norway $0.50 trillion'
+      url: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+    - id: wdi_pop
+      title: 'World Development Indicators: Population, total (SP.POP.TOTL)'
+      authors: World Bank
+      year: 2025
+      finding: 'Population 2023: India 1.44 billion, Norway 5.5 million'
+      url: https://data.worldbank.org/indicator/SP.POP.TOTL
+
+    scratch loaf top-right work ["flour $40 → bread $100","sales: 40 + 100 = 140 ✗","value added: 40 + 60 = 100","= wages + profits"] font_size 30 hidden true
+    scratch def top-right work ["GDP:","final goods & services","one year · market prices"] font_size 30 hidden true
+    scratch pop top-right cites ["wdi_pop"] work ["India: 7 × Norway's GDP","India: 1.44 billion people","Norway: 5.5 million"] font_size 30 hidden true
+
+    card title "A year's output"
+
+How do we measure how rich a country is? Most people reach for one number: GDP.
+    draw axes
+
+Here it is for four count (@draw bar_1@)ries in 2023, in US dollars. The United States: about twenty-eight trillion.
+
+Chi (@draw bar_2@)na, about eighteen tri (@draw bar_3@)llion. India, three and a half.
+
+An (@draw bar_4@)d Norway: half a trillion, barely a sliver.
+
+    pause 0.3
+
+B: Fine, but a total of what, exactly? Money in the bank?
+    highlight axes effect underline
+
+Not wealth: a year's production. Take one loaf of (@draw loaf_box@) bread in Harbourtown, with illustrative prices.
+
+The town's miller sells Mia forty dollars of flour, and she sells the loaf for a hundred.
+    draw loaf_line_1
+
+    quiz "How much does this add to Harbourtown's GDP?" store q1
+        right: A hundred: only the final loaf counts.
+        wrong: The flour is already inside the loaf.
+        * $140
+        + $100
+        * $40
+
+B: I went for a hundred and forty, both sales. But that counts the flour twice, doesn't it? It's already inside the loaf.
+    draw loaf_line_2
+
+Exactly. GDP counts only the final good: the hundred-dollar loaf.
+    highlight loaf_line_1 part "bread $100" effect circle
+
+That hundred is forty dollars added by the miller plus sixty added by Mia: the value each of them added.
+    draw loaf_line_3
+
+Add up what they earned instead, wages an (@draw loaf_line_4@)d profits, and you get the same hundred. Output and income are one number seen from two sides.
+
+    erase loaf
+
+So GDP is the market value of all the final goods and services a country produces in a year.
+    draw def_box def_line_1 def_line_2 def_line_3
+
+    erase def
+
+B: Then India's economy is seven times Norway's. Is the average Indian seven times richer?
+    highlight bar_3 bar_4
+
+Far from it. India's total is shared by one point four billion people; Norway's by five and a half million.
+    draw pop_box pop_line_1 pop_line_2 pop_line_3
+
+    pause 0.8
+
+## Per person, at local prices
+use: bar_chart
+with:
+    labels:
+      - United States
+      - China
+      - India
+      - Norway
+    values:
+      - [82.6, 13, 2.4, 91]
+      - [82.6, 25.2, 9.9, 107.8]
+    stage: 0
+    value_labels: true
+    bar_colors: same
+    y_label: GDP per person, $ thousand (2023)
+sources:
+    - id: wdi_pc
+      title: 'World Development Indicators: GDP per capita (current US$), NY.GDP.PCAP.CD'
+      authors: World Bank
+      year: 2025
+      finding: '2023, market exchange rates: United States $82,600, China $13,000, India $2,430, Norway $91,000'
+      url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+    - id: wdi_ppp
+      title: 'World Development Indicators: GDP per capita, PPP (current international $), NY.GDP.PCAP.PP.CD'
+      authors: World Bank / International Comparison Program
+      year: 2025
+      finding: '2023, at purchasing power parity: United States $82,600, China $25,200, India $9,850, Norway $107,800'
+      url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD
+
+    text rate_mkt "at market exchange rates" at.percent [55,88] cites ["wdi_pc"] hidden true
+    text rate_ppp "at PPP (international $)" at.percent [55,88] cites ["wdi_ppp"] hidden true
+    scratch hair top-right work ["a haircut:","Delhi ≪ New York"] font_size 30 hidden true
+
+    card title "Per person, at local prices"
+
+B: So divide each total by its people.
+    draw axes rate_mkt
+
+B: The Un (@draw bar_1@)ited States: about eighty-three thousand dollars a head.
+
+B: China: about thirteen thousand.
+    draw bar_2
+
+    ask "Drag India's bar to your guess." on bar_3 store g default "20" voice b
+        intro: Before India's bar rises, drag it to your guess.
+        right: Close: India's GDP per person was about $2,400.
+        wrong: Lower still: about $2,400.
+
+B: About twenty-four hundred dollars: less than a thirtieth of the American figure.
+    highlight bar_3
+
+B: And Norway, a sliver a m (@draw bar_4@)oment ago, jumps to the top: about ninety-one thousand.
+
+    pause 0.3
+
+Twenty-four hundred dollars a year. Could anyone live on that in New York?
+    highlight bar_3 effect circle
+
+    erase rate_mkt
+
+B: Not in New York. But in India a haircut, a bus ride or a plate of food costs a fraction of what it costs there.
+    draw hair_box hair_line_1 hair_line_2
+
+So the exchange rate makes poor countries look poorer than they live?
+    highlight bar_3 bar_2
+
+    erase hair
+
+B: Yes. So economists convert at purchasing power parity, (@draw rate_ppp@) PPP: the rate at which the same basket of goods costs the same in both countries.
+
+B: The answer comes in international dollars, which buy in each country what one dollar buys in America.
+    animate stage 1 duration 4 ghost true
+
+India's bar quadruples, to almost ten thousand. China's doubles, to about twenty-five thousand.
+    highlight bar_3 bar_2
+
+B: And the American bar stays put: in America, an international dollar is simply a dollar.
+    highlight bar_1 effect box
+
+Pause and slide between the two yourself. Watch which bars move most.
+    explore params ["stage"]
+
+B: The poorest, because haircuts and rents can't be shipped abroad. Where wages are low, they stay cheap.
+    highlight bar_3 effect pulse
+
+    pause 0.8
+
+## How far to trust it
+use: bar_chart
+with:
+    labels:
+      - China
+      - India
+    values:
+      - [8.8, 3.8]
+      - [5.3, 2.3]
+    stage: 0
+    value_labels: true
+    bar_colors: same
+    gap: 0.6
+    y_label: GDP 2005 at PPP, int'l $ trillion
+sources:
+    - id: crs2008
+      title: How Large is China's Economy? Does it Matter? (CRS Report RS22808)
+      authors: Morrison, W. M. & Martin, M. F.
+      year: 2008
+      finding: The World Bank's December 2007 ICP results cut its estimate of China's 2005 GDP at PPP by 40%, from $8.8 trillion to $5.3 trillion, reflecting China's first participation in the price survey; India's estimate fell by about 40% too
+      url: https://www.everycrsreport.com/reports/RS22808.html
+    - id: merco2007
+      title: W. Bank downsized India's economy to fifth world largest
+      authors: MercoPress
+      year: 2007
+      finding: After the revision India's 2005 GDP at PPP was $2.34 trillion, against $3.8 trillion before
+      url: https://en.mercopress.com/2007/12/20/w-bank-downsized-india-s-economy-to-fifth-world-largest
+    - id: wdi_conv
+      title: 'World Development Indicators: PPP conversion factor (PA.NUS.PPP), official exchange rate (PA.NUS.FCRF), GDP per capita (NY.GDP.PCAP.CD)'
+      authors: World Bank
+      year: 2025
+      finding: 'India 2023: GDP per person about ₹201,000; 82.6 rupees per US dollar at the market rate; 20.5 rupees per international dollar at PPP'
+      url: https://data.worldbank.org/indicator/PA.NUS.PPP
+
+    scratch use top-right work ["buying abroad → market rate","how people live → PPP"] font_size 28 hidden true
+    scratch sure top-right work ["PPP for living standards: consensus","exact levels: mostly agreed"] font_size 28 hidden true
+    scratch math top-right cites ["wdi_conv"] work ["India 2023: ₹201,000 per person","÷ 82.6 ₹ per $ ≈ $2,430","÷ 20.5 ₹ per int'l $ ≈ $9,800"] font_size 28 hidden true
+
+    card title "How far to trust it"
+
+B: Here's my worry. Who decides what a haircut costs in Delhi?
+    draw axes
+
+Price surveys: thousands of prices, collected in most of the world's countries every few years. And they can move the answer a lot.
+    highlight axes effect underline
+
+Take China in 2005. Before its first f (@draw bar_1@)ull price survey, its economy was put at eight point eight trillion international do (@draw bar_2 ends@)llars.
+
+Then, in December 2007, the survey results came in, and the estimate fell by forty percent, to five point three trillion.
+    animate stage 1 duration 3 ghost true
+
+B: Same China, same year, same factories. Only the measured prices changed.
+    highlight bar_1 effect box
+
+India's estimate fell by almost as much: from three point eight to two point three trillion.
+    highlight bar_2 effect box
+
+B: And another thing. When India bu (@draw use_box use_line_1@)ys oil or aircraft abroad, it pays at the market exchange rate, not at PPP.
+
+True. Market rates for what a country can buy (@draw use_line_2@) from the world; PPP for how its people live.
+
+    erase use
+
+How sure are we? That PPP is the (@draw sure_box sure_line_1@) right yardstick for living standards: consensus.
+
+The exact levels: mostly agreed, with real margins of error.
+    draw sure_line_2
+
+    erase sure
+
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test
+
+    ask "Show the conversion worked out, or skip it?" on mathq stage own voice b
+        intro: Want to see a conversion worked out?
+
+@math
+
+    erase mathq
+
+Income per person in India in 2023 was about two hundred and one thousand rupees. Divide by about eighty-three rupees per dollar, the market rate, and you get about twenty-four hundred dollars.
+    draw math_box math_line_1 math_line_2
+
+Divide by twenty and a half rupees, the PPP rate, and you get about ninety-eight hundred: the same rupees, four times the dollars.
+    draw math_line_3
+
+    erase math
+
+@test
+
+    erase mathq
+
+    quiz "A carpenter buys wood for $300 and sells the table for $800. How much does the carpenter's work add to GDP?" intro "Three new cases."
+        right: $500: the value the carpenter added to the wood.
+        wrong: What did the carpenter add to the wood?
+        * $300
+        + $500
+        * $800
+        * $1,100
+
+    quiz "Country X's income per person is $4,000 at market exchange rates, and its prices are about half America's. Roughly what is it at PPP?" voice b
+        right: About $8,000: at half the prices, each dollar buys twice as much.
+        wrong: If things cost half as much, how much does each dollar buy?
+        * $2,000
+        * $4,000
+        + $8,000
+
+    quiz "A government wants to know how many foreign-made vaccines its economy could pay for. Which measure fits?"
+        right: Market rates: vaccines bought abroad are paid for at world prices.
+        wrong: Who sets the price of a vaccine bought abroad?
+        + GDP at market exchange rates
+        * GDP at PPP
+
+So a country's riches are measured as a year's output per person, at the prices its people actually pay, and measured with error. Whether that number tells us how well people live is a question of its own.
+    highlight bar_1 bar_2
+
+    pause 0.8
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:11 title "Is GDP the right measure of how well we live?" form title size 600 x 500 y 420
+
+    link end_again href lecture:10 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "10 of 365" x 500 y 180 font_size 22 style.opacity 0.6

@@ -220,6 +220,37 @@
         "paradoxes/README.md"
       ],
       "updated": "2026-10-23"
+    },
+    {
+      "slug": "econ-from-zero",
+      "title": "Economics from zero",
+      "files": [
+        "econ-from-zero/01-why-are-some-countries-rich-and-others.cast",
+        "econ-from-zero/02-what-is-it-that-is-scarce.cast",
+        "econ-from-zero/03-is-economics-a-topic-or-a-method.cast",
+        "econ-from-zero/04-why-use-models-that-are-obviously-false.cast",
+        "econ-from-zero/05-why-do-people-trade-at-all.cast",
+        "econ-from-zero/06-why-is-water-cheap-and-diamonds.cast",
+        "econ-from-zero/07-where-does-a-price-come-from-if-nobody.cast",
+        "econ-from-zero/08-what-happens-when-demand-rises-or-supply.cast",
+        "econ-from-zero/09-why-did-the-price-of-oil-quadruple-in.cast",
+        "econ-from-zero/10-how-do-we-measure-how-rich-a-country-is.cast",
+        "econ-from-zero/11-is-gdp-the-right-measure-of-how-well-we.cast",
+        "econ-from-zero/12-what-do-we-know-so-far-and-what-don-t-we.cast",
+        "econ-from-zero/13-do-markets-work-and-what-would-that-even.cast",
+        "econ-from-zero/14-how-sensitive-are-buyers-to-price.cast",
+        "econ-from-zero/15-who-really-pays-a-tax.cast",
+        "econ-from-zero/16-how-much-do-buyers-and-sellers-gain-from.cast",
+        "econ-from-zero/17-what-does-a-tax-destroy.cast",
+        "econ-from-zero/18-what-happens-when-the-government-caps.cast",
+        "econ-from-zero/19-what-happens-when-the-government-sets-a.cast",
+        "econ-from-zero/20-how-does-a-price-coordinate-millions-who.cast",
+        "econ-from-zero/course.md",
+        "econ-from-zero/pool.json",
+        "econ-from-zero/index.html",
+        "econ-from-zero/README.md"
+      ],
+      "updated": "2026-11-09"
     }
   ]
 }

@@ -1,0 +1,388 @@
+# Why are some countries rich and others poor?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Why did living standards stay flat for millennia and then shoot up like a hockey stick? Why do the gaps between countries today dwarf anything in history?"
+next: {"title":"What is it that is scarce?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/02-what-is-it-that-is-scarce.cast"}
+
+## The hockey stick
+use: line_chart
+with:
+    x:
+      - 1
+      - 1000
+      - 1500
+      - 1600
+      - 1700
+      - 1820
+      - 1850
+      - 1870
+      - 1900
+      - 1920
+      - 1940
+      - 1950
+      - 1960
+      - 1970
+      - 1980
+      - 1990
+      - 1991
+      - 1992
+      - 1993
+      - 1994
+      - 1995
+      - 1996
+      - 1997
+      - 1998
+      - 1999
+      - 2000
+      - 2001
+      - 2002
+      - 2003
+      - 2004
+      - 2005
+      - 2006
+      - 2007
+      - 2008
+      - 2009
+      - 2010
+      - 2011
+      - 2012
+      - 2013
+      - 2014
+      - 2015
+      - 2016
+      - 2017
+      - 2018
+      - 2019
+      - 2020
+      - 2021
+      - 2022
+    series:
+      - {name: World, values: [1100, 1100, 1300, 1400, 1400, 1500, 1800, 2100, 3100, 3400, 4700, 4600, 6000, 8200, 9900, 11275, 11183, 11148, 11138, 11265, 11443, 11692, 11980, 12098, 12361, 12781, 12915, 13104, 13411, 13921, 14377, 14935, 15520, 15756, 15457, 16051, 16479, 16785, 17122, 17503, 17871, 18234, 18715, 19189, 19551, 18812, 19876, 20422]}
+    ylim:
+      - 0
+      - 22000
+    x_label: Year
+    y_label: GDP per person ($, 2011 prices)
+sources:
+    - id: maddison2023
+      title: Maddison Project Database 2023 (via Our World in Data)
+      authors: Bolt, J. & van Zanden, J. L.
+      year: 2024
+      finding: 'GDP per person in international dollars at 2011 prices: world about $1,100 in year 1 and 1000, $1,500 in 1820, $20,400 in 2022'
+      url: https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database
+
+    dot p1 at.data [1,1100] hidden true
+    label p1_label "$1,100" above-right attach_to p1 hidden true
+    dot p1820 at.data [1820,1500] hidden true
+    label p1820_label "$1,500" above-left attach_to p1820 hidden true
+    dot p2022 at.data [2022,20400] cites ["maddison2023"] hidden true
+    label p2022_label "$20,400" left attach_to p2022 hidden true
+    text handle "handle" at.data [900,4200] font_size 30 hidden true
+    text blade "blade" at.data [1780,12000] font_size 30 hidden true
+
+    card title "The hockey stick"
+
+Why are some countries rich and others poor? To see how strange that question is, start with the whole world, two thousand years ago.
+    draw axes
+
+This is average income per person, for the whole planet, in dollars adjusted for prices.
+    highlight axes
+
+In the year one, it was about eleven hundred dollars a year: roughly what people in the poorest countries live on today.
+    draw p1 p1_label
+
+B: Let me guess: it crept up slowly, century after century.
+    point at.data [1000,4000] gesture tap
+
+    ask "Draw the line on, from the year 1000 to today." on line_1 from 1000 store g relative true
+        default: 1150,1800,1930,2060,2216,2255,2281,2320,2346,2372,2385,2398,2411,2424,2437,2438,2440,2441,2442,2444,2445,2446,2447,2449,2450,2451,2453,2454,2455,2456,2458,2459,2460,2462,2463,2464,2466,2467,2468,2470,2471,2472,2473,2475,2476,2477,2479
+        intro: Draw your own guess first, from the year one thousand to today.
+        right: Close: on average you were {g.pct} off.
+        wrong: On average you were {g.pct} off. The real line hugs the floor for centuries, then leaps.
+
+Here is the estimate: still about eleven (@point at.data [1000,1100] gesture tap duration 1.5@) hundred in the year one thousand, and only fifteen hu (@draw p1820 p1820_label@)ndred by 1820, after eighteen centuries.
+
+B: So for almost all of history, a child grew up about as poor as their great-grandparents.
+    highlight p1 p1820
+
+Then the line turns: twenty-one hundred by 1870, forty-six hundred by 1950,
+    blocking false
+
+    point at.data [1870,2100] gesture tap duration 1.5
+
+    point at.data [1950,4600] gesture tap duration 1.5
+
+and about twenty thousand today, more than thirteen times the level of 1820.
+    draw p2022 p2022_label
+
+    scratch readout at.data [800,15000] work ["×13.6 since 1820"] font_size 30
+
+Economists call this shape the hockey stick (@draw handle@): a long flat handle, t (@draw blade@)hen a blade.
+
+B: How can anyone know incomes in the year one thousand?
+    erase readout
+
+Not precisely: these are reconstructions from wages, prices and harvest records. But even a large error would not bend the handle much.
+    highlight handle effect underline
+
+So the first puzzle is not why some countries are poor. Poverty was normal. The puzzle is why, after 1800, some places stopped being poor.
+    highlight blade effect circle
+
+    pause 0.8
+
+## The great divergence
+use: line_chart
+with:
+    x:
+      - 1820
+      - 1870
+      - 1913
+      - 1929
+      - 1950
+      - 1960
+      - 1970
+      - 1980
+      - 1990
+      - 2000
+      - 2010
+      - 2022
+    series:
+      - {name: Britain, values: [3306, 5829, 8212, 8772, 11061, 13780, 17162, 20612, 26189, 31946, 34754, 38406]}
+      - {name: United States, values: [2674, 4803, 10107, 11954, 15240, 18057, 23958, 29611, 36982, 45886, 49266, 58487]}
+      - {name: Norway, values: [1384, 2177, 4415, 5581, 8655, 11483, 15983, 24031, 29434, 54039, 78476, 88366]}
+      - {name: China, values: [882, 945, 985, 1003, 799, 1057, 1398, 1930, 2982, 4730, 9658, 19238]}
+      - {name: South Korea, values: [816, 820, 1171, 1495, 998, 1547, 2974, 6064, 13874, 23108, 31537, 41321]}
+      - {name: Burundi, values: [null, null, null, null, 595, 733, 893, 952, 1124, 739, 717, 717]}
+    ylim:
+      - 0
+      - 95000
+    x_label: Year
+    y_label: GDP per person ($, 2011 prices)
+sources:
+    - id: maddison2023
+      title: Maddison Project Database 2023 (via Our World in Data)
+      authors: Bolt, J. & van Zanden, J. L.
+      year: 2024
+      finding: 'GDP per person, international dollars at 2011 prices, 1820 → 2022: UK 3,306 → 38,406; US 2,674 → 58,487; Norway 1,384 → 88,366; China 882 → 19,238; South Korea 816 → 41,321; Burundi 2022: 717. Widest 1820 gap among 54 countries ≈ 5:1 (UK vs Nepal)'
+      url: https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database
+
+    scratch c1820 cites ["maddison2023"] work ["1820","Britain $3,300","China $880","Korea $820"] x 420 y 500 hidden true
+    scratch ratio cites ["maddison2023"] work ["Burundi 2022: $717","Norway ÷ Burundi ≈ 123","1820: widest gap ≈ 5 : 1"] x 420 y 500 hidden true
+
+    card title "The great divergence"
+
+The blade did not rise everywhere at once. Here are a few countries in 1820 and in 2022, in the same fixed dollars.
+    draw axes
+
+B: Who was richest in 1820?
+    point at.data [1820,4000] gesture tap duration 1.5
+
+Britain, with (@draw c1820_box c1820_line_1 c1820_line_2@) about thirty-three hundred dollars a head. China and Korea had (@draw c1820_line_3 c1820_line_4@) eight or nine hundred: a gap of about four to one.
+
+B: And two centuries later the gap is still about four to one?
+    erase c1820
+
+Not even close. Britai (@draw line_1@)n reached about thirty-eight thousand, the United Sta (@draw line_2@)tes fifty-eight thousand, and (@draw line_3@) Norway, with its oil, eighty-eight thousand.
+
+China climbed to about nineteen thousand, most of it since 1980.
+    draw line_4
+
+B: And Korea?
+    fade line_1 line_2 line_3 line_4 to 0.3
+
+Among the poorest in 1820 and still poor in 1950, South Korea passed forty-one thousand.
+    draw line_5
+
+Meanwhile, av (@draw line_6@)erage income in Burundi in 2022 was about seven hu (@draw ratio_box ratio_line_1@)ndred dollars: below the world average two thousand years ago.
+
+B: So Norway t (@draw ratio_line_2@)o Burundi is now more than a hundred to one, where the widest gap (@draw ratio_line_3@)s in 1820 were about five to one.
+
+Historians c (@erase ratio@)all this widening the Gre (@fade line_1 line_2 line_3 line_4 to 1@)at Divergence. And Korea shows the other half of t (@highlight line_5@)he puzzle: being poor is not destiny.
+
+    pause 0.8
+
+## Small rates, huge gaps
+use: equation_plot
+with:
+    equation: y = 1000*(1 + g)^n
+    variable: 'n'
+    params:
+      g: {value: 0.01, min: 0, max: 0.03, step: 0.001, label: growth rate g}
+    x_range:
+      - 0
+      - 200
+    y_range:
+      - 0
+      - 60000
+    x_label: years
+    y_label: $ per person
+    marks:
+      - {kind: point, at: 200, label: false, id: end}
+
+    text m7 "×7.3" at.data [180,11500] font_size 28 hidden true
+    dot g14 at.data [200,14600] hidden true
+    label g14_label "×14?" left attach_to g14 hidden true
+    text m52 "×52" at.data [180,55000] font_size 28 hidden true
+    scratch rule work ["70 ÷ 2 = 35 years","to double"] x 400 y 320 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after"}] then after hidden true
+    scratch mth work [{"tex":"(1+g)^T = 2"},{"tex":"T\\,\\ln(1+g) = \\ln 2 \\approx 0.69"},{"tex":"\\ln(1+g) \\approx g"},{"tex":"T \\approx \\frac{0.69}{g} \\approx \\frac{70}{100\\,g}"}] x 400 y 320 hidden true
+
+    card title "Small rates, huge gaps"
+
+How can gaps grow that wide in only two centuries?
+    draw axes
+
+    pause 0.4
+
+B: Small growth rates, repeated. Take a c (@draw eq curve_0@)ountry at a thousand dollars a head, an illustrative number, growing one per cent a year.
+
+B: After two hundred years it is about seven times richer.
+    draw end m7
+
+And at two per cent? Twice the rate, so fourteen times, I suppose.
+    draw g14 g14_label
+
+B: Keep a ghost of the one per cent path, and watch. After the same two hundred years: fifty-two times richer.
+    animate params.g.value 0.02 duration 3.5 ghost true
+
+So one extra percentage point turns seven into fifty-two.
+    draw m52
+
+    erase g14 g14_label
+
+B: A handy rule: divide seventy by the growth rate to get the years it takes to double.  (@draw rule_box rule_line_1@)At two per cent, that is thirty (@draw rule_line_2@)-five years: about twice in a lifetime.
+
+    erase rule
+
+B: Drag the growth rate yourself. Try three per cent, and watch where the line ends.
+    explore
+
+That is why economists obsess over a single percentage point: over a few generations it is the difference between staying poor and getting rich.
+    highlight eq_param_g
+
+B: If you want to see where the seventy comes from, open the math; if not, skip it.
+    draw mathq
+
+    ask "Where the rule of 70 comes from: open the math, or skip it?" on mathq store m default "Skip it" stage own voice b
+
+@math
+
+    erase mathq
+
+If you chose the math: doubling means one plus g, multiplied T times, equals two.
+    draw mth_box mth_line_1
+
+Take logs: T times the log of one plus g equals the log of two, about 0.69.
+    draw mth_line_2
+
+For small g, the log of one plus g is close to g itself.
+    draw mth_line_3
+
+So T is about 0.69 over g: seventy over the rate in per cent.
+    draw mth_line_4
+
+    pause 1
+
+    erase mth
+
+@after
+
+    erase mathq
+
+    pause 0.5
+
+## Four suspects
+sources:
+    - id: ajr2001
+      title: 'The Colonial Origins of Comparative Development: An Empirical Investigation'
+      authors: Acemoglu, D., Johnson, S. & Robinson, J. A.
+      year: 2001
+      finding: Where colonisers set up extractive institutions, countries are poorer today; institutions explain much of the income gap between former colonies
+    - id: sachs2003
+      title: 'Institutions Don''t Rule: Direct Effects of Geography on Per Capita Income'
+      authors: Sachs, J. D. (NBER Working Paper 9490)
+      year: 2003
+      finding: Malaria risk lowers income per person even controlling for the quality of institutions
+      url: https://www.nber.org/papers/w9490
+    - id: maddison2023
+      title: Maddison Project Database 2023 (via Our World in Data)
+      authors: Bolt, J. & van Zanden, J. L.
+      year: 2024
+      finding: 'GDP per person 2022 (2011 $): South Korea 41,321, North Korea 1,569 (a rough estimate)'
+      url: https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database
+
+    text q "2 % a year — and keep it up?" center font_size 40 hidden true
+    box cap "Capital" x 330 y 500 width 250 height 160 radius 10 icon factory font_size 30 hidden true
+    box ideas "Ideas" x 610 y 500 width 250 height 160 radius 10 icon "light bulb" font_size 30 hidden true
+    box inst "Institutions" cites ["ajr2001"] x 330 y 310 width 250 height 160 radius 10 icon "classical building" font_size 30 hidden true
+    box geo "Geography & culture" cites ["sachs2003"] x 610 y 310 width 250 height 160 radius 10 icon globe font_size 28 hidden true
+    group suspects members ["cap","ideas","inst","geo"] hidden true
+    text how "how" x 140 y 470 font_size 34 hidden true
+    text why "why" x 140 y 270 font_size 34 hidden true
+    portrait acemoglu x 870 y 420 width 200 of "Daron Acemoglu" cameo true hidden true
+    box facts "Facts: consensus" x 870 y 500 width 220 height 90 font_size 26 hidden true
+    box causes "Causes: contested" x 870 y 310 width 220 height 90 font_size 26 hidden true
+
+    card title "Four suspects"
+
+So the whole question shrinks to this: why did some places start growing at two per cent a year, and keep it up, while others did not?
+    draw q
+
+    pause 0.6
+
+Economists have four main suspects.
+    erase q
+
+First, capital: machines, roads and factories, more tools for every worker.
+    draw cap
+
+Second, ideas: new technology, from steam engines to vaccines, that makes the same worker produce more.
+    draw ideas
+
+Third, institutions: the rules of the game. Who owns what, whether courts are fair, and whether those in power can be removed.
+    draw inst
+
+Fourth, geography and culture: climate, disease, access to the sea, and how far people trust strangers.
+    draw geo
+
+B: But capital and ideas ar (@draw how@)e just how a country grows. The real fight is ov (@draw why@)er why some countries get them and others don't.
+
+And there the field splits.  (@draw acemoglu@)Daron Acemoglu, Simon Johnson and James Robinson argue that instit (@highlight inst effect box@)utions rule: where colonisers set up rules that served only a few, countries are poorer today.
+
+B: Jeffrey (@erase acemoglu@) Sachs answers that geography also  (@highlight geo effect box@)acts directly: where malaria is rife, incomes are lower, even with the same quality of government.
+
+How sure are we? About the hockey stick and the diverge (@draw facts@)nce: consensus. About the de (@draw causes@)ep causes: still contested.
+
+    ask "Which suspect does the Korean split point to? Tap it." choose ["cap","ideas","inst","geo"] answer inst stage own voice b
+        intro: Three questions to try the idea on new cases. In 1945 Korea was split in two: at the split, the same geography, the same culture, the same history. By the best estimates, the South is now more than twenty times richer per person than the North.
+        right: Institutions. Geography and culture were shared; what differed after 1945 were the rules: markets and courts in the South, central planning under one party in the North.
+        wrong: Which of the four was different on the two sides of the border after 1945?
+
+    quiz "Country A grows 1% a year, country B 3%. Both start at $2,000 a head. After 70 years, roughly how many times richer is B than A?"
+        right: About four times. A doubles once in 70 years; B doubles about three times, to eight times its start.
+        wrong: Use the rule of 70: count how many times each one doubles in 70 years.
+        * About the same
+        * About twice
+        + About four times
+        * About ten times
+
+    quiz "A poor country manages 7% growth a year. Roughly how many years until its income per person doubles?" voice b
+        right: About ten: seventy divided by seven.
+        wrong: Divide seventy by the growth rate.
+        * 7
+        + 10
+        * 35
+        * 70
+
+Rich and poor are not two kinds of country so much as two speeds. The real puzzle, and a thread through this course, is what lets a country find the faster speed and hold it.
+    highlight suspects
+
+    pause 1
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:2 title "What is it that is scarce?" form title size 600 x 500 y 420
+
+    link end_again href lecture:1 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "1 of 365" x 500 y 180 font_size 22 style.opacity 0.6
