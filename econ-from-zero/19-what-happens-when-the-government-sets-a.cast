@@ -99,6 +99,7 @@ with:
     curve zero expr "0" hidden true
     region taxpayer #c96567 x_from 30 x_to 70 between ["floor_line","zero"] style.fill #c96567 hidden true
     text label_tax "taxpayers" at.data [61,22] font_size 28 hidden true
+    text tick7 "$7" at.data [-5,70] font_size 22 hidden true
 
     card title "Who gains, who loses"
 
@@ -109,7 +110,7 @@ B: Left alone, buyers and fishers settle at five dollars a kilo and five hundred
     draw equilibrium_point label_E guide_lines label_Pstar label_Qstar
 
 Then the harbour council promises fishers at least seven dollars a kilo.
-    draw floor_line label_floor
+    draw floor_line label_floor tick7
 
 B: At seven, buyers want less: say three hundred kilos.
     draw surplus_guide_qd label_Qd readout_qd
@@ -127,15 +128,17 @@ Who gains? The fishers who still sell get two dollars more on every kilo, taken 
 
 B: And buyers lose more than that: the fish they no longer buy at all.  (@draw dwl_region@)Trades that would have helped both sides simply vanish.
 
-That lost part go (@highlight dwl_region@)es to nobody. It's the deadweight loss.
+That lost part go (@highlight label_DWL@)es to nobody. It's the deadweight loss.
     draw label_DWL
 
 B: And if the council buys up the surp (@draw taxpayer label_tax@)lus to keep its promise, taxpayers pay seven dollars a kilo for fish nobody wanted.
 
-So fishers gain, while buyers and ta (@highlight dwl_region taxpayer@)xpayers lose more than fishers gain.
-    highlight transfer_region
+So fishers gain, while buyers and ta (@highlight label_DWL label_tax@)xpayers lose more than fishers gain.
+    highlight label_transfer
 
     erase taxpayer label_tax
+
+    erase readout tick7
 
 Pause and drag the floor yourself. Push it below five dollars, then raise it slowly.
     explore
@@ -191,19 +194,23 @@ sources:
       finding: 'Under Civil Aeronautics Board fare regulation, fares and flight frequency were high and load factors low: in the early 1970s only about 50 percent; airlines competed on service.'
       url: https://www.econlib.org/library/Enc/AirlineDeregulation.html
 
-    text cue_unemp "= unemployed" at.data [50,90] font_size 26 hidden true
+    text cue_unemp "unemployed" at.data [50,90] font_size 26 hidden true
     scratch nj cites ["ck1994"] work ["New Jersey, 1992","$4.25 → $5.05","fast-food jobs: no fall"] x 815 y 330 font_size 24 hidden true
-    portrait card x 850 y 560 width 120 of "David Card" cameo true hidden true
+    portrait card x 850 y 560 width 200 of "David Card" cameo true hidden true
     scratch mono work ["one big employer","sets w too low","floor: more pay, more jobs"] x 815 y 330 font_size 24 hidden true
     scratch sure cites ["nw2000"] work ["goods floors → surplus:","consensus","minimum wage → jobs:","contested"] x 815 y 330 font_size 24 hidden true
-    scratch math work ["D: Q = 1000 − 100P","S: Q = 100P","→ P = $5, Q = 500","P = $7: Qd = 300, Qs = 700","400 kg × $7 = $2,800 a week"] x 815 y 320 font_size 24 hidden true
+    scratch math work ["D: Q = 1000 − 100P","S: Q = 100P","→ P = $5, Q = 500","P = $7: Qd = 300, Qs = 700","400 kg × $7 = $2,800 a week"] x 500 y 420 font_size 30 hidden true
 
     card title "A floor under wages"
+
+    hide label_surplus
 
 B: Here's where it gets political. Put the same floor under the price of labour, and what do you get?
     draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E
 
-A mini (@draw floor_line label_floor@)mum wage. The simple picture says firms hir (@draw surplus_guide_qd label_Qd surplus_guide_qs label_Qs@)e fewer workers than want jobs at that wage, and the ga (@draw surplus_arrow label_surplus cue_unemp@)p is unemployment.
+A mini (@draw floor_line label_floor@)mum wage. The simple picture says firms hir (@draw surplus_guide_qd label_Qd surplus_guide_qs label_Qs@)e fewer workers than want jobs at that wage, and the ga (@draw surplus_arrow cue_unemp@)p is unemployment.
+
+    hide label_surplus label_surplus_leader
 
 B: But is that what happens? In 1992 New Jersey (@draw nj_box nj_line_1@) raised its minimum wage from four twenty-fi (@draw nj_line_2@)ve to five oh five an hour. Pennsylvania next door didn't.
 
@@ -215,9 +222,9 @@ B: So the picture is wrong?
 
     erase nj card
 
-Maybe the market in it is. If one big employer, like (@draw mono_box mono_line_1 mono_line_2@) Harbourtown's boatyard, sets wages itself, it pays below the competitive wage, and a floor ca (@draw mono_line_3@)n raise both pay and jobs.
+Maybe the market in it is. If one big employer, like (@draw mono_box mono_line_1 mono_line_2@) Harbourtown's boatyard, sets wages itself, it pays below the competitive wag (@fade surplus_arrow cue_unemp surplus_guide_qd surplus_guide_qs label_Qd label_Qs to 0.2@)e, and a floor ca (@draw mono_line_3@)n raise both pay and jobs.
 
-B: Others re-ran the study with payroll records and found job losses.
+B: Others re-ran the study with payroll rec (@fade surplus_arrow cue_unemp surplus_guide_qd surplus_guide_qs label_Qd label_Qs to 1@)ords and found job losses.
     erase mono
 
 B: So how sure are we? That flo (@draw sure_box sure_line_1 sure_line_2@)ors on goods pile up surpluses: consensus.
@@ -236,6 +243,8 @@ B: What a moderate minimum wage does to jobs: contested.
 
 @math
 
+    fade axes demand_curve label_D supply_curve label_S equilibrium_point label_E floor_line label_floor surplus_guide_qd label_Qd surplus_guide_qs label_Qs surplus_arrow cue_unemp to 0.08
+
     hide mathq
 
 Say demand is Q equals a thousand minus a hundred P, and supply is Q equals a hundred P. They meet at five dollars and five hundred kilos.
@@ -250,6 +259,8 @@ Four hundred kilos left over; bought up at seven dollars, that's two thousand ei
     erase math
 
 @test
+
+    fade axes demand_curve label_D supply_curve label_S equilibrium_point label_E floor_line label_floor surplus_guide_qd label_Qd surplus_guide_qs label_Qs surplus_arrow cue_unemp to 1
 
     hide mathq
 

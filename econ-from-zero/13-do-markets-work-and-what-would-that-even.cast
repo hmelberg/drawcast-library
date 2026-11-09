@@ -6,7 +6,7 @@ next: {"title":"How sensitive are buyers to price?","href":"https://www.drawcast
 ## Four people on the quay
     icon market size 290 x 250 y 410 or ["tropical fish"] icon_look picture of fish hidden true
     text sold "sold by noon" below market gap 20 font_size 30 hidden true
-    portrait pareto of "Vilfredo Pareto" cameo true hidden true
+    portrait pareto x 912 y 420 width 160 of "Vilfredo Pareto" hidden true
     icon ic_eff size 95 x 560 y 575 icon_look picture of "fishing pole" hidden true
     text t_eff "Efficient" x 709.5 y 575 font_size 52 hidden true
     icon ic_fair size 95 x 560 y 458 icon_look picture of bread hidden true
@@ -86,7 +86,7 @@ with:
       - {kind: point, at: 0.2, id: her}
       - {kind: point, at: 0.7, id: his}
       - {kind: point, at: v, id: you, label: true}
-      - {kind: roots, label: flip}
+      - {kind: roots}
 
     text wnote "w = weight on fairness" at.data [0.72,-3.4] font_size 26 hidden true
     label her_tag "her: +1.8" above-right attach_to her hidden true
@@ -172,12 +172,12 @@ sources:
     text readout "survey: 40 US universities" cites ["fkp1998"] x 500 y 260 font_size 30 hidden true
     text stamp "CONTESTED" x 500 y 580 font_size 40 hidden true
     mark stamp_box around stamp kind box hidden true
-    box m1 "Efficient?" x 185 y 455 width 280 height 140 radius 12 icon handshake font_size 34 hidden true
-    box m2 "Fair?" x 500 y 455 width 280 height 140 radius 12 icon "balance scale" font_size 34 hidden true
-    box m3 "Innovative?" x 815 y 455 width 280 height 140 radius 12 icon "light bulb" font_size 34 hidden true
+    box m1 "Efficient?" x 185 y 455 width 280 height 140 radius 12 icon "fishing pole" font_size 34 hidden true
+    box m2 "Fair?" x 500 y 455 width 280 height 140 radius 12 icon bread font_size 34 hidden true
+    box m3 "Innovative?" x 815 y 455 width 280 height 140 radius 12 icon sailboat font_size 34 hidden true
     box m4 "Markets fail" x 185 y 275 width 280 height 140 radius 12 icon factory font_size 34 hidden true
-    box m5 "Governments fail" x 500 y 275 width 280 height 140 radius 12 icon "classical building" font_size 34 hidden true
-    box m6 "Stable? later" x 815 y 275 width 280 height 140 radius 12 icon anchor font_size 34 hidden true
+    box m5 "Governments fail" x 500 y 275 width 280 height 140 radius 12 icon "ballot box" font_size 34 hidden true
+    box m6 "Stable? later" x 815 y 275 width 280 height 140 radius 12 icon bank font_size 34 hidden true
     group map members ["m1","m2","m3","m4","m5","m6"] walk true hidden true
 
     card title "A map of the block"
@@ -211,7 +211,7 @@ And la (@draw m5@)st the comparison: governments fail too, so every verdict weig
     hide map
 
     cards sortq width 900 bins ["Efficient","Fair","Innovative","Stable"] deck true
-        Fair: Nurses priced out
+        Fair: Nurses can't pay
         Stable: Banks crash
         Efficient: Flats sit empty
         Innovative: 1950s methods
@@ -222,21 +222,25 @@ And la (@draw m5@)st the comparison: governments fail too, so every verdict weig
 
     erase sortq
 
+    show map
+
+    fade m1 m2 m3 m4 m5 m6 to 0.3
+
     quiz "Two economists agree that a congestion charge would cut city traffic by a fifth and hit poorer drivers hardest. One backs it, the other opposes it. What is the most likely reason?" voice b
-        right: Same facts, different weights: one counts the faster traffic more, the other the burden on poorer drivers.
+        right: They weigh efficiency and fairness differently: one counts the faster traffic more, the other the burden on poorer drivers.
         wrong: They agreed on both facts. What is left to differ on?
         * One of them has the facts wrong
         + They weigh efficiency and fairness differently
         * One of them doesn't understand markets
 
     quiz "A city's taxi market is congested and overpriced. Is that enough to justify the city running the taxis itself?"
-        right: A market failure is half the case. The other half is whether the alternative would do better.
+        right: Not by itself: a market failure is half the case. The other half is whether the city would actually do better.
         wrong: Before you answer, ask: compared with what?
         * Yes: a failing market justifies stepping in
         + Not by itself: how well the city would run them must be compared too
         * No: markets always fix themselves
 
-    show map
+    fade m1 m2 m3 m4 m5 m6 to 1
 
 So, do markets work? First ask: at what, for whom, compared with what, and over how long.
     highlight m1 m2 m3 m4 m5 m6

@@ -26,9 +26,9 @@ with:
     y_label: $ thousand to give it up for a year
     box:
       x: 90
-      'y': 170
+      'y': 245
       w: 560
-      h: 460
+      h: 390
 sources:
     - id: brynjolfsson2019
       title: Using massive online choice experiments to measure changes in well-being
@@ -57,8 +57,8 @@ B: Email: about eight thousand four hundred.
 
     ask "Drag the Search bar to your guess, in thousands of dollars a year." on bar_3 store g default "6"
         intro: Now search engines. What would you guess?
-        right: Close: you said {g} thousand, and the median was {g.true}.
-        wrong: Higher: the median was {g.true} thousand. Most people guess far lower.
+        right: {g.true} thousand: you said {g}, close.
+        wrong: {g.true} thousand: far above most guesses.
 
 The median answer: seventeen and a half thousand dollars a year. For somet (@highlight zero effect underline@)hing whose price is zero.
     highlight bar_3
@@ -105,16 +105,17 @@ with:
     path tri closed dashed #2f6b8f points [[2,50],[2,92],[50,50]] data true hidden true
     arrow gap1 #b5482e from.data [10,50] to.data [10,84.5] hidden true
     arrow gap2 #b5482e from.data [30,50] to.data [30,66.5] hidden true
-    portrait marshall x 500 y 580 width 150 of "Alfred Marshall" cameo true hidden true
+    portrait marshall x 860 y 430 width 180 of "Alfred Marshall" cameo true hidden true
     text cs_tag "Consumer surplus" #a87a14 at.data [15,61] font_size 26 hidden true
+    dot top_pt #b5482e at.data [2,92] hidden true
+    label top_lab "$9" right attach_to top_pt hidden true
 
     card title "Steps into a triangle"
 
 B: Price isn't value. So let's line up the buyers at Mia's bakery, most eager first. The numbers are illustrative.
     draw axes demand_curve label_D
 
-B: The keenest would pay about nine dollars for a loaf; each one after would pay a little less. That  (@highlight demand_curve@)falling line is the demand curve.
-    point at.data [4,90] gesture tap
+B: The keenest would pay abou (@draw top_pt top_lab@)t nine dollars for a loaf; each one after would pay a little less. That  (@highlight demand_curve@)falling line is the demand curve.
 
 B: Mia's costs give the supply curve. They cross at five dollars a loaf and a hundred loaves a day.
     draw supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar
@@ -126,13 +127,13 @@ So the buyers' gain is five dollars times a hundred loaves, that rectangle?
 
     ask "Which shape is the buyers' gain from this market? Tap it." choose ["rect","tri"] answer tri stage own voice b
         intro: Pick the shape you think is the buyers' gain.
-        right: Yes, the triangle: each buyer gains only what the loaf is worth above the price.
+        right: The triangle: each buyer gains only what the loaf is worth above the price.
         wrong: Not the rectangle: that is the money buyers pay.
 
 B: That rectangle is the money buyers hand to Mia. They lose it, she gets it: a transf (@fade rect to 0.15@)er, not a gain.
     highlight rect
 
-B: Each buyer's gain is how far their value sits above the price. (@draw gap1@) The first gains almost five dollars, the nex (@draw gap2@)t a bit less, and the hundredth gains nothin (@point at.data [50,50] gesture tap@)g: they'd pay exactly five.
+B: Each buyer's gain is how far their value sits above the price. (@draw gap1@) The first gains about four dollars, the nex (@draw gap2@)t a bit less, and the hundredth gains nothin (@point at.data [50,50] gesture tap@)g: they'd pay exactly five.
 
 Gaps that shrink steadily to zero. Stack them side by side  (@draw cs_region cs_tag@)an (@hide label_CS@)d you get a triangle, not a rectangle.
     erase gap1 gap2 tri rect
@@ -217,13 +218,13 @@ B: In a classic 1990 experiment, students handed a coffee mug asked roug (@draw 
 
 Ask that question (@draw wta wta_tag@) about bread, and the curve sits higher and the (@draw wta_area@) triangle grows. So which triangle is the real gain?
 
-    erase mug
+    erase mug wta wta_tag wta_area
 
 B: And there's a quieter assumption: a dollar counts the same whoever holds it. A rich buyer's eagerness weighs as much as a poor buyer's need.
     point at.data [6,92] gesture circle
 
 How sure are we? For everyday goods that take a small slice of income, the triangle is a good  (@draw sure1@)measure: mostly agreed.
-    erase wta wta_tag wta_area
+    highlight cs_region
 
 B: Adding those dollars up across rich and poor as if they were the sa (@draw sure2@)me is another matter: that part is contested.
 
@@ -259,34 +260,36 @@ Spending is the whole rectangle, P star times Q star, and it isn't surplus at al
     draw fish
 
     ask "A fisher would sell a crate of cod for at least $20, and gets $32. What is her producer surplus?" on fish store f
-        right: Yes: {f.true}, the price minus the least she'd have taken.
+        right: {f.true} dollars: the price minus the least she'd have taken.
         wrong: It's {f.true}: thirty-two minus the twenty she'd have taken anyway.
 
     erase fish
 
+    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar cs_region label_CS ps_region label_PS parallel true
+
     quiz "Wikipedia is free to read. What does its zero price tell us about what readers gain from it?" voice b
-        right: Right: a zero price only says nothing changes hands; the gain is all surplus.
+        right: Nothing: a zero price only says no money changes hands; the readers' gain is all surplus.
         wrong: Think of the search engines: the price is what changes hands, not what you gain.
         + Nothing: the gain is its worth above a zero price
         * Readers gain nothing, since they pay nothing
         * The gain equals the donations it receives
 
     quiz "A concert sells out at $60 a ticket. Which buyer gains least?"
-        right: Yes: the fan at $60 is the last buyer, with a gap of zero.
+        right: The fan who'd have paid just $60: the last buyer, with a gap of zero.
         wrong: Surplus is the gap between what it's worth to you and the price.
         * The fan who would have paid $200
         + The fan who would have paid just $60
         * Every buyer gains the same
 
     quiz "The harbour council asks what a new ferry is worth to Harbourtown. Which number comes closest?" voice b
-        right: Yes: both surpluses. The fares just move money from riders to the operator.
+        right: Riders' value above the fare plus the operator's margin: both surpluses. The fares only move money from riders to the operator.
         wrong: Revenue is what changes hands. What is left over on each side?
         * The ticket revenue
         + Riders' value above the fare, plus the operator's margin over cost
         * The cost of building it
 
 So do markets work? Part of the answer is this triangle: every trade where something is worth more to the buyer than it costs to make, and a gain that never shows up in the price.
-    draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar cs_region label_CS ps_region label_PS parallel true
+    focus cs_region ps_region label_CS label_PS equilibrium_point
 
 ## Where next
 end_page: true

@@ -62,7 +62,7 @@ A long course that starts from big questions — do markets work, how do countri
 20. [How does a price coordinate millions who never meet?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/20-how-does-a-price-coordinate-millions-who.cast)
    - What did Hayek mean by prices as a system of information?
    - Why does nobody know how to make a pencil?
-21. What happens when prices are not allowed to move? — *not published yet*
+21. [What happens when prices are not allowed to move?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/21-what-happens-when-prices-are-not-allowed.cast)
    - Queues, black markets, rationing: what replaces the price?
    - What did empty Soviet shelves and wartime ration books have in common?
 22. Why would a market ever be efficient? — *not published yet*

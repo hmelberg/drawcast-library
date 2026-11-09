@@ -33,6 +33,8 @@ sources:
     text cue_gdp "GDP per person" at.percent [55,92] cites ["jk2016"] hidden true
     text cue_wel "welfare" at.percent [55,92] cites ["jk2016"] hidden true
     scratch parts top-right work ["consumption","+ life","+ leisure","+ equality"] font_size 26 hidden true
+    scale guess cites ["jk2016"] y 520 label "France's welfare (US = 100)" min 0 max 100 value 92 ticks 5 hidden true
+    scratch blind top-right work ["blind to:","time","health","sharing"] font_size 26 hidden true
 
     card title "Income or welfare?"
 
@@ -58,7 +60,7 @@ Their measure s (@draw parts_box parts_line_1@)tarts from what people consume, t
 
     animate box bottom duration 1.2
 
-    scale guess cites ["jk2016"] y 500 label "France's welfare (US = 100)" min 0 max 100 value 92 ticks 5
+    draw guess
 
     ask "Click your guess on the line." on guess store g default "50" tolerance 0.06 stage own voice b
         intro: So where does France land on that scale?
@@ -89,8 +91,7 @@ Shorter lives in both, and in Brazil deep inequality.
 Pause and slide between GDP and welfare yourself: watch who rises and who falls.
     explore params ["stage"]
 
-So GDP per person is blind to three things we care about: time, health, and how the pie is shared.
-    highlight bar_1 bar_2 bar_3 bar_4
+So GDP per person is blind to (@draw blind_box blind_line_1@) three things we care about: time,  (@draw blind_line_2@)health, an (@draw blind_line_3@)d how the pi (@draw blind_line_4@)e is shared.
 
     pause 0.6
 
@@ -129,7 +130,7 @@ sources:
       finding: '"Thus, if a man marries his housekeeper or his cook, the national dividend is diminished." (Part I, ch. III)'
       url: https://www.econlib.org/library/NPDBooks/Pigou/pgEW.html?chapter_num=5
 
-    portrait pigou cites ["pigou1920"] of "Arthur Cecil Pigou" cameo true hidden true
+    portrait pigou cites ["pigou1920"] x 900 y 590 width 140 of "Arthur Cecil Pigou" hidden true
     scratch hours cites ["bea2012"] work ["women's housework","40 → 26 h a week"] x 800 y 430 font_size 26 hidden true
     scratch fish work ["catch 120 t","regrowth 100 t","GDP counts: 120 t","stock −20 t"] x 800 y 430 font_size 26 hidden true
 
@@ -199,14 +200,14 @@ sources:
       year: 1934
       finding: '"The welfare of a nation can scarcely be inferred from a measurement of national income."'
 
-    scratch rep work ["REPLACE","one number:","welfare index","HDI","weights?"] x 265 y 410 font_size 38 hidden true
-    scratch add work ["ADD","GDP + a dashboard:","income & its spread","unpaid work","sustainability"] x 730 y 410 font_size 38 hidden true
+    scratch rep work ["REPLACE","one number:","welfare index","HDI","weights?"] x 225 y 410 font_size 38 hidden true
+    scratch add work ["ADD","GDP + a dashboard:","income & its spread","unpaid work","sustainability"] x 640 y 410 font_size 38 hidden true
     text corr "welfare vs GDP: r = 0.98" cites ["jk2016"] x 500 y 175 font_size 28 hidden true
-    portrait kuznets cites ["kuznets1934"] of "Simon Kuznets" cameo true hidden true
+    portrait kuznets cites ["kuznets1934"] x 915 y 410 width 130 of "Simon Kuznets" hidden true
     text sure1 "GDP ≠ welfare: consensus" x 500 y 165 font_size 28 hidden true
     text sure2 "contested" #8a5fa8 x 500 y 640 font_size 30 hidden true
     cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
-    scratch math cites ["jk2016"] work [{"tex":"\\text{welfare} \\approx \\log \\bar{c} - \\tfrac{1}{2}\\sigma^2"},"spread σ:  US 0.54,  France 0.42",{"tex":"\\tfrac{1}{2}(0.54^2 - 0.42^2) \\approx 0.056"},"≈ +5.6 % for France"] x 500 y 420 font_size 28 hidden true
+    scratch math cites ["jk2016"] work [{"tex":"\\text{welfare} \\approx \\log \\bar{c} - \\tfrac{1}{2}\\sigma^2"},"spread σ:  US 0.538,  France 0.422",{"tex":"\\tfrac{1}{2}(0.538^2 - 0.422^2) \\approx 0.056"},"≈ +5.6 % for France"] x 500 y 420 font_size 28 hidden true
 
     card title "Replace it, or add to it?"
 
@@ -251,7 +252,7 @@ How sure are we? T (@draw sure1@)hat GDP is not welfare: consensus. Simon Kuzne 
 B: If consumption is spread in the usual lopsided way, average well-being is the log of average consumption, minus half the variance of its log.
     draw math_box math_line_1
 
-B: That spread is zero point five four in America and zero point four two in France. Half the difference of their square (@draw math_line_3@)s: about five and a half percent more welfare for (@draw math_line_4@) France, from equality alone.
+B: That spread is about zero point five four in America and zero point four two in France. With the exact figures, half the difference of t (@draw math_line_3@)heir squares is about five and a half percent more welfar (@draw math_line_4@)e for France, from equality alone.
     draw math_line_2
 
     erase math
@@ -273,10 +274,12 @@ B: That spread is zero point five four in America and zero point four two in Fra
         Left out: Living longer
 
     ask "Which of these does GDP count? Sort the cards." intro "Now some new cases." on gdpsort store srt stage own voice b
-        right: All {srt.total} sorted: GDP counts what is paid for, even when it only repairs a loss.
-        wrong: You got {srt} of {srt.total}. GDP counts what is sold, not whether it makes life better.
+        right: All {srt.total} right: GDP counts what is paid for.
+        wrong: You got {srt} of {srt.total}: GDP counts what is sold.
 
     erase gdpsort
+
+    show rep add sure1 sure2
 
     quiz "Norway puts most of its oil income into a fund instead of spending it. On Jones and Klenow's welfare measure, Norway looks…"
         right: Poorer: its people consume a small share of what the country earns, so its welfare is about 81 against an income of 113 (US = 100).
@@ -291,8 +294,6 @@ B: That spread is zero point five four in America and zero point four two in Fra
         + It rises
         * It falls
         * It can't be told
-
-    show rep add sure1 sure2
 
 So GDP measures what an economy produces, and roughly how well its people live. For the rest, one number is not enough.
     highlight rep_line_1 add_line_1

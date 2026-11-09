@@ -1,6 +1,7 @@
 # How does a price coordinate millions who never meet?
 voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
 prompt: "What did Hayek mean by prices as a system of information? Why does nobody know how to make a pencil?"
+next: {"title":"What happens when prices are not allowed to move?","href":"https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/21-what-happens-when-prices-are-not-allowed.cast"}
 
 ## A message without a reason
 sources:
@@ -18,7 +19,7 @@ sources:
     arrow route dashed #8f887c from.anchor right from.ref globe to.anchor top to.ref can hidden true
     box c1 "Mine floods" x 180 y 405 width 290 height 150 radius 10 icon "water wave" font_size 32 style.stroke #b5482e hidden true
     box c2 "New use" x 180 y 225 width 290 height 150 radius 10 icon factory font_size 32 style.stroke #b5482e hidden true
-    portrait hayek of "Friedrich Hayek" cameo true hidden true
+    portrait hayek x 520 y 440 width 170 of "Friedrich Hayek" hidden true
     box tag "Tin: P ↑" cites ["hayek1945"] x 520 y 315 width 260 height 160 radius 12 icon label font_size 36 style.stroke #2f6b8f hidden true
     arrow a1 #8f887c from.anchor right from.ref c1 to.anchor left to.ref tag hidden true
     arrow a2 #8f887c from.anchor right from.ref c2 to.anchor left to.ref tag hidden true
@@ -170,17 +171,17 @@ sources:
     text millions "millions · nobody in charge" #b5482e cites ["read1958"] x 500 y 175 font_size 32 hidden true
     icon boss size 150 set twemoji x 500 y 430 icon_look picture of factory hidden true
     text orders "orders, not prices" #b5482e x 500 y 300 font_size 34 hidden true
-    portrait simon of "Herbert A. Simon" cameo true hidden true
-    ellipse f1 #5f7f52 cites ["simon1991"] x 230 y 470 rx 150 ry 95 style.fill #87a878 hidden true
-    ellipse f2 #5f7f52 x 770 y 500 rx 170 ry 105 style.fill #87a878 hidden true
-    ellipse f3 #5f7f52 x 510 y 250 rx 140 ry 85 style.fill #87a878 hidden true
-    path m12 thick #b5482e points [[380,475],[600,495]] hidden true
-    path m13 thick #b5482e points [[300,385],[420,300]] hidden true
-    path m23 thick #b5482e points [[690,405],[600,305]] hidden true
-    text t1 "firm" x 230 y 470 font_size 32 hidden true
-    text t2 "firm" x 770 y 500 font_size 32 hidden true
-    text t3 "firm" x 510 y 250 font_size 32 hidden true
-    text t_m "market" #b5482e x 490 y 520 font_size 28 hidden true
+    portrait simon x 140 y 500 width 170 of "Herbert A. Simon" hidden true
+    ellipse f1 #5f7f52 cites ["simon1991"] x 440 y 500 rx 130 ry 80 style.fill #87a878 hidden true
+    ellipse f2 #5f7f52 x 800 y 420 rx 150 ry 95 style.fill #87a878 hidden true
+    ellipse f3 #5f7f52 x 560 y 250 rx 140 ry 85 style.fill #87a878 hidden true
+    path m12 thick #b5482e points [[568,490],[655,450]] hidden true
+    path m13 thick #b5482e points [[455,420],[520,333]] hidden true
+    path m23 thick #b5482e points [[700,350],[665,305]] hidden true
+    text t1 "firm" x 440 y 500 font_size 32 hidden true
+    text t2 "firm" x 800 y 420 font_size 32 hidden true
+    text t3 "firm" x 560 y 250 font_size 32 hidden true
+    text t_m "market" #b5482e x 640 y 510 font_size 28 hidden true
 
     card title "Nobody knows how to make a pencil"
 
@@ -211,14 +212,14 @@ B: What holds it together is prices: each of them sees only what their bit sells
 B: But here's my doubt. Walk into the pencil  (@draw boss@)factory, and nobody there steers by prices: a ma (@draw orders@)nager tells people what to do.
     fade eraser ferrule body wood lead k_cedar k_lead k_oil k_brass l_cedar l_lead l_oil l_brass to 0.15
 
-That's a fair hit. Herbert  (@draw simon@)Simon asked what a visitor from Mars would see: firms as green areas, markets as thin red lines between them.
+    hide eraser ferrule body wood lead k_cedar k_lead k_oil k_brass l_cedar l_lead l_oil l_brass boss orders
+
+That's a fair  (@draw simon@)hit. Herbert Simon asked what a visitor  (@draw f1 t1 f2 t2 f3 t3@)from Mars would see: firms as  (@draw m12 m13 m23 t_m@)green areas, markets as thin red lines between them.
 
     erase simon
 
-    hide eraser ferrule body wood lead k_cedar k_lead k_oil k_brass l_cedar l_lead l_oil l_brass boss orders
-
-And to Simon's Martian,  (@draw m12 m13 m23 t_m@)the green areas, not the red lines, were what dominated the landscape.
-    draw f1 t1 f2 t2 f3 t3
+And to Simon's Martian, the green areas, not the red lines, were what dominated the landscape.
+    highlight f1 f2 f3
 
 B: So prices coordinate between firms, and inside them orders do; why the line falls where it does is a question of its own.
     highlight m12 m13 m23
@@ -241,11 +242,16 @@ with:
     equilibrium:
       show: true
       guides: true
+      shift_label: ''
+      shift_q_label: ''
+      shift_p_label: P′
+    supply_shift:
+      amount: 0
     box:
-      x: 30
+      x: 20
       'y': 130
-      w: 500
-      h: 520
+      w: 610
+      h: 530
 sources:
     - id: lange1936
       title: On the Economic Theory of Socialism
@@ -259,10 +265,10 @@ sources:
       finding: 'The knowledge that matters for economic decisions is largely knowledge of the particular circumstances of time and place, dispersed among many people and never given to any single mind (American Economic Review 35(4): 519-530).'
       url: https://www.econlib.org/library/Essays/hykKnw.html
 
-    scratch sure cites ["hayek1945","lange1936"] work ["Prices inform: consensus","Prices alone: contested"] x 765 y 450 font_size 26 hidden true
-    portrait lange of "Oskar Lange" cameo true hidden true
-    box dirty "River pollution: not in P" x 765 y 450 width 320 height 140 radius 10 icon factory font_size 28 style.stroke #b5482e hidden true
-    scratch math work ["Say S falls 10% at every P:",{"tex":"\\%\\Delta P \\approx 10\\% \\div (\\varepsilon_D + \\varepsilon_S)"},{"tex":"= 10\\% \\div (0.5 + 0.5) = 10\\%"}] x 765 y 450 font_size 28 hidden true
+    scratch sure cites ["hayek1945","lange1936"] work ["Prices inform: consensus","Prices alone: contested"] x 820 y 450 font_size 24 hidden true
+    portrait lange x 830 y 300 width 150 of "Oskar Lange" hidden true
+    box dirty "River pollution: not in P" x 815 y 450 width 300 height 140 radius 10 icon factory font_size 28 style.stroke #b5482e hidden true
+    scratch math work ["S falls 10% at every P",{"tex":"\\%\\Delta P \\approx 10\\% \\div (\\varepsilon_D + \\varepsilon_S)"},{"tex":"= 10\\% \\div (0.5 + 0.5) = 10\\%"}] x 820 y 450 font_size 24 hidden true
 
     card title "How far does the message reach?"
 
@@ -294,8 +300,10 @@ And a price can carry the wrong message (@draw dirty@): if a mine pollutes a riv
 
     hide mathq
 
-Say a flooded mine cuts the supply of tin by ten percent at every price.
-    draw math_box math_line_1
+Say a flooded mine cuts the s (@animate supply_shift.amount -7 duration 2@)upply of tin by ten percent at every price.
+    draw math_box math_line_1 supply_shift_curve
+
+    draw label_S_shift shift_equilibrium_point shift_guide_lines label_P_shift
 
 B: The price rises by roughly that shift divided by the two elasticities added together.
     draw math_line_2
@@ -305,7 +313,7 @@ With elasticities of a half each, that's ten divided by one: the price climbs ab
 
     pause 0.5
 
-    erase math
+    erase math supply_shift_curve label_S_shift shift_equilibrium_point shift_guide_lines label_P_shift
 
 @test
 
@@ -313,7 +321,7 @@ With elasticities of a half each, that's ten divided by one: the price climbs ab
 
     quiz "Copper suddenly gets dearer, and an electrician switches some jobs to aluminium wire without knowing why. Which fits Hayek?"
         intro: Three new cases to finish.
-        right: Right: the dearer copper already says it is wanted more elsewhere; why is not her problem.
+        right: She is doing the right thing: dearer copper already says it is wanted more elsewhere, and why is not her problem.
         wrong: Does the right move depend on why copper got scarce?
         + She is doing the right thing without knowing the cause
         * She should wait until she knows the cause
@@ -336,7 +344,7 @@ With elasticities of a half each, that's ten divided by one: the price climbs ab
     show axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
 
     quiz "A factory dumps its waste into a river for free. What is wrong with the price of what it makes?" voice b
-        right: Right: the river's cost never enters the price, so buyers get a message that is too cheap.
+        right: It says the product is cheaper to make than it really is: the river's cost never enters the price.
         wrong: Who pays for the river, and does the price know?
         + It says the product is cheaper to make than it really is
         * Nothing: a price always carries the full cost

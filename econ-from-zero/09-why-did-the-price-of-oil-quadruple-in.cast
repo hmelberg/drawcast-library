@@ -8,11 +8,11 @@ use: bar_chart
 with:
     labels:
       - 8 Oct 1973
-      - 26 Oct 1973
+      - 16 Oct 1973
       - 1 Jan 1974
     values:
       - 3.01
-      - 5.18
+      - 5.12
       - 11.65
     value_labels: true
     bar_colors: same
@@ -31,8 +31,14 @@ sources:
       title: Oil Imports (Price) — written answer, HC Deb 18 January 1974 vol 867 c183W
       authors: UK House of Commons
       year: 1974
-      finding: 'Posted price of Arabian Light crude: $3.01 a barrel on 8 October 1973, $5.18 on 26 October 1973, $11.65 on 1 January 1974.'
+      finding: 'Posted price of Arabian Light crude: $3.01 a barrel on 8 October 1973 and $11.65 on 1 January 1974.'
       url: https://api.parliament.uk/historic-hansard/written-answers/1974/jan/18/oil-imports-price
+    - id: geoexpro
+      title: 'GEO ExPro: the 1973 oil crisis (history article)'
+      authors: GEO ExPro
+      year: 2013
+      finding: On 16 October 1973 the six Gulf OPEC producers raised the posted price of marker crude from $3.01 to $5.12, a 70% rise.
+      url: https://geoexpro.com/?p=46319
     - id: hamilton2011
       title: Historical Oil Shocks (NBER Working Paper 16790)
       authors: James D. Hamilton
@@ -53,7 +59,7 @@ In early October 1973, it was about three dollars.
 On the sixth of October, Egypt and Syria attacked Israel.
     highlight bar_1
 
-(@draw bar_2@) Within three weeks the Gulf producers had raised their price by about seventy percent, and the Arab producers  (@highlight bar_2 effect underline@)had announced an embargo on countries backing Israel, with cuts in output.
+(@draw bar_2@) Ten days later the Gulf producers raised their price by about seventy percent, and the next day the Arab produc (@highlight bar_2 effect underline@)ers announced an embargo on countries backing Israel, with cuts in output.
 
 From the first of January 1974: eleven dollars sixty-five.
     draw bar_3
@@ -137,7 +143,7 @@ Economists call that inelastic demand: the quantity bought hardly responds to th
     pause 0.5
 
 B: And oil fields outside the Arab world can't pump much more in a few weeks either, so supply is steep too.
-    animate supply.elasticity 0.3 duration 3
+    animate supply.elasticity 0.12 duration 3
 
 (@draw change_arrows@) Now the same cut is absorbed almost entirely by the price. It climbs unt (@highlight label_P_shift@)il enough buyers give up enough barrels, and very few can.
 
@@ -161,7 +167,7 @@ with:
     demand:
       elasticity: 0.15
     supply:
-      elasticity: 0.3
+      elasticity: 0.12
       label: S′
     equilibrium:
       show: true
@@ -200,17 +206,21 @@ sources:
       url: https://www.nber.org/papers/w16790
 
     scratch calc cites ["ornl2018"] work ["1% less oil → P up ~10%","7.5% less → P up ~75%"] x 800 y 450 font_size 28 hidden true
-    math eq tex "\\%\\Delta P \\approx \\frac{\\%\\Delta Q}{\\varepsilon_D + \\varepsilon_S}" size 34 steps ["\\approx \\frac{7.5\\%}{0.1 + 0}","\\approx 75\\%"] x 800 y 470 hidden true
+    math eq tex "\\%\\Delta P \\approx \\frac{\\%\\Delta Q}{\\varepsilon_D + \\varepsilon_S}" size 34 steps ["\\approx \\frac{7.5\\%}{0.1 + \\approx 0}","\\approx 75\\%"] x 800 y 470 hidden true
     text bid "Iran auction: $17+" #b5482e cites ["yergin1991"] x 810 y 400 font_size 28 hidden true
     text war "Hamilton: the war" #2f6b8f cites ["hamilton2011"] x 810 y 420 font_size 28 hidden true
     text boom "Barsky & Kilian: the boom" #b5482e cites ["barskykilian2001"] x 810 y 340 font_size 28 hidden true
     text sure1 "Steep short run:\nmostly agreed" x 810 y 420 font_size 28 hidden true
     text sure2 "Embargo, cartel or boom:\ncontested" #b5482e x 810 y 320 font_size 28 hidden true
+    cards mathpick options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after_math"}] then after_math hidden true
+    text target "real: ×4" #b5482e x 250 y 260 font_size 30 hidden true
+    text c1 "1 · cartel" #2f6b8f x 810 y 610 font_size 28 hidden true
+    text c2 "2 · panic" #d0865f x 810 y 565 font_size 28 hidden true
+    text c3 "3 · boom" #d0865f x 810 y 520 font_size 28 hidden true
 
     card title "But… not fourfold"
 
-B: Steep curves explain a big jump. But do they explain a fourfold one?
-    draw axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar
+B: (@draw axes demand_curve label_D supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar@) Steep curves explain a big jump. But do they exp (@draw target@)lain a fourfold one?
 
 (@draw calc_box calc_line_1@) Not on their own. Studies put the short-run elasticity o (@highlight demand_curve label_D@)f oil demand at around a tenth: for each one percent less oil, the price must rise roughly ten percent.
 
@@ -220,7 +230,7 @@ B: Steep curves explain a big jump. But do they explain a fourfold one?
 
     erase calc
 
-    cards mathpick options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after_math"}] then after_math
+    draw mathpick
 
     ask "Want to see where the seventy-five percent comes from?" on mathpick stage own
 
@@ -243,7 +253,7 @@ which is about seventy-five percent.
 
     erase mathpick
 
-Three things filled the gap. First, the price was not set in an open market: the Gulf producers posted it, and OPEC, acting as a cartel, used the moment to set it high.
+Three things filled the gap. First, the price was not set in an open market: the Gulf producers poste (@draw c1@)d it, and OPEC, acting as a cartel, used the moment to set it high.
     highlight supply_curve label_S
 
 B: Then why didn't the oil go unsold at that price?
@@ -252,7 +262,9 @@ B: Then why didn't the oil go unsold at that price?
     draw demand_shift_curve label_D_shift
 
 Because buyers panicked too. Fearing worse, refiners and governments bid to fill their tanks,
-    animate demand_shift.amount 14 duration 3
+    animate demand_shift.amount 5 duration 3
+
+    draw c2
 
     draw shift_equilibrium_point shift_guide_lines label_E_shift label_P_shift demand_shift_arrow parallel true
 
@@ -261,7 +273,7 @@ and when Iran auctioned oil in December, bids came in above seventeen dollars.
 
     erase bid
 
-Third, the market was already tight. Robert Barsky and Lutz Kilian argue that the boom and cheap money of 1971 to 1973 had been pushing up the prices of most raw materials, oil included.
+Third, the market was alread (@draw c3@)y tight. Robert Barsky and Lutz Kilian argue that the boom and cheap money of 1971 to 1973 had been pushing up the prices of most raw materials, oil included.
     highlight demand_shift_curve label_D_shift
 
     pause 0.3
@@ -269,12 +281,16 @@ Third, the market was already tight. Robert Barsky and Lutz Kilian argue that th
 B: So was it the war, or the economics?
     highlight supply_curve demand_shift_curve
 
+    erase c1 c2 c3
+
 (@draw war@) James Hamilton answers that the timing an (@highlight supply_curve@)d size of the cuts were tied to the war;
 
 Barsky and Kilian, that the pressure had been building for years.
     draw boom
 
     erase war boom
+
+    erase target
 
 How sure are we? Tha (@draw sure1@)t short-run oil demand is steep: mostly agreed.
 
@@ -308,7 +324,7 @@ sources:
       year: 1987
       finding: Time spent waiting in queues added about 12% to the cost of gasoline for urban residents in December 1973 and 50% in March 1974 (as summarised by Hamilton 2011).
 
-    text wait "waiting: +12% → +50%" #8a5fa8 x 790 y 200 font_size 28 hidden true
+    scratch wait work ["Shortage → queues","waiting: +12% → +50%"] x 820 y 470 font_size 26 hidden true
 
     card title "Test: steep markets elsewhere"
 
@@ -326,12 +342,12 @@ B: In the United States, price controls kept oil products near their old prices.
 
 (@draw shortage_guide_qs label_Qs@) Queues. At the old price, drivers wanted fa (@draw shortage_guide_qd label_Qd@)r more petrol than there was,
 
-(@draw shortage_arrow label_shortage@) so they paid in time instead: for city drivers, one study put the cost of waiting at an extr (@draw wait@)a twelve percent on the price in December 1973, and fifty percent by March.
+(@draw shortage_arrow wait_box wait_line_1@) so they paid in time instead: for city drivers, one study put the cost of waiting at an extr (@draw wait_line_2@)a twelve percent on the price in December 1973, and fifty percent by March.
 
     pause 0.5
 
-B: Two more cases, with no oil in them.
-    fade shortage_guides shortage_arrow label_shortage label_Qs label_Qd ceiling_line label_ceiling wait to 0.25
+B: Two more cases: another market, and oil with time to adjust.
+    fade shortage_guides shortage_arrow label_Qs label_Qd ceiling_line label_ceiling wait to 0.25
 
     quiz "A frost destroys 5% of the world's coffee crop. Drinkers barely change their habits for months, and new bushes take years to grow. The price will most likely…" voice b
         right: Far more than 5%: with both curves steep, a small cut can only be cleared by a big price rise.
@@ -347,7 +363,7 @@ B: Two more cases, with no oil in them.
         + less than the first
         * the same
 
-    erase shortage_guides shortage_arrow label_shortage label_Qs label_Qd ceiling_line label_ceiling wait
+    erase shortage_guides shortage_arrow label_Qs label_Qd ceiling_line label_ceiling wait
 
 So the price of oil did not quadruple because the oil ran out. A small cut met buyers who could not wait, sellers who could hold out, and a market already stretched.
     highlight equilibrium_point demand_curve supply_curve

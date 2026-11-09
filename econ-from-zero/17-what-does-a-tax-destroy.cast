@@ -44,7 +44,7 @@ sources:
     text taxcue "Taxed from 10" #b5482e at.data [2,10] font_size 30 hidden true
     text records "493 houses' tax records" at.data [1,22] cites ["oates_schwab"] font_size 28 hidden true
     text nopay "Pays no tax" at.data [1,22.5] font_size 30 hidden true
-    text burden "Excess burden" #b5482e at.data [2.05,14] font_size 36 hidden true
+    text burden "Excess burden" #b5482e at.data [1,22.5] font_size 36 hidden true
 
     card title "Nine windows"
 
@@ -80,6 +80,8 @@ B: Then for that family the tax costs nothing?
 It does cost something: a dark room they'd have happily paid a window for. The state collects nothing, and the family is still worse off.
     highlight bar_2
 
+    erase nopay
+
 That loss that nobody coll (@draw burden@)ects is the excess burden of a tax, or its deadweight loss.
 
     pause 0.5
@@ -107,10 +109,9 @@ with:
     regions:
       - government_revenue
       - deadweight_loss
-    readout:
-      - revenue
-      - dwl
-    readout_at: inside
+
+    text n_rev "Revenue $350" #8a5fa8 at.data [82,56] font_size 34 hidden true
+    text n_dwl "Waste $75" #b5482e at.data [82,45] font_size 34 hidden true
 
     card title "The missing loaves"
 
@@ -130,7 +131,7 @@ Straight up by (@animate tax.amount 25 duration 2.5@) the dollar: to bake the sa
 Buyers pay more, Mia keeps less, and fewer loaves are sold.
     draw tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps
 
-B: And the council gets th (@draw wedge_region readout_revenue@)e dollar times every loaf still sold. That rectangle.
+B: And the council gets th (@draw wedge_region n_rev@)e dollar times every loaf still sold. That rectangle.
 
     hide label_wedge
 
@@ -140,15 +141,15 @@ That money isn't lost. It moves from buyers and Mia to the council, and pays for
 The loss is here: the loaves that are no longer sold.
     point at.ref tax_equilibrium_point gesture underline
 
-Each of them w (@draw dwl_region readout_dwl@)as worth more to some buyer than it cost Mia to bake. Now nobody bakes it, nobody eats it, and nobody collects tax on it.
+Each of them w (@draw dwl_region n_dwl@)as worth more to some buyer than it cost Mia to bake. Now nobody bakes it, nobody eats it, and nobody collects tax on it.
 
     hide label_DWL
 
 B: Like the ninth window. A loaf that isn't sold pays no tax.
     highlight dwl_region effect pulse
 
-Exactly. That triangle, about seventy dollars a week here, is what buyers and Mia lose on top of the council's three hundred and fifty. That's why a tax costs more than it raises.
-    highlight readout effect box
+Exactly. That triangle, seventy-five dollars a week here, is what buyers and Mia lose on top of the council's three hundred and fifty. That's why a tax costs more than it raises.
+    highlight n_dwl dwl_region
 
     pause 0.5
 
@@ -175,30 +176,34 @@ with:
     regions:
       - government_revenue
       - deadweight_loss
-    readout:
-      - revenue
-      - dwl
-    readout_at: inside
 
-    scratch math top-right work [{"tex":"\\text{DWL} = \\tfrac12 \\times t \\times \\Delta Q"},{"tex":"\\Delta Q \\propto t"},{"tex":"\\text{DWL} \\propto t^2"}] font_size 28 hidden true
+    text n_rev "Revenue $350" #8a5fa8 at.data [82,56] font_size 34 hidden true
+    text n_dwl "Waste $75" #b5482e at.data [82,45] font_size 34 hidden true
+    text n_rev2 "Revenue $400" #8a5fa8 at.data [82,56] font_size 34 hidden true
+    text n_dwl2 "Waste $300" #b5482e at.data [82,45] font_size 34 hidden true
+    scratch math bottom-right work [{"tex":"\\text{DWL} = \\tfrac12 \\times t \\times \\Delta Q"},{"tex":"\\Delta Q \\propto t"},{"tex":"\\text{DWL} \\propto t^2"}] font_size 28 hidden true
 
     card title "Double the tax"
 
 So a dollar tax leaves a small triangle. What if the council doubles it to two dollars?
     draw axes demand_curve label_D supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar tax_supply_curve label_S_tax tax_equilibrium_point tax_guide_lines price_buyers_point label_Pb price_sellers_point label_Ps
 
-    draw wedge_region dwl_region readout
+    draw wedge_region dwl_region n_rev n_dwl
 
     hide label_wedge label_DWL
 
-    ask "Double the tax: how many times bigger is the deadweight loss?" estimate.min 1 estimate.max 8 estimate.value 4 estimate.unit times store g stage own voice b
+    quiz "Double the tax from $1 to $2. Roughly how many times bigger does the deadweight loss get?" voice b
         intro: Guess first: how many times bigger does the waste get? My own guess would be twice.
-        right: Yes: you said {g}, and it's about {g.true}.
-        wrong: You said {g}; it's about {g.true}.
+        right: Four times: the triangle grows both taller and wider.
+        wrong: Watch both the height and the width of the triangle.
+        * Twice
+        * Three times
+        + Four times
+        * Eight times
 
-    erase estimate_1
+    erase n_rev n_dwl
 
-Four times. Twice the tax makes the triangle twice as tall.
+Four times. Twice the tax makes the triangle twice as ta (@draw n_dwl2@)ll.
     animate tax.amount 50 duration 3 ghost true
 
     hide label_wedge label_DWL
@@ -207,13 +212,15 @@ And twice as wide, because twice as many loaves go unsold. Twice the height time
     highlight dwl_region effect pulse
 
 B: And the revenue? Did that double too?
-    highlight readout_revenue effect box
-
-Less than double: the tax per loaf doubled, but fewer loaves are left to tax.
     highlight wedge_region
 
+Less than double: the tax per loaf doubled, but fewer loaves are left to tax.
+    draw n_rev2
+
 B: So the waste grows with the square of the tax, and the money doesn't keep up.
-    highlight readout_dwl effect box
+    highlight n_rev2 n_dwl2
+
+    erase n_rev2 n_dwl2
 
 That's why economists like low rates on broad bases: many small triangles waste far less than one big one.
     animate tax.amount 25 duration 2
@@ -268,6 +275,11 @@ with:
     regions:
       - government_revenue
       - deadweight_loss
+    box:
+      x: 60
+      'y': 140
+      w: 620
+      h: 520
 sources:
     - id: george1879
       title: Progress and Poverty
@@ -292,9 +304,9 @@ sources:
       finding: 'For measures financed over public budgets, a tax-financing cost is included: ''Skattekostnaden settes til 20 øre per krone.'' (also in R-14/99 and R-109/2005)'
       url: https://www.regjeringen.no/globalassets/upload/fin/vedlegg/okstyring/rundskriv/faste/r_109_2014.pdf
 
-    portrait george cites ["george1879"] of "Henry George" cameo true hidden true
-    scratch evid top-right work ["US income tax, 1999: up to 30¢ per $","later studies: less","Norway: +20 øre per krone"] font_size 30 hidden true
-    scratch sure top-right work ["Waste grows with the tax: consensus","How big: contested"] font_size 30 hidden true
+    portrait george cites ["george1879"] x 850 y 440 width 200 of "Henry George" cameo true hidden true
+    scratch evid work ["US, 1999: up to 30¢ per $","Later studies: less","Norway: 20 øre per krone"] x 815 y 430 font_size 26 hidden true
+    scratch sure work ["Excess burden:","consensus","How much: contested"] x 815 y 430 font_size 26 hidden true
 
     card title "Is every tax wasteful?"
 
@@ -312,6 +324,8 @@ B: Like land. Nobody makes less land because it's taxed. Henr (@draw george@)y G
 
     erase george
 
+    hide label_S_tax
+
 Then the supply curve stands upright. The tax can't change the quantity, and the triangle shrinks to nothing: the owners pay it all.
     animate supply.elasticity 0.06 duration 3 ghost true
 
@@ -322,6 +336,8 @@ B: And for real taxes, on work and on spending? How big is the waste?
 
     hide label_wedge label_DWL
 
+    show label_S_tax
+
 There we disagree. In 1999 Martin Feldstein put th (@draw evid_box evid_line_1@)e waste of the US income tax at as much as thirty cents per dollar raised.
 
 B: Later studies found peop (@draw evid_line_2@)le respond less than he assumed, so the waste is smaller.
@@ -330,9 +346,9 @@ B: Norway's finance ministry tel (@draw evid_line_3@)ls planners to count twenty
 
     erase evid
 
-That a tax costs more than (@draw sure_box sure_line_1@) it raises, and the more so the bigger it gets, is consensus.
+That a tax costs more than (@draw sure_box sure_line_1 sure_line_2@) it raises, and the more so the bigger it gets, is consensus.
 
-Ho (@draw sure_line_2@)w much is contested.
+Ho (@draw sure_line_3@)w much is contested.
 
     erase sure
 

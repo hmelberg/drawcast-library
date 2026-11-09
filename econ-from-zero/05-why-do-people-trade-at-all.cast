@@ -11,19 +11,19 @@ sources:
       year: 1817
       finding: Portugal needs fewer workers than England for both wine (80 vs 120) and cloth (90 vs 100), yet both gain by trading.
 
-    icon mia size 120 or ["baker","woman"] icon_look picture of "woman cook" hidden true
+    icon mia size 160 or ["baker","woman"] icon_look picture of "woman cook" hidden true
     text mia_name "Mia" below mia gap 8 #2f6b8f hidden true
-    icon bread right mia gap 14 size 80 icon_look picture of bread hidden true
+    icon bread right mia gap 14 size 100 icon_look picture of bread hidden true
     group mia_grp members ["mia","mia_name","bread"] in scene hidden true
-    icon jon size 120 or ["man","person"] icon_look picture of fisherman hidden true
+    icon jon size 160 or ["fisherman","man"] icon_look picture of "person rowing boat" hidden true
     text jon_name "Jon" below jon gap 8 #b5482e hidden true
-    icon fish left jon gap 14 size 80 icon_look picture of fish hidden true
+    icon fish left jon gap 14 size 100 icon_look picture of fish hidden true
     group jon_grp members ["jon","jon_name","fish"] in scene hidden true
     row scene gap 150 fit.h 230 fit.w 880 fit.x 60 fit.y 420 hidden true
     text mia_plus "+" above mia gap 6 #87a878 font_size 54 hidden true
     text jon_minus "−" above jon gap 6 #c96567 font_size 54 hidden true
     text jon_plus "+" above jon gap 6 #87a878 font_size 54 hidden true
-    text per_hour "in one hour" #8f887c at.percent [50,38] font_size 34 hidden true
+    text per_hour "in one hour" #8f887c at.percent [50,60] font_size 34 hidden true
     text m_l "4 loaves" below mia_name gap 40 #2f6b8f font_size 40 hidden true
     text m_f "or 4 fish" below m_l gap 16 #2f6b8f font_size 40 hidden true
     text j_l "1 loaf" below jon_name gap 40 #b5482e font_size 40 hidden true
@@ -43,8 +43,8 @@ B: Easy. Someone gets the better deal. If Mia w (@draw jon_minus@)ins, Jon loses
 That's most people's first guess. But nobody forces Jon to swap.
     fade mia_plus jon_minus to 0.3
 
-He hands over fish he values less than the bread, and (@move bread by [337,0] duration 2@) Mia hands over bread she values less than the fish.
-    move fish by [-337,0] duration 2
+He hands over fish he values less than the bread, and (@move bread to.ref jon to.anchor left anchor right duration 2@) Mia hands over bread she values less than the fish.
+    move fish to.ref mia to.anchor right anchor left duration 2
 
     erase jon_minus
 
@@ -69,7 +69,7 @@ Mia is better at both: economists call that an (@draw abs_adv@) absolute advanta
     highlight m_l m_f
 
 B: In 1817 David Ricardo asked the same about countries: Portugal could make both wine and cloth with less labour than England.
-    portrait ricardo cites ["ricardo1817"] of "David Ricardo" cameo true
+    portrait ricardo cites ["ricardo1817"] x 500 y 250 width 180 of "David Ricardo"
 
     erase ricardo
 
@@ -93,9 +93,9 @@ domain:
       - 36
     box:
       x: 50
-      'y': 110
-      w: 560
-      h: 540
+      'y': 175
+      w: 540
+      h: 480
 
     axes ax x_label "Loaves a day" y_label "Fish a day" ticks.x [8,16,24] ticks.y [8,16,24,32] hidden true
     curve mia_line #2f6b8f expr "32 - x" x_from 0 x_to 32 hidden true
@@ -109,7 +109,7 @@ domain:
     text cost_mia "Mia: 1 fish = 1 loaf" #2f6b8f at.percent [80,78] font_size 30 hidden true
     text cost_jon "Jon: 1 fish = ½ loaf" #b5482e at.percent [80,68] font_size 30 hidden true
     scale total at.percent [80,42] width 380 label "loaves in total" min 0 max 40 value 24 markers [{"value":20,"label":"alone"}] hidden true
-    scratch sum top-right work ["Alone: 20 loaves, 24 fish","Specialised: 24 loaves, 24 fish"] hidden true
+    scratch sum top-right work ["Alone: 20 loaves, 24 fish","Specialised: 24 loaves, 24 fish"] font_size 30 hidden true
 
     card title "What a fish really costs"
 
@@ -162,7 +162,7 @@ Four extra loaves, from the same two people and the same hours. That is the whol
     erase total sum
 
 B: Asked for one idea in social science that is both true and not obvious, Paul Samuelson named this one.
-    portrait samuelson of "Paul Samuelson" cameo true
+    portrait samuelson x 820 y 380 width 200 of "Paul Samuelson"
 
 ## Splitting the gain
 domain:
@@ -174,9 +174,9 @@ domain:
       - 36
     box:
       x: 50
-      'y': 110
-      w: 560
-      h: 540
+      'y': 175
+      w: 540
+      h: 480
 vars:
     p:
       value: 0.75
@@ -203,7 +203,7 @@ vars:
     text deal "8 fish → 6 loaves" #8f887c at.percent [80,70] font_size 30 hidden true
     text band "½  <  price  <  1" #3d3833 at.percent [80,64] font_size 34 hidden true
     cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"after"}] then after hidden true
-    scratch mth work [{"tex":"\\text{Mia: } 8 - 8p > 0 \\Rightarrow p < 1"},{"tex":"\\text{Jon: } 8p - 4 > 0 \\Rightarrow p > \\tfrac12"},{"tex":"\\text{Together: } (8-8p)+(8p-4) = 4"}] x 790 y 330 hidden true
+    scratch mth work [{"tex":"\\text{Mia: } 8-8p > 0 \\Rightarrow p<1"},{"tex":"\\text{Jon: } 8p-4 > 0 \\Rightarrow p>\\tfrac12"},{"tex":"\\text{Together: } (8-8p)+(8p-4)=4"}] x 680 y 360 font_size 28 hidden true
 
     card title "Splitting the gain"
 
@@ -229,8 +229,11 @@ Both points sit outside their own lines. Each has more than they could ever make
 B: What if Jon drives a harder bargain: a whole loaf per fish?
     highlight price
 
-Then  (@animate p 1 duration 2@)Jon takes all four extra loaves, and Mia gains nothing. At half a  (@animate p 0.5 duration 2.5@)loaf a fish, it's the reverse.
-    blocking false
+Then Jon takes all four extra loaves, and Mia gains nothing.
+    animate p 1 duration 2
+
+At half a loaf a fish, it's the reverse.
+    animate p 0.5 duration 2
 
 B: Pause and drag the price yourself. Push it past one loaf per fish, and watch Mia's point.
     explore params ["p"]
@@ -240,6 +243,8 @@ B: Pause and drag the price yourself. Push it past one loaf per fish, and watch 
 Past one loaf, Mia would rather catch her own fish; below a half, Jon would rather bake. So the price land (@draw band@)s between their two costs.
     animate p 0.75 duration 2
 
+    fade ax mia_line lab_mia jon_line lab_jon mia_alone jon_alone lab_alone jon_tr lab_jon_tr mia_tr lab_mia_tr price band to 0.15
+
     draw mathq
 
     ask "Why must the price sit between a half and one? Open the math, or skip it." on mathq store m default "Skip it" stage own voice b
@@ -248,10 +253,10 @@ Past one loaf, Mia would rather catch her own fish; below a half, Jon would rath
 
     erase mathq
 
-B: Mia's gain is eight minus eight times the price, positive while the price is under one.
+B: Mia keeps twenty-four loaves minus eight p, paid for Jon's eight fish. Against sixteen alone, she gains eight minus eight p: positive while the price is under one.
     draw mth_box mth_line_1
 
-Jon's is eight times the price minus four, positive above a half.
+Jon gets eight p loaves for his eight fish, against four alone: positive above a half.
     draw mth_line_2
 
 Together, always four.
@@ -260,6 +265,8 @@ Together, always four.
     erase mth
 
 @after
+
+    fade ax mia_line lab_mia jon_line lab_jon mia_alone jon_alone lab_alone jon_tr lab_jon_tr mia_tr lab_mia_tr price band to 1
 
     erase mathq
 
@@ -290,24 +297,24 @@ sources:
       year: 2013
       finding: Rising Chinese import competition (1990–2007) raised unemployment, lowered participation and reduced wages in US local labour markets with import-competing manufacturing.
 
-    text clean_note "Mia +2 · Jon +2" #8f887c at.percent [50,92] font_size 28 hidden true
-    icon town_i size 110 icon_look picture of sailboat hidden true
+    text clean_note "Mia +2 · Jon +2" #8f887c at.percent [50,92] font_size 32 hidden true
+    icon town_i size 150 icon_look picture of sailboat hidden true
     text town_t "Town" below town_i gap 14 #4f7a43 font_size 36 hidden true
     text town_s "cheaper boats" below town_t gap 10 font_size 30 hidden true
     group town members ["town_i","town_t","town_s"] in split hidden true
-    icon yard_i size 110 or ["worker"] icon_look picture of "construction worker" hidden true
+    icon yard_i size 150 or ["worker"] icon_look picture of "construction worker" hidden true
     text yard_t "Boatyard" below yard_i gap 14 #b5482e font_size 36 hidden true
     text yard_s "jobs lost" below yard_t gap 10 font_size 30 hidden true
     group yard members ["yard_i","yard_t","yard_s"] in split hidden true
     row split gap 160 fit.h 330 fit.w 840 fit.x 80 fit.y 300 hidden true
     text total "total ↑   but shares?" below split gap 24 font_size 34 hidden true
-    icon japan_i size 110 or ["japan"] icon_look picture of "flag: Japan" hidden true
+    icon japan_i size 150 or ["japan"] icon_look picture of "flag: Japan" hidden true
     text japan_t "Japan, 1859" below japan_i gap 14 #2f6b8f cites ["bernhofen_brown_2004","bernhofen_brown_2005"] font_size 36 hidden true
-    text japan_s "gain ≤ 8–9% of GDP" below japan_t gap 10 cites ["bernhofen_brown_2004","bernhofen_brown_2005"] font_size 30 hidden true
+    text japan_s "gain ≤ 8–9% of GDP" below japan_t gap 10 cites ["bernhofen_brown_2004","bernhofen_brown_2005"] font_size 36 hidden true
     group japan members ["japan_i","japan_t","japan_s"] in evid hidden true
-    icon china_i size 110 or ["factory"] icon_look picture of "flag: United States" hidden true
+    icon china_i size 150 or ["factory"] icon_look picture of "flag: United States" hidden true
     text china_t "US, 1990–2007" below china_i gap 14 #b5482e cites ["autor_dorn_hanson_2013"] font_size 36 hidden true
-    text china_s "China shock: jobs, wages fell" below china_t gap 10 cites ["autor_dorn_hanson_2013"] font_size 30 hidden true
+    text china_s "China shock: jobs, wages fell" below china_t gap 10 cites ["autor_dorn_hanson_2013"] font_size 36 hidden true
     group china members ["china_i","china_t","china_s"] in evid hidden true
     row evid gap 120 fit.h 330 fit.w 880 fit.x 60 fit.y 300 hidden true
     text sure1 "Total gains: consensus" #4f7a43 at.percent [27,22] font_size 32 hidden true
@@ -332,7 +339,7 @@ Yes. Trade raises the total; it doesn't promise that everyone's share grows.
     pause 0.3
 
 B: Then is there evidence it raises the total at all?
-    erase town yard total
+    erase town yard total clean_note
 
 A rare test: Japan, almost closed for two centuries, opened to trade in 1859, and began exporting what had been cheap at home, like silk and tea.
     draw japan

@@ -19,6 +19,9 @@ sources:
     path divide dashed #8f887c points [[500,350],[500,590]] hidden true
     text vote "Nov 1994: cap on rent rises" #b5482e x 500 y 625 font_size 32 hidden true
     icon lock size 80 set twemoji x 390 y 560 icon_look picture of locked hidden true
+    text naive "landlords → tenants ?" #8f887c x 500 y 250 font_size 36 hidden true
+    scale renters bottom cites ["dmq2019"] label "Change in renters living there" unit % min -30 max 30 value -15 ticks 6 hidden true
+    text rents "City-wide rents: +5.1%" #b5482e cites ["dmq2019"] x 710 y 642 font_size 36 hidden true
 
     card title "A cap that raised rents"
 
@@ -26,7 +29,7 @@ What happens when the government caps rents? Most people's first answer is simpl
     draw old new
 
 B: That's my answer too. It's a transfer: money moves from landlords to tenants.
-    text naive "landlords → tenants ?" #8f887c x 500 y 250 font_size 36
+    draw naive
 
 Let's test it o (@erase naive@)n a real case. San Francisco has limited yearly rent rises since 1979, but small buildings, with four flats or fewer, were left out.
     draw old_l new_l
@@ -38,7 +41,7 @@ B: So two near-identical buildings, a few years apart in age, and only one gets 
     highlight old new effect pulse
 
 It is, and three Stanford economists, Rebecca Diamond, Tim McQuade and Franklin Qian, followed thousands of those tenants for years.
-    scale renters bottom cites ["dmq2019"] label "Change in renters living there" unit % min -30 max 30 value -15 ticks 6
+    draw renters
 
     erase vote
 
@@ -47,13 +50,13 @@ It is, and three Stanford economists, Rebecca Diamond, Tim McQuade and Franklin 
         wrong: You said {g}; it was {g.true}. A guess is a fine place to start.
 
 It fell by fifteen percent. Landlords sold flats to owners, turned them into condominiums, or tore the building down and built new, and new buildings were exempt.
-    highlight renters_answer effect pulse
+    text fell "Renters: −15%" #b5482e cites ["dmq2019"] x 290 y 642 font_size 36
 
 B: Fewer flats to rent, in a city already short of them.
     fade old old_l lock to 0.4
 
 And the authors estimate that this pushed rents across the whole city up by about five percent. A cap on rents that raised rents.
-    text rents "City-wide rents: +5.1%" #b5482e cites ["dmq2019"] x 710 y 642 font_size 36
+    draw rents
 
 To see how that can happen, we need the market diagram, with a lid on it.
     highlight rents effect underline
@@ -86,6 +89,9 @@ with:
       - shortage
     readout_at: inside
 
+    text dwl_tag "Deadweight loss" #b5482e at.data [11,24] font_size 24 hidden true
+    arrow dwl_arrow #b5482e from.data [19,27] to.data [45,46] hidden true
+
     card title "A lid on the market"
 
 B: A cap that raises rents sounds like a paradox. On the diagram it is almost the first thing you see.
@@ -109,11 +115,13 @@ So the tenants who do have a flat pay less. That part of the first answer was ri
 B: It was. This rectangle moves from landlords to sitting tenants.
     draw transfer_region label_transfer
 
-B: But this triangle is simply gone: flats someone would gladly rent, and someone would gladly let, now never get let.
-    draw dwl_region label_DWL
+B: But th (@erase label_DWL@)is triangle is simply gone: flats someone would gladly rent, and someone would gladly let, now never get let.
+    draw dwl_region dwl_tag dwl_arrow
 
 And the flats that remain go to whoever got there first, or never moves, not to whoever needs them most.
     highlight shortage_guide_qs label_Qs
+
+    erase dwl_tag dwl_arrow
 
 B: Now give it time. A landlord can't remove a building overnight, but over years they sell, convert or build something else, so supply grows more responsive.
     highlight supply_curve
@@ -137,11 +145,10 @@ with:
     colors:
       - green
       - red
-    y_label: $ billion (present value)
+    y_label: $ billion, present value, 1995–2012
     ylim:
       - 0
       - 5
-    title: San Francisco, 1995–2012
     box: left
     label_size: 30
 sources:
@@ -158,7 +165,7 @@ sources:
     card title "Who paid in San Francisco"
 
 The diagram says a cap helps the tenants who have a flat, and hurts those still looking. San Francisco lets us count both.
-    draw axes title
+    draw axes
 
 B: Start with the winners. Tenants in the newly capped buildings were ten to twenty percent more likely to still live at their address years later.
     draw stay_box stay_line_1 stay_line_2 stay_line_3
@@ -171,7 +178,7 @@ And older tenants, and those who had lived there longest, gained the most: they 
 B: Added up over 1995 to 2012, the authors put the gain to those tenants at about two point nine billion dollars, in present value.
     draw bar_1
 
-    ask "How big was the cost to all renters of the higher rents? Drag the bar to your guess." on bar_2 store c relative true
+    ask "How big was the cost of the higher rents? Drag the bar." on bar_2 store c relative true
         intro: Now the losers: everyone who paid the higher city-wide rents that the shrinking supply caused.
         right: Close: you said {c} billion, and it was {c.true}.
         wrong: You said {c} billion; it was {c.true}.
@@ -245,6 +252,8 @@ B: Then it's less a lid than an insurance policy: if rents in the city soar, you
 And that insurance is worth something real: staying near your friends, your school, your job. The simple diagram has no place for it.
     highlight design_line_4 design_line_5
 
+    erase design
+
 B: Then why do economists dislike it so much?
     highlight shortage_arrow
 
@@ -252,7 +261,7 @@ Because the landlord pays for the insurance, so the landlord has a reason to get
     highlight supply_curve
 
 B: How sure are we, then?
-    erase design
+    highlight shortage_arrow
 
 That caps shrink rental supply is mostly agreed: in a 2012 poll, of thirty-seven leading US economists who answered, only one agreed that rent control had helped affordable housing.
     draw sure_box sure_line_1 sure_line_2
@@ -289,28 +298,28 @@ As supply grows more responsive over the years, d grows, and so does the shortag
     hide mathq
 
     quiz "Harbourtown's council caps the fee for a harbour mooring at half the market fee. What follows?" voice b
-        right: At half the fee more boat owners want a mooring and fewer are offered, so a queue forms.
+        right: A waiting list: at half the fee more boat owners want a mooring and fewer are offered.
         wrong: At half the fee, do more boat owners want a mooring, and do more owners offer one?
         + A waiting list for moorings
         * More moorings offered
         * No change at all
 
     quiz "A city caps rents at $3,000 a month where the market rent is $2,000. What happens?"
-        right: A cap above the market rent does not bind: rents stay where supply and demand put them.
+        right: Very little: a cap above the market rent does not bind, so rents stay where supply and demand put them.
         wrong: Does a lid above the market rent stop anyone doing what they would do anyway?
         * A shortage of flats
         + Very little
         * Rents fall to $2,000
 
     quiz "A hard rent cap stays in place for ten years. Compared with year one, the shortage is…" voice b
-        right: Over ten years landlords sell, convert or never build, so supply responds more and the shortage grows.
+        right: Larger: over ten years landlords sell, convert or never build, so supply responds more.
         wrong: A landlord can't change a building overnight. What about in ten years?
         + Larger
         * Smaller
         * The same
 
     quiz "Which design protects sitting tenants while giving landlords the least reason to stop renting?"
-        right: If the government carries the insurance, renting out a flat pays as before, so landlords have no new reason to leave.
+        right: Government-paid insurance: renting out a flat then pays as before, so landlords have no new reason to leave.
         wrong: In each design, who pays for the protection, and does that payer then want out?
         + Government pays part of a sitting tenant's large rent rise
         * A hard cap on every rent

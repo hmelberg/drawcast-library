@@ -13,17 +13,17 @@ sources:
 
     icon cod at.percent [45,60] size 200 set twemoji icon_look picture of fish hidden true
     text naive "cost + a bit?" #8f887c x 700 y 470 font_size 30 hidden true
-    portrait smith of "Vernon L. Smith" cameo true hidden true
-    box b1 "$8" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
-    box b2 "$7" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
-    box b3 "$6" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
-    box b4 "$5" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
-    box b5 "$4" width 140 height 130 radius 10 icon "shopping cart" style.stroke #b5482e in buyers hidden true
-    box s1 "$2" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
-    box s2 "$3" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
-    box s3 "$4" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
-    box s4 "$5" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
-    box s5 "$6" width 140 height 130 radius 10 icon "fishing pole" style.stroke #2f6b8f in sellers hidden true
+    portrait smith x 850 y 470 width 190 of "Vernon L. Smith" hidden true
+    box b1 "$8" width 140 height 130 radius 10 icon "shopping cart" font_size 34 style.stroke #b5482e in buyers hidden true
+    box b2 "$7" width 140 height 130 radius 10 icon "shopping cart" font_size 34 style.stroke #b5482e in buyers hidden true
+    box b3 "$6" width 140 height 130 radius 10 icon "shopping cart" font_size 34 style.stroke #b5482e in buyers hidden true
+    box b4 "$5" width 140 height 130 radius 10 icon "shopping cart" font_size 34 style.stroke #b5482e in buyers hidden true
+    box b5 "$4" width 140 height 130 radius 10 icon "shopping cart" font_size 34 style.stroke #b5482e in buyers hidden true
+    box s1 "$2" width 140 height 130 radius 10 icon "fishing pole" font_size 34 style.stroke #2f6b8f in sellers hidden true
+    box s2 "$3" width 140 height 130 radius 10 icon "fishing pole" font_size 34 style.stroke #2f6b8f in sellers hidden true
+    box s3 "$4" width 140 height 130 radius 10 icon "fishing pole" font_size 34 style.stroke #2f6b8f in sellers hidden true
+    box s4 "$5" width 140 height 130 radius 10 icon "fishing pole" font_size 34 style.stroke #2f6b8f in sellers hidden true
+    box s5 "$6" width 140 height 130 radius 10 icon "fishing pole" font_size 34 style.stroke #2f6b8f in sellers hidden true
     text buyers_h "Buyers" #b5482e x 95 y 557 font_size 26 hidden true
     text sellers_h "Fishers" #2f6b8f x 95 y 372 font_size 26 hidden true
     row buyers gap 24 fit.h 165 fit.w 780 fit.x 180 fit.y 475 hidden true
@@ -42,7 +42,7 @@ B: Easy. The sellers pick it: their cost, plus a bit.
 
     erase cod naive
 
-That's most people's first answer. In January 1956  (@draw smith@)a young economist at Purdue, Vernon Smith, put it to a test in his classroom.
+That's most people's first answer. In January 195 (@draw smith@)6 an economist at Purdue, Vernon Smith, put it to a test in his classroom.
 
     erase smith
 
@@ -100,19 +100,21 @@ Sort them how?
     point at.data [0,80] gesture tap
 
 B: Line the buyers up, the most eager first; each card shows the price that buyer would still pay.
-    draw demand_curve
+    path dsteps thick #b5482e points [[15,80],[25,80],[25,70],[35,70],[35,60],[45,60],[45,50],[55,50],[55,40],[65,40]] data true
 
-B: With a whole quay of buyers, the steps blur into a line sloping down: the demand curve.
-    draw label_D
+B: With a whole quay of buyers, the steps blur into a l (@fade dsteps to 0.25@)ine sloping down: the demand curve.
+    draw demand_curve label_D
 
 So at each price, it says how many crates buyers would take.
     point at.data [30,70] gesture circle
 
 B: Now the fishers, cheapest first: each card is the lowest price that fisher will accept.
-    draw supply_curve
+    path ssteps thick #2f6b8f points [[15,20],[25,20],[25,30],[35,30],[35,40],[45,40],[45,50],[55,50],[55,60],[65,60]] data true
 
-B: Their line slopes up, the supply curve: at each price, how many crates are offered.
-    draw label_S
+B: Their line slopes up, the supply curve: at each pr (@fade ssteps to 0.25@)ice, how many crates are offered.
+    draw supply_curve label_S
+
+    erase dsteps ssteps
 
 And where the two lines cross, both sides want the same amount: say, fifty crates at five dollars.
     draw equilibrium_point guide_lines label_Pstar label_Qstar
@@ -194,13 +196,15 @@ The surplus shrinks until, at five dollars, it's gone.
 
     erase floor_line
 
-B: Then the other wa (@draw ceiling_line label_ceiling@)y: say the price starts at three dollars.
-    animate price_ceiling.level 30 duration 2
+B: Then the  (@animate price_ceiling.level 30 duration 2@)other way: say the price starts at three dollars.
+    draw ceiling_line label_ceiling
 
 Buyers want about seventy crates and fishers bring about thirty: a shortage, and some buyers go home empty-handed.
     draw n30 n70
 
-B: And they don't just give up, they bid mor (@erase n30 n70@)e, so the price climbs back toward five.
+    erase n30 n70
+
+B: And they don't just give up, they bid more, so the price climbs back toward five.
     animate price_ceiling.level 50 duration 4
 
     show floor_line
@@ -255,7 +259,7 @@ sources:
       year: 1962
       finding: With every bid and offer called out publicly (a double auction), inexperienced traders converged quickly to the competitive equilibrium.
 
-    portrait chamberlin of "Edward Hastings Chamberlin" cameo true hidden true
+    portrait chamberlin x 780 y 440 width 200 of "Edward Hastings Chamberlin" hidden true
     box ch "Haggling in pairs, 1948" width 340 height 150 radius 10 icon handshake style.stroke #b5482e in pair hidden true
     box sm "Open shouting, 1956" width 340 height 150 radius 10 icon megaphone style.stroke #2f6b8f in pair hidden true
     column pair gap 90 fit.h 440 fit.w 400 fit.x 560 fit.y 200 hidden true

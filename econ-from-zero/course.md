@@ -156,6 +156,7 @@ What did empty Soviet shelves and wartime ration books have in common?
 #facts #parts=3
 
 ---
+status: done · id: a0f587ee-ed65-48e0-a29f-3aacef98d7a6 · file: 21-what-happens-when-prices-are-not-allowed.cast · 2026-11-09
 ## Why would a market ever be efficient?
 What is the "invisible hand" argument, step by step?
 Which conditions does it quietly need?

@@ -59,7 +59,7 @@ Some of it, maybe. But bread is cheaper than perfume and salt cheaper than silk 
     erase water_icon gem_icon
 
 The puzzle is old: Adam Smith set it out in 1776, in The Wealth of Nations.
-    portrait smith of "Adam Smith" cameo true
+    portrait smith x 850 y 430 width 200 of "Adam Smith"
 
     erase smith
 
@@ -84,7 +84,7 @@ So the puzzle stands: why does price follow the rare thing, not the useful one?
     highlight bar_2
 
     quiz "Why does a diamond cost more than a glass of water?"
-        right: How much of each we already have decides what one more is worth — and that is what the price follows.
+        right: It depends on how much of each we already have: that decides what one more is worth, and the price follows the next one, not all of them.
         wrong: Think about the tenth glass of water you drink today, not the first.
         * Diamonds take more work to dig out
         * People are vain about diamonds
@@ -115,11 +115,11 @@ sources:
     region total x_from 0 x_to.ref pw between ["water","base"] style.fill #87a878 style.opacity 0.45 hidden true
     text l_total "total value" at.data [6,10] font_size 30 hidden true
     dot pw #2f6b8f at.on water at.x 16 bind {"at.x":"Q"} hidden true
-    label l_pw "last glass: {mv:0}" above #2f6b8f attach_to pw hidden true
+    label l_pw "value of last glass: {mv:0}" above #2f6b8f attach_to pw hidden true
     curve diamond thick #b5482e expr 50*exp(-x/1.2) x_from 0 x_to 6 hidden true
     dot pd #b5482e at.on diamond at.x 0.3 hidden true
-    label l_pd "diamond: your first" right #b5482e attach_to pd hidden true
-    portrait jevons of "William Stanley Jevons" cameo true hidden true
+    label l_pd "first diamond" below-right #b5482e attach_to pd hidden true
+    portrait jevons x 820 y 500 width 190 of "William Stanley Jevons" hidden true
     scratch mathcard top-right work [{"tex":"MU = \\frac{\\Delta U}{\\Delta Q}"},{"tex":"\\text{buy until } MU = P"},{"tex":"\\frac{P_{water}}{P_{diamond}} = \\frac{MU_{water}}{MU_{diamond}}"}] font_size 30 hidden true
 
     card title "The last glass"
@@ -212,17 +212,20 @@ with:
       curvature: linear
       label: marginal value
     supply:
-      label: S
+      label: marginal cost
     equilibrium:
       show: true
       guides: true
-      shift_label: ''
-      shift_p_label: P
-      shift_q_label: Q
+      label: water
+      p_label: ''
+      q_label: ''
+    demand_shift:
+      amount: 0
+      label: diamond value
     supply_shift:
-      amount: 35
-      label: marginal cost
-      arrow: horizontal
+      amount: 0
+      label: diamond cost
+adjust: {"label_D":{"move":[2,5]}}
 sources:
     - id: marshall1890
       title: Principles of Economics, Book V, ch. III
@@ -236,14 +239,14 @@ sources:
       year: 1982
       finding: De Beers controlled most of the world's rough-diamond supply for much of the twentieth century and stockpiled stones to hold prices up
 
-    portrait marshall of "Alfred Marshall" cameo true hidden true
-    text sure "consensus" #87a878 at.percent [84,88] cites ["marshall1890"] font_size 36 hidden true
-    mark sure_box around sure kind box hidden true
+    portrait marshall x 890 y 365 width 150 of "Alfred Marshall" hidden true
+    dot dpt #3d3833 at.intersection_of ["demand_shift_curve","supply_shift_curve"] hidden true
+    label l_dpt "diamond" above-right attach_to dpt hidden true
     label debeers "held back" left #b5482e attach_to supply_shift_curve cites ["epstein1982"] hidden true
 
     card title "Two blades"
 
-    hide supply_curve label_S equilibrium_point guide_lines label_E label_Pstar label_Qstar supply_shift_arrow
+    hide demand_shift_arrow supply_shift_arrow label_Pstar label_Qstar
 
 B: The last glass solved half the puzzle. It left out the other half.
     draw axes demand_curve label_D
@@ -252,59 +255,66 @@ Which half? Surely value is just what people want.
     highlight demand_curve
 
 B: Smith's labour story never went away. Cost decides how much gets supplied — and so how far down the curve we end up.
-    draw supply_shift_curve label_S_shift
+    draw supply_curve label_S
 
 B: Water is cheap to pump, so a lot is supplied, and we end up far down, where the last glass is worth little.
-    draw shift_equilibrium_point shift_guide_lines label_P_shift label_Q_shift
+    draw equilibrium_point guide_lines label_E
 
 B: So both matter, as Alfred Marshall put it in 1890: asking whether utility or cost sets value is like asking which blade of the scissors cuts the paper.
     draw marshall
 
     erase marshall
 
-So diamonds sit where cost is high: few are dug, and the last one is still worth a lot.
-    animate supply_shift.amount -28 duration 3 ghost true
+    draw demand_shift_curve supply_shift_curve parallel true
+
+Diamonds have their own blades: a lower value curve, but a cost curve far up — few are dug, (@draw label_D_shift label_S_shift dpt l_dpt@) and the last one is still worth a lot.
+    animate demand_shift.amount -12 supply_shift.amount -55 duration 3
 
 But isn't some of that scarcity made?
     highlight supply_shift_curve
 
 B: Some of it. For most of the twentieth century one firm, De Beers, controlled most of the world's rough dia (@draw debeers@)monds and held stones back.
-    animate supply_shift.amount -38 duration 2.5
+    animate supply_shift.amount -65 duration 2.5
 
 So the margin explains how the price works — not whether the scarcity behind it is natural.
-    highlight shift_equilibrium_point label_P_shift
+    highlight dpt l_dpt
 
     erase debeers
 
 B: How sure are we? That price tracks the value of the last unit, not the total, is about as close to consensus as economics gets.
-    draw sure sure_box
+    text sure "consensus" #87a878 at.percent [82,45] cites ["marshall1890"] font_size 36
+    mark sure_box around sure kind box
 
 B: What changed is the utility part: the marginalists hoped to measure it like weight; today's theory only needs people to rank their options.
-    highlight label_D
+    highlight label_D label_D_shift
+
+    erase sure sure_box
 
     quiz "Harbourtown's reservoir runs low and water is rationed. What happens to what people would pay for one more litre?"
-        right: It rises: with less water, the last litre goes to drinking, not the plants, so it is worth far more.
+        right: It rises sharply: with less water, the last litre goes to drinking, not the plants, so it is worth far more.
         wrong: Ask which litre you would give up: the one for the plants, or one you drink.
         + It rises sharply
         * It stays the same: water is just as useful
         * It falls
 
     quiz "Labs learn to grow diamonds identical to mined ones, cheaply and in any number. What happens to the price of a diamond?" voice b
-        right: It falls: supply moves out, buyers move down the marginal-value curve, and the last stone is worth little more than it costs to grow.
+        right: It falls toward the cost of growing one: supply moves out, buyers move down the value curve, and the last stone is worth little more than it costs to make.
         wrong: Think about how much the last buyer would pay once stones are plentiful.
         + It falls toward the cost of growing one
         * It stays high: diamonds are still beautiful
         * It rises: more people can now get one
 
     quiz "Air is more useful than water or diamonds, yet it is free. Why?"
-        right: All the air is worth everything to us; one more breath, with air all around, is worth nothing — and price follows the last breath.
+        right: One more breath is worth nothing when air is everywhere: all the air is worth everything to us, but price follows the last breath.
         wrong: Compare the value of all the air with the value of one more breath.
         * Air isn't very useful
         + One more breath is worth nothing when air is everywhere
         * The government sets its price at zero
 
-So water is cheap not because it is worth little, but because we have so much that the last glass is worth (@highlight shift_equilibrium_point label_P_shift@) little — and how a market finds that price with nobody setting it is the next puzzle.
-    animate supply_shift.amount 35 duration 3
+    erase demand_shift_curve supply_shift_curve label_D_shift label_S_shift dpt l_dpt
+
+So water is cheap not because it is worth little, but because we have so much that the last glass is worth little — and how a market finds that price with nobody setting it is the next puzzle.
+    highlight equilibrium_point label_E
 
 ## Where next
 end_page: true

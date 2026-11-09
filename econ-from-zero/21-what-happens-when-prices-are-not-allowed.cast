@@ -1,0 +1,275 @@
+# What happens when prices are not allowed to move?
+voices: {"a":"gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy","b":"gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
+prompt: "Queues, black markets, rationing: what replaces the price? What did empty Soviet shelves and wartime ration books have in common?"
+
+## Two bare shelves
+sources:
+    - id: iwm
+      title: What you need to know about rationing in the Second World War
+      authors: Imperial War Museums
+      year: 2020
+      finding: British food rationing began on 8 January 1940 with bacon, butter and sugar; meat and many other foods followed. Bread, not rationed during the war, was rationed from July 1946.
+      url: https://www.iwm.org.uk/history/what-you-need-to-know-about-rationing-in-the-second-world-war
+    - id: bodleian1954
+      title: 'On this day in 1954: Food rationing ends after 14 years'
+      authors: Bodleian Libraries, University of Oxford
+      year: 2011
+      finding: Food rationing in Britain ended at midnight on 3/4 July 1954, when meat and bacon came off the ration.
+      url: https://blogs.bodleian.ox.ac.uk/archivesandmanuscripts/2011/07/04/on-this-day-in-1954-food-rationing-ends-after-14-years/
+    - id: kornai1980
+      title: Economics of Shortage
+      authors: János Kornai
+      year: 1980
+      finding: 'Chronic shortage in the socialist economies of Central and Eastern Europe was systemic: queues for basic goods, waiting lists for durables, forced substitution and forced saving.'
+    - id: csm1991
+      title: Prices Take a Hike in Soviet Capital
+      authors: The Christian Science Monitor
+      year: 1991
+      finding: Soviet state price rises took effect on 2 April 1991; some food items, such as meat and bread, tripled in price.
+      url: https://www.csmonitor.com/1991/0403/03031.html
+
+    icon book cites ["iwm"] size 280 set twemoji x 250 y 440 or ["closed book","notebook"] icon_look picture of ledger hidden true
+    text book_l "Britain" x 250 y 268 font_size 36 hidden true
+    text book_cue "8 Jan 1940" #b5482e cites ["iwm"] x 250 y 228 font_size 34 hidden true
+    icon bacon size 70 set twemoji x 440 y 520 icon_look picture of bacon hidden true
+    icon butter size 70 set twemoji x 440 y 430 icon_look picture of butter hidden true
+    icon meat size 70 set twemoji x 440 y 340 or ["cut of meat"] icon_look picture of "meat on bone" hidden true
+    scale ends bottom cites ["bodleian1954"] label "Food rationing ends" unit "" min 1944 max 1960 value 1954 ticks 8 hidden true
+    text bread "bread rationed: 1946" #b5482e cites ["iwm"] x 640 y 290 font_size 34 hidden true
+    path shelf_frame #3d3833 points [[590,370],[590,580],[890,580],[890,370],[590,370]] hidden true
+    path plank1 points [[590,440],[890,440]] hidden true
+    path plank2 points [[590,510],[890,510]] hidden true
+    icon loaf size 56 set twemoji x 650 y 475 icon_look picture of bread hidden true
+    group shelf members ["shelf_frame","plank1","plank2","loaf"] hidden true
+    icon p1 size 100 set twemoji x 610 y 290 or ["standing person"] icon_look picture of "person standing" hidden true
+    icon p2 size 100 set twemoji x 700 y 290 or ["standing person"] icon_look picture of "person standing" hidden true
+    icon p3 size 100 set twemoji x 790 y 290 or ["standing person"] icon_look picture of "person standing" hidden true
+    icon p4 size 100 set twemoji x 880 y 290 or ["standing person"] icon_look picture of "person standing" hidden true
+    group queue members ["p1","p2","p3","p4"] hidden true
+    text shelf_l "USSR, 1980s" cites ["kornai1980"] x 740 y 205 font_size 36 hidden true
+    text triple "2 Apr 1991: meat, bread ×3" #b5482e cites ["csm1991"] x 740 y 610 font_size 34 hidden true
+
+    card title "Two bare shelves"
+
+What happens when a price is not allowed to rise, however much people want the thing? Start wi (@draw book_l@)th a little book.
+    draw book
+
+On the eighth of January 1940, Britain began rationin (@draw bacon@)g food: baco (@draw butter@)n, butter and sugar firs (@draw meat@)t, then meat, then much more.
+    draw book_cue
+
+B: With a war on, that makes sense. Ships were being sunk; there simply wasn't enough food.
+    highlight book_cue effect underline
+
+True. Now the odd part. The war in Europe ended in May 1945. When did Britain stop rationing food?
+    draw ends
+
+    ask "Click the year you think food rationing ended in Britain." on ends store g
+        right: Close: you said {g}, and it was {g.true}.
+        wrong: You said {g}; it was {g.true}. Most people guess much earlier.
+
+July 1954: nine years after the war. And bread, never rationed during the war, was rationed from 1946.
+    draw bread
+
+B: So the shortage outlived the war. Something else kept the shelves bare.
+    erase ends bread
+
+Now a second picture: a Soviet shop in the 1980s, with a long queue and half-empty shelves.
+    draw shelf shelf_l
+
+B: That was peacetime, though. No submarines.
+    draw queue
+
+No. But the state set the prices of bread and meat, and held them low. When it finally raised them, on the second of Ap (@draw triple@)ril 1991, meat and bread roughly tripled overnight.
+
+B: So in both places the price was held down, and people wanted far more than there was.
+    text held "price held down" #b5482e x 500 y 135 font_size 46
+
+That is what they share. And when the price may not do its job, the job doesn't vanish: something else decides who gets the bread.
+    highlight book shelf effect pulse
+
+## Who collects the gap?
+use: supply_demand
+with:
+    x_label: Loaves a week (Q)
+    y_label: Price a loaf (P)
+    demand: {}
+    supply: {}
+    equilibrium:
+      show: true
+      guides: true
+      p_label: $5
+      q_label: ''
+    price_ceiling:
+      level: 30
+      label: Cap $3
+    units:
+      price: [0, 10]
+      quantity: [0, 1000]
+      price_unit: $
+      quantity_unit: loaves
+    box:
+      x: 10
+      'y': 120
+      w: 620
+      h: 540
+
+    path gaprect closed #c9a23a points [[0,30],[26.6,30],[26.6,70],[0,70]] data true style.fill #f2c14e style.opacity 0.55 hidden true
+    path pd_line dashed #b5482e points [[0,70],[26.6,70]] data true hidden true
+    text pd_l "worth $7" #b5482e at.data [13,63] font_size 28 hidden true
+    text gap_l "gap $4" at.data [13,40] font_size 30 hidden true
+    scratch who work ["Who collects it?","Queue: time","Black market: cash","Coupons: rules"] x 812 y 420 font_size 30 hidden true
+
+    card title "Who collects the gap?"
+
+B: To see what that something is, take Harbourtown in a hard winter, with illustrative numbers: bread at Mia's bakery.
+    draw axes demand_curve label_D supply_curve label_S
+
+B: Left alone, the price settles at five dollars a loaf.
+    draw equilibrium_point label_E guide_lines label_Pstar
+
+Now the harbour council caps it at thre (@fade guide_lines label_Pstar to 0.35@)e dollars.
+    draw ceiling_line label_ceiling
+
+B: At three dollars, more people want bread  (@draw shortage_guide_qs label_Qs@)and Mia bakes less of it. That ga (@draw shortage_arrow label_shortage@)p is the shortage.
+    draw shortage_guide_qd label_Qd
+
+So who gets the loaves that are baked?
+    highlight shortage_guide_qs label_Qs
+
+B: Start with a better question: what would the last buyer gladly pay for them? Read it off the demand cu (@draw pd_l@)rve: about seven dollars.
+    draw pd_line
+
+So each loaf carries a four-dollar gap between what it's worth to the buyer and what the till says. Someone collects it.
+    draw gaprect gap_l
+
+B: In a queue, buyers pay it in time. The line grows until the wait costs about four dollars, and that time is simply lost.
+    draw who_box who_line_1 who_line_2
+
+And on a black market, sellers sneak the price back up to seven and pocket the gap.
+    draw who_line_3
+
+B: With ration books, the state hands out the right to buy, and the gap goes to whoever holds a coupon.
+    draw who_line_4
+
+So Soviet queues and British coupons were two answers to one question: who gets a loaf, once the price may not decide.
+    highlight gaprect effect pulse
+
+    erase who gaprect gap_l pd_line pd_l
+
+B: Try it yourself: drag the cap down and watch the shortage grow; lift it above five dollars and it disappears.
+    explore
+
+## But who needs it most?
+sources:
+    - id: weitzman1977
+      title: Is the Price System or Rationing More Effective in Getting a Commodity to Those Who Need It Most?
+      authors: Martin L. Weitzman
+      year: 1977
+      finding: 'Bell Journal of Economics 8(2): 517-524. The price system does relatively better when wants are more dispersed or income more evenly distributed; rationing does relatively better when needs are more uniform or income inequality greater.'
+      url: https://ideas.repec.org/a/rje/bellje/v8y1977iautumnp517-524.html
+
+    text clean "Clean answer: let P move" #8f887c x 500 y 620 font_size 32 hidden true
+    text weitzman "Martin Weitzman, 1977" #8a5fa8 cites ["weitzman1977"] x 500 y 420 font_size 44 hidden true
+    text h_price "Prices win" #2f6b8f x 290 y 530 font_size 40 hidden true
+    text h_ration "Rations win" #b5482e x 710 y 530 font_size 40 hidden true
+    path divider dashed #8f887c points [[500,260],[500,560]] hidden true
+    text p1 "needs differ" cites ["weitzman1977"] x 290 y 460 font_size 34 hidden true
+    text p2 "incomes similar" cites ["weitzman1977"] x 290 y 410 font_size 34 hidden true
+    text r1 "needs alike" cites ["weitzman1977"] x 710 y 460 font_size 34 hidden true
+    text r2 "incomes unequal" cites ["weitzman1977"] x 710 y 410 font_size 34 hidden true
+    icon car size 90 set twemoji x 290 y 320 or ["car"] icon_look picture of automobile hidden true
+    icon loaf size 90 set twemoji x 710 y 320 icon_look picture of bread hidden true
+    text s1 "Something always rations: consensus" #4f7a45 x 500 y 215 font_size 32 hidden true
+    text s2 "Coupons or prices? contested" #b5482e x 500 y 170 font_size 32 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    scratch wq work ["wait = gap ÷ value of time","$4 ÷ $16 an hour","= ¼ hour = 15 minutes"] x 500 y 420 font_size 32 hidden true
+
+    card title "But who needs it most?"
+
+So the price never really vanishes: it's paid in time, in cash under the counter, or in coupons. Sounds like a clean case for letting prices move.
+    draw clean
+
+B: Not so fast. In 1940, bread at seven dollars would have fed the well-off first, not the hungry.
+    fade clean to 0.4
+
+That's a serious objection, and the economist Martin Weitzman made it precise in 1977.
+    draw weitzman
+
+    erase weitzman
+
+B: His answer: prices match goods to needs better when needs differ a lot and  (@draw p2@)incomes are fairly equal.
+    draw divider h_price p1
+
+And rationing does better when everyone needs about the same and inc (@draw r2@)omes are very unequal.
+    draw h_ration r1
+
+B: Food in wartime fits that second case: everyone needs calories, and wages differed hugely.
+    draw loaf
+
+While a car fits the first: some need one badly, some hardly at all, and a waiting list can't tell them apart.
+    draw car
+
+B: So how sure are we? That something always  (@draw s1@)takes the price's place: that's consensus.
+
+Whether coupons beat prices in a given crisis depends on needs (@draw s2@) and incomes, and that is still contested.
+
+    draw mathq
+
+    ask "How long is the queue for a loaf? Open the math, or skip it." on mathq store m default "Skip it" stage own voice b
+
+@math
+
+    erase mathq
+
+    fade h_price h_ration divider p1 p2 r1 r2 car loaf s1 s2 clean to 0.12
+
+B: How long is a queue? Divide the gap by what an hour is worth to the people in it.
+    draw wq_box wq_line_1
+
+B: Say a four-dollar gap, and time worth sixteen dollars an hour: about fifteen (@draw wq_line_3@) minutes in line for every loaf.
+    draw wq_line_2
+
+    erase wq
+
+@test
+
+    erase mathq
+
+    fade h_price h_ration divider p1 p2 r1 r2 car loaf s1 s2 to 1
+
+    fade clean to 0.4
+
+    quiz "A concert sells tickets at $50, though fans would pay $300, and resale is banned. What decides who gets in?" intro "Three new cases." voice b
+        right: Waiting, luck and touts: the $250 gap is still collected, just not by the box office.
+        wrong: If the price can't rise to $300, something else must sort the fans.
+        * Nothing: fans just get a bargain
+        + Waiting online, luck and touts
+        * The band's costs
+
+    quiz "A city makes downtown parking free. Where does the gap go?"
+        right: Into circling: drivers pay for the scarce spaces with their time, a queue on wheels.
+        wrong: There are still more cars than spaces.
+        * To drivers, as savings
+        + Into time spent circling for a space
+        * To the city
+
+    quiz "After a flood, every household gets a water coupon, and coupons may be sold. Compared with one long queue, what changes?" voice b
+        right: Coupons can move to those who need water most, the sellers keep the gap as cash, and nobody wastes hours in line.
+        wrong: Ask what a household that needs little water does with its coupon.
+        * Nothing: same water, same people
+        + Those who need less sell to those who need more, and no time is lost queuing
+        * Only the rich get water
+
+When a price may not move, the shortage is still shared out, by time, by cash or by rule. The real choice is which of those we want, and who should get the bread.
+    highlight h_price h_ration effect pulse
+
+    pause 0.5
+
+## Where next
+end_page: true
+
+    text end_next_kicker "Next" x 500 y 540 font_size 26 style.opacity 0.6
+    link end_next href lecture:22 title "Why would a market ever be efficient?" form title size 600 x 500 y 420
+
+    link end_again href lecture:21 title "Watch again" form text mark replay open here x 500 y 250 font_size 28
+    text end_count "21 of 365" x 500 y 180 font_size 22 style.opacity 0.6

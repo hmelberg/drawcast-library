@@ -34,6 +34,11 @@ with:
       - 200
     y_label: Index, Jan 2007 = 100
     x_label: ''
+    box:
+      x: 90
+      'y': 160
+      w: 800
+      h: 430
 sources:
     - id: bls_gas
       title: 'Average Price: Gasoline, Unleaded Regular (Cost per Gallon) in U.S. City Average (APU000074714)'
@@ -55,10 +60,10 @@ sources:
       doi: 10.1080/0144164042000181725
 
     dot pt_peak at.data [18,180] cites ["bls_gas"] hidden true
-    label lab_peak "180" left attach_to pt_peak hidden true
+    label lab_peak "180" left attach_to pt_peak font_size 32 hidden true
     dot pt_miles at.data [18,96.5] cites ["fhwa_vmt"] hidden true
-    label lab_miles "96.5" below attach_to pt_miles hidden true
-    scratch card cites ["gdh2004"] work ["Fuel price +10%","Fuel use, 1 year: −2.5%","Fuel use, long run: −6%"] x 560 y 222 font_size 24 hidden true
+    label lab_miles "96.5" below attach_to pt_miles font_size 32 hidden true
+    scratch card cites ["gdh2004"] work ["Fuel price +10%","Fuel use, 1 year: −2.5%","Fuel use, long run: −6%"] x 560 y 282 font_size 22 hidden true
 
     card title "Dearer fuel, same driving"
 
@@ -74,7 +79,7 @@ B: Nearly double. People must have left their cars at home.
 Let's see if you agree. On the same scale, draw how far Americans drove over those months.
     point at.data [9,8] gesture underline duration 3
 
-    ask "How far did Americans drive, month by month? Draw the miles line from January 2007." on line_2 from 0 store g
+    ask "Draw the miles-driven line, then press Done." on line_2 from 0 store g
         right: Good eye: you kept it nearly flat, and so did America.
         wrong: Most people draw a clear drop. The real line barely dips.
 
@@ -132,8 +137,11 @@ sources:
       finding: A lasting 10% fuel price rise cuts fuel use about 2.5% within a year and about 6% in the longer run.
       doi: 10.1080/0144164042000181725
 
-    portrait marshall cites ["marshall1890"] of "Alfred Marshall" cameo true hidden true
+    portrait marshall cites ["marshall1890"] x 830 y 540 width 200 of "Alfred Marshall" cameo true hidden true
     path ghost_D dashed #b5482e points [[441.2,540.5],[592.6,133.7]] style.opacity 0.3 hidden true
+    path spend_old closed dashed #8f887c points [[0,0],[50,0],[50,50],[0,50]] data true hidden true
+    path spend_new closed #d0865f points [[0,0],[45.8,0],[45.8,68.6],[0,68.6]] data true style.fill #f2c14e style.opacity 0.45 hidden true
+    text spend_lab "spent: P × Q" #8a5a00 at.data [22,8] font_size 28 hidden true
     scratch card cites ["gdh2004"] work ["ε = %ΔQ ÷ %ΔP","fuel, 1 year: −2.5% ÷ 10% ≈ −0.25","|ε| < 1 inelastic,  > 1 elastic"] x 700 y 560 font_size 30 hidden true
 
     card title "One number for sensitivity"
@@ -153,7 +161,7 @@ B: Yes. Ignore the sign: below one, demand is inelastic; above one, elastic. Sho
 Now say a war (@draw supply_curve label_S equilibrium_point label_E guide_lines label_Pstar label_Qstar@) cuts the oil supply. Where does the supply curve go?
     erase card
 
-    ask "Where does the supply curve go? Move it, then press Done." on supply_curve predict true store t
+    ask "Move the supply curve, then press Done." on supply_curve predict true store t
         right: Yes. {t.why}
         wrong: Not quite. {t.why}
 
@@ -163,14 +171,16 @@ B: Left:  (@animate supply_shift.amount -25 duration 2.5@)at every price, less f
 Because nobody can stop driving to work this week. The price has to climb a long way before enough drivers give up enough fuel.
     highlight price_change_arrow label_dP
 
-B: Now give buyers five years. The same su (@animate demand.elasticity 1.5 duration 3@)pply cut, but demand has flattened: the price rises far less, and the quantity falls more.
+B: Now give buyers five years. The  (@hide label_dP@)same su (@animate demand.elasticity 1.5 duration 3@)pply cut, but demand has flattened: the price rises far less, and the quantity falls more.
     draw ghost_D
 
 So elasticity decides how a shock splits: into a higher price, or into less bought.
     highlight change_arrows
 
-B: And it decides the bill. W (@animate demand.elasticity 0.25 duration 2.5@)ith inelastic demand, a dearer good means more spent (@highlight label_P_shift price_change_arrow@) on it: people pay much more and buy almost as much.
+B: And it decides the bill. W (@animate demand.elasticity 0.25 duration 2.5@)ith inelastic demand, a dearer go (@show label_dP@)od mea (@draw spend_old@)ns more spent on (@draw spend_new spend_lab@) it: people pay much more and buy almost as much.
     erase ghost_D
+
+    erase spend_old spend_new spend_lab
 
 Try it yourself: pause, and turn the demand curve by dragging near its end. Watch the same supply cut move the price less as demand flattens.
     explore
@@ -242,9 +252,9 @@ B: Reviews of published studies. And a clear, sizeable effect is easier to publi
 That is exactly what Tomas Havranek and two co-authors tested in 2012, on two hundred and two estimates. Guess: once they corrected for it, how big was the long-run number?
     point at.data [3,0.05] gesture tap duration 4
 
-    ask "How big is the long-run elasticity once publication bias is corrected? Drag the bar." on bar_4 store g
+    ask "Drag the corrected long-run bar to your guess." on bar_4 store g
         right: Close: you said {g}, the corrected figure is {g.true}.
-        wrong: You said {g}; the corrected figure is {g.true}.
+        wrong: You said {g}; the corrected figure is {g.true}, a gap of {g.off}.
 
 B: About point three: ha (@draw bar_2@)lf. And the short-run number fell below a tenth.
 

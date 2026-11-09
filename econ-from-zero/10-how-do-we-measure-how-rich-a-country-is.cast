@@ -33,9 +33,19 @@ sources:
       finding: 'Population 2023: India 1.44 billion, Norway 5.5 million'
       url: https://data.worldbank.org/indicator/SP.POP.TOTL
 
-    scratch loaf top-right work ["flour $40 → bread $100","sales: 40 + 100 = 140 ✗","value added: 40 + 60 = 100","= wages + profits"] font_size 30 hidden true
-    scratch def top-right work ["GDP:","final goods & services","one year · market prices"] font_size 30 hidden true
+    box mill "Miller" icon wheat in chain hidden true
+    box mia "Mia's bakery" icon bread in chain hidden true
+    box buyer "Customer" icon "shopping bag" in chain hidden true
+    row chain gap 110 fit.h 280 fit.w 940 fit.x 30 fit.y 360 hidden true
+    edge e1 mill -> mia hidden true
+    edge e2 mia -> buyer hidden true
+    label e1_lab "flour $40" above attach_to e1 hidden true
+    label e2_lab "loaf $100" above attach_to e2 hidden true
+    label va1 "adds $40" below attach_to mill hidden true
+    label va2 "adds $60" below attach_to mia hidden true
+    scratch def work ["GDP:","final goods & services","one year · market prices"] x 500 y 420 font_size 46 hidden true
     scratch pop top-right cites ["wdi_pop"] work ["India: 7 × Norway's GDP","India: 1.44 billion people","Norway: 5.5 million"] font_size 30 hidden true
+    scratch sums work ["40 + 100 = 140 ✗","40 + 60 = 100","= wages + profits"] x 500 y 250 font_size 38 hidden true
 
     card title "A year's output"
 
@@ -53,35 +63,35 @@ An (@draw bar_4@)d Norway: half a trillion, barely a sliver.
 B: Fine, but a total of what, exactly? Money in the bank?
     highlight axes effect underline
 
-Not wealth: a year's production. Take one loaf of (@draw loaf_box@) bread in Harbourtown, with illustrative prices.
+Not wealth: a year's production. Take one loaf of bread in Harbourto (@draw mill@)wn, with illustrative prices.
+    erase axes bar_1 bar_2 bar_3 bar_4
 
-The town's miller sells Mia forty dollars of flour, and she sells the loaf for a hundred.
-    draw loaf_line_1
+The  (@draw mia e1 e1_lab@)town's miller sells Mia forty dollars of flour, and sh (@draw e2 buyer e2_lab@)e sells the loaf for a hundred.
 
-    quiz "How much does this add to Harbourtown's GDP?" store q1
+    quiz "How much does this add to Harbourtown's GDP?" store q1 reveal $100
         right: A hundred: only the final loaf counts.
         wrong: The flour is already inside the loaf.
         * $140
         + $100
         * $40
 
-B: I went for a hundred and forty, both sales. But that counts the flour twice, doesn't it? It's already inside the loaf.
-    draw loaf_line_2
+B: I went for a (@draw sums_box sums_line_1@) hundred and forty, both sales. But that counts the flour twice, doesn't it? It's already inside the loaf.
 
 Exactly. GDP counts only the final good: the hundred-dollar loaf.
-    highlight loaf_line_1 part "bread $100" effect circle
+    highlight e2_lab effect circle
 
-That hundred is forty dollars added by the miller plus sixty added by Mia: the value each of them added.
-    draw loaf_line_3
+That hundred is forty dollars a (@draw va1@)dded by the miller plus si (@draw va2@)xty added by Mia: the valu (@draw sums_line_2@)e each of them added.
 
-Add up what they earned instead, wages an (@draw loaf_line_4@)d profits, and you get the same hundred. Output and income are one number seen from two sides.
+Add up what they earned instead, wages and profits, an (@draw sums_line_3@)d you get the same hundred. Output and income are one number seen from two sides.
 
-    erase loaf
+    erase chain e1 e2 e1_lab e2_lab va1 va2 sums
 
 So GDP is the market value of all the final goods and services a country produces in a year.
     draw def_box def_line_1 def_line_2 def_line_3
 
     erase def
+
+    draw axes bar_1 bar_2 bar_3 bar_4
 
 B: Then India's economy is seven times Norway's. Is the average Indian seven times richer?
     highlight bar_3 bar_4
@@ -124,7 +134,7 @@ sources:
     text rate_ppp "at PPP (international $)" at.percent [55,88] cites ["wdi_ppp"] hidden true
     scratch hair top-right work ["a haircut:","Delhi ≪ New York"] font_size 30 hidden true
 
-    card title "Per person, at local prices"
+    card title "Per person"
 
 B: So divide each total by its people.
     draw axes rate_mkt
@@ -159,6 +169,8 @@ So the exchange rate makes poor countries look poorer than they live?
 
     erase hair
 
+    card title "At local prices"
+
 B: Yes. So economists convert at purchasing power parity, (@draw rate_ppp@) PPP: the rate at which the same basket of goods costs the same in both countries.
 
 B: The answer comes in international dollars, which buy in each country what one dollar buys in America.
@@ -170,7 +182,16 @@ India's bar quadruples, to almost ten thousand. China's doubles, to about twenty
 B: And the American bar stays put: in America, an international dollar is simply a dollar.
     highlight bar_1 effect box
 
+B: Even Norway rises: by the World Bank's numbers, a weak krone left its prices below America's in 2023.
+    highlight bar_4 effect box
+
 Pause and slide between the two yourself. Watch which bars move most.
+    blocking false
+
+    animate stage 0 duration 1.6
+
+    animate stage 1 duration 1.6
+
     explore params ["stage"]
 
 B: The poorest, because haircuts and rents can't be shipped abroad. Where wages are low, they stay cheap.
@@ -212,9 +233,13 @@ sources:
       finding: 'India 2023: GDP per person about ₹201,000; 82.6 rupees per US dollar at the market rate; 20.5 rupees per international dollar at PPP'
       url: https://data.worldbank.org/indicator/PA.NUS.PPP
 
-    scratch use top-right work ["buying abroad → market rate","how people live → PPP"] font_size 28 hidden true
-    scratch sure top-right work ["PPP for living standards: consensus","exact levels: mostly agreed"] font_size 28 hidden true
-    scratch math top-right cites ["wdi_conv"] work ["India 2023: ₹201,000 per person","÷ 82.6 ₹ per $ ≈ $2,430","÷ 20.5 ₹ per int'l $ ≈ $9,800"] font_size 28 hidden true
+    scratch use work ["buying abroad → market rate","how people live → PPP"] x 500 y 420 font_size 48 hidden true
+    scratch sure work ["PPP for living standards: consensus","exact levels: mostly agreed"] x 500 y 420 font_size 48 hidden true
+    scratch math cites ["wdi_conv"] work ["India 2023: ₹201,000 per person","÷ 82.6 ₹ per $ ≈ $2,430","÷ 20.5 ₹ per int'l $ ≈ $9,800"] x 500 y 420 font_size 48 hidden true
+    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test hidden true
+    label was1 "was 8.8" right attach_to bar_1 hidden true
+    label was2 "was 3.8" right attach_to bar_2 hidden true
+    scratch close work ["GDP ÷ people","at local prices (PPP)","± a margin of error"] x 500 y 420 font_size 48 hidden true
 
     card title "How far to trust it"
 
@@ -229,11 +254,11 @@ Take China in 2005. Before its first f (@draw bar_1@)ull price survey, its econo
 Then, in December 2007, the survey results came in, and the estimate fell by forty percent, to five point three trillion.
     animate stage 1 duration 3 ghost true
 
-B: Same China, same year, same factories. Only the measured prices changed.
-    highlight bar_1 effect box
+B: Same Ch (@draw was1@)ina, same year, same factories. Only the measured prices changed.
 
-India's estimate fell by almost as much: from three point eight to two point three trillion.
-    highlight bar_2 effect box
+India's estimate fell by alm (@draw was2@)ost as much: from three point eight to two point three trillion.
+
+    erase axes bar_1 bar_2 was1 was2
 
 B: And another thing. When India bu (@draw use_box use_line_1@)ys oil or aircraft abroad, it pays at the market exchange rate, not at PPP.
 
@@ -248,7 +273,7 @@ The exact levels: mostly agreed, with real margins of error.
 
     erase sure
 
-    cards mathq options [{"text":"Show me the math","goto":"math"},{"text":"Skip it","goto":"test"}] then test
+    draw mathq
 
     ask "Show the conversion worked out, or skip it?" on mathq stage own voice b
         intro: Want to see a conversion worked out?
@@ -269,7 +294,7 @@ Divide by twenty and a half rupees, the PPP rate, and you get about ninety-eight
 
     erase mathq
 
-    quiz "A carpenter buys wood for $300 and sells the table for $800. How much does the carpenter's work add to GDP?" intro "Three new cases."
+    quiz "A carpenter buys wood for $300 and sells the table for $800. How much does the carpenter's work add to GDP?" intro "Three new cases." reveal $500
         right: $500: the value the carpenter added to the wood.
         wrong: What did the carpenter add to the wood?
         * $300
@@ -277,21 +302,20 @@ Divide by twenty and a half rupees, the PPP rate, and you get about ninety-eight
         * $800
         * $1,100
 
-    quiz "Country X's income per person is $4,000 at market exchange rates, and its prices are about half America's. Roughly what is it at PPP?" voice b
+    quiz "Country X's income per person is $4,000 at market exchange rates, and its prices are about half America's. Roughly what is it at PPP?" reveal $8,000 voice b
         right: About $8,000: at half the prices, each dollar buys twice as much.
         wrong: If things cost half as much, how much does each dollar buy?
         * $2,000
         * $4,000
         + $8,000
 
-    quiz "A government wants to know how many foreign-made vaccines its economy could pay for. Which measure fits?"
+    quiz "A government wants to know how many foreign-made vaccines its economy could pay for. Which measure fits?" reveal "Market rates"
         right: Market rates: vaccines bought abroad are paid for at world prices.
         wrong: Who sets the price of a vaccine bought abroad?
         + GDP at market exchange rates
         * GDP at PPP
 
-So a country's riches are measured as a year's output per person, at the prices its people actually pay, and measured with error. Whether that number tells us how well people live is a question of its own.
-    highlight bar_1 bar_2
+So a country's riches are measured as a year's outp (@draw close_box close_line_1@)ut per person, at the prices it (@draw close_line_2@)s people actually pay, and meas (@draw close_line_3@)ured with error. Whether that number tells us how well people live is a question of its own.
 
     pause 0.8
 

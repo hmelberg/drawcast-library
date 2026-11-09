@@ -11,18 +11,18 @@ sources:
       year: 1992
       finding: 'In a 1990 survey of economists employed in the United States, more than 90% agreed (with or without provisos) that tariffs and import quotas usually reduce general economic welfare. American Economic Review 82(2): 203–209.'
 
-    box t_scar "Scarcity\nopportunity\ncost" width 225 height 250 radius 10 icon hourglass font_size 27 in map hidden true
-    box t_trade "Trade\ncomparative\nadvantage" width 225 height 250 radius 10 icon handshake font_size 27 in map hidden true
-    box t_price "Prices\nsupply &\ndemand" width 225 height 250 radius 10 icon "balance scale" font_size 27 in map hidden true
-    box t_wealth "Wealth\nGDP per person\nat PPP" width 225 height 250 radius 10 icon "bar chart" font_size 27 in map hidden true
-    row map gap 30 fit.h 320 fit.w 960 fit.x 20 fit.y 310 hidden true
-    text survey "Tariffs usually hurt:\n9 in 10 economists agree (1990)" #2f6b8f at.percent [50,22] cites ["alston1992"] font_size 34 hidden true
+    box t_scar "Scarcity\nopportunity\ncost" width 230 height 320 radius 10 icon hourglass font_size 30 in map hidden true
+    box t_trade "Trade\ncomparative\nadvantage" width 230 height 320 radius 10 icon handshake font_size 30 in map hidden true
+    box t_price "Prices\nsupply &\ndemand" width 230 height 320 radius 10 icon "balance scale" font_size 30 in map hidden true
+    box t_wealth "Wealth\nGDP per person\nat PPP" width 230 height 320 radius 10 icon "bar chart" font_size 30 in map hidden true
+    row map gap 30 fit.h 390 fit.w 960 fit.x 20 fit.y 250 hidden true
+    text survey "Tariffs usually hurt:\n9 in 10 economists agree (1990)" #2f6b8f at.percent [50,12] cites ["alston1992"] font_size 34 hidden true
     cards claims hidden true
         Mostly agreed: Free tickets cost, Trade can help both
         * "Less supply, dearer" bin "Mostly agreed"
         Still argued: Why nations got rich, GDP = wellbeing?, Who gains from trade
-    text sure_logic "The logic: consensus" #2f6b8f at.percent [50,26] font_size 34 hidden true
-    text sure_gaps "What it leaves out: contested / open" #b5482e at.percent [50,12] font_size 34 hidden true
+    text sure_logic "The logic: consensus" #2f6b8f at.percent [50,17] font_size 34 hidden true
+    text sure_gaps "What it leaves out: contested / open" #b5482e at.percent [50,6] font_size 34 hidden true
 
     card title "What we know so far"
 
@@ -52,9 +52,9 @@ B: And on other things they have argued for two centuries. Try sorting a few cla
 
     draw claims
 
-    ask "Do economists mostly agree on each claim, or still argue about it? Sort every card, then press Done." on claims stage own store srt voice b
-        right: {srt} of {srt.total}: the tools' own logic is agreed; the big why-questions are not.
-        wrong: {srt} of {srt.total}. The tools' own logic is agreed; who gains, why countries got rich and what GDP misses are still argued.
+    ask "Agreed, or still argued? Sort each card." on claims stage own store srt voice b
+        right: {srt} of {srt.total}: the tools' logic is agreed; the big whys are argued.
+        wrong: {srt} of {srt.total}: the tools' logic is agreed; the big whys are argued.
 
     erase claims
 
@@ -138,7 +138,7 @@ sources:
       finding: 'US unemployment in 1933: 24.9% of the civilian labour force (12.8 million), the standard estimate, counting people on work relief as unemployed (Darby''s series, counting them as employed, is lower). NBER, The Measurement and Behavior of Unemployment.'
       url: https://www.nber.org/chapters/c2644.pdf
 
-    axes ax x_label "Bread (loaves)" y_label "Fish (crates)" ticks.x [100,200,300,400] ticks.y [25,50,75,100] hidden true
+    axes ax x_label "Bread (loaves)" y_label "Fish (crates)" ticks.x [200,400] ticks.y [50,100] hidden true
     curve frontier #b5482e expr 100*sqrt(1-(x/400)^2) x_from 0 x_to 400 hidden true
     label lab_frontier "frontier" right attach_to frontier hidden true
     dot pA at.data [110,45] radius 9 hidden true
@@ -217,12 +217,12 @@ How sure are we on any of the three? Conte (@draw sure@)sted, all of them. That'
         + Sara
         * Nobody gains from splitting the work
 
-    fade ax frontier lab_frontier idle lab_idle q_unemp lab_q_unemp q_mkt lab_q_mkt outer q_grow lab_q_grow sure to 0.08
+    fade ax frontier lab_frontier idle lab_idle q_unemp lab_q_unemp q_mkt lab_q_mkt outer q_grow lab_q_grow sure to 0
 
     scale ppp label "income per person at PPP" unit $ min 0 max 10000 value 8000
 
     ask "A country earns $2,000 per person at market exchange rates, and its prices are about a quarter of US prices. Click its income per person at PPP." on ppp store g relative true default "2000"
-        right: Close: you said {g}; it is about {g.true}. Each dollar buys four times as much there.
+        right: About {g.true}: you said {g}. Each dollar buys four times as much there.
         wrong: You said {g}; it is about {g.true}. If everything costs a quarter as much, each dollar buys four times as much.
 
     erase ppp
