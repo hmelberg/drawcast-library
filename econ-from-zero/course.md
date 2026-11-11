@@ -4,7 +4,7 @@ level: Curious adults with no economics, of better-than-average ability; ends ne
 language: English
 genre: econ-lecture
 voices: {"a": "gemini:Achird | curious, open-minded economist host who loves a puzzle; warm, thinks aloud, brisk lively pace (never slow, never rushed); takes objections seriously, never preachy", "b": "gemini:Kore | sharp, friendly co-host: asks what a smart listener would, pushes back with real objections, sometimes explains; dry wit, never exaggerated; brisk lively pace, never slow"}
-notation: P price, Q quantity, D demand, S supply; MC marginal cost, MR marginal revenue, ATC average total cost; CS/PS consumer/producer surplus, DWL deadweight loss; U utility, I income or budget; w wage, L labour, K capital, Y output (real GDP), y output per worker, k capital per worker, A technology/productivity, s saving rate; π inflation, π^e expected inflation, u unemployment rate, u* the NAIRU; r real interest rate, i nominal (policy) interest rate, G government spending, T taxes, M money; e exchange rate. Confidence words on the canvas: consensus, mostly agreed, contested, open.
+notation: P price, Q quantity, D demand, S supply; MC marginal cost, MR marginal revenue, ATC average total cost, R revenue; Profit written as the word in early firm models; CS/PS consumer/producer surplus, DWL deadweight loss; U utility, I income or budget, x quantity of the first good in choice models, y quantity of the second good in choice models (output per worker in growth models), P_x price of the first good, P_y price of the second, MRS marginal rate of substitution, c_t consumption in year t in saving models (c_0 today, c_1 next year); w wage, L labour, K capital, Y output (real GDP), y output per worker, k capital per worker, A technology/productivity, s saving rate in growth models or the agent's share of output in contract models (the stake) or a seller's market share in oligopoly models; π inflation in macro models or profit in later firm models (said once to be not the inflation π), π^e expected inflation, u unemployment rate, u* the NAIRU; r real interest rate (in contract models: how much someone minds risk), i nominal (policy) interest rate, G government spending, T taxes, M money; e exchange rate in open-economy models or elasticity in price models (the gentler e rather than ε); δ discount factor (steady patience), ρ rate of time preference, β present-bias factor (β–δ model), σ elasticity of intertemporal substitution, λ loss aversion in behavioural models or the Lagrange multiplier in constrained optimisation; a, b demand intercept and slope (the models write P = a − bQ; some lectures write Q = a − bP), c, d supply intercept and slope (P = c + dQ) or c a unit cost in firm models; t a per-unit tax in price models or time in saving models; E effort, V the value of a unit of effort, θ a type (hidden information); W wealth (in models of risk, W̄ its average) or weighted welfare (in welfare models), EU expected utility, CE the certainty equivalent, g welfare weights (g_B buyers, g_S sellers) or a guilt cost in game models; n number of sellers or firms, q a car's quality in hidden-quality models or one firm's output in oligopoly models, \bar{q} average quality on sale, q_A output of firm A, q_B output of firm B, q^* each firm's equilibrium output, m the buyers' premium in hidden-quality models, MD marginal damage, Q_0 the quantity with no tax, Q^{best} the best quantity once damage is counted, F a fine for skipping in commitment models, δ^* the cooperation threshold in repeated games (T, R, P, S are temptation, reward, punishment, sucker payoffs in game models). Plain letters first; Greek where it is the convention, its name said once. Confidence words on the canvas: consensus, mostly agreed, contested, open.
 example: Harbourtown, a small coastal town (illustrative numbers, said to be illustrative): fishers who share the fishing grounds, Mia's bakery, a boatyard that is the biggest employer, a small bank, the harbour council, and trade with the mainland. Returned to when a model needs a concrete case; real data (Norway, the US, the world) when a claim needs evidence.
 
 A long course that starts from big questions — do markets work, how do countries grow rich, why is there unemployment — and learns the economics needed to answer them, with the debates, exceptions and evidence left in.
@@ -55,10 +55,11 @@ status: done · id: 69fdaf89-1850-4c70-bab5-be3602065ec2 · file: 06-why-is-wate
 ## Where does a price come from if nobody sets it?
 How do buyers and sellers who never meet end up at one price?
 Why do shortages and surpluses push the price back?
+end_link: See the model | ../econ-models/01-where-does-a-price-come-from-the-model.cast
 #interactive #parts=4
 
 ---
-status: done · id: 34ec401a-a166-4d27-b425-35da80109252 · file: 07-where-does-a-price-come-from-if-nobody.cast · 2026-11-09
+status: done · id: 34ec401a-a166-4d27-b425-35da80109252 · file: 07-where-does-a-price-come-from-if-nobody.cast · 2026-11-10
 ## What happens when demand rises or supply falls?
 How do we tell a shift of the curve from a move along it?
 Why do price and quantity sometimes move together and sometimes apart?
@@ -104,31 +105,35 @@ status: done · id: cb3a837e-e13e-43e3-9c5f-f013ccfc0a63 · file: 13-do-markets-
 ## How sensitive are buyers to price?
 Why does a fuel price rise barely dent driving this week but change cars bought in five years?
 What is elasticity, and why does it decide almost everything that follows?
+end_link: See the model | ../econ-models/07-how-sensitive-are-buyers-to-price-the.cast
 #interactive #parts=4
 
 ---
-status: done · id: da911ea1-be37-4d24-aa70-5088f2371ae8 · file: 14-how-sensitive-are-buyers-to-price.cast · 2026-11-09
+status: done · id: da911ea1-be37-4d24-aa70-5088f2371ae8 · file: 14-how-sensitive-are-buyers-to-price.cast · 2026-11-11
 ## Who really pays a tax?
 Does it matter whether the buyer or the seller hands the tax to the state?
 Why does the less flexible side end up paying more?
+end_link: See the model | ../econ-models/04-who-really-pays-a-tax-the-model.cast
 #quiz #parts=3
 
 ---
-status: done · id: 7503994f-7e4f-47cf-9d37-817244d18979 · file: 15-who-really-pays-a-tax.cast · 2026-11-09
+status: done · id: 7503994f-7e4f-47cf-9d37-817244d18979 · file: 15-who-really-pays-a-tax.cast · 2026-11-11
 ## How much do buyers and sellers gain from a market?
 What are consumer and producer surplus?
 Why is the gain from a market a triangle, not a rectangle?
+end_link: See the model | ../econ-models/05-how-much-do-buyers-and-sellers-gain-from.cast
 #interactive #parts=3
 
 ---
-status: done · id: e80c5811-d672-4994-ae40-945ec9888638 · file: 16-how-much-do-buyers-and-sellers-gain-from.cast · 2026-11-09
+status: done · id: e80c5811-d672-4994-ae40-945ec9888638 · file: 16-how-much-do-buyers-and-sellers-gain-from.cast · 2026-11-11
 ## What does a tax destroy?
 Why does a tax cost more than the money it raises?
 Why does doubling a tax roughly quadruple the waste?
+end_link: See the model | ../econ-models/06-what-does-a-tax-destroy-the-model.cast
 #interactive #parts=4
 
 ---
-status: done · id: 7df905c9-5643-416b-9af7-b56d3fcc5dad · file: 17-what-does-a-tax-destroy.cast · 2026-11-09
+status: done · id: 7df905c9-5643-416b-9af7-b56d3fcc5dad · file: 17-what-does-a-tax-destroy.cast · 2026-11-11
 ## What happens when the government caps rents?
 What does the supply and demand model predict for a price ceiling?
 What did San Francisco's rent control actually do to tenants and to supply?
@@ -163,592 +168,704 @@ Which conditions does it quietly need?
 #interactive #parts=3
 
 ---
+status: done · id: 834a019a-d68b-4e83-9a23-b0810d4995e3 · file: 22-why-would-a-market-ever-be-efficient.cast · 2026-11-09
 ## What exactly is Pareto efficiency?
 When can nobody be made better off without someone being made worse off?
 Why is a world where one person owns everything Pareto efficient?
 #quiz #parts=3
 
 ---
+status: done · id: 0ae7d97e-7894-4465-a73c-9c332489f8f6 · file: 23-what-exactly-is-pareto-efficiency.cast · 2026-11-09
 ## Can two people trade their way to efficiency?
 What does the Edgeworth box show about where trade can end up?
 Why are there many efficient outcomes, not one?
 #interactive #parts=4
 
 ---
+status: done · id: 4f2bd7b7-835c-445a-83ab-06becd211dc5 · file: 24-can-two-people-trade-their-way-to.cast · 2026-11-09
 ## What does the first welfare theorem prove — and what doesn't it?
 Under which assumptions is every competitive equilibrium efficient?
 Which of those assumptions fail in the real world?
 #proscons #parts=4
 
 ---
+status: done · id: 4b1bfda9-dd26-4fe7-b31e-cfa84d7ad684 · file: 25-what-does-the-first-welfare-theorem.cast · 2026-11-09
 ## Is an efficient society a good society?
 Why can a deeply unequal outcome be perfectly efficient?
 How do we choose among efficient outcomes?
 #controversy #parts=3
 
 ---
+status: done · id: d3e7cef5-35d8-42de-bbda-c45aafe9f472 · file: 26-is-an-efficient-society-a-good-society.cast · 2026-11-09
 ## Can markets deliver any fair outcome we want?
 What does the second welfare theorem promise?
 Why does it need lump-sum transfers that nobody can design?
 #interactive #parts=4
 
 ---
+status: done · id: 1fcf048e-eeab-40d2-929c-5b2e0835e118 · file: 27-can-markets-deliver-any-fair-outcome-we.cast · 2026-11-09
 ## How do we add up everyone's welfare?
 Utilitarian, Rawlsian, or something else: what is a social welfare function?
 Why does the answer change which policy is best?
 #quiz #parts=3
 
 ---
+status: done · id: aa8f688b-02ec-4a17-8dd2-efc26c1b7164 · file: 28-how-do-we-add-up-everyone-s-welfare.cast · 2026-11-09
 ## Is the market fair?
 Nozick: fair process makes a fair outcome
 Rawls: judge institutions from behind a veil of ignorance
 #debate #parts=3
 
 ---
+status: done · id: 493c4783-6e52-4669-9928-c6011c0072e8 · file: 29-is-the-market-fair.cast · 2026-11-09
 ## What does perfect competition assume?
 Why must every firm be too small to affect the price?
 How many real markets come close?
 #proscons #parts=3
 
 ---
+status: done · id: 7ff611b2-c89e-483a-9dbd-0beddbaa93a8 · file: 30-what-does-perfect-competition-assume.cast · 2026-11-09
 ## Why do profits disappear in a competitive market?
 How does entry compete profits away?
 Why is zero economic profit not zero accounting profit?
 #interactive #parts=4
 
 ---
+status: done · id: d5da878a-e6cc-4cbe-b761-b04f13502404 · file: 31-why-do-profits-disappear-in-a.cast · 2026-11-09
 ## What does a monopolist do differently?
 Why does a monopolist sell less at a higher price?
 What is marginal revenue, and why is it below the price?
+end_link: See the model | ../econ-models/02-what-does-a-monopolist-do-differently.cast
 #interactive #parts=4
 
 ---
+status: done · id: a18f795e-bf75-428d-849d-bb0fec6f355e · file: 32-what-does-a-monopolist-do-differently.cast · 2026-11-10
 ## How much does monopoly cost society?
 How big is the deadweight triangle?
 Why did Tullock think the real cost is the fight to become the monopolist?
 #history #parts=3
 
 ---
+status: done · id: 45577469-81bf-4a5f-bb06-8bb41e3e38f9 · file: 33-how-much-does-monopoly-cost-society.cast · 2026-11-09
 ## Is monopoly always bad?
 Can the mere threat of entry discipline a monopolist?
 When does Baumol's contestable-markets idea hold, and when does it fail?
 #controversy #parts=4
 
 ---
+status: done · id: 51e8e1d9-4464-4a4c-9d45-c8463dff9c39 · file: 34-is-monopoly-always-bad.cast · 2026-11-09
 ## Do monopolies drive innovation?
 Why did Schumpeter think big firms with profits innovate most?
 Static versus dynamic efficiency: which matters more over decades?
 #proscons #parts=4
 
 ---
+status: done · id: 05623d82-ad2e-435b-aa5a-216cae8a9e4c · file: 35-do-monopolies-drive-innovation.cast · 2026-11-09
 ## Why do airlines charge different prices for the same seat?
 What is price discrimination?
 Why can it raise output and even efficiency?
 #interactive #parts=3
 
 ---
+status: done · id: 7fdb8e29-5c14-4b06-91e5-fc6da64f759c · file: 36-why-do-airlines-charge-different-prices.cast · 2026-11-09
 ## What happens when a few firms dominate?
 What changes when each firm must think about its rivals?
 Why do we need game theory to answer it?
 #why #parts=3
 
 ---
+status: done · id: 1f936edc-b288-49a4-81c2-e492d10550ad · file: 37-what-happens-when-a-few-firms-dominate.cast · 2026-11-09
 ## Why do rivals fail to cooperate?
 What is the prisoner's dilemma?
 Why can rational players end up worse off together?
+end_link: See the model | ../econ-models/11-why-do-rivals-fail-to-cooperate-the.cast
 #interactive #parts=4
 
 ---
+status: done · id: 1cfaeb26-a4ee-4d97-accf-c682401124ac · file: 38-why-do-rivals-fail-to-cooperate.cast · 2026-11-11
 ## When does cooperation emerge anyway?
 What changes when the game is repeated?
 What did Axelrod's tournaments show about tit for tat?
+end_link: See the model | ../econ-models/17-when-does-cooperation-emerge-anyway-the.cast
 #history #parts=4
 
 ---
+status: done · id: a8ba0789-fff3-407a-bd2b-53512d8aa0c4 · file: 39-when-does-cooperation-emerge-anyway.cast · 2026-11-11
 ## Price war or quiet collusion?
 Why do two firms competing on price drive it to cost, but two competing on quantity do not?
 When do cartels hold, and when do they break?
+end_link: See the model | ../econ-models/16-price-war-or-quiet-collusion-the-model.cast
 #interactive #parts=4
 
 ---
+status: done · id: e2d54225-6ad0-48fc-9bc7-11494d8f8d86 · file: 40-price-war-or-quiet-collusion.cast · 2026-11-11
 ## Should big tech be broken up?
 What is antitrust for — prices, competition, or power?
 Why do economists disagree about platforms that are free to users?
 #controversy #parts=3
 
 ---
+status: done · id: e6ff277a-2896-456f-b7b9-df38a7989583 · file: 41-should-big-tech-be-broken-up.cast · 2026-11-09
 ## Why does nobody pay for the pollution?
 What is an externality, positive and negative?
 Why does the market produce too much smoke and too few vaccines?
 #interactive #parts=4
 
 ---
+status: done · id: 43ef79f5-484c-4396-90f0-32fbad7e6ae9 · file: 42-why-does-nobody-pay-for-the-pollution.cast · 2026-11-09
 ## Can a tax fix pollution?
 How does a Pigouvian tax make the polluter feel the cost?
 How would the government know the right size?
+end_link: See the model | ../econ-models/13-can-a-tax-fix-pollution-the-model.cast
 #quiz #parts=3
 
 ---
+status: done · id: ea0446c6-5fcb-4b75-a97b-e13e8b2b5776 · file: 43-can-a-tax-fix-pollution.cast · 2026-11-11
 ## Or could property rights fix it?
 What does the Coase theorem say about bargaining over harm?
 Why do transaction costs usually spoil the bargain?
 #history #parts=4
 
 ---
+status: done · id: d69f9553-d4c8-42fe-a173-314fa4050345 · file: 44-or-could-property-rights-fix-it.cast · 2026-11-09
 ## Tax or quota?
 When does it matter whether we fix the price or the quantity of pollution?
 What did Weitzman show about uncertainty and the choice?
 #interactive #parts=4
 
 ---
+status: done · id: 89103572-d841-47c7-bf0b-a682390f39a7 · file: 45-tax-or-quota.cast · 2026-11-09
 ## Why won't the market build a lighthouse?
 What makes a good public: non-rival and non-excludable?
 Why did Coase find that private lighthouses existed after all?
 #history #parts=3
 
 ---
+status: done · id: acee3d6c-656f-457a-a3a0-185ddaa4cfca · file: 46-why-won-t-the-market-build-a-lighthouse.cast · 2026-11-09
 ## Who looks after what everyone owns?
 What is the tragedy of the commons?
 Why did Ostrom find that many communities manage commons well without state or market?
 #controversy #parts=4
 
 ---
+status: done · id: 64ad4fd2-40b4-4f22-a4a1-e1c5928ca56d · file: 47-who-looks-after-what-everyone-owns.cast · 2026-11-09
 ## Why is a used car worth less the moment you drive it away?
 How can hidden quality make a market unravel?
 What did Akerlof's "market for lemons" explain beyond cars?
+end_link: See the model | ../econ-models/12-why-is-a-used-car-worth-less-the-moment.cast
 #interactive #parts=4
 
 ---
+status: done · id: 818177ff-87c1-4e4a-bd37-42f229c996d4 · file: 48-why-is-a-used-car-worth-less-the-moment.cast · 2026-11-11
 ## Why can insurance markets fall apart?
 What is adverse selection in insurance?
 Why might mandates or pooling be needed?
 #quiz #parts=3
 
 ---
+status: done · id: 53657bc6-0692-43b8-b9ab-5525ebbe0cb7 · file: 49-why-can-insurance-markets-fall-apart.cast · 2026-11-09
 ## Why does insurance make people less careful?
 What is moral hazard?
 Why do deductibles and co-payments exist?
 #interactive #parts=3
 
 ---
+status: done · id: b667b505-5b39-4a3f-a121-56ebe0571676 · file: 50-why-does-insurance-make-people-less.cast · 2026-11-09
 ## Can markets fix their own information problems?
 Warranties, brands, reviews, inspections: how far do they go?
 When do they fail?
 #proscons #parts=3
 
 ---
+status: done · id: e120da51-836e-487a-9eb9-609cef657907 · file: 51-can-markets-fix-their-own-information.cast · 2026-11-09
 ## Markets fail — so the state should step in?
 Why is a market failure not enough to justify intervention?
 What is the "nirvana fallacy"?
 #why #parts=3
 
 ---
+status: done · id: d34c0729-6314-42e6-8642-5505d4d6eb4a · file: 52-markets-fail-so-the-state-should-step-in.cast · 2026-11-09
 ## If you can't fix every distortion, should you fix one?
 What does the theory of the second best say?
 Why can removing one distortion make things worse?
 #interactive #parts=4
 
 ---
+status: done · id: 5952e248-75d6-4edb-ade5-75e8414e4cbf · file: 53-if-you-can-t-fix-every-distortion-should.cast · 2026-11-09
 ## How much would a planner need to know to set the right tax?
 What information does an optimal second-best tax demand?
 How badly can a small error go wrong?
 #interactive #controversy #parts=4
 
 ---
+status: done · id: 2b7994f2-adc7-4ce9-bebe-256803861eb5 · file: 54-how-much-would-a-planner-need-to-know-to.cast · 2026-11-09
 ## Why do governments fail even when they mean well?
 Hayek's knowledge problem: can the state know what the market knows?
 Information failures versus incentive failures
 #history #parts=4
 
 ---
+status: done · id: 807d41f3-77c2-4a44-a191-d60b5da706d2 · file: 55-why-do-governments-fail-even-when-they.cast · 2026-11-09
 ## Why do governments fail when politicians follow their incentives?
 What did Buchanan's public choice theory assume about politicians and voters?
 Why is voter ignorance rational?
 #controversy #parts=4
 
 ---
+status: done · id: 3f1f0a25-5ef0-4df2-b999-0a52284194c3 · file: 56-why-do-governments-fail-when-politicians.cast · 2026-11-09
 ## Who captures the regulator?
 Why did Stigler argue regulation often serves the regulated?
 How do concentrated interests beat diffuse ones?
 #facts #parts=3
 
 ---
+status: done · id: 7cd5659b-af9e-49c0-8439-9f9b5e320e5a · file: 57-who-captures-the-regulator.cast · 2026-11-09
 ## Could a planned economy work?
 What was the socialist calculation debate between Mises, Lange and Hayek?
 Could computers solve the planning problem today?
 #history #parts=4
 
 ---
+status: done · id: 42f2dba3-6381-4f51-b5aa-51ab652480ae · file: 58-could-a-planned-economy-work.cast · 2026-11-09
 ## What happened when they tried planning?
 How did Soviet planning work, and where did it fail?
 What did it do well?
 #facts #parts=4
 
 ---
+status: done · id: d4a6e6e0-ca19-46db-94c8-c4adbdbb915e · file: 59-what-happened-when-they-tried-planning.cast · 2026-11-09
 ## Can markets and states mix well?
 How do the Nordic countries combine open markets and a big state?
 What does the mix tell us about the market-or-state question?
 #proscons #parts=3
 
 ---
+status: done · id: b1f49da7-6676-4370-81af-f139d11233db · file: 60-can-markets-and-states-mix-well.cast · 2026-11-09
 ## Can a market work without money?
 How do kidney exchanges and school choice match people without prices?
 What did Roth's market design add to economics?
 #interactive #parts=4
 
 ---
+status: done · id: d263d890-9396-41d1-b424-12d25ab1c4f1 · file: 61-can-a-market-work-without-money.cast · 2026-11-09
 ## Should everything be for sale?
 Why do people find some markets repugnant?
 Does paying for blood reduce how much is given?
 #controversy #parts=3
 
 ---
+status: done · id: 2155891c-70e5-4db0-af81-c0570a0c85d5 · file: 62-should-everything-be-for-sale.cast · 2026-11-09
 ## Do markets change people?
 What happened when Haifa daycares fined late parents?
 When do prices crowd out norms?
 #facts #parts=3
 
 ---
+status: done · id: f8fcc2ba-617e-450b-9684-10da588659ce · file: 63-do-markets-change-people.cast · 2026-11-09
 ## Which efficiency matters more in the long run?
 Static efficiency versus the innovation machine
 Why might an "inefficient" market grow richer?
 #debate #parts=3
 
 ---
+status: done · id: e53c7e83-aff3-4ec1-be54-e00dfb071195 · file: 64-which-efficiency-matters-more-in-the.cast · 2026-11-09
 ## Can we test whether markets work in a lab?
 What did Vernon Smith's double auctions show?
 Why did prices converge with only a few traders?
 #interactive #parts=4
 
 ---
+status: done · id: 0807fc23-ae67-4064-9f67-dde82a21ec3e · file: 65-can-we-test-whether-markets-work-in-a.cast · 2026-11-09
 ## What happened when markets were allowed in?
 What happened to farm output when China let households keep their surplus after 1978?
 What does one case prove?
 #facts #parts=3
 
 ---
+status: done · id: 36ccf557-cf60-4e32-9cb2-e5f569738efa · file: 66-what-happened-when-markets-were-allowed.cast · 2026-11-09
 ## Market failure or government failure — which is worse?
 One side: markets fail systematically, the state must act
 The other: the state fails too, and often worse
 #debate #parts=3
 
 ---
+status: done · id: ae3f8b1a-603d-44a6-b505-ba39ca471683 · file: 67-market-failure-or-government-failure.cast · 2026-11-09
 ## What do economists actually agree on about markets?
 What do surveys of economists show?
 Where does the agreement end?
 #data #parts=3
 
 ---
+status: done · id: 0baa4bc8-a9bf-4a81-bcf0-8869fb7ea728 · file: 68-what-do-economists-actually-agree-on.cast · 2026-11-09
 ## Do markets work? Putting it together
 Efficient, fair, innovative: three answers
 When markets work, when they fail, and when the cure is worse
 #quiz #parts=4
 
 ---
+status: done · id: ec0ce792-685b-446b-b446-3da910833a30 · file: 69-do-markets-work-putting-it-together.cast · 2026-11-09
 ## Test: do markets work?
 A test across the whole block, with new cases
 #quiz #parts=3
 
 ---
+status: done · id: 00c6d09c-e064-41da-9dbd-174573ef4e3a · file: 70-test-do-markets-work.cast · 2026-11-09
 ## Why do we buy what we buy?
 What does economics assume about what people want?
 Why does it refuse to judge tastes?
 #why #parts=3
 
 ---
+status: done · id: 7f45ed68-67fe-4d8a-b66d-b3c8c9070c29 · file: 71-why-do-we-buy-what-we-buy.cast · 2026-11-09
 ## What does "rational" mean to an economist?
 Why does rational mean consistent, not selfish or clever?
 Which choices break the rules?
 #quiz #parts=3
 
 ---
+status: done · id: eea30d00-c9c2-4c93-9789-6714923d0526 · file: 72-what-does-rational-mean-to-an-economist.cast · 2026-11-09
 ## How do you choose with a limited budget?
 What is a budget line, and what moves it?
 Why does a price change tilt it?
 #interactive #parts=3
 
 ---
+status: done · id: e05212ae-b784-46da-8876-f15c5c5dc276 · file: 73-how-do-you-choose-with-a-limited-budget.cast · 2026-11-09
 ## How can we draw what someone wants?
 What is an indifference curve?
 Why do they bend toward the origin?
 #interactive #parts=4
 
 ---
+status: done · id: 4f046a96-770d-4550-ac22-01a4bcf5a008 · file: 74-how-can-we-draw-what-someone-wants.cast · 2026-11-09
 ## Where is the best choice?
 Why is the best bundle where the curve just touches the budget line?
 What does the tangency mean in words?
+end_link: See the model | ../econ-models/09-where-is-the-best-choice-the-model.cast
 #interactive #parts=4
 
 ---
+status: done · id: 1c7d4617-f0c0-431d-bc57-583eb092004d · file: 75-where-is-the-best-choice.cast · 2026-11-11
 ## When a price rises, why do you buy less — for two reasons?
 What are the substitution and the income effects?
 Can they pull in opposite directions?
 #interactive #parts=4
 
 ---
+status: done · id: 9018d1d8-6a00-4da5-b865-3ee93ce50cdc · file: 76-when-a-price-rises-why-do-you-buy-less.cast · 2026-11-09
 ## Can a price rise make you buy more?
 What is a Giffen good?
 What did Jensen and Miller find with rice in China?
 #facts #parts=3
 
 ---
+status: done · id: 93d384d0-f99e-4f82-be53-7bec039d975d · file: 77-can-a-price-rise-make-you-buy-more.cast · 2026-11-09
 ## How do we get from one person to a demand curve?
 Adding up many buyers
 Why market demand is smoother than any one person's
 #data #parts=3
 
 ---
+status: done · id: 76a722da-fbb5-4972-86b5-eb3178137fb1 · file: 78-how-do-we-get-from-one-person-to-a.cast · 2026-11-09
 ## Why might you work less when your wage rises?
 How does the labour–leisure choice work?
 Why can the labour supply curve bend backwards?
 #interactive #parts=4
 
 ---
+status: done · id: 88a9deea-a769-4b61-969e-ec11554b5f1e · file: 79-why-might-you-work-less-when-your-wage.cast · 2026-11-09
 ## Why save at all?
 What is the price of having something now instead of later?
 How does the interest rate enter the choice?
+end_link: See the model | ../econ-models/10-why-save-at-all-the-model.cast
 #interactive #parts=3
 
 ---
+status: done · id: 09cf6d23-02ec-4949-aa1b-8d39d0bf18d2 · file: 80-why-save-at-all.cast · 2026-11-11
 ## Should you spend a bonus and a raise differently?
 What does Friedman's permanent income hypothesis say?
 How does Modigliani's life cycle fit with it?
 #history #parts=4
 
 ---
+status: done · id: 27b9d50c-aab3-4967-bc44-f2d8f95163ff · file: 81-should-you-spend-a-bonus-and-a-raise.cast · 2026-11-09
 ## How much should you change your spending when interest rates rise?
 What decides how strongly a rational saver reacts?
 Substitution, income and wealth effects, on a slider
 #interactive #parts=4
 
 ---
+status: done · id: df9a48f8-0d24-4edf-934f-fea708778cf0 · file: 82-how-much-should-you-change-your-spending.cast · 2026-11-09
 ## Do people really smooth their spending?
 What is "excess sensitivity", and who lives hand to mouth?
 What happened to spending when stimulus cheques arrived?
 #facts #controversy #parts=4
 
 ---
+status: done · id: 3c1f8c12-cafb-4ffd-9720-0227c28e5282 · file: 83-do-people-really-smooth-their-spending.cast · 2026-11-09
 ## How do you choose when the future is uncertain?
 Why is expected value not enough?
 What does the St Petersburg paradox teach about utility?
 #history #parts=3
 
 ---
+status: done · id: f7789ec3-a84e-43c5-a1c2-88de40b9e7f4 · file: 84-how-do-you-choose-when-the-future-is.cast · 2026-11-09
 ## Why buy both insurance and lottery tickets?
 What is risk aversion?
 How can the same person be cautious and a gambler?
+end_link: See the model | ../econ-models/08-why-buy-both-insurance-and-lottery.cast
 #interactive #parts=3
 
 ---
+status: done · id: daeb0d03-cf8a-4443-9c9c-459da9cde7cd · file: 85-why-buy-both-insurance-and-lottery.cast · 2026-11-11
 ## Is losing worse than winning is good?
 What did Kahneman and Tversky's prospect theory find?
 Why do we judge gains and losses from a reference point?
 #interactive #parts=4
 
 ---
+status: done · id: 27c83c8f-91e9-4c05-9a3e-4ac217c693a2 · file: 86-is-losing-worse-than-winning-is-good.cast · 2026-11-09
 ## Why does the default win?
 What happened when firms made pension saving automatic?
 Why does doing nothing count as a choice?
 #facts #parts=3
 
 ---
+status: done · id: c8dc09dd-d6d4-4425-baf7-aa7450d9e890 · file: 87-why-does-the-default-win.cast · 2026-11-09
 ## Why do we put off what we planned to do?
 What is present bias?
 Why can you be rational today and regret it tomorrow?
+end_link: See the model | ../econ-models/15-why-do-we-put-off-what-we-planned-to-do.cast
 #interactive #parts=4
 
 ---
+status: done · id: 1d7e0f7b-a371-4727-b29f-b28c7f683110 · file: 88-why-do-we-put-off-what-we-planned-to-do.cast · 2026-11-11
 ## Should the government nudge us?
 What did Thaler and Sunstein propose?
 Is it respectful paternalism or manipulation?
 #controversy #parts=3
 
 ---
+status: done · id: 72317d97-3a81-4ff4-a47b-284fea24813e · file: 89-should-the-government-nudge-us.cast · 2026-11-09
 ## Are people as irrational as the experiments say?
 When do markets and experience correct biases?
 What did Gigerenzer argue about smart heuristics?
 #debate #parts=3
 
 ---
+status: done · id: 8042dd4a-640e-4c00-a77f-d4be2519fa5f · file: 90-are-people-as-irrational-as-the.cast · 2026-11-09
 ## Do people care about fairness?
 What happens in the ultimatum game?
 Why do people turn down free money?
 #interactive #parts=4
 
 ---
+status: done · id: 23e82f4b-7c07-481c-b834-49ddc9a53169 · file: 91-do-people-care-about-fairness.cast · 2026-11-09
 ## Why tip a waiter you will never see again?
 Where do norms come from?
 Can economics explain them, or only include them?
 #why #parts=3
 
 ---
+status: done · id: c49d578d-ffe9-4595-9a7e-8f9f6e7f6ec0 · file: 92-why-tip-a-waiter-you-will-never-see.cast · 2026-11-09
 ## Can rational choice explain crime?
 What did Becker's economics of crime claim?
 What does the evidence say about deterrence?
 #controversy #parts=4
 
 ---
+status: done · id: d92c6d33-a6f3-4615-8178-4237cf2dbe1c · file: 93-can-rational-choice-explain-crime.cast · 2026-11-09
 ## Can economics explain marriage and children?
 How did Becker model the family?
 What does the model miss?
 #history #parts=3
 
 ---
+status: done · id: 5a448bea-1c26-483d-98b3-09745c66b99f · file: 94-can-economics-explain-marriage-and.cast · 2026-11-09
 ## Can economics explain suicide?
 What did Hamermesh and Soss argue?
 Where is the edge of the rational-choice approach?
+end_note: Help: 116 123 (Norway, UK, Ireland) · 988 (US) · local emergency number
 #controversy #parts=3
 
 ---
+status: done · id: 56731eb4-6bea-46fa-a7bf-e05838b899c4 · file: 95-can-economics-explain-suicide.cast · 2026-11-09
 ## Why vote when your vote almost never matters?
 The paradox of voting
 Duty, expressive voting, and what people actually do
 #interactive #parts=3
 
 ---
+status: done · id: 6279953d-1478-4a80-9a86-be53f2fd07f5 · file: 96-why-vote-when-your-vote-almost-never.cast · 2026-11-09
 ## Is "rational choice" a theory or a tautology?
 If anything you do can be called rational, what does the theory forbid?
 What is revealed preference?
 #proscons #parts=3
 
 ---
+status: done · id: 75cac8a4-474d-466b-925e-dee64788817f · file: 97-is-rational-choice-a-theory-or-a.cast · 2026-11-09
 ## Who are you — and does it change what you choose?
 What is identity economics?
 How do social categories shape choices?
 #facts #parts=3
 
 ---
+status: done · id: 18885ed2-b6c7-4e3d-b94c-0fcf4fd3494b · file: 98-who-are-you-and-does-it-change-what-you.cast · 2026-11-09
 ## Does culture shape economic choices?
 What happened when the ultimatum game was played in fifteen small societies?
 What is culture to an economist?
 #history #parts=4
 
 ---
+status: done · id: 709e73f2-e618-48c3-b823-e88753c92dd0 · file: 99-does-culture-shape-economic-choices.cast · 2026-11-09
 ## Is attention a scarce resource?
 What is rational inattention?
 Why do people ignore information that would help them?
 #interactive #parts=3
 
 ---
+status: done · id: 3ab5efe8-3883-484a-a93c-89e3942feae4 · file: 100-is-attention-a-scarce-resource.cast · 2026-11-09
 ## Why do people follow the crowd?
 What is an information cascade?
 When is herding rational?
 #interactive #parts=4
 
 ---
+status: done · id: 7278c815-ef4a-4724-bbc7-cb0c78d53620 · file: 101-why-do-people-follow-the-crowd.cast · 2026-11-09
 ## How do we test theories of choice?
 Lab experiments, field experiments, and natural data
 What can each show and not show?
 #why #parts=3
 
 ---
+status: done · id: 45a1b662-c8aa-4bd7-8aa3-ec871d549413 · file: 102-how-do-we-test-theories-of-choice.cast · 2026-11-09
 ## Is happiness what we maximise?
 What is the Easterlin paradox?
 What do happiness data say about income?
 #controversy #facts #parts=4
 
 ---
+status: done · id: a2da8acb-b35d-4824-8a51-9f8ed14b881b · file: 103-is-happiness-what-we-maximise.cast · 2026-11-09
 ## How do people choose? Putting it together
 Rational choice, behavioural, imperial, and norms: four ways of seeing
 When each works best
 #quiz #parts=4
 
 ---
+status: done · id: 7db9383a-74f9-4a62-862e-7b4be1487294 · file: 104-how-do-people-choose-putting-it-together.cast · 2026-11-09
 ## Test: how do people choose?
 A test across the whole block, with new cases
 #quiz #parts=3
 
 ---
+status: done · id: 93cc1b71-225f-4305-b327-68aa65348d2d · file: 105-test-how-do-people-choose.cast · 2026-11-09
 ## Why do firms exist at all if markets work so well?
 What did Coase ask in 1937?
 Why are firms islands of planning in a sea of markets?
 #history #parts=4
 
 ---
+status: done · id: 86ae2e55-326d-43c5-ad00-74bfc5a1d0a8 · file: 106-why-do-firms-exist-at-all-if-markets.cast · 2026-11-09
 ## Make or buy?
 What are transaction costs, and what is hold-up?
 What really happened between General Motors and Fisher Body?
 #controversy #parts=4
 
 ---
+status: done · id: 0aae7231-5201-4133-a94b-c9cc26de2399 · file: 107-make-or-buy.cast · 2026-11-09
 ## How does a firm turn inputs into output?
 What is a production function?
 Why do returns diminish?
 #interactive #parts=3
 
 ---
+status: done · id: 77da1c39-e106-4f23-8603-7f055638edd0 · file: 108-how-does-a-firm-turn-inputs-into-output.cast · 2026-11-09
 ## Why do costs rise as you produce more — or fall?
 What are fixed, variable, average and marginal costs?
 Why does marginal cost cut average cost at its lowest point?
 #interactive #parts=4
 
 ---
+status: done · id: 70f4a860-6ccc-4c6d-b118-733afeba8078 · file: 109-why-do-costs-rise-as-you-produce-more-or.cast · 2026-11-09
 ## What is fixed in the short run?
 Short run versus long run
 Why a firm may keep running at a loss
 #quiz #parts=3
 
 ---
+status: done · id: 6d74e92c-fd3a-40b8-b7c8-f6bdbda207ee · file: 110-what-is-fixed-in-the-short-run.cast · 2026-11-09
 ## Why are some industries dominated by giants?
 What are economies of scale?
 When is one firm cheapest — a natural monopoly?
 #interactive #parts=3
 
 ---
+status: done · id: f51e8c8d-0923-40a7-9c82-e233b2f8be4a · file: 111-why-are-some-industries-dominated-by.cast · 2026-11-09
 ## Should natural monopolies be regulated or owned by the state?
 Price caps, rate of return, public ownership
 What goes wrong with each?
 #proscons #parts=3
 
 ---
+status: done · id: d60aab83-70c9-4eb5-8e13-50ccd99bfb08 · file: 112-should-natural-monopolies-be-regulated.cast · 2026-11-09
 ## How much should a firm produce?
 Why is the best output where marginal revenue equals marginal cost?
 Does any real firm think this way?
+end_link: See the model | ../econ-models/14-how-much-should-a-firm-produce-the-model.cast
 #interactive #parts=4
 
 ---
+status: done · id: a934a2f6-2ecb-4b85-9f1b-1639d52e2844 · file: 113-how-much-should-a-firm-produce.cast · 2026-11-11
 ## What do firms really maximise?
 Profit, size, or the managers' comfort?
 Friedman's 1970 essay and the stakeholder reply
 #controversy #parts=3
 
 ---
+status: done · id: 09ed08c5-f3c9-4509-bd79-4fe35518c4b5 · file: 114-what-do-firms-really-maximise.cast · 2026-11-09
 ## Why pay a chief executive so much?
 What is the principal–agent problem?
 Do incentive contracts align interests or just raise pay?
+end_link: See the model | ../econ-models/03-how-do-you-pay-someone-you-can-t-watch.cast
 #facts #parts=4
 
 ---
+status: done · id: 1dd018ee-34bf-4eb6-982e-9a99a7e455be · file: 115-why-pay-a-chief-executive-so-much.cast · 2026-11-10
 ## Why do incentive schemes backfire?
 What happens when you pay for what you can measure?
 Multitasking and Goodhart's law
 #interactive #parts=3
 
 ---
+status: done · id: c36f00bb-23c2-440a-8628-bfe967399498 · file: 116-why-do-incentive-schemes-backfire.cast · 2026-11-09
 ## Who should own the firm?
 Investors, workers, customers: why are most firms owned by capital?
 Why do cooperatives survive in some industries?
 #history #parts=3
 
 ---
+status: done · id: 7aec379e-4ed7-4148-9940-d24a6fe2faf4 · file: 117-who-should-own-the-firm.cast · 2026-11-09
 ## Why are some firms so much more productive than others?
 How large are the productivity gaps within one industry?
 What did Bloom and Van Reenen find about management?
 #facts #parts=4
 
 ---
+status: done · id: 09aea297-c848-436b-8d44-454d2ab73c94 · file: 118-why-are-some-firms-so-much-more.cast · 2026-11-09
 ## Where do new firms come from, and why do most die?
 Creative destruction, entry and exit
 Why churn makes economies richer
 #interactive #parts=3
 
 ---
+status: done · id: c661ce64-7e10-4644-9767-fa3cf0a6b544 · file: 119-where-do-new-firms-come-from-and-why-do.cast · 2026-11-09
 ## Why do platforms win so big?
 What are network effects?
 Why do these markets tip to one winner?
 #interactive #parts=4
 
 ---
+status: done · id: 32cbf25a-fb53-4b89-8a7c-2fd92f3c39c2 · file: 120-why-do-platforms-win-so-big.cast · 2026-11-09
 ## Why is Google free?
 What is a two-sided market?
 Who pays when the user doesn't?

@@ -65,299 +65,299 @@ A long course that starts from big questions — do markets work, how do countri
 21. [What happens when prices are not allowed to move?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/21-what-happens-when-prices-are-not-allowed.cast)
    - Queues, black markets, rationing: what replaces the price?
    - What did empty Soviet shelves and wartime ration books have in common?
-22. Why would a market ever be efficient? — *not published yet*
+22. [Why would a market ever be efficient?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/22-why-would-a-market-ever-be-efficient.cast)
    - What is the "invisible hand" argument, step by step?
    - Which conditions does it quietly need?
-23. What exactly is Pareto efficiency? — *not published yet*
+23. [What exactly is Pareto efficiency?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/23-what-exactly-is-pareto-efficiency.cast)
    - When can nobody be made better off without someone being made worse off?
    - Why is a world where one person owns everything Pareto efficient?
-24. Can two people trade their way to efficiency? — *not published yet*
+24. [Can two people trade their way to efficiency?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/24-can-two-people-trade-their-way-to.cast)
    - What does the Edgeworth box show about where trade can end up?
    - Why are there many efficient outcomes, not one?
-25. What does the first welfare theorem prove — and what doesn't it? — *not published yet*
+25. [What does the first welfare theorem prove — and what doesn't it?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/25-what-does-the-first-welfare-theorem.cast)
    - Under which assumptions is every competitive equilibrium efficient?
    - Which of those assumptions fail in the real world?
-26. Is an efficient society a good society? — *not published yet*
+26. [Is an efficient society a good society?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/26-is-an-efficient-society-a-good-society.cast)
    - Why can a deeply unequal outcome be perfectly efficient?
    - How do we choose among efficient outcomes?
-27. Can markets deliver any fair outcome we want? — *not published yet*
+27. [Can markets deliver any fair outcome we want?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/27-can-markets-deliver-any-fair-outcome-we.cast)
    - What does the second welfare theorem promise?
    - Why does it need lump-sum transfers that nobody can design?
-28. How do we add up everyone's welfare? — *not published yet*
+28. [How do we add up everyone's welfare?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/28-how-do-we-add-up-everyone-s-welfare.cast)
    - Utilitarian, Rawlsian, or something else: what is a social welfare function?
    - Why does the answer change which policy is best?
-29. Is the market fair? — *not published yet*
+29. [Is the market fair?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/29-is-the-market-fair.cast)
    - Nozick: fair process makes a fair outcome
    - Rawls: judge institutions from behind a veil of ignorance
-30. What does perfect competition assume? — *not published yet*
+30. [What does perfect competition assume?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/30-what-does-perfect-competition-assume.cast)
    - Why must every firm be too small to affect the price?
    - How many real markets come close?
-31. Why do profits disappear in a competitive market? — *not published yet*
+31. [Why do profits disappear in a competitive market?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/31-why-do-profits-disappear-in-a.cast)
    - How does entry compete profits away?
    - Why is zero economic profit not zero accounting profit?
-32. What does a monopolist do differently? — *not published yet*
+32. [What does a monopolist do differently?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/32-what-does-a-monopolist-do-differently.cast)
    - Why does a monopolist sell less at a higher price?
    - What is marginal revenue, and why is it below the price?
-33. How much does monopoly cost society? — *not published yet*
+33. [How much does monopoly cost society?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/33-how-much-does-monopoly-cost-society.cast)
    - How big is the deadweight triangle?
    - Why did Tullock think the real cost is the fight to become the monopolist?
-34. Is monopoly always bad? — *not published yet*
+34. [Is monopoly always bad?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/34-is-monopoly-always-bad.cast)
    - Can the mere threat of entry discipline a monopolist?
    - When does Baumol's contestable-markets idea hold, and when does it fail?
-35. Do monopolies drive innovation? — *not published yet*
+35. [Do monopolies drive innovation?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/35-do-monopolies-drive-innovation.cast)
    - Why did Schumpeter think big firms with profits innovate most?
    - Static versus dynamic efficiency: which matters more over decades?
-36. Why do airlines charge different prices for the same seat? — *not published yet*
+36. [Why do airlines charge different prices for the same seat?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/36-why-do-airlines-charge-different-prices.cast)
    - What is price discrimination?
    - Why can it raise output and even efficiency?
-37. What happens when a few firms dominate? — *not published yet*
+37. [What happens when a few firms dominate?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/37-what-happens-when-a-few-firms-dominate.cast)
    - What changes when each firm must think about its rivals?
    - Why do we need game theory to answer it?
-38. Why do rivals fail to cooperate? — *not published yet*
+38. [Why do rivals fail to cooperate?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/38-why-do-rivals-fail-to-cooperate.cast)
    - What is the prisoner's dilemma?
    - Why can rational players end up worse off together?
-39. When does cooperation emerge anyway? — *not published yet*
+39. [When does cooperation emerge anyway?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/39-when-does-cooperation-emerge-anyway.cast)
    - What changes when the game is repeated?
    - What did Axelrod's tournaments show about tit for tat?
-40. Price war or quiet collusion? — *not published yet*
+40. [Price war or quiet collusion?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/40-price-war-or-quiet-collusion.cast)
    - Why do two firms competing on price drive it to cost, but two competing on quantity do not?
    - When do cartels hold, and when do they break?
-41. Should big tech be broken up? — *not published yet*
+41. [Should big tech be broken up?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/41-should-big-tech-be-broken-up.cast)
    - What is antitrust for — prices, competition, or power?
    - Why do economists disagree about platforms that are free to users?
-42. Why does nobody pay for the pollution? — *not published yet*
+42. [Why does nobody pay for the pollution?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/42-why-does-nobody-pay-for-the-pollution.cast)
    - What is an externality, positive and negative?
    - Why does the market produce too much smoke and too few vaccines?
-43. Can a tax fix pollution? — *not published yet*
+43. [Can a tax fix pollution?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/43-can-a-tax-fix-pollution.cast)
    - How does a Pigouvian tax make the polluter feel the cost?
    - How would the government know the right size?
-44. Or could property rights fix it? — *not published yet*
+44. [Or could property rights fix it?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/44-or-could-property-rights-fix-it.cast)
    - What does the Coase theorem say about bargaining over harm?
    - Why do transaction costs usually spoil the bargain?
-45. Tax or quota? — *not published yet*
+45. [Tax or quota?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/45-tax-or-quota.cast)
    - When does it matter whether we fix the price or the quantity of pollution?
    - What did Weitzman show about uncertainty and the choice?
-46. Why won't the market build a lighthouse? — *not published yet*
+46. [Why won't the market build a lighthouse?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/46-why-won-t-the-market-build-a-lighthouse.cast)
    - What makes a good public: non-rival and non-excludable?
    - Why did Coase find that private lighthouses existed after all?
-47. Who looks after what everyone owns? — *not published yet*
+47. [Who looks after what everyone owns?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/47-who-looks-after-what-everyone-owns.cast)
    - What is the tragedy of the commons?
    - Why did Ostrom find that many communities manage commons well without state or market?
-48. Why is a used car worth less the moment you drive it away? — *not published yet*
+48. [Why is a used car worth less the moment you drive it away?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/48-why-is-a-used-car-worth-less-the-moment.cast)
    - How can hidden quality make a market unravel?
    - What did Akerlof's "market for lemons" explain beyond cars?
-49. Why can insurance markets fall apart? — *not published yet*
+49. [Why can insurance markets fall apart?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/49-why-can-insurance-markets-fall-apart.cast)
    - What is adverse selection in insurance?
    - Why might mandates or pooling be needed?
-50. Why does insurance make people less careful? — *not published yet*
+50. [Why does insurance make people less careful?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/50-why-does-insurance-make-people-less.cast)
    - What is moral hazard?
    - Why do deductibles and co-payments exist?
-51. Can markets fix their own information problems? — *not published yet*
+51. [Can markets fix their own information problems?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/51-can-markets-fix-their-own-information.cast)
    - Warranties, brands, reviews, inspections: how far do they go?
    - When do they fail?
-52. Markets fail — so the state should step in? — *not published yet*
+52. [Markets fail — so the state should step in?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/52-markets-fail-so-the-state-should-step-in.cast)
    - Why is a market failure not enough to justify intervention?
    - What is the "nirvana fallacy"?
-53. If you can't fix every distortion, should you fix one? — *not published yet*
+53. [If you can't fix every distortion, should you fix one?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/53-if-you-can-t-fix-every-distortion-should.cast)
    - What does the theory of the second best say?
    - Why can removing one distortion make things worse?
-54. How much would a planner need to know to set the right tax? — *not published yet*
+54. [How much would a planner need to know to set the right tax?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/54-how-much-would-a-planner-need-to-know-to.cast)
    - What information does an optimal second-best tax demand?
    - How badly can a small error go wrong?
-55. Why do governments fail even when they mean well? — *not published yet*
+55. [Why do governments fail even when they mean well?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/55-why-do-governments-fail-even-when-they.cast)
    - Hayek's knowledge problem: can the state know what the market knows?
    - Information failures versus incentive failures
-56. Why do governments fail when politicians follow their incentives? — *not published yet*
+56. [Why do governments fail when politicians follow their incentives?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/56-why-do-governments-fail-when-politicians.cast)
    - What did Buchanan's public choice theory assume about politicians and voters?
    - Why is voter ignorance rational?
-57. Who captures the regulator? — *not published yet*
+57. [Who captures the regulator?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/57-who-captures-the-regulator.cast)
    - Why did Stigler argue regulation often serves the regulated?
    - How do concentrated interests beat diffuse ones?
-58. Could a planned economy work? — *not published yet*
+58. [Could a planned economy work?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/58-could-a-planned-economy-work.cast)
    - What was the socialist calculation debate between Mises, Lange and Hayek?
    - Could computers solve the planning problem today?
-59. What happened when they tried planning? — *not published yet*
+59. [What happened when they tried planning?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/59-what-happened-when-they-tried-planning.cast)
    - How did Soviet planning work, and where did it fail?
    - What did it do well?
-60. Can markets and states mix well? — *not published yet*
+60. [Can markets and states mix well?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/60-can-markets-and-states-mix-well.cast)
    - How do the Nordic countries combine open markets and a big state?
    - What does the mix tell us about the market-or-state question?
-61. Can a market work without money? — *not published yet*
+61. [Can a market work without money?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/61-can-a-market-work-without-money.cast)
    - How do kidney exchanges and school choice match people without prices?
    - What did Roth's market design add to economics?
-62. Should everything be for sale? — *not published yet*
+62. [Should everything be for sale?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/62-should-everything-be-for-sale.cast)
    - Why do people find some markets repugnant?
    - Does paying for blood reduce how much is given?
-63. Do markets change people? — *not published yet*
+63. [Do markets change people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/63-do-markets-change-people.cast)
    - What happened when Haifa daycares fined late parents?
    - When do prices crowd out norms?
-64. Which efficiency matters more in the long run? — *not published yet*
+64. [Which efficiency matters more in the long run?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/64-which-efficiency-matters-more-in-the.cast)
    - Static efficiency versus the innovation machine
    - Why might an "inefficient" market grow richer?
-65. Can we test whether markets work in a lab? — *not published yet*
+65. [Can we test whether markets work in a lab?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/65-can-we-test-whether-markets-work-in-a.cast)
    - What did Vernon Smith's double auctions show?
    - Why did prices converge with only a few traders?
-66. What happened when markets were allowed in? — *not published yet*
+66. [What happened when markets were allowed in?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/66-what-happened-when-markets-were-allowed.cast)
    - What happened to farm output when China let households keep their surplus after 1978?
    - What does one case prove?
-67. Market failure or government failure — which is worse? — *not published yet*
+67. [Market failure or government failure — which is worse?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/67-market-failure-or-government-failure.cast)
    - One side: markets fail systematically, the state must act
    - The other: the state fails too, and often worse
-68. What do economists actually agree on about markets? — *not published yet*
+68. [What do economists actually agree on about markets?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/68-what-do-economists-actually-agree-on.cast)
    - What do surveys of economists show?
    - Where does the agreement end?
-69. Do markets work? Putting it together — *not published yet*
+69. [Do markets work? Putting it together](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/69-do-markets-work-putting-it-together.cast)
    - Efficient, fair, innovative: three answers
    - When markets work, when they fail, and when the cure is worse
-70. Test: do markets work? — *not published yet*
+70. [Test: do markets work?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/70-test-do-markets-work.cast)
    - A test across the whole block, with new cases
-71. Why do we buy what we buy? — *not published yet*
+71. [Why do we buy what we buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/71-why-do-we-buy-what-we-buy.cast)
    - What does economics assume about what people want?
    - Why does it refuse to judge tastes?
-72. What does "rational" mean to an economist? — *not published yet*
+72. [What does "rational" mean to an economist?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/72-what-does-rational-mean-to-an-economist.cast)
    - Why does rational mean consistent, not selfish or clever?
    - Which choices break the rules?
-73. How do you choose with a limited budget? — *not published yet*
+73. [How do you choose with a limited budget?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/73-how-do-you-choose-with-a-limited-budget.cast)
    - What is a budget line, and what moves it?
    - Why does a price change tilt it?
-74. How can we draw what someone wants? — *not published yet*
+74. [How can we draw what someone wants?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/74-how-can-we-draw-what-someone-wants.cast)
    - What is an indifference curve?
    - Why do they bend toward the origin?
-75. Where is the best choice? — *not published yet*
+75. [Where is the best choice?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/75-where-is-the-best-choice.cast)
    - Why is the best bundle where the curve just touches the budget line?
    - What does the tangency mean in words?
-76. When a price rises, why do you buy less — for two reasons? — *not published yet*
+76. [When a price rises, why do you buy less — for two reasons?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/76-when-a-price-rises-why-do-you-buy-less.cast)
    - What are the substitution and the income effects?
    - Can they pull in opposite directions?
-77. Can a price rise make you buy more? — *not published yet*
+77. [Can a price rise make you buy more?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/77-can-a-price-rise-make-you-buy-more.cast)
    - What is a Giffen good?
    - What did Jensen and Miller find with rice in China?
-78. How do we get from one person to a demand curve? — *not published yet*
+78. [How do we get from one person to a demand curve?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/78-how-do-we-get-from-one-person-to-a.cast)
    - Adding up many buyers
    - Why market demand is smoother than any one person's
-79. Why might you work less when your wage rises? — *not published yet*
+79. [Why might you work less when your wage rises?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/79-why-might-you-work-less-when-your-wage.cast)
    - How does the labour–leisure choice work?
    - Why can the labour supply curve bend backwards?
-80. Why save at all? — *not published yet*
+80. [Why save at all?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/80-why-save-at-all.cast)
    - What is the price of having something now instead of later?
    - How does the interest rate enter the choice?
-81. Should you spend a bonus and a raise differently? — *not published yet*
+81. [Should you spend a bonus and a raise differently?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/81-should-you-spend-a-bonus-and-a-raise.cast)
    - What does Friedman's permanent income hypothesis say?
    - How does Modigliani's life cycle fit with it?
-82. How much should you change your spending when interest rates rise? — *not published yet*
+82. [How much should you change your spending when interest rates rise?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/82-how-much-should-you-change-your-spending.cast)
    - What decides how strongly a rational saver reacts?
    - Substitution, income and wealth effects, on a slider
-83. Do people really smooth their spending? — *not published yet*
+83. [Do people really smooth their spending?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/83-do-people-really-smooth-their-spending.cast)
    - What is "excess sensitivity", and who lives hand to mouth?
    - What happened to spending when stimulus cheques arrived?
-84. How do you choose when the future is uncertain? — *not published yet*
+84. [How do you choose when the future is uncertain?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/84-how-do-you-choose-when-the-future-is.cast)
    - Why is expected value not enough?
    - What does the St Petersburg paradox teach about utility?
-85. Why buy both insurance and lottery tickets? — *not published yet*
+85. [Why buy both insurance and lottery tickets?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/85-why-buy-both-insurance-and-lottery.cast)
    - What is risk aversion?
    - How can the same person be cautious and a gambler?
-86. Is losing worse than winning is good? — *not published yet*
+86. [Is losing worse than winning is good?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/86-is-losing-worse-than-winning-is-good.cast)
    - What did Kahneman and Tversky's prospect theory find?
    - Why do we judge gains and losses from a reference point?
-87. Why does the default win? — *not published yet*
+87. [Why does the default win?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/87-why-does-the-default-win.cast)
    - What happened when firms made pension saving automatic?
    - Why does doing nothing count as a choice?
-88. Why do we put off what we planned to do? — *not published yet*
+88. [Why do we put off what we planned to do?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/88-why-do-we-put-off-what-we-planned-to-do.cast)
    - What is present bias?
    - Why can you be rational today and regret it tomorrow?
-89. Should the government nudge us? — *not published yet*
+89. [Should the government nudge us?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/89-should-the-government-nudge-us.cast)
    - What did Thaler and Sunstein propose?
    - Is it respectful paternalism or manipulation?
-90. Are people as irrational as the experiments say? — *not published yet*
+90. [Are people as irrational as the experiments say?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/90-are-people-as-irrational-as-the.cast)
    - When do markets and experience correct biases?
    - What did Gigerenzer argue about smart heuristics?
-91. Do people care about fairness? — *not published yet*
+91. [Do people care about fairness?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/91-do-people-care-about-fairness.cast)
    - What happens in the ultimatum game?
    - Why do people turn down free money?
-92. Why tip a waiter you will never see again? — *not published yet*
+92. [Why tip a waiter you will never see again?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/92-why-tip-a-waiter-you-will-never-see.cast)
    - Where do norms come from?
    - Can economics explain them, or only include them?
-93. Can rational choice explain crime? — *not published yet*
+93. [Can rational choice explain crime?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/93-can-rational-choice-explain-crime.cast)
    - What did Becker's economics of crime claim?
    - What does the evidence say about deterrence?
-94. Can economics explain marriage and children? — *not published yet*
+94. [Can economics explain marriage and children?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/94-can-economics-explain-marriage-and.cast)
    - How did Becker model the family?
    - What does the model miss?
-95. Can economics explain suicide? — *not published yet*
+95. [Can economics explain suicide?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/95-can-economics-explain-suicide.cast)
    - What did Hamermesh and Soss argue?
    - Where is the edge of the rational-choice approach?
-96. Why vote when your vote almost never matters? — *not published yet*
+96. [Why vote when your vote almost never matters?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/96-why-vote-when-your-vote-almost-never.cast)
    - The paradox of voting
    - Duty, expressive voting, and what people actually do
-97. Is "rational choice" a theory or a tautology? — *not published yet*
+97. [Is "rational choice" a theory or a tautology?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/97-is-rational-choice-a-theory-or-a.cast)
    - If anything you do can be called rational, what does the theory forbid?
    - What is revealed preference?
-98. Who are you — and does it change what you choose? — *not published yet*
+98. [Who are you — and does it change what you choose?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/98-who-are-you-and-does-it-change-what-you.cast)
    - What is identity economics?
    - How do social categories shape choices?
-99. Does culture shape economic choices? — *not published yet*
+99. [Does culture shape economic choices?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/99-does-culture-shape-economic-choices.cast)
    - What happened when the ultimatum game was played in fifteen small societies?
    - What is culture to an economist?
-100. Is attention a scarce resource? — *not published yet*
+100. [Is attention a scarce resource?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/100-is-attention-a-scarce-resource.cast)
    - What is rational inattention?
    - Why do people ignore information that would help them?
-101. Why do people follow the crowd? — *not published yet*
+101. [Why do people follow the crowd?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/101-why-do-people-follow-the-crowd.cast)
    - What is an information cascade?
    - When is herding rational?
-102. How do we test theories of choice? — *not published yet*
+102. [How do we test theories of choice?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/102-how-do-we-test-theories-of-choice.cast)
    - Lab experiments, field experiments, and natural data
    - What can each show and not show?
-103. Is happiness what we maximise? — *not published yet*
+103. [Is happiness what we maximise?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/103-is-happiness-what-we-maximise.cast)
    - What is the Easterlin paradox?
    - What do happiness data say about income?
-104. How do people choose? Putting it together — *not published yet*
+104. [How do people choose? Putting it together](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/104-how-do-people-choose-putting-it-together.cast)
    - Rational choice, behavioural, imperial, and norms: four ways of seeing
    - When each works best
-105. Test: how do people choose? — *not published yet*
+105. [Test: how do people choose?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/105-test-how-do-people-choose.cast)
    - A test across the whole block, with new cases
-106. Why do firms exist at all if markets work so well? — *not published yet*
+106. [Why do firms exist at all if markets work so well?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/106-why-do-firms-exist-at-all-if-markets.cast)
    - What did Coase ask in 1937?
    - Why are firms islands of planning in a sea of markets?
-107. Make or buy? — *not published yet*
+107. [Make or buy?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/107-make-or-buy.cast)
    - What are transaction costs, and what is hold-up?
    - What really happened between General Motors and Fisher Body?
-108. How does a firm turn inputs into output? — *not published yet*
+108. [How does a firm turn inputs into output?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/108-how-does-a-firm-turn-inputs-into-output.cast)
    - What is a production function?
    - Why do returns diminish?
-109. Why do costs rise as you produce more — or fall? — *not published yet*
+109. [Why do costs rise as you produce more — or fall?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/109-why-do-costs-rise-as-you-produce-more-or.cast)
    - What are fixed, variable, average and marginal costs?
    - Why does marginal cost cut average cost at its lowest point?
-110. What is fixed in the short run? — *not published yet*
+110. [What is fixed in the short run?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/110-what-is-fixed-in-the-short-run.cast)
    - Short run versus long run
    - Why a firm may keep running at a loss
-111. Why are some industries dominated by giants? — *not published yet*
+111. [Why are some industries dominated by giants?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/111-why-are-some-industries-dominated-by.cast)
    - What are economies of scale?
    - When is one firm cheapest — a natural monopoly?
-112. Should natural monopolies be regulated or owned by the state? — *not published yet*
+112. [Should natural monopolies be regulated or owned by the state?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/112-should-natural-monopolies-be-regulated.cast)
    - Price caps, rate of return, public ownership
    - What goes wrong with each?
-113. How much should a firm produce? — *not published yet*
+113. [How much should a firm produce?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/113-how-much-should-a-firm-produce.cast)
    - Why is the best output where marginal revenue equals marginal cost?
    - Does any real firm think this way?
-114. What do firms really maximise? — *not published yet*
+114. [What do firms really maximise?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/114-what-do-firms-really-maximise.cast)
    - Profit, size, or the managers' comfort?
    - Friedman's 1970 essay and the stakeholder reply
-115. Why pay a chief executive so much? — *not published yet*
+115. [Why pay a chief executive so much?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/115-why-pay-a-chief-executive-so-much.cast)
    - What is the principal–agent problem?
    - Do incentive contracts align interests or just raise pay?
-116. Why do incentive schemes backfire? — *not published yet*
+116. [Why do incentive schemes backfire?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/116-why-do-incentive-schemes-backfire.cast)
    - What happens when you pay for what you can measure?
    - Multitasking and Goodhart's law
-117. Who should own the firm? — *not published yet*
+117. [Who should own the firm?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/117-who-should-own-the-firm.cast)
    - Investors, workers, customers: why are most firms owned by capital?
    - Why do cooperatives survive in some industries?
-118. Why are some firms so much more productive than others? — *not published yet*
+118. [Why are some firms so much more productive than others?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/118-why-are-some-firms-so-much-more.cast)
    - How large are the productivity gaps within one industry?
    - What did Bloom and Van Reenen find about management?
-119. Where do new firms come from, and why do most die? — *not published yet*
+119. [Where do new firms come from, and why do most die?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/119-where-do-new-firms-come-from-and-why-do.cast)
    - Creative destruction, entry and exit
    - Why churn makes economies richer
-120. Why do platforms win so big? — *not published yet*
+120. [Why do platforms win so big?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/econ-from-zero/120-why-do-platforms-win-so-big.cast)
    - What are network effects?
    - Why do these markets tip to one winner?
 121. Why is Google free? — *not published yet*
