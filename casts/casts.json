@@ -351,13 +351,6 @@
       "page": true
     },
     {
-      "slug": "what-kills-us",
-      "title": "What kills the most people?",
-      "file": "what-kills-us.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "what-p-0-05-means",
       "title": "What p < 0.05 really means",
       "file": "what-p-0-05-means.cast",
@@ -1356,6 +1349,13 @@
       "title": "Who goes first at a roundabout?",
       "file": "who-goes-first-at-a-roundabout.cast",
       "updated": "2026-10-23",
+      "page": true
+    },
+    {
+      "slug": "what-kills-us",
+      "title": "What kills the most people?",
+      "file": "what-kills-us.cast",
+      "updated": "2026-11-13",
       "page": true
     }
   ]
