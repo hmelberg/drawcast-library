@@ -47,7 +47,7 @@ sources:
       url: https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh
       finding: the chart's numbers
 
-    cards rank size 2 ends ["most","least"] hidden true
+    cards rank arrange row size 2 ends ["most","least"] hidden true
         * "Coal" icon.of factory icon.set twemoji
         * "Oil" icon.of "oil drum" icon.set twemoji
         * "Gas" icon.of fire icon.set twemoji

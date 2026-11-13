@@ -813,13 +813,6 @@
       "page": true
     },
     {
-      "slug": "deaths-per-energy",
-      "title": "Which source of electricity is the deadliest?",
-      "file": "deaths-per-energy.cast",
-      "updated": "2026-10-13",
-      "page": true
-    },
-    {
       "slug": "wild-mammals-share",
       "title": "Of all the mammals on Earth, by weight, what share is wild?",
       "file": "wild-mammals-share.cast",
@@ -1355,6 +1348,13 @@
       "slug": "what-kills-us",
       "title": "What kills the most people?",
       "file": "what-kills-us.cast",
+      "updated": "2026-11-13",
+      "page": true
+    },
+    {
+      "slug": "deaths-per-energy",
+      "title": "Which source of electricity is the deadliest?",
+      "file": "deaths-per-energy.cast",
       "updated": "2026-11-13",
       "page": true
     }

@@ -35,9 +35,10 @@
    to jump ~760 px under the loader, a layout shift of 0.6). The stage and bar
    heights repeat styles.css's --viewer-stage-h and --viewer-bar-h rules. */
 body { margin: 0; display: flex; justify-content: center; flex-wrap: wrap; align-content: flex-start;
-  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
-@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 0.75), calc(100dvh - 5rem)); } }
-@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * 4.1 / 4), calc(100dvh - 10rem)); } }
+  --cs-page-aspect-inv: 0.7500; --cs-page-phone-inv: 1.0250;
+  --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 10rem)); --page-bar-h: 3rem; }
+@media (max-width: 940px) and (orientation: landscape) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-aspect-inv, 0.75)), calc(100dvh - 5rem)); } }
+@media (max-width: 700px) and (orientation: portrait) { body { --page-stage-h: min(calc((min(960px, 96vw) - 1.2rem - 3px) * var(--cs-page-phone-inv, 1.025)), calc(100dvh - 10rem)); } }
 @media (hover: none) { body { --page-bar-h: 66px; } }
 @media (max-width: 560px) { body { --page-bar-h: 55px; } }
 @media (max-width: 560px) and (hover: none) { body { --page-bar-h: 113px; } }
@@ -60,8 +61,6 @@ body.viewer-body .player-meta .player-title { display: none; }
 <p class="drawcast-intro">Rank coal, oil, gas, nuclear and solar by deaths per unit of electricity, then see what a town would pay for each in lives.</p>
 <details id="drawcast-transcript">
 <summary>Transcript</summary>
-<p>Which source of electricity is the deadliest?</p>
-<p>Rank coal, oil, gas, nuclear and solar by deaths per unit of electricity, then see what a town would pay for each in lives.</p>
 <p>Same amount of electricity from each. Which source kills the most people, counting accidents and air pollution?</p>
 <p>Easy. Nuclear. Chernobyl, Fukushima, glowing fish.</p>
 <p>Order them: fewest deaths on the left, most on the right. Then press Done.</p>

@@ -1,6 +1,7 @@
 # Drawcasts
 
 - [What kills the most people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-11-13
+- [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-11-13
 - [One line or three?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/one-line-or-three.cast) — 2026-10-23
 - [How a leaf makes sugar](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-leaf-makes-sugar.cast) — 2026-10-23
 - [Who goes first at a roundabout?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-goes-first-at-a-roundabout.cast) — 2026-10-23
@@ -128,7 +129,6 @@
 - [Which ramp is fastest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/fastest-ramp.cast) — 2026-10-13
 - [Why is water cheap and diamonds dear?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/diamonds-and-water.cast) — 2026-10-13
 - [Guinea worm infected millions a year. How many human cases were there in 2025?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/guinea-worm.cast) — 2026-10-13
-- [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-10-13
 - [Of all the mammals on Earth, by weight, what share is wild?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/wild-mammals-share.cast) — 2026-10-13
 - [How many whales were killed in the 20th century?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/whales-hunted.cast) — 2026-10-13
 - [Which country puts the most plastic into the ocean?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ocean-plastic-country.cast) — 2026-10-13
