@@ -2,6 +2,7 @@
 
 - [What kills the most people?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/what-kills-us.cast) — 2026-11-13
 - [Which source of electricity is the deadliest?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/deaths-per-energy.cast) — 2026-11-13
+- [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-11-13
 - [One line or three?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/one-line-or-three.cast) — 2026-10-23
 - [How a leaf makes sugar](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-a-leaf-makes-sugar.cast) — 2026-10-23
 - [Who goes first at a roundabout?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/who-goes-first-at-a-roundabout.cast) — 2026-10-23
@@ -117,7 +118,6 @@
 - [How fast did solar panels get cheaper?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/solar-panel-prices.cast) — 2026-10-13
 - [How hot are the world's hottest peppers?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/hottest-peppers.cast) — 2026-10-13
 - [How long does sunlight take to reach Earth?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/sunlight-travel-time.cast) — 2026-10-13
-- [How loud is loud?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/how-loud-is-loud.cast) — 2026-10-13
 - [How many minutes is the ball actually in play?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/ball-in-play.cast) — 2026-10-13
 - [How many times can you fold paper in half?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/paper-folding.cast) — 2026-10-13
 - [How much did the first hard drive weigh?](https://www.drawcast.app/#gh=hmelberg/drawcast-library/casts/first-hard-drive.cast) — 2026-10-13
